@@ -43,12 +43,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <body>
       <listPlace>
         <place subtype="institution">
-          <placeName corresp="#INS00100MadhaneAlam">Madḫane ʿĀlam</placeName>
-          <placeName corresp="#INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
-          <placeName corresp="#INS00100MadhaneAlam" type="alt">Saviour of the World</placeName>
-          <country>Ethiopia </country>
-          <region>Tigray</region>
-          <settlement>Maqdala</settlement>
+          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
+          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">Madḫane ʿĀlam </placeName>
+          <placeName corresp="INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
+          <placeName corresp="INS00100MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
+          <country corresp="LOC3010Ethiop">Ethiopia </country>
+          <region corresp="LOC5932Tegray">Tigray</region>
+          <settlement corresp="LOC4547Maqdal">Maqdala</settlement>
           <location>
             <geo>11°12′N 39°17′E</geo>
             <height>1247m</height>
