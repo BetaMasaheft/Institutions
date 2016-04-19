@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000234" label="domlib_institution_00000234" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Kunale ˀArbaˁtu ˀƎnsəsa / KAE</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀArbaˁtu ˀƎnsəsa Kunale</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-05-14</from><to>2012-05-14</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Dägˁa Tämben, ṭabiya Sälam, qušät Kunale</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.663567</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.17335</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2526.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1700</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1800</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition says that the chruch has been (re-)established in in the time of King Yohannes IV(r. 1872-89).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#13;
+Tabots: Kiros (in a separate church), Four Living Creatures, Trinity, Mary.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">15 Mss. photographed: KAE-001 “ Collection of texts dedicated to the Four Heavenly Creatures”; KAE-002 “The Four Gospels”; KAE-003 “The Book of the Faith of the Fathers”; KAE-004 “Missal”; KAE-005 “Psalter”; KAE-006 “O you who descended from the sky…”; KAE-007 “Psalter”; KAE-008 “Psalter”; KAE-009 “Missal”; KAE-010 “Collection of Hymns”; KAE-011 “Miracles of Many”; KAE-012 “Vita of Täkla Hawaryat”; KAE-013 “Rite of the Passion Week”; KAE-014 “Dǝggwa”; KAE-015 “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-06-29T13:10:14.603Z</servdate><servdate inherited="0" type="modifydate">2014-12-15T16:31:04.224Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

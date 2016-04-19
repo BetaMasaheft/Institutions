@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000133" label="domlib_institution_00000133" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bäläsa Qǝddus Mikaˀel  / QMB</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Gännät Qǝddus Mikaˀel Bäläsa</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-13</from><to>2010-12-13</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ˀAwlaˁlo, ṭabiya  ˁAddäkǝsandǝd, qušät Bäläsa</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.84545</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.602683</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2131.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1700</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1800</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">According to local tradition, the church was founded by ras Mikaˀel Səḥul (ca. 1691-1777).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The old round church is intact, stands behind the new church. &#13;
+Tabos (4): Michael, Mary, Libanos, one unidentified marble tabot in disuse.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">7 Mss. photographed: QMB-001 "The Rite of the Holy Week"; QMB-002 "Homily of St. Michael"; QMB-003 "Gospel of John"; QMB-004 "Missal"; QMB-005 "Vita of Kiros"; QMB-006 "The Book of the Baptismal Rite"; QMB-007 "Collection of Mälkǝˁ-Poetry for Mary"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-04-25T09:27:36.196Z</servdate><servdate inherited="0" type="modifydate">2014-12-08T15:39:03.998Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

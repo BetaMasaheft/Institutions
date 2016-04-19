@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000131" label="domlib_institution_00000131" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bäˁatti Qәddus Mikaˀel  / DMB</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Mәḥrät Qәddus Mikaˀel Bäˁatti</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-10</from><to>2010-12-10</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Bäˁatti May Mäsanu, qušät Bäˁatti</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.310133</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.466133</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2.555</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1800</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1831</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Däğğazmač Säbagadis (d. 1831) established Bäˁatti Qәddus Mikaˀel as monastery (gädam).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. The monastic community disappeared long ago.&#13;
+Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qəddus, ˀArsema.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">7 Mss. photographed: DMB-001 "Homily of St. Michael"; DMB-002 "Homily of St. Michael"; DMB-003 "Miracles of Mary"; DMB-004 "Synaxarion (March)"; DMB-005 "Miracles of Mary"; DMB-006 "The Book of the Funeral Rite"; DMB-007 "Four Gospels"; DMB-008 "The Rite of the Holy Week"; DMB-009 "The Book of the Funeral Rite"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-04-25T09:19:21.592Z</servdate><servdate inherited="0" type="modifydate">2015-07-15T08:07:54.900Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

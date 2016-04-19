@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000165" label="domlib_institution_00000165" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Däbrä Sahәl Qәddus Mikaˀel Bet Mäḵaˁ / DSM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mikaˀel Bet Mäḵaˁ / Bet Mäḵaˁ Qәddus Mikaˀel</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-14</from><to>2011-05-14</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäsum, ṭabiya Bəkot, qušät Bet Mäḵaˁ</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.27175</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.445367</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2.489</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1494</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1508</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">King Naˁod (r. 1494-1508), according to local tradition.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. A small associated gäṭär-church is dedicated to Gäbrä Mänfäs Qəddus (GMBM).&#13;
+Tabots (3): Trinity, Michael, Täklä Haymanot.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed: DSM-001 "Dǝggwa"; DSM-002 "Four Gospels"; DSM-003 "The Homily of St. Michael"; DSM-004 "Miracles of Jesus"; DSM-005 "Synaxarion (the first half of the year)"; DSM-006 "The Vita of Täklä Haymanot"; DSM-007 "The Book of the Funeral Rite"; DSM-008 "The Prayer of the Incense"; DSM-009 "Antiphonary"; DSM-010 "Synaxarion (the first half of the year)"; DSM-011 "Collection of Prayers"; DSM-012 "The Homily of St. Michael"; DSM-013 "The Faith of the Fathers"; DSM-014 "Antiphonary"; DSM-015 "Missal"; DSM-016 "Psalter"; DSM-017 "The Vita of the Righteous ones, The Homily of the Sabbath of Christianity"; DSM-018 "The Homily of the Sabbath of Christianity"; DSM-019 "Collections of Prayers"; DSM-020 "The Book of the Marriage Ritual"; DSM-021 "1) The Book of the Baptism, 2) The Miracles of Mary"; DSM-022 "The Vita of ˀAbunä ˀArägawi"; DSM-023 "The Homily of St. Raphael"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-08-31T10:20:52.499Z</servdate><servdate inherited="0" type="modifydate">2014-12-05T16:50:41.950Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000141" label="domlib_institution_00000141" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Maryam Mäkan/MM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qǝddǝst Maryam Mäkan</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-11</from><to>2011-05-11</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">Ganta ˀAfäšum wäräda, ṭabiya  May ˀAbˀa Nǝḥbi, qušät Bǝkot</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.266111</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.443861</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2527.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The church is said to be old; the monastic community (now extinct) was established by däğğazmač Säbagadis (1780-1831).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. Two churches are at the site; one is very recent, one is older (but not older than 19th cent.); some unidentified structures are in the rock above the older church.&#13;
+Tabots (2): Libanos, Mary (marble).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">11 Mss. photographed: MM-001 "Four Gospels"; MM-002 "The Rite of the Passion Week"; MM-003 "The Homiliy of the Saviour of the world"; MM-004 "The Vita of Gäbrä Mänfäs Qǝddus"; MM-005 "The Book of the Funeral Rite"; MM-006 "Miracles of Mary"; MM-007 "The Book of the Baptismal Rite"; MM-008 "The Book of the Marriage Ritual"; MM-009 "Collection of Prayers"; MM-010 "Missal"; MM-011 "The Vita of the Apostles"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-07-07T10:37:31.138Z</servdate><servdate inherited="0" type="modifydate">2014-12-05T11:44:42.743Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

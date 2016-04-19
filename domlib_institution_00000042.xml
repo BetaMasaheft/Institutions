@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000042" label="domlib_institution_00000042" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mәdrä Ruba Sәllase /MR</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Gännät Qәddәst Sәllase Mәdrä Ruba</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-05-11</from><to>2010-05-13</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Marta, qušät Däbrä Gännät</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.487367</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.434383</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2202.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">The oldest Mss. (fragments) from the local collection date to the 15th cent.</txfndate>
+</txfndates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. Formerly, the church of Mästəḥ ˀAbunä Libanos existed in the vicinity of Mədrä Ruba. According to the local people, some time in 1970s the community decided that it should be merged with the church of Mədrä Ruba Śəllase. Therefore the tabot(s), books and church utensils of Mästəḥ were moved to Mədrä Ruba Śəllase.&#13;
+Tabos (7): Libanos, Mary, Michael, Qirqos, Trinity, Gabriel, ˀAnanya.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">46 Mss. photographed: MR-001 "Miracles of Mary"; MR-002 "The Book of the Funeral Rite"; MR-003 "Synaxarion"; MR-004 "Liturgical Texts; Prayer of Incense"; MR-005 "The Organ of Praise"; MR-006 "Prayers"; MR-007 "Missal"; MR-008 "Missal"; MR-009 "Homily of the Sabbath"; MR-010 "The Book of the Matrimony Rite"; MR-011 "Acts of the Apostles"; MR-012 "Homily of the Sabbath"; MR-013 "Missal"; MR-014 "Vita of John the Baptist"; MR-014b "Missal"; MR-015 "Vita of Gäbrä Mänfäs Qǝddus"; MR-016 "Prayer of the Saviour of the World"; MR-017 "Prayer of Incense"; MR-018 "Book of Mǝˁraf-Hymns"; MR-019 "Missal"; MR-020 "Collection of Miracles of Mary; Jesus and other texts"; MR-021 "Psalter"; MR-022 "The Book of the Funeral Rite"; MR-023 "Vita of Cyriacus"; MR-024 "Book of  ˀAsläṭi"; MR-025 "Missal"; MR-026 "Four Gospels"; MR-027 "The Book of the Hours"; MR-028 "Miracles of Jesus"; MR-029 "Miracles of Jesus"; MR-030 "Collection of homilies"; MR-031 "Psalter of the Night"; MR-032 "Four Gospels"; MR-033 "Four Gospels"; MR-033b "Homily of St. Michael"; MR-034 "Missal"; MR-035 "History of Ethiopia"; MR-036 "Vita of Täklä Haymanot"; MR-037 "Synaxarion"; MR-038 "Vita of Täklä Haymanot"; MR-039 "The Book of the Baptismal Rite"; MR-040 "The Book of the Baptismal Rite"; MR-041 "Synaxarion (December)"; MR-043 "Story of the Trynity" and different texts"; MR-045 "The Faith of the Fathers" and an Amharic treatise.&#13;
+&#13;
+The library of the church incorporated books from a church dedicated to Libanos (Libanos of Mäsṭəḥ), which does not exist any more, as well as the church of Däbrä Mikaˀel ˀƎnba Ḥarisay (the church of the people ˀƎnba/ˀƎmba Ḥarisay/Ḥarišay), which most probably also does not exist any more.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2010-06-04T10:22:03.150Z</servdate><servdate inherited="0" type="modifydate">2015-07-15T08:09:11.067Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">ethioleader</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

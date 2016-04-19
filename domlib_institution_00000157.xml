@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000157" label="domlib_institution_00000157" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Dändera Däbrä Mәḥrät Mikaˀel / DDM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Dändera Däbrä Mәḥrät Qәddus Mikaˀel / Dändera Mikaˀel</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-16</from><to>2011-05-18</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Hagärä Sälam, qušät Dändera</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.218333</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.40105</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2905.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1500</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Gilawazgi (Gilawa ˀƎgziˀabəḥer), a descendant of the 14th-cent. ras Degäna. The local people consider themselves the "children of Gilawazgi".</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
+Tabots (3): Michael, Mary, George.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed: DDM-001 "Four Gospels"; DDM-002 "The Homiliy of the Saviour of the world"; DDM-003 "Synaxarion (second half of the year)"; DDM-004 "Missal"; DDM-005 "The Homily of St. Raphael"; DDM-006 "The Book of the Funeral Rite"; DDM-007 "The Vita of St. Kiros"; DDM-008 "Synaxarion (September)"; DDM-009 "Antiphonary"; DDM-010 "The Homily of St. Michael"; DDM-011 "Psalter"; DDM-012 "Horologium"; DDM-013 "The Five Pillars of Mystery"; DDM-014 "The Bandlet of Righteousnes"; DDM-015 "1) Four Gospels 2) Fragments"; DDM-016 "Gospel of John"; DDM-017 "The Song of the Rose"; DDM-018 "Collection of Prayers"; DDM-019 "Collection of Prayer, The Loosening of the Spell"; DDM-020 "Four Gospels, Prayer of Penance, Image of Mary"; DDM-021 "The Book of the covenant, Mystagogia"; DDM-022 "The Miracles of Mary"; DDM-023 "Marian Prayers, details: assigned to Abrokos"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-08-09T13:05:22.960Z</servdate><servdate inherited="0" type="modifydate">2014-11-10T18:18:44.419Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

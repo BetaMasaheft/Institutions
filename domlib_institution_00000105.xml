@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000105" label="domlib_institution_00000105" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Däbrä Dammo ˀAbunä ˀArägawi / DD</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Dammo</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-23</from><to>2012-11-25</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Mäzäbǝr, qušät Däbrä Dammo</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.374333</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.292167</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2261.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">0600</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">0800</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The monastery has been founded by the 6th-cent. ˀabunä (Zä-Mikaˀel) ˀArägawi, according to the tradition; for sure existed in the Aksumite period.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. Monastic community has, reportedly, up to 50 monks.&#13;
+Below, at the foot of the mount, there is a small church at the place where ˀArägawi, reportedly "disappeared" (therefore called Məswarom). A small nunnery is located in the village nearby.&#13;
+Tabots (a large unidentified number): ˀArägawi, Mary, Täklä Haymanot, Matyas, and many others.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">45 Mss. photographed: DD-001 "Miracles of Mary"; DD-002 "The Organ of Praise"; DD-003 "Dǝggwa"; DD-004 "Psalter"; DD-005 "The Justice of the Kings"; DD-006 "Miracles of Mary"; DD-007 "The Faith of the Fathers"; DD-008 "The Faith of the Fathers"; DD-009 "Homily of the Living One"; DD-010 "Miracles of Mary"; DD-011 "Miracles of Jesus"; DD-012 "Collection of Homilies"; DD-013 "Synaxarion (September)"; DD-014 "Pentateuch"; DD-015 "Book of Hawi"; DD-015a "Dǝggwa"; DD-016 "The Order of the Chruch; The Justice of the Kings"; DD-017 "Synaxarion (September)"; DD-018 "Synaxarion (March)"; DD-019 "Dǝggwa"; DD-020 "Synaxarion (March)"; DD-021 "The Epistles (NT)"; DD-022 "Miracles of Mary"; DD-023 "Praise of God"; DD-024 "Dǝggwa"; DD-025 "Synaxarion (March)"; DD-026 "The Book of Cyril of Alexandria"; DD-027 "The Book of Mar Isaac"; DD-028 "Psalter"; DD-029 "Psalter"; DD-030 "Psalter"; DD-031 "The Book of the Hours/Horologium; History of Wäldä ˁAmid"; DD-032 "The Book of the Chants"; DD-033 "Psalter"; DD-034 "Psalter"; DD-035 "Four Gospels"; DD-036 "The Spiritual Elder"; DD-037 "Synaxarion (March)"; DD-038 "Psalter"; DD-039 "Synoptic Lectionary for the Year", and a few others.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-01-31T10:29:33.015Z</servdate><servdate inherited="0" type="modifydate">2014-11-16T16:32:37.602Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

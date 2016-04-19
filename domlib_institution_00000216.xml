@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000216" label="domlib_institution_00000216" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Məˀəsar Gwəḥila Qəddus Mikaˀel / MGM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mikaˀel Məˀəsar Gwəḥila</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-05-19</from><to>2012-05-19</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya ˁAddi Qänäy, qušät Məˀəsar Gwəḥila</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.2844</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.315267</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2079.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1200</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1300</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Post-Aksumite potsherds (dating between 700/800 and 1200/1300 A.D.), remains of early medieval structures have been recorded at the site.</txfndate>
+</txfndates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">According to local tradition, the church was founded by Noy (?). The name of the area, ˁAddi Qänäy is said to have been derived from "Noy" (ˁAddi däqqi Noy).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gätär. &#13;
+Burial places are located under the overhanging rock, along the river ˀAngar. The old deserted church rock-churcn stands behind the recently built one.&#13;
+Two ruined structures standing closer to the entrance into the gorge are said to be churches of "ˀabba Yoḥanni" and "ˀabba Aboli" (?).     &#13;
+Tabots (4): Michael, ˀAbrəha and ˀAṣbəḥa (reportedly the tabot of the old church), Mary, Twenty-Four Heavenly Priests.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">19 Mss. photographed: MGM-001 “Miracles of Jesus”; MGM-002 “Homily of st. Michael; Miracles of St. Michal”; MGM-003 “Collection of Homilies”; MGM-004 “Pauline Epistles; Acts of the Apostles; Catholic Epistles; Apocalipse of John”; MGM-005 “Synaxarion (The first half of the years)”; MGM-006 “Miracles of Mary”; MGM-007 “Vita of the Apostles”; MGM-008 “Miracles of Jesus ”; MGM-009 “Synaxarion (The second half of the year)”; MGM-010 “Praise of Mary; Collection; Images of the Praise; A Part of Dǝggwa”; MGM-011 “Prayer of Incense; Missal”; MGM-012 “Vita of Libanos Miracles of Libanos”; MGM-013 “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; MGM-014 “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; MGM-015 “The Book of the Baptismal Rite”; MGM-016 “Vita of ˀArägawi”; MGM-017 “The Book of the Funeral Rite”; MGM-leaves 1 (18) Fragments of different manuscripts; MGM-leaves 2 (19) Fragments of different manuscripts.</description>
+</descriptions>
+<furthers class="MCRMetaLangText" heritable="false" notinherit="false"><further xml:lang="en" inherited="0" form="plain">L.SERNICOLA,"New archaeological evidence in the area of ʻAddigrat (Eastern Tǝgray)", Rassegna di studi etiopici 4 (nova seria) 2012, pp.61-68.</further>
+</furthers>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-06-25T19:03:46.265Z</servdate><servdate inherited="0" type="modifydate">2015-05-20T09:34:27.287Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

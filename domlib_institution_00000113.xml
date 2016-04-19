@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000113" label="domlib_institution_00000113" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Nәḥbi Qәddus Mikaˀel / NSM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Sälam  Qәddus Mikaˀel Nәḥbi</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-11-25</from><to>2010-11-26</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nәḥbi</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.262</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.487683</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2510.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The church may be an Aksumite foundation. Aksumite remains (a massive stone bowl, pillar) are found in the church compound. Local tradition does not specify the time of the foundation, but tells that Yǝsḥaq, the founder of Gundä Gunde and adherent of the Stephanite movement, established the monastic community at the church of Nǝḥbi before going to the area where he founded later Gundä Gunde (The Vita of Yǝsḥaq tells only that he was a native of Nәḥbä in ˁAgamä). As other churches and monasteries of the area, the monastic community of Nǝḥbi was favored by däğğazmač Subagadis Wäldu, in the early 19th cent., but it declined in the early 20th cent.  During the Italian period another church dedicated to Zärˀa Buruk was established nearby under the administration of Nǝḥbi Mikaˀel, but it declined in the early 20th cent.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is considered a monastery, but currently there are no monks.&#13;
+Tabots (5): Minas (marble), two of Michael, Bäˀata Maryam (?), Zärˀa Buruk (in additional small church).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">18 Mss. photographed: NSM-001 "The Faith of the Fathers"; NSM-002 "The Rite of the Holy Week"; NSM-003 "Four Gospels"; NSM-004 "Homily of St. Michael"; NSM-005 "Vita of Gäbrä Mänfäs Qǝddus"; NSM-006 "The Book of the Funeral Rite"; NSM-007 "Miracles of Mary"; NSM-008 "Vita of Täklä Haymanot"; NSM-009 "The Book of the Matrimony Rite"; NSM-010 "Missal"; NSM-011 "Prayer of Incense"; NSM-012 "Synaxarion (March)"; NSM-013 "Synaxarion (September)"; NSM-014 "Missal"; NSM-015 "Vita of Zärˀa Buruk"; NSM-016 "Missal"; NSM-017 "Vita of Kiros"; NSM-018 "Prayer of Mary". Objects.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-04-24T10:31:39.159Z</servdate><servdate inherited="0" type="modifydate">2014-11-11T20:23:41.749Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

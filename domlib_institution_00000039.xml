@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000039" label="domlib_institution_00000039" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Däbrä Maˁṣo Qәddus Yoḥannәs / MY</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Maˁṣo Yoḥannәs</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-05-10</from><to>2010-05-11</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Taḥtay Qәlˁat, qušät Däbrä Maˁṣo</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.4677</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.450333</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2595.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1150</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1300</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Possibly during the time of Zagwe dynasty, or even earlier.</txfndate>
+</txfndates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The church stands on a separate peak, not directly accessible from the flat top mountain where the village is located. Local people say that they are descendants of a ḉäwa-group. A monastic community reportedly existed, but died out in Haylä Śəllase I's time.&#13;
+Tabots(6): John the Baptist, Michael, Gabriel, Mary, Libanos, George.</condition>
+</conditions>
+<abouts class="MCRMetaLangText" heritable="false" notinherit="false"><about xml:lang="en" inherited="0" form="plain">D. Nosnitsin, “The Manuscript Collection of Däbrä Ma‘so Qeddus Yohannes (Tigray, Ethiopia): a First Assessment”, Comparative Oriental Manuscript Studies Newsletter No. 1, January 2011, 24-27.&#13;
+D. Nosnitsin, “The Four Gospel Book of Däbrä Maʽso and its Marginal Notes. Part 1: Note on the Commemoration of Patriarch ’Astona”, Comparative Oriental Manuscript Studies Newsletter No. 4, July 2012, 13-20.</about>
+</abouts>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">28 Mss. photographed: MY-001 "Acts of the Apostles"; MY-002 "Collection of Homilies"; MY-003 "The Rite of the Holy Week"; MY-004 "Acts of the Apostles"; MY-005 "Miracles of Mary"; MY-006 "Four Gospels"; MY-007 "The Book of the Funeral Rite"; MY-008 "Four Gospels"; MY-009 "Miracles of Mary"; MY-010 "The Book of the Funeral Rite"; MY-011 "Missal"; MY-012 "Homily of St. Michael"; MY-013 "The Book of the Funeral Rite"; MY-014 "The Book of the Matrimony Rite"; MY-015 "Story of the Trinity"; MY-016 "Homily of the Sabbath"; MY-017 "Prayer of Incense"; MY-018 "Miracles of Mary"; MY-019 "Vita of John the Baptist"; MY-020 "The Book of the Funeral Rite"; MY-021 "Litany of the Morning"; MY-022 "Synoptic Lectionary for the Year"; MY-023 "Vita of John the Baptist"; MY-024 "Homily of the Saviour of the World"; MY-025 "Homily of the Saviour of the World"; MY-026 "Miracles of Jesus"; MY-027 "Vita of  ˀArägawi; Gäbrä Krǝstos"; MY-028 "Miracles of Jesus"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2010-06-04T10:20:24.937Z</servdate><servdate inherited="0" type="modifydate">2014-11-26T16:07:59.142Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">ethioleader</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

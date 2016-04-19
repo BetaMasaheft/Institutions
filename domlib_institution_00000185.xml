@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000185" label="domlib_institution_00000185" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Səddäyto Däbrä Gännät Mikaˀel / SGM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Səddäyto Däbrä Gännät Qəddus Mikaˀel</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-09</from><to>2011-11-09</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N:</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Sәddäyto</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.376767</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.4901</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2415.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1500</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
+Under the slope of the rock, there are remains of a small church (chapel?) and a typical burial (in a small cave, creened off by a small wall). From that place, one can see the upper church of Taḥtay Ruba Maryam (TRM) located on  the peak of the rock.&#13;
+Tabots (5): Michael, Mary, Trinity, Ṣadəqan of Ṗäraqliṭos (recently introduced), Libanos.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed: SGM-001 “Homily of St. Mary”; SGM-002 “Four Gospels”; SGM-003 “The Book of the Rite of the Passion Week”; SGM-004 “Homily on St. Michael”; SGM-005 “Miracles of Jesus”; SGM-006 “Story of the Trinity”; SGM-007 “The Rite of the Holy Week”; SGM-008 “Book of the Funeral Rite”; SGM-009 “Missal”; SGM-010 “Homily on the Saviour of the World ”; SGM-011 “The Dǝggwa of the Lent”; SGM-012 “Psalter”; SGM-013 “Pauline Epistles”; SGM-014 “Prayer of Incense”; SGM-015 “The Book of Baptism”; SGM-016 “Homily of the Life-Giver”; SGM-017 “Missal”; SGM-018 “The Vita and Miracles of Mäzgäbä Śəllase”; SGM-019 “fols. 5-121 Homily of Michael; fols. 122-153 The Miracles of Samuˀel”; SGM-020 “Hymnary”; SGM-021 “Miracles of Mary”; SGM-022 “Psalter”; SGM-023 “Miracles of Mary”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-01-28T13:12:54.459Z</servdate><servdate inherited="0" type="modifydate">2014-11-07T10:50:55.381Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

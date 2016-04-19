@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000294" label="domlib_institution_00000294" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˀAmba Tähula Mikaˀel / TGM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀAmba Tähula Däbrä Gännät Mikaˀel</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2014-02-05</from><to>2014-02-05</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Rәgbay Mädäbay, qušät ˀAmba Tähula</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.338556</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.358</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2369.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1300</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1400</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition tells that the founder was Täḵlom, hence the name of the church; the local people are thus däqqi Täḵlom, i.e. his descendants.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. &#13;
+It is considered a monastic community, but currently there are no monks. Local tradition speaks of "one thousand monks" who once resided around.&#13;
+At the foot of the mountain, there are collapsed structures of a rock-hewn church (?); some caves at the place of ascension to the church appear to be an old church or monks dwelling; a few other caverns in the rock on the other side are were used as burial places.&#13;
+Tabots (4): Michael, Gabriel, Mary, Täklä Haymanot.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">16 Mss. photographed: TGM-001 “Four Gospels”; TGM-002 “Psalter”; TGM-003 “Loosening of the Spell”; TGM-004 “Book of the feast of Christs Baptism; Prayer of Insense”; TGM-005 “Missal”; TGM-006 “Missal”; TGM-007 “Missal”; TGM-008 “Vita of Arägawi”; TGM-009 “Book of the Absolution and other text”; TGM-010 “Miracles of Mary”; TGM-011 “Collection of Prayers”; TGM-012 “Horologium”; TGM-013 “Miracles of Jesus”; TGM-014 “Loosening of the spell”; TGM-015 “Homily of abba Jacob of Sarug”; TGM-016 “Book of the Funeral Rite”.</description>
+</descriptions>
+<furthers class="MCRMetaLangText" heritable="false" notinherit="false"><further xml:lang="en" inherited="0" form="plain">Two ancient (14th-cent.) crosses, two crosses of later time (18th cent.?), one paten for Eucharistic bread (18th cent.).</further>
+</furthers>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2014-07-09T08:20:29.923Z</servdate><servdate inherited="0" type="modifydate">2015-07-13T11:49:23.595Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000230" label="domlib_institution_00000230" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Tägoga Däbrä Nazret Qəddus Yoḥannəs / TNY</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Tägoga Yoḥannəs</altname>
+<altname xml:lang="en" inherited="0" form="plain">Tänqoqa Yoḥannəs</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-05-21</from><to>2012-05-25</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Dägˁa Tämben, ṭabiya Däbrä Nazret, qušät Tägoga</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.563767</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.306483</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2088.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1800</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1900</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims that the church was founded by Zä-Mikaˀel ˀArägawi (6th cent.), and re-established as monastery by Yoḥannəs IV (r. 1872-89).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. The comunity includes not more than 10 monks. A church dedicated to Täklä Haymanot, associated with the monastery, is located in the vicinity.&#13;
+Tabots (4): Kidanä Məḥrät, Zä-Mikaˀel ˀArägawi, Yoḥannəs Wäldä Nägwädgwad (John the Evangelist), Täklä Haymanot.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">43 Mss. photographed: TNY-001 ʺThe Miracles of Maryʺ; TNY-002 ʺ Four Gospelsʺ; TNY-003 ʺFour Gospelsʺ; TNY-004 ʺ1) The Book of Hours 2) Psalterʺ; TNY-005 ʺMiracles of Maryʺ; TNY-006 ʺThe Faith of the Fathersʺ; TNY-007 ʺThe Collection of Imagesʺ; TNY-008 ʺ1) The Book of Henoch 2) The Book of Job 3)Provebrs 4) The Book of King Iʺ; TNY-009 ʺPraise of Godʺ; TNY-010 ʺPauline Epistlesʺ; TNY-011 ʺ1) Epistles (of Paul and Catholic)  2) Acts of Apostles 3) Apocalipse of the Johnʺ; TNY-012 ʺThe History of Kingsʺ; TNY-013 ʺProphetsʺ; TNY-014 ʺThe Book of the History of the Galla and other textoʺ; TNY-015 ʺSmall Prophetesʺ; TNY-016 ʺTeachings of fathers (monastic)ʺ; TNY-017 ʺDeggwaʺ; TNY-018 ʺEpistles of St. Paul (incomplete at the beginning and at the end)ʺ; TNY-019 ʺThe Story of Maryʺ; TNY-020 ʺFour Gospelsʺ; TNY-021 ʺThe Faith of the Fathersʺ; TNY-022 ʺVitae of the Apostlesʺ; TNY-023 ʺVita of Kirosʺ; TNY-025 ʺThe Organ of the Praiseʺ; TNY-026 ʺThe Book of the Funeral Riteʺ; TNY-027 ʺAbushakerʺ; TNY-028 ʺPraise of Godʺ; TNY-029 ʺThe Praise of Godʺ; TNY-030 ʺMiracles of Jesusʺ; TNY-031 ʺSpiritual Elder (with commentary in Amharic)ʺ; TNY-032 ʺPsalterʺ TNY-033 ʺPsalterʺ; TNY-034 ʺSynaxarion (first half of the years)ʺ; TNY-035 ʺSynaxarion (the second half of the years)ʺ; TNY-036 ʺVita of Arägawiʺ; TNY-037 ʺGrammar of Gǝˁǝzʺ; TNY-038 ʺVita of Gäbrä Mänfäs Qǝddusʺ; TNY-039 ʺPsalterʺ; TNY-040 ʺPsalterʺ; TNY-041ʺVita of Haymanotʺ; TNY-042 ʺDeggwa for Lentʺ; TNY-043 ʺDeggwa of the Lentʺ; TNY-044 ʺThe Praise of Maryʺ</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-06-29T12:21:04.548Z</servdate><servdate inherited="0" type="modifydate">2015-02-10T18:20:36.055Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000270" label="domlib_institution_00000270" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Qaḥen ˀƎnda Ṣadəqan / QES</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qaḥen Däbrä Ṣadəqan</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-11-06</from><to>2012-11-07</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ˀAwlaˁlo, ṭabiya  Qaḥen, qušät Qaḥen</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.652017</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.543733</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2092.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1300</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1400</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. A new church is being built at the rock near the old rock-hewn church, with the burial of the local Ṣadəqan. A recent church above on the plain is dedicated to Michael.  &#13;
+Tabots (3): Jesus and Mary in the old church, Michael in the upper church.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">16 Mss. and 4 scroll photographed: QES-001 “Missal”; QES-002 “Vita of  George; Miracles of George”; QES-003 “Vita of the Righteous Ones”; QES-004 “Prayer of Incense and other texts”; QES-005 “Homiliary for the feasts St. Michael Miracles of St. Mikaˀel”; QES-006 “Vita of Righeous ones;               Miracles of the Righteous ones”; QES-007 “Vita of  ˀEwostatewos; Miracles of  ˀEwostatewos; Image of  ˀEwostatewos”; QES-008 “Book of the Marriage Ritual”; QES-009 “Book of the Covenant of the Righteous ones; Vita of the Righteous ones”; QES-010 “Bәsratä Yoḥannәs (fols. 3r-82r); Bәsratä Marqos (83r-122vb); Fәkare ˀIyäsus (123ra-132vb); Tәnbitä Sabela (133ra-147); Dǝrsan Zä- Yohannәs ˀAfäwärq (read on the feast of Rufaˀel ) (fols. 141ra-161rb); Täˀamrä Rufaˀel (161rb-192rb)”; QES-011 “Book of the Funeral Rite”; QES-012 “Bandlet of Righteousness”; QES-013 “Excerpts from Dәqqwa”; QES-014 “Book of Hymns”; QES-015 “1Rite of the passion Week; Doctrina Arcanorum; Other texts for passion week ”; QES-016 “Bandlet of Righteousness”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2013-01-19T15:01:15.807Z</servdate><servdate inherited="0" type="modifydate">2014-12-21T19:00:08.417Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

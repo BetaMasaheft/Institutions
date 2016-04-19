@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000071" label="domlib_institution_00000071" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Fäqada Maryam / FBM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Bərhan Qəddəst Maryam Fäqada</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-05-21</from><to>2010-05-21</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya ˀAmbäsätä Fäqada, qušät ˁAbiyä ˁAddi</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.4051</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.394333</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2495.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. A few nuns residing in a separated building in the compound. An additional small church dedicated to Mäzgäbä Śəllase (a head of the monastery Gundä Gunde, 17th-early 18th century) stands nearby in the gorge of river Qärni. It is said to have been built at the place where Mäzgäbä Śəllase used to pray.&#13;
+Tabots: Mädḫane ˁAläm, Mary, Mäzgäbä Śəllase in an additional church (in the gorge).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed: FBM-001 "Miracles of Mary"; FBM-002 "The Rite of the Holy Week"; FBM-003 "Synaxarion (March)"; FBM-004 "Homily of the Saviour of the World"; FBM-005 "Missal"; FBM-006 "The Book of the Funeral Rite"; FBM-007 "Synaxarion (September)"; FBM-008 "Vita of Mäzgäbä śǝllase"; FBM-009 "Psalter"; FBM-010 "Missal"; FBM-011 "Missal"; FBM-012 "Vita of Mäzgäbä Śǝllase"; FBM-013 "Vita of Täklä Haymanot"; FBM-014 "The Book of the Baptismal Rite"; FBM-015 "Prayer of Incense"; FBM-016 "Acts of the Apostles"; FBM-017 "Homily of St. Michael"; FBM-018 "Miracles of Jesus"; FBM-019 "Miracles of Mary"; FBM-020 "Homily of the Sabbath"; FBM-021 "Four Gospels"; FBM-022 "Story of the Holy Trinity"; FBM-023 "Story of St. Mary"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2010-06-04T15:30:18.114Z</servdate><servdate inherited="0" type="modifydate">2015-07-13T11:15:03.398Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">ethioleader</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

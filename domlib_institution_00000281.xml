@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000281" label="domlib_institution_00000281" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Gwaḥtärat Qirqos / GSQ</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Gwaḥtärat Däbrä Ṣäḥay Qəddus Qirqos</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2014-01-29</from><to>2014-02-07</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ˀAwlaˁlo, ṭabiya Mahbärä Wäyni, qušät Gwaḥtärat</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.653472</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.500889</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">1942.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition tells that the church is ancient; the monastery was established here in the time of King Yoḥannəs IV, by wäyzaro ˀAmlasu, a wife of the King's general ras ˀAlula ˀƎngəda (d. 1897).</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. Currently, there are no monks, the monastic community declined after 1970s. The church compound is adjacent to the area of the traditional school, with the huts of the students (up to 20).&#13;
+Tabots (5): 2 of Mary, 2 of Qirqos, one unidentified marble.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">15 Mss. photographed: GSQ-001 “Four Gospels”; GSQ-002 “1. Orit zä-lelawǝyan 2. Orit zä-fǝträt( fols. 7-18) 3. Tǝmhǝrtä didǝsqǝlya (fols. 19-36) 4. Proverts (fols. 37-40) 5. Orit zä-däˁat (fols. 51-53) 6. Mäṣḥafä Henok (fols. 51-79) 7. MäṣḥafäṬobit (fols. 80-85) 8. Mäṣḥafä ˀṮsayǝyyas (fols.86-94) 9. ˁƎrgätä ˀṮsayǝyyas (94-95) 10. Tägśaš zä-solomon (100-101) 11. Mäṣḥafä ˁƎzra (103vc-108)”; GSQ-003 “Psalter”; GSQ-004 “Miracles of Qirqos. Image of Qirqos.”; GSQ-005 “1. story of the Fathers 2. Mar Yǝshaq 3. Paradise of montes”; GSQ-006 “Faith of the Fatheres ”; SQ-007 “Vita of Kiros”; GSQ-008 “2. Antiphonary for feusts and funeral service”; GSQ-009 “Horologium for the Night and the Morning Hours”; GSQ-010 “Missal”; GSQ-011 “Miracles of Mary”; GSQ-012 “Book of the Funeral Rite”; GSQ-013 “Vita of Täklä Haymanot; Miracles of Täklä Haymanot”; GSQ-014 “Synaxarion (The second half of the year)”; GSQ-015 “Dəggwa; Ṣomä dǝggwa“.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2014-06-25T17:33:10.420Z</servdate><servdate inherited="0" type="modifydate">2015-06-05T11:17:40.543Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

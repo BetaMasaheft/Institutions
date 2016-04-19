@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000206" label="domlib_institution_00000206" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">May Ṣäˁada Śəllase / MSAE</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">May Ṣäˁada Qəddəst Śəllase</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-12</from><to>2011-11-15</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya May Ṣäˁada, qušät May Ṣäˁada</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.336167</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.4693</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2455.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1600</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1700</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is considered a monastic community, but there are no monks. There are two churches at the site, May Ṣäˁada Qəddəst Śəllase and May Ṣäˁada ˀArbaˁtu ˀƎnsəsa (above), and one more deserted church building (also above).&#13;
+Tabots (4): Trinity, Mary, Four Living Creatures, Ṣadəqan of Baräknaha (recently introduced) (distributed between two churches).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">26 Mss. and one scroll photographed: MSAE-001 “Four Gospels”; MSAE-002 “Synaxarion (March-September)”; MSAE-003 “Synaxarion (September-February)”; MSAE-004 “Four Gospels”; MSAE-005 “The Rite of the Holy Week”; MSAE-006 “The Book of the Story of the Trinity”; MSAE-007 “Vita of Täklä Haymanot”; MSAE-008 “Psalter of Dawit”; MSAE-009 “Homily on the Saviour of the World”; MSAE-010 “Vita of Täklä Haymanot, a fragment”; MSAE-011 “Story of St. Mary”; MSAE-012 “Psalter of Dawit”; MSAE-013 “Prayer of Incense”; MSAE-014 “Book of the Funeral Rite”; MSAE-015 “The Book of the Matrimony Rite”; MSAE-016 “Missal”; MSAE-017 “Synoptic Lectionary for the Year”; MSAE-018 “Miracles of Mary”; MSAE-019 “Synoptic Lectionary for the Year, Bless us, our Lord…”; MSAE-020 “Miracles of Mary”; MSAE-021 “Asmat-prayers, the Prayer of St. Mary on the Mount Golgotha”; MSAE-022 “Missal”; MSAE-023 “Missal”; MSAE-024 “Missal”; MSAE-025 “Miracles of Mary”; MSAE-026 “Vita of the Righteous of Mäṭära”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-03-01T12:47:14.361Z</servdate><servdate inherited="0" type="modifydate">2014-12-21T18:25:05.014Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

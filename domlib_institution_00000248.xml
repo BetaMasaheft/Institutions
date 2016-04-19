@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000248" label="domlib_institution_00000248" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Rubaḵusa Qəddus Giyorgis / RQG</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Rubaḵusa Giyorgis</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-11-25</from><to>2012-11-30</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Dägˁa Tämben, ṭabiya Mikaˀel ˁAbiy, qušät Rubaḵusa</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.596</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.227233</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">1957.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1500</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The church is said to have been an old foundation; the monastic community was founded by monk Tälawe Krəstos.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam / monastery. &#13;
+Tabots (5 in two churches): Kidanä Məḥrät, Täklä Haymanot, St. George (main) in the monastic church; Mädḫane ˁAläm (old), Mary in the second church.</condition>
+</conditions>
+<abouts class="MCRMetaLangText" heritable="false" notinherit="false"><about xml:lang="en" inherited="0" form="plain">M. Gervers, “The Tablet-Woven Hangings of Tigre, Ethiopia: From History to Symmetry”, Burlington Magazine 146, 2004, 588-601, here 292-93.</about>
+</abouts>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">37 Mss. photographed: RQG-001 “Sinodos ”; RQG-002 “Psalter”; RQG-003 “Gospel of John”; RQG-004 “The Harp of the praise (incomplete at the end)”; RQG-005 “Book of Mar Isaac of Nineveh with commentary”; RQG-006 “The Law of the kings”; RQG-007 “Four Gospels”; RQG-008 “Four Gospels”; RQG-009 “History of the church; Introduction to the Epistles; Mälǝˀǝktä Pawols; Mälǝˀǝktat; Raˀǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; RQG-010 “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; RQG-011 “Spritual Elder; Rule of Abba Pachomiur”; RQG-012 “The Harp of Praise”; RQG-013 “Spritual Elder ”; RQG-014 “Order of the Monastic Profession”; RQG-015 “Psalter with Hymns of Virgin”; RQG-016 “Spritual Elder”; RQG-017 “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; RQG-018 “Praise of God”; RQG-019 “Psalter”; RQG-020 “Absolution of the Son; Pater noster; Book of Hours; Prayers”; RQG-021 “Synaxarion (second half of the year) ”; RQG-022 “Acts of the Apostles”; RQG-023 “Praise of God; Harp of&#13;
+Praise”; RQG-024 “Commentary to Beauty of the Creation”; RQG-025 “Epistles of St. Paul”; RQG-026 “Commentary to different Prayers”; RQG-027 “Vita of Gäbrä Mänfäs Qǝddus; Miracles of  Gäbrä Mänfäs Qǝddus”; RQG-028 “Synacarion (First half of the year)”; RQG-029 “Psalter”; RQG-030 “Vita of Täklä Haymanot”; RQG-031 “The Rite of the Holy Week”; RQG-032 “Praise of God”; RQG-033 “Books of the NT; Epistles of St. Paul; Acts of th Aposttes; Epistles of St. Peter;  Revelation of John”; RQG-034 “History of Grañ”; RQG-035 “Book of the Nt; Epistles of St. Peter; Epistles of John, etc.; Revelation of John”; RQG-036 “Mǝˤraf”; RQG-037 “Vita of George”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2013-01-14T21:13:51.569Z</servdate><servdate inherited="0" type="modifydate">2015-01-25T11:41:47.549Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

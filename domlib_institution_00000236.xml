@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000236" label="domlib_institution_00000236" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˀAgulaˁ Getesemani Kidanä Məḥrät / AGKM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀAgulaˁ Kidanä Məḥrät /</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-05-26</from><to>2012-05-26</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ˀAwlaˁlo, ṭabiya  ˀAgulaˁ, kätäma ˀAgulaˁ</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.691042</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.592547</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2008.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1800</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1900</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">(Re-)established as monastery by King Yoḥannəs IV (r. 1872-86); possibly existed before as a church.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. However, currently there is no monastic community. A "residence" of Yoḥannəs IV (two building, recently restored) is located in the vicinity. &#13;
+Tabots (2): Kidanä Məḥrät, Trinity.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">36 Mss. photographed: AGKM-001ʺ Four Gospelsʺ; AGKM-003 ʺ1) Octateuch 2) Book of king (in four parts with commentary in Amharic and Gǝˁǝz); AGKM-004 ʺCollection of Sälam- hymnsʺ; AGKM-005 ʺThe Miracles of Maryʺ; AGKM-006 ʺCollection of Sälam- hymns (from sǝnkǝssar, for the whole year)ʺ; AGKM-007 ʺThe Book of the Spiritual Elderʺ; AGKM-008 ʺFour Gospelsʺ; AGKM-009 ʺThe Book of the Funeral Riteʺ; AGKM-010 ʺThe Book of Mar Yǝshaqʺ; AGKM-011 ʺThe collection of Imagesʺ; AGKM-012 ʺThe organ of praiseʺ; AGKM-013 ʺ1) The Book of Collection (Gǝˁǝz) 2) Kinds of Creation (Amharic )ʺ; AGKM-014 ʺThe Mistery of the Trinityʺ; AGKM-015 ʺ1) Epistles of st. Paul 2) Catholic Epistles 3) Acts of Apostler 4) Apocalipse of st. Johnʺ; AGKM-016 ʺSynaxarion (The first half of the years)ʺ; AGKM-017 ʺ1) Collection of Images 2) Praise of the Belovedʺ; AGKM-018 ʺPsalterʺ; AGKM-019 ʺThe Book of Cyrillʺ, etc.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-06-29T13:21:27.156Z</servdate><servdate inherited="0" type="modifydate">2014-12-21T18:20:03.213Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

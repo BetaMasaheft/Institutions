@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000148" label="domlib_institution_00000148" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Romanat Qǝddus Mikaˀel / RQM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Romanat Mikaˀel /</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-02-12</from><to>2012-02-12</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda ˀƎndärta, qušät Romanat</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.575667</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.41945</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">1895.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1600</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1700</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The chuch was possibly founded by the local community.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr.&#13;
+Tabots (at least four): Mary, Michael, Kidanä Məḥrät, ˀAnanya.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">70 Mss. photographed: RQM-001 "Homily in honour of the Four Anymals"; RQM-002 "Synaxarion"; RQM-003 "Synaxarion"; RQM-004 "Four Gospels"; RQM-005 "Dǝggwa"; RQM-006 "Miracles of Mary"; RQM-007 "Miracles of Mary"; RQM-008 "Acts of the Apostles"; RQM-009 "Vita, miracles, sälam of abba Anania of Däbrä Ṣarabi"; RQM-010 "Liturgical Miscellanea"; RQM-011 "Miracles of Mary"; RQM-012 "The Book of the Funeral Rite"; RQM-013 "Vita of Kiros"; RQM-014 "Psalter"; RQM-015 "Psalter"; RQM-016 "Story of the Holy Trinity"; RQM-017 "Psalter"; RQM-018 "Psalter"; RQM-019 "Vita of Täklä Haymanot"; RQM-020 "The Rite of the Holy Week"; RQM-021 "Vita of ˀArägawi"; RQM-022 "Story of St. Mary"; RQM-023 "Miracles of Mary"; RQM-024 "Homily of St. Michael"; RQM-025 "Hymnary"; RQM-026 "Vita of John Chrysostomos"; RQM-027 "Miracles of Mary"; RQM-028 "The Book of the Chants"; RQM-029 "History and Miracles of John the Baptist"; RQM-030 "Homily of St. Michael"; RQM-031 "Collections of prayers of biblical persons"; RQM-032 "Homily of St. Michael"; RQM-033 "Homily of St. Michael"; RQM-034 "Missal"; RQM-035 "The Book of the Funeral Rite"; RQM-036 "Pauline Epistles"; RQM-037 "The Book of Nativity"; RQM-038 "The Book of the Baptismal Rite"; RQM-039 "Vita of Täklä Haymanot"; RQM-040 "The Book of Confession"; RQM-041 "Homily of St. Mary"; RQM-042 "Vita of ˀabba Sälama"; RQM-043 "Homily of the Cross"; RQM-044 "Homily of the Saviour of the world"; RQM-045 "Miracles of Jesus"; RQM-046 "Book of  ˀAsläṭi"; RQM-047 "Book of  ˀAsläṭi"; RQM-048 "Collection of Mälkǝˁ-Poetry"; RQM-049 "Miracles of Mary"; RQM-050 "Story of the Holy Trinity"; RQM-051 "Book of the Cook"; RQM-052 "The Book of the Baptismal Rite"; RQM-053 "Miracles of Jesus"; RQM-054 "Homily of St. Michael"; RQM-055 "Prayer of Incense"; RQM-056 "The Song of the Flower"; RQM-057 "Prayer of Incense"; RQM-058 "Homily of the Sabbath"; RQM-059 "Synoptic Lectionary for the Year"; RQM-060 "Collections of Prayers"; RQM-061 "Miracles of Mary"; RQM-062 "Homily of St. Michael"; RQM-063 "The Book of the Funeral Rite"; RQM-064 "The Book of the Baptismal Rite"; RQM-065 "Vita of Gäbrä Mänfäs Qǝddus"; RQM-066 "The Book of the Sabbath"; RQM-067 "Miracles of Mary"; RQM-068 "Homily of the Saviour of the world"; RQM-069 "Book of  ˀAsläṭi"; RQM-070 "Synaxarion"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-07-29T13:43:48.316Z</servdate><servdate inherited="0" type="modifydate">2015-02-04T16:09:13.198Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

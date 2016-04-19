@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000108" label="domlib_institution_00000108" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mäḵodˁä Däbrä Gännät Kidanä Mǝḥrät  / GKM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Gännät Kidanä Mǝḥrät Mäḵodˁä</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-04</from><to>2010-12-04</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Gullat, qušät Mäḵodˁä</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.189278</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.362222</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2370.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1600</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Possibly diring the time of King Lebnä Dəngəl (r. 1508-40), re-established late 17th or early 18th cent.</txfndate>
+</txfndates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Mäzgäbä Śəllase, the late 17th - early 18th-cent. head of Gundä Gunde, played a role in the establishement of the local monastic community.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. Some 10 monks were residing in the monastery at the time of the visit. &#13;
+Tabots: said to be "44", i.e. very many, both wooden and marble; specifically were mentioned tabots of Trinity, Mäzgäbä Śəllase, Michael, Mädḫane ˁAläm, Mary.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">22 Mss. photographed: GKM-001 "The Spiritual Elder"; GKM-002 "Miracles of Mary"; GKM-003 "The Book of the Chants"; GKM-004 "Miracles of Mary"; GKM-005 "Four Gospels"; GKM-006 "The Rite of the Holy Week"; GKM-007 "Homily of the Living One"; GKM-008 "Pauline Epistles"; GKM-009 "Synaxarion (September)"; GKM-010 "The Book of the Funeral Rite"; GKM-011 "Synaxarion (March)"; GKM-012 "Miracles of Mikaˀel"; GKM-013 "Vita of Mäzgäbä Śǝllase"; GKM-014 "Psalter"; GKM-015 "Prayer of Incense"; GKM-016 "Miracles of Jesus"; GKM-017 "The Covenant of Mary"; GKM-018 "Psalter"; GKM-019 "Collection of Maryam Texts and hymns"; GKM-020 "Prayers of Mary"; GKM-021 "The Book of the Baptismal Rite; The Book of the Baptismal Rite"; GKM-022 fragments of a Missal and a Psalter.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-02-01T14:14:08.313Z</servdate><servdate inherited="0" type="modifydate">2014-12-05T11:48:56.923Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000054" label="domlib_institution_00000054" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Sämaz Maryam / SMM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Sämaz Däbrä Mәṭmaq Qәddәst Maryam</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-05-15</from><to>2010-05-15</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Marta, qušät Sämaz</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.501467</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.414317</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2282.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1300</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1400</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims that the first church on this site was built by King ˁAmdä Ṣǝyon I (r. 1314-34). Among the local tabots, one is dedicated to Mäṭaˁ/Libanos, and one to ˀabba ˀAnanya, a head of Däbrä Ṣärabi, one of the main ˀEwosṭatean communities. An ancient (Aksumite?) pillar stands in the doorway of the gate house, and another one is included in the masonry of the wall. Several window grills, carved of stone, have been inserted in the windows of the gate house and of a half-ruined building to the left from the entrance. Sämaz is mentioned in one of the documents of the "Golden Gospel" of Däbrä Libanos of Ham. &#13;
+An Additio to the Mäṣḥafä aslǝṭi (SMM-003) written by Zä-Wäldä Maryam, a local mid-18th-cent. scribe, recounts that the sanctuary of Sämaz was built by ˀabunä ˁAṣfä Dǝngǝl “on three stone pillars”. Sämaz was favored by ras ˀArˀaya Śǝllase (ca. 1869-88), a son of King Yoḥannǝs IV, who donated at least one book to the church.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. Formally, Sämaz Maryam is a monastery, but the monastic community declined in 1980-90s; currently, there are no monks.&#13;
+Tabots (7): Mary, Libanos, ˀAnanya, Yoḥannəs Käma, Michael, Gabriel, Qirqos.</condition>
+</conditions>
+<abouts class="MCRMetaLangText" heritable="false" notinherit="false"><about xml:lang="en" inherited="0" form="plain">C. Conti Rossini, “L’Evangelo d’oro di Dabra Libanos”, Rendiconti della Reale Accademia dei Lincei. Classe di scienze morali, storiche e filologiche, s. 5, 10 (1901), pp. 177–219, here p. 184, l.6; 185, l.3.</about>
+</abouts>
+<others class="MCRMetaLangText" heritable="false" notinherit="false"><other xml:lang="en" inherited="0" form="plain">In the background of the compound, there is a ṣäbäl-water attended by many people. The local climate of Sämaz is very humid and hot, and might severely affect parchment manuscripts.</other>
+</others>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">7 Mss. photographed (ca. 13 recent Mss. left): SMM-001 "The Rite of the Holy Week"; SMM-002 "Miracles of Mary"; SMM-003 "The Book of aslǝṭi"; SMM-004 "Prayers of the Faith"; SMM-005 "The Book of the Matrimony Rite"; SMM-006 "Collection of liturgical prayers"; SMM-007 "Missal"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2010-06-04T12:02:05.876Z</servdate><servdate inherited="0" type="modifydate">2014-11-28T19:11:57.671Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">ethioleader</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

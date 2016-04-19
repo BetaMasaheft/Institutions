@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000286" label="domlib_institution_00000286" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Maˁtäb Däbrä Gännät Maryam / DGMM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Maˁtäb Maryam</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>0007-12-05</from><to>0035-11-04</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Märäta, qušät Maˁtäb</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.356333</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.314722</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2182.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1500</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär.&#13;
+Tabots (3): Mary, Mädḫane ˁAläm, Michael.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">31 Mss., 3 scrolls photographed: DGMM-001; DGMM-002 “Four Gospels”; DGMM-003 “Miracles of Mary”; DGMM-004 “Miracles of Jesus”; DGMM-005 “ Missal”; DGMM-006 “Book of the Funeral Rite”; DGMM-007 “Lectionary of the Year”; DGMM-008 “ Məˁraf”; DGMM-009 “ Collection of Chants”; DGMM-010 “Horologium for the Night Hours”; DGMM-011 “Homily of the Sabbath of the Christians”; DGMM-012 “Synaxarion (The first half of the year)”; DGMM-013 “Missal”; DGMM-014 “Acts of the Apostels”; DGMM-015 “Epistols of Saint Paul”; DGMM-016 “Psalter”; DGMM-017 “Vite of Mälkä Ṣedeq”; DGMM-018 “Book of ˀAsləṭi”; DGMM-019 “Missal”; DGMM-020 “The book of the night hours”; DGMM-021 “The Harp pf Praise”; DGMM-022 “Anaphora of Mary and other text”; DGMM-023 “Vite of Gäbrä Mänfäs Qəddus”; DGMM-024 “Collection of Marian Prayers”; DGMM-025 “Missal”; DGMM-026 “The Disciples”; DGMM-027 “Dawit”; DGMM-028 “Anaphora of Mary”; DGMM-029 “Book of Ziq”; DGMM-031 “Book of the night hours - Horologium”; DGMM-032 “Psalter”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2014-06-30T15:22:44.232Z</servdate><servdate inherited="0" type="modifydate">2014-12-23T15:04:09.820Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000177" label="domlib_institution_00000177" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Soṭa Däbrä Sälam Qəddus Mikaˀel / SDM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Soṭa Däbrä Sälam Qəddus Mikaˀel Mädḫane ˁAläm / Soṭa Mikaˀel</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-18</from><to>2011-05-18</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Hädənnät, qušät Soṭa</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.190867</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.413967</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2.854</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition tells that the church was founded in the time of King Zärˀa Yaˁqob (r. 1434-68).</txfndate>
+</txfndates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. There are one recently built and one older round church at the site. &#13;
+Tabots (3): Mädḫane ˁAläm, Michael, George.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed:SDM-001 "Four Gospels";  SDM-001a "Collection of Marain prayers"; SDM-002 "Miracles of Jesus"; SDM-003 "The Book of the Funeral Rite"; SDM-003a "The Miracles of St. Michael, The Miracles of Gäbrä Mänfäs Qǝddus, etc."; SDM-004 "Missal"; SDM-005 "Miracles of Mary"; SDM-006 "The Book of the Baptismal Rite"; SDM-007 "Barəkännä Ǝgziˀnä, Mäṣḥafä Asləṭi"; SDM-008 "Missal"; SDM-009 "The Homily of St. Michael"; SDM-010 "Synaxarion (second half of the year)"; SDM-011 "The Book of the Rite of the Passion Week"; SDM-012 "The Prayer of the Incense"; SDM-013 "The Book of the Funeral Rite"; SDM-014 "Synaxarion (first half of the year)"; SDM-015 "Miracles of Mary"; SDM-016 "The Book of Asləṭi"; SDM-017 "The Homiliy of the Saviour of the world"; SDM-018 "The Five Pillars of Mystery"; SDM-019 "Collection of Mälkǝˁ and other Texts"; SDM-020 "The Loosening of the Spell"; SDM-021 "Collection of protective prayers"; SDM-022 "The Bandlet of Righteousnes"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-08-31T15:03:54.724Z</servdate><servdate inherited="0" type="modifydate">2014-11-26T15:01:24.204Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

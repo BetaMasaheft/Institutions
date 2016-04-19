@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000277" label="domlib_institution_00000277" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˀƎndamosa Däbrä Sälam Mäzgäbä Śəllase / EMS</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀƎndamosa Mäzgäbä Śəllase</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2014-02-04</from><to>2014-02-05</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda ˀIrob, ṭabiya ˀƎndamosa, qušät ˀAwado</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.419645</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.512306</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2545.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1700</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1800</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">The church might have existed at the site before the 17th cent.</txfndate>
+</txfndates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Mäzgäbä Śəllase, the 17th-18th-cent. head of the monastery of Gundä Gunde. The place of ˁAwado, where Mäzgäbä Śəllase is said to have been born (also according to his Vita), is located nearby.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The recent church building stands near the old one, which is intact. The old church of Gäbäbinno Mikael is located in the vicinity (probably an old rock-hewn structure, but the books are recent). Gundä Gunde is said to be not very far (some 5 hour distance walk).&#13;
+Tabot (2): Mary, Mäzgäbä Śəllase.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">22 Mss. photographed: EMS-001 “Missal”; EMS-002 “Miracles of Mary; Miracles of Jesus¸Miracels of Michael¸Miracles of the Saviour of the World”; EMS-003 “Missal”; EMS-004 “Gädlä Gäbrä Mänfäs Qǝddus (fols.3ra-68vb);  Täˀamrä Gäbrä Mänfäs Qǝddus (fols. 69ra-91ra)(92ra-117rb)”; EMS-005 “Homiliary for the feasts of St. Michael ”; EMS-006 “Homily on the Sabbath of Christians; Book of the letter (from Heaven)”; EMS-007 “Vita of Mäzgäbä Śellase”; EMS-008 “Image of Raguˀel”; EMS-009 “The Hope of Praise”; EMS-010 “Sägogawa Maryam (fols.2r-20r); Mälkǝˀa Täklä Haymanot (fols. 24r-38r)”; EMS-011 “Mahǝletä ṣǝgge (fols. 1ra-43rb); Mälkǝˀa Pawlos wä-Petros (fols. 43rb-54ra); Mälkǝˀa Kiros (fols. 54ra-56va)”; EMS-012 “Book of the Funeral Rite”; EMS-013 “Story of Mary”; EMS-014 “Prayer of St. Mary on Bartas (fols. 2r-37v); Prayer of St. Qopros (fols. 39r-57v); Psalm 118 (fols. 58r-70v); Prayer of Mary to Christos (fols. 71r-73r); Gate of light (fols. 73v-81v); Song of Songs (fols. 82r-91r); Prayer of Jesus Christ (fols. 91v-95r)”; EMS-015 “Lectionary”; EMS-016 “Gospel of John”; EMS-017 “Book of the Feast of Christ's Baptism”; EMS-018 “Məˁraf (fols. 4ra-14rb); Dəggwa (fols. 15ra-50rb) (Wazenna); Kǝstät zä-ˀaryam (fols.53ra)-62rb)”; EMS-019 “Vite of Giyorgis; Miracles of  Giyorgis”; EMS-020 “Yä-ḥǝmamat sälamta (fols. 1ra-14ra); Salam-prayer to Giorgis (fols. 15ra-16vb); Zǝmmare (fols. 17ra-26rb); Mäwaśǝʾt (fols. 27ra-48ra); Zǝmmare for säne (fols. 49ra-56va); Mäṣḥafä ḥassab (Computers) (fols. 57v-64v)”; EMS-021 “Vite of Mäzgäba Sǝllare; Miracles of Mäzgäba Sǝllare; Image of Mäzgäba Sǝllare; Salutation to Mäzgäba Sǝllare”; EMS-022 “Four Gospels”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2014-02-12T17:04:15.546Z</servdate><servdate inherited="0" type="modifydate">2015-05-25T18:05:52.453Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

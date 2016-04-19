@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000232" label="domlib_institution_00000232" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Tänsəḥe Kidanä Məḥrät / TKMG</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Tänsəḥe Kidanä Məḥrät</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-05-16</from><to>2012-05-17</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Dägˁa Tämben, ṭabiya Sälam, qušät Tänsəḥe</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.694183</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.187917</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">150.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1400</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
+</foundtodates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam.&#13;
+The old rock hewn church is reserved only for the monastic community; the recent church of Kidanä Məḥrät located before the entrance to the monastic compound, is used by the local community.&#13;
+Tabots (3): Trinity, Kidanä Məḥrät, possibly Ṣadəqan.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">47 Mss. photographed: TKMG-001 “Miracles of Mary”; TKMG-002 “Book of the Rite of the Passion Week”; TKMG-003 “Miracles of Mary”; TKMG-004 “Four Gospels”; TKMG-005 “Four Gospels”; TKMG-006 “Synaxarion (Second half of the years)”; TKMG-007 “The Faith of the Fathers”; TKMG-008 “Psalter”; TKMG-009 “Justice of the Kings”; TKMG-010 “Collection of Mariam texts and other texts”; TKMG-011 “Horologium of Egypt”; TKMG-012 “Vita of Kiros”; TKMG-013 “Acts of the Apostles”; TKMG-014 “Psalter”; TKMG-015 “The Book of Minor Prophets with Commentary in Gǝ`ǝz and Amharic”; TKMG-016 “Testament of our Lord”; TKMG-017 “Psalter”; TKMG-018 “The Book of Cyrill”; TKMG-019 “Book of the interpretation of the Gospels”; TKMG-020 “Calendaric Treatise”; TKMG-022 “Lectionary for the year”; TKMG-023 “Homily of St. Michael”; TKMG-024 “Miracles of Jesus ”; TKMG-025 “The Harph of Praise”; TKMG-026 “The Book of the Spiritual Elder”; TKMG-027 “Praise of God”; TKMG-028 “The Disciples”; TKMG-029 “Mäwasǝˁt”; TKMG-030 “Part of Dǝggwa” ;TKMG-031 “Miracles of Jesus ”; TKMG-032 “The Book of the Jar; monastic ritual”; TKMG-033 “Psalter”; TKMG-034 “Spiritual Elder ( with commentary in Gǝˁǝz and Amharic)”; TKMG-035 “Vita of the Righteous Ones”; TKMG-036 “Psalter”; TKMG-037 “Homily of the Sabbath of Christians Five Piltass of Mystery”; TKMG-038 “The Disciples”; TKMG-039 “Psalter”; TKMG-040 “Gospel of John”; TKMG-041 “Gospel of John”; TKMG-042 “Homily of the Sariour of the world”; TKMG-043 “The Five Pilars of Faith (commentary)”; TKMG-045 “The collection of Images”; TKMG-046 “Praise of Mary”; TKMG-047 “Homily of the Sabbath of Christians”, TKMG-048 “Missail (incomplete at the beginning)”; TKMG-050 “The Covenant of Mary”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-06-29T12:34:38.747Z</servdate><servdate inherited="0" type="modifydate">2014-12-11T17:45:41.730Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

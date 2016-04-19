@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000262" label="domlib_institution_00000262" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Däbri Däbrä Zakaryas Qəddus Giyorgis / DQG</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbri Qəddus Giyorgis</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-11-16</from><to>2012-12-04</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Gwaḥgot, qušät Däbri</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.141549</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.492582</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2587.96</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1200</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1300</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims that the church was founded in the time of King Gäbrä Mäsqäl, the tabot was brought by King ˀAlˁameda.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. Aksumite remains have been found in the vicinity. &#13;
+The recent church of Mädḫane ˁAläm was built in the time of ; before,  (?).&#13;
+The church of St. George stands on the rock and is hardly accessible The structures visible in the roch under the church of George (?) are said to have been a church dedicated to Qirqos (now deserted and inaccessible). In the valley, there is an associated church dedicated to Mädḫane ˁAläm, built in King Ḫaylä Śəllase's time (but it was founded by grazmač Mäšäša).  &#13;
+Tabots (3): 2 of George (in the upper church) and 1 Mädḫane ˁAläm (below). The tabot of Qirqos is not there any more (reportedly stolen). The old dedication might be reflected in the name of the church, Däbrä Zäkaryas (Prophet Zachariah?).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">10 Mss. photographed: DQG-001 “Miracles of Mary”; DQG-002 “Vita of Mar Giyorgis”; DQG-003 “Compilation of gospel's texts”; DQG-004 “Miracles of Mary”; DQG-005 “Vita of Giyorgis; Miracles of Giyorgis; Supplication prayer; Image of Giyorgis”; DQG-006 “Psalter”; DQG-007 “Harp of Praise”; DQG-008 “Four Gospels”; DQG-009 “Book of the Baptismal Ritual”; DQG-010 “Praise of Marry”.</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2013-01-18T16:58:11.426Z</servdate><servdate inherited="0" type="modifydate">2014-12-07T11:15:36.291Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

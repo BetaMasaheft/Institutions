@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000017" label="domlib_institution_00000017" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˁUra Qirqos / UM</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˁUra Qirqos - ˁUra Mäsqäl</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-04-27</from><to>2010-04-30</to></visitdate>
+</visitdates>
+<descbys class="MCRMetaLangText" heritable="false" notinherit="false"><descby xml:lang="en" inherited="0" form="plain">D.N.</descby>
+</descbys>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Šäwit Lämläm, qušät ˁUra</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.4705</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.347056</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2525.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1200</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1300</foundtodate>
+</foundtodates>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation of the church in the time of King Gäbrä Mäsqäl. The church must have been founded in the pre-15th century period, and be re-established during the reign of King Yoḥannǝs IV (1872-89). The church of ˁUra Mäsqäl (now deserted), on the top of the rock, appears to be an older institution.</founder>
+</founders>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr.&#13;
+Tabots (5): Mary, Gabriel, George, Qirqos, Cross (the main one).</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">The library consists of some 55 MSS. In the past, many of them are said to have been kept at ˁUra Mäsqäl.&#13;
+56 Mss. photographed: UM-001 "Homily of the Trinity"; UM-002 "Miracles of Jesus"; UM-003 "Vita of Gäbrä Mänfäs Qǝddus"; UM-004 "Homily of the Saviour of the World"; UM-005 "Synaxarion (March)"; UM-006 "Homily of St. Mary"; UM-007 "Missal"; UM-008 "Vita of Cyriacus"; UM-009 "Vita of Cyriacus"; UM-010 "The Book of the Funeral Rite"; UM-011 "Homily of the Cross"; UM-012 "The Book of the Funeral Rite"; UM-013 "Four Gospels"; UM-014 "Miracles of Mary"; UM-015 "Synaxarion (September)"; UM-016 "Miracles of Mary"; UM-017 "Missal"; UM-018 "Vitae of the Martyrs"; UM-019 "The Book of the Baptismal Rite"; UM-020 "Vita of Täklä Haymanot"; UM-021 "The Book of the Funeral Rite"; UM-022 "Vita of St. Micheal"; UM-023 "Missal"; UM-024 "Psalter"; UM-025 "Collection of homilies"; UM-026 "Psalter"; UM-027 "Four Gospels"; UM-028 "Miracles of Jesus"; UM-029 "Miracles of Mary"; UM-030 "fragments of ca. 3 mss."; UM-031 "Psalter"; UM-032 "Homily of the Sabbath (by James of Sarugh)"; UM-033 "fragments of ca. 5 mss."; UM-034 "Miracles of Jesus"; UM-035 "Land charter of Tantaweddem"; UM-036 "A fragment of  Psalter and other texts"; UM-037 "Acts of the Apostles"; UM-038 "separated leaves"; UM-039 "canonical-liturgical collection"; UM-040 "Pentateuch"; UM-041 "Vita of Cyriacus"; UM-042 "Miracles of Mary"; UM-043 "Psalter"; UM-044 "Synoptic Lectionary for the Year"; UM-045 "Collection of homilies"; UM-046 "Collection of homilies"; UM-047 "Missal"; UM-048 "Synoptic Lectionary for the Year"; UM-049 "Homily of St. Rufaˀel"; UM-050 "Four Gospels; Homilies; other texts"; UM-050a "Four Gospels"; UM-051 "separated leaves"; UM-052 "Litanies of the Morning"; UM-053 "Homily of St. Michael"; UM-054 "The Book of the Hours"; UM-055 "Homily of the Saviour of the World"; UM-056 "Vita of Gäbrä Mänfäs Qǝddus"</description>
+</descriptions>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2010-06-02T14:01:15.697Z</servdate><servdate inherited="0" type="modifydate">2014-11-30T18:01:57.185Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">ethioleader</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

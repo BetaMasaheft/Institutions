@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000123" label="domlib_institution_00000123" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Läqay Kidanä Mәḥrät / MKL</name>
+</names>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Mәḥrät Kidanä Mәḥrät Läqay</altname>
+</altnames>
+<visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-06</from><to>2010-12-06</to></visitdate>
+</visitdates>
+<countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
+</countries>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+</areas>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Bäˁatti May Mäsanu, qušät Läqay</town>
+</towns>
+<latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.30405</latitude>
+</latitudes>
+<longitudes class="MCRMetaNumber" heritable="false" notinherit="false"><longitude xml:lang="en" inherited="0">39.439817</longitude>
+</longitudes>
+<altitudes class="MCRMetaNumber" heritable="false" notinherit="false"><altitude xml:lang="en" inherited="0">2553.0</altitude>
+</altitudes>
+<foundationdates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundationdate inherited="0">1500</foundationdate>
+</foundationdates>
+<foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1600</foundtodate>
+</foundtodates>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition tells that the church was founded in the time of King Kaleb (6 cent.). Some pottery from the Aksumite period has been found at and around the site.</txfndate>
+</txfndates>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
+Tabots (5): Täklä Haymanot, Trinity, Kidanä Məḥrät, Four Living Creatures (marble), Twenty-Four Heavenly Priests.</condition>
+</conditions>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">23 Mss. photographed: MKL-001 "The Rite of the Holy Week"; MKL-002 "Miracles of Mary"; MKL-003 "The Book of the Funeral Rite"; MKL-004 "The Book of the Funeral Rite"; MKL-005 "Four Gospels"; MLK-006 "Synaxarion (March)"; MKL-007 "Homily of the Saviour of the World"; MKL-008 "Missal"; MKL-009 "Missal"; MKL-010 "Vita of Täklä Haymanot"; MKL-011 "The Book of the Chants"; MKL-012 "Vita of Gäbrä Mänfäs Qǝddus"; MKL-013 "The Book of the Chants"; MKL-014 "Vita of Libanos"; MKL-015 "Homily of St. Michael"; MKL-016 "Vita of Kiros"; MKL-017 "Prayer of Incense; Miracles of Mary"; MKL-018 "Vita of ˀArägawi"; MKL-019 "Synaxarion (September)"; MKL-020 "Story of the Trinity"; MKL-021 "Homily of the Sabbath"; MKL-022 "The Book of the Matrimony Rite"; MKL-023 "Revelation of John (?)"</description>
+</descriptions>
+<furthers class="MCRMetaLangText" heritable="false" notinherit="false"><further xml:lang="en" inherited="0" form="plain">L.SERNICOLA,"New archaeological evidence in the area of ʻAddigrat (Eastern Tǝgray)", Rassegna di studi etiopici 4 (nova seria) 2012, pp.61-68.</further>
+</furthers>
+</metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-04-24T12:07:18.341Z</servdate><servdate inherited="0" type="modifydate">2015-05-20T09:23:20.061Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>
