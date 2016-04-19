@@ -7,7 +7,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Madḫane ʿĀlam</title>
+        <title>British Library</title>
         <editor key="ES"/>
         <editor role="generalEditor" key="AB"/>
         <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,14 +43,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <body>
       <listPlace>
         <place subtype="institution">
-          <placeName corresp="#INS00001BL">British Library</placeName>
-          <placeName corresp="#INS00001BL" type="alt">British Museum</placeName>
+          <placeName corresp="INS00001BL">British Library</placeName>
+          <placeName corresp="INS00001BL" type="alt">British Museum</placeName>
           <country>UK </country>
           <region>England</region>
           <settlement>London</settlement>
           <note>
             <date type="foundation" ></date>
-            <desc type="foundation">
+            <desc type="foundation">formerly part of the British Museum
             </desc>
             
             <ab type="history"></ab>
