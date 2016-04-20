@@ -51,11 +51,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
           <region corresp="LOC5932Tegray"/>
           <settlement corresp="LOC4547Maqdal"/>
           <location>
-            <geo>11°12′N 39°17′E</geo>
-            <height>1247m</height>
+            <geo>11.2 - 39.283</geo>
+            <height unit="m">1247</height>
           </location>
           <note>
-            <date type="foundation" ></date>
+            <date type="foundation"></date>
             <desc type="foundation">
             </desc>
             
@@ -65,11 +65,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
           </note>
           <listBibl type="secondary">
             <bibl>
-              <ptr target="Blanc1868Narrative"/>
+              <ptr target="bm:Blanc1868Narrative"/>
             </bibl>
           </listBibl>
         </place>
-        <relation name="partOf"><desc><ptr target="#LOC4547Maqdal.xml" /></desc></relation>
       </listPlace>
     </body>
   </text>
