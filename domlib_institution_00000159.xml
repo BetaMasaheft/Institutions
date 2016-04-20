@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000159" label="domlib_institution_00000159" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˁAddi Qiyaḥto Qəddəst Maryam / QQM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000159" label="domlib_institution_00000159" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ʿAddi Qiyaḥto Qǝddǝst Maryam / QQM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˁAddi Qiyaḥto Maryam</altname>
-<altname xml:lang="en" inherited="0" form="plain">Qəddəst Maryam Kudo Ḥawwəs ˁAddi Qiyaḥto</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ʿAddi Qiyaḥto Maryam</altname>
+<altname xml:lang="en" inherited="0" form="plain">Qǝddǝst Maryam Kudo Ḥawwǝs ʿAddi Qiyaḥto</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-24</from><to>2011-05-24</to></visitdate>
 </visitdates>
@@ -11,7 +11,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Qälˁat, qušät ˁAddi Qiyaḥto</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Qälʿat, qušät ʿAddi Qiyaḥto</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.427111</latitude>
 </latitudes>
@@ -28,6 +28,6 @@
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. Formerly a monastic community might have resided at the site. &#13;
 Tabots (2): Trinity, Mary.</condition>
 </conditions>
-<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">20 Mss. photographed: QQM-001 "Four Gospels"; QQM-002 "Praise of God"; QQM-003 "The Rite of the Passion Week"; QQM-004 "Miracles of Mary"; QQM-005 "The Vita of the Apostles"; QQM-006 "The Book of the Funeral Rite"; QQM-007 "The Homily of St. Michael"; QQM-008 "Miracles of Mary"; QQM-009 "Miracles of Jesus"; QQM-010 "Psalter"; QQM-011 "The Book of Gǝṣṣǝw"; QQM-012 "Psalter"; QQM-013 "Psalter"; QQM-014 "The Homily of St. Michael"; QQM-015 "1) The Praise of Mary 2) Missal"; QQM-016 "Psalter"; QQM-017 "Missal"; QQM-018 "Miracles of Jesus"; QQM-019 "Image of St. George"; QQM-020 "Collection of Mälkǝˀ-hymns".</description>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">20 Mss. photographed: QQM-001 "Four Gospels"; QQM-002 "Praise of God"; QQM-003 "The Rite of the Passion Week"; QQM-004 "Miracles of Mary"; QQM-005 "The Vita of the Apostles"; QQM-006 "The Book of the Funeral Rite"; QQM-007 "The Homily of St. Michael"; QQM-008 "Miracles of Mary"; QQM-009 "Miracles of Jesus"; QQM-010 "Psalter"; QQM-011 "The Book of Gǝṣṣǝw"; QQM-012 "Psalter"; QQM-013 "Psalter"; QQM-014 "The Homily of St. Michael"; QQM-015 "1) The Praise of Mary 2) Missal"; QQM-016 "Psalter"; QQM-017 "Missal"; QQM-018 "Miracles of Jesus"; QQM-019 "Image of St. George"; QQM-020 "Collection of Mälkǝʾ-hymns".</description>
 </descriptions>
 </metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2011-08-29T09:34:28.676Z</servdate><servdate inherited="0" type="modifydate">2015-01-31T12:36:24.820Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

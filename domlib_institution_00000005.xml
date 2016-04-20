@@ -10,9 +10,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda ˀIrob, ṭabiya ˀAraˀ, qušät Gundä Gunde</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda ʾIrob, ṭabiya ʾAraʾ, qušät Gundä Gunde</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.3827</latitude>
 </latitudes>
@@ -24,7 +24,7 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Yəsḥaq.</txfndate>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Yǝsḥaq.</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. The number of monks dweiiling at the monastery is small (not more than 4).&#13;
 Tabots: reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). Tabot of Mary in the upper church reserved for monks; tabot of Täklä Haymanot in the lower church for the local people.</condition>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000210" label="domlib_institution_00000210" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Sänqaṭa Fərewäyni Maryam / SFM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000210" label="domlib_institution_00000210" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Sänqaṭa Fǝrewäyni Maryam / SFM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Sänqaṭa Fərewäyni Däbrä Ṣəge Qəddəst Maryam</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Sänqaṭa Fǝrewäyni Däbrä Ṣǝge Qǝddǝst Maryam</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-12-06</from><to>2011-12-06</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saˁsi Ṣaˁda ˀƎmba, town of Sänqaṭa</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saʿsi Ṣaʿda ʾƎmba, town of Sänqaṭa</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.054617</latitude>
 </latitudes>
@@ -22,11 +22,11 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1755</foundtodate>
 </foundtodates>
-<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation in the time of King ˀIyasu (ˀIyasu I, r. 1682-1706, or ˀIyasu II, r. 1730-55).</txfndate>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation in the time of King ʾIyasu (ʾIyasu I, r. 1682-1706, or ʾIyasu II, r. 1730-55).</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
-Tabots (2): Mary, Kidanä Məḥrät.</condition>
+Tabots (2): Mary, Kidanä Mǝḥrät.</condition>
 </conditions>
-<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">8 Mss. photographed: SFM-001 “ Synaxarion (September - February)”; SFM-002 “The Faith of the Fathers”; SFM-003 “Homily on St. Michael”; SFM-004 “Psalter”; SFM-005 “Homily on the Saviour of the World ”; SFM-006 “Psalter”; SFM-007 “Səna Golgota; Doctrina”; SFM-008 “Collection of Mälkǝˁ-Poetry”.</description>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">8 Mss. photographed: SFM-001 “ Synaxarion (September - February)”; SFM-002 “The Faith of the Fathers”; SFM-003 “Homily on St. Michael”; SFM-004 “Psalter”; SFM-005 “Homily on the Saviour of the World ”; SFM-006 “Psalter”; SFM-007 “Sǝna Golgota; Doctrina”; SFM-008 “Collection of Mälkǝʿ-Poetry”.</description>
 </descriptions>
 </metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-03-02T11:53:53.751Z</servdate><servdate inherited="0" type="modifydate">2015-01-25T11:38:39.923Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="true"/></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

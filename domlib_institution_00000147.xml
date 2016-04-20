@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000147" label="domlib_institution_00000147" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">May Ḉäw Mikaˀel / MCM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000147" label="domlib_institution_00000147" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">May Ḉäw Mikaʾel / MCM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mikaˀel May Ḉäw</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mikaʾel May Ḉäw</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-25</from><to>2011-05-25</to></visitdate>
 </visitdates>
@@ -27,7 +27,7 @@
 <founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation in the time of ḥaṣäy Gäbrä Mäsqäl.</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. The recently built church stands near the dismantle building of the old church.&#13;
-Tabots (1): Mikaˀel.</condition>
+Tabots (1): Mikaʾel.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">7 Mss. photographed: MCM-001 "Miracles of Mary"; MCM-002 "The Homily of St. Michael"; MCM-003 "The Book of the Baptismal Rite"; MCM-004 "The Vita of the Apostles"; MCM-005 "Psalter", etc.</description>
 </descriptions>

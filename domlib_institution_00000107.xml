@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000107" label="domlib_institution_00000107" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˁAddigrat Bet Marya / BMA</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000107" label="domlib_institution_00000107" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ʿAddigrat Bet Marya / BMA</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Bet Marya ˁAddigrat</altname>
-<altname xml:lang="en" inherited="0" form="plain">Bet Maryam ˁAddigrat</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Bet Marya ʿAddigrat</altname>
+<altname xml:lang="en" inherited="0" form="plain">Bet Maryam ʿAddigrat</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-08-11</from><to>2011-08-11</to></visitdate>
 </visitdates>
@@ -11,7 +11,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ˁAddigrat qäbälä 2</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ʿAddigrat qäbälä 2</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.275883</latitude>
 </latitudes>
@@ -23,10 +23,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">The religious site might have existed already in the ˀAksumite time.</txfndate>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">The religious site might have existed already in the ʾAksumite time.</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is considered as monastery, but there are no monks. There are two churches, one very recent and one a bit older, at the site. An Aksumite burial hewn in the rock is located in the vicinity.&#13;
-Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qəddus, ˀArsema, distributed between two churches (one very recent).</condition>
+Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema, distributed between two churches (one very recent).</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">4 Mss. photographed: BMA-001 "Missal"; BMA-002 "Synaxarion"; BMA-003 "Story of St. Mary"; BMA-004 "The Book of the Funeral Rite"</description>
 </descriptions>

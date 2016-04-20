@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000100" label="domlib_institution_00000100" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Dǝrba Däbrä ˀAbunä Yasay  /DAY</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000100" label="domlib_institution_00000100" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Dǝrba Däbrä ʾAbunä Yasay  /DAY</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀAbunä Yasay</altname>
-<altname xml:lang="en" inherited="0" form="plain">Dǝrba Däbrä Yasay Däbrä ˀEmanuˀel</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ʾAbunä Yasay</altname>
+<altname xml:lang="en" inherited="0" form="plain">Dǝrba Däbrä Yasay Däbrä ʾEmanuʾel</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-11</from><to>2011-05-11</to></visitdate>
 </visitdates>
@@ -11,7 +11,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda  ˀƎndärta, ṭabiya Mäsäwo, qušät Dǝrba</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda  ʾƎndärta, ṭabiya Mäsäwo, qušät Dǝrba</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.569139</latitude>
 </latitudes>
@@ -23,10 +23,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1400</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition ascribes the foundation to the 14th-cent. saintly monk ˀabunä Yasay.</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition ascribes the foundation to the 14th-cent. saintly monk ʾabunä Yasay.</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
-Tabots (4): Yasay, ˀAmanuˀel, Mary, Michael.</condition>
+Tabots (4): Yasay, ʾAmanuʾel, Mary, Michael.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">8 Mss. photographed: DAY-001 "The Rite of the Holy Week"; DAY-002 "The Faith of the Fathers"; DAY-003 "Four Gospels"; DAY-004 "Psalter"; DAY-005 "Psalter"; DAY-006 "The Book of the Funeral Rite"; DAY-007 "Vita of Yasay"; DAY-008 "Vita of Yasay"</description>
 </descriptions>

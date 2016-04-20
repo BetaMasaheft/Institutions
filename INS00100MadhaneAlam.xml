@@ -32,7 +32,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <profileDesc>
       <langUsage>
         <language ident="en">English</language>
-        <language ident="gez">Gəˁəz</language>
+        <language ident="gez">Gǝʿǝz</language>
       </langUsage>
     </profileDesc>
     <revisionDesc>
@@ -44,12 +44,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <listPlace>
         <place subtype="institution">
           <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">Madḫane ʿĀlam </placeName>
+          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
           <placeName corresp="INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
           <placeName corresp="INS00100MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
-          <country corresp="LOC3010Ethiop">Ethiopia </country>
-          <region corresp="LOC5932Tegray">Tigray</region>
-          <settlement corresp="LOC4547Maqdal">Maqdala</settlement>
+          <country corresp="LOC3010Ethiop"/>
+          <region corresp="LOC5932Tegray"/>
+          <settlement corresp="LOC4547Maqdal"/>
           <location>
             <geo>11°12′N 39°17′E</geo>
             <height>1247m</height>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000289" label="domlib_institution_00000289" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Ləḥuṣa Maryam / LQM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000289" label="domlib_institution_00000289" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Lǝḥuṣa Maryam / LQM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Ləḥuṣa Qəddəst Maryam</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Lǝḥuṣa Qǝddǝst Maryam</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>0008-12-04</from><to>0009-12-05</to></visitdate>
 </visitdates>
@@ -8,9 +8,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Märäta, qušät Ləḥuṣa</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Märäta, qušät Lǝḥuṣa</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.336444</latitude>
 </latitudes>
@@ -22,8 +22,8 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1700</foundtodate>
 </foundtodates>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. The church of ˀAmba Tähula Mikaˀel (TGM) can be seen from the site.  &#13;
-Tabots (3): Mary, Kidanä Məḥrät, Qirqos.</condition>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. The church of ʾAmba Tähula Mikaʾel (TGM) can be seen from the site.  &#13;
+Tabots (3): Mary, Kidanä Mǝḥrät, Qirqos.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">11 Mss., one scroll are photographed: LQM-001 “Four Gospels”; LQM-002 “The Miracles of Mary”; LQM-003 “Book of the night hours - Horologium”; LQM-004 “Missal”; LQM-005 “Acts of the Apostels”; LQM-006 “Synaxarium second half”; LQM-007 “Homily of the Sabbat of the Christians”; LQM-008 “Mircales of Jesus”; LQM-009 “Collection of Chants”; LQM-010 “Missal”; LQM-011 “Homily for the feasts of St. Michael”.</description>
 </descriptions>

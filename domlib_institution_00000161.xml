@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000161" label="domlib_institution_00000161" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Golˁa Däbrä Bərhan Yoḥannəs/ BGY</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000161" label="domlib_institution_00000161" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Bərhan Qəddus Yoḥannəs Golˁa</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Bǝrhan Qǝddus Yoḥannǝs Golʿa</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-22</from><to>2011-05-22</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">qäbälä 02, Golˁa, ˁAddigrat</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">qäbälä 02, Golʿa, ʿAddigrat</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.2968</latitude>
 </latitudes>
@@ -24,7 +24,7 @@
 </foundtodates>
 <founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition tells that the church was re-established by däğğazmač Subagadis (d. 1831), but had existed in the earlier time.</founder>
 </founders>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The ṣäbäl-source (of ˀArägawi?) is located in the vicinity of the church. &#13;
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The ṣäbäl-source (of ʾArägawi?) is located in the vicinity of the church. &#13;
 Tabots (4): Gabriel, Trinity, John the Baptist, Peter and Paul.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">14 Mss. photographed: BGY-001 "Synaxarion (January-June)"; BGY-002 "Four Gospels"; BGY-003 "Miracles of Jesus"; BGY-004 "The Book of the Rite of the Passion Week"; BGY-005 "The Miracles of Mary"; BGY-006 "Four Gospels"; BGY-007 "The Book of the Chants"; BGY-008 "Synaxarion (the first half of the year)"; BGY-009 "Antiphonary"; BGY-010 "Synaxarion (second half of the year)"; BGY-011 "The Book of the Funeral Rite"; BGY-012 "Text devoted to John the Baptist"; BGY-013 "The Homily of St. Michael"; BGY-014 "The Loosening of the Spell"</description>

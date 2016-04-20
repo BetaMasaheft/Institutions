@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000208" label="domlib_institution_00000208" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bet Muḵaˁ Mikaˀel / BMQM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000208" label="domlib_institution_00000208" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bet Muḵaʿ Mikaʾel / BMQM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Bet Muḵaˁ Qəddus Mikaˀel</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Bet Muḵaʿ Qǝddus Mikaʾel</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-12-08</from><to>2011-12-09</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saˁsi Ṣaˁda ˀƎmba, ṭabiya Səndäda, qušät Bet Muḵaˁ</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝndäda, qušät Bet Muḵaʿ</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.967767</latitude>
 </latitudes>
@@ -22,7 +22,7 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1700</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">According to the local tradition, the founder was "šəm Bägunay" (a governor of Bugna?); in the time of King Fasilädäs (r. 1632-67). But according to Additio 5 of BMQM-006, the church was founded during the 6th year of the reign of King ˀIyoˀas (=1761 A.D.)</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">According to the local tradition, the founder was "šǝm Bägunay" (a governor of Bugna?); in the time of King Fasilädäs (r. 1632-67). But according to Additio 5 of BMQM-006, the church was founded during the 6th year of the reign of King ʾIyoʾas (=1761 A.D.)</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr.&#13;
 Tabots (4): Michael, Täklä Haymanot, Gabriel, Mary.</condition>

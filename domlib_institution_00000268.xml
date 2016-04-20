@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000268" label="domlib_institution_00000268" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Baḥəra Qəddəst Maryam / BHM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000268" label="domlib_institution_00000268" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Baḥǝra Qǝddǝst Maryam / BHM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Baḥəra Maryam</altname>
-<altname xml:lang="en" inherited="0" form="plain">Maryam Baḥəra</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Baḥǝra Maryam</altname>
+<altname xml:lang="en" inherited="0" form="plain">Maryam Baḥǝra</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-11-14</from><to>2012-11-15</to></visitdate>
 </visitdates>
@@ -9,9 +9,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Gwaḥgot, qušät Baḥəra</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Baḥǝra</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.165289</latitude>
 </latitudes>
@@ -23,10 +23,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition tells that the rock-hewn church is ancient foundation; it was re-established in the time of King Yosṭos (r. 1711-16) and King Yoḥannəs IV (r. 1872-89).</txfndate>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition tells that the rock-hewn church is ancient foundation; it was re-established in the time of King Yosṭos (r. 1711-16) and King Yoḥannǝs IV (r. 1872-89).</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. The monastic community declined, only a few monks reside at the church.  &#13;
-Tabots (2): Mary, ˀArägawi (in the additional, recently built small church).</condition>
+Tabots (2): Mary, ʾArägawi (in the additional, recently built small church).</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">9 Mss. photographed: BHM-001 “Four Gospels”; BHM-002 “Miracles of Mary”; BHM-003 “Homiliany for the feasts of St. Michael; Miracles of Michael f. 59R; Homily of the 24 Heavenly Priests”; BHM-004 “Missal”; BHM-005 “Homily of Mary”; BHM-006 “Synaxarium (second part)”; BHM-007 “Synaxarium (The first half of the year)”; BHM-008 “Collection of Images ”; BHM-009 “Book of the Baptismal Rite”.</description>
 </descriptions>

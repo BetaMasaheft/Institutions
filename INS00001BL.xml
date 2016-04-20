@@ -32,7 +32,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <profileDesc>
       <langUsage>
         <language ident="en">English</language>
-        <language ident="gez">Gəˁəz</language>
+        <language ident="gez">Gǝʿǝz</language>
       </langUsage>
     </profileDesc>
     <revisionDesc>

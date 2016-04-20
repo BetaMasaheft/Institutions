@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000099" label="domlib_institution_00000099" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˀAḥzära  Maryam /DMA</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000099" label="domlib_institution_00000099" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ʾAḥzära  Maryam /DMA</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ˀAḥzära Däbrä Mǝhrät Qǝddǝst Maryam</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">ʾAḥzära Däbrä Mǝhrät Qǝddǝst Maryam</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-24</from><to>2011-11-24</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Wǝhdät, qušät ˀAḥzära</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Wǝhdät, qušät ʾAḥzära</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.329528</latitude>
 </latitudes>
@@ -22,10 +22,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The local tradition narrates that King Bazen, on the 10th year of his reign renewed the place which had been a site of religious veneration (Orit). The Queen of Sheba slept at this place during her trip (hence, the etymology of word Aḥzära;but it is unclear if it is a Təgrəñña or Gǝˁǝz word); because of this, a temple was established here. Aḥmäd Graññ is said to have closely come to Aḥzära, but was chased away by a strong wind.</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The local tradition narrates that King Bazen, on the 10th year of his reign renewed the place which had been a site of religious veneration (Orit). The Queen of Sheba slept at this place during her trip (hence, the etymology of word Aḥzära;but it is unclear if it is a Tǝgrǝñña or Gǝʿǝz word); because of this, a temple was established here. Aḥmäd Graññ is said to have closely come to Aḥzära, but was chased away by a strong wind.</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
-The compound of the rectangular church, built in the traditional style, is remarkable thanks to the massive gate tower, and another big structure, two-storey and complex ˁəqa bet, built in the wall which encircles the church.&#13;
+The compound of the rectangular church, built in the traditional style, is remarkable thanks to the massive gate tower, and another big structure, two-storey and complex ʿǝqa bet, built in the wall which encircles the church.&#13;
 Tabots (at least 1, probably a few more): St. Mary.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">14 Mss. photographed: DMA-001 "Four Gospels"; DMA-002 "Missal"; DMA-003 "The Book of the Chants"; DMA-004 "Four Gospels"; DMA-005 "Miracles of Mary"; DMA-006 "Synaxarion (March)"; DMA-007 "Miracles of Mary"; DMA-008 "Vita of Täklä Haymanot"; DMA-009 "Miracles of Mary"; DMA-010 "Miracles of Mary and other texts"; DMA-011 "Story of St. Mary"; DMA-012 "Vita of Gäbrä Mänfäs Qǝddus"; DMA-013 "several fragments of iturgical book"; DMA-014 "The Rite of the Holy Week"</description>

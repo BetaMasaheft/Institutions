@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000169" label="domlib_institution_00000169" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qəddus Bet Mäḵaˁ/ GMBM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000169" label="domlib_institution_00000169" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ/ GMBM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qəddus Bet Mäḵaˁ / Gäbrä Mänfäs Qəddus Däbrä Sahәl</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ / Gäbrä Mänfäs Qǝddus Däbrä Sahәl</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-21</from><to>2011-05-21</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Bəkot, qušät Bet Mäḵaˁ</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Bǝkot, qušät Bet Mäḵaʿ</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.269133</latitude>
 </latitudes>
@@ -22,8 +22,8 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1900</foundtodate>
 </foundtodates>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. A small church associated with the church of Bet Mäkaˁ Däbrä Sahəl Qəddus Mikaˀel (DSM).&#13;
-Tabot (1): Gäbrä Mänfäs Qəddus.</condition>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gäṭär. A small church associated with the church of Bet Mäkaʿ Däbrä Sahǝl Qǝddus Mikaʾel (DSM).&#13;
+Tabot (1): Gäbrä Mänfäs Qǝddus.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">5 Mss. photographed: GMBM-001 "The Vita of Gäbrä Mänfäs Qǝddus"; GMBM-002 "The Rite of the Passion Week"; GMBM-003 "The Miracles of Mary"; GMBM-004 "Collection of Marian Prayers"; GMBM-005 "The Book of the Baptismal Rite"</description>
 </descriptions>

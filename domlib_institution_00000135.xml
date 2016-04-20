@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000135" label="domlib_institution_00000135" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mäˁago Däbrä Mädḥanit ˀAmanuˀel/ MMA</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000135" label="domlib_institution_00000135" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mäʿago Däbrä Mädḥanit ʾAmanuʾel/ MMA</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mäˁago ˀAmanuˀel, ˀAmanuˀel  Mäˁago</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mäʿago ʾAmanuʾel, ʾAmanuʾel  Mäʿago</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-15</from><to>2010-12-15</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ˀAwlaˁlo, ṭabiya  Nägaš, qušät Mäˁago</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  Nägaš, qušät Mäʿago</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.887933</latitude>
 </latitudes>
@@ -23,7 +23,7 @@
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is considered a monastery, but there are no monks. &#13;
-Tabots (3): ˀAmanuˀel, George, Mädḫane ˁAläm.</condition>
+Tabots (3): ʾAmanuʾel, George, Mädḫane ʿAläm.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">12 Mss. photographed: MMA-001 "Vita of Gäbrä Mänfäs Qǝddus"; MMA-002 "Homily of St. Michael"; MMA-003 "The Book of the Funeral Rite"; MMA-004 "Homily of the Saviour of the World"; MMA-005 "Missal"; MMA-006 "Prayer of Incense"; MMA-007 "Psalter"; MMA-008 "Missal"; MMA-009 "Four Gospels"; MMA-010 "Homily of the Living One"; MMA-011 "Homily of St. George"; MMA-012 "Miracles of Mary".</description>
 </descriptions>

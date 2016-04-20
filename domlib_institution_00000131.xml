@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000131" label="domlib_institution_00000131" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bäˁatti Qәddus Mikaˀel  / DMB</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000131" label="domlib_institution_00000131" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Bäʿatti Qәddus Mikaʾel  / DMB</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Mәḥrät Qәddus Mikaˀel Bäˁatti</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Mәḥrät Qәddus Mikaʾel Bäʿatti</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-10</from><to>2010-12-10</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Bäˁatti May Mäsanu, qušät Bäˁatti</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Bäʿatti</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.310133</latitude>
 </latitudes>
@@ -22,10 +22,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1831</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Däğğazmač Säbagadis (d. 1831) established Bäˁatti Qәddus Mikaˀel as monastery (gädam).</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Däğğazmač Säbagadis (d. 1831) established Bäʿatti Qәddus Mikaʾel as monastery (gädam).</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. The monastic community disappeared long ago.&#13;
-Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qəddus, ˀArsema.</condition>
+Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">7 Mss. photographed: DMB-001 "Homily of St. Michael"; DMB-002 "Homily of St. Michael"; DMB-003 "Miracles of Mary"; DMB-004 "Synaxarion (March)"; DMB-005 "Miracles of Mary"; DMB-006 "The Book of the Funeral Rite"; DMB-007 "Four Gospels"; DMB-008 "The Rite of the Holy Week"; DMB-009 "The Book of the Funeral Rite"</description>
 </descriptions>

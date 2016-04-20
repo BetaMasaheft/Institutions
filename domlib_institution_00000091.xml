@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000091" label="domlib_institution_00000091" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ˀAgärhǝse ˀAbunä Mamas / AQM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000091" label="domlib_institution_00000091" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">ʾAgärhǝse ʾAbunä Mamas / AQM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Qǝddusan ˀAbunä Mamas ˀAgärhǝse</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Qǝddusan ʾAbunä Mamas ʾAgärhǝse</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-11-16</from><to>2010-11-16</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Šäwit Lämläm, qušät ˀAgärhǝse</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Šäwit Lämläm, qušät ʾAgärhǝse</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.44875</latitude>
 </latitudes>
@@ -24,9 +24,9 @@
 </foundtodates>
 <txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">The date provided by the local tradition is 1295 year of mercy.</txfndate>
 </txfndates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Accodring to local tradition, the founder was ˀabunä Mamas (from the time of King ˁAmdä Ṣəyon I, r. 1314-44).</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Accodring to local tradition, the founder was ʾabunä Mamas (from the time of King ʿAmdä Ṣǝyon I, r. 1314-44).</founder>
 </founders>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gätär. According to the Vita of saint Bä-ṣälotä Mikaˀel of Däbrä Gol (ˀAmhara), he was exiled to Gulo Mäkäda and died at Gwədgwəde, which seems to have been a name of the area around ˀAgärhǝse. Local tradition remembers him and confirms that his burial place is in the vicinity. &#13;
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gätär. According to the Vita of saint Bä-ṣälotä Mikaʾel of Däbrä Gol (ʾAmhara), he was exiled to Gulo Mäkäda and died at Gwǝdgwǝde, which seems to have been a name of the area around ʾAgärhǝse. Local tradition remembers him and confirms that his burial place is in the vicinity. &#13;
 Tabots (4): Mary, Michael, Mamas, Raphael.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">25 Mss.; 10 Mss. photographed: AQM-001 "Vita of Mamas"; AQM-002 "Vita of Mamas"; AQM-003 "Four Gospels"; AQM-004 "The Book of the Baptismal Rite"; AQM-005 "Miracles of Jesus"; AQM-006 "Miracles of Mary"; AQM-007 "Miracles of Jesus"; AQM-008 "Missal"; AQM-009 "Missal"; AQM-010 "The Book of the Funeral Rite"</description>

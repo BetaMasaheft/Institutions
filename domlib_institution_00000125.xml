@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000125" label="domlib_institution_00000125" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Siˁet Qәddәst Maryam / GMS</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000125" label="domlib_institution_00000125" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Siʿet Qәddәst Maryam / GMS</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Gännät Qәddәst Maryam Siˁet</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Gännät Qәddәst Maryam Siʿet</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-07</from><to>2010-12-07</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Dәbla Siˁet, qušät Siˁet</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Dәbla Siʿet, qušät Siʿet</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.205083</latitude>
 </latitudes>
@@ -22,10 +22,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">According to local tradition, the foundation took place during the time of King ˁAmdä Ṣəyon I (r. 1314-44).</txfndate>
+<txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">According to local tradition, the foundation took place during the time of King ʿAmdä Ṣǝyon I (r. 1314-44).</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. Formerly, the church could have a different name, cp. GSM-002, Zäg(g)abo/Zäg(g)abu Maryam. Currently, the site accomodates two churches. The recent (late 19th or 20th cent.?), rectangular church dedicated to Kidanä Mǝḥrät stands below, and the old rock-hewn church dedicated to St. Mary is located above, cut in the rock. Many holes and small caves can be seen in the vertical rock around its entrance, formerly used as burials (in a few of them wooden caffins could still be seen) or dwellings of the monks.&#13;
-Tabots (7): Kidanä Məḥrät, Mary, George, Michael, Trinity, Mädḫane ˁAläm, Twenty-Four Heavenly Priests (marble).</condition>
+Tabots (7): Kidanä Mǝḥrät, Mary, George, Michael, Trinity, Mädḫane ʿAläm, Twenty-Four Heavenly Priests (marble).</condition>
 </conditions>
 <abouts class="MCRMetaLangText" heritable="false" notinherit="false"><about xml:lang="en" inherited="0" form="plain">R. PLANT, Architecture of the Tigre, Ethiopia, Worcester 1985, here 100-01, no. 100.&#13;
 R. SAUTER, “Où en sont notre connaissance des églises rupestres d’Éthiopie?” Annales d’Éthiopie 5, 1963, 235-292, here 163, no. 1012.</about>

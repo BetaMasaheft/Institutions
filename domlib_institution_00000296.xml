@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000296" label="domlib_institution_00000296" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">May Gaba Mikaˀel / MMGA</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000296" label="domlib_institution_00000296" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">May Gaba Mikaʾel / MMGA</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qəddus Mikaˀel May Gaba</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qǝddus Mikaʾel May Gaba</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2015-03-21</from><to>2015-03-21</to></visitdate>
 </visitdates>
@@ -8,9 +8,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Wälqayt, ṭabiya May Gaba, qušät ˀAddisu</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Wälqayt, ṭabiya May Gaba, qušät ʾAddisu</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.786626</latitude>
 </latitudes>
@@ -22,10 +22,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1953</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The present church, now in the town of May Gaba, was established by fitawrari Yəlma in the time of Emperor Ḫaylä Śəllase, in 1953. May Gaba itself was fouded around 1971.&#13;
-But the tabot of St. Michael was brought from the church of Bet Mulu, the "castle" of the 18th cent. governor ˀAyanäzgi (its remains standing on the hill, not far from May Gaba).</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The present church, now in the town of May Gaba, was established by fitawrari Yǝlma in the time of Emperor Ḫaylä Śǝllase, in 1953. May Gaba itself was fouded around 1971.&#13;
+But the tabot of St. Michael was brought from the church of Bet Mulu, the "castle" of the 18th cent. governor ʾAyanäzgi (its remains standing on the hill, not far from May Gaba).</founder>
 </founders>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam, but there are no monks. The church is said to be supervised by the monks from Waldəbba (Betä Minas)  &#13;
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam, but there are no monks. The church is said to be supervised by the monks from Waldǝbba (Betä Minas)  &#13;
 Only one tabot: St. Michael.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">At least 14 Mss. Many books originate from the former church at Bet Mulu.</description>

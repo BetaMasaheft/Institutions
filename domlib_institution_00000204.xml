@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saˁsi Ṣaˁda ˀƎmba, ṭabiya Səndäda, qušät Ṣäbäla</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝndäda, qušät Ṣäbäla</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">13.9773</latitude>
 </latitudes>
@@ -25,6 +25,6 @@
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. Currently, there are no monks. &#13;
 Tabots (2): Mary, Michael.</condition>
 </conditions>
-<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">9 Mss. photographed: SDGM-001 “Four Gospels”; SDGM-002 “Synaxarion (September - February)”; SDGM-003 “The Rite of the Holy Week”; SDGM-004 “Vita of Abunä Täklä Haymanot”; SDGM-005 “Prayer of Incense”; SDGM-006 “Miracles of Mary”; SDGM-007 “The Book of Gəṣṣəw”; SDGM-008 “Homily on St. Michael”; SDGM-009 “Miracles of Mary”.</description>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">9 Mss. photographed: SDGM-001 “Four Gospels”; SDGM-002 “Synaxarion (September - February)”; SDGM-003 “The Rite of the Holy Week”; SDGM-004 “Vita of Abunä Täklä Haymanot”; SDGM-005 “Prayer of Incense”; SDGM-006 “Miracles of Mary”; SDGM-007 “The Book of Gǝṣṣǝw”; SDGM-008 “Homily on St. Michael”; SDGM-009 “Miracles of Mary”.</description>
 </descriptions>
 </metadata><service><servdates class="MCRMetaISO8601Date"><servdate inherited="0" type="createdate">2012-02-29T09:46:18.215Z</servdate><servdate inherited="0" type="modifydate">2014-12-03T19:42:17.757Z</servdate></servdates><servflags class="MCRMetaLangText"><servflag xml:lang="en" inherited="0" form="plain" type="creator">DNosnitsin</servflag><servflag xml:lang="en" inherited="0" form="plain" type="editor">DNosnitsin</servflag></servflags><servacls class="MCRMetaAccessRule"><servacl permission="deletedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioadmins"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="read"><condition format="xml"><boolean operator="and"><boolean operator="true"/><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl><servacl permission="writedb"><condition format="xml"><boolean operator="and"><boolean operator="or"><condition field="group" operator="=" value="admingroup"/><condition field="group" operator="=" value="ethioleaders"/></boolean><boolean operator="true"/><boolean operator="true"/></boolean></condition></servacl></servacls></service></mycoreobject>

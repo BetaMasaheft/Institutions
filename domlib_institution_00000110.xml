@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000110" label="domlib_institution_00000110" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Qiˁat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000110" label="domlib_institution_00000110" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Ṣǝyon Qǝddǝst Maryam Qiˁat</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Ṣǝyon Qǝddǝst Maryam Qiʿat</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-02</from><to>2010-12-02</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya ˀAzäba, qušät Qiˁat</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya ʾAzäba, qušät Qiʿat</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.178333</latitude>
 </latitudes>
@@ -25,7 +25,7 @@
 <txfndates class="MCRMetaLangText" heritable="false" notinherit="false"><txfndate xml:lang="en" inherited="0" form="plain">Local tradition tells that the religious sites existed before the advent of Christinity.</txfndate>
 </txfndates>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
-Tabots (9): God Father, Kiros, Four Living Creatures, Twenty-Four Heavenly Priests, 2 of Mary, Libanos, Zärˀa Buruk, Gäbrä Nazrawi.</condition>
+Tabots (9): God Father, Kiros, Four Living Creatures, Twenty-Four Heavenly Priests, 2 of Mary, Libanos, Zärʾa Buruk, Gäbrä Nazrawi.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">12 Mss. photographed: QDS-001 "Miracles of Jesus"; QDS-002 "Missal"; QDS-003 "Four Gospels"; QDS-004 "Homily of the Saviour of the World"; QDS-005 "The Faith of the Fathers"; QDS-006 "The Book of the Funeral Rite"; QDS-007 "Homily of St. Michael"; QDS-008 "Vita of Libanos"; QDS-009 "Collection of Hymns"; QDS-010 "Pauline Epistles"; QDS-011 "Vita of Gäbrä Nazrawi"; QDS-012 "Collection of Maryam Prayers and Hymns"; QDS-013 "Book of Images".</description>
 </descriptions>

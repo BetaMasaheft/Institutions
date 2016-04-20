@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000251" label="domlib_institution_00000251" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Məngaś Qəddəst Maryam / MQMA</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000251" label="domlib_institution_00000251" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mǝngaś Qǝddǝst Maryam / MQMA</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Maryam Məngaś</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Maryam Mǝngaś</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2012-11-16</from><to>2012-11-16</to></visitdate>
 </visitdates>
@@ -8,9 +8,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Gwaḥgot, qušät Məngaś</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Mǝngaś</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.177933</latitude>
 </latitudes>
@@ -27,7 +27,7 @@
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. &#13;
 Tabots (2): Täklä Haymanot, Mary.</condition>
 </conditions>
-<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">15 Mss., objects photographed: MQMA-001 “Four Gospels”; MQMA-002 “Book of the Funeral Rite; Excerpts from the hymonody books”; MQMA-003 “Homiliary for the feasts St. Michael”; MQMA-004 “Miracles of Mary”; MQMA-005 “ˀAragawi Mänfäsawi; Vita of ˀabunä Täklä Maryam; Prayers of entrusting oneself; Exposition of Jesus”; MQMA-006 “Praise of God ”; MQMA-007 “Dǝggwa”; MQMA-008 “Vita of Täklä Haymanot”; MQMA-009 “The Rite of the Passion Week”; MQMA-010 “Miracles of Mary”; MQMA-011 “Missal”; MQMA-012 “Miracles of Jesus”; MQMA-013 “Psalter”; MQMA-014 “Prayers to St. Mary Horologium; Miracles of Mary; Sälam-hymns”; MQMA-015 “Death of Muse (and other texts)”.</description>
+<descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">15 Mss., objects photographed: MQMA-001 “Four Gospels”; MQMA-002 “Book of the Funeral Rite; Excerpts from the hymonody books”; MQMA-003 “Homiliary for the feasts St. Michael”; MQMA-004 “Miracles of Mary”; MQMA-005 “ʾAragawi Mänfäsawi; Vita of ʾabunä Täklä Maryam; Prayers of entrusting oneself; Exposition of Jesus”; MQMA-006 “Praise of God ”; MQMA-007 “Dǝggwa”; MQMA-008 “Vita of Täklä Haymanot”; MQMA-009 “The Rite of the Passion Week”; MQMA-010 “Miracles of Mary”; MQMA-011 “Missal”; MQMA-012 “Miracles of Jesus”; MQMA-013 “Psalter”; MQMA-014 “Prayers to St. Mary Horologium; Miracles of Mary; Sälam-hymns”; MQMA-015 “Death of Muse (and other texts)”.</description>
 </descriptions>
 <furthers class="MCRMetaLangText" heritable="false" notinherit="false"><further xml:lang="en" inherited="0" form="plain">L.SERNICOLA,"New archaeological evidence in the area of ʻAddigrat (Eastern Tǝgray)", Rassegna di studi etiopici 4 (nova seria) 2012, pp.61-68.</further>
 </furthers>

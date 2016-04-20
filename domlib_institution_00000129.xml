@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Dәbla Siˁet, qušät Dәbla</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Dәbla Siʿet, qušät Dәbla</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.2227</latitude>
 </latitudes>
@@ -22,10 +22,10 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1700</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation in the time of the Aksumite king Sälˁadoba.</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition claims the foundation in the time of the Aksumite king Sälʿadoba.</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#13;
-Tabots (4): Mary, John the Baptist, Gabriel, ˀArägawi.</condition>
+Tabots (4): Mary, John the Baptist, Gabriel, ʾArägawi.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">13 Mss., items recorded: DMD-001 "Vita of Täklä Haymanot, Vita of Ewostatewos"; DMD-002 "Synaxarion (September)"; DMD-003 "Four Gospels"; DMD-004 "Story of St. Mary"; DMD-005 "Missal"; DMD-006 "Vita of Gäbrä Mänfäs Qǝddus"; DMD-007 "The Book of the Funeral Rite"; DMD-008 "Homily of St. Michael"; DMD-009 "Homily of the Saviour of the World"; DMD-010 "Miracles of John"; DMD-011 "The Book of the Chants"; DMD-012 "Synoptic Lectionary for the Year"; DMD-013 "Vita of Kiros"</description>
 </descriptions>

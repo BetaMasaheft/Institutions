@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000186" label="domlib_institution_00000186" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Qändaˁro Qəddus Qirqos / QDQ</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000186" label="domlib_institution_00000186" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Qändaʿro Qǝddus Qirqos / QDQ</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qändaˁro Qirqos</altname>
-<altname xml:lang="en" inherited="0" form="plain">Däbrä Hayl Qəddus Qirqos Qəddus Giyorgis Qändaˁro</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Qändaʿro Qirqos</altname>
+<altname xml:lang="en" inherited="0" form="plain">Däbrä Hayl Qǝddus Qirqos Qǝddus Giyorgis Qändaʿro</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-25</from><to>2011-11-25</to></visitdate>
 </visitdates>
@@ -11,7 +11,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ˀAfäšum, ṭabiya Bäˁatti May Mäsanu, qušät Qändaˁro</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Qändaʿro</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.289933</latitude>
 </latitudes>
@@ -25,8 +25,8 @@
 </foundtodates>
 <founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Local tradition tells that the religious site existed before the advent of Christianity.</founder>
 </founders>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The old church stands outside the sity; the recent church associated with Qändaˁro Qirqos has been built close to the city.  &#13;
-Tabots (4): Qirqos, George, Krəstos Sämra, Maryam (the latter one or two tabots are probably in the recently built church).</condition>
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Däbr. The old church stands outside the sity; the recent church associated with Qändaʿro Qirqos has been built close to the city.  &#13;
+Tabots (4): Qirqos, George, Krǝstos Sämra, Maryam (the latter one or two tabots are probably in the recently built church).</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">15 Mss. photographed: QDQ-001 “Four Gospels”; QDQ-002 “The Rite of the Holy Week”; QDQ-003 “The Book of the Epistle; Miracles of Mary; Miracles of Libanos”; QDQ-004 “Synaxarion (September - August)”; QDQ-005 “Vita of Gäbrä Mänfäs Qǝddus”; QDQ-006 “Vita of Cyriacus”; QDQ-007 “Miracles of Jesus; Vita of St. George”; QDQ-008 “Vita of Täklä Haymanot”; QDQ-009 “Missal”; QDQ-010 “Synoptic Lectionary for the Year”; QDQ-011 “Vita of Abunä Arägawi”; QDQ-012 “Missal”; QDQ-013 “The Book of the Story of the Trinity”; QDQ-014 “The Book of the Matrimony Rite”; QDQ-015 “Missal”.</description>
 </descriptions>
