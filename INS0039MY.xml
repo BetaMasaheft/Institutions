@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0039MY"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Däbrä Maʿṣo Qәddus Yoḥannәs</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T10:20:24.937Z">created</change>
+         <change who="DN" when="2014-11-26T16:07:59.142Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Däbrä Maʿṣo Qәddus Yoḥannәs</placeName>
+               <placeName type="alt">Däbrä Maʿṣo Yoḥannәs</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-10" to="2010-05-11">wäräda Gulo Mäkäda, ṭabiya Taḥtay Qәlʿat, qušät Däbrä Maʿṣo</settlement>
+               <location>
+                  <geo>14.4677 39.450333</geo>
+                  <height unit="m">2595.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1150" notAfter="1300">1150-1300</date>
+                  <desc type="foundation">Possibly during the time of Zagwe dynasty, or even earlier.</desc>
+                  <ab type="history">Däbr. The church stands on a separate peak, not directly accessible from the flat top mountain where the village is located. Local people say that they are descendants of a ḉäwa-group. A monastic community reportedly existed, but died out in Haylä Śǝllase I's time.&#xD;
+Tabots(6): John the Baptist, Michael, Gabriel, Mary, Libanos, George.</ab>
+                  <ab type="description">28 Mss. photographed: <ref target="ESmy001">MY-001</ref> "Acts of the Apostles"; <ref target="ESmy002">MY-002</ref> "Collection of Homilies"; <ref target="ESmy003">MY-003</ref> "The Rite of the Holy Week"; <ref target="ESmy004">MY-004</ref> "Acts of the Apostles"; <ref target="ESmy005">MY-005</ref> "Miracles of Mary"; <ref target="ESmy006">MY-006</ref> "Four Gospels"; <ref target="ESmy007">MY-007</ref> "The Book of the Funeral Rite"; <ref target="ESmy008">MY-008</ref> "Four Gospels"; <ref target="ESmy009">MY-009</ref> "Miracles of Mary"; <ref target="ESmy010">MY-010</ref> "The Book of the Funeral Rite"; <ref target="ESmy011">MY-011</ref> "Missal"; <ref target="ESmy012">MY-012</ref> "Homily of St. Michael"; <ref target="ESmy013">MY-013</ref> "The Book of the Funeral Rite"; <ref target="ESmy014">MY-014</ref> "The Book of the Matrimony Rite"; <ref target="ESmy015">MY-015</ref> "Story of the Trinity"; <ref target="ESmy016">MY-016</ref> "Homily of the Sabbath"; <ref target="ESmy017">MY-017</ref> "Prayer of Incense"; <ref target="ESmy018">MY-018</ref> "Miracles of Mary"; <ref target="ESmy019">MY-019</ref> "Vita of John the Baptist"; <ref target="ESmy020">MY-020</ref> "The Book of the Funeral Rite"; <ref target="ESmy021">MY-021</ref> "Litany of the Morning"; <ref target="ESmy022">MY-022</ref> "Synoptic Lectionary for the Year"; <ref target="ESmy023">MY-023</ref> "Vita of John the Baptist"; <ref target="ESmy024">MY-024</ref> "Homily of the Saviour of the World"; <ref target="ESmy025">MY-025</ref> "Homily of the Saviour of the World"; <ref target="ESmy026">MY-026</ref> "Miracles of Jesus"; <ref target="ESmy027">MY-027</ref> "Vita of  ʾArägawi; Gäbrä Krǝstos"; <ref target="ESmy028">MY-028</ref> "Miracles of Jesus"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

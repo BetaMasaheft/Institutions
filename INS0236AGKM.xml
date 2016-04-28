@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0236AGKM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾAgulaʿ Getesemani Kidanä Mǝḥrät</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-06-29T13:21:27.156Z">created</change>
+         <change who="DN" when="2014-12-21T18:20:03.213Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾAgulaʿ Getesemani Kidanä Mǝḥrät</placeName>
+               <placeName type="alt">ʾAgulaʿ Kidanä Mǝḥrät /</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2012-05-26" to="2012-05-26">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  ʾAgulaʿ, kätäma ʾAgulaʿ</settlement>
+               <location>
+                  <geo>13.691042 39.592547</geo>
+                  <height unit="m">2008.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. However, currently there is no monastic community. A "residence" of Yoḥannǝs IV (two building, recently restored) is located in the vicinity. &#xD;
+Tabots (2): Kidanä Mǝḥrät, Trinity.</ab>
+                  <ab type="description">36 Mss. photographed: <ref target="ESagkm001">AGKM-001</ref>ʺ Four Gospelsʺ; <ref target="ESagkm003">AGKM-003</ref> ʺ1) Octateuch 2) Book of king (in four parts with commentary in Amharic and Gǝʿǝz); <ref target="ESagkm004">AGKM-004</ref> ʺCollection of Sälam- hymnsʺ; <ref target="ESagkm005">AGKM-005</ref> ʺThe Miracles of Maryʺ; <ref target="ESagkm006">AGKM-006</ref> ʺCollection of Sälam- hymns (from sǝnkǝssar, for the whole year)ʺ; <ref target="ESagkm007">AGKM-007</ref> ʺThe Book of the Spiritual Elderʺ; <ref target="ESagkm008">AGKM-008</ref> ʺFour Gospelsʺ; <ref target="ESagkm009">AGKM-009</ref> ʺThe Book of the Funeral Riteʺ; <ref target="ESagkm010">AGKM-010</ref> ʺThe Book of Mar Yǝshaqʺ; <ref target="ESagkm011">AGKM-011</ref> ʺThe collection of Imagesʺ; <ref target="ESagkm012">AGKM-012</ref> ʺThe organ of praiseʺ; <ref target="ESagkm013">AGKM-013</ref> ʺ1) The Book of Collection (Gǝʿǝz) 2) Kinds of Creation (Amharic )ʺ; <ref target="ESagkm014">AGKM-014</ref> ʺThe Mistery of the Trinityʺ; <ref target="ESagkm015">AGKM-015</ref> ʺ1) Epistles of st. Paul 2) Catholic Epistles 3) Acts of Apostler 4) Apocalipse of st. Johnʺ; <ref target="ESagkm016">AGKM-016</ref> ʺSynaxarion (The first half of the years)ʺ; <ref target="ESagkm017">AGKM-017</ref> ʺ1) Collection of Images 2) Praise of the Belovedʺ; <ref target="ESagkm018">AGKM-018</ref> ʺPsalterʺ; <ref target="ESagkm019">AGKM-019</ref> ʺThe Book of Cyrillʺ, etc.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

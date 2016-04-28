@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0248RQG"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rubaḵusa Qǝddus Giyorgis</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2013-01-14T21:13:51.569Z">created</change>
+         <change who="DN" when="2015-01-25T11:41:47.549Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Rubaḵusa Qǝddus Giyorgis</placeName>
+               <placeName type="alt">Rubaḵusa Giyorgis</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2012-11-25" to="2012-11-30">wäräda Dägʿa Tämben, ṭabiya Mikaʾel ʿAbiy, qušät Rubaḵusa</settlement>
+               <location>
+                  <geo>13.596 39.227233</geo>
+                  <height unit="m">1957.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam / monastery. &#xD;
+Tabots (5 in two churches): Kidanä Mǝḥrät, Täklä Haymanot, St. George (main) in the monastic church; Mädḫane ʿAläm (old), Mary in the second church.</ab>
+                  <ab type="description">37 Mss. photographed: <ref target="ESrqg001">RQG-001</ref> “Sinodos ”; <ref target="ESrqg002">RQG-002</ref> “Psalter”; <ref target="ESrqg003">RQG-003</ref> “Gospel of John”; <ref target="ESrqg004">RQG-004</ref> “The Harp of the praise (incomplete at the end)”; <ref target="ESrqg005">RQG-005</ref> “Book of Mar Isaac of Nineveh with commentary”; <ref target="ESrqg006">RQG-006</ref> “The Law of the kings”; <ref target="ESrqg007">RQG-007</ref> “Four Gospels”; <ref target="ESrqg008">RQG-008</ref> “Four Gospels”; <ref target="ESrqg009">RQG-009</ref> “History of the church; Introduction to the Epistles; Mälǝʾǝktä Pawols; Mälǝʾǝktat; Raʾǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; <ref target="ESrqg010">RQG-010</ref> “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; <ref target="ESrqg011">RQG-011</ref> “Spritual Elder; Rule of Abba Pachomiur”; <ref target="ESrqg012">RQG-012</ref> “The Harp of Praise”; <ref target="ESrqg013">RQG-013</ref> “Spritual Elder ”; <ref target="ESrqg014">RQG-014</ref> “Order of the Monastic Profession”; <ref target="ESrqg015">RQG-015</ref> “Psalter with Hymns of Virgin”; <ref target="ESrqg016">RQG-016</ref> “Spritual Elder”; <ref target="ESrqg017">RQG-017</ref> “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; <ref target="ESrqg018">RQG-018</ref> “Praise of God”; <ref target="ESrqg019">RQG-019</ref> “Psalter”; <ref target="ESrqg020">RQG-020</ref> “Absolution of the Son; Pater noster; Book of Hours; Prayers”; <ref target="ESrqg021">RQG-021</ref> “Synaxarion (second half of the year) ”; <ref target="ESrqg022">RQG-022</ref> “Acts of the Apostles”; <ref target="ESrqg023">RQG-023</ref> “Praise of God; Harp of&#xD;
+Praise”; <ref target="ESrqg024">RQG-024</ref> “Commentary to Beauty of the Creation”; <ref target="ESrqg025">RQG-025</ref> “Epistles of St. Paul”; <ref target="ESrqg026">RQG-026</ref> “Commentary to different Prayers”; <ref target="ESrqg027">RQG-027</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of  Gäbrä Mänfäs Qǝddus”; <ref target="ESrqg028">RQG-028</ref> “Synacarion (First half of the year)”; <ref target="ESrqg029">RQG-029</ref> “Psalter”; <ref target="ESrqg030">RQG-030</ref> “Vita of Täklä Haymanot”; <ref target="ESrqg031">RQG-031</ref> “The Rite of the Holy Week”; <ref target="ESrqg032">RQG-032</ref> “Praise of God”; <ref target="ESrqg033">RQG-033</ref> “Books of the NT; Epistles of St. Paul; Acts of th Aposttes; Epistles of St. Peter;  Revelation of John”; <ref target="ESrqg034">RQG-034</ref> “History of Grañ”; <ref target="ESrqg035">RQG-035</ref> “Book of the Nt; Epistles of St. Peter; Epistles of John, etc.; Revelation of John”; <ref target="ESrqg036">RQG-036</ref> “Mǝˤraf”; <ref target="ESrqg037">RQG-037</ref> “Vita of George”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

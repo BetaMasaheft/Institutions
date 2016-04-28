@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0251MQMA"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mǝngaś Qǝddǝst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2013-01-16T12:36:50.831Z">created</change>
+         <change who="DN" when="2015-05-20T09:33:00.561Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Mǝngaś Qǝddǝst Maryam</placeName>
+               <placeName type="alt">Maryam Mǝngaś</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2012-11-16" to="2012-11-16">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Mǝngaś</settlement>
+               <location>
+                  <geo>14.177933 39.477217</geo>
+                  <height unit="m">2460.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">Remains of Aksumite structures have been recorded in the area around.</desc>
+                  <ab type="history">Däbr. &#xD;
+Tabots (2): Täklä Haymanot, Mary.</ab>
+                  <ab type="description">15 Mss., objects photographed: <ref target="ESmqma001">MQMA-001</ref> “Four Gospels”; <ref target="ESmqma002">MQMA-002</ref> “Book of the Funeral Rite; Excerpts from the hymonody books”; <ref target="ESmqma003">MQMA-003</ref> “Homiliary for the feasts St. Michael”; <ref target="ESmqma004">MQMA-004</ref> “Miracles of Mary”; <ref target="ESmqma005">MQMA-005</ref> “ʾAragawi Mänfäsawi; Vita of ʾabunä Täklä Maryam; Prayers of entrusting oneself; Exposition of Jesus”; <ref target="ESmqma006">MQMA-006</ref> “Praise of God ”; <ref target="ESmqma007">MQMA-007</ref> “Dǝggwa”; <ref target="ESmqma008">MQMA-008</ref> “Vita of Täklä Haymanot”; <ref target="ESmqma009">MQMA-009</ref> “The Rite of the Passion Week”; <ref target="ESmqma010">MQMA-010</ref> “Miracles of Mary”; <ref target="ESmqma011">MQMA-011</ref> “Missal”; <ref target="ESmqma012">MQMA-012</ref> “Miracles of Jesus”; <ref target="ESmqma013">MQMA-013</ref> “Psalter”; <ref target="ESmqma014">MQMA-014</ref> “Prayers to St. Mary Horologium; Miracles of Mary; Sälam-hymns”; <ref target="ESmqma015">MQMA-015</ref> “Death of Muse (and other texts)”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0257MALM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäläkusäyto Qǝddǝst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2013-01-18T16:00:02.563Z">created</change>
+         <change who="DN" when="2014-12-15T16:36:42.637Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Mäläkusäyto Qǝddǝst Maryam</placeName>
+               <placeName type="alt">Maryam Mäläkusäyto</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2012-11-12" to="2012-11-13">wäräda Ganta ʾAfäšum, ṭabiya Baḥǝra - Sǝḥeta, qušät Mäläkusäyto</settlement>
+               <location>
+                  <geo>14.192339 39.466972</geo>
+                  <height unit="m">2551.78</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. Two churches located at the site: the older is placed on the rock, the recent, very modest and still under construction is located on the slope closer to the road. &#xD;
+Tabots (3): Mary, Zä-Mikaʾel ʾArägawi (old church), Gäbrä Mikaʾel (new church).</ab>
+                  <ab type="description">18 Mss. photographed: <ref target="ESmalm001">MALM-001</ref> “ The Harp of the praise”;<ref target="ESmalm002">MALM-002</ref> “Homiliary for the feasts of St. Michael”; <ref target="ESmalm003">MALM-003</ref> “Homiliary for the Feasts of St. Michael”; <ref target="ESmalm004">MALM-004</ref> “Four Gospels”; <ref target="ESmalm005">MALM-005</ref> “Miracles of Mary”; <ref target="ESmalm006">MALM-006</ref> “Missal”; <ref target="ESmalm007">MALM-007</ref> “Book of the Funeral Rite”; <ref target="ESmalm008">MALM-008</ref> “Praise of God ”; <ref target="ESmalm009">MALM-009</ref> “Homily for commemeration  of the Saviour of the World”; <ref target="ESmalm010">MALM-010</ref> “Vita of Gäbrä Mikaʾel”; <ref target="ESmalm011">MALM-011</ref> “Book of the letter; Regulations concerning the priest; Excerpts from Zәmmare”; <ref target="ESmalm012">MALM-012</ref> “Book of the  letter; Regulations concerning the priest; Excerpt from Zәmmare”; <ref target="ESmalm013">MALM-013</ref> “Psalter”; <ref target="ESmalm014">MALM-014</ref> “Loosening of Spell”; <ref target="ESmalm015">MALM-015</ref> “Miracles of Jesus”; <ref target="ESmalm016">MALM-016</ref> “Vita of Gäbrä Mikaʾel”; <ref target="ESmalm017">MALM-017</ref> “Magical prayers against evil eye and diseases”; <ref target="ESmalm018">MALM-018</ref> “Homily on the 24 Heavenly priests; Vita of  ʾAbba Yoḥanni”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

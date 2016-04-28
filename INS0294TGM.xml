@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0294TGM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾAmba Tähula Mikaʾel</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2014-07-09T08:20:29.923Z">created</change>
+         <change who="DN" when="2015-07-13T11:49:23.595Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾAmba Tähula Mikaʾel</placeName>
+               <placeName type="alt">ʾAmba Tähula Däbrä Gännät Mikaʾel</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2014-02-05" to="2014-02-05">wäräda Gulo Mäkäda, ṭabiya Rәgbay Mädäbay, qušät ʾAmba Tähula</settlement>
+               <location>
+                  <geo>14.338556 39.358</geo>
+                  <height unit="m">2369.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. &#xD;
+It is considered a monastic community, but currently there are no monks. Local tradition speaks of "one thousand monks" who once resided around.&#xD;
+At the foot of the mountain, there are collapsed structures of a rock-hewn church (?); some caves at the place of ascension to the church appear to be an old church or monks dwelling; a few other caverns in the rock on the other side are were used as burial places.&#xD;
+Tabots (4): Michael, Gabriel, Mary, Täklä Haymanot.</ab>
+                  <ab type="description">16 Mss. photographed: <ref target="EStgm001">TGM-001</ref> “Four Gospels”; <ref target="EStgm002">TGM-002</ref> “Psalter”; <ref target="EStgm003">TGM-003</ref> “Loosening of the Spell”; <ref target="EStgm004">TGM-004</ref> “Book of the feast of Christs Baptism; Prayer of Insense”; <ref target="EStgm005">TGM-005</ref> “Missal”; <ref target="EStgm006">TGM-006</ref> “Missal”; <ref target="EStgm007">TGM-007</ref> “Missal”; <ref target="EStgm008">TGM-008</ref> “Vita of Arägawi”; <ref target="EStgm009">TGM-009</ref> “Book of the Absolution and other text”; <ref target="EStgm010">TGM-010</ref> “Miracles of Mary”; <ref target="EStgm011">TGM-011</ref> “Collection of Prayers”; <ref target="EStgm012">TGM-012</ref> “Horologium”; <ref target="EStgm013">TGM-013</ref> “Miracles of Jesus”; <ref target="EStgm014">TGM-014</ref> “Loosening of the spell”; <ref target="EStgm015">TGM-015</ref> “Homily of abba Jacob of Sarug”; <ref target="EStgm016">TGM-016</ref> “Book of the Funeral Rite”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

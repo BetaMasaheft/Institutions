@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0129DMD"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dǝbla Yoḥannǝs Mäṭmǝq</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-04-25T09:03:49.967Z">created</change>
+         <change who="DN" when="2014-11-29T14:36:52.912Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Dǝbla Yoḥannǝs Mäṭmǝq</placeName>
+               <placeName type="alt">Däbrä Bǝrhan Yoḥannǝs Mäṭmǝq Dǝbla</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-12-09" to="2010-12-09">wäräda Ganta ʾAfäšum, ṭabiya Dәbla Siʿet, qušät Dәbla</settlement>
+               <location>
+                  <geo>14.2227 39.47385</geo>
+                  <height unit="m">2519.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#xD;
+Tabots (4): Mary, John the Baptist, Gabriel, ʾArägawi.</ab>
+                  <ab type="description">13 Mss., items recorded: <ref target="ESdmd001">DMD-001</ref> "Vita of Täklä Haymanot, Vita of Ewostatewos"; <ref target="ESdmd002">DMD-002</ref> "Synaxarion (September)"; <ref target="ESdmd003">DMD-003</ref> "Four Gospels"; <ref target="ESdmd004">DMD-004</ref> "Story of St. Mary"; <ref target="ESdmd005">DMD-005</ref> "Missal"; <ref target="ESdmd006">DMD-006</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESdmd007">DMD-007</ref> "The Book of the Funeral Rite"; <ref target="ESdmd008">DMD-008</ref> "Homily of St. Michael"; <ref target="ESdmd009">DMD-009</ref> "Homily of the Saviour of the World"; <ref target="ESdmd010">DMD-010</ref> "Miracles of John"; <ref target="ESdmd011">DMD-011</ref> "The Book of the Chants"; <ref target="ESdmd012">DMD-012</ref> "Synoptic Lectionary for the Year"; <ref target="ESdmd013">DMD-013</ref> "Vita of Kiros"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

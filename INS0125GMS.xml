@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0125GMS"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siʿet Qәddәst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-04-25T08:36:34.786Z">created</change>
+         <change who="DN" when="2014-12-06T17:29:33.856Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Siʿet Qәddәst Maryam</placeName>
+               <placeName type="alt">Däbrä Gännät Qәddәst Maryam Siʿet</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-12-07" to="2010-12-07">wäräda Ganta Afäšum, ṭabiya Dәbla Siʿet, qušät Siʿet</settlement>
+               <location>
+                  <geo>14.205083 39.4992</geo>
+                  <height unit="m">2700.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">According to local tradition, the foundation took place during the time of King ʿAmdä Ṣǝyon I (r. 1314-44).</desc>
+                  <ab type="history">Däbr. Formerly, the church could have a different name, cp. GSM-002, Zäg(g)abo/Zäg(g)abu Maryam. Currently, the site accomodates two churches. The recent (late 19th or 20th cent.?), rectangular church dedicated to Kidanä Mǝḥrät stands below, and the old rock-hewn church dedicated to St. Mary is located above, cut in the rock. Many holes and small caves can be seen in the vertical rock around its entrance, formerly used as burials (in a few of them wooden caffins could still be seen) or dwellings of the monks.&#xD;
+Tabots (7): Kidanä Mǝḥrät, Mary, George, Michael, Trinity, Mädḫane ʿAläm, Twenty-Four Heavenly Priests (marble).</ab>
+                  <ab type="description">18 Mss., objects photographed: <ref target="ESgms001">GMS-001</ref> "The Rite of the Holy Week"; <ref target="ESgms002">GMS-002</ref> "Four Gospels"; <ref target="ESgms003">GMS-003</ref> "The Book of the Funeral Rite"; <ref target="ESgms004">GMS-004</ref> "Missal"; <ref target="ESgms005">GMS-005</ref> "Miracles of Jesus"; <ref target="ESgms006">GMS-006</ref> "Synaxarion (March)"; <ref target="ESgms007">GMS-007</ref> "The Book of the Funeral Rite"; <ref target="ESgms008">GMS-008</ref> "The Faith of the Fathers"; <ref target="ESgms009">GMS-009</ref> "The Book of the Chants"; <ref target="ESgms010">GMS-010</ref> "Missal"; <ref target="ESgms011">GMS-011</ref> "Homily of the Saviour of the World"; <ref target="ESgms012">GMS-012</ref> "The Book of the Funeral Rite"; <ref target="ESgms013">GMS-013</ref> "Miracles of Mary"; <ref target="ESgms014">GMS-014</ref> "Homily of St. Michael"; <ref target="ESgms015">GMS-015</ref> "Synoptic Lectionary for the Year"; <ref target="ESgms016">GMS-016</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESgms017">GMS-017</ref> "The Book of the Matrimony Rite"; <ref target="ESgms018">GMS-018</ref> "Prayer of Mary"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

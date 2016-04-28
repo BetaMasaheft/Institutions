@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0161BGY"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-08-31T08:30:28.729Z">created</change>
+         <change who="DN" when="2015-07-13T11:43:26.518Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName/>
+               <placeName type="alt">Däbrä Bǝrhan Qǝddus Yoḥannǝs Golʿa</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-05-22" to="2011-05-22">qäbälä 02, Golʿa, ʿAddigrat</settlement>
+               <location>
+                  <geo>14.2968 39.4823</geo>
+                  <height unit="m">2.149</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. The ṣäbäl-source (of ʾArägawi?) is located in the vicinity of the church. &#xD;
+Tabots (4): Gabriel, Trinity, John the Baptist, Peter and Paul.</ab>
+                  <ab type="description">14 Mss. photographed: <ref target="ESbgy001">BGY-001</ref> "Synaxarion (January-June)"; <ref target="ESbgy002">BGY-002</ref> "Four Gospels"; <ref target="ESbgy003">BGY-003</ref> "Miracles of Jesus"; <ref target="ESbgy004">BGY-004</ref> "The Book of the Rite of the Passion Week"; <ref target="ESbgy005">BGY-005</ref> "The Miracles of Mary"; <ref target="ESbgy006">BGY-006</ref> "Four Gospels"; <ref target="ESbgy007">BGY-007</ref> "The Book of the Chants"; <ref target="ESbgy008">BGY-008</ref> "Synaxarion (the first half of the year)"; <ref target="ESbgy009">BGY-009</ref> "Antiphonary"; <ref target="ESbgy010">BGY-010</ref> "Synaxarion (second half of the year)"; <ref target="ESbgy011">BGY-011</ref> "The Book of the Funeral Rite"; <ref target="ESbgy012">BGY-012</ref> "Text devoted to John the Baptist"; <ref target="ESbgy013">BGY-013</ref> "The Homily of St. Michael"; <ref target="ESbgy014">BGY-014</ref> "The Loosening of the Spell"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0034DZ"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Däbrä Zäyt Qәddәst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T10:07:05.570Z">created</change>
+         <change who="DN" when="2014-12-08T13:30:49.211Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Däbrä Zäyt Qәddәst Maryam</placeName>
+               <placeName type="alt">Däbrä Zäyt</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-06" to="2010-05-07">wäräda Gulo Mäkäda, ṭabiya Kәsad Maʿǝtäb, qušät Mәdrä Ruba/Däbrä Zäyt</settlement>
+               <location>
+                  <geo>14.327355 39.40431</geo>
+                  <height unit="m">2443.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. Two churches are located at the site, one recent dedicated to Mary and one old (16th or 17th cent.?) used at specific occassions only.&#xD;
+Tabots(5): 3 of Mary, Jesus, Lalibäla (?).</ab>
+                  <ab type="description">25 Mss. photographed: <ref target="ESdz001">DZ-001</ref> "Four Gospels"; <ref target="ESdz002">DZ-002</ref> "The Book of the Funeral Rite"; <ref target="ESdz003">DZ-003</ref> "Miracles of Mary" and other texts; <ref target="ESdz004">DZ-004</ref> "Vitae of the Apostles"; <ref target="ESdz005">DZ-005</ref> "Miracles of Mary"; <ref target="ESdz006">DZ-006</ref> "Collection of Mälkǝʿ-Poetry"; <ref target="ESdz007">DZ-007</ref> "Story of St. Mary"; <ref target="ESdz008">DZ-008</ref> "The Rite of the Holy Week"; <ref target="ESdz009">DZ-009</ref> "Dǝggwa"; <ref target="ESdz010">DZ-010</ref> "The Rite of the Holy Week"; <ref target="ESdz011">DZ-011</ref> "Missal"; <ref target="ESdz013">DZ-013</ref> "Missal"; <ref target="ESdz014">DZ-014</ref> "Miracles of Mary"; <ref target="ESdz015">DZ-015</ref> "The Book of the Funeral Rite"; <ref target="ESdz016">DZ-016</ref> "Miracles of Jesus"; <ref target="ESdz017">DZ-017</ref> "Synaxarion (September)"; <ref target="ESdz018">DZ-018</ref> "Vita of St. George"; <ref target="ESdz019">DZ-019</ref> "Vita of Täklä Haymanot"; <ref target="ESdz020">DZ-020</ref> "Prayer of Incense"; <ref target="ESdz021">DZ-021</ref> "Story of the Trinity"; <ref target="ESdz022">DZ-022</ref> "Litanies"; <ref target="ESdz023">DZ-023</ref> "Missal"; <ref target="ESdz024">DZ-024</ref> "Four Gospels"; <ref target="ESdz025">DZ-025</ref> "Psalter"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

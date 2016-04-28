@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0065AMQ"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T12:33:42.954Z">created</change>
+         <change who="DN" when="2015-03-04T15:44:20.136Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos</placeName>
+               <placeName type="alt">ʿAddigrat Qirqos</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-19" to="2010-05-19">ʿAddigrat, qäbäle 01</settlement>
+               <location>
+                  <geo>14.273281 39.462697</geo>
+                  <height unit="m">2460.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. The main historical church of ʿAddigrat. &#xD;
+Tabots (4): Qirqos, Urael, Mary, Mädḫane ʿAläm.</ab>
+                  <ab type="description">23 Mss. photographed: <ref target="ESamq001">AMQ-001</ref> "Four Gospels"; <ref target="ESamq002">AMQ-002</ref> "Miracles of Mary"; <ref target="ESamq003">AMQ-003</ref> "The Rite of the Holy Week"; <ref target="ESamq004">AMQ-004</ref> "The Book of the Funeral Rite"; <ref target="ESamq005">AMQ-005</ref> "Miracles of Jesus"; <ref target="ESamq006">AMQ-006</ref> "Book of Ziq- and Mǝʿraf-Hymns"; <ref target="ESamq007">AMQ-007</ref> "Vita of Cyriacus and Julitta"; <ref target="ESamq008">AMQ-008</ref> "The Faith of the Fathers"; <ref target="ESamq009">AMQ-009</ref> "Miracles of Mary; Miracles of Cyriacus; Miracles of Mänfäs Qǝddus"; <ref target="ESamq010">AMQ-010</ref> "Missal"; <ref target="ESamq011">AMQ-011</ref> "Synaxarion (March)"; <ref target="ESamq012">AMQ-012</ref> "Vita of Cyriacus"; <ref target="ESamq013">AMQ-013</ref> "Vita of Täklä Haymanot"; <ref target="ESamq014">AMQ-014</ref> "Miracles of Mary"; <ref target="ESamq015">AMQ-015</ref> "Miracles of Jesus"; <ref target="ESamq016">AMQ-016</ref> " Missal"; <ref target="ESamq017">AMQ-017</ref> "Collection of Hymns"; <ref target="ESamq018">AMQ-018</ref> "Vitae of Gäbrä Mänfäs Qǝddus, ʾArägawi, Gäbrä Krǝstos"; <ref target="ESamq019">AMQ-019</ref> "Homily of St. Michael"; <ref target="ESamq020">AMQ-020</ref> "Homily of Jesus"; <ref target="ESamq021">AMQ-021</ref> "Homily of St. Michael"; <ref target="ESamq022">AMQ-022</ref> "Four Gospels"; <ref target="ESamq023">AMQ-023</ref> "Synaxarion (September)"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

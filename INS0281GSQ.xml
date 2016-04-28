@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0281GSQ"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gwaḥtärat Qirqos</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2014-06-25T17:33:10.420Z">created</change>
+         <change who="DN" when="2015-06-05T11:17:40.543Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Gwaḥtärat Qirqos</placeName>
+               <placeName type="alt">Gwaḥtärat Däbrä Ṣäḥay Qǝddus Qirqos</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2014-01-29" to="2014-02-07">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya Mahbärä Wäyni, qušät Gwaḥtärat</settlement>
+               <location>
+                  <geo>13.653472 39.500889</geo>
+                  <height unit="m">1942.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. Currently, there are no monks, the monastic community declined after 1970s. The church compound is adjacent to the area of the traditional school, with the huts of the students (up to 20).&#xD;
+Tabots (5): 2 of Mary, 2 of Qirqos, one unidentified marble.</ab>
+                  <ab type="description">15 Mss. photographed: <ref target="ESgsq001">GSQ-001</ref> “Four Gospels”; <ref target="ESgsq002">GSQ-002</ref> “1. Orit zä-lelawǝyan 2. Orit zä-fǝträt( fols. 7-18) 3. Tǝmhǝrtä didǝsqǝlya (fols. 19-36) 4. Proverts (fols. 37-40) 5. Orit zä-däʿat (fols. 51-53) 6. Mäṣḥafä Henok (fols. 51-79) 7. MäṣḥafäṬobit (fols. 80-85) 8. Mäṣḥafä ʾṮsayǝyyas (fols.86-94) 9. ʿƎrgätä ʾṮsayǝyyas (94-95) 10. Tägśaš zä-solomon (<ref target="ES100101">100-101</ref>) 11. Mäṣḥafä ʿƎzra (1<ref target="ES03vc108">03vc-108</ref>)”; <ref target="ESgsq003">GSQ-003</ref> “Psalter”; <ref target="ESgsq004">GSQ-004</ref> “Miracles of Qirqos. Image of Qirqos.”; <ref target="ESgsq005">GSQ-005</ref> “1. story of the Fathers 2. Mar Yǝshaq 3. Paradise of montes”; <ref target="ESgsq006">GSQ-006</ref> “Faith of the Fatheres ”; <ref target="ESsq007">SQ-007</ref> “Vita of Kiros”; <ref target="ESgsq008">GSQ-008</ref> “2. Antiphonary for feusts and funeral service”; <ref target="ESgsq009">GSQ-009</ref> “Horologium for the Night and the Morning Hours”; <ref target="ESgsq010">GSQ-010</ref> “Missal”; <ref target="ESgsq011">GSQ-011</ref> “Miracles of Mary”; <ref target="ESgsq012">GSQ-012</ref> “Book of the Funeral Rite”; <ref target="ESgsq013">GSQ-013</ref> “Vita of Täklä Haymanot; Miracles of Täklä Haymanot”; <ref target="ESgsq014">GSQ-014</ref> “Synaxarion (The second half of the year)”; <ref target="ESgsq015">GSQ-015</ref> “Dǝggwa; Ṣomä dǝggwa“.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

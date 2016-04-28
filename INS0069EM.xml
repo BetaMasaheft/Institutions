@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0069EM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʿƎč Maʿre Gäbrä Mänfäs Qǝddus</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T12:44:49.600Z">created</change>
+         <change who="DN" when="2014-12-05T12:10:35.298Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʿƎč Maʿre Gäbrä Mänfäs Qǝddus</placeName>
+               <placeName type="alt">ʿƎč Maʿre Ǝnda Gäbrä Mänfäs Qǝddus</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2010-05-01" to="2010-05-01">wäräda Gulo Mäkäda, ṭabiya Šowit Lämläm, qušät ʿƎč Maʿre</settlement>
+               <location>
+                  <geo>14.430418 39.377927</geo>
+                  <height unit="m">2506.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">The religious site existed already in the Aksumite time.</desc>
+                  <ab type="history">Däbr. Another church, dedicated to St. Mary, is located in the vicinity.&#xD;
+Tabots (1): Gäbrä Mänfäs Qǝddus.</ab>
+                  <ab type="description">1 Mss. photographed; the church possesses some 25 recent Mss.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

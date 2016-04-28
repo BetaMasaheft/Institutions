@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0103AKM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾAmbäsät Kidanä Mǝḥrät </title>
+            <editor key="D,N,"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-01-28T17:08:37.279Z">created</change>
+         <change who="DN" when="2015-05-02T15:43:03.477Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾAmbäsät Kidanä Mǝḥrät </placeName>
+               <placeName type="alt">Kidanä Mǝḥrät ʾAmbäsät</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2010-11-20" to="2010-12-11">wäräda Gulo Mäkäda, ṭabiya ʾAmbäsätä Foqäda, qušät ʾAmbäsät</settlement>
+               <location>
+                  <geo>14.394833 39.406528</geo>
+                  <height unit="m">2537.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. &#xD;
+The old rock-hewn church dedicated to Mäṭṭaʿ/Libanos, below, located in a hardly accessible place and is now deserted. The church of Kidanä Mǝḥrät was built in 1930s, specifically in more accessible place near the road.  &#xD;
+Tabots (2): Libanos, Kidanä Mǝḥrät.</ab>
+                  <ab type="description">28 Mss. photographed: <ref target="ESakm001">AKM-001</ref> "Four Gospels"; <ref target="ESakm001">AKM-001</ref>m magic scroll; <ref target="ESakm002">AKM-002</ref> "Missal; two fragments"; <ref target="ESakm002">AKM-002</ref>m magic scroll; <ref target="ESakm003">AKM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESakm003">AKM-003</ref>m magic scroll; <ref target="ESakm004">AKM-004</ref> "Vita of Libanos"; <ref target="ESakm004">AKM-004</ref>m magic scroll; <ref target="ESakm005">AKM-005</ref> "The Book of the Baptismal Rite"; <ref target="ESakm006">AKM-006</ref> "The Rite of the Holy Week"; <ref target="ESakm007">AKM-007</ref> "Book of Qedǝr"; <ref target="ESakm008">AKM-008</ref> "The Book of the Funeral Rite"; <ref target="ESakm009">AKM-009</ref> "Missal"; <ref target="ESakm010">AKM-010</ref> "Story of St. Mary; Homily of St. Uraʾel"; <ref target="ESakm011">AKM-011</ref> "Book of  ʾAsläṭi"; <ref target="ESakm012">AKM-012</ref> "The Covenant of Grace"; <ref target="ESakm013">AKM-013</ref> "Prayer of Mary"; <ref target="ESakm014">AKM-014</ref> "Collection of Prayers; two fragments"; <ref target="ESakm015">AKM-015</ref> "Miracles of Mary"; <ref target="ESakm015">AKM-015</ref>a "Psalter"; <ref target="ESakm016">AKM-016</ref> "Miracles of Mary"; <ref target="ESakm017">AKM-017</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESakm018">AKM-018</ref> "Book of the Diciples"; <ref target="ESakm019">AKM-019</ref> "The Anaphora of Mary"; <ref target="ESakm020">AKM-020</ref> "The Anaphora of Mary"; <ref target="ESakm021">AKM-021</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref target="ESakm022">AKM-022</ref> "collection of protective texts"; <ref target="ESakm023">AKM-023</ref> "Missal".</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

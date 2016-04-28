@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0179TRM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taḥtay Ruba Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-11-21T19:50:27.631Z">created</change>
+         <change who="DN" when="2014-11-07T10:52:29.187Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Taḥtay Ruba Maryam</placeName>
+               <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam Taḥtay Ruba</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-11-20" to="2011-11-21">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Taḥtay Ruba</settlement>
+               <location>
+                  <geo>14.360983 39.494383</geo>
+                  <height unit="m">2480.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. &#xD;
+Currently there are three churches at the site: a small church of St. Mary on the peak of the rock (visible from Sǝddäyto, SGM), an older and a recent churches below in the compound. Pre-historic rock paintings have been discovered in the vicinity of the site. &#xD;
+Tabots (said to be 6 but only 3 were recalled): Mary, one marble with many names inscribed, Gabriel.</ab>
+                  <ab type="description">27 Mss. photographed: <ref target="EStrm001">TRM-001</ref> “The Faith of the Fathers”; <ref target="EStrm002">TRM-002</ref> “Synaxarion (March-September)”; <ref target="EStrm003">TRM-003</ref> “Miracles of Mary”; <ref target="EStrm004">TRM-004</ref> “Four Gospel, Golden Gospel”; <ref target="EStrm005">TRM-005</ref> “Missal”; <ref target="EStrm006">TRM-006</ref> “Miracles of the Trinity”; <ref target="EStrm007">TRM-007</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="EStrm008">TRM-008</ref> “Psalter”; <ref target="EStrm009">TRM-009</ref> “Psalter incomplete at the beginning.”; <ref target="EStrm010">TRM-010</ref> “Vita of Abunä Arägawi/ Vita Gäbrä Krǝstos”; <ref target="EStrm011">TRM-011</ref> “Vita of Abunä Arägawi/ Vita Gäbrä Krǝstos”; <ref target="EStrm012">TRM-012</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="EStrm013">TRM-013</ref> “Miracles of Mary/ Miracles of Jesus”; <ref target="EStrm014">TRM-014</ref> “Homily on the Saviour of the World ”; <ref target="EStrm015">TRM-015</ref> “Miracles of Jesus”; <ref target="EStrm016">TRM-016</ref> “Book of the Funeral Rite”; <ref target="EStrm017">TRM-017</ref> “Hymns of Mäwasʿǝt”; <ref target="EStrm018">TRM-018</ref> “Collection of Mälkǝʿ-Poetry”; <ref target="EStrm019">TRM-019</ref> “Homily on the Sabbath of Christians”; <ref target="EStrm020">TRM-020</ref> “The Book of Qedar”; <ref target="EStrm021">TRM-021</ref> “Homily on Gabriel”; <ref target="EStrm022">TRM-022</ref> “The Book of the Matrimony Rite”; <ref target="EStrm023">TRM-023</ref> “Vita of Mäzgäbä Śǝllase”; <ref target="EStrm024">TRM-024</ref> “Book of the Funeral Rite”; <ref target="EStrm025">TRM-025</ref> “Homily of Ṣǝyon”; <ref target="EStrm026">TRM-026</ref> “Synaxarion (September - February)”; <ref target="EStrm027">TRM-027</ref> “Prayer of Incense”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

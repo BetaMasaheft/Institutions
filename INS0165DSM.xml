@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0165DSM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-08-31T10:20:52.499Z">created</change>
+         <change who="DN" when="2014-12-05T16:50:41.950Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ</placeName>
+               <placeName type="alt">Mikaʾel Bet Mäḵaʿ / Bet Mäḵaʿ Qәddus Mikaʾel</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-05-14" to="2011-05-14">wäräda Ganta ʾAfäsum, ṭabiya Bǝkot, qušät Bet Mäḵaʿ</settlement>
+               <location>
+                  <geo>14.27175 39.445367</geo>
+                  <height unit="m">2.489</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1494" notAfter="1508">1494-1508</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. A small associated gäṭär-church is dedicated to Gäbrä Mänfäs Qǝddus (GMBM).&#xD;
+Tabots (3): Trinity, Michael, Täklä Haymanot.</ab>
+                  <ab type="description">23 Mss. photographed: <ref target="ESdsm001">DSM-001</ref> "Dǝggwa"; <ref target="ESdsm002">DSM-002</ref> "Four Gospels"; <ref target="ESdsm003">DSM-003</ref> "The Homily of St. Michael"; <ref target="ESdsm004">DSM-004</ref> "Miracles of Jesus"; <ref target="ESdsm005">DSM-005</ref> "Synaxarion (the first half of the year)"; <ref target="ESdsm006">DSM-006</ref> "The Vita of Täklä Haymanot"; <ref target="ESdsm007">DSM-007</ref> "The Book of the Funeral Rite"; <ref target="ESdsm008">DSM-008</ref> "The Prayer of the Incense"; <ref target="ESdsm009">DSM-009</ref> "Antiphonary"; <ref target="ESdsm010">DSM-010</ref> "Synaxarion (the first half of the year)"; <ref target="ESdsm011">DSM-011</ref> "Collection of Prayers"; <ref target="ESdsm012">DSM-012</ref> "The Homily of St. Michael"; <ref target="ESdsm013">DSM-013</ref> "The Faith of the Fathers"; <ref target="ESdsm014">DSM-014</ref> "Antiphonary"; <ref target="ESdsm015">DSM-015</ref> "Missal"; <ref target="ESdsm016">DSM-016</ref> "Psalter"; <ref target="ESdsm017">DSM-017</ref> "The Vita of the Righteous ones, The Homily of the Sabbath of Christianity"; <ref target="ESdsm018">DSM-018</ref> "The Homily of the Sabbath of Christianity"; <ref target="ESdsm019">DSM-019</ref> "Collections of Prayers"; <ref target="ESdsm020">DSM-020</ref> "The Book of the Marriage Ritual"; <ref target="ESdsm021">DSM-021</ref> "1) The Book of the Baptism, 2) The Miracles of Mary"; <ref target="ESdsm022">DSM-022</ref> "The Vita of ʾAbunä ʾArägawi"; <ref target="ESdsm023">DSM-023</ref> "The Homily of St. Raphael"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

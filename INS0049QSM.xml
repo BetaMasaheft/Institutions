@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0049QSM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Qärsäbär Qәddus Mikaʾel</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T10:54:56.208Z">created</change>
+         <change who="DN" when="2015-05-20T09:43:53.689Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Qärsäbär Qәddus Mikaʾel</placeName>
+               <placeName type="alt">Däbrä Sälam Qәddus Mikaʾel Qärsäbär</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-17" to="2010-05-18">wäräda Gulo Mäkäda, ṭabiya Koḵob Ṣәbaḥ, qušät Qärsäbär</settlement>
+               <location>
+                  <geo>14.345286 39.435027</geo>
+                  <height unit="m">2525.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">The religious site existed long before (the building of the church stands on the Aksumite burial place).</desc>
+                  <ab type="history">Däbr.&#xD;
+Tabots (7): Mary, Mädḫane ʿAläm, Michael, George, Gabriel, Trinity, one unidentified marble.</ab>
+                  <ab type="description">38 Mss. photographed: <ref target="ESqsm001">QSM-001</ref> "Synaxarion"; <ref target="ESqsm002">QSM-002</ref> "The Rite of the Holy Week"; <ref target="ESqsm003">QSM-003</ref> "Four Gospels"; <ref target="ESqsm004">QSM-004</ref> "Homily of St. Michael"; <ref target="ESqsm005">QSM-005</ref> "The Book of the Funeral Rite"; <ref target="ESqsm006">QSM-006</ref> "Story of the Holy Trinity"; <ref target="ESqsm007">QSM-007</ref> "Synaxarion"; <ref target="ESqsm008">QSM-008</ref> "Miracles of Jesus"; <ref target="ESqsm009">QSM-009</ref> "Vita of St. George"; <ref target="ESqsm010">QSM-010</ref> "Missal"; <ref target="ESqsm011">QSM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESqsm012">QSM-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESqsm013">QSM-013</ref> "Missal"; <ref target="ESqsm014">QSM-014</ref> "Homily of St. Michael"; <ref target="ESqsm015">QSM-015</ref> "Missal"; <ref target="ESqsm016">QSM-016</ref> "The Book of Liturgical Hymns"; <ref target="ESqsm017">QSM-017</ref> "Miracles of Mary"; <ref target="ESqsm018">QSM-018</ref> "Psalter"; <ref target="ESqsm019">QSM-019</ref> "Collections of Prayers"; <ref target="ESqsm020">QSM-020</ref> "Synoptic Lectionary for the Year"; <ref target="ESqsm021">QSM-021</ref> "The Book of the Funeral Rite"; <ref target="ESqsm022">QSM-022</ref> "Missal"; <ref target="ESqsm023">QSM-023</ref> "The Faith of the Fathers"; <ref target="ESqsm024">QSM-024</ref> "Miracles of Mikaʾel"; <ref target="ESqsm025">QSM-025</ref> "Vita of Täklä Haymanot"; <ref target="ESqsm026">QSM-026</ref> "Prayer of Incense"; <ref target="ESqsm027">QSM-027</ref> "Somä Dǝggwa"; <ref target="ESqsm028">QSM-028</ref> "Book of Prayers"; <ref target="ESqsm029">QSM-029</ref> "Homily of the Saviour of the World"; <ref target="ESqsm030">QSM-030</ref> "Homily of John Chrysostomos"; <ref target="ESqsm031">QSM-031</ref> "The Book of the Baptismal Rite"; <ref target="ESqsm032">QSM-032</ref> "Homily of St. Gabriel"; <ref target="ESqsm033">QSM-033</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESqsm034">QSM-034</ref> "Story of St. Mary"; <ref target="ESqsm035">QSM-035</ref> "Homily of the Sabbath"; <ref target="ESqsm036">QSM-036</ref> "Vita of ʾArägawi"; <ref target="ESqsm037">QSM-037</ref> "Vita of ʾArägawi"; <ref target="ESqsm038">QSM-038</ref> "Vita of Kiros"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

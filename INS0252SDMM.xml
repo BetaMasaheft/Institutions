@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0252SDMM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ṣaḥǝlo Däbrä Ṣäḥay Qǝddǝst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2013-01-18T15:32:43.792Z">created</change>
+         <change who="DN" when="2014-12-15T16:35:52.138Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Ṣaḥǝlo Däbrä Ṣäḥay Qǝddǝst Maryam</placeName>
+               <placeName type="alt">Maryam Ṣaḥǝlo</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2012-11-10" to="2012-11-10">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya Gämad, qušät Ṣaḥǝlo</settlement>
+               <location>
+                  <geo>13.8628 39.551583</geo>
+                  <height unit="m">2318.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
+                  <desc type="foundation">Local tradition claims that the church was founded in the 4th century.</desc>
+                  <ab type="history">Däbr.&#xD;
+Located not far from the famous church of ʾAbrǝha and ʾAṣbǝḥa. &#xD;
+Tabots (3): Mary, Ruphael, one old unidentified tabot.</ab>
+                  <ab type="description">11 Mss. photographed: <ref target="ESsdmm001">SDMM-001</ref> “Four Gospels”; <ref target="ESsdmm002">SDMM-002</ref> “Mǝʿraf”; <ref target="ESsdmm003">SDMM-003</ref> “Miracles of Mary”; <ref target="ESsdmm004">SDMM-004</ref> “Book of  ʾAslǝti”; <ref target="ESsdmm005">SDMM-005</ref> “Psalter”; <ref target="ESsdmm006">SDMM-006</ref> “Book of the passion and the story of crucification of our lord and our saviour Jesus Christ”; <ref target="ESsdmm007">SDMM-007</ref> “Synaxarium (The first half of the year)”; <ref target="ESsdmm008">SDMM-008</ref> “Dǝggwa”; <ref target="ESsdmm009">SDMM-009</ref> “Miracles of Jesus Miracles of Gäbrä Mänfäs Qǝddus”; <ref target="ESsdmm010">SDMM-010</ref> “Synaxarium (II Part)”; <ref target="ESsdmm011">SDMM-011</ref> “Book of the Funeral Rite”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

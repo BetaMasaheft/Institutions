@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0174MAKM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>May ʾAnbäsa Däbrä Gännät Kidanä Mǝḥrät</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-08-31T13:25:31.076Z">created</change>
+         <change who="DN" when="2014-12-10T19:37:30.798Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>May ʾAnbäsa Däbrä Gännät Kidanä Mǝḥrät</placeName>
+               <placeName type="alt">May ʾAnbäsa Kidanä Mǝḥrät / May ʾAnbäsa</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-05-27" to="2011-05-27">wäräda ʾƎndärta,  ṭabiya May ʾAnbäsa, qušät May Mǝʾri</settlement>
+               <location>
+                  <geo>13.525948 39.385106</geo>
+                  <height unit="m">1.943</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. At least 10 monks resided in the monastery at the moment of the visit. A nunnery ʾƎnda Maḥṣun, dedicated to ʾabunä Maḥṣäntä Maryam, is located further down the valley of river Gǝwa. Ruins of other structures (churches or dwellings of monks?) are visible along the river valley. &#xD;
+Tabots: large unidentified number, including Zärʾa Buruk, Maḥṣäntä Maryam, Abrǝham (of Qata) Kidanä Mǝḥrät, Täklä Haymanot, Zion (?), Mary, Yasay, Wäldä Tǝnśaʾe and others.</ab>
+                  <ab type="description">125 Mss. photographed: <ref target="ESmakm001">MAKM-001</ref> "Four Gospels"; <ref target="ESmakm002">MAKM-002</ref> "Psalter"; <ref target="ESmakm003">MAKM-003</ref> "The Life and Miracles of Zärʾa Buruk"; <ref target="ESmakm004">MAKM-004</ref> "Collection of texts"; <ref target="ESmakm005">MAKM-005</ref> "Monasti Ritual, The Life of Abrǝham"; <ref target="ESmakm006">MAKM-006</ref> "Miracles of Mary"; <ref target="ESmakm007">MAKM-007</ref> "Psalter"; <ref target="ESmakm008">MAKM-008</ref> "The Organ of the Praise"; <ref target="ESmakm009">MAKM-009</ref> "The Image of Wäldä Tǝnśaʾe"; <ref target="ESmakm010">MAKM-010</ref> "Psalter"; <ref target="ESmakm011">MAKM-011</ref> "The Book of Gizeyat, Collection of Marian Prayers"; <ref target="ESmakm012">MAKM-012</ref> "The Book of ʾArägawi Mänfäsawi"; <ref target="ESmakm013">MAKM-013</ref> "The Homily of John"; <ref target="ESmakm014">MAKM-014</ref> "Mar Yǝshaq"; <ref target="ESmakm015">MAKM-015</ref> "The Organ of Mary"; <ref target="ESmakm016">MAKM-016</ref> "Antiphonary"; <ref target="ESmakm017">MAKM-017</ref> "The Book of Poetry"; <ref target="ESmakm018">MAKM-018</ref> "The Book of Cyrill"; <ref target="ESmakm019">MAKM-019</ref> "Songs"; <ref target="ESmakm020">MAKM-020</ref> "The Organ of the Praise"; <ref target="ESmakm021">MAKM-021</ref> "Psalter"; <ref target="ESmakm022">MAKM-022</ref> "Missal"; <ref target="ESmakm023">MAKM-023</ref> "Gospel of John"; <ref target="ESmakm024">MAKM-024</ref> "The Homliy of ʿUraʾel"; <ref target="ESmakm025">MAKM-025</ref> "The Book of the Disciples"; <ref target="ESmakm026">MAKM-026</ref> "The Gospel of John"; <ref target="ESmakm027">MAKM-027</ref> "The Gospel of John"; <ref target="ESmakm028">MAKM-028</ref> "The Organ of Mary” and other texts; <ref target="ESmakm029">MAKM-029</ref> "Collection of prayer"; <ref target="ESmakm030">MAKM-030</ref> "The Organ of Mary "; <ref target="ESmakm031">MAKM-031</ref> "Miracles of Jesus"; <ref target="ESmakm032">MAKM-032</ref> "Homily on the Saviour of the World"; <ref target="ESmakm033">MAKM-033</ref> "Vita of Samuʿel"; <ref target="ESmakm034">MAKM-034</ref> "Story of the Trinity"; <ref target="ESmakm035">MAKM-035</ref> "The Passion of the Cross"; <ref target="ESmakm036">MAKM-036</ref> "Vita of Täklä Haymanot"; <ref target="ESmakm037">MAKM-037</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESmakm038">MAKM-038</ref> "Psalter"; <ref target="ESmakm039">MAKM-039</ref> "Kidanat, Anaphora, Sälam hymns, Täʾamrä ʾIyäsus, etc"; <ref target="ESmakm040">MAKM-040</ref> "Mäwasǝʿǝt"; <ref target="ESmakm041">MAKM-041</ref> "Vita of Maḥṣǝntä Maryam"; <ref target="ESmakm042">MAKM-042</ref> "Homily on Rufaʾel"; <ref target="ESmakm043">MAKM-043</ref> "Gospel of John, Miracles of Mary";  <ref target="ESmakm044">MAKM-044</ref> "Four Gospels"; <ref target="ESmakm045">MAKM-045</ref> "Acts of the Apostles"; <ref target="ESmakm046">MAKM-046</ref> "Gädlä Basǝlyos"; <ref target="ESmakm047">MAKM-047</ref> "Zǝmmare, Mäwasǝʿǝt"; <ref target="ESmakm048">MAKM-048</ref> "Psalter"; <ref target="ESmakm049">MAKM-049</ref> "Gospel of John"; <ref target="ESmakm050">MAKM-050</ref> "Psalter"; <ref target="ESmakm051">MAKM-051</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESmakm052">MAKM-052</ref> "Psalter"; <ref target="ESmakm053">MAKM-053</ref> "Vita of Abba Kiros"; <ref target="ESmakm054">MAKM-054</ref> "Organ"; <ref target="ESmakm055">MAKM-055</ref> "Psalter"; <ref target="ESmakm056">MAKM-056</ref> "Book of the Funeral Rite"; <ref target="ESmakm057">MAKM-057</ref> "Synaxarion” (the second part); <ref target="ESmakm058">MAKM-058</ref> "Vita of Täklä Haymanot"; <ref target="ESmakm059">MAKM-059</ref> "Homily on St. Michael"; <ref target="ESmakm060">MAKM-060</ref> "Vita of St. George"; <ref target="ESmakm061">MAKM-061</ref> "Pauline Epistles, Revelation of John"; <ref target="ESmakm062">MAKM-062</ref> "Sea of the Computation"; <ref target="ESmakm062">MAKM-062</ref> "Sea of the Computation"; <ref target="ESmakm063">MAKM-063</ref> "Homily on St. Michael"; <ref target="ESmakm064">MAKM-064</ref> "Synaxarion" (the first part); <ref target="ESmakm065">MAKM-065</ref> "Homily on St. Michael"; <ref target="ESmakm066">MAKM-066</ref> "Book of the Funeral Rite"; <ref target="ESmakm067">MAKM-067</ref> "Psalter"; <ref target="ESmakm068">MAKM-068</ref> "Gospel of John"; <ref target="ESmakm069">MAKM-069</ref> "Book of the Baptismal Rite"; <ref target="ESmakm070">MAKM-070</ref> "Prayers of Incense"; <ref target="ESmakm071">MAKM-071</ref> "The Organ of Mary"; <ref target="ESmakm072">MAKM-072</ref> "Synoptic Lectionary for the Year"; <ref target="ESmakm073">MAKM-073</ref> "Miracles of Jesus"; <ref target="ESmakm075">MAKM-075</ref> "Four Gospels"; <ref target="ESmakm076">MAKM-076</ref> "Psalter"; <ref target="ESmakm077">MAKM-077</ref> "The Justice of the Kings; The Spiritual Cure"; <ref target="ESmakm078">MAKM-078</ref> "Epistles"; <ref target="ESmakm079">MAKM-079</ref> "Gospel of John";  "The Book of the Chants (fragments?)"; <ref target="ESmakm081">MAKM-081</ref> "Psalter"; <ref target="ESmakm082">MAKM-082</ref> "The Loosening of the Spells"; <ref target="ESmakm083">MAKM-083</ref> "Prais of God"; <ref target="ESmakm084">MAKM-084</ref> "Psalter"; <ref target="ESmakm085">MAKM-085</ref> "Psalter"; <ref target="ESmakm086">MAKM-086</ref> "Psalter"; <ref target="ESmakm087">MAKM-087</ref> "Psalter"; <ref target="ESmakm088">MAKM-088</ref> "Psalter"; <ref target="ESmakm089">MAKM-089</ref> "Gospel of John"; <ref target="ESmakm090">MAKM-090</ref> "The Rite of the Holy Week"; <ref target="ESmakm091">MAKM-091</ref> "Spiritual Elder"; <ref target="ESmakm092">MAKM-092</ref> "The Faith of the Fathers"; <ref target="ESmakm093">MAKM-093</ref> "Psalter"; <ref target="ESmakm094">MAKM-094</ref> "Psalter"; <ref target="ESmakm095">MAKM-095</ref> "Psalter"; <ref target="ESmakm096">MAKM-096</ref> "Psalter"; <ref target="ESmakm097">MAKM-097</ref> "Psalter"; <ref target="ESmakm098">MAKM-098</ref> "Psalter"; <ref target="ESmakm099">MAKM-099</ref> "Hymn book"; <ref target="ESmakm100">MAKM-100</ref> "Psalter"; <ref target="ESmakm101">MAKM-101</ref> "Five Pillars of Mystery"; <ref target="ESmakm102">MAKM-102</ref> "Book of the Periods"; <ref target="ESmakm103">MAKM-103</ref> "Psalter"; <ref target="ESmakm104">MAKM-104</ref> "The Books of the Kings"; <ref target="ESmakm105">MAKM-105</ref> "Psalter"; <ref target="ESmakm106">MAKM-106</ref> "The Order of Baptism"; <ref target="ESmakm107">MAKM-107</ref> "Missal"; <ref target="ESmakm108">MAKM-108</ref> "Gospel of John"; <ref target="ESmakm109">MAKM-109</ref>"; <ref target="ESmakm110">MAKM-110</ref> "Missal"; <ref target="ESmakm111">MAKM-111</ref> "Synoptic Lectionary for the Year"; <ref target="ESmakm112">MAKM-112</ref> "Psalter"; <ref target="ESmakm113">MAKM-113</ref> "Dǝggwa for the Lent"; <ref target="ESmakm114">MAKM-114</ref> "Dǝggwa for the Lent"; <ref target="ESmakm115">MAKM-115</ref> "Dǝggwa for the Lent"; <ref target="ESmakm116">MAKM-116</ref> "Mǝʿǝraf; <ref target="ESmakm117">MAKM-117</ref> "Gospel of John"; <ref target="ESmakm118">MAKM-118</ref> "Gospel of John"; <ref target="ESmakm119">MAKM-119</ref> "Homily on the Sabbath";  <ref target="ESmakm120">MAKM-120</ref> "Vita of ʿAbiyä ʾƎgziʾ"; <ref target="ESmakm121">MAKM-121</ref> "Protect me…"; <ref target="ESmakm122">MAKM-122</ref> "Dǝggwa for the Lent"; <ref target="ESmakm123">MAKM-123</ref> "Sea of the Computation; Praise of Mary"; <ref target="ESmakm124">MAKM-124</ref> "The Book of Qedǝr"; <ref target="ESmakm125">MAKM-125</ref> "The Wisest among the Wisest Ones".</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0178QMM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Märgaḥәya Qәddus Mikaʾel</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="SH" when="2011-09-28T18:20:54.022Z">created</change>
+         <change who="DN" when="2014-12-06T17:30:07.235Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Märgaḥәya Qәddus Mikaʾel</placeName>
+               <placeName type="alt">Däbrä Sälam Qәddus Mikaʾel Märgaḥәya</placeName>
+               <placeName type="alt">Märgaḥәya Mikaʾel</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥәyaw</settlement>
+               <location>
+                  <geo>14.277804 39.388802</geo>
+                  <height unit="m">2411.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr.&#xD;
+Tabots (5): Michael, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, Mary.</ab>
+                  <ab type="description">14 Mss. photographed: <ref target="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref target="ESqmm002">QMM-002</ref> "Missal"; <ref target="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref target="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref target="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref target="ESqmm006">QMM-006</ref> "Psalter"; <ref target="ESqmm007">QMM-007</ref> "Missal"; <ref target="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref target="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref target="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref target="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref target="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref target="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

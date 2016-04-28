@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0145MA"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾAndel Qǝddǝst Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-07-19T16:28:30.128Z">created</change>
+         <change who="DN" when="2014-12-06T17:30:40.178Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾAndel Qǝddǝst Maryam</placeName>
+               <placeName type="alt">ʾAndel Maryam</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-05-24" to="2011-05-24">wäräda Ganta ʾAfäšum, ṭabiya Hagärä Sälam, qušät ʾAndel</settlement>
+               <location>
+                  <geo>14.253306 39.414028</geo>
+                  <height unit="m">2900.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">Local tradition tells that the church was founded in the time of King Zärʾa Yaʿqob (r. 1434-68).</desc>
+                  <ab type="history">Gäṭär. &#xD;
+The small old round church stands below the recent one. &#xD;
+Tabots (2): Mary, ʾƎsṭifanos.</ab>
+                  <ab type="description">10 Mss. photographed: <ref target="ESma001">MA-001</ref> "Four Gospels"; <ref target="ESma002">MA-002</ref> "The Vita of St. Ǝsṭifanos"; <ref target="ESma003">MA-003</ref> "Missal"; <ref target="ESma004">MA-004</ref> "Missal"; <ref target="ESma005">MA-005</ref> "The Book of the History of Mary"; <ref target="ESma006">MA-006</ref> "Miracles of Mary"; <ref target="ESma007">MA-007</ref> "The Homily of St. Michael"; <ref target="ESma008">MA-008</ref> "Mäṣḥafä Zena Sǝqlät"; <ref target="ESma009">MA-009</ref> "Miracles of Mary"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

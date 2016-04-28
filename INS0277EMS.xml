@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0277EMS"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾƎndamosa Däbrä Sälam Mäzgäbä Śǝllase</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2014-02-12T17:04:15.546Z">created</change>
+         <change who="DN" when="2015-05-25T18:05:52.453Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾƎndamosa Däbrä Sälam Mäzgäbä Śǝllase</placeName>
+               <placeName type="alt">ʾƎndamosa Mäzgäbä Śǝllase</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2014-02-04" to="2014-02-05">wäräda ʾIrob, ṭabiya ʾƎndamosa, qušät ʾAwado</settlement>
+               <location>
+                  <geo>14.419645 39.512306</geo>
+                  <height unit="m">2545.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
+                  <desc type="foundation">The church might have existed at the site before the 17th cent.</desc>
+                  <ab type="history">Däbr. The recent church building stands near the old one, which is intact. The old church of Gäbäbinno Mikael is located in the vicinity (probably an old rock-hewn structure, but the books are recent). Gundä Gunde is said to be not very far (some 5 hour distance walk).&#xD;
+Tabot (2): Mary, Mäzgäbä Śǝllase.</ab>
+                  <ab type="description">22 Mss. photographed: <ref target="ESems001">EMS-001</ref> “Missal”; <ref target="ESems002">EMS-002</ref> “Miracles of Mary; Miracles of Jesus¸Miracels of Michael¸Miracles of the Saviour of the World”; <ref target="ESems003">EMS-003</ref> “Missal”; <ref target="ESems004">EMS-004</ref> “Gädlä Gäbrä Mänfäs Qǝddus (fols.3ra-68vb);  Täʾamrä Gäbrä Mänfäs Qǝddus (fols. 69ra-91ra)(<ref target="ES92ra117">92ra-117</ref>rb)”; <ref target="ESems005">EMS-005</ref> “Homiliary for the feasts of St. Michael ”; <ref target="ESems006">EMS-006</ref> “Homily on the Sabbath of Christians; Book of the letter (from Heaven)”; <ref target="ESems007">EMS-007</ref> “Vita of Mäzgäbä Śellase”; <ref target="ESems008">EMS-008</ref> “Image of Raguʾel”; <ref target="ESems009">EMS-009</ref> “The Hope of Praise”; <ref target="ESems010">EMS-010</ref> “Sägogawa Maryam (fols.2r-20r); Mälkǝʾa Täklä Haymanot (fols. 24r-38r)”; <ref target="ESems011">EMS-011</ref> “Mahǝletä ṣǝgge (fols. 1ra-43rb); Mälkǝʾa Pawlos wä-Petros (fols. 43rb-54ra); Mälkǝʾa Kiros (fols. 54ra-56va)”; <ref target="ESems012">EMS-012</ref> “Book of the Funeral Rite”; <ref target="ESems013">EMS-013</ref> “Story of Mary”; <ref target="ESems014">EMS-014</ref> “Prayer of St. Mary on Bartas (fols. 2r-37v); Prayer of St. Qopros (fols. 39r-57v); Psalm 118 (fols. 58r-70v); Prayer of Mary to Christos (fols. 71r-73r); Gate of light (fols. 73v-81v); Song of Songs (fols. 82r-91r); Prayer of Jesus Christ (fols. 91v-95r)”; <ref target="ESems015">EMS-015</ref> “Lectionary”; <ref target="ESems016">EMS-016</ref> “Gospel of John”; <ref target="ESems017">EMS-017</ref> “Book of the Feast of Christ's Baptism”; <ref target="ESems018">EMS-018</ref> “Mǝʿraf (fols. 4ra-14rb); Dǝggwa (fols. 15ra-50rb) (Wazenna); Kǝstät zä-ʾaryam (fols.53ra)-62rb)”; <ref target="ESems019">EMS-019</ref> “Vite of Giyorgis; Miracles of  Giyorgis”; <ref target="ESems020">EMS-020</ref> “Yä-ḥǝmamat sälamta (fols. 1ra-14ra); Salam-prayer to Giorgis (fols. 15ra-16vb); Zǝmmare (fols. 17ra-26rb); Mäwaśǝʾt (fols. 27ra-48ra); Zǝmmare for säne (fols. 49ra-56va); Mäṣḥafä ḥassab (Computers) (fols. 57v-64v)”; <ref target="ESems021">EMS-021</ref> “Vite of Mäzgäba Sǝllare; Miracles of Mäzgäba Sǝllare; Image of Mäzgäba Sǝllare; Salutation to Mäzgäba Sǝllare”; <ref target="ESems022">EMS-022</ref> “Four Gospels”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

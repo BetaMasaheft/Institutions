@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0117GBI"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gwaḥgot ʾIyäsus</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-04-24T11:11:40.347Z">created</change>
+         <change who="DN" when="2014-12-21T18:18:38.623Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Gwaḥgot ʾIyäsus</placeName>
+               <placeName type="alt">Däbrä Ṣәge ʾIyäsus Gwaḥgot</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-12-01" to="2010-12-01">wäräda Ganta Afäšum, ṭabiya Gwaḥgot, qušät Betä ʾIyäsus</settlement>
+               <location>
+                  <geo>14.1728 39.4906</geo>
+                  <height unit="m">2.607</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1400">1400-1400</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. Up to 7 small churches under the authority of Gwaḥgot ʾIyäsus, the old rock-hewn church, are scattered around. One more church is the old church dedicated to the Three Youths (Sälästu däqiq). &#xD;
+Tabots (3 + 6): Jesus, Michael, Gabriel; some of the tabots kept in other churches are 2 of Mary, Mädḫane ʿAläm, George, ʾArägawi.</ab>
+                  <ab type="description">13 Mss., objects photographed: <ref target="ESgbi001">GBI-001</ref> "Four Gospels"; <ref target="ESgbi002">GBI-002</ref> "The Rite of the Holy Week"; <ref target="ESgbi003">GBI-003</ref> "Collection of Liturgical Texts"; <ref target="ESgbi004">GBI-004</ref> "Psalter"; <ref target="ESgbi005">GBI-005</ref> "Five Pillars of the Mystery"; <ref target="ESgbi006">GBI-006</ref> "The Faith of the Fathers"; <ref target="ESgbi007">GBI-007</ref> "Miracles of Jesus"; <ref target="ESgbi008">GBI-008</ref> "Synaxarion (March)"; <ref target="ESgbi009">GBI-009</ref> "Missal"; <ref target="ESgbi010">GBI-010</ref> "Homily of the Saviour of the World "; <ref target="ESgbi011">GBI-011</ref> "Miracles of Mary"; <ref target="ESgbi012">GBI-012</ref> "Missal"; <ref target="ESgbi013">GBI-013</ref> "Homily of the Saviour of the World"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

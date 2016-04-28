@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0210SFM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sänqaṭa Fǝrewäyni Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-03-02T11:53:53.751Z">created</change>
+         <change who="DN" when="2015-01-25T11:38:39.923Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Sänqaṭa Fǝrewäyni Maryam</placeName>
+               <placeName type="alt">Sänqaṭa Fǝrewäyni Däbrä Ṣǝge Qǝddǝst Maryam</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2011-12-06" to="2011-12-06">wäräda Saʿsi Ṣaʿda ʾƎmba, town of Sänqaṭa</settlement>
+               <location>
+                  <geo>14.054617 39.569</geo>
+                  <height unit="m">2460.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1670" notAfter="1755">1670-1755</date>
+                  <desc type="foundation">Local tradition claims the foundation in the time of King ʾIyasu (ʾIyasu I, r. 1682-1706, or ʾIyasu II, r. 1730-55).</desc>
+                  <ab type="history">Däbr. &#xD;
+Tabots (2): Mary, Kidanä Mǝḥrät.</ab>
+                  <ab type="description">8 Mss. photographed: <ref target="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref target="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref target="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref target="ESsfm004">SFM-004</ref> “Psalter”; <ref target="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref target="ESsfm006">SFM-006</ref> “Psalter”; <ref target="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref target="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

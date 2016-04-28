@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0053SM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säbäya Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T11:00:41.653Z">created</change>
+         <change who="DN" when="2014-12-04T17:26:25.088Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Säbäya Maryam</placeName>
+               <placeName type="alt">Däbrä Gännät Qәddәst Maryam Säbäya</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2010-05-13" to="2010-05-14">wäräda  Gulo Mäkäda, ṭabiya Säbäya, qušät Säsäḥayto</settlement>
+               <location>
+                  <geo>14.4692 39.4974</geo>
+                  <height unit="m">2120.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. An archaeological site of the pre-Aksumite period is located in the vicinity.&#xD;
+Tabots (11): 8 old, 3 recently added; some of them are Mädḫane ʿAläm, George, Täklä Haymanot, Gäbrä Mänfäs Qǝddus, Mary, Michael, Gabriel, Yonas, Trinity.</ab>
+                  <ab type="description">18 Mss. photographed: <ref target="ESsm001">SM-001</ref> "Miracles of Jesus"; <ref target="ESsm002">SM-002</ref> "Psalter"; <ref target="ESsm003">SM-003</ref> "Four Gospels"; <ref target="ESsm004">SM-004</ref> "Antiphonary"; <ref target="ESsm005">SM-005</ref> "The Book of the Chants"; <ref target="ESsm006">SM-006</ref> "The Rite of the Holy Week"; <ref target="ESsm007">SM-007</ref> "Synaxarion (March)"; <ref target="ESsm008">SM-008</ref> "Vita of ʿAbiyä ʾƎgziʾ"; <ref target="ESsm009">SM-009</ref> "Psalter"; <ref target="ESsm010">SM-010</ref> "Miracles of Mary"; <ref target="ESsm011">SM-011</ref> "Psalter"; <ref target="ESsm012">SM-012</ref> "Psalter"; <ref target="ESsm013">SM-013</ref> "Homily of St. Michael"; <ref target="ESsm014">SM-014</ref> "Synaxarion (September)"; <ref target="ESsm015">SM-015</ref> "Four Gospels"; <ref target="ESsm016">SM-016</ref> "Book of  ʾAsläṭi"; <ref target="ESsm017">SM-017</ref> "Psalter"; <ref target="ESsm018">SM-018</ref> "Story of St. Mary"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

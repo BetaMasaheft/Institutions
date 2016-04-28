@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0042MR"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mәdrä Ruba Sәllase</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T10:22:03.150Z">created</change>
+         <change who="DN" when="2015-07-15T08:09:11.067Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Mәdrä Ruba Sәllase</placeName>
+               <placeName type="alt">Däbrä Gännät Qәddәst Sәllase Mәdrä Ruba</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-11" to="2010-05-13">wäräda Gulo Mäkäda, ṭabiya Marta, qušät Däbrä Gännät</settlement>
+               <location>
+                  <geo>14.487367 39.434383</geo>
+                  <height unit="m">2202.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">The oldest Mss. (fragments) from the local collection date to the 15th cent.</desc>
+                  <ab type="history">Däbr. Formerly, the church of Mästǝḥ ʾAbunä Libanos existed in the vicinity of Mǝdrä Ruba. According to the local people, some time in 1970s the community decided that it should be merged with the church of Mǝdrä Ruba Śǝllase. Therefore the tabot(s), books and church utensils of Mästǝḥ were moved to Mǝdrä Ruba Śǝllase.&#xD;
+Tabos (7): Libanos, Mary, Michael, Qirqos, Trinity, Gabriel, ʾAnanya.</ab>
+                  <ab type="description">46 Mss. photographed: <ref target="ESmr001">MR-001</ref> "Miracles of Mary"; <ref target="ESmr002">MR-002</ref> "The Book of the Funeral Rite"; <ref target="ESmr003">MR-003</ref> "Synaxarion"; <ref target="ESmr004">MR-004</ref> "Liturgical Texts; Prayer of Incense"; <ref target="ESmr005">MR-005</ref> "The Organ of Praise"; <ref target="ESmr006">MR-006</ref> "Prayers"; <ref target="ESmr007">MR-007</ref> "Missal"; <ref target="ESmr008">MR-008</ref> "Missal"; <ref target="ESmr009">MR-009</ref> "Homily of the Sabbath"; <ref target="ESmr010">MR-010</ref> "The Book of the Matrimony Rite"; <ref target="ESmr011">MR-011</ref> "Acts of the Apostles"; <ref target="ESmr012">MR-012</ref> "Homily of the Sabbath"; <ref target="ESmr013">MR-013</ref> "Missal"; <ref target="ESmr014">MR-014</ref> "Vita of John the Baptist"; <ref target="ESmr014">MR-014</ref>b "Missal"; <ref target="ESmr015">MR-015</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESmr016">MR-016</ref> "Prayer of the Saviour of the World"; <ref target="ESmr017">MR-017</ref> "Prayer of Incense"; <ref target="ESmr018">MR-018</ref> "Book of Mǝʿraf-Hymns"; <ref target="ESmr019">MR-019</ref> "Missal"; <ref target="ESmr020">MR-020</ref> "Collection of Miracles of Mary; Jesus and other texts"; <ref target="ESmr021">MR-021</ref> "Psalter"; <ref target="ESmr022">MR-022</ref> "The Book of the Funeral Rite"; <ref target="ESmr023">MR-023</ref> "Vita of Cyriacus"; <ref target="ESmr024">MR-024</ref> "Book of  ʾAsläṭi"; <ref target="ESmr025">MR-025</ref> "Missal"; <ref target="ESmr026">MR-026</ref> "Four Gospels"; <ref target="ESmr027">MR-027</ref> "The Book of the Hours"; <ref target="ESmr028">MR-028</ref> "Miracles of Jesus"; <ref target="ESmr029">MR-029</ref> "Miracles of Jesus"; <ref target="ESmr030">MR-030</ref> "Collection of homilies"; <ref target="ESmr031">MR-031</ref> "Psalter of the Night"; <ref target="ESmr032">MR-032</ref> "Four Gospels"; <ref target="ESmr033">MR-033</ref> "Four Gospels"; <ref target="ESmr033">MR-033</ref>b "Homily of St. Michael"; <ref target="ESmr034">MR-034</ref> "Missal"; <ref target="ESmr035">MR-035</ref> "History of Ethiopia"; <ref target="ESmr036">MR-036</ref> "Vita of Täklä Haymanot"; <ref target="ESmr037">MR-037</ref> "Synaxarion"; <ref target="ESmr038">MR-038</ref> "Vita of Täklä Haymanot"; <ref target="ESmr039">MR-039</ref> "The Book of the Baptismal Rite"; <ref target="ESmr040">MR-040</ref> "The Book of the Baptismal Rite"; <ref target="ESmr041">MR-041</ref> "Synaxarion (December)"; <ref target="ESmr043">MR-043</ref> "Story of the Trynity" and different texts"; <ref target="ESmr045">MR-045</ref> "The Faith of the Fathers" and an Amharic treatise.&#xD;
+&#xD;
+The library of the church incorporated books from a church dedicated to Libanos (Libanos of Mäsṭǝḥ), which does not exist any more, as well as the church of Däbrä Mikaʾel ʾƎnba Ḥarisay (the church of the people ʾƎnba/ʾƎmba Ḥarisay/Ḥarišay), which most probably also does not exist any more.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

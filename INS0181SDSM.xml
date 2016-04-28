@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0181SDSM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Säwnä Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-11-29T17:51:18.960Z">created</change>
+         <change who="DN" when="2014-11-12T19:21:05.447Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Säwnä Maryam</placeName>
+               <placeName type="alt">Däbrä Gännät Maryam Säwnä</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2011-11-29" to="2011-11-29">wäräda Saʿsiʿ Ṣäʿada ʾƎmba, ṭabiya Säwnä, qušät Säwnä</settlement>
+               <location>
+                  <geo>14.2899 39.716233</geo>
+                  <height unit="m">2282.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1634" notAfter="1667">1634-1667</date>
+                  <desc type="foundation">During time of King Fasilädäs (r. 1632-67).</desc>
+                  <ab type="history">Däbr. Two churches are in the compound: one very recent, one somewhat older. The medieval church of Säwnä is at a different place in the vicinity. The church stands at the administrative border between Tǝgray and ʿAfar regions.&#xD;
+Tabots (6 distributed between 2 churches): Michael, Gäbrä Mänfäs Qǝddus, 2 of Mary, Mädḫane ʿAläm, Raphael.</ab>
+                  <ab type="description">7 Mss. photographed:  <ref target="ESsdsm001">SDSM-001</ref> “Book of the Funeral Rite”; <ref target="ESsdsm002">SDSM-002</ref> “Psalter”; <ref target="ESsdsm003">SDSM-003</ref> “Book of Grammar; The Praise of Mary - ʾAndǝmta”; <ref target="ESsdsm004">SDSM-004</ref> “Four Gospels”; <ref target="ESsdsm005">SDSM-005</ref> “Miracles of Jesus”; <ref target="ESsdsm006">SDSM-006</ref> “Vita of Abunä Gäbrä Mänfäs Qǝddus”; <ref target="ESsdsm007">SDSM-007</ref> “Miracles of Mary”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

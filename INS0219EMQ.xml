@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0219EMQ"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾƎnda Maryam Qorrar</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-06-29T10:04:16.021Z">created</change>
+         <change who="DN" when="2015-07-15T08:16:10.241Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾƎnda Maryam Qorrar</placeName>
+               <placeName type="alt">Däbrä Mädḫanit Qorrar</placeName>
+               <placeName type="alt">Maryam Qorrar</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2012-05-12" to="2012-05-12">wäräda Dägʿa Tämben, ṭabiya Särät, qušät ʾƎnda Maryam Qorrar</settlement>
+               <location>
+                  <geo>13.5813 39.123767</geo>
+                  <height unit="m">2655.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
+                  <desc type="foundation">During the reign of King ʿAmdä Ṣǝyon I (r. 1314-44).</desc>
+                  <ab type="history">Gädam. At least 25 monks live in the community; there is a  well-established church school. A more recent church dedicated to Täklä Haymanot, associated with the monastery, is located in the vicinity.&#xD;
+Tabots (6?): Mary Zion (?), Kidanä Mǝḥrät, Iyäsus, Four Living Creatures, George, separately one tabot of ʿAbiyä ʾƎgziʾ was mentioned.</ab>
+                  <ab type="description">85 Mss. photographed, 1 scroll, objects: 86 Mss. photographed; 1 scroll, objects: <ref target="ESemq001">EMQ-001</ref> “Miracles of Mary”; <ref target="ESemq002">EMQ-002</ref> “Psalter”; <ref target="ESemq003">EMQ-003</ref> “Miracles of Mary”; <ref target="ESemq004">EMQ-004</ref> “The Book of Hawi”; <ref target="ESemq005">EMQ-005</ref> “Four Gospel”; <ref target="ESemq006">EMQ-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="ESemq007">EMQ-007</ref> “Mǝʿraf”; <ref target="ESemq008">EMQ-008</ref> “Psalter”; <ref target="ESemq009">EMQ-009</ref> “Psalter”; <ref target="ESemq010">EMQ-010</ref> “Order of the Church; Spiritual Medicine”; <ref target="ESemq011">EMQ-011</ref> “Vita of Filpos”; <ref target="ESemq012">EMQ-012</ref> “The Book of the Hystory of Giyorgis Wäldä ʿAmid”; <ref target="ESemq013">EMQ-013</ref> “Psalter; Images of the Picture”; <ref target="ESemq014">EMQ-014</ref> “The Book of the Spiritual Elder”; <ref target="ESemq015">EMQ-015</ref> “The Organ of Mary”;E <ref target="ESmq016">MQ-016</ref> “Image of Mary; Miracles of Mary”; <ref target="ESemq017">EMQ-017</ref> “Pauline Epistles”; <ref target="ESemq018">EMQ-018</ref> “The Rite of the Passion Week”; <ref target="ESemq019">EMQ-019</ref> “The law of the Kings”; <ref target="ESemq020">EMQ-020</ref> “The Book of the Spiritual Elder”; <ref target="ESemq021">EMQ-021</ref> “Vision of Isaiah”; <ref target="ESemq022">EMQ-022</ref> “Miracles of Jesus”; <ref target="ESemq023">EMQ-023</ref> “Vita of Täklä Haymanot”; <ref target="ESemq024">EMQ-024</ref> “Five Pillars of Mystery; Vita of Marqos; Praise of the Beloved One; Horologium of the Night”; <ref target="ESemq025">EMQ-025</ref> “The Harp of Praise”; <ref target="ESemq026">EMQ-026</ref> “Psalter”; <ref target="ESemq027">EMQ-027</ref> “Psalter”; <ref target="ESemq028">EMQ-028</ref> “The Rite of the Passion Week”; <ref target="ESemq029">EMQ-029</ref> “Psalter”; <ref target="ESemq030">EMQ-030</ref> “Collection of various texts”; <ref target="ESemq031">EMQ-031</ref> “Psalter”; <ref target="ESemq032">EMQ-032</ref> “Psalter”; <ref target="ESemq033">EMQ-033</ref> “Homily of the Four Beast”; <ref target="ESemq034">EMQ-034</ref> “Deggwa for Lent”; <ref target="ESemq035">EMQ-035</ref> “Missal”; <ref target="ESemq036">EMQ-036</ref> “Zǝmmare”; <ref target="ESemq037">EMQ-037</ref> “Gospel of John”; <ref target="ESemq038">EMQ-038</ref> “Praise to God; Image of Christ”; <ref target="ESemq039">EMQ-039</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="ESemq040">EMQ-040</ref> “Mar Yeshaq”; <ref target="ESemq041">EMQ-041</ref> “The Loosening of Speles”; <ref target="ESemq042">EMQ-042</ref> “Gospel of John”; <ref target="ESemq043">EMQ-043</ref> “Mäwasǝʿt”; <ref target="ESemq044">EMQ-044</ref> “Deggwa for Lent”; <ref target="ESemq045">EMQ-045</ref> “Psalter”; <ref target="ESemq046">EMQ-046</ref> “Gospel of John”; <ref target="ESemq047">EMQ-047</ref> “Vita Gäbrä Krǝstos; Vita of ʾArägawi; Gädlä Pantälewon; Gädlä  Kiros”; <ref target="ESemq048">EMQ-048</ref> “Miracles of Mary”; <ref target="ESemq049">EMQ-049</ref> “Homily on St. Michael”; <ref target="ESemq050">EMQ-050</ref> “Miracles of Mary”; <ref target="ESemq051">EMQ-051</ref> “Psalter”; <ref target="ESemq052">EMQ-052</ref> “The Sword of the Trinity”; <ref target="ESemq053">EMQ-053</ref> “Collection of prayers”; <ref target="ESemq054">EMQ-054</ref> “Collection of prayers”; <ref target="ESemq055">EMQ-055</ref> “The Faith of the Fathers”; <ref target="ESemq056">EMQ-056</ref> “The Collection of Images”; <ref target="ESemq057">EMQ-057</ref> “Sinodos”; <ref target="ESemq058">EMQ-058</ref> “The Faith of the Fathers”; <ref target="ESemq059">EMQ-059</ref> “Homily of Zion; Book of the Cock; Lamentation of Mary; Homily by Ephrem on the Passions of Our Lord”; <ref target="ESemq060">EMQ-060</ref> “ʾAryam and other texts”; <ref target="ESemq061">EMQ-061</ref> “I bow to you Divinity...; Image of the Savious of the World”; <ref target="ESemq062">EMQ-062</ref> “The Rite of Passion Week”; <ref target="ESemq063">EMQ-063</ref> “Psalter”; <ref target="ESemq064">EMQ-064</ref> “Psalter”; <ref target="ESemq065">EMQ-065</ref> “Psalter”; <ref target="ESemq066">EMQ-066</ref> “The Disciples and other texts”; <ref target="ESemq067">EMQ-067</ref> “Collection of magic texts”; <ref target="ESemq068">EMQ-068</ref> “Psalter”; <ref target="ESemq069">EMQ-069</ref> “Vita of St. George”; <ref target="ESemq070">EMQ-070</ref> “Praise of God”; <ref target="ESemq071">EMQ-071</ref> “Psalter”; <ref target="ESemq072">EMQ-072</ref> “Collection of Hymns”; <ref target="ESemq073">EMQ-073</ref> “Psalter”; <ref target="ESemq074">EMQ-074</ref> “The Book of Sirak and other texts”; <ref target="ESemq075">EMQ-075</ref> “The Books of the Monks”; <ref target="ESemq076">EMQ-076</ref> “The Book of Cyril”; <ref target="ESemq077">EMQ-077</ref> “Five Pillars of Mystery”; <ref target="ESemq078">EMQ-078</ref> “Psalter”; <ref target="ESemq079">EMQ-079</ref> “Hymns”; <ref target="ESemq080">EMQ-080</ref> “Five Pillars of Mystery”; <ref target="ESemq081">EMQ-081</ref> “Deggwa for Lent”; <ref target="ESemq082">EMQ-082</ref> “Monastic Ritual”; <ref target="ESemq083">EMQ-083</ref> “The Disciples”; <ref target="ESemq084">EMQ-084</ref> “The Fortress of the Cross”; <ref target="ESemq085">EMQ-085</ref> “Psalter”; <ref target="ESemq086">EMQ-086</ref> “The Loosening of Spells”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0163BQM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maryam May ʾAbʾa</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-08-31T09:56:05.454Z">created</change>
+         <change who="DN" when="2014-11-28T10:28:25.971Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Maryam May ʾAbʾa</placeName>
+               <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam/ Däbrä Bǝrhan Qǝddǝst Maryam May ʾAbʾa</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-05-19" to="2011-05-19">wäräda Ganta ʾAfäšum, ṭabiya Bǝkot Nǝḥbi, qušät May ʾAbʾa</settlement>
+               <location>
+                  <geo>14.256283 39.460617</geo>
+                  <height unit="m">2.465</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. The deserted and inaccessible rock-hewn church dedicated to Simon (?) is located at the rocky slope in the vicinity. &#xD;
+Tabots (8): Mary, Michael, Gabriel, Qirqos, George, Sǝmʿon (Apostle Simon?), Kidanä Mǝḥrät, John the Baptist.</ab>
+                  <ab type="description">14 Mss. photographed: <ref target="ESbqm001">BQM-001</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESbqm002">BQM-002</ref> "The Homily of St. Michael"; <ref target="ESbqm003">BQM-003</ref> "Synaxarion (the first half of the year)"; <ref target="ESbqm004">BQM-004</ref> "Four Gospels"; <ref target="ESbqm005">BQM-005</ref> "The Book of the Rite of the Passion Week"; <ref target="ESbqm006">BQM-006</ref> "The Book of the Funeral Rite"; <ref target="ESbqm007">BQM-007</ref> "The Story of the Trinity"; <ref target="ESbqm008">BQM-008</ref> "The Story of the Trinity"; <ref target="ESbqm009">BQM-009</ref> "The Homily of St. Michael"; <ref target="ESbqm010">BQM-010</ref> "Miracles of Jesus"; <ref target="ESbqm011">BQM-011</ref> "Antiphonary, The Book of the Chants, Mäwasǝʾt"; <ref target="ESbqm012">BQM-012</ref> "The Homiliy of St. George"; <ref target="ESbqm013">BQM-013</ref> "Missal"; <ref target="ESbqm014">BQM-014</ref> "The Vita of St. Simon, the Miracles of St. Simon"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

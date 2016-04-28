@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0097AQG"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʿAddi Qolqwal Giyorgis</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-01-07T13:04:19.461Z">created</change>
+         <change who="DN" when="2015-01-25T11:57:00.450Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʿAddi Qolqwal Giyorgis</placeName>
+               <placeName type="alt">Qǝddus Giyorgis ʿAddi Qolqwal</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-11-18" to="2011-11-18">wäräda Gulo Mäkäda, tabiya Ḥabän, qušät ʿAddi Qolqwal</settlement>
+               <location>
+                  <geo>14.42075 39.465111</geo>
+                  <height unit="m">2328.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gäṭär.&#xD;
+Tabots (ca. 10?): some of them are two wooden and one marble of George, one wooden and one marble of Mary, Mädḫane ʿAläm, Trinity.</ab>
+                  <ab type="description">15 Mss. photographed: <ref target="ESaqg001">AQG-001</ref> "Psalter"; <ref target="ESaqg002">AQG-002</ref> "Miracles of Jesus"; <ref target="ESaqg003">AQG-003</ref> "Four Gospels"; <ref target="ESaqg004">AQG-004</ref> "The Rite of the Holy Week"; <ref target="ESaqg005">AQG-005</ref> "Vitae of the Martyrs"; <ref target="ESaqg006">AQG-006</ref> "Book of the Diciples"; <ref target="ESaqg007">AQG-007</ref> "Sinodos"; <ref target="ESaqg008">AQG-008</ref> "Pentateuch"; <ref target="ESaqg009">AQG-009</ref> "The Book of the Funeral Rite"; <ref target="ESaqg010">AQG-010</ref> "The Rite of the Holy Week"; <ref target="ESaqg011">AQG-011</ref> "Miracles of Mary; Miracles of George"; <ref target="ESaqg012">AQG-012</ref> "Missal"; <ref target="ESaqg013">AQG-013</ref> "Four Gospels"; <ref target="ESaqg014">AQG-014</ref> "Homily of St. George"; <ref target="ESaqg015">AQG-015</ref> "Psalter"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

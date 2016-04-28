@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0071FBM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fäqada Maryam</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-06-04T15:30:18.114Z">created</change>
+         <change who="DN" when="2015-07-13T11:15:03.398Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Fäqada Maryam</placeName>
+               <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam Fäqada</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2010-05-21" to="2010-05-21">wäräda Gulo Mäkäda, ṭabiya ʾAmbäsätä Fäqada, qušät ʿAbiyä ʿAddi</settlement>
+               <location>
+                  <geo>14.4051 39.394333</geo>
+                  <height unit="m">2495.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. A few nuns residing in a separated building in the compound. An additional small church dedicated to Mäzgäbä Śǝllase (a head of the monastery Gundä Gunde, 17th-early 18th century) stands nearby in the gorge of river Qärni. It is said to have been built at the place where Mäzgäbä Śǝllase used to pray.&#xD;
+Tabots: Mädḫane ʿAläm, Mary, Mäzgäbä Śǝllase in an additional church (in the gorge).</ab>
+                  <ab type="description">23 Mss. photographed: <ref target="ESfbm001">FBM-001</ref> "Miracles of Mary"; <ref target="ESfbm002">FBM-002</ref> "The Rite of the Holy Week"; <ref target="ESfbm003">FBM-003</ref> "Synaxarion (March)"; <ref target="ESfbm004">FBM-004</ref> "Homily of the Saviour of the World"; <ref target="ESfbm005">FBM-005</ref> "Missal"; <ref target="ESfbm006">FBM-006</ref> "The Book of the Funeral Rite"; <ref target="ESfbm007">FBM-007</ref> "Synaxarion (September)"; <ref target="ESfbm008">FBM-008</ref> "Vita of Mäzgäbä śǝllase"; <ref target="ESfbm009">FBM-009</ref> "Psalter"; <ref target="ESfbm010">FBM-010</ref> "Missal"; <ref target="ESfbm011">FBM-011</ref> "Missal"; <ref target="ESfbm012">FBM-012</ref> "Vita of Mäzgäbä Śǝllase"; <ref target="ESfbm013">FBM-013</ref> "Vita of Täklä Haymanot"; <ref target="ESfbm014">FBM-014</ref> "The Book of the Baptismal Rite"; <ref target="ESfbm015">FBM-015</ref> "Prayer of Incense"; <ref target="ESfbm016">FBM-016</ref> "Acts of the Apostles"; <ref target="ESfbm017">FBM-017</ref> "Homily of St. Michael"; <ref target="ESfbm018">FBM-018</ref> "Miracles of Jesus"; <ref target="ESfbm019">FBM-019</ref> "Miracles of Mary"; <ref target="ESfbm020">FBM-020</ref> "Homily of the Sabbath"; <ref target="ESfbm021">FBM-021</ref> "Four Gospels"; <ref target="ESfbm022">FBM-022</ref> "Story of the Holy Trinity"; <ref target="ESfbm023">FBM-023</ref> "Story of St. Mary"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

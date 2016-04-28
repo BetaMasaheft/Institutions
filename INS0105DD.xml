@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0105DD"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Däbrä Dammo ʾAbunä ʾArägawi</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-01-31T10:29:33.015Z">created</change>
+         <change who="DN" when="2014-11-16T16:32:37.602Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Däbrä Dammo ʾAbunä ʾArägawi</placeName>
+               <placeName type="alt">Däbrä Dammo</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-11-23" to="2012-11-25">wäräda Gulo Mäkäda, ṭabiya Mäzäbǝr, qušät Däbrä Dammo</settlement>
+               <location>
+                  <geo>14.374333 39.292167</geo>
+                  <height unit="m">2261.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="0600" notAfter="0800">0600-0800</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. Monastic community has, reportedly, up to 50 monks.&#xD;
+Below, at the foot of the mount, there is a small church at the place where ʾArägawi, reportedly "disappeared" (therefore called Mǝswarom). A small nunnery is located in the village nearby.&#xD;
+Tabots (a large unidentified number): ʾArägawi, Mary, Täklä Haymanot, Matyas, and many others.</ab>
+                  <ab type="description">45 Mss. photographed: <ref target="ESdd001">DD-001</ref> "Miracles of Mary"; <ref target="ESdd002">DD-002</ref> "The Organ of Praise"; <ref target="ESdd003">DD-003</ref> "Dǝggwa"; <ref target="ESdd004">DD-004</ref> "Psalter"; <ref target="ESdd005">DD-005</ref> "The Justice of the Kings"; <ref target="ESdd006">DD-006</ref> "Miracles of Mary"; <ref target="ESdd007">DD-007</ref> "The Faith of the Fathers"; <ref target="ESdd008">DD-008</ref> "The Faith of the Fathers"; <ref target="ESdd009">DD-009</ref> "Homily of the Living One"; <ref target="ESdd010">DD-010</ref> "Miracles of Mary"; <ref target="ESdd011">DD-011</ref> "Miracles of Jesus"; <ref target="ESdd012">DD-012</ref> "Collection of Homilies"; <ref target="ESdd013">DD-013</ref> "Synaxarion (September)"; <ref target="ESdd014">DD-014</ref> "Pentateuch"; <ref target="ESdd015">DD-015</ref> "Book of Hawi"; <ref target="ESdd015">DD-015</ref>a "Dǝggwa"; <ref target="ESdd016">DD-016</ref> "The Order of the Chruch; The Justice of the Kings"; <ref target="ESdd017">DD-017</ref> "Synaxarion (September)"; <ref target="ESdd018">DD-018</ref> "Synaxarion (March)"; <ref target="ESdd019">DD-019</ref> "Dǝggwa"; <ref target="ESdd020">DD-020</ref> "Synaxarion (March)"; <ref target="ESdd021">DD-021</ref> "The Epistles (NT)"; <ref target="ESdd022">DD-022</ref> "Miracles of Mary"; <ref target="ESdd023">DD-023</ref> "Praise of God"; <ref target="ESdd024">DD-024</ref> "Dǝggwa"; <ref target="ESdd025">DD-025</ref> "Synaxarion (March)"; <ref target="ESdd026">DD-026</ref> "The Book of Cyril of Alexandria"; <ref target="ESdd027">DD-027</ref> "The Book of Mar Isaac"; <ref target="ESdd028">DD-028</ref> "Psalter"; <ref target="ESdd029">DD-029</ref> "Psalter"; <ref target="ESdd030">DD-030</ref> "Psalter"; <ref target="ESdd031">DD-031</ref> "The Book of the Hours/Horologium; History of Wäldä ʿAmid"; <ref target="ESdd032">DD-032</ref> "The Book of the Chants"; <ref target="ESdd033">DD-033</ref> "Psalter"; <ref target="ESdd034">DD-034</ref> "Psalter"; <ref target="ESdd035">DD-035</ref> "Four Gospels"; <ref target="ESdd036">DD-036</ref> "The Spiritual Elder"; <ref target="ESdd037">DD-037</ref> "Synaxarion (March)"; <ref target="ESdd038">DD-038</ref> "Psalter"; <ref target="ESdd039">DD-039</ref> "Synoptic Lectionary for the Year", and a few others.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

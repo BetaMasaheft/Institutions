@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0091AQM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾAgärhǝse ʾAbunä Mamas</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="SA" when="2011-01-06T12:34:26.795Z">created</change>
+         <change who="DN" when="2014-12-01T16:44:33.291Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʾAgärhǝse ʾAbunä Mamas</placeName>
+               <placeName type="alt">Däbrä Qǝddusan ʾAbunä Mamas ʾAgärhǝse</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2010-11-16" to="2010-11-16">wäräda Gulo Mäkäda, ṭabiya Šäwit Lämläm, qušät ʾAgärhǝse</settlement>
+               <location>
+                  <geo>14.44875 39.342167</geo>
+                  <height unit="m">2312.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
+                  <desc type="foundation">The date provided by the local tradition is 1295 year of mercy.</desc>
+                  <ab type="history">Gätär. According to the Vita of saint Bä-ṣälotä Mikaʾel of Däbrä Gol (ʾAmhara), he was exiled to Gulo Mäkäda and died at Gwǝdgwǝde, which seems to have been a name of the area around ʾAgärhǝse. Local tradition remembers him and confirms that his burial place is in the vicinity. &#xD;
+Tabots (4): Mary, Michael, Mamas, Raphael.</ab>
+                  <ab type="description">25 Mss.; 10 Mss. photographed: <ref target="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref target="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref target="ESaqm003">AQM-003</ref> "Four Gospels"; <ref target="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref target="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref target="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref target="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref target="ESaqm008">AQM-008</ref> "Missal"; <ref target="ESaqm009">AQM-009</ref> "Missal"; <ref target="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

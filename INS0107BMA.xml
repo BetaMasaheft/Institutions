@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0107BMA"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʿAddigrat Bet Marya</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-01-31T10:54:22.531Z">created</change>
+         <change who="DN" when="2014-12-05T11:40:13.532Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>ʿAddigrat Bet Marya</placeName>
+               <placeName type="alt">Bet Marya ʿAddigrat</placeName>
+               <placeName type="alt">Bet Maryam ʿAddigrat</placeName>
+               <country>Ethiopia</country>
+               <region>Tǝgray</region>
+               <settlement from="2011-08-11" to="2011-08-11">wäräda Ganta Afäšum, ʿAddigrat qäbälä 2</settlement>
+               <location>
+                  <geo>14.275883 39.4831</geo>
+                  <height unit="m">2454.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
+                  <desc type="foundation">The religious site might have existed already in the ʾAksumite time.</desc>
+                  <ab type="history">Gädam. It is considered as monastery, but there are no monks. There are two churches, one very recent and one a bit older, at the site. An Aksumite burial hewn in the rock is located in the vicinity.&#xD;
+Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema, distributed between two churches (one very recent).</ab>
+                  <ab type="description">4 Mss. photographed: <ref target="ESbma001">BMA-001</ref> "Missal"; <ref target="ESbma002">BMA-002</ref> "Synaxarion"; <ref target="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref target="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0206MSAE"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>May Ṣäʿada Śǝllase</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-03-01T12:47:14.361Z">created</change>
+         <change who="DN" when="2014-12-21T18:25:05.014Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>May Ṣäʿada Śǝllase</placeName>
+               <placeName type="alt">May Ṣäʿada Qǝddǝst Śǝllase</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2011-11-12" to="2011-11-15">wäräda Gulo Mäkäda, ṭabiya May Ṣäʿada, qušät May Ṣäʿada</settlement>
+               <location>
+                  <geo>14.336167 39.4693</geo>
+                  <height unit="m">2455.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Gädam. It is considered a monastic community, but there are no monks. There are two churches at the site, May Ṣäʿada Qǝddǝst Śǝllase and May Ṣäʿada ʾArbaʿtu ʾƎnsǝsa (above), and one more deserted church building (also above).&#xD;
+Tabots (4): Trinity, Mary, Four Living Creatures, Ṣadǝqan of Baräknaha (recently introduced) (distributed between two churches).</ab>
+                  <ab type="description">26 Mss. and one scroll photographed: <ref target="ESmsae001">MSAE-001</ref> “Four Gospels”; <ref target="ESmsae002">MSAE-002</ref> “Synaxarion (March-September)”; <ref target="ESmsae003">MSAE-003</ref> “Synaxarion (September-February)”; <ref target="ESmsae004">MSAE-004</ref> “Four Gospels”; <ref target="ESmsae005">MSAE-005</ref> “The Rite of the Holy Week”; <ref target="ESmsae006">MSAE-006</ref> “The Book of the Story of the Trinity”; <ref target="ESmsae007">MSAE-007</ref> “Vita of Täklä Haymanot”; <ref target="ESmsae008">MSAE-008</ref> “Psalter of Dawit”; <ref target="ESmsae009">MSAE-009</ref> “Homily on the Saviour of the World”; <ref target="ESmsae010">MSAE-010</ref> “Vita of Täklä Haymanot, a fragment”; <ref target="ESmsae011">MSAE-011</ref> “Story of St. Mary”; <ref target="ESmsae012">MSAE-012</ref> “Psalter of Dawit”; <ref target="ESmsae013">MSAE-013</ref> “Prayer of Incense”; <ref target="ESmsae014">MSAE-014</ref> “Book of the Funeral Rite”; <ref target="ESmsae015">MSAE-015</ref> “The Book of the Matrimony Rite”; <ref target="ESmsae016">MSAE-016</ref> “Missal”; <ref target="ESmsae017">MSAE-017</ref> “Synoptic Lectionary for the Year”; <ref target="ESmsae018">MSAE-018</ref> “Miracles of Mary”; <ref target="ESmsae019">MSAE-019</ref> “Synoptic Lectionary for the Year, Bless us, our Lord…”; <ref target="ESmsae020">MSAE-020</ref> “Miracles of Mary”; <ref target="ESmsae021">MSAE-021</ref> “Asmat-prayers, the Prayer of St. Mary on the Mount Golgotha”; <ref target="ESmsae022">MSAE-022</ref> “Missal”; <ref target="ESmsae023">MSAE-023</ref> “Missal”; <ref target="ESmsae024">MSAE-024</ref> “Missal”; <ref target="ESmsae025">MSAE-025</ref> “Miracles of Mary”; <ref target="ESmsae026">MSAE-026</ref> “Vita of the Righteous of Mäṭära”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

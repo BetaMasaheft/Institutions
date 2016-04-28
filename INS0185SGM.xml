@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0185SGM"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sǝddäyto Däbrä Gännät Mikaʾel</title>
+            <editor key="DN:"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-01-28T13:12:54.459Z">created</change>
+         <change who="DN" when="2014-11-07T10:50:55.381Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Sǝddäyto Däbrä Gännät Mikaʾel</placeName>
+               <placeName type="alt">Sǝddäyto Däbrä Gännät Qǝddus Mikaʾel</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2011-11-09" to="2011-11-09">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Sәddäyto</settlement>
+               <location>
+                  <geo>14.376767 39.4901</geo>
+                  <height unit="m">2415.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. &#xD;
+Under the slope of the rock, there are remains of a small church (chapel?) and a typical burial (in a small cave, creened off by a small wall). From that place, one can see the upper church of Taḥtay Ruba Maryam (TRM) located on  the peak of the rock.&#xD;
+Tabots (5): Michael, Mary, Trinity, Ṣadǝqan of Ṗäraqliṭos (recently introduced), Libanos.</ab>
+                  <ab type="description">23 Mss. photographed: <ref target="ESsgm001">SGM-001</ref> “Homily of St. Mary”; <ref target="ESsgm002">SGM-002</ref> “Four Gospels”; <ref target="ESsgm003">SGM-003</ref> “The Book of the Rite of the Passion Week”; <ref target="ESsgm004">SGM-004</ref> “Homily on St. Michael”; <ref target="ESsgm005">SGM-005</ref> “Miracles of Jesus”; <ref target="ESsgm006">SGM-006</ref> “Story of the Trinity”; <ref target="ESsgm007">SGM-007</ref> “The Rite of the Holy Week”; <ref target="ESsgm008">SGM-008</ref> “Book of the Funeral Rite”; <ref target="ESsgm009">SGM-009</ref> “Missal”; <ref target="ESsgm010">SGM-010</ref> “Homily on the Saviour of the World ”; <ref target="ESsgm011">SGM-011</ref> “The Dǝggwa of the Lent”; <ref target="ESsgm012">SGM-012</ref> “Psalter”; <ref target="ESsgm013">SGM-013</ref> “Pauline Epistles”; <ref target="ESsgm014">SGM-014</ref> “Prayer of Incense”; <ref target="ESsgm015">SGM-015</ref> “The Book of Baptism”; <ref target="ESsgm016">SGM-016</ref> “Homily of the Life-Giver”; <ref target="ESsgm017">SGM-017</ref> “Missal”; <ref target="ESsgm018">SGM-018</ref> “The Vita and Miracles of Mäzgäbä Śǝllase”; <ref target="ESsgm019">SGM-019</ref> “fols. <ref target="ES5121">5-121</ref> Homily of Michael; fols. <ref target="ES122153">122-153</ref> The Miracles of Samuʾel”; <ref target="ESsgm020">SGM-020</ref> “Hymnary”; <ref target="ESsgm021">SGM-021</ref> “Miracles of Mary”; <ref target="ESsgm022">SGM-022</ref> “Psalter”; <ref target="ESsgm023">SGM-023</ref> “Miracles of Mary”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

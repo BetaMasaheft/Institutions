@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0186QDQ"
+     type="ins"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Qändaʿro Qǝddus Qirqos</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from Ethio-Spare data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2012-02-07T13:16:44.891Z">created</change>
+         <change who="DN" when="2014-11-26T16:43:23.150Z">last edited</change>
+         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place type="church monastry" subtype="institution">
+               <placeName>Qändaʿro Qǝddus Qirqos</placeName>
+               <placeName type="alt">Qändaʿro Qirqos</placeName>
+               <placeName type="alt">Däbrä Hayl Qǝddus Qirqos Qǝddus Giyorgis Qändaʿro</placeName>
+               <country>Ethiopia</country>
+               <region>Tәgray</region>
+               <settlement from="2011-11-25" to="2011-11-25">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Qändaʿro</settlement>
+               <location>
+                  <geo>14.289933 39.442217</geo>
+                  <height unit="m">2667.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
+                  <desc type="foundation"/>
+                  <ab type="history">Däbr. The old church stands outside the sity; the recent church associated with Qändaʿro Qirqos has been built close to the city.  &#xD;
+Tabots (4): Qirqos, George, Krǝstos Sämra, Maryam (the latter one or two tabots are probably in the recently built church).</ab>
+                  <ab type="description">15 Mss. photographed: <ref target="ESqdq001">QDQ-001</ref> “Four Gospels”; <ref target="ESqdq002">QDQ-002</ref> “The Rite of the Holy Week”; <ref target="ESqdq003">QDQ-003</ref> “The Book of the Epistle; Miracles of Mary; Miracles of Libanos”; <ref target="ESqdq004">QDQ-004</ref> “Synaxarion (September - August)”; <ref target="ESqdq005">QDQ-005</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="ESqdq006">QDQ-006</ref> “Vita of Cyriacus”; <ref target="ESqdq007">QDQ-007</ref> “Miracles of Jesus; Vita of St. George”; <ref target="ESqdq008">QDQ-008</ref> “Vita of Täklä Haymanot”; <ref target="ESqdq009">QDQ-009</ref> “Missal”; <ref target="ESqdq010">QDQ-010</ref> “Synoptic Lectionary for the Year”; <ref target="ESqdq011">QDQ-011</ref> “Vita of Abunä Arägawi”; <ref target="ESqdq012">QDQ-012</ref> “Missal”; <ref target="ESqdq013">QDQ-013</ref> “The Book of the Story of the Trinity”; <ref target="ESqdq014">QDQ-014</ref> “The Book of the Matrimony Rite”; <ref target="ESqdq015">QDQ-015</ref> “Missal”.</ab>
+                  <ab type="appellations">
+                     <list>
+                        <item/>
+                     </list>
+                  </ab>
+               </note>
+               <listBibl type="secondary">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
