@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000113" label="domlib_institution_00000113" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Nәḥbi Qәddus Mikaʾel / NSM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000113" label="domlib_institution_00000113" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Nəḥbi Qəddus Mikaʾel / NSM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Sälam  Qәddus Mikaʾel Nәḥbi</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Sälam  Qəddus Mikaʾel Nəḥbi</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-11-25</from><to>2010-11-26</to></visitdate>
 </visitdates>
@@ -10,7 +10,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nәḥbi</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nəḥbi</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.262</latitude>
 </latitudes>
@@ -22,7 +22,7 @@
 </foundationdates>
 <foundtodates class="MCRMetaISO8601Date" heritable="false" notinherit="false"><foundtodate inherited="0">1500</foundtodate>
 </foundtodates>
-<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The church may be an Aksumite foundation. Aksumite remains (a massive stone bowl, pillar) are found in the church compound. Local tradition does not specify the time of the foundation, but tells that Yǝsḥaq, the founder of Gundä Gunde and adherent of the Stephanite movement, established the monastic community at the church of Nǝḥbi before going to the area where he founded later Gundä Gunde (The Vita of Yǝsḥaq tells only that he was a native of Nәḥbä in ʿAgamä). As other churches and monasteries of the area, the monastic community of Nǝḥbi was favored by däğğazmač Subagadis Wäldu, in the early 19th cent., but it declined in the early 20th cent.  During the Italian period another church dedicated to Zärʾa Buruk was established nearby under the administration of Nǝḥbi Mikaʾel, but it declined in the early 20th cent.</founder>
+<founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">The church may be an Aksumite foundation. Aksumite remains (a massive stone bowl, pillar) are found in the church compound. Local tradition does not specify the time of the foundation, but tells that Yǝsḥaq, the founder of Gundä Gunde and adherent of the Stephanite movement, established the monastic community at the church of Nǝḥbi before going to the area where he founded later Gundä Gunde (The Vita of Yǝsḥaq tells only that he was a native of Nəḥbä in ʿAgamä). As other churches and monasteries of the area, the monastic community of Nǝḥbi was favored by däğğazmač Subagadis Wäldu, in the early 19th cent., but it declined in the early 20th cent.  During the Italian period another church dedicated to Zärʾa Buruk was established nearby under the administration of Nǝḥbi Mikaʾel, but it declined in the early 20th cent.</founder>
 </founders>
 <conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is considered a monastery, but currently there are no monks.&#13;
 Tabots (5): Minas (marble), two of Michael, Bäʾata Maryam (?), Zärʾa Buruk (in additional small church).</condition>

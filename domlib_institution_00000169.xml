@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000169" label="domlib_institution_00000169" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ/ GMBM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ / Gäbrä Mänfäs Qǝddus Däbrä Sahәl</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ / Gäbrä Mänfäs Qǝddus Däbrä Sahəl</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-05-21</from><to>2011-05-21</to></visitdate>
 </visitdates>

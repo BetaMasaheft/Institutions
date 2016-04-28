@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000178" label="domlib_institution_00000178" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Märgaḥәya Qәddus Mikaʾel / QMM</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000178" label="domlib_institution_00000178" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Märgaḥəya Qəddus Mikaʾel / QMM</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Sälam Qәddus Mikaʾel Märgaḥәya</altname>
-<altname xml:lang="en" inherited="0" form="plain">Märgaḥәya Mikaʾel</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Däbrä Sälam Qəddus Mikaʾel Märgaḥəya</altname>
+<altname xml:lang="en" inherited="0" form="plain">Märgaḥəya Mikaʾel</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2010-12-08</from><to>2010-12-08</to></visitdate>
 </visitdates>
@@ -11,7 +11,7 @@
 </countries>
 <areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tǝgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥәyaw</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥəyaw</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.277804</latitude>
 </latitudes>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000237" label="domlib_institution_00000237" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mäkaʿәlo Mäkanä Lǝʿul / MKMG</name>
+<?xml version="1.0" encoding="UTF-8"?><mycoreobject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" ID="domlib_institution_00000237" label="domlib_institution_00000237" version="2.0" xsi:noNamespaceSchemaLocation="datamodel-institution.xsd"><structure/><metadata xml:lang="de"><names class="MCRMetaLangText" heritable="false" notinherit="false"><name xml:lang="en" inherited="0" form="plain">Mäkaʿəlo Mäkanä Lǝʿul / MKMG</name>
 </names>
-<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mäkaʿәlo</altname>
+<altnames class="MCRMetaLangText" heritable="false" notinherit="false"><altname xml:lang="en" inherited="0" form="plain">Mäkaʿəlo</altname>
 </altnames>
 <visitdates class="DLDateInterval" heritable="false" notinherit="false"><visitdate xml:lang="en" inherited="0"><from>2011-11-16</from><to>2011-11-16</to></visitdate>
 </visitdates>
@@ -8,9 +8,9 @@
 </descbys>
 <countries class="MCRMetaLangText" heritable="false" notinherit="false"><country xml:lang="en" inherited="0" form="plain">Ethiopia</country>
 </countries>
-<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Tәgray</area>
+<areas class="MCRMetaLangText" heritable="false" notinherit="false"><area xml:lang="en" inherited="0" form="plain">Təgray</area>
 </areas>
-<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Ḥabän, qušät Mäkaʿәlo</town>
+<towns class="MCRMetaLangText" heritable="false" notinherit="false"><town xml:lang="en" inherited="0" form="plain">wäräda Gulo Mäkäda, ṭabiya Ḥabän, qušät Mäkaʿəlo</town>
 </towns>
 <latitudes class="MCRMetaNumber" heritable="false" notinherit="false"><latitude xml:lang="en" inherited="0">14.411504</latitude>
 </latitudes>
@@ -24,7 +24,7 @@
 </foundtodates>
 <founders class="MCRMetaLangText" heritable="false" notinherit="false"><founder xml:lang="en" inherited="0" form="plain">Founded possibly during the time of King Särṣä Dǝngǝl (r. 1563–97).</founder>
 </founders>
-<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is still considered a monastery, but there are no monks. A small recent church dedicated to Yǝmaʾta is located on the other side of the road, on the rock, close to ʿAddi Qolqwal (AQG). The church of Däbrä Maʿṣo Yoḥannǝs and it's flat-top mountain can be seen from the compound of Mäkaʿәlo. &#13;
+<conditions class="MCRMetaLangText" heritable="false" notinherit="false"><condition xml:lang="en" inherited="0" form="plain">Gädam. It is still considered a monastery, but there are no monks. A small recent church dedicated to Yǝmaʾta is located on the other side of the road, on the rock, close to ʿAddi Qolqwal (AQG). The church of Däbrä Maʿṣo Yoḥannǝs and it's flat-top mountain can be seen from the compound of Mäkaʿəlo. &#13;
 Tabots (2): Trinity, Kidanä Mǝḥrät.</condition>
 </conditions>
 <descriptions class="MCRMetaLangText" heritable="false" notinherit="false"><description xml:lang="en" inherited="0" form="plain">12 Mss photographed: MKMG-001 “ Missal”; MKMG-002 “ Prayer of Incense”; MKMG-003 “ Missal”; MKMG-004 “ Synaxarion (September-February)”; MKMG-005 “Missal”; MKMG-006 “ Miracles of Mary”; MKMG-007 “Vita of  Zä-Mikaʾel Arägawi”; MKMG-008 “ The Book of Baptism”; MKMG-009 “ Synaxarion (March-February)”; MKMG-010 “ The Rite of the Holy Week”; MKMG-011 “The Book of Gǝṣṣǝw”; MKMG-012 “Miracles of Mary”.</description>
