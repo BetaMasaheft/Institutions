@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>Gunda Gunde</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -27,7 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file created from Ethio-Spare data</p>
+            <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -41,19 +41,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-12T17:35:50.970Z">last edited</change>
          <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
                             P5</change>
+         <change when="2016-05-03" who="ES">adjusted to BM template</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName/>
-               <placeName type="alt">Däbrä Kaswa</placeName>
-               <placeName type="alt">Gundagunde</placeName>
-               <placeName type="alt">Däbrä Gärizan</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2006-11-16" to="2006-11-28">wäräda ʾIrob, ṭabiya ʾAraʾ, qušät Gundä Gunde</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ጉንደ፡ ጉንዴ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gundā Gunde</placeName>
+               <placeName type="alt"  xml:id="n2">ደብረ፡ ካስዋ፡</placeName>
+               <placeName type="alt" corresp="#n2">Dabra Kāswā</placeName>
+               <placeName type="alt"  xml:id="n3">ደብረ፡ ገሪያን፡</placeName>
+               <placeName type="alt" corresp="#n3">Dabra Garizān</placeName>
+               <placeName type="alt"  xml:id="n4">ጉንደጉንዴ፡</placeName>
+               <placeName type="alt" corresp="#n4">Gundāgunde</placeName>
+               <country corresp="LOC3010Ethiop"/>
+               <region corresp="LOC5932Tegray"/>
+               <settlement when="2006-11-16"> <placeName corresp="LOC6520Irob" type="waradā"/></settlement>
+               <settlement when="2006-11-16"> <placeName corresp="LOC6521Ara" type="ṭabiya"/></settlement>
+               <settlement when="2006-11-16"> <placeName corresp="LOC6522Gunda" type="qušat"/></settlement>
                <location>
                   <geo>14.3827 39.73528</geo>
                   <height unit="m">1.195</height>
@@ -61,8 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Yǝsḥaq.</desc>
-                  <ab type="history">Gädam. The number of monks dweiiling at the monastery is small (not more than 4).&#xD;
-Tabots: reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). Tabot of Mary in the upper church reserved for monks; tabot of Täklä Haymanot in the lower church for the local people.</ab>
+                  <ab type="history">Gadām. The number of monks dwelling at the monastery is small (not more than 4).</ab>
                   <ab type="description">219 Mss. photographed in 2006 (for the Hill Monastic Microfilm Library; s. also http://ethiopia.deeds.utoronto.ca/about.html).</ab>
                   <ab type="appellations">
                      <list>
@@ -74,6 +80,9 @@ Tabots: reportedly, up to 30 tabots (also those brought from the deserted church
                   <bibl/>
                </listBibl>
             </place>
+            <relation name="tabot" active="#INS0005Gund" passive="#PRS6819Mary #PRS9162TaklaHa" ><desc>Tabots: reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). Tabot of Mary in the upper church reserved for monks; tabot of Täklä Haymanot 
+               in the lower church for the local people.</desc></relation>
+            
          </listPlace>
       </body>
    </text>

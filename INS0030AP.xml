@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddäqaḥarsi Ṗäraqliṭos</title>
+            <title>ʿĀddaqāḥarsi Ṗarāqliṭos</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -27,7 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file created from Ethio-Spare data</p>
+            <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -41,26 +41,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-07-14T11:17:21.675Z">last edited</change>
          <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
                             P5</change>
+         <change when="2016-05-03" who="ES">adjusted to BM template</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddäqaḥarsi Ṗäraqliṭos</placeName>
-               <placeName type="alt">ʿAddäqaḥarsi Mäkanä Həywät Ṗäraqliṭos</placeName>
-               <country>Ethiopia</country>
-               <region>Təgray</region>
-               <settlement from="2010-05-03" to="2010-05-04">wäräda Gulo Mäkäda, ṭabiya Kəsad Maʿtäb, qušät Betä Ṗäraqliṭos</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ዓደቃሐርሲ፡ ጰራቅሊጦስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddaqāḥarsi Ṗarāqliṭos</placeName>
+               <placeName type="alt"  xml:id="n2">ዓደቃሐርሲ፡ መካነ፡ ህይወት፡ ጰራቅሊጦስ፡</placeName>
+               <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Həywat Ṗarāqliṭos</placeName>
+               <country corresp="LOC3010Ethiop"/>
+               <region corresp="LOC5932Tegray"/>
+               <settlement > <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
+               <settlement when="2010-05-03"> <placeName corresp="LOC6517Kesad" type="ṭabiya"/></settlement>
+               <settlement when="2010-05-03"> <placeName corresp="LOC6518BetaP" type="qušat"/></settlement>
                <location>
                   <geo>14.308833 39.378683</geo>
                   <height unit="m">2437.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Existed aready in the pre-Christian time as the religious site of South Arabian migrants; the church has been founded in a later period.</desc>
-                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop (below is the river of Wäfädäbbo).&#xD;
-Tabots (8): Jesus, Trinity, Mary, unidentified marble, Gabriel, Kidanä Mǝḥrät, Michael, Ṗäraqliṭos. The tabot of the local Ṣadǝqan (Righteous Ones) was not mentioned, probably by mistake.</ab>
+                  <desc type="foundation">Existed aready in the pre-Christian time as the religious site of South Arabian migrants; the church was founded in a later period.</desc>
+                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop (below is the river of <placeName corresp="LOC6519Wafadabbo">Wäfädäbbo</placeName>).
+                     </ab>
                   <ab type="description">52 Mss. photographed: <ref target="ESap001">AP-001</ref> "Missal"; <ref target="ESap002">AP-002</ref> "Hymnary"; <ref target="ESap003">AP-003</ref> "Four Gospels"; <ref target="ESap004">AP-004</ref> "Missal"; <ref target="ESap005">AP-005</ref> "Homily of John Chrysostomos"; <ref target="ESap006">AP-006</ref> "Homily of St. Michael"; <ref target="ESap007">AP-007</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap008">AP-008</ref> "Pauline Epistles"; <ref target="ESap009">AP-009</ref> "The Rite of the Holy Week"; <ref target="ESap010">AP-010</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap011">AP-011</ref> "Homily of St. Michael"; <ref target="ESap012">AP-012</ref> "Absolution of the Son"; <ref target="ESap013">AP-013</ref> "Absolution of the Son"; <ref target="ESap014">AP-014</ref> "Synaxarion"; <ref target="ESap015">AP-015</ref> "Synaxarion"; <ref target="ESap016">AP-016</ref> "Acts of the Apostles"; <ref target="ESap017">AP-017</ref> "Vita of Kiros"; <ref target="ESap018">AP-018</ref> "Vita of Kiros"; <ref target="ESap019">AP-019</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap020">AP-020</ref> "Homily of the Sabbath"; <ref target="ESap021">AP-021</ref> "The Book of the Baptismal Rite"; <ref target="ESap022">AP-022</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap023">AP-023</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap024">AP-024</ref> "Prayer of Incense"; <ref target="ESap025">AP-025</ref> "Prayer of Incense"; <ref target="ESap026">AP-026</ref> "Synoptic Lectionary for the Year"; <ref target="ESap027">AP-027</ref> "The Book of the Matrimony Rite"; <ref target="ESap028">AP-028</ref> "Miracles of Mary"; <ref target="ESap029">AP-029</ref> "Miracles of Mary"; <ref target="ESap030">AP-030</ref> "Vita of Täklä Haymanot"; <ref target="ESap031">AP-031</ref> "The Book of the Funeral Rite"; <ref target="ESap032">AP-032</ref> "The Book of the Funeral Rite"; <ref target="ESap033">AP-033</ref> "The Glory of the Kings"; <ref target="ESap034">AP-034</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap035">AP-035</ref> "Miracles of Mary"; <ref target="ESap036">AP-036</ref> "Story of the Trinity"; <ref target="ESap037">AP-037</ref> "Synoptic Lectionary for the Year"; <ref target="ESap038">AP-038</ref> "Miracles of Jesus"; <ref target="ESap039">AP-039</ref> "Book of  ʾAsläṭi"; <ref target="ESap040">AP-040</ref> "Collection of New Testament Readings"; <ref target="ESap041">AP-041</ref> "Acts of the Apostles"; <ref target="ESap042">AP-042</ref> "Homily of the Saviour of the World"; <ref target="ESap043">AP-043</ref> "Vita of ʾArägawi"; <ref target="ESap044">AP-044</ref> "Story of St. Mary"; <ref target="ESap045">AP-045</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap046">AP-046</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap047">AP-047</ref> "Vita of Täklä Haymanot"; <ref target="ESap048">AP-048</ref> "Vita of St. George"; <ref target="ESap049">AP-049</ref> "fragments of several mss, including the poetry in honor of the Sadeqan."; <ref target="ESap050">AP-050</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap063">AP-063</ref> "Collection of Hymns"; <ref target="ESap064">AP-064</ref> "New Testaments Texts; Apocalypse of John".</ab>
                   <ab type="appellations">
                      <list>
@@ -71,7 +76,26 @@ Tabots (8): Jesus, Trinity, Mary, unidentified marble, Gabriel, Kidanä Mǝḥr�
                <listBibl type="secondary">
                   <bibl/>
                </listBibl>
+
+
+               
             </place>
+<!-- maybe we could create a listRelation type="tabot" around this-->
+            
+            <relation name="tabot" active="#INS0030AP" passive="#PRS5684JesusCh"/>
+               <relation name="tabot" active="#INS0030AP" passive="#PRS10775Trinity"/>
+               <relation name="tabot" active="#INS0030AP" passive="#PRS6819Mary"/>
+            <relation name="tabot" active="#INS0030AP">
+               <desc>unidentified marble tabot</desc>
+            </relation>
+               <relation name="tabot" active="#INS0030AP" passive="#PRS4377Gabriel"/>
+               <relation name="tabot" active="#INS0030AP" passive="#PRS10776Kidan"/>
+            <relation name="tabot" active="#INS0030AP" passive ="#PRS7049Michael"/>
+            <relation name="tabot" active="#INS0030AP" passive="#PRS10774Paraq"/>
+            <relation name="tabot" active="#INS0030AP" passive="#PRS10773SadeqP" evidence="conjecture">
+               <desc>The tabot of the local Ṣādǝqān (Righteous Ones) was not mentioned by the local priests, probably by mistake.</desc>
+            </relation>
+            
          </listPlace>
       </body>
    </text>
