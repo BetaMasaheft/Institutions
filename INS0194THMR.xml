@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>May Raza Täklä Haymanot</placeName>
                <placeName type="alt">Täklä Haymanot May Raza</placeName>
                <country>Ethiopia</country>

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Taḥtay Ruba Maryam</placeName>
                <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam Taḥtay Ruba</placeName>
                <country>Ethiopia</country>

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Tägoga Däbrä Nazret Qǝddus Yoḥannǝs</placeName>
                <placeName type="alt">Tägoga Yoḥannǝs</placeName>
                <placeName type="alt">Tänqoqa Yoḥannǝs</placeName>

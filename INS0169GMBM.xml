@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName/>
                <placeName type="alt">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ / Gäbrä Mänfäs Qǝddus Däbrä Sahəl</placeName>
                <country>Ethiopia</country>

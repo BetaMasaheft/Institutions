@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Qälaqǝl Maryam Ṣǝyon</placeName>
                <placeName type="alt">Ṣǝyon Maryam Qälaqǝl</placeName>
                <placeName type="alt">Qälaqǝl Maryam</placeName>

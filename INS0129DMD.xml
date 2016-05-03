@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Dǝbla Yoḥannǝs Mäṭmǝq</placeName>
                <placeName type="alt">Däbrä Bǝrhan Yoḥannǝs Mäṭmǝq Dǝbla</placeName>
                <country>Ethiopia</country>

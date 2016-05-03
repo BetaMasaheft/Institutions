@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Läqay Kidanä Məḥrät</placeName>
                <placeName type="alt">Däbrä Məḥrät Kidanä Məḥrät Läqay</placeName>
                <country>Ethiopia</country>

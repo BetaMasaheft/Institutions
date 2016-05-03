@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>Dǝrba Däbrä ʾAbunä Yasay </placeName>
                <placeName type="alt">ʾAbunä Yasay</placeName>
                <placeName type="alt">Dǝrba Däbrä Yasay Däbrä ʾEmanuʾel</placeName>

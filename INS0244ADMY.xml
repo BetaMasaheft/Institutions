@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>ʿAddimḥara Däbrä Mädḫanit ʾAbba Yoḥanni</placeName>
                <placeName type="alt">ʾAbba Yoḥanni ʿAddimḥara</placeName>
                <placeName type="alt">ʾAbba Yoḥanni ʿAddi ʾAmḥara</placeName>

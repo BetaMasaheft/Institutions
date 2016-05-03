@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>May Ṣäʿada Śǝllase</placeName>
                <placeName type="alt">May Ṣäʿada Qǝddǝst Śǝllase</placeName>
                <country>Ethiopia</country>
