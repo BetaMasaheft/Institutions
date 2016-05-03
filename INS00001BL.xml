@@ -59,7 +59,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
           </note>
           <listBibl type="catalogue">
             <bibl>
-              <ptr target="Wright1877BL"/>
+              <ptr target="bm:Wright1877BL"/>
             </bibl>
           </listBibl>
         </place>
