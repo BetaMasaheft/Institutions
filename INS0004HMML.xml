@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0004HMML" type="ins">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>British Library</title>
+        <editor key="ES"/>
+        <editor role="generalEditor" key="AB"/>
+        <funder>Akademie der Wissenschaften in Hamburg</funder>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+        <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+          multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+        <pubPlace>Hamburg</pubPlace>
+        
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+            This file is licensed under the Creative Commons
+            Attribution-ShareAlike 4.0. </licence>
+        </availability>
+        
+      </publicationStmt>
+      <sourceDesc>
+        <p>A TEI file created from original data</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="gez">Gǝʿǝz</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change who="ES" when="2016-03-19">CREATED: place</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place subtype="institution">
+          <placeName corresp="INS0004HMML" type="library">Hill Museum and Manuscript Library</placeName>
+          <placeName corresp="INS0004HMML" type="alt">HMML</placeName>
+          <placeName corresp="INS0004HMML" type="alt">Hill Monastic Manuscript Library</placeName>
+          <country corresp="LOC6525USA"/>
+          <region>Minnesota</region>
+          <settlement>Collegeville</settlement>
+          <note>
+            <date type="foundation" >1965</date>
+            <desc type="foundation">The Benedictine monks of Saint John's Abbey founded HMML in 1965 as a response to the loss of manuscripts and books in European libraries during two World Wars.
+            </desc>
+            
+            <ab type="history"></ab>
+            
+            <ab type="description"><ptr target="http://www.hmml.org/"/></ab>
+          </note>
+          <listBibl type="catalogue">
+            <bibl>
+              <ptr target="bm:EMML1"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML2"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML3"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML4"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML5"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML6"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML7"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML8"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML9"/>
+            </bibl>
+            <bibl>
+              <ptr target="bm:EMML10"/>
+            </bibl>
+          </listBibl>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>
