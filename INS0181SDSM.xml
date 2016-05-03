@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Säwnä Maryam</placeName>
                <placeName type="alt">Däbrä Gännät Maryam Säwnä</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-11-29" to="2011-11-29">wäräda Saʿsiʿ Ṣäʿada ʾƎmba, ṭabiya Säwnä, qušät Säwnä</settlement>
                <location>
                   <geo>14.2899 39.716233</geo>

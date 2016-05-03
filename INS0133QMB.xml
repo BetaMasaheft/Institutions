@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Bäläsa Qǝddus Mikaʾel </placeName>
                <placeName type="alt">Däbrä Gännät Qǝddus Mikaʾel Bäläsa</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-12-13" to="2010-12-13">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  ʿAddäkǝsandǝd, qušät Bäläsa</settlement>
                <location>
                   <geo>13.84545 39.602683</geo>

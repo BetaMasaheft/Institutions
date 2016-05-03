@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mәdrä Ruba Sәllase</title>
+            <title>Mədrä Ruba Səllase</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,10 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>Mәdrä Ruba Sәllase</placeName>
-               <placeName type="alt">Däbrä Gännät Qәddәst Sәllase Mәdrä Ruba</placeName>
+               <placeName>Mədrä Ruba Səllase</placeName>
+               <placeName type="alt">Däbrä Gännät Qəddəst Səllase Mədrä Ruba</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-05-11" to="2010-05-13">wäräda Gulo Mäkäda, ṭabiya Marta, qušät Däbrä Gännät</settlement>
                <location>
                   <geo>14.487367 39.434383</geo>

@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Tägoga Yoḥannǝs</placeName>
                <placeName type="alt">Tänqoqa Yoḥannǝs</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2012-05-21" to="2012-05-25">wäräda Dägʿa Tämben, ṭabiya Däbrä Nazret, qušät Tägoga</settlement>
                <location>
                   <geo>13.563767 39.306483</geo>

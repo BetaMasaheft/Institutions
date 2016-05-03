@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>May Ṣäʿada Śǝllase</placeName>
                <placeName type="alt">May Ṣäʿada Qǝddǝst Śǝllase</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-11-12" to="2011-11-15">wäräda Gulo Mäkäda, ṭabiya May Ṣäʿada, qušät May Ṣäʿada</settlement>
                <location>
                   <geo>14.336167 39.4693</geo>

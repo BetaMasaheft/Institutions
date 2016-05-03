@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">ʾAmba Tähula Däbrä Gännät Mikaʾel</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
-               <settlement from="2014-02-05" to="2014-02-05">wäräda Gulo Mäkäda, ṭabiya Rәgbay Mädäbay, qušät ʾAmba Tähula</settlement>
+               <settlement from="2014-02-05" to="2014-02-05">wäräda Gulo Mäkäda, ṭabiya Rəgbay Mädäbay, qušät ʾAmba Tähula</settlement>
                <location>
                   <geo>14.338556 39.358</geo>
                   <height unit="m">2369.0</height>

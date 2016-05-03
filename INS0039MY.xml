@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Maʿṣo Qәddus Yoḥannәs</title>
+            <title>Däbrä Maʿṣo Qəddus Yoḥannəs</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>Däbrä Maʿṣo Qәddus Yoḥannәs</placeName>
-               <placeName type="alt">Däbrä Maʿṣo Yoḥannәs</placeName>
+               <placeName>Däbrä Maʿṣo Qəddus Yoḥannəs</placeName>
+               <placeName type="alt">Däbrä Maʿṣo Yoḥannəs</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2010-05-10" to="2010-05-11">wäräda Gulo Mäkäda, ṭabiya Taḥtay Qәlʿat, qušät Däbrä Maʿṣo</settlement>
+               <region>Təgray</region>
+               <settlement from="2010-05-10" to="2010-05-11">wäräda Gulo Mäkäda, ṭabiya Taḥtay Qəlʿat, qušät Däbrä Maʿṣo</settlement>
                <location>
                   <geo>14.4677 39.450333</geo>
                   <height unit="m">2595.0</height>

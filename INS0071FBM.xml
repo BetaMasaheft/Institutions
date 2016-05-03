@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Fäqada Maryam</placeName>
                <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam Fäqada</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-05-21" to="2010-05-21">wäräda Gulo Mäkäda, ṭabiya ʾAmbäsätä Fäqada, qušät ʿAbiyä ʿAddi</settlement>
                <location>
                   <geo>14.4051 39.394333</geo>

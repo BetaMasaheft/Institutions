@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Dǝbla Yoḥannǝs Mäṭmǝq</placeName>
                <placeName type="alt">Däbrä Bǝrhan Yoḥannǝs Mäṭmǝq Dǝbla</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2010-12-09" to="2010-12-09">wäräda Ganta ʾAfäšum, ṭabiya Dәbla Siʿet, qušät Dәbla</settlement>
+               <region>Təgray</region>
+               <settlement from="2010-12-09" to="2010-12-09">wäräda Ganta ʾAfäšum, ṭabiya Dəbla Siʿet, qušät Dəbla</settlement>
                <location>
                   <geo>14.2227 39.47385</geo>
                   <height unit="m">2519.0</height>

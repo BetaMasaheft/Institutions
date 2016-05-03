@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qärsäbär Qәddus Mikaʾel</title>
+            <title>Qärsäbär Qəddus Mikaʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>Qärsäbär Qәddus Mikaʾel</placeName>
-               <placeName type="alt">Däbrä Sälam Qәddus Mikaʾel Qärsäbär</placeName>
+               <placeName>Qärsäbär Qəddus Mikaʾel</placeName>
+               <placeName type="alt">Däbrä Sälam Qəddus Mikaʾel Qärsäbär</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2010-05-17" to="2010-05-18">wäräda Gulo Mäkäda, ṭabiya Koḵob Ṣәbaḥ, qušät Qärsäbär</settlement>
+               <region>Təgray</region>
+               <settlement from="2010-05-17" to="2010-05-18">wäräda Gulo Mäkäda, ṭabiya Koḵob Ṣəbaḥ, qušät Qärsäbär</settlement>
                <location>
                   <geo>14.345286 39.435027</geo>
                   <height unit="m">2525.0</height>

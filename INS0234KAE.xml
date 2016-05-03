@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Kunale ʾArbaʿtu ʾƎnsǝsa</placeName>
                <placeName type="alt">ʾArbaʿtu ʾƎnsǝsa Kunale</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2012-05-14" to="2012-05-14">wäräda Dägʿa Tämben, ṭabiya Sälam, qušät Kunale</settlement>
                <location>
                   <geo>13.663567 39.17335</geo>

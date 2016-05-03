@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church monastry" subtype="institution">
                <placeName/>
-               <placeName type="alt">Däbrä Ṣәyon Qәddәst Maryam Mänäbäyti</placeName>
+               <placeName type="alt">Däbrä Ṣəyon Qəddəst Maryam Mänäbäyti</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
                <settlement from="2010-05-08" to="2010-05-08">wäräda Gulo Mäkäda, ṭabiya Sowit Lämläm, qušät Mänäbäyti</settlement>

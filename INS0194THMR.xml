@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>May Raza Täklä Haymanot</placeName>
                <placeName type="alt">Täklä Haymanot May Raza</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-12-01" to="2011-12-03">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Saʿsi, qušät May Raza</settlement>
                <location>
                   <geo>14.24515 39.58285</geo>

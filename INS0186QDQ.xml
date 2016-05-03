@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Qändaʿro Qirqos</placeName>
                <placeName type="alt">Däbrä Hayl Qǝddus Qirqos Qǝddus Giyorgis Qändaʿro</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-11-25" to="2011-11-25">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Qändaʿro</settlement>
                <location>
                   <geo>14.289933 39.442217</geo>

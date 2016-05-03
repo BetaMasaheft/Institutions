@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Ḉähat Mädḫane ʿAläm</placeName>
                <placeName type="alt">Mädḫane ʿAläm Ḉäḥat</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-12-06" to="2010-12-06">wäräda Ganta Afäšum, ṭabiya Bäʿatti May Mäsanu, qušät Ḉäḥat</settlement>
                <location>
                   <geo>14.31276 39.428084</geo>

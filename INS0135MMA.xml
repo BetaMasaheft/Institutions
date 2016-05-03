@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName/>
                <placeName type="alt">Mäʿago ʾAmanuʾel, ʾAmanuʾel  Mäʿago</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-12-15" to="2010-12-15">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  Nägaš, qušät Mäʿago</settlement>
                <location>
                   <geo>13.887933 39.6109</geo>

@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Qǝta Maryam</placeName>
                <placeName type="alt">Maryam Qǝta</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-05-21" to="2011-05-22">wäräda Ganta Afäšum, ṭabiya Mäzäbǝr, qušät Qǝta</settlement>
                <location>
                   <geo>14.229817 39.301167</geo>

@@ -48,9 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church monastry" subtype="institution">
                <placeName>Bet Ḥawaryat</placeName>
-               <placeName type="alt">Betä Ḥawaryat; Ṣәrḥa Ṣәyon Betä Ḥawaryat</placeName>
+               <placeName type="alt">Betä Ḥawaryat; Ṣərḥa Ṣəyon Betä Ḥawaryat</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-09-11" to="2011-09-11">wäräda Ganta Afäšum, ṭabiya Sasun Bet Ḥawaryat , qušät Bet Ḥawaryat</settlement>
                <location>
                   <geo>14.2227 39.531567</geo>

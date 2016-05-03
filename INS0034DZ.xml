@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Zäyt Qәddәst Maryam</title>
+            <title>Däbrä Zäyt Qəddəst Maryam</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>Däbrä Zäyt Qәddәst Maryam</placeName>
+               <placeName>Däbrä Zäyt Qəddəst Maryam</placeName>
                <placeName type="alt">Däbrä Zäyt</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2010-05-06" to="2010-05-07">wäräda Gulo Mäkäda, ṭabiya Kәsad Maʿǝtäb, qušät Mәdrä Ruba/Däbrä Zäyt</settlement>
+               <region>Təgray</region>
+               <settlement from="2010-05-06" to="2010-05-07">wäräda Gulo Mäkäda, ṭabiya Kəsad Maʿǝtäb, qušät Mədrä Ruba/Däbrä Zäyt</settlement>
                <location>
                   <geo>14.327355 39.40431</geo>
                   <height unit="m">2443.0</height>

@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Ṣäbäla Däbrä Gännät Maryam</placeName>
                <placeName type="alt">Ṣäbäla Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-12-08" to="2011-12-08">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝndäda, qušät Ṣäbäla</settlement>
                <location>
                   <geo>13.9773 39.60775</geo>

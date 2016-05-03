@@ -46,12 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastry" subtype="institution">
+            <place type="church monastery" subtype="institution">
                <placeName>ʿAddäqaḥarsi Ṗäraqliṭos</placeName>
-               <placeName type="alt">ʿAddäqaḥarsi Mäkanä Hәywät Ṗäraqliṭos</placeName>
+               <placeName type="alt">ʿAddäqaḥarsi Mäkanä Həywät Ṗäraqliṭos</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2010-05-03" to="2010-05-04">wäräda Gulo Mäkäda, ṭabiya Kәsad Maʿtäb, qušät Betä Ṗäraqliṭos</settlement>
+               <region>Təgray</region>
+               <settlement from="2010-05-03" to="2010-05-04">wäräda Gulo Mäkäda, ṭabiya Kəsad Maʿtäb, qušät Betä Ṗäraqliṭos</settlement>
                <location>
                   <geo>14.308833 39.378683</geo>
                   <height unit="m">2437.0</height>

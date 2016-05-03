@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos</title>
+            <title>ʿAddigrat Däbrä Mänkərat Qəddus Qirqos</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,10 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos</placeName>
+               <placeName>ʿAddigrat Däbrä Mänkərat Qəddus Qirqos</placeName>
                <placeName type="alt">ʿAddigrat Qirqos</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-05-19" to="2010-05-19">ʿAddigrat, qäbäle 01</settlement>
                <location>
                   <geo>14.273281 39.462697</geo>

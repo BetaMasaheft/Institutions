@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>May Bäʿatti Däbrä Gännät ʾArbaʿtu ʾƎnsǝsa</placeName>
                <placeName type="alt">May Bäʿatti ʾArbaʿtu ʾƎnsǝsa</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2012-05-28" to="2012-05-28">wäräda Dägʿa Tämben, ṭabiya Aynäbǝrkakän, qušät May Bäʿatti</settlement>
                <location>
                   <geo>13.647583 39.219867</geo>

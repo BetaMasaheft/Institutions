@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dändera Däbrä Mәḥrät Mikaʾel</title>
+            <title>Dändera Däbrä Məḥrät Mikaʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastry" subtype="institution">
-               <placeName>Dändera Däbrä Mәḥrät Mikaʾel</placeName>
-               <placeName type="alt">Dändera Däbrä Mәḥrät Qәddus Mikaʾel / Dändera Mikaʾel</placeName>
+               <placeName>Dändera Däbrä Məḥrät Mikaʾel</placeName>
+               <placeName type="alt">Dändera Däbrä Məḥrät Qəddus Mikaʾel / Dändera Mikaʾel</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
                <settlement from="2011-05-16" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Hagärä Sälam, qušät Dändera</settlement>

@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Bet Muḵaʿ Mikaʾel</placeName>
                <placeName type="alt">Bet Muḵaʿ Qǝddus Mikaʾel</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-12-08" to="2011-12-09">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝndäda, qušät Bet Muḵaʿ</settlement>
                <location>
                   <geo>13.967767 39.612512</geo>

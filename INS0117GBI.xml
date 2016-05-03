@@ -48,9 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church monastry" subtype="institution">
                <placeName>Gwaḥgot ʾIyäsus</placeName>
-               <placeName type="alt">Däbrä Ṣәge ʾIyäsus Gwaḥgot</placeName>
+               <placeName type="alt">Däbrä Ṣəge ʾIyäsus Gwaḥgot</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2010-12-01" to="2010-12-01">wäräda Ganta Afäšum, ṭabiya Gwaḥgot, qušät Betä ʾIyäsus</settlement>
                <location>
                   <geo>14.1728 39.4906</geo>

@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Sǝddäyto Däbrä Gännät Mikaʾel</placeName>
                <placeName type="alt">Sǝddäyto Däbrä Gännät Qǝddus Mikaʾel</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
-               <settlement from="2011-11-09" to="2011-11-09">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Sәddäyto</settlement>
+               <region>Təgray</region>
+               <settlement from="2011-11-09" to="2011-11-09">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Səddäyto</settlement>
                <location>
                   <geo>14.376767 39.4901</geo>
                   <height unit="m">2415.0</height>

@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName/>
                <placeName type="alt">Mikaʾel ʿAddi Ḉǝwa</placeName>
                <country>Ethiopia</country>
-               <region>Tәgray</region>
+               <region>Təgray</region>
                <settlement from="2011-11-06" to="2011-11-06">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝnqaṭa, qušät ʿAddi Ḉǝwa</settlement>
                <location>
                   <geo>14.0544 39.5961</geo>
