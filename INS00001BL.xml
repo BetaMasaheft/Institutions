@@ -3,7 +3,7 @@
 href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS00001BL">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS00001BL" type="ins">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,9 +45,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <place subtype="institution">
           <placeName corresp="INS00001BL">British Library</placeName>
           <placeName corresp="INS00001BL" type="alt">British Museum</placeName>
-          <country>UK </country>
-          <region>England</region>
-          <settlement>London</settlement>
+          <country corresp="LOC6523UK"/>
+          <region corresp="LOC6524England"/>
+          <settlement corresp="LOC4325London"/>
           <note>
             <date type="foundation" ></date>
             <desc type="foundation">formerly part of the British Museum
