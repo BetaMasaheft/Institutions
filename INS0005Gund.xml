@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery gadam" subtype="institution">
+            <place type="monastery gadam" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ጉንደ፡ ጉንዴ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Gundā Gunde</placeName>
                <placeName type="alt"  xml:id="n2">ደብረ፡ ካስዋ፡</placeName>
@@ -67,9 +67,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Yǝsḥaq.</desc>
+                  <desc type="foundation">Yǝsḥaq</desc>
                   <ab type="history">Gadām. The number of monks dwelling at the monastery is small (not more than 4).</ab>
-                  <ab type="description">219 Mss. photographed in 2006 (for the Hill Monastic Microfilm Library; s. also http://ethiopia.deeds.utoronto.ca/about.html).</ab>
+                  <ab type="description">219 Mss. photographed in 2006 (for the <placeName corresp="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
