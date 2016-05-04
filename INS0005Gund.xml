@@ -69,6 +69,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Yǝsḥaq</desc>
                   <ab type="history">Gadām. The number of monks dwelling at the monastery is small (not more than 4).</ab>
+                  <ab type="tabot">
+                     <measure quantity="30" cert="unknown"/>
+                     Reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). 
+                     Tabot of <persName corresp="PRS6819Mary">Mary</persName> in the upper church reserved for monks; tabot of <persName corresp="PRS9162TaklaHa">Takla Haymanot</persName> in the lower church for the local people.</ab>
                   <ab type="description">219 Mss. photographed in 2006 (for the <placeName corresp="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
                   <ab type="appellations">
                      <list>
@@ -80,8 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl/>
                </listBibl>
             </place>
-            <relation name="tabot" active="#INS0005Gund" passive="#PRS6819Mary #PRS9162TaklaHa" ><desc>Tabots: reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). Tabot of Mary in the upper church reserved for monks; tabot of Täklä Haymanot 
-               in the lower church for the local people.</desc></relation>
+
             
          </listPlace>
       </body>
