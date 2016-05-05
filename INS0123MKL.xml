@@ -26,7 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file created from Ethio-Spare data</p>
+            <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
