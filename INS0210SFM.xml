@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1670" notAfter="1755">1670-1755</date>
                   <desc type="foundation">Local tradition claims the foundation in the time of King ʾIyasu (ʾIyasu I, r. 1682-1706, or ʾIyasu II, r. 1730-55).</desc>
                   <ab type="history">Däbr. &#xD;
-Tabots (2): Mary, Kidanä Mǝḥrät.</ab>
+</ab>
                   <ab type="description">8 Mss. photographed: <ref target="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref target="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref target="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref target="ESsfm004">SFM-004</ref> “Psalter”; <ref target="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref target="ESsfm006">SFM-006</ref> “Psalter”; <ref target="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref target="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"/>Tabots of Mary, Kidanä Mǝḥrät.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

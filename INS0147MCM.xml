@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">15th century (?).</desc>
                   <ab type="history">Gäṭär. The recently built church stands near the dismantle building of the old church.&#xD;
-Tabots (1): Mikaʾel.</ab>
+</ab>
                   <ab type="description">7 Mss. photographed: <ref target="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref target="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref target="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref target="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref target="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tabots of Mikaʾel.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

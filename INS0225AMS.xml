@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr.&#xD;
-Tabots (6): Mikaʾel, Trinity, Gäbrä Mänfäs Qǝddus, Täklä Haymanot, 24 Heavenly Priests, probably also Mary.</ab>
+</ab>
                   <ab type="description">14 Mss. photographed: <ref target="ESams001">AMS-001</ref> “The Four Gospels”; <ref target="ESams002">AMS-002</ref> “Synaxarium (the first half of the year)”; <ref target="ESams003">AMS-003</ref> “Miracles of Maryam”; <ref target="ESams004">AMS-004</ref> “The Book of the Espistle; Miracles of Jesus; Missal”; <ref target="ESams005">AMS-005</ref> “Psalter”; <ref target="ESams006">AMS-006</ref> “Homily on St. Michael”; <ref target="ESams007">AMS-007</ref> “Missal”; <ref target="ESams008">AMS-008</ref> “Missal”; <ref target="ESams009">AMS-009</ref> “Psalter”; <ref target="ESams010">AMS-010</ref> “Miracles of Jesus”; <ref target="ESams011">AMS-011</ref> “The Book of  ʾAsläti”; <ref target="ESams012">AMS-012</ref> “Miracles of Maryam”; <ref target="ESams013">AMS-013</ref> “Prayer of Incense; The Book of Baptism”; <ref target="ESams014">AMS-014</ref> “Pauline Epistles”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="6"/>Tabots of Mikaʾel, Trinity, Gäbrä Mänfäs Qǝddus, Täklä Haymanot, 24 Heavenly Priests, probably also Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

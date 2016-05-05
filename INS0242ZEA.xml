@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation"/>
                   <ab type="history">Gädam. The number of monks might be very small today, but in the past there was a strong monastic community. The manuscripts are stored in the treasury which seems to have been formerly used as rock-hewn church. A built facade nearby belongs to another rock-hewn chruch, the main church of the site. From the slope, the people point to a place on the plain below which is said to be the birth place of King Yoḥannǝs IV.&#xD;
-Tabots (4): Sälama, ʾAmanuʾel, George, Mary.</ab>
+</ab>
                   <ab type="description">20 Mss. photographed: <ref target="ESzea001">ZEA-001</ref> “Rite of the Passion Week”; <ref target="ESzea002">ZEA-002</ref> “Four Gospels”; <ref target="ESzea003">ZEA-003</ref> “Missal”; <ref target="ESzea004">ZEA-004</ref> “Praise of Mary”; <ref target="ESzea005">ZEA-005</ref> “Story of ʾabunä Sälama”; <ref target="ESzea006">ZEA-006</ref> “Miracles of Mary”; <ref target="ESzea007">ZEA-007</ref> “Synaxarion (the second half of the year)”; <ref target="ESzea008">ZEA-008</ref> “Mǝʿraf”; <ref target="ESzea009">ZEA-009</ref> “Psalter”; <ref target="ESzea010">ZEA-010</ref> “Miracles of Jesus”; <ref target="ESzea011">ZEA-011</ref> “Psalter”; <ref target="ESzea012">ZEA-012</ref> “ Catoholic Epistles; Revealation of John”; <ref target="ESzea013">ZEA-013</ref> “Book of the Marriage Ritual; Order of the Monastic Proffession”; <ref target="ESzea014">ZEA-014</ref> “Dǝggwa on Easter; ʾƎzl; Praise of Mary”; <ref target="ESzea015">ZEA-015</ref> “Five Pillars of Mystery”; <ref target="ESzea016">ZEA-016</ref> “Book of the Letter”; <ref target="ESzea017">ZEA-017</ref> “Missal”; <ref target="ESzea018">ZEA-018</ref> “Book of the Funeral Rite”; <ref target="ESzea019">ZEA-019</ref> “Psalter”; <ref target="ESzea020">ZEA-020</ref> “Zǝmmare and Mäwasǝʿǝt”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Sälama, ʾAmanuʾel, George, Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

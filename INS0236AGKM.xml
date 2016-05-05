@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
                   <desc type="foundation"/>
                   <ab type="history">Gädam. However, currently there is no monastic community. A "residence" of Yoḥannǝs IV (two building, recently restored) is located in the vicinity. &#xD;
-Tabots (2): Kidanä Mǝḥrät, Trinity.</ab>
+</ab>
                   <ab type="description">36 Mss. photographed: <ref target="ESagkm001">AGKM-001</ref>ʺ Four Gospelsʺ; <ref target="ESagkm003">AGKM-003</ref> ʺ1) Octateuch 2) Book of king (in four parts with commentary in Amharic and Gǝʿǝz); <ref target="ESagkm004">AGKM-004</ref> ʺCollection of Sälam- hymnsʺ; <ref target="ESagkm005">AGKM-005</ref> ʺThe Miracles of Maryʺ; <ref target="ESagkm006">AGKM-006</ref> ʺCollection of Sälam- hymns (from sǝnkǝssar, for the whole year)ʺ; <ref target="ESagkm007">AGKM-007</ref> ʺThe Book of the Spiritual Elderʺ; <ref target="ESagkm008">AGKM-008</ref> ʺFour Gospelsʺ; <ref target="ESagkm009">AGKM-009</ref> ʺThe Book of the Funeral Riteʺ; <ref target="ESagkm010">AGKM-010</ref> ʺThe Book of Mar Yǝshaqʺ; <ref target="ESagkm011">AGKM-011</ref> ʺThe collection of Imagesʺ; <ref target="ESagkm012">AGKM-012</ref> ʺThe organ of praiseʺ; <ref target="ESagkm013">AGKM-013</ref> ʺ1) The Book of Collection (Gǝʿǝz) 2) Kinds of Creation (Amharic )ʺ; <ref target="ESagkm014">AGKM-014</ref> ʺThe Mistery of the Trinityʺ; <ref target="ESagkm015">AGKM-015</ref> ʺ1) Epistles of st. Paul 2) Catholic Epistles 3) Acts of Apostler 4) Apocalipse of st. Johnʺ; <ref target="ESagkm016">AGKM-016</ref> ʺSynaxarion (The first half of the years)ʺ; <ref target="ESagkm017">AGKM-017</ref> ʺ1) Collection of Images 2) Praise of the Belovedʺ; <ref target="ESagkm018">AGKM-018</ref> ʺPsalterʺ; <ref target="ESagkm019">AGKM-019</ref> ʺThe Book of Cyrillʺ, etc.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"/>Tabots of Kidanä Mǝḥrät, Trinity.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

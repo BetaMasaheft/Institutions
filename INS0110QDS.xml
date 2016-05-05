@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation">Local tradition tells that the religious sites existed before the advent of Christinity.</desc>
                   <ab type="history">Däbr. &#xD;
-Tabots (9): God Father, Kiros, Four Living Creatures, Twenty-Four Heavenly Priests, 2 of Mary, Libanos, Zärʾa Buruk, Gäbrä Nazrawi.</ab>
+</ab>
                   <ab type="description">12 Mss. photographed: <ref target="ESqds001">QDS-001</ref> "Miracles of Jesus"; <ref target="ESqds002">QDS-002</ref> "Missal"; <ref target="ESqds003">QDS-003</ref> "Four Gospels"; <ref target="ESqds004">QDS-004</ref> "Homily of the Saviour of the World"; <ref target="ESqds005">QDS-005</ref> "The Faith of the Fathers"; <ref target="ESqds006">QDS-006</ref> "The Book of the Funeral Rite"; <ref target="ESqds007">QDS-007</ref> "Homily of St. Michael"; <ref target="ESqds008">QDS-008</ref> "Vita of Libanos"; <ref target="ESqds009">QDS-009</ref> "Collection of Hymns"; <ref target="ESqds010">QDS-010</ref> "Pauline Epistles"; <ref target="ESqds011">QDS-011</ref> "Vita of Gäbrä Nazrawi"; <ref target="ESqds012">QDS-012</ref> "Collection of Maryam Prayers and Hymns"; <ref target="ESqds013">QDS-013</ref> "Book of Images".</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="9"/>Tabots of God Father, Kiros, Four Living Creatures, Twenty-Four Heavenly Priests, 2 of Mary, Libanos, Zärʾa Buruk, Gäbrä Nazrawi.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation"/>
                   <ab type="history">Gädam. It is still considered a monastery, but there are no monks. A small recent church dedicated to Yǝmaʾta is located on the other side of the road, on the rock, close to ʿAddi Qolqwal (AQG). The church of Däbrä Maʿṣo Yoḥannǝs and it's flat-top mountain can be seen from the compound of Mäkaʿəlo. &#xD;
-Tabots (2): Trinity, Kidanä Mǝḥrät.</ab>
+</ab>
                   <ab type="description">12 Mss photographed: <ref target="ESmkmg001">MKMG-001</ref> “ Missal”; <ref target="ESmkmg002">MKMG-002</ref> “ Prayer of Incense”; <ref target="ESmkmg003">MKMG-003</ref> “ Missal”; <ref target="ESmkmg004">MKMG-004</ref> “ Synaxarion (September-February)”; <ref target="ESmkmg005">MKMG-005</ref> “Missal”; <ref target="ESmkmg006">MKMG-006</ref> “ Miracles of Mary”; <ref target="ESmkmg007">MKMG-007</ref> “Vita of  Zä-Mikaʾel Arägawi”; <ref target="ESmkmg008">MKMG-008</ref> “ The Book of Baptism”; <ref target="ESmkmg009">MKMG-009</ref> “ Synaxarion (March-February)”; <ref target="ESmkmg010">MKMG-010</ref> “ The Rite of the Holy Week”; <ref target="ESmkmg011">MKMG-011</ref> “The Book of Gǝṣṣǝw”; <ref target="ESmkmg012">MKMG-012</ref> “Miracles of Mary”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"/>Tabots of Trinity, Kidanä Mǝḥrät.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

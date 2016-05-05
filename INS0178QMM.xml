@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr.&#xD;
-Tabots (5): Michael, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, Mary.</ab>
+</ab>
                   <ab type="description">14 Mss. photographed: <ref target="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref target="ESqmm002">QMM-002</ref> "Missal"; <ref target="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref target="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref target="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref target="ESqmm006">QMM-006</ref> "Psalter"; <ref target="ESqmm007">QMM-007</ref> "Missal"; <ref target="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref target="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref target="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref target="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref target="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref target="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="5"/>Tabots of Michael, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. The area is said to have formerly been the place of monks and hermits. Currently, a few nuns live at the church; there are indeed traces of monks' presense in the gourge around the church.  &#xD;
-Tabots (3): Michael, Trinity, Kidanä Mǝḥrät.</ab>
+</ab>
                   <ab type="description">11 Mss. photographed: <ref target="EShmm001">HMM-001</ref> “Four Gospels”; <ref target="EShmm002">HMM-002</ref> “ Synaxarion (September - February); Wisdom of Sibyl”; <ref target="EShmm003">HMM-003</ref> “ Synaxarion (March-August)”; <ref target="EShmm004">HMM-004</ref> “Hymn book”; <ref target="EShmm005">HMM-005</ref> “ Miracles of Mary”; <ref target="EShmm006">HMM-006</ref> “Homily on St. Michael”; <ref target="EShmm007">HMM-007</ref> “Mǝʿraf”; <ref target="EShmm008">HMM-008</ref> “The Rite of the Holy Week”; <ref target="EShmm009">HMM-009</ref> “Zǝmmare Mäwasʾǝt”; <ref target="EShmm010">HMM-010</ref> “Creation; Five Pillars of Mystery”; <ref target="EShmm011">HMM-011</ref> “Miracles of Jesus”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Michael, Trinity, Kidanä Mǝḥrät.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

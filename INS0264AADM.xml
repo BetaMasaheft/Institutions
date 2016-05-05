@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   <desc type="foundation">Local tradition claims the foundation in the time of the kings ʾAbrǝha and ʾAṣbǝḥa.</desc>
                   <ab type="history">Däbr. &#xD;
-Tabots (1): Mary.</ab>
+</ab>
                   <ab type="description">14 Mss. photographed: <ref target="ESaadm001">AADM-001</ref> “Prayer of the Incense”; <ref target="ESaadm002">AADM-002</ref> “Dǝggwa”; <ref target="ESaadm003">AADM-003</ref> “Miracles of Mary”; <ref target="ESaadm004">AADM-004</ref> “Horologium”; <ref target="ESaadm005">AADM-005</ref> “Book of  ʾAsläti; Excerpts from Missal ”; <ref target="ESaadm006">AADM-006</ref> “Missal”; <ref target="ESaadm007">AADM-007</ref> “Homiliary for the feasts of St. Michael; Miracles of St, Michael”; <ref target="ESaadm008">AADM-008</ref> “Book of the Baptismal Ritual”; <ref target="ESaadm009">AADM-009</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="ESaadm010">AADM-010</ref> “Missal”; <ref target="ESaadm011">AADM-011</ref> “Miracles of Mary”; <ref target="ESaadm012">AADM-012</ref> “Miracles of Jesus”; <ref target="ESaadm013">AADM-013</ref> “Book of Gǝṣṣawe”; <ref target="ESaadm014">AADM-014</ref> “Missal”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tabots of Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

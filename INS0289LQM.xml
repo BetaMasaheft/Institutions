@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär. The church of ʾAmba Tähula Mikaʾel (TGM) can be seen from the site.  &#xD;
-Tabots (3): Mary, Kidanä Mǝḥrät, Qirqos.</ab>
+</ab>
                   <ab type="description">11 Mss., one scroll are photographed: <ref target="ESlqm001">LQM-001</ref> “Four Gospels”; <ref target="ESlqm002">LQM-002</ref> “The Miracles of Mary”; <ref target="ESlqm003">LQM-003</ref> “Book of the night hours - Horologium”; <ref target="ESlqm004">LQM-004</ref> “Missal”; <ref target="ESlqm005">LQM-005</ref> “Acts of the Apostels”; <ref target="ESlqm006">LQM-006</ref> “Synaxarium second half”; <ref target="ESlqm007">LQM-007</ref> “Homily of the Sabbat of the Christians”; <ref target="ESlqm008">LQM-008</ref> “Mircales of Jesus”; <ref target="ESlqm009">LQM-009</ref> “Collection of Chants”; <ref target="ESlqm010">LQM-010</ref> “Missal”; <ref target="ESlqm011">LQM-011</ref> “Homily for the feasts of St. Michael”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Mary, Kidanä Mǝḥrät, Qirqos.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

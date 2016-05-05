@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär. Located very close to Ṣaḥǝlo Marya (SDMM).&#xD;
-Tabots (2): Mädḥane ʿAläm, Mary.</ab>
+</ab>
                   <ab type="description">4 Mss. photographed: <ref target="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref target="ESdama002">DAMA-002</ref> “Four Gospels”; <ref target="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref target="ESdama004">DAMA-004</ref> “Psalter”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"/>Tabots of Mädḥane ʿAläm, Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

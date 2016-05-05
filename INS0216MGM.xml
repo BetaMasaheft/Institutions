@@ -62,13 +62,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gätär. &#xD;
 Burial places are located under the overhanging rock, along the river ʾAngar. The old deserted church rock-churcn stands behind the recently built one.&#xD;
 Two ruined structures standing closer to the entrance into the gorge are said to be churches of "ʾabba Yoḥanni" and "ʾabba Aboli" (?).     &#xD;
-Tabots (4): Michael, ʾAbrǝha and ʾAṣbǝḥa (reportedly the tabot of the old church), Mary, Twenty-Four Heavenly Priests.</ab>
+</ab>
                   <ab type="description">19 Mss. photographed: <ref target="ESmgm001">MGM-001</ref> “Miracles of Jesus”; <ref target="ESmgm002">MGM-002</ref> “Homily of st. Michael; Miracles of St. Michal”; <ref target="ESmgm003">MGM-003</ref> “Collection of Homilies”; <ref target="ESmgm004">MGM-004</ref> “Pauline Epistles; Acts of the Apostles; Catholic Epistles; Apocalipse of John”; <ref target="ESmgm005">MGM-005</ref> “Synaxarion (The first half of the years)”; <ref target="ESmgm006">MGM-006</ref> “Miracles of Mary”; <ref target="ESmgm007">MGM-007</ref> “Vita of the Apostles”; <ref target="ESmgm008">MGM-008</ref> “Miracles of Jesus ”; <ref target="ESmgm009">MGM-009</ref> “Synaxarion (The second half of the year)”; <ref target="ESmgm010">MGM-010</ref> “Praise of Mary; Collection; Images of the Praise; A Part of Dǝggwa”; <ref target="ESmgm011">MGM-011</ref> “Prayer of Incense; Missal”; <ref target="ESmgm012">MGM-012</ref> “Vita of Libanos Miracles of Libanos”; <ref target="ESmgm013">MGM-013</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; <ref target="ESmgm014">MGM-014</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; <ref target="ESmgm015">MGM-015</ref> “The Book of the Baptismal Rite”; <ref target="ESmgm016">MGM-016</ref> “Vita of ʾArägawi”; <ref target="ESmgm017">MGM-017</ref> “The Book of the Funeral Rite”; MGM-leaves 1 (18) Fragments of different manuscripts; MGM-leaves 2 (19) Fragments of different manuscripts.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Michael, ʾAbrǝha and ʾAṣbǝḥa (reportedly the tabot of the old church), Mary, Twenty-Four Heavenly Priests.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

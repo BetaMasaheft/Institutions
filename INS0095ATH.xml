@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation">The time of the foundation of the church is not known. Lepage - Mercier 2005 includes it in the sub-chapter for 17th-19th centuries. At least one book of the church library, the Golden Gospel (ATH-1) predates this period.</desc>
                   <ab type="history">Däbr. &#xD;
-Tabots (3): Täklä Haymanot, Mary, Michael (in the church below).</ab>
+</ab>
                   <ab type="description">10 mss. photographed: <ref target="ESath001">ATH-001</ref> "Four Gospels"; <ref target="ESath002">ATH-002</ref> "Vita of Täklä Haymanot"; <ref target="ESath003">ATH-003</ref> "Homily of St. George"; <ref target="ESath004">ATH-004</ref> "The Book of the Baptismal Rite"; <ref target="ESath005">ATH-005</ref> "Synaxario"; <ref target="ESath006">ATH-006</ref> "Collection of Prayers"; <ref target="ESath007">ATH-007</ref> "Book of the Rite of the Passion Week"; <ref target="ESath009">ATH-009</ref> "Missal".</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Täklä Haymanot, Mary, Michael (in the church below).</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

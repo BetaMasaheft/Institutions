@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. &#xD;
-Tabots (4): Yasay, ʾAmanuʾel, Mary, Michael.</ab>
+</ab>
                   <ab type="description">8 Mss. photographed: <ref target="ESday001">DAY-001</ref> "The Rite of the Holy Week"; <ref target="ESday002">DAY-002</ref> "The Faith of the Fathers"; <ref target="ESday003">DAY-003</ref> "Four Gospels"; <ref target="ESday004">DAY-004</ref> "Psalter"; <ref target="ESday005">DAY-005</ref> "Psalter"; <ref target="ESday006">DAY-006</ref> "The Book of the Funeral Rite"; <ref target="ESday007">DAY-007</ref> "Vita of Yasay"; <ref target="ESday008">DAY-008</ref> "Vita of Yasay"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Yasay, ʾAmanuʾel, Mary, Michael.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

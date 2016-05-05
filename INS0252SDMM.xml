@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Local tradition claims that the church was founded in the 4th century.</desc>
                   <ab type="history">Däbr.&#xD;
 Located not far from the famous church of ʾAbrǝha and ʾAṣbǝḥa. &#xD;
-Tabots (3): Mary, Ruphael, one old unidentified tabot.</ab>
+</ab>
                   <ab type="description">11 Mss. photographed: <ref target="ESsdmm001">SDMM-001</ref> “Four Gospels”; <ref target="ESsdmm002">SDMM-002</ref> “Mǝʿraf”; <ref target="ESsdmm003">SDMM-003</ref> “Miracles of Mary”; <ref target="ESsdmm004">SDMM-004</ref> “Book of  ʾAslǝti”; <ref target="ESsdmm005">SDMM-005</ref> “Psalter”; <ref target="ESsdmm006">SDMM-006</ref> “Book of the passion and the story of crucification of our lord and our saviour Jesus Christ”; <ref target="ESsdmm007">SDMM-007</ref> “Synaxarium (The first half of the year)”; <ref target="ESsdmm008">SDMM-008</ref> “Dǝggwa”; <ref target="ESsdmm009">SDMM-009</ref> “Miracles of Jesus Miracles of Gäbrä Mänfäs Qǝddus”; <ref target="ESsdmm010">SDMM-010</ref> “Synaxarium (II Part)”; <ref target="ESsdmm011">SDMM-011</ref> “Book of the Funeral Rite”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Mary, Ruphael, one old unidentified tabot.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

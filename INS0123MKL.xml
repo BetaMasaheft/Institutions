@@ -59,13 +59,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation">Local tradition tells that the church was founded in the time of King Kaleb (6 cent.). Some pottery from the Aksumite period has been found at and around the site.</desc>
                   <ab type="history">Däbr. &#xD;
-Tabots (5): Täklä Haymanot, Trinity, Kidanä Mǝḥrät, Four Living Creatures (marble), Twenty-Four Heavenly Priests.</ab>
+</ab>
                   <ab type="description">23 Mss. photographed: <ref target="ESmkl001">MKL-001</ref> "The Rite of the Holy Week"; <ref target="ESmkl002">MKL-002</ref> "Miracles of Mary"; <ref target="ESmkl003">MKL-003</ref> "The Book of the Funeral Rite"; <ref target="ESmkl004">MKL-004</ref> "The Book of the Funeral Rite"; <ref target="ESmkl005">MKL-005</ref> "Four Gospels"; <ref target="ESmlk006">MLK-006</ref> "Synaxarion (March)"; <ref target="ESmkl007">MKL-007</ref> "Homily of the Saviour of the World"; <ref target="ESmkl008">MKL-008</ref> "Missal"; <ref target="ESmkl009">MKL-009</ref> "Missal"; <ref target="ESmkl010">MKL-010</ref> "Vita of Täklä Haymanot"; <ref target="ESmkl011">MKL-011</ref> "The Book of the Chants"; <ref target="ESmkl012">MKL-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESmkl013">MKL-013</ref> "The Book of the Chants"; <ref target="ESmkl014">MKL-014</ref> "Vita of Libanos"; <ref target="ESmkl015">MKL-015</ref> "Homily of St. Michael"; <ref target="ESmkl016">MKL-016</ref> "Vita of Kiros"; <ref target="ESmkl017">MKL-017</ref> "Prayer of Incense; Miracles of Mary"; <ref target="ESmkl018">MKL-018</ref> "Vita of ʾArägawi"; <ref target="ESmkl019">MKL-019</ref> "Synaxarion (September)"; <ref target="ESmkl020">MKL-020</ref> "Story of the Trinity"; <ref target="ESmkl021">MKL-021</ref> "Homily of the Sabbath"; <ref target="ESmkl022">MKL-022</ref> "The Book of the Matrimony Rite"; <ref target="ESmkl023">MKL-023</ref> "Revelation of John (?)"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="5"/>Tabots of Täklä Haymanot, Trinity, Kidanä Mǝḥrät, Four Living Creatures (marble), Twenty-Four Heavenly Priests.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

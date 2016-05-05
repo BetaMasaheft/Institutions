@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär.&#xD;
-Tabots (5): Mary, George, Trinity, Michael, Mädḫane ʿAläm.</ab>
+</ab>
                   <ab type="description">10 Mss., 4 items photographed: <ref target="ESqgm001">QGM-001</ref> “Miracles of Mary”; <ref target="ESqgm002">QGM-002</ref> “Four Gospels”; <ref target="ESqgm003">QGM-003</ref> “Miracles of Jesus”; <ref target="ESqgm004">QGM-004</ref> “Homily on St. Michael”; <ref target="ESqgm005">QGM-005</ref> “Vita of St. George”;  <ref target="ESqgm006">QGM-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref target="ESqgm007">QGM-007</ref> “Missal”; <ref target="ESqgm008">QGM-008</ref> “Book of the Funeral Rite”; <ref target="ESqgm009">QGM-009</ref> “Synaxarion (September-February)”; <ref target="ESqgm010">QGM-010</ref> “Synaxarion (March-September)”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="5"/>Tabots of Mary, George, Trinity, Michael, Mädḫane ʿAläm.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. &#xD;
-Tabots (2): Mary (the main church below), Michael (in the recently built upper church).&#xD;
+&#xD;
 A small church dedicated to Gäbrä Mänfäs Qǝddus is located in the vicinity.</ab>
                   <ab type="description">22 Mss. photographed: <ref target="ESsqmm001">SQMM-001</ref> “Miracles of Mary”; <ref target="ESsqmm002">SQMM-002</ref> “Homily on the Saviour of the World ”; <ref target="ESsqmm003">SQMM-003</ref> “Mracles of Mary, The Prayer of Mary on the Mount Golgotha etc”; <ref target="ESsqmm004">SQMM-004</ref> “The Rite of the Holy Week”; <ref target="ESsqmm005">SQMM-005</ref> “Synaxarion (Mäggabit- Pägwǝmen)”; <ref target="ESsqmm006">SQMM-006</ref> “Synaxarion (September-February)”; <ref target="ESsqmm007">SQMM-007</ref> “Homily on St. Michael”; <ref target="ESsqmm008">SQMM-008</ref> “Missal”; <ref target="ESsqmm009">SQMM-009</ref> “Missal”; <ref target="ESsqmm010">SQMM-010</ref> “Psalter of Dawit”; <ref target="ESsqmm011">SQMM-011</ref> “Prayer of Incense”; <ref target="ESsqmm012">SQMM-012</ref> “Miracles of Jesus”; <ref target="ESsqmm013">SQMM-013</ref> “The Book of the Story of the Trinity”; <ref target="ESsqmm014">SQMM-014</ref> “The Book of the Matrimony Rite”; <ref target="ESsqmm015">SQMM-015</ref> “The Book of the Chants”; <ref target="ESsqmm016">SQMM-016</ref> “The Book of Baptism”; <ref target="ESsqmm017">SQMM-017</ref> “Psalter of Dawit”; <ref target="ESsqmm018">SQMM-018</ref> “Dǝggwa”; <ref target="ESsqmm019">SQMM-019</ref> “The Book of Ziq”; <ref target="ESsqmm020">SQMM-020</ref> “Synoptic Lectionary for the Year”; <ref target="ESsqmm021">SQMM-021</ref> “Deggwa, the Book of Qedär”; <ref target="ESsqmm022">SQMM-022</ref> “Antiphonary”.</ab>
                   <ab type="appellations">
@@ -68,6 +68,8 @@ A small church dedicated to Gäbrä Mänfäs Qǝddus is located in the vicinity.
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"/>Tabots of Mary (the main church below), Michael (in the recently built upper church).</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">The religious site existed already in the Aksumite time.</desc>
                   <ab type="history">Däbr. Another church, dedicated to St. Mary, is located in the vicinity.&#xD;
-Tabots (1): Gäbrä Mänfäs Qǝddus.</ab>
+</ab>
                   <ab type="description">1 Mss. photographed; the church possesses some 25 recent Mss.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tabots of Gäbrä Mänfäs Qǝddus.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

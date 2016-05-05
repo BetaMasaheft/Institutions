@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Ca. 1930 A.M. (= 1937/38 A.D.)</desc>
                   <ab type="history">Däbr.&#xD;
 The present church building is new; it was built mainly on the donation of the local people: ʾaläqa Ḥagos, mämhər Amməha Gədday Kənfä (who provided for the tin roof). Other people contributed with manpower. The clergy of the church consists of 9 priests, 17 deacons, 1 cantor.&#xD;
-Tabots (3): Trinity, Gäbrä Nazrawi, Mary.</ab>
+</ab>
                   <ab type="description">2 Mss. were photographed (some 7 recent left behind, including the new copy of the Vita of Gäbrä Nazrawi): <ref target="ESgna001">GNA-001</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Trinity, Gäbrä Nazrawi, Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

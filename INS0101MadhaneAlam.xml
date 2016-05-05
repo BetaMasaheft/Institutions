@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0101MadhaneAlam">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Madḫane ʿĀlam</title>
-        <editor key="ES"/>
-        <editor role="generalEditor" key="AB"/>
-        <funder>Akademie der Wissenschaften in Hamburg</funder>
-      </titleStmt>
-      <publicationStmt>
-        <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-        <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+      <fileDesc>
+         <titleStmt>
+            <title>Madḫane ʿĀlam</title>
+            <editor key="ES"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
           multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
-        <pubPlace>Hamburg</pubPlace>
+            <pubPlace>Hamburg</pubPlace>
         
-        <availability>
-          <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
             This file is licensed under the Creative Commons
             Attribution-ShareAlike 4.0. </licence>
-        </availability>
+            </availability>
         
-      </publicationStmt>
-      <sourceDesc>
-        <p>A TEI file created from original data</p>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="en">English</language>
-        <language ident="gez">Gǝʿǝz</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <change who="ES" when="2016-03-19">CREATED: place</change>
-    </revisionDesc>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from original data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="ES" when="2016-03-19">CREATED: place</change>
+      </revisionDesc>
   </teiHeader>
   <text>
-    <body>
-      <listPlace>
-        <place subtype="institution">
-          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-          <placeName corresp="INS00100MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
-          <placeName corresp="INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
-          <placeName corresp="INS00100MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
-          <country corresp="LOC3010Ethiop"/>
-          <region corresp="LOC5932Tegray"/>
-          <settlement corresp="LOC4547Maqdal"/>
-          <location>
-            <geo>11.2 - 39.283</geo>
-            <height unit="m">1247</height>
-          </location>
-          <note>
-            <date type="foundation"></date>
-            <desc type="foundation">
+      <body>
+         <listPlace>
+            <place subtype="institution">
+               <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
+               <placeName corresp="INS00100MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
+               <placeName corresp="INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
+               <placeName corresp="INS00100MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
+               <country corresp="LOC3010Ethiop"/>
+               <region corresp="LOC5932Tegray"/>
+               <settlement corresp="LOC4547Maqdal"/>
+               <location>
+                  <geo>11.2 - 39.283</geo>
+                  <height unit="m">1247</height>
+               </location>
+               <note>
+                  <date type="foundation"/>
+                  <desc type="foundation">
             </desc>
             
-            <ab type="history"></ab>
+                  <ab type="history"/>
             
-            <ab type="description"></ab>
-          </note>
-          <listBibl type="secondary">
-            <bibl>
-              <ptr target="bm:Blanc1868Narrative"/>
-            </bibl>
-          </listBibl>
-        </place>
-      </listPlace>
-    </body>
+                  <ab type="description"/>
+                  <ab type="tabot"/>
+               </note>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:Blanc1868Narrative"/>
+                  </bibl>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
   </text>
 </TEI>

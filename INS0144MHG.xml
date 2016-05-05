@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1550">1500-1550</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. The church of ʿAddigodana Täklä Haymanot, in the vicinity, was historically associated with Ḥarennät Maryam (but recently became an independent institution). A ṣäbäl-source is located near ʿAddigodana Täklä Haymanot; near the source, there are ruins of the "old church of Täklä Haymanot".&#xD;
-Tabots (6): Trinity, ʾArägawi, Mary, George, ʾAbrǝha and ʾAṣbǝḥa, Peter and Paul (some of them are said to be marble tabots).</ab>
+</ab>
                   <ab type="description">22 Mss. photographed: <ref target="ESmhg001">MHG-001</ref> "The Vita of Täklä Haymanot"; <ref target="ESmhg002">MHG-002</ref> "The Homily of St. Michael"; <ref target="ESmhg003">MHG-003</ref> "The Vita of Mänfäs Qǝddus"; <ref target="ESmhg004">MHG-004</ref> "Four Gospels"; <ref target="ESmhg005">MHG-005</ref> "The Homily of St. Michael"; <ref target="ESmhg006">MHG-006</ref> "The Book of the Epistle"; <ref target="ESmhg007">MHG-007</ref> "Pauline Epistles"; <ref target="ESmhg008">MHG-008</ref> "The Book of the Funeral Rite"; <ref target="ESmhg009">MHG-009</ref> "The Book of the Chants"; <ref target="ESmhg010">MHG-010</ref> "Collection of Marian prayers"; <ref target="ESmhg011">MHG-011</ref> "Missal"; <ref target="ESmhg012">MHG-012</ref> "Miracles of Mary"; <ref target="ESmhg013">MHG-013</ref> "The Book of the Mistery"; <ref target="ESmhg014">MHG-014</ref> "Miracles of Mary"; <ref target="ESmhg015">MHG-015</ref> "The Book of the Baptismal Rite"; <ref target="ESmhg016">MHG-016</ref> "The Homiliy of the Saviour of the world"; <ref target="ESmhg017">MHG-017</ref> "Missal"; <ref target="ESmhg018">MHG-018</ref> "Four Gospels"; <ref target="ESmhg019">MHG-019</ref> "The Prayer of the Incense"; <ref target="ESmhg020">MHG-020</ref> "Pauline Epistles"; <ref target="ESmhg021">MHG-021</ref> "Miracles of Mary, other texts"; <ref target="ESmhg022">MHG-022</ref> "1. The Book of Gǝṣṣǝw; 2. The Homily of the Sabbath of Christians"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="6"/>Tabots of Trinity, ʾArägawi, Mary, George, ʾAbrǝha and ʾAṣbǝḥa, Peter and Paul (some of them are said to be marble tabots).</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

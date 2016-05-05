@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#xD;
-Tabots (4): Mary, John the Baptist, Gabriel, ʾArägawi.</ab>
+</ab>
                   <ab type="description">13 Mss., items recorded: <ref target="ESdmd001">DMD-001</ref> "Vita of Täklä Haymanot, Vita of Ewostatewos"; <ref target="ESdmd002">DMD-002</ref> "Synaxarion (September)"; <ref target="ESdmd003">DMD-003</ref> "Four Gospels"; <ref target="ESdmd004">DMD-004</ref> "Story of St. Mary"; <ref target="ESdmd005">DMD-005</ref> "Missal"; <ref target="ESdmd006">DMD-006</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESdmd007">DMD-007</ref> "The Book of the Funeral Rite"; <ref target="ESdmd008">DMD-008</ref> "Homily of St. Michael"; <ref target="ESdmd009">DMD-009</ref> "Homily of the Saviour of the World"; <ref target="ESdmd010">DMD-010</ref> "Miracles of John"; <ref target="ESdmd011">DMD-011</ref> "The Book of the Chants"; <ref target="ESdmd012">DMD-012</ref> "Synoptic Lectionary for the Year"; <ref target="ESdmd013">DMD-013</ref> "Vita of Kiros"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Mary, John the Baptist, Gabriel, ʾArägawi.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

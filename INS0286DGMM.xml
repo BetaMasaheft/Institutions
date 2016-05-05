@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär.&#xD;
-Tabots (3): Mary, Mädḫane ʿAläm, Michael.</ab>
+</ab>
                   <ab type="description">31 Mss., 3 scrolls photographed: <ref target="ESdgmm001">DGMM-001</ref>; <ref target="ESdgmm002">DGMM-002</ref> “Four Gospels”; <ref target="ESdgmm003">DGMM-003</ref> “Miracles of Mary”; <ref target="ESdgmm004">DGMM-004</ref> “Miracles of Jesus”; <ref target="ESdgmm005">DGMM-005</ref> “ Missal”; <ref target="ESdgmm006">DGMM-006</ref> “Book of the Funeral Rite”; <ref target="ESdgmm007">DGMM-007</ref> “Lectionary of the Year”; <ref target="ESdgmm008">DGMM-008</ref> “ Mǝʿraf”; <ref target="ESdgmm009">DGMM-009</ref> “ Collection of Chants”; <ref target="ESdgmm010">DGMM-010</ref> “Horologium for the Night Hours”; <ref target="ESdgmm011">DGMM-011</ref> “Homily of the Sabbath of the Christians”; <ref target="ESdgmm012">DGMM-012</ref> “Synaxarion (The first half of the year)”; <ref target="ESdgmm013">DGMM-013</ref> “Missal”; <ref target="ESdgmm014">DGMM-014</ref> “Acts of the Apostels”; <ref target="ESdgmm015">DGMM-015</ref> “Epistols of Saint Paul”; <ref target="ESdgmm016">DGMM-016</ref> “Psalter”; <ref target="ESdgmm017">DGMM-017</ref> “Vite of Mälkä Ṣedeq”; <ref target="ESdgmm018">DGMM-018</ref> “Book of ʾAslǝṭi”; <ref target="ESdgmm019">DGMM-019</ref> “Missal”; <ref target="ESdgmm020">DGMM-020</ref> “The book of the night hours”; <ref target="ESdgmm021">DGMM-021</ref> “The Harp pf Praise”; <ref target="ESdgmm022">DGMM-022</ref> “Anaphora of Mary and other text”; <ref target="ESdgmm023">DGMM-023</ref> “Vite of Gäbrä Mänfäs Qǝddus”; <ref target="ESdgmm024">DGMM-024</ref> “Collection of Marian Prayers”; <ref target="ESdgmm025">DGMM-025</ref> “Missal”; <ref target="ESdgmm026">DGMM-026</ref> “The Disciples”; <ref target="ESdgmm027">DGMM-027</ref> “Dawit”; <ref target="ESdgmm028">DGMM-028</ref> “Anaphora of Mary”; <ref target="ESdgmm029">DGMM-029</ref> “Book of Ziq”; <ref target="ESdgmm031">DGMM-031</ref> “Book of the night hours - Horologium”; <ref target="ESdgmm032">DGMM-032</ref> “Psalter”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of Mary, Mädḫane ʿAläm, Michael.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

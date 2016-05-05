@@ -61,13 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr.&#xD;
-Tabots (4): Mädḫane ʿAläm, Michael, Gabriel, Mary.</ab>
+</ab>
                   <ab type="description">15 Mss. photographed: <ref target="ESqs001">QS-001</ref> “Gospel of John”; <ref target="ESqs002">QS-002</ref> “Zǝmmare and Mäwasǝʾǝt”; <ref target="ESqs003">QS-003</ref> “Mǝʿraf”; <ref target="ESqs004">QS-004</ref> “Book of the Funeral Rite”; <ref target="ESqs005">QS-005</ref> “Four Gospel”; <ref target="ESqs006">QS-006</ref> “Dǝggwa”; <ref target="ESqs007">QS-007</ref> “Homily of John the Evangelist”; <ref target="ESqs008">QS-008</ref> “Synaxarion (March-September)”; <ref target="ESqs009">QS-009</ref> “Missal”; <ref target="ESqs010">QS-010</ref> “The Rite of the Holy Week”; <ref target="ESqs011">QS-011</ref> “Miracles of Jesus”; <ref target="ESqs012">QS-012</ref> “Story of St. Mary”; <ref target="ESqs013">QS-013</ref> “Synaxarion (September-February)”; <ref target="ESqs014">QS-014</ref> “Miracles of Mary”; <ref target="ESqs015">QS-015</ref> “The Faith of the Fathers”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Mädḫane ʿAläm, Michael, Gabriel, Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

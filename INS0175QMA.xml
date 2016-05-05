@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär.&#xD;
-Tabots (5): 4 of Mary, Trinity.</ab>
+</ab>
                   <ab type="description">6 Mss. photographed: <ref target="ESqma001">QMA-001</ref> "Missal"; <ref target="ESqma002">QMA-002</ref> "Four Gospels"; <ref target="ESqma003">QMA-003</ref> "Collection of Liturgic Prayers"; <ref target="ESqma004">QMA-004</ref> "Missal"; <ref target="ESqma005">QMA-005</ref> "The Sword of the Trinity, The Loosening of the Spell"; <ref target="ESqma006">QMA-006</ref> "Miracles of Mary"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="5"/>Tabots of 4 of Mary, Trinity.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation">Nothing is known about the foundation and founder of the church, but local tradition claims that it is at least as old as Säbäya Maryam.</desc>
                   <ab type="history">Gäṭär. &#xD;
-Tabots (1): Gabriel.</ab>
+</ab>
                   <ab type="description">2 Mss. photographed: <ref target="ESmg001">MG-001</ref> "Synaxarion"; <ref target="ESmg002">MG-002</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tabots of Gabriel.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr.&#xD;
-Tabots (1): probably only one, of Mary.</ab>
+</ab>
                   <ab type="description">Ca. 20 books, mostly recent.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tabots of probably only one, of Mary.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

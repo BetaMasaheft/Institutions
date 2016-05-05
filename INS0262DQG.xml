@@ -62,13 +62,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. Aksumite remains have been found in the vicinity. &#xD;
 The recent church of Mädḫane ʿAläm was built in the time of ; before,  (?).&#xD;
 The church of St. George stands on the rock and is hardly accessible The structures visible in the roch under the church of George (?) are said to have been a church dedicated to Qirqos (now deserted and inaccessible). In the valley, there is an associated church dedicated to Mädḫane ʿAläm, built in King Ḫaylä Śǝllase's time (but it was founded by grazmač Mäšäša).  &#xD;
-Tabots (3): 2 of George (in the upper church) and 1 Mädḫane ʿAläm (below). The tabot of Qirqos is not there any more (reportedly stolen). The old dedication might be reflected in the name of the church, Däbrä Zäkaryas (Prophet Zachariah?).</ab>
+</ab>
                   <ab type="description">10 Mss. photographed: <ref target="ESdqg001">DQG-001</ref> “Miracles of Mary”; <ref target="ESdqg002">DQG-002</ref> “Vita of Mar Giyorgis”; <ref target="ESdqg003">DQG-003</ref> “Compilation of gospel's texts”; <ref target="ESdqg004">DQG-004</ref> “Miracles of Mary”; <ref target="ESdqg005">DQG-005</ref> “Vita of Giyorgis; Miracles of Giyorgis; Supplication prayer; Image of Giyorgis”; <ref target="ESdqg006">DQG-006</ref> “Psalter”; <ref target="ESdqg007">DQG-007</ref> “Harp of Praise”; <ref target="ESdqg008">DQG-008</ref> “Four Gospels”; <ref target="ESdqg009">DQG-009</ref> “Book of the Baptismal Ritual”; <ref target="ESdqg010">DQG-010</ref> “Praise of Marry”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tabots of 2 of George (in the upper church) and 1 Mädḫane ʿAläm (below). The tabot of Qirqos is not there any more (reportedly stolen). The old dedication might be reflected in the name of the church, Däbrä Zäkaryas (Prophet Zachariah?).</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

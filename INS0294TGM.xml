@@ -62,13 +62,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gädam. &#xD;
 It is considered a monastic community, but currently there are no monks. Local tradition speaks of "one thousand monks" who once resided around.&#xD;
 At the foot of the mountain, there are collapsed structures of a rock-hewn church (?); some caves at the place of ascension to the church appear to be an old church or monks dwelling; a few other caverns in the rock on the other side are were used as burial places.&#xD;
-Tabots (4): Michael, Gabriel, Mary, Täklä Haymanot.</ab>
+</ab>
                   <ab type="description">16 Mss. photographed: <ref target="EStgm001">TGM-001</ref> “Four Gospels”; <ref target="EStgm002">TGM-002</ref> “Psalter”; <ref target="EStgm003">TGM-003</ref> “Loosening of the Spell”; <ref target="EStgm004">TGM-004</ref> “Book of the feast of Christs Baptism; Prayer of Insense”; <ref target="EStgm005">TGM-005</ref> “Missal”; <ref target="EStgm006">TGM-006</ref> “Missal”; <ref target="EStgm007">TGM-007</ref> “Missal”; <ref target="EStgm008">TGM-008</ref> “Vita of Arägawi”; <ref target="EStgm009">TGM-009</ref> “Book of the Absolution and other text”; <ref target="EStgm010">TGM-010</ref> “Miracles of Mary”; <ref target="EStgm011">TGM-011</ref> “Collection of Prayers”; <ref target="EStgm012">TGM-012</ref> “Horologium”; <ref target="EStgm013">TGM-013</ref> “Miracles of Jesus”; <ref target="EStgm014">TGM-014</ref> “Loosening of the spell”; <ref target="EStgm015">TGM-015</ref> “Homily of abba Jacob of Sarug”; <ref target="EStgm016">TGM-016</ref> “Book of the Funeral Rite”.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Michael, Gabriel, Mary, Täklä Haymanot.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

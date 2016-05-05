@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
                   <desc type="foundation"/>
                   <ab type="history">Gädam. The monastic community disappeared long ago.&#xD;
-Tabots (4): Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema.</ab>
+</ab>
                   <ab type="description">7 Mss. photographed: <ref target="ESdmb001">DMB-001</ref> "Homily of St. Michael"; <ref target="ESdmb002">DMB-002</ref> "Homily of St. Michael"; <ref target="ESdmb003">DMB-003</ref> "Miracles of Mary"; <ref target="ESdmb004">DMB-004</ref> "Synaxarion (March)"; <ref target="ESdmb005">DMB-005</ref> "Miracles of Mary"; <ref target="ESdmb006">DMB-006</ref> "The Book of the Funeral Rite"; <ref target="ESdmb007">DMB-007</ref> "Four Gospels"; <ref target="ESdmb008">DMB-008</ref> "The Rite of the Holy Week"; <ref target="ESdmb009">DMB-009</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="4"/>Tabots of Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema.</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>

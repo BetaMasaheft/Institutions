@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. Two churches are located at the site, one recent dedicated to Mary and one old (16th or 17th cent.?) used at specific occassions only.&#xD;
-Tabots(5): 3 of Mary, Jesus, Lalibäla (?).</ab>
+                     </ab>
                   <ab type="description">25 Mss. photographed: <ref target="ESdz001">DZ-001</ref> "Four Gospels"; <ref target="ESdz002">DZ-002</ref> "The Book of the Funeral Rite"; <ref target="ESdz003">DZ-003</ref> "Miracles of Mary" and other texts; <ref target="ESdz004">DZ-004</ref> "Vitae of the Apostles"; <ref target="ESdz005">DZ-005</ref> "Miracles of Mary"; <ref target="ESdz006">DZ-006</ref> "Collection of Mälkǝʿ-Poetry"; <ref target="ESdz007">DZ-007</ref> "Story of St. Mary"; <ref target="ESdz008">DZ-008</ref> "The Rite of the Holy Week"; <ref target="ESdz009">DZ-009</ref> "Dǝggwa"; <ref target="ESdz010">DZ-010</ref> "The Rite of the Holy Week"; <ref target="ESdz011">DZ-011</ref> "Missal"; <ref target="ESdz013">DZ-013</ref> "Missal"; <ref target="ESdz014">DZ-014</ref> "Miracles of Mary"; <ref target="ESdz015">DZ-015</ref> "The Book of the Funeral Rite"; <ref target="ESdz016">DZ-016</ref> "Miracles of Jesus"; <ref target="ESdz017">DZ-017</ref> "Synaxarion (September)"; <ref target="ESdz018">DZ-018</ref> "Vita of St. George"; <ref target="ESdz019">DZ-019</ref> "Vita of Täklä Haymanot"; <ref target="ESdz020">DZ-020</ref> "Prayer of Incense"; <ref target="ESdz021">DZ-021</ref> "Story of the Trinity"; <ref target="ESdz022">DZ-022</ref> "Litanies"; <ref target="ESdz023">DZ-023</ref> "Missal"; <ref target="ESdz024">DZ-024</ref> "Four Gospels"; <ref target="ESdz025">DZ-025</ref> "Psalter"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
                      </list>
                   </ab>
+                  <ab type="tabot">
+                     <measure quantity="5"/>Tabots of 3 of Mary, Jesus, Lalibäla (?).</ab>
                </note>
                <listBibl type="secondary">
                   <bibl/>
