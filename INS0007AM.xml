@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="DN" when="2010-03-10T16:52:43.686Z">created</change>
          <change who="DN" when="2014-12-12T12:33:13.486Z">last edited</change>
-         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-04-28T12:33:13.486Z">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>
@@ -52,10 +52,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country>Ethiopia</country>
                <region>Təgray</region>
                <settlement from="2009-11-16" to="2009-11-17">wäräda ʾAṣbi Wänbärta, qušät ʾAsir Mätira</settlement>
-               <location>
-                  <geo> </geo>
-                  <height unit="m"/>
-               </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>

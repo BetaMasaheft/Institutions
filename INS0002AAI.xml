@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="DN" when="2010-03-10T10:27:12.298Z">created</change>
          <change who="DN" when="2014-12-04T11:35:57.523Z">last edited</change>
-         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-04-28T11:35:57.523Z">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName/>
+            <placeName>Asia-Africa-Institut</placeName>
                <placeName type="alt">Asia-Africa-Institut</placeName>
                <country>Germany</country>
                <region/>
