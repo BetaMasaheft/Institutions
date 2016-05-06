@@ -37,9 +37,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="DN" when="2012-06-25T19:03:46.265Z">created</change>
-         <change who="DN" when="2015-05-20T09:34:27.287Z">last edited</change>
-         <change who="PL" when="2016-04-28+02:00">transformed from mycore to TEI
+         <change who="DN" when="2012-06-25">created</change>
+         <change who="DN" when="2015-05-20">last edited</change>
+         <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>
