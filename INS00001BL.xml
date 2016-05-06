@@ -36,18 +36,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change who="ES" when="2016-03-19T12:33:13.486Z">CREATED: place</change>
+      <change who="ES" when="2016-03-19">CREATED: place</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <listPlace>
-        <place subtype="institution">
+        <place type="administrativeUnit" subtype="institution">
           <placeName>British Library</placeName>
           <placeName type="alt">British Museum</placeName>
-          <country corresp="LOC6523UK"/>
-          <region corresp="LOC6524England"/>
-          <settlement corresp="LOC4325London"/>
+          <country corresp="LOC6523UK">United Kingdom</country>
+          <region corresp="LOC6524England">England</region>
+          <settlement corresp="LOC4325London">London</settlement>
           
           <note>
             <date type="foundation" ></date>
@@ -55,12 +55,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </desc>
             
             <ab type="history"></ab>
+            <ab type="tabot"></ab>
             
             <ab type="description"></ab>
           </note>
           <listBibl type="catalogue">
             <bibl>
-              <ptr target="bm:Wright1877BL"/>
+              <ptr target="bm:Wright1877BM"/>
             </bibl>
           </listBibl>
         </place>
