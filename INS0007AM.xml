@@ -41,20 +41,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-12">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2016-05-09" who="ES">names updated/completed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAsir Mätira</placeName>
-               <placeName type="alt">ʾAsir Mätira Däbrä ʿAlama Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Asira Mätira</placeName>
-               <placeName type="alt">Asǝr Mätira</placeName>
-               <placeName type="alt">Ašǝr Mätira</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2009-11-16" to="2009-11-17">wäräda ʾAṣbi Wänbärta, qušät ʾAsir Mätira</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               
+
+                  <placeName xml:id="n1" xml:lang="gez">አሲር፡ መቲራ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAsir Matirā</placeName>
+               <placeName type="alt"  xml:id="n2">አሲር፡ መቲራ፡  ደብረ፡ ዓለማ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName type="alt" corresp="#n2">ʾAsir Matirā Dabra ʿĀlamā Qǝddǝst Maryam</placeName>
+               <placeName type="alt"  xml:id="n3">አሲረ፡ መቲራ፡  </placeName>
+               <placeName type="alt" corresp="#n3">ʾAsira Matirā</placeName>
+               <placeName type="alt"  xml:id="n4">አስር፡ መቲራ፡  </placeName>
+               <placeName type="alt" corresp="#n4">ʾAsǝr Matirā</placeName>
+               <placeName type="alt"  xml:id="n5">አሽር፡ መቲራ፡  </placeName>
+               <placeName type="alt" corresp="#n5">ʾAšǝr Matirā</placeName>
+               <placeName type="alt"  xml:id="n6">ደብረ፡ ዓሊማ፡  </placeName>
+               <placeName type="alt" corresp="#n6">Dabra ʿĀlimā</placeName>
+               <placeName type="alt"  xml:id="n7">ደብረ፡ ዓለማ፡  </placeName>
+               <placeName type="alt" corresp="#n7">Dabra ʿĀlamā</placeName>
+
+                  <country corresp="LOC3010Ethiop"/>
+                  <region corresp="LOC5932Tegray"/>
+               <settlement when="2009-11-16"> <placeName corresp="LOC1564ASbiW" type="waradā"/></settlement>
+               <settlement when="2009-11-16"> <placeName corresp="LOC6526Asir" type="qušat"/></settlement>
+
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>
