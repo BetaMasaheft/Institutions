@@ -68,11 +68,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </list>
                   </ab>
                   <ab type="tabot">
-                     <measure quantity="4"/>Tabots of Qirqos, Urael, Mary, Mädḫane ʿAläm.</ab>
+                     <measure quantity="4"/> Tabots (4): 
+                     
+                     
+                     <persName corresp="PRS3249Cyriacus">Qirqos</persName>, <persName corresp="PRS9684Uriel">Urael</persName>, <persName corresp="PRS6819Mary">Mary</persName>, <persName corresp="PRS10777Madhane">Madḫane ʿĀlam</persName>
+                     
+                     
+                     
+                  </ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
+
             </place>
          </listPlace>
       </body>
