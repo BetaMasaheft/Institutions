@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Sahəl Qəddus Mikaʾel Bet Mäḵaʿ</title>
+            <title>Däbrä Sahǝl Qǝddus Mikaʾel Bet Mäḵaʿ</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Däbrä Sahəl Qəddus Mikaʾel Bet Mäḵaʿ</placeName>
-               <placeName type="alt">Mikaʾel Bet Mäḵaʿ / Bet Mäḵaʿ Qəddus Mikaʾel</placeName>
+               <placeName>Däbrä Sahǝl Qǝddus Mikaʾel Bet Mäḵaʿ</placeName>
+               <placeName type="alt">Mikaʾel Bet Mäḵaʿ / Bet Mäḵaʿ Qǝddus Mikaʾel</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
                <settlement from="2011-05-14" to="2011-05-14">wäräda Ganta ʾAfäsum, ṭabiya Bǝkot, qušät Bet Mäḵaʿ</settlement>

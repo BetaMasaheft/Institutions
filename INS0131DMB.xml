@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäʿatti Qəddus Mikaʾel </title>
+            <title>Bäʿatti Qǝddus Mikaʾel </title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,10 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Bäʿatti Qəddus Mikaʾel </placeName>
-               <placeName type="alt">Däbrä Məḥrät Qəddus Mikaʾel Bäʿatti</placeName>
+               <placeName>Bäʿatti Qǝddus Mikaʾel </placeName>
+               <placeName type="alt">Däbrä Mǝḥrät Qǝddus Mikaʾel Bäʿatti</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2010-12-10" to="2010-12-10">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Bäʿatti</settlement>
                <location>
                   <geo>14.310133 39.466133</geo>

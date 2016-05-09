@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="gez">ዓደቃሐርሲ፡ ጰራቅሊጦስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddaqāḥarsi Ṗarāqliṭos</placeName>
                <placeName type="alt"  xml:id="n2">ዓደቃሐርሲ፡ መካነ፡ ህይወት፡ ጰራቅሊጦስ፡</placeName>
-               <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Həywat Ṗarāqliṭos</placeName>
+               <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Hǝywat Ṗarāqliṭos</placeName>
                <country corresp="LOC3010Ethiop"/>
                <region corresp="LOC5932Tegray"/>
-               <settlement > <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
+               <settlement> <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6517Kesad" type="ṭabiya"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6518BetaP" type="qušat"/></settlement>
                <location>
@@ -64,7 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Existed aready in the pre-Christian time as the religious site of South Arabian migrants; the church was founded in a later period.</desc>
-                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop (below is the river of <placeName corresp="LOC6519Wafadabbo">Wäfädäbbo</placeName>).
+                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop 
+                     (below is the river of <placeName type="river" corresp="LOC6519Wafadabbo">Wafadabbo</placeName>).
                      </ab>
                   <ab type="tabot">
                      <measure quantity="8"/>

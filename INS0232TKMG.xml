@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Tänsǝḥe Kidanä Mǝḥrät</placeName>
                <placeName type="alt">Tänsǝḥe Kidanä Mǝḥrät</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2012-05-16" to="2012-05-17">wäräda Dägʿa Tämben, ṭabiya Sälam, qušät Tänsǝḥe</settlement>
                <location>
                   <geo>13.694183 39.187917</geo>

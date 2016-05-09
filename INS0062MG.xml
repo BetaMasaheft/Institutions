@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mätiʿ Gäbrəʾel</title>
+            <title>Mätiʿ Gäbrǝʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Mätiʿ Gäbrəʾel</placeName>
-               <placeName type="alt">Mätiʿ Qəddus Gäbrəʾel</placeName>
-               <country>Təgray</country>
+               <placeName>Mätiʿ Gäbrǝʾel</placeName>
+               <placeName type="alt">Mätiʿ Qǝddus Gäbrǝʾel</placeName>
+               <country>Tǝgray</country>
                <region/>
                <settlement from="2010-05-14" to="2010-05-14">wäräda Gulo Mäkäda, ṭabiya Säbäya, qušät Mätiʿ, close to Säbäya Maryam</settlement>
                <location>

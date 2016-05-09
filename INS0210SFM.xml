@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Sänqaṭa Fǝrewäyni Maryam</placeName>
                <placeName type="alt">Sänqaṭa Fǝrewäyni Däbrä Ṣǝge Qǝddǝst Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2011-12-06" to="2011-12-06">wäräda Saʿsi Ṣaʿda ʾƎmba, town of Sänqaṭa</settlement>
                <location>
                   <geo>14.054617 39.569</geo>

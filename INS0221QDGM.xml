@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Qäqäma Däbrä Gännät Qǝddǝst Maryam </placeName>
                <placeName type="alt">Qäqäma Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2012-06-01" to="2012-06-01">wäräda Dägʿa Tämben, ṭabiya Mizan, qušät Qäqäma</settlement>
                <location>
                   <geo>13.5664 39.0586</geo>

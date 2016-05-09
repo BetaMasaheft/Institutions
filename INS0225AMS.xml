@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>ʿAräbay Qǝddus Mikaʾel</placeName>
                <placeName type="alt">ʿAräbay Mikaʾel</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2012-05-30" to="2012-05-30">wäräda Dägʿa Tämben, ṭabiya ʿAräbay, qušät ʿAräbay</settlement>
                <location>
                   <geo>13.72155 39.267483</geo>

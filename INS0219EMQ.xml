@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Däbrä Mädḫanit Qorrar</placeName>
                <placeName type="alt">Maryam Qorrar</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2012-05-12" to="2012-05-12">wäräda Dägʿa Tämben, ṭabiya Särät, qušät ʾƎnda Maryam Qorrar</settlement>
                <location>
                   <geo>13.5813 39.123767</geo>

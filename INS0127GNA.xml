@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Gäbrä Nazrawi ʾAgäzna</placeName>
                <placeName type="alt">ʾAgäzna Gäbrä Nazrawi</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
-               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgaḥəya, qušät ʾAgäzna</settlement>
+               <region>Tǝgray</region>
+               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgaḥǝya, qušät ʾAgäzna</settlement>
                <location>
                   <geo>14.262418 39.398269</geo>
                   <height unit="m">2919.86</height>
@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1937" notAfter="1938">1937-1938</date>
                   <desc type="foundation">Ca. 1930 A.M. (= 1937/38 A.D.)</desc>
                   <ab type="history">Däbr.&#xD;
-The present church building is new; it was built mainly on the donation of the local people: ʾaläqa Ḥagos, mämhər Amməha Gədday Kənfä (who provided for the tin roof). Other people contributed with manpower. The clergy of the church consists of 9 priests, 17 deacons, 1 cantor.&#xD;
+The present church building is new; it was built mainly on the donation of the local people: ʾaläqa Ḥagos, mämhǝr Ammǝha Gǝdday Kǝnfä (who provided for the tin roof). Other people contributed with manpower. The clergy of the church consists of 9 priests, 17 deacons, 1 cantor.&#xD;
 </ab>
                   <ab type="description">2 Mss. were photographed (some 7 recent left behind, including the new copy of the Vita of Gäbrä Nazrawi): <ref type="mss" corresp="ESgna001">GNA-001</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
