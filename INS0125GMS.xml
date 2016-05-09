@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Siʿet Qəddəst Maryam</title>
+            <title>Siʿet Qǝddǝst Maryam</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Siʿet Qəddəst Maryam</placeName>
-               <placeName type="alt">Däbrä Gännät Qəddəst Maryam Siʿet</placeName>
+               <placeName>Siʿet Qǝddǝst Maryam</placeName>
+               <placeName type="alt">Däbrä Gännät Qǝddǝst Maryam Siʿet</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
-               <settlement from="2010-12-07" to="2010-12-07">wäräda Ganta Afäšum, ṭabiya Dəbla Siʿet, qušät Siʿet</settlement>
+               <region>Tǝgray</region>
+               <settlement from="2010-12-07" to="2010-12-07">wäräda Ganta Afäšum, ṭabiya Dǝbla Siʿet, qušät Siʿet</settlement>
                <location>
                   <geo>14.205083 39.4992</geo>
                   <height unit="m">2700.0</height>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nəḥbi Qəddus Mikaʾel</title>
+            <title>Nǝḥbi Qǝddus Mikaʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Nəḥbi Qəddus Mikaʾel</placeName>
-               <placeName type="alt">Däbrä Sälam  Qəddus Mikaʾel Nəḥbi</placeName>
+               <placeName>Nǝḥbi Qǝddus Mikaʾel</placeName>
+               <placeName type="alt">Däbrä Sälam  Qǝddus Mikaʾel Nǝḥbi</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
-               <settlement from="2010-11-25" to="2010-11-26">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nəḥbi</settlement>
+               <settlement from="2010-11-25" to="2010-11-26">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nǝḥbi</settlement>
                <location>
                   <geo>14.262 39.487683</geo>
                   <height unit="m">2510.0</height>

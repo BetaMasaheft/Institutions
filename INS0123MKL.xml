@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Läqay Kidanä Məḥrät</title>
+            <title>Läqay Kidanä Mǝḥrät</title>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -46,10 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Läqay Kidanä Məḥrät</placeName>
-               <placeName type="alt">Däbrä Məḥrät Kidanä Məḥrät Läqay</placeName>
+               <placeName>Läqay Kidanä Mǝḥrät</placeName>
+               <placeName type="alt">Däbrä Mǝḥrät Kidanä Mǝḥrät Läqay</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2010-12-06" to="2010-12-06">wäräda Ganta Afäšum, ṭabiya Bäʿatti May Mäsanu, qušät Läqay</settlement>
                <location>
                   <geo>14.30405 39.439817</geo>

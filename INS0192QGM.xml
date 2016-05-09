@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Mänäwät Qǝddus Giyorgis</placeName>
                <placeName type="alt">Mänäwät Qǝddus Giyorgis ʾƎnda Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2015-11-28" to="2015-11-28">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Qoma Sǝwha, qušät Mänäwät</settlement>
                <location>
                   <geo>14.255333 39.551017</geo>

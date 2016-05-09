@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Ṣǝyon Maryam Qälaqǝl</placeName>
                <placeName type="alt">Qälaqǝl Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2011-12-02" to="2011-12-02">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Wälwalo, qušät Qälaqǝl</settlement>
                <location>
                   <geo>14.234367 39.640233</geo>

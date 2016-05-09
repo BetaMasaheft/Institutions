@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>ʿAddigrat Mädḫane ʿAläm</placeName>
                <placeName type="alt">Däbrä Mädḫanit Mädḫane ʿAläm ʿAddigrat</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2010-05-20" to="2010-05-20">ʿAddigrat, qäbäle 01; close to ʿAddigrat Qirqos</settlement>
                <location>
                   <geo>14.272528 39.463642</geo>

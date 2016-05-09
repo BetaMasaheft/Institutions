@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥawaṣi Gäbrəʾel </title>
+            <title>Ḥawaṣi Gäbrǝʾel </title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Ḥawaṣi Gäbrəʾel </placeName>
-               <placeName type="alt">Qəddus Gäbrəʾel Ḥawaṣi</placeName>
-               <placeName type="alt">Gäbrəʾel Ḥawaṣi</placeName>
+               <placeName>Ḥawaṣi Gäbrǝʾel </placeName>
+               <placeName type="alt">Qǝddus Gäbrǝʾel Ḥawaṣi</placeName>
+               <placeName type="alt">Gäbrǝʾel Ḥawaṣi</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
                <settlement from="2011-05-18" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥawaṣi</settlement>

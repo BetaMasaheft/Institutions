@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Märgaḥəya Qəddus Mikaʾel</title>
+            <title>Märgaḥǝya Qǝddus Mikaʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,12 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Märgaḥəya Qəddus Mikaʾel</placeName>
-               <placeName type="alt">Däbrä Sälam Qəddus Mikaʾel Märgaḥəya</placeName>
-               <placeName type="alt">Märgaḥəya Mikaʾel</placeName>
+               <placeName>Märgaḥǝya Qǝddus Mikaʾel</placeName>
+               <placeName type="alt">Däbrä Sälam Qǝddus Mikaʾel Märgaḥǝya</placeName>
+               <placeName type="alt">Märgaḥǝya Mikaʾel</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
-               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥəyaw</settlement>
+               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥǝyaw</settlement>
                <location>
                   <geo>14.277804 39.388802</geo>
                   <height unit="m">2411.0</height>

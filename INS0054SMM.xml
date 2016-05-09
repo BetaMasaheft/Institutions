@@ -48,9 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church monastery" subtype="institution">
                <placeName>Sämaz Maryam</placeName>
-               <placeName type="alt">Sämaz Däbrä Məṭmaq Qəddəst Maryam</placeName>
+               <placeName type="alt">Sämaz Däbrä Mǝṭmaq Qǝddǝst Maryam</placeName>
                <country>Ethiopia</country>
-               <region>Təgray</region>
+               <region>Tǝgray</region>
                <settlement from="2010-05-15" to="2010-05-15">wäräda Gulo Mäkäda, ṭabiya Marta, qušät Sämaz</settlement>
                <location>
                   <geo>14.501467 39.414317</geo>
