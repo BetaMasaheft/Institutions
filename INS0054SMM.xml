@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Gädam. Formally, Sämaz Maryam is a monastery, but the monastic community declined in 1980-90s; currently, there are no monks.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed (ca. 13 recent Mss. left): <ref target="ESsmm001">SMM-001</ref> "The Rite of the Holy Week"; <ref target="ESsmm002">SMM-002</ref> "Miracles of Mary"; <ref target="ESsmm003">SMM-003</ref> "The Book of aslǝṭi"; <ref target="ESsmm004">SMM-004</ref> "Prayers of the Faith"; <ref target="ESsmm005">SMM-005</ref> "The Book of the Matrimony Rite"; <ref target="ESsmm006">SMM-006</ref> "Collection of liturgical prayers"; <ref target="ESsmm007">SMM-007</ref> "Missal"</ab>
+                  <ab type="description">7 Mss. photographed (ca. 13 recent Mss. left): <ref type="mss" corresp="ESsmm001">SMM-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESsmm002">SMM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsmm003">SMM-003</ref> "The Book of aslǝṭi"; <ref type="mss" corresp="ESsmm004">SMM-004</ref> "Prayers of the Faith"; <ref type="mss" corresp="ESsmm005">SMM-005</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESsmm006">SMM-006</ref> "Collection of liturgical prayers"; <ref type="mss" corresp="ESsmm007">SMM-007</ref> "Missal"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

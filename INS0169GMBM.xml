@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär. A small church associated with the church of Bet Mäkaʿ Däbrä Sahǝl Qǝddus Mikaʾel (DSM).&#xD;
 </ab>
-                  <ab type="description">5 Mss. photographed: <ref target="ESgmbm001">GMBM-001</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESgmbm002">GMBM-002</ref> "The Rite of the Passion Week"; <ref target="ESgmbm003">GMBM-003</ref> "The Miracles of Mary"; <ref target="ESgmbm004">GMBM-004</ref> "Collection of Marian Prayers"; <ref target="ESgmbm005">GMBM-005</ref> "The Book of the Baptismal Rite"</ab>
+                  <ab type="description">5 Mss. photographed: <ref type="mss" corresp="ESgmbm001">GMBM-001</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESgmbm002">GMBM-002</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESgmbm003">GMBM-003</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESgmbm004">GMBM-004</ref> "Collection of Marian Prayers"; <ref type="mss" corresp="ESgmbm005">GMBM-005</ref> "The Book of the Baptismal Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

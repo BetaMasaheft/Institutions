@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Däbr. The old round church is intact, stands behind the new church. &#xD;
 Tabos (4): Michael, Mary, Libanos, one unidentified marble tabot in disuse.</ab>
-                  <ab type="description">7 Mss. photographed: <ref target="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref target="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref target="ESqmb003">QMB-003</ref> "Gospel of John"; <ref target="ESqmb004">QMB-004</ref> "Missal"; <ref target="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref target="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref target="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
+                  <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

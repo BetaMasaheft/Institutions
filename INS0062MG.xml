@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Nothing is known about the foundation and founder of the church, but local tradition claims that it is at least as old as Säbäya Maryam.</desc>
                   <ab type="history">Gäṭär. &#xD;
 </ab>
-                  <ab type="description">2 Mss. photographed: <ref target="ESmg001">MG-001</ref> "Synaxarion"; <ref target="ESmg002">MG-002</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="description">2 Mss. photographed: <ref type="mss" corresp="ESmg001">MG-001</ref> "Synaxarion"; <ref type="mss" corresp="ESmg002">MG-002</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

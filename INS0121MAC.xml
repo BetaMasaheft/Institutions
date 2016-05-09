@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär. In 2010-11 the church was in the process of reconstruction; a small temporary building was used to house the tabot; a new building in front of it was under construction.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed, objects: <ref target="ESmac001">MAC-001</ref> "Miracles of Mary"; <ref target="ESmac002">MAC-002</ref> "The Rite of the Holy Week"; <ref target="ESmac003">MAC-003</ref> "Four Gospels"; <ref target="ESmac004">MAC-004</ref> "Missal"; <ref target="ESmac005">MAC-005</ref> "Miracles of Jesus"; <ref target="ESmac006">MAC-006</ref> "Pauline Epistles"; <ref target="ESmac007">MAC-007</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="description">7 Mss. photographed, objects: <ref type="mss" corresp="ESmac001">MAC-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmac002">MAC-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmac003">MAC-003</ref> "Four Gospels"; <ref type="mss" corresp="ESmac004">MAC-004</ref> "Missal"; <ref type="mss" corresp="ESmac005">MAC-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmac006">MAC-006</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmac007">MAC-007</ref> "The Book of the Funeral Rite"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

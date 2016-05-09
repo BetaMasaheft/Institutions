@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">15th century (?).</desc>
                   <ab type="history">Gäṭär. The recently built church stands near the dismantle building of the old church.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed: <ref target="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref target="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref target="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref target="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref target="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
+                  <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

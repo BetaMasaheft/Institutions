@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär.&#xD;
 </ab>
-                  <ab type="description">6 Mss. photographed: <ref target="ESqma001">QMA-001</ref> "Missal"; <ref target="ESqma002">QMA-002</ref> "Four Gospels"; <ref target="ESqma003">QMA-003</ref> "Collection of Liturgic Prayers"; <ref target="ESqma004">QMA-004</ref> "Missal"; <ref target="ESqma005">QMA-005</ref> "The Sword of the Trinity, The Loosening of the Spell"; <ref target="ESqma006">QMA-006</ref> "Miracles of Mary"</ab>
+                  <ab type="description">6 Mss. photographed: <ref type="mss" corresp="ESqma001">QMA-001</ref> "Missal"; <ref type="mss" corresp="ESqma002">QMA-002</ref> "Four Gospels"; <ref type="mss" corresp="ESqma003">QMA-003</ref> "Collection of Liturgic Prayers"; <ref type="mss" corresp="ESqma004">QMA-004</ref> "Missal"; <ref type="mss" corresp="ESqma005">QMA-005</ref> "The Sword of the Trinity, The Loosening of the Spell"; <ref type="mss" corresp="ESqma006">QMA-006</ref> "Miracles of Mary"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

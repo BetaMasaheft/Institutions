@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation"/>
                   <ab type="history">Gäṭär. The church is difficult to access.&#xD;
 </ab>
-                  <ab type="description">4 Mss. photographed: <ref target="ESgh001">GH-001</ref> "The Miracles of Mary"; <ref target="ESgh002">GH-002</ref> "Missal"; <ref target="ESgh003">GH-003</ref> "The Book of the Funeral Rite"; <ref target="ESgh004">GH-004</ref> "Horologium"</ab>
+                  <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESgh001">GH-001</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESgh002">GH-002</ref> "Missal"; <ref type="mss" corresp="ESgh003">GH-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgh004">GH-004</ref> "Horologium"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
