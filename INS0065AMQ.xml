@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddigrat Däbrä Mänkǝrat Qǝddus Qirqos</title>
+            <title>ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,12 +46,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddigrat Däbrä Mänkǝrat Qǝddus Qirqos</placeName>
-               <placeName type="alt">ʿAddigrat Qirqos</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-05-19" to="2010-05-19">ʿAddigrat, qäbäle 01</settlement>
+
+            <place type="church dabr" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ ደብረ፡ መንክራት፡ ቅዱስ፡ ቂርቆስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</placeName>
+               <placeName type="alt"  xml:id="n2">ዓዲግራት፡ ቂርቆስ፡</placeName>
+               <placeName type="alt" corresp="#n2">ʿAddigrāt Qirqos</placeName>
+               <placeName type="alt"  xml:id="n3">ዓዲግራት፡ ቸርቆስ፡</placeName>
+               <placeName type="alt" corresp="#n3">ʿAddigrāt Čarqos</placeName>
+               <placeName type="alt"  xml:id="n4">ዓዲግራት፡ ቼርቆስ፡</placeName>
+               <placeName type="alt" corresp="#n4">ʿAddigrāt Čerqos</placeName>            
+               
+               <country corresp="LOC3010Ethiop"/>
+               <region corresp="LOC5932Tegray"/>
+               <settlement > <placeName corresp="LOC1212Addigr" type="town"/></settlement>
+               <settlement when="2010-05-19"> <placeName type="qabale">qabale 1</placeName></settlement>
+
                <location>
                   <geo>14.273281 39.462697</geo>
                   <height unit="m">2460.0</height>
@@ -59,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
                   <desc type="foundation"/>
-                  <ab type="history">Däbr. The main historical church of ʿAddigrat. &#xD;
+                  <ab type="history">Däbr. The main historical church of <placeName corresp="LOC1212Addigr" type="town">ʿĀddigrāt</placeName>. &#xD;
 </ab>
                   <ab type="description">23 Mss. photographed: <ref target="ESamq001">AMQ-001</ref> "Four Gospels"; <ref target="ESamq002">AMQ-002</ref> "Miracles of Mary"; <ref target="ESamq003">AMQ-003</ref> "The Rite of the Holy Week"; <ref target="ESamq004">AMQ-004</ref> "The Book of the Funeral Rite"; <ref target="ESamq005">AMQ-005</ref> "Miracles of Jesus"; <ref target="ESamq006">AMQ-006</ref> "Book of Ziq- and Mǝʿraf-Hymns"; <ref target="ESamq007">AMQ-007</ref> "Vita of Cyriacus and Julitta"; <ref target="ESamq008">AMQ-008</ref> "The Faith of the Fathers"; <ref target="ESamq009">AMQ-009</ref> "Miracles of Mary; Miracles of Cyriacus; Miracles of Mänfäs Qǝddus"; <ref target="ESamq010">AMQ-010</ref> "Missal"; <ref target="ESamq011">AMQ-011</ref> "Synaxarion (March)"; <ref target="ESamq012">AMQ-012</ref> "Vita of Cyriacus"; <ref target="ESamq013">AMQ-013</ref> "Vita of Täklä Haymanot"; <ref target="ESamq014">AMQ-014</ref> "Miracles of Mary"; <ref target="ESamq015">AMQ-015</ref> "Miracles of Jesus"; <ref target="ESamq016">AMQ-016</ref> " Missal"; <ref target="ESamq017">AMQ-017</ref> "Collection of Hymns"; <ref target="ESamq018">AMQ-018</ref> "Vitae of Gäbrä Mänfäs Qǝddus, ʾArägawi, Gäbrä Krǝstos"; <ref target="ESamq019">AMQ-019</ref> "Homily of St. Michael"; <ref target="ESamq020">AMQ-020</ref> "Homily of Jesus"; <ref target="ESamq021">AMQ-021</ref> "Homily of St. Michael"; <ref target="ESamq022">AMQ-022</ref> "Four Gospels"; <ref target="ESamq023">AMQ-023</ref> "Synaxarion (September)"</ab>
                   <ab type="appellations">
