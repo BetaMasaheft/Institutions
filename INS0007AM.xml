@@ -49,6 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church monastery" subtype="institution">
                <placeName>ʾAsir Mätira</placeName>
                <placeName type="alt">ʾAsir Mätira Däbrä ʿAlama Qǝddǝst Maryam</placeName>
+               <placeName type="alt">Asira Mätira</placeName>
+               <placeName type="alt">Asǝr Mätira</placeName>
+               <placeName type="alt">Ašǝr Mätira</placeName>
                <country>Ethiopia</country>
                <region>Təgray</region>
                <settlement from="2009-11-16" to="2009-11-17">wäräda ʾAṣbi Wänbärta, qušät ʾAsir Mätira</settlement>
