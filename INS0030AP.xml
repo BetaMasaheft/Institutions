@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Hǝywat Ṗarāqliṭos</placeName>
                <country corresp="LOC3010Ethiop"/>
                <region corresp="LOC5932Tegray"/>
-               <settlement > <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
+               <settlement> <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6517Kesad" type="ṭabiya"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6518BetaP" type="qušat"/></settlement>
                <location>
@@ -64,14 +64,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Existed aready in the pre-Christian time as the religious site of South Arabian migrants; the church was founded in a later period.</desc>
-                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop (below is the river of <placeName corresp="LOC6519Wafadabbo">Wäfädäbbo</placeName>).
+                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop 
+                     (below is the river of <placeName type="river" corresp="LOC6519Wafadabbo">Wafadabbo</placeName>).
                      </ab>
                   <ab type="tabot">
                      <measure quantity="8"/>
-                     Tabots (8): <persName corresp="PRS5684JesusCh" type="tabot">Jesus</persName>, <persName corresp="PRS10775Trinity">Trinity</persName>, <persName corresp="PRS6819Mary">Mary</persName>, unidentified marble, 
-                     <persName corresp="PRS4377Gabriel">Gabriel</persName>, <persName corresp="PRS10776Kidan">Kidāna Mǝḥrat</persName>, <persName corresp="PRS7049Michael">Michael</persName>, 
-                     <persName corresp="PRS10774Paraq">Ṗarāqliṭos</persName>. The tabot of the local <persName corresp="PRS10773SadeqP">Ṣādǝqān</persName> (Righteous Ones) was not mentioned, probably by mistake.</ab>
-                  <ab type="description">52 Mss. photographed: <ref target="ESap001">AP-001</ref> "Missal"; <ref target="ESap002">AP-002</ref> "Hymnary"; <ref target="ESap003">AP-003</ref> "Four Gospels"; <ref target="ESap004">AP-004</ref> "Missal"; <ref target="ESap005">AP-005</ref> "Homily of John Chrysostomos"; <ref target="ESap006">AP-006</ref> "Homily of St. Michael"; <ref target="ESap007">AP-007</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap008">AP-008</ref> "Pauline Epistles"; <ref target="ESap009">AP-009</ref> "The Rite of the Holy Week"; <ref target="ESap010">AP-010</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap011">AP-011</ref> "Homily of St. Michael"; <ref target="ESap012">AP-012</ref> "Absolution of the Son"; <ref target="ESap013">AP-013</ref> "Absolution of the Son"; <ref target="ESap014">AP-014</ref> "Synaxarion"; <ref target="ESap015">AP-015</ref> "Synaxarion"; <ref target="ESap016">AP-016</ref> "Acts of the Apostles"; <ref target="ESap017">AP-017</ref> "Vita of Kiros"; <ref target="ESap018">AP-018</ref> "Vita of Kiros"; <ref target="ESap019">AP-019</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap020">AP-020</ref> "Homily of the Sabbath"; <ref target="ESap021">AP-021</ref> "The Book of the Baptismal Rite"; <ref target="ESap022">AP-022</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap023">AP-023</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref target="ESap024">AP-024</ref> "Prayer of Incense"; <ref target="ESap025">AP-025</ref> "Prayer of Incense"; <ref target="ESap026">AP-026</ref> "Synoptic Lectionary for the Year"; <ref target="ESap027">AP-027</ref> "The Book of the Matrimony Rite"; <ref target="ESap028">AP-028</ref> "Miracles of Mary"; <ref target="ESap029">AP-029</ref> "Miracles of Mary"; <ref target="ESap030">AP-030</ref> "Vita of Täklä Haymanot"; <ref target="ESap031">AP-031</ref> "The Book of the Funeral Rite"; <ref target="ESap032">AP-032</ref> "The Book of the Funeral Rite"; <ref target="ESap033">AP-033</ref> "The Glory of the Kings"; <ref target="ESap034">AP-034</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap035">AP-035</ref> "Miracles of Mary"; <ref target="ESap036">AP-036</ref> "Story of the Trinity"; <ref target="ESap037">AP-037</ref> "Synoptic Lectionary for the Year"; <ref target="ESap038">AP-038</ref> "Miracles of Jesus"; <ref target="ESap039">AP-039</ref> "Book of  ʾAsläṭi"; <ref target="ESap040">AP-040</ref> "Collection of New Testament Readings"; <ref target="ESap041">AP-041</ref> "Acts of the Apostles"; <ref target="ESap042">AP-042</ref> "Homily of the Saviour of the World"; <ref target="ESap043">AP-043</ref> "Vita of ʾArägawi"; <ref target="ESap044">AP-044</ref> "Story of St. Mary"; <ref target="ESap045">AP-045</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap046">AP-046</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap047">AP-047</ref> "Vita of Täklä Haymanot"; <ref target="ESap048">AP-048</ref> "Vita of St. George"; <ref target="ESap049">AP-049</ref> "fragments of several mss, including the poetry in honor of the Sadeqan."; <ref target="ESap050">AP-050</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap063">AP-063</ref> "Collection of Hymns"; <ref target="ESap064">AP-064</ref> "New Testaments Texts; Apocalypse of John".</ab>
+                     Tabots (8): <persName corresp="PRS5684JesusCh" type="tabot">Jesus</persName>, <persName corresp="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <persName corresp="PRS6819Mary" type="tabot">Mary</persName>, unidentified marble, 
+                     <persName corresp="PRS4377Gabriel" type="tabot">Gabriel</persName>, 
+                     <persName corresp="PRS10776Kidan" type="tabot">Kidāna Mǝḥrat</persName>, 
+                     <persName corresp="PRS7049Michael" type="tabot">Michael</persName>, 
+                     <persName corresp="PRS10774Paraq" type="tabot">Ṗarāqliṭos</persName>. 
+                     The tabot of the local <persName corresp="PRS10773SadeqP" type="tabot">Ṣādǝqān</persName> (Righteous Ones) was not mentioned, probably by mistake.</ab>
+                  <ab type="description">52 Mss. photographed: <ref target="ESap001">AP-001</ref> "Missal"; 
+                     <ref target="ESap002">AP-002</ref> "Hymnary"; <ref target="ESap003">AP-003</ref> "Four Gospels"; 
+                     <ref target="ESap004">AP-004</ref> "Missal"; <ref target="ESap005">AP-005</ref> "Homily of John Chrysostomos"; 
+                     <ref target="ESap006">AP-006</ref> "Homily of St. Michael"; <ref target="ESap007">AP-007</ref> "Vita of Gäbrä Mänfäs Qǝddus"; 
+                     <ref target="ESap008">AP-008</ref> "Pauline Epistles"; <ref target="ESap009">AP-009</ref> "The Rite of the Holy Week"; 
+                     <ref target="ESap010">AP-010</ref> "Vita of Gabra Manfas Qǝddus"; 
+                     <ref target="ESap011">AP-011</ref> "Homily of St. Michael"; <ref target="ESap012">AP-012</ref> "Absolution of the Son"; 
+                     <ref target="ESap013">AP-013</ref> "Absolution of the Son"; <ref target="ESap014">AP-014</ref> "Synaxarion"; 
+                     <ref target="ESap015">AP-015</ref> "Synaxarion"; <ref target="ESap016">AP-016</ref> "Acts of the Apostles"; 
+                     <ref target="ESap017">AP-017</ref> "Vita of Kiros"; <ref target="ESap018">AP-018</ref> "Vita of Kiros"; 
+                     <ref target="ESap019">AP-019</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap020">AP-020</ref> "Homily of the Sabbath"; 
+                     <ref target="ESap021">AP-021</ref> "The Book of the Baptismal Rite"; <ref target="ESap022">AP-022</ref> "Acts of the Martyrs of Päraqlitos"; 
+                     <ref target="ESap023">AP-023</ref> "Vita of Gabra Manfas Qǝddus"; <ref target="ESap024">AP-024</ref> "Prayer of Incense"; 
+                     <ref target="ESap025">AP-025</ref> "Prayer of Incense"; <ref target="ESap026">AP-026</ref> "Synoptic Lectionary for the Year"; 
+                     <ref target="ESap027">AP-027</ref> "The Book of the Matrimony Rite"; <ref target="ESap028">AP-028</ref> "Miracles of Mary"; 
+                     <ref target="ESap029">AP-029</ref> "Miracles of Mary"; <ref target="ESap030">AP-030</ref> "Vita of Täklä Haymanot"; 
+                     <ref target="ESap031">AP-031</ref> "The Book of the Funeral Rite"; <ref target="ESap032">AP-032</ref> "The Book of the Funeral Rite"; 
+                     <ref target="ESap033">AP-033</ref> "The Glory of the Kings"; <ref target="ESap034">AP-034</ref> "Acts of the Martyrs of Päraqlitos"; 
+                     <ref target="ESap035">AP-035</ref> "Miracles of Mary"; <ref target="ESap036">AP-036</ref> "Story of the Trinity"; 
+                     <ref target="ESap037">AP-037</ref> "Synoptic Lectionary for the Year"; <ref target="ESap038">AP-038</ref> "Miracles of Jesus"; 
+                     <ref target="ESap039">AP-039</ref> "Book of  ʾAslaṭi"; <ref target="ESap040">AP-040</ref> "Collection of New Testament Readings"; 
+                     <ref target="ESap041">AP-041</ref> "Acts of the Apostles"; <ref target="ESap042">AP-042</ref> "Homily of the Saviour of the World"; 
+                     <ref target="ESap043">AP-043</ref> "Vita of ʾAragāwi"; <ref target="ESap044">AP-044</ref> "Story of St. Mary"; 
+                     <ref target="ESap045">AP-045</ref> "Acts of the Martyrs of Päraqlitos"; <ref target="ESap046">AP-046</ref> "Acts of the Martyrs of Päraqlitos"; 
+                     <ref target="ESap047">AP-047</ref> "Vita of Takla Haymānot"; <ref target="ESap048">AP-048</ref> "Vita of St. George"; 
+                     <ref target="ESap049">AP-049</ref> "fragments of several mss, including the poetry in honor of the Sadeqan."; 
+                     <ref target="ESap050">AP-050</ref> "Acts of the Martyrs of Ṗarāqliṭos"; 
+                     <ref target="ESap063">AP-063</ref> "Collection of Hymns"; <ref target="ESap064">AP-064</ref> "New Testaments Texts; Apocalypse of John".</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
