@@ -2,7 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0101MadhaneAlam">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0101MadhaneAlam" type="ins">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,15 +42,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place subtype="institution">
-               <placeName corresp="INS00100MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-               <placeName corresp="INS00100MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
-               <placeName corresp="INS00100MadhaneAlam" type="alt">Medhane Alem</placeName>
-               <placeName corresp="INS00100MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
+               <placeName corresp="INS0101MadhaneAlam" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
+               <placeName corresp="INS0101MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
+               <placeName corresp="INS0101MadhaneAlam" type="alt">Medhane Alem</placeName>
+               <placeName corresp="INS0101MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
                <country corresp="LOC3010Ethiop"/>
                <region corresp="LOC5932Tegray"/>
                <settlement corresp="LOC4547Maqdal"/>
                <location>
-                  <geo>11.2 - 39.283</geo>
+                  <geo>11.5500 39.2833</geo>
                   <height unit="m">1247</height>
                </location>
                <note>
