@@ -72,7 +72,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="30" cert="unknown"/>
                      Reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). 
-                     Tabot of <persName corresp="PRS6819Mary">Mary</persName> in the upper church reserved for monks; tabot of <persName corresp="PRS9162TaklaHa">Takla Haymanot</persName> in the lower church for the local people.</ab>
+                     Tabot of <persName corresp="PRS6819Mary" type="tabot">Mary</persName> in the upper church reserved for monks; 
+                     tabot of <persName corresp="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName> in the lower church for the local people.</ab>
                   <ab type="description">219 Mss. photographed in 2006 (for the <placeName corresp="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
                   <ab type="appellations">
                      <list>
