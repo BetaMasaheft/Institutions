@@ -42,7 +42,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
     <body>
       <listPlace>
-        <place type="administrativeUnit" subtype="institution">
+        <place type="library" subtype="institution">
           <placeName>British Library</placeName>
           <placeName type="alt">British Museum</placeName>
           <country corresp="LOC6523UK">United Kingdom</country>
