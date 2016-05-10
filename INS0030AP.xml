@@ -54,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Hǝywat Ṗarāqliṭos</placeName>
                <country corresp="LOC3010Ethiop"/>
                <region corresp="LOC5932Tegray"/>
-               <district corresp="LOC3640GuloMa" type="waradā" when="2010-05-03"/>
+               
+               <settlement when="2010-05-03"> <placeName corresp="LOC3640GuloMa" type="waradā"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6517Kesad" type="ṭabiya"/></settlement>
                <settlement when="2010-05-03"> <placeName corresp="LOC6518BetaP" type="qušat"/></settlement>
                <location>
