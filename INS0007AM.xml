@@ -67,8 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <country corresp="LOC3010Ethiop"/>
                   <region corresp="LOC5932Tegray"/>
-               <settlement when="2009-11-16"> <placeName corresp="LOC1564ASbiW" type="waradā"/></settlement>
-               <settlement when="2009-11-16"> <placeName corresp="LOC6526Asir" type="qušat"/></settlement>
+               <settlement when="2009-11-16"><placeName corresp="LOC1564ASbiW" type="waradā"/> <placeName corresp="LOC6526Asir" type="qušat"/></settlement>
 
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
