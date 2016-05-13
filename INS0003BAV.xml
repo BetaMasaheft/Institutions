@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
           <region/>
           <settlement/>
           <note>
-            <date type="foundation" ></date>
+            <date type="foundation"></date>
             <desc type="foundation"> 
             </desc>
             
