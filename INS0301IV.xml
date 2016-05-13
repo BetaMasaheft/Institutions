@@ -55,7 +55,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 
 
                <listBibl type="catalogue">
-                  <bibl corresp="bm:Turaev1906rukopisi"/>
+                  <bibl><ptr target="bm:Turaev1906rukopisi"/></bibl>
                </listBibl>
             </place>
             

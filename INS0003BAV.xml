@@ -3,7 +3,7 @@
 href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0003BAV">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0003BAV" type="ins">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,7 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <place subtype="institution">
           <placeName corresp="INS0002BAV">Biblioteca Apostolica Vaticana</placeName>
           <placeName corresp="INS0002BAV" type="alt">Vatican Library</placeName>
-          <country>Vatican </country>
+          <country>Vatican</country>
           <region/>
           <settlement/>
           <note>
