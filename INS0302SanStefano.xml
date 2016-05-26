@@ -33,8 +33,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </fileDesc>
         <profileDesc>
             <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
@@ -46,10 +44,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place subtype="institution">
-                    <placeName corresp="INS0302BAV">San Stefano de' Mori</placeName>
-                    <placeName corresp="INS0302BAV" type="alt">Santo Stefano degli Abissini</placeName>
-                    <country>Vatican</country>
+                <place type="monastery Library">
+                    <placeName xml:lang="it" xml:id="n1">Santo Stefano de' Mori</placeName>
+                    <placeName xml:lang="it" xml:id="n2" type="alt">Santo Stefano degli Abissini</placeName>
+                    <country corresp="LOC6527Vat"/>
                     <region/>
                     <settlement/>
                     <note>
