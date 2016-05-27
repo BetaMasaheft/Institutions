@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation"/>
-                  <ab type="history">Gädam. The monastery declined in late 1970 and was re-established as nunnery around 2002.</ab>
+                  <ab type="history">Gadām. The monastery declined in late 1970 and was re-established as nunnery around 2002.</ab>
                   <ab type="description">Ca. 70 Mss. photographed.</ab>
                   <ab type="appellations">
                      <list>
@@ -82,7 +82,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot"/>
                </note>
                <listBibl type="secondary">
-                  <bibl/>
+                  <bibl>
+                     <ptr target="bm:Nosnitsin2007Asir"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Nosnitsin2013Churches"/>
+                  </bibl>
                </listBibl>
             </place>
          </listPlace>
