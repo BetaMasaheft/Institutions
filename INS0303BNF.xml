@@ -10,7 +10,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Bibliothèque nationale de France</title>
-                <editor/>
+                <editor key="DR"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -34,44 +34,29 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
+                <language ident="fr">French</language>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change who="DR" when="2016-06-01">CREATED: place</change>
+            <change who="DR" when="2016-06-01">CREATED: place</change>
+            <change who="PL" when="2016-06-01">Corrrected record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName>Bibliothèque nationale de France</placeName>
-                    <placeName type="alt"> Bibliothèque nationale</placeName>
+                    <placeName xml:lang="fr">Bibliothèque nationale de France</placeName>
+                    <placeName xml:lang="fr" type="alt"> Bibliothèque nationale</placeName>
                     <placeName type="alt"> BnF</placeName>
                     <country corresp="LOC3103France">France</country>
-                    <region></region>
-                    <settlement corresp="LOC5076Paris"></settlement>
-                    <location>
-                        <geo></geo>
-                        <height></height>
-                    </location>
-                    <note>
-                        <date type="foundation" ></date>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"></ab>
-                        <ab type="tabot"><measure/></ab>
-                        
-                        <ab type="description"></ab>
-                    </note>
-                    <listBibl>
-                        <bibl></bibl>
-                    </listBibl>
+                    <settlement corresp="LOC5076Paris"/>
+                    
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+                
             </listPlace>
         </body>
     </text>
