@@ -22,8 +22,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                                     This file is licensed under the Creative Commons
-                                    Attribution-ShareAlike 4.0. </licence>
+                                    Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -51,17 +53,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church dabr" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ ደብረ፡ መንክራት፡ ቅዱስ፡ ቂርቆስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Dabra Mankǝrāt Qǝddus Qirqos</placeName>
-               <placeName type="alt"  xml:id="n2">ዓዲግራት፡ ቂርቆስ፡</placeName>
+               <placeName type="alt" xml:id="n2">ዓዲግራት፡ ቂርቆስ፡</placeName>
                <placeName type="alt" corresp="#n2">ʿAddigrāt Qirqos</placeName>
-               <placeName type="alt"  xml:id="n3">ዓዲግራት፡ ቸርቆስ፡</placeName>
+               <placeName type="alt" xml:id="n3">ዓዲግራት፡ ቸርቆስ፡</placeName>
                <placeName type="alt" corresp="#n3">ʿAddigrāt Čarqos</placeName>
-               <placeName type="alt"  xml:id="n4">ዓዲግራት፡ ቼርቆስ፡</placeName>
+               <placeName type="alt" xml:id="n4">ዓዲግራት፡ ቼርቆስ፡</placeName>
                <placeName type="alt" corresp="#n4">ʿAddigrāt Čerqos</placeName>            
                
-               <country corresp="LOC3010Ethiop"/>
-               <region corresp="LOC5932Tegray"/>
-               <settlement > <placeName corresp="LOC1212Addigr" type="town"/></settlement>
-               <settlement when="2010-05-19"> <placeName type="qabale">qabale 1</placeName></settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5932Tegray"/>
+               <settlement> 
+                  <placeName ref="LOC1212Addigr" type="town"/>
+               </settlement>
+               <settlement when="2010-05-19"> 
+                  <placeName type="qabale">qabale 1</placeName>
+               </settlement>
 
                <location>
                   <geo>14.273281 39.462697</geo>
@@ -70,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
                   <desc type="foundation"/>
-                  <ab type="history">Däbr. The main historical church of <placeName corresp="LOC1212Addigr" type="town">ʿĀddigrāt</placeName>. &#xD;
+                  <ab type="history">Däbr. The main historical church of <placeName ref="LOC1212Addigr" type="town">ʿĀddigrāt</placeName>. &#xD;
 </ab>
                   <ab type="description">23 Mss. photographed: <ref type="mss" corresp="ESamq001">AMQ-001</ref> "Four Gospels"; <ref type="mss" corresp="ESamq002">AMQ-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESamq003">AMQ-003</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESamq004">AMQ-004</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESamq005">AMQ-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESamq006">AMQ-006</ref> "Book of Ziq- and Mǝʿraf-Hymns"; <ref type="mss" corresp="ESamq007">AMQ-007</ref> "Vita of Cyriacus and Julitta"; <ref type="mss" corresp="ESamq008">AMQ-008</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESamq009">AMQ-009</ref> "Miracles of Mary; Miracles of Cyriacus; Miracles of Mänfäs Qǝddus"; <ref type="mss" corresp="ESamq010">AMQ-010</ref> "Missal"; <ref type="mss" corresp="ESamq011">AMQ-011</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESamq012">AMQ-012</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESamq013">AMQ-013</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESamq014">AMQ-014</ref> "Miracles of Mary"; <ref type="mss" corresp="ESamq015">AMQ-015</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESamq016">AMQ-016</ref> " Missal"; <ref type="mss" corresp="ESamq017">AMQ-017</ref> "Collection of Hymns"; <ref type="mss" corresp="ESamq018">AMQ-018</ref> "Vitae of Gäbrä Mänfäs Qǝddus, ʾArägawi, Gäbrä Krǝstos"; <ref type="mss" corresp="ESamq019">AMQ-019</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESamq020">AMQ-020</ref> "Homily of Jesus"; <ref type="mss" corresp="ESamq021">AMQ-021</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESamq022">AMQ-022</ref> "Four Gospels"; <ref type="mss" corresp="ESamq023">AMQ-023</ref> "Synaxarion (September)"</ab>
                   <ab type="appellations">
@@ -82,7 +88,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <measure quantity="4"/> Tabots (4): 
                      
                      
-                     <persName corresp="PRS3249Cyriacus">Qirqos</persName>, <persName corresp="PRS9684Uriel">Urael</persName>, <persName corresp="PRS6819Mary">Mary</persName>, <persName corresp="PRS5684JesusCh#MadhaneAlam">Madḫane ʿĀlam</persName>
+                     <persName ref="PRS3249Cyriacus">Qirqos</persName>, <persName ref="PRS9684Uriel">Urael</persName>, <persName ref="PRS6819Mary">Mary</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam">Madḫane ʿĀlam</persName>
                      
                      
                      

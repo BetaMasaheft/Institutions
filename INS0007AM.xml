@@ -22,8 +22,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                                     This file is licensed under the Creative Commons
-                                    Attribution-ShareAlike 4.0. </licence>
+                                    Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -52,22 +54,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <placeName xml:id="n1" xml:lang="gez">አሲር፡ መቲራ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAsir Matirā</placeName>
-               <placeName type="alt"  xml:id="n2">አሲር፡ መቲራ፡  ደብረ፡ ዓለማ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName type="alt" xml:id="n2">አሲር፡ መቲራ፡  ደብረ፡ ዓለማ፡ ቅድስት፡ ማርያም፡</placeName>
                <placeName type="alt" corresp="#n2">ʾAsir Matirā Dabra ʿĀlamā Qǝddǝst Maryam</placeName>
-               <placeName type="alt"  xml:id="n3">አሲረ፡ መቲራ፡  </placeName>
+               <placeName type="alt" xml:id="n3">አሲረ፡ መቲራ፡  </placeName>
                <placeName type="alt" corresp="#n3">ʾAsira Matirā</placeName>
-               <placeName type="alt"  xml:id="n4">አስር፡ መቲራ፡  </placeName>
+               <placeName type="alt" xml:id="n4">አስር፡ መቲራ፡  </placeName>
                <placeName type="alt" corresp="#n4">ʾAsǝr Matirā</placeName>
-               <placeName type="alt"  xml:id="n5">አሽር፡ መቲራ፡  </placeName>
+               <placeName type="alt" xml:id="n5">አሽር፡ መቲራ፡  </placeName>
                <placeName type="alt" corresp="#n5">ʾAšǝr Matirā</placeName>
-               <placeName type="alt"  xml:id="n6">ደብረ፡ ዓሊማ፡  </placeName>
+               <placeName type="alt" xml:id="n6">ደብረ፡ ዓሊማ፡  </placeName>
                <placeName type="alt" corresp="#n6">Dabra ʿĀlimā</placeName>
-               <placeName type="alt"  xml:id="n7">ደብረ፡ ዓለማ፡  </placeName>
+               <placeName type="alt" xml:id="n7">ደብረ፡ ዓለማ፡  </placeName>
                <placeName type="alt" corresp="#n7">Dabra ʿĀlamā</placeName>
 
-                  <country corresp="LOC3010Ethiop"/>
-                  <region corresp="LOC5932Tegray"/>
-               <settlement when="2009-11-16"><placeName corresp="LOC1564ASbiW" type="waradā"/> <placeName corresp="LOC6526Asir" type="qušat"/></settlement>
+                  <country ref="LOC3010Ethiop"/>
+                  <region ref="LOC5932Tegray"/>
+               <settlement when="2009-11-16">
+                  <placeName ref="LOC1564ASbiW" type="waradā"/> 
+                  <placeName ref="LOC6526Asir" type="qušat"/>
+               </settlement>
 
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>

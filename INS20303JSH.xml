@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS00000030Addaqaharsi" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS00000030Addaqaharsi"
+     type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +21,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <pubPlace>Hamburg</pubPlace>
                 
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                         This file is licensed under the Creative Commons
-                        Attribution-ShareAlike 4.0. </licence>
-                </availability>
+                        Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
                 
             </publicationStmt>
             <sourceDesc>
@@ -46,12 +48,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="library"  subtype="institution">
+                <place type="library" subtype="institution">
                     <placeName xml:lang="fr">Jacobins Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Couvent des Jacobins, rue Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Bibliothèque des Jacobins Saint-Honoré</placeName>
-                    <country corresp="LOC3103France">France</country>
-                    <settlement corresp="LOC5076Paris"/>
+                    <country ref="LOC3103France">France</country>
+                    <settlement ref="LOC5076Paris"/>
                     
                 </place>
                

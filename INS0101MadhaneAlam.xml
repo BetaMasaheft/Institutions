@@ -2,7 +2,9 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0101MadhaneAlam" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0101MadhaneAlam"
+     type="ins">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,8 +21,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
             This file is licensed under the Creative Commons
-            Attribution-ShareAlike 4.0. </licence>
+            Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
         
          </publicationStmt>
@@ -46,9 +50,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName corresp="INS0101MadhaneAlam" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
                <placeName corresp="INS0101MadhaneAlam" type="alt">Medhane Alem</placeName>
                <placeName corresp="INS0101MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
-               <country corresp="LOC3010Ethiop"/>
-               <region corresp="LOC5932Tegray"/>
-               <settlement corresp="LOC4547Maqdal"/>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5932Tegray"/>
+               <settlement ref="LOC4547Maqdal"/>
                <location>
                   <geo>11.5500 39.2833</geo>
                   <height unit="m">1247</height>

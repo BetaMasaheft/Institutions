@@ -22,8 +22,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                                     This file is licensed under the Creative Commons
-                                    Attribution-ShareAlike 4.0. </licence>
+                                    Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -50,17 +52,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="monastery gadam" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ጉንደ፡ ጉንዴ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Gundā Gunde</placeName>
-               <placeName type="alt"  xml:id="n2">ደብረ፡ ካስዋ፡</placeName>
+               <placeName type="alt" xml:id="n2">ደብረ፡ ካስዋ፡</placeName>
                <placeName type="alt" corresp="#n2">Dabra Kāswā</placeName>
-               <placeName type="alt"  xml:id="n3">ደብረ፡ ገሪያን፡</placeName>
+               <placeName type="alt" xml:id="n3">ደብረ፡ ገሪያን፡</placeName>
                <placeName type="alt" corresp="#n3">Dabra Garizān</placeName>
-               <placeName type="alt"  xml:id="n4">ጉንደጉንዴ፡</placeName>
+               <placeName type="alt" xml:id="n4">ጉንደጉንዴ፡</placeName>
                <placeName type="alt" corresp="#n4">Gundāgunde</placeName>
-               <country corresp="LOC3010Ethiop"/>
-               <region corresp="LOC5932Tegray"/>
-               <settlement when="2006-11-16"> <placeName corresp="LOC6520Irob" type="waradā"/></settlement>
-               <settlement when="2006-11-16"> <placeName corresp="LOC6521Ara" type="ṭabiya"/></settlement>
-               <settlement when="2006-11-16"> <placeName corresp="LOC6522Gunda" type="qušat"/></settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5932Tegray"/>
+               <settlement when="2006-11-16"> 
+                  <placeName ref="LOC6520Irob" type="waradā"/>
+               </settlement>
+               <settlement when="2006-11-16"> 
+                  <placeName ref="LOC6521Ara" type="ṭabiya"/>
+               </settlement>
+               <settlement when="2006-11-16"> 
+                  <placeName ref="LOC6522Gunda" type="qušat"/>
+               </settlement>
                <location>
                   <geo>14.3827 39.73528</geo>
                   <height unit="m">1.195</height>
@@ -72,9 +80,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="30" cert="unknown"/>
                      Reportedly, up to 30 tabots (also those brought from the deserted churches in the vicinity). 
-                     Tabot of <persName corresp="PRS6819Mary" type="tabot">Mary</persName> in the upper church reserved for monks; 
-                     tabot of <persName corresp="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName> in the lower church for the local people.</ab>
-                  <ab type="description">219 Mss. photographed in 2006 (for the <placeName corresp="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
+                     Tabot of <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the upper church reserved for monks; 
+                     tabot of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName> in the lower church for the local people.</ab>
+                  <ab type="description">219 Mss. photographed in 2006 (for the <placeName ref="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
                   <ab type="appellations">
                      <list>
                         <item/>

@@ -21,8 +21,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                   This file is licensed under the Creative Commons
-                  Attribution-ShareAlike 4.0. </licence>
+                  Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
             
             <date><!--2016-03-31+02:00 This should be the date and time of publication--></date>
@@ -50,12 +52,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place subtype="institution">
                <placeName xml:lang="ru">Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk</placeName>
                <placeName type="alt">Institut Vostokovedenija</placeName>
-               <country corresp="LOC5389Russia"/> 
-               <settlement corresp="LOC6516SPB"/>
+               <country ref="LOC5389Russia"/> 
+               <settlement ref="LOC6516SPB"/>
 
 
                <listBibl type="catalogue">
-                  <bibl><ptr target="bm:Turaev1906rukopisi"/></bibl>
+                  <bibl>
+                     <ptr target="bm:Turaev1906rukopisi"/>
+                  </bibl>
                </listBibl>
             </place>
             

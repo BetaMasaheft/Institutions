@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS00000030Addaqaharsi" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS00000030Addaqaharsi"
+     type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
-                <editor/>
+                <title/>
+                <editor key="DR"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -21,10 +21,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <pubPlace>Hamburg</pubPlace>
                 
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
                         This file is licensed under the Creative Commons
-                        Attribution-ShareAlike 4.0. </licence>
-                </availability>
+                        Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
                 
             </publicationStmt>
             <sourceDesc>
@@ -46,31 +48,37 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place subtype="institution">
-                    <placeName></placeName>
-                    <placeName type="alt"></placeName>
+                <place type="institution">
+                    <placeName/>
+                    <placeName type="alt"/>
                     <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <region/>
+                    <settlement/>
                     <location>
-                        <geo></geo>
-                        <height></height>
+                        <geo/>
+                        <height/>
                     </location>
                     <note>
-                        <date type="foundation" ></date>
+                        <date type="foundation"/>
                         <desc type="foundation">
                         </desc>
                         
-                        <ab type="history"></ab>
-                        <ab type="tabot"><measure/></ab>
+                        <ab type="history"/>
+                        <ab type="tabot">
+                     <measure/>
+                  </ab>
                         
-                        <ab type="description"></ab>
+                        <ab type="description"/>
                     </note>
                     <listBibl>
-                        <bibl></bibl>
+                        <bibl/>
                     </listBibl>
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+                <listRelation>
+               <relation>
+                  <desc/>
+               </relation>
+            </listRelation>
             </listPlace>
         </body>
     </text>
