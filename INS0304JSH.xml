@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Jacobins Saint-Honoré</title>
                 <editor key="DR"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,42 +43,21 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
            <change who="DR" when="2016-06-02">CREATED: place</change>
+            <change who="DR" when="2016-06-14">ID corrected</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="institution">
-                    <placeName/>
-                    <placeName type="alt"/>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
+                <place type="library" subtype="institution">
+                    <placeName xml:lang="fr">Jacobins Saint-Honoré</placeName>
+                    <placeName xml:lang="fr" type="alt"> Couvent des Jacobins, rue Saint-Honoré</placeName>
+                    <placeName xml:lang="fr" type="alt"> Bibliothèque des Jacobins Saint-Honoré</placeName>
+                    <country ref="LOC3103France">France</country>
+                    <settlement ref="LOC5076Paris"/>
+                    
                 </place>
-                <listRelation>
-               <relation>
-                  <desc/>
-               </relation>
-            </listRelation>
+               
             </listPlace>
         </body>
     </text>
