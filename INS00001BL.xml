@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>British Library Test Hook</title>
+            <title>British Library</title>
             <editor key="ES"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
