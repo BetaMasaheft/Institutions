@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0317Frank" xml:lang="en" type="place">
+    <!--   CHANGE THE ID TO CORRESPOND TO THE FILENAME and the identifier for this Place-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><!--type here the primary name of the Person--></title>
+                <editor key="SG"/>
+                <!--change this value according to the abbreviations in the wiki-->
+                <editor role="generalEditor" key="AB"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                
+                <date>2016-08-26</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="SG" when="2016-08-26">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="library">
+                    <placeName>Frankfurt Stadt- und Universitätsbibliothek</placeName>
+                    <placeName type="alt"
+                        ><!--any alternative name go each in one placeName--></placeName>
+                    <placeName type="alt"
+                        ><!--any alternative name go each in one placeName--></placeName>
+                    <location>
+                        <!--                  enter in geo the coordinates, latitude and longitude as in the below example, separated by a space. 
+                     This is just a representative point. Polygons and multi area geo object can also be encoded.
+                  Altitude can be stored in height
+                  -->
+                        <geo>50.120294 8.653069</geo>
+                        <height/>
+                    </location>
+                </place>
+                <!--               If some relation is known, than use one relation element for each. Alter or Remove the mock example below if not needed!!-->
+                
+            </listPlace>
+        </body>
+    </text>
+</TEI>
