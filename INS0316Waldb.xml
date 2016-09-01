@@ -54,9 +54,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
               
                <placeName> Waldǝbbā </placeName>
            
-               <country> Ethiopia </country>
-               <region/>
-               <settlement></settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC6171Waldeb" type="region"/>
                <location>
                
               
