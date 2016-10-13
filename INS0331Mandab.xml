@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0331Mandab" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mandābbā Madḫāne ʿĀlam</title>
+                <author/>
+                <editor key="FP"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="FP" when="2016-10-12">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="monastery" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="gez">መንዳባ፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Mandābbā Madḫāne
+                        ʿĀlam</placeName>
+                    <placeName xml:id="n2" xml:lang="am" type="alt">ማንዳባ፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n2" xml:lang="am" type="normalized">Māndābbā Madḫāne
+                        ʿĀlam</placeName>
+                    <placeName xml:id="n3" xml:lang="am" type="alt">መንደ፡ አምባ፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n3" xml:lang="am" type="normalized">Manda ʾAmbā Madḫāne
+                        ʿĀlam</placeName>
+                    <placeName xml:id="n4" xml:lang="am" type="alt">ማንደምባ፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n4" xml:lang="am" type="normalized">Māndambā Madḫāne
+                        ʿĀlam</placeName>
+                    <placeName xml:id="n5" xml:lang="am" type="alt">ማንድባን፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n5" xml:lang="am" type="normalized">Māndǝbān Madḫāne
+                        ʿĀlam</placeName>
+                    <!--             lang assigned to be verified  -->
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <location>
+                        <geo cert="medium">12.2179 37.2357</geo>
+                        <height/>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:PersoonBalicka2007EnAeMandabba"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <date type="foundation" notBefore="1300" notAfter="1399">14th century</date>
+                        <desc type="foundation">It was allegedly founded in the <date
+                                notBefore="1300" notAfter="1399">14th cent.</date> by <roleName
+                                type="title">ʾabuna</roleName>
+                            <persName ref="PRS10253Yasay">Yāsāy</persName>, son of <roleName
+                                type="title">ʾaṣe</roleName>
+                            <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>.</desc>
+                        <ab type="history">The main church established by <roleName type="title"
+                                >ʾabuna</roleName>
+                            <persName ref="PRS10253Yasay">Yāsāy</persName> seems to have survived
+                            most invasions undamaged and, according to the tradition, in the <date
+                                notBefore="1500" notAfter="1599">16th cent.</date>, <persName
+                                ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName> was chased
+                            away from the monastery by <roleName type="title">archangels</roleName>
+                            <persName ref="PRS4377Gabriel">Gabriel</persName> and <persName
+                                ref="PRS7049Michael">Michael</persName>. In the <date
+                                notBefore="1600" notAfter="1699">17th cent.</date> the church was
+                            renovated by <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS4015Fasilada">Fāsiladas</persName>. This monastery was
+                            an important centre of learning and played a significant role in the
+                            religious disputes between Tawāḥǝdo and Qǝbāt teaching. Mandābbā Madḫāne
+                            ʿĀlam was not affected by the Mahdist invasions in the <date
+                                notBefore="1800" notAfter="1899">19th cent.</date>. In the <date
+                                notBefore="1900" notAfter="1999">20th cent.</date>, <persName
+                                ref="PRS7006Menilek">Mǝnilǝk II</persName> and <roleName
+                                type="title">empress</roleName>
+                            <persName ref="PRS10671Zawditu">Zawditu</persName> donated books to the
+                            library of the monastery, while <persName ref="PRS5226haylase">Ḫāyla
+                                Śǝllāse I</persName> provided for an extensive renovation of the old
+                            church and <roleName type="title">ǝtege</roleName>
+                            <persName ref="PRS6642MananAs">Manan ʾAsfāw</persName> financed an
+                            adjoining church for women. The church survived the Darg period fairly
+                            well.</ab>
+                        <ab type="tabot">
+                            <measure>1</measure>
+                            <desc>In <date when="2006">2006</date>, some fragments depicting the
+                                scenes of the Passion were discovered inside an old manbara
+                                tābot.</desc></ab>
+                        <ab type="description">Located on the north shore of the lak, close to
+                                <placeName ref="LOC3589Gorgor">Gorgorā</placeName>, Mandābbā Madḫāne
+                            ʿĀlam is the second largest monastery of the lake <placeName
+                                ref="LOC5888Tana">Ṭānā</placeName> region after <placeName
+                                ref="LOC2422DagaEs">Dāgā ʾƎsṭifānos</placeName>. It had lands in the
+                            districts of <placeName ref="LOC6565Sowit">Sowit</placeName>, <placeName
+                                ref="LOC1314Alafa">ʾAlafā</placeName> and <placeName
+                                ref="LOC6566Takwesa">Takʷǝsā</placeName> and, although they much
+                            reduced over time, they remained much greater than those of most other
+                            monasteries. The church was richly endowed and painted and still
+                            preserves paintings and objects of value. The paintings currently in the
+                            church were executed in <date when="1983">1983</date> by <persName
+                                ref="PRS9332Tawalda">Tawalda Gabra Bǝrhan</persName>. The monastery
+                            holds a collection of manuscripts including <ref type="work"
+                                corresp="LIT1933Mashaf">Maṣḥāfa Ḥāwi</ref>, a short history of the
+                            monastery and a recently produced paper copy of the same produced by
+                                <roleName type="title">abbot</roleName>
+                            <persName ref="PRS10571Zamanfa">Za-Manfas Qǝddus Gabra
+                                Ṣādǝqān</persName>, the illumnated <date notBefore="1300"
+                                notAfter="1399">14th cent.</date>
+                            <ref type="work" corresp="LIT1019Actsof">Acts of the Apostles</ref> and
+                            the <date notBefore="1700" notAfter="1799">18th cent.</date>
+                            <ref type="work" corresp="LIT1295Dersan">Dǝrsāna Mikāʾel</ref> with 54
+                            miniatures and the portrait on fols. 4v and 14v of its former owners,
+                            the noble couple <persName ref="PRS4289GabraLe">Gabra Lǝʾul</persName>
+                            and <persName ref="PRS6701Marata">Marʿāta Giyorgis</persName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:nearBy" active="#INS0331Mandab" passive="LOC3589Gorgor">
+                        <desc>This monastery is close to Gorgorā.</desc>
+                    </relation>
+                    <relation name="gn:nearBy" active="#INS0331Mandab" passive="LOC5888Tana">
+                        <desc>This monastery is on the north shore of lake Ṭānā.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0331Mandab"
+                        passive="LOC2422DagaEs">
+                        <desc>This is the second largest monastery of the lake Ṭānā region after
+                            Dāgā ʾƎsṭifānos.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0331Mandab"
+                        passive="LOC6565Sowit">
+                        <desc>This monastery was endowed with lands in the area of Sowit.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0331Mandab"
+                        passive="LOC1314Alafa">
+                        <desc>This monastery was endowed with lands in the area of ʾAlafā.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0331Mandab"
+                        passive="LOC6566Takwesa">
+                        <desc>This monastery was endowed with lands in the area of Takʷǝsā.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

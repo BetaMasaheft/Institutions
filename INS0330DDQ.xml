@@ -104,7 +104,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="LOC6533DabraSahayQwe" passive="LOC6540Entone">
+                    <relation name="gn:nearBy" active="INS0330DDQ" passive="LOC6540Entone">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was located near ʾAbbā ʾƎnṭonǝs.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place" active="#INS0330DDQ"
