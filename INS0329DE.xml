@@ -69,8 +69,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 notBefore="1200" notAfter="1299" precision="low">13th cent.</date>),
                             allegedly sent there by its spiritual father <roleName type="title"
                                 >ʾabbā</roleName>
-                            <persName ref="PRS5631IyasusM">ʾIyasus Moʾa</persName>, this is now believed to be a historical reconstruction linked to the attempts by the networks of 
-                        </desc>
+                            <persName ref="PRS5631IyasusM">ʾIyasus Moʾa</persName>, this is now
+                            believed to be a historical reconstruction linked to the attempts by the
+                            networks of <placeName ref="INS0327DHE">Dabra Ḥayq
+                                ʾƎsṭifānos</placeName> and <placeName ref="LOC2297DabraL">Dabra
+                                Libānos</placeName> to take possession of this monastery. There is
+                            in fact no information on the monastery history before the <date
+                                notBefore="1400" notAfter="1499">15th cent.</date></desc>
                         <ab type="history"/>
                         <ab type="tabot"><measure/></ab>
                         <ab type="description">The monastery of Dāgā ʾƎsṭifānos is located on the
