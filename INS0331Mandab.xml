@@ -119,7 +119,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <placeName ref="LOC3589Gorgor">Gorgorā</placeName>, Mandābbā Madḫāne
                             ʿĀlam is the second largest monastery of the lake <placeName
                                 ref="LOC5888Tana">Ṭānā</placeName> region after <placeName
-                                ref="LOC2422DagaEs">Dāgā ʾƎsṭifānos</placeName>. It had lands in the
+                                    ref="INS0329DE">Dāgā ʾƎsṭifānos</placeName>. It had lands in the
                             districts of <placeName ref="LOC6565Sowit">Sowit</placeName>, <placeName
                                 ref="LOC1314Alafa">ʾAlafā</placeName> and <placeName
                                 ref="LOC6566Takwesa">Takʷǝsā</placeName> and, although they much
@@ -151,7 +151,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <desc>This monastery is on the north shore of lake Ṭānā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place" active="#INS0331Mandab"
-                        passive="LOC2422DagaEs">
+                        passive="INS0329DE">
                         <desc>This is the second largest monastery of the lake Ṭānā region after
                             Dāgā ʾƎsṭifānos.</desc>
                     </relation>

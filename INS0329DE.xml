@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0329DE" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dāgā ʾƎsṭifānos</title>
+                <editor key="FP"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-14" who="FP">added info to record</change>
+            <change who="FP" when="2016-10-13">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="monastery" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="gez">ዳጋ፡ እስጢፋኖስ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dāgā
+                        ʾƎsṭifānos</placeName>
+                    <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ዳጋ፡ እስጢፋኖስ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Dāgā
+                        ʾƎsṭifānos</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <location>
+                        <geo>11.8961 37.3098</geo>
+                        <height/>
+                    </location>
+                    <note>
+                        <date type="foundation" notBefore="1400" notAfter="1499" cert="low">15th
+                            cent.</date>
+                        <desc type="foundation">Although it is said to have been founded by
+                                <roleName type="title">Saint</roleName>
+                            <persName ref="PRS5365hirutaA">Ḫiruta ʾAmlāk</persName> (<date
+                                notBefore="1200" notAfter="1299" precision="low">13th cent.</date>),
+                            allegedly sent there by its spiritual father <roleName type="title"
+                                >ʾabbā</roleName>
+                            <persName ref="PRS5631IyasusM">ʾIyasus Moʾa</persName>, this is now believed to be a historical reconstruction linked to the attempts by the networks of 
+                        </desc>
+                        <ab type="history"/>
+                        <ab type="tabot"><measure/></ab>
+                        <ab type="description">The monastery of Dāgā ʾƎsṭifānos is located on the
+                            small island of <placeName ref="LOC2419Daga">Dāgā</placeName>, on the
+                            eastern side of the main island of <placeName ref="LOC2522Daq"
+                                >Daq</placeName> at the centre of lake <placeName ref="LOC5888Tana"
+                                >Ṭānā</placeName>. The history of the monastery and of its monks can
+                            be broadly reconstructed thanks to its important library of manuscripts:
+                                <num>67</num> were microfilmed by <persName ref="PRS5072Hammersc"
+                                >Ernst Hammerschmidt</persName> and catalogued by Six; approx.
+                                <num>40</num> were microfilmed by the <placeName ref="INS0332EMML"
+                                >EMML</placeName> project and <num>28</num> are at the <placeName
+                                ref="INS0303BNF">Bibliothèque Nationale de France</placeName>. </ab>
+                    </note>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:BoscTiesseBalicka2005EnAeDagaEstifanos"/>
+                        </bibl>
+                    </listBibl>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#INS0329DE" passive="LOC2419Daga">
+                        <desc>The monastery is located on the island of Dāgā.</desc>
+                    </relation>
+                    <relation name="gn:nearBy" active="#INS0329DE" passive="LOC2522Daq">
+                        <desc>The monastery is close to the island of Da.</desc>
+                    </relation>
+                    <relation name="gn:locatedIn" active="#INS0329DE" passive="LOC5888Tana">
+                        <desc>The monastery is located on an island in the lake Ṭānā.</desc>
+                    </relation>
+
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
