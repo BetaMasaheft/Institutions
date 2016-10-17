@@ -61,8 +61,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <height/>
                     </location>
                     <note>
-                        <date type="foundation" notBefore="1400" notAfter="1499" cert="low">15th
-                            cent.</date>
+                        <date type="foundation" notBefore="1400" notAfter="1499" cert="low"
+                            precision="low">15th cent.</date>
                         <desc type="foundation">Although it is said to have been founded by
                                 <roleName type="title">Saint</roleName>
                             <persName ref="PRS5365hirutaA">Ḫiruta ʾAmlāk</persName> (<date
@@ -74,10 +74,39 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             networks of <placeName ref="INS0327DHE">Dabra Ḥayq
                                 ʾƎsṭifānos</placeName> and <placeName ref="LOC2297DabraL">Dabra
                                 Libānos</placeName> to take possession of this monastery. There is
-                            in fact no information on the monastery history before the <date
+                            in fact no information on the monastery's history before the <date
                                 notBefore="1400" notAfter="1499">15th cent.</date></desc>
-                        <ab type="history"/>
+                        <ab type="history">During the <date notBefore="1400" notAfter="1499">15th
+                                cent.</date>, the monastic life expanded at Dāgā ʾƎsṭifānos and the
+                            monastery benefitted from land grants, royal burials and artistic
+                            realizations. During the <date notBefore="1550" notAfter="1599">second
+                                half of the 16th cent.</date>, the monastery was still used as a
+                            mausoleum for the members of the royal family and seems to have been
+                            very prosperous. <date notBefore="1563" notAfter="1574">Between 1563 and
+                                1574</date>, <roleName type="title">mamhǝr</roleName>
+                            <persName ref="PRS4283GabraKr">Gabra Krǝstos</persName> restored the
+                            church with the support of <roleName type="title">kantibā</roleName>
+                            <persName ref="PRS4342GabraMi">Gabra Mikāʾel</persName>. The monastery
+                            supported <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS8550sardaDe">Śarṣa Dǝngǝl</persName> in the wars
+                            against the Muslims and, in turn, received lands in <placeName
+                                ref="LOC2522Daq">Daq</placeName>. At the end of <date when="1646"
+                                >1646</date>, <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS4015Fasilada">Fāsiladas</persName> gave the monastery
+                            lands in <placeName ref="LOC6567Derdera">Dǝrdǝrā</placeName> and, later,
+                            in <placeName ref="LOC6463Zebed">Zǝbǝd</placeName>. In <date when="1646"
+                                >1646</date>, he also decided to rebuild the church, which was
+                            completed <date notBefore="1651" notAfter="1653">between 1651 and
+                                1653</date>. However, the church burnt down again in <date
+                                when="1714">1714</date>. Following the foundation of <placeName
+                                ref="LOC4970NargaS">Nārgā Śǝllāse</placeName> by <persName
+                                ref="PRS2682BerhanM">Bǝrhan Mogasā</persName>, some of the lands
+                            traditionally attributed to Dāgā ʾƎsṭifānos were given to
+                            the new monastery, causing conflicts. The church was burnt down again in
+                            approx. <date when="1880" cert="low">1880</date> and reconstructed with
+                            the present octagonal building.</ab>
                         <ab type="tabot"><measure/></ab>
+                        <!--                        info currently unknown-->
                         <ab type="description">The monastery of Dāgā ʾƎsṭifānos is located on the
                             small island of <placeName ref="LOC2419Daga">Dāgā</placeName>, on the
                             eastern side of the main island of <placeName ref="LOC2522Daq"
@@ -106,7 +135,31 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:locatedIn" active="#INS0329DE" passive="LOC5888Tana">
                         <desc>The monastery is located on an island in the lake Ṭānā.</desc>
                     </relation>
-
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE"
+                        passive="LOC4279Lejome">
+                        <desc>The monastery was given lands in Lǝǧome in the 15th cent.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE">
+                        <desc>The monastery was given lands in Zaǧor in the 15th cent.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE"
+                        passive="LOC2522Daq">
+                        <desc>The monastery was given lands on the island of Daq.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE"
+                        passive="LOC6567Derdera">
+                        <desc>The monastery was given lands in Dǝrdǝrā in the 17th cent.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE"
+                        passive="LOC6463Zebed">
+                        <desc>The monastery was given lands in Zǝbǝd in the 17th cent.</desc>
+                    </relation>
+                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE"
+                        passive="LOC4970NargaS">
+                        <desc>There was a conflictual relationship between Dāgā ʾƎsṭifānos and Nārgā
+                            Śǝllāse due to lands traditionally attributed to the former being
+                            transferred to the latter.</desc>
+                    </relation>
                 </listRelation>
             </listPlace>
         </body>
