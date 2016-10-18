@@ -51,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName corresp="INS0101MadhaneAlam" type="alt">Medhane Alem</placeName>
                <placeName corresp="INS0101MadhaneAlam" xml:lang="en">Saviour of the World</placeName>
                <country ref="LOC3010Ethiop"/>
-               <region ref="LOC5932Tegray"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement ref="LOC4547Maqdal"/>
                <location>
                   <geo>11.5500 39.2833</geo>

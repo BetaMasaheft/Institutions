@@ -55,7 +55,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName> Waldǝbbā </placeName>
            
                <country ref="LOC3010Ethiop"/>
-               <region ref="LOC5932Tegray"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement ref="LOC6171Waldeb" type="region"/>
                <location>

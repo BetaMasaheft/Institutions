@@ -10,8 +10,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Dabra Ḥayq ʾƎsṭifānos</title>
-                <editor/>
-                <editor role="generalEditor" key="AB"/>
+                <editor key="FP"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -40,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-10-18" who="FP">info added</change>
            <change who="FP" when="2016-10-14">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
@@ -50,12 +50,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName>Dabra Ḥayq ʾƎsṭifānos</placeName>
                     <placeName type="alt">Däbrä Ḥayq; Däbrä Ǝgziʾabǝḥer Ab</placeName>
                     <placeName>Däbrä Nägwädgwad</placeName>
-                    <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
                     <location>
-                        <geo></geo>
-                        <height></height>
+                        <geo>11.3388 39.6976</geo>
+                        <height cert="medium">2,030 m</height>
                     </location>
                     <note>
                         <date type="foundation" ></date>
@@ -67,11 +68,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         
                         <ab type="description"></ab>
                     </note>
-                    <listBibl>
-                        <bibl></bibl>
+                    <listBibl type="secondary">
+                        <bibl> <ptr target="bm:Derat2005EnAeDabraHE"/> </bibl>
                     </listBibl>
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+                <listRelation>
+                    <relation>
+                        <desc></desc>
+                    </relation>
+                </listRelation>
             </listPlace>
         </body>
     </text>

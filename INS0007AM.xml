@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="normalized" corresp="#n7" xml:lang="gez">Dabra ʿĀlamā</placeName>
 
                   <country ref="LOC3010Ethiop"/>
-                  <region ref="LOC5932Tegray"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement when="2009-11-16">
                   <placeName ref="LOC1564ASbiW" type="waradā"/> 
                   <placeName ref="LOC6526Asir" type="qušat"/>
