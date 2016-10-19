@@ -51,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="LOC6523UK"/>
                <region ref="LOC6524England"/>
                <settlement ref="LOC5063Oxford"/>
-
+               <location><geo>51.75411 -1.25406</geo></location>
                 
                <listBibl type="catalogue">
                   <bibl>

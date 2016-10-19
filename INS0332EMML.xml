@@ -53,7 +53,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <region></region>
                     <settlement></settlement>
                     <location>
-                        <geo></geo>
+                        <geo>45.581299 94.3939278</geo>
                         <height></height>
                     </location>
                     <note>

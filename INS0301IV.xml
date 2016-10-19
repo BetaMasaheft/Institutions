@@ -49,12 +49,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
    <text>
       <body>
          <listPlace>
-            <place subtype="institution">
+            <place type="academicInstitution" subtype="institution">
                <placeName xml:lang="ru">Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk</placeName>
                <placeName type="alt">Institut Vostokovedenija</placeName>
                <country ref="LOC5389Russia"/> 
                <settlement ref="LOC6516SPB"/>
-
+               <location><geo>59.944074 30.3197658</geo></location>
 
                <listBibl type="catalogue">
                   <bibl>

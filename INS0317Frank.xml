@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="library">
+                <place type="library" subtype="institution">
                     <placeName>Frankfurt Stadt- und Universitätsbibliothek</placeName>
                     <placeName type="alt"
                         ><!--any alternative name go each in one placeName--></placeName>

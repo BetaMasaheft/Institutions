@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="LOC6523UK">United Kingdom</country>
                <region ref="LOC6524England">England</region>
                <settlement ref="LOC4325London">London</settlement>
-          
+               <location><geo>51.52997 -0.12773</geo></location>
                <note>
                   <date type="foundation"/>
                   <desc type="foundation">formerly part of the British Museum

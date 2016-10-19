@@ -49,6 +49,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country>Vatican</country>
                <region/>
                <settlement/>
+               <location>
+                  <geo>41.90076 12.47447</geo>
+               </location>
                <note>
                   <date type="foundation"/>
                   <desc type="foundation"> 

@@ -54,8 +54,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="LOC6523UK"/>
                     <region ref="LOC6524England"/>
                     <settlement ref="LOC2104Cambri"/>
+                    <location><geo>52.205071 0.105571</geo></location>
                   </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+               
             </listPlace>
         </body>
     </text>
