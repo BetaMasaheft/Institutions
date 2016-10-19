@@ -55,7 +55,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="LOC3103France">France</country>
                     <settlement ref="LOC5076Paris"/>
                     <location>
-                        <geo>2.37600 48.83335</geo>
+                        <geo>48.83335 2.37600</geo>
                     </location>
                 </place>
                 
