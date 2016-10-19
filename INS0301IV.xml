@@ -53,8 +53,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="academicInstitution" subtype="institution">
                <placeName xml:lang="ru">Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk</placeName>
                <placeName type="alt">Institut Vostokovedenija</placeName>
-               <country ref="http://www.geonames.org/2017370/russian-federation.html"/> 
-               <settlement ref="http://www.geonames.org/498817/saint-petersburg.html"/>
+               <country ref="http://www.geonames.org/2017370"/> 
+               <settlement ref="http://www.geonames.org/498817"/>
                <location><geo>59.944074 30.3197658</geo></location>
 
                <listBibl type="catalogue">
