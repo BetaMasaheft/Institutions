@@ -54,7 +54,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName type="alt"> BnF</placeName>
                     <country ref="LOC3103France">France</country>
                     <settlement ref="LOC5076Paris"/>
-                    
+                    <location>
+                        <geo>2.37600 48.83335</geo>
+                    </location>
                 </place>
                 
             </listPlace>
