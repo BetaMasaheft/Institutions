@@ -39,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="sv">swedish</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -52,8 +53,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="academicInstitution" subtype="institution">
                <placeName xml:lang="ru">Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk</placeName>
                <placeName type="alt">Institut Vostokovedenija</placeName>
-               <country ref="LOC5389Russia"/> 
-               <settlement ref="LOC6516SPB"/>
+               <country ref="http://www.geonames.org/2017370/russian-federation.html"/> 
+               <settlement ref="http://www.geonames.org/498817/saint-petersburg.html"/>
                <location><geo>59.944074 30.3197658</geo></location>
 
                <listBibl type="catalogue">
