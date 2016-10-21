@@ -39,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+           <change when="2016-10-19" who="FP">info added</change>
             <change when="2016-10-18" who="FP">info added</change>
            <change who="FP" when="2016-10-14">CREATED: place</change>
         </revisionDesc>
@@ -47,9 +48,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName>Dabra Ḥayq ʾƎsṭifānos</placeName>
-                    <placeName type="alt">Däbrä Ḥayq; Däbrä Ǝgziʾabǝḥer Ab</placeName>
-                    <placeName>Däbrä Nägwädgwad</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሐይቅ፡ እስጢፋኖስ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Ḥayq ʾƎsṭifānos</placeName>
+                    
+                    <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ሐይቅ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Ḥayq</placeName>
+                    
+                    <placeName xml:id="n3" xml:lang="gez" type="alt">ደብረ፡ እግዚአብኄር፡ አብ፡</placeName>
+                    <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra ʾƎgziʾabǝḥer ʾAb</placeName>
+                    
+                    <placeName xml:id="n4" xml:lang="gez" type="alt">ደብረ፡ ነግወድጓድ፡</placeName>
+                    <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Nagwadgwād</placeName>
+                    
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>

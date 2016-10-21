@@ -50,9 +50,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n1" xml:lang="sv">Lund Universitetsbiblioteket</placeName>
                     <placeName corresp="n1" xml:lang="en">Lund University Library</placeName>
                     
-                    <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <country ref="gn:2661886"/> 
+                    <region ref="gn:2678287"/>
+                    <settlement ref="gn:2693678"/>
                     <location>
                         <geo>55.7089 13.1972</geo>
                         <height></height>

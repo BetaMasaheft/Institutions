@@ -49,9 +49,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin</placeName>
                     <placeName corresp="#n1" xml:lang="en">Berlin State Library</placeName>
-                    <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <country ref="gn:2921044"/> 
+                    <region ref="gn:6547383"></region>
+                    <settlement type="city" ref="gn:2950159"/>
                     <location>
                         <geo>52.5068 13.3696</geo>
                         <height></height>

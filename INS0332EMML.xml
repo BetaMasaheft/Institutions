@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Ethiopian Manuscript Microfilm Library</title>
+                <title>Ethiopian Manuscript Microfilm Library</title>
                 <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="en"> Ethiopian Manuscript Microfilm Library</placeName>
+                    <placeName xml:id="n1" xml:lang="en">Ethiopian Manuscript Microfilm Library</placeName>
                     <placeName corresp="#n1" xml:lang="en" type="abbreviation">EMML</placeName>
-                    <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <country ref="gn:6252001"/> 
+                    <region ref="gn:5037779"/>
+                    <settlement type="town" ref="gn:5021784"></settlement>
                     <location>
                         <geo>45.581299 -94.3939278</geo>
                         <height></height>

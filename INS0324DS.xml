@@ -5,12 +5,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0335ANL" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0324DS" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca dell’Accademia Nazionale dei Lincei</title>
-                <editor role="generalEditor" key="AB"/>
+                <title>Dayr Sayyida</title>
+                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -39,21 +39,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change who="FP" when="2016-10-19">CREATED: place</change>
+           <change when="2016-10-21" who="FP">added details</change>
+            <change who="FP" when="2016-10-20">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
-                    <placeName>Biblioteca dell’Accademia Nazionale dei Lincei</placeName>
-                    <placeName type="alt"></placeName>
-                    <country ref="gn:3175395"/> 
-                    <region ref="gn:3174976"/>
-                    <settlement type="city" ref="gn:3169070"/>
+                <place type="church monastery" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="ar">Dayr Sayyida</placeName>
+                    <placeName xml:id="n2" xml:lang="en">Monastery of the Virgin of John Colobos</placeName>
+                    <country ref="gn:357994"/> 
+                    <region ref="gn:361370"/>
+                    <settlement type="depression" ref="gn:351277"/>
                     <location>
-                        <geo>41.8931 12.4667</geo>
-                        <height></height>
+                        <geo cert="low">30.4324 30.2377</geo>
+                        <height cert="low">-23 m</height>
                     </location>
                     <note>
                         <date type="foundation" ></date>

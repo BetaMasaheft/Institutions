@@ -5,11 +5,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0335ANL" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0322BH" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca dell’Accademia Nazionale dei Lincei</title>
+                <title>Bibliotheca Harleiana</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -36,23 +36,26 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+            <language ident="la">Latin</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change who="FP" when="2016-10-19">CREATED: place</change>
+           <change who="FP" when="2016-10-20">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName>Biblioteca dell’Accademia Nazionale dei Lincei</placeName>
-                    <placeName type="alt"></placeName>
-                    <country ref="gn:3175395"/> 
-                    <region ref="gn:3174976"/>
-                    <settlement type="city" ref="gn:3169070"/>
+                    <placeName xml:id="n1" xml:lang="la">Bibliotheca Harleiana</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Harleian Library</placeName>
+                    <placeName xml:id="n2" xml:lang="en">Harley Collection</placeName>
+                    <placeName xml:id="n3" xml:lang="en">Harleian Collection</placeName>
+                    <country ref="gn:2635167"/>
+                    <region ref="gn:6269131" /> 
+                     <settlement type="city" ref="gn:2643743"/>
                     <location>
-                        <geo>41.8931 12.4667</geo>
+                        <geo>51.5288 -0.1267</geo>
                         <height></height>
                     </location>
                     <note>
