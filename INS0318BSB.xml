@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>Bayerische Staatsbibliothek</placeName>
                <placeName type="alt">Königliche Hof- und Staatsbibliothek</placeName>
-               <country ref="LOC3432German">Germany</country>
+               <country ref="gn:2921044">Germany</country>
                <settlement ref="LOC4910Munich">Munich</settlement>
                
                <listBibl type="catalogue">
