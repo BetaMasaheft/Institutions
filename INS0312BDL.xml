@@ -48,8 +48,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPlace>
             <place type="library" subtype="institution">
                <placeName>Bodleian Library</placeName>
-               <country ref="LOC6523UK"/>
-               <region ref="LOC6524England"/>
+               <country ref="gn:2635167"/>
+               <region ref="gn:6269131"/>
                <settlement ref="LOC5063Oxford"/>
                <location><geo>51.75411 -1.25406</geo></location>
                 

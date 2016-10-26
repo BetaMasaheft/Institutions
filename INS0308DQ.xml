@@ -5,12 +5,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0306BSL" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0308DQ" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bible Society's Library </title>
-                <editor key="DR"/>
+                <title>Dayr al-Muḥarraq</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -37,26 +36,43 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
-                <language ident="fr"/>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change who="DR" when="2016-06-15">CREATED: place</change>
+           <change who="FP" when="2016-10-26">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
-                    <placeName xml:lang="en">Bible Society's Library</placeName>
-                    <placeName xml:lang="en" type="alt"> Bible House Library</placeName>
-                    <placeName xml:lang="fr" type="alt"> Bibliothèque de la Société biblique de Londres</placeName>
-                    <country ref="gn:2635167"/>
-                    <region ref="gn:6269131"/>
-                    <settlement ref="LOC2104Cambri"/>
-                    <location><geo>52.205071 0.105571</geo></location>
-                  </place>
-               
+                <place type="monastery" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="ar">Dayr al-Muḥarraq</placeName>
+                    <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ቍስቋም፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Qwǝsqwām</placeName>
+                    <placeName corresp="#n2" xml:lang="ar">Dayr Qūsqām</placeName>
+                    <placeName xml:id="n3" xml:lang="en" type="alt">Convent of the Apostles</placeName>
+                    <country ref="gn:357994"/> 
+                    <region ref="gn:359781"/>
+                    <settlement type="town" ref="gn:360526"/>
+                    <location>
+                        <geo>27.444444 30.816667</geo>
+                        <height>54 m</height>
+                    </location>
+                    <note>
+                        <date type="foundation" ></date>
+                        <desc type="foundation">
+                        </desc>
+                        
+                        <ab type="history"></ab>
+                        <ab type="tabot"><measure/></ab>
+                        
+                        <ab type="description"></ab>
+                    </note>
+                    <listBibl>
+                        <bibl></bibl>
+                    </listBibl>
+                </place>
+                <listRelation><relation><desc></desc></relation></listRelation>
             </listPlace>
         </body>
     </text>

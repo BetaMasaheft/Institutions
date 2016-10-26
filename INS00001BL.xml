@@ -49,9 +49,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>British Library</placeName>
                <placeName type="alt">British Museum</placeName>
-               <country ref="LOC6523UK">United Kingdom</country>
-               <region ref="LOC6524England">England</region>
-               <settlement ref="LOC4325London">London</settlement>
+               <country ref="gn:2635167"/>
+               <region ref="gn:6269131"/>
+               <settlement type="city" ref="gn:2643743"/>
                <location><geo>51.52997 -0.12773</geo></location>
                <note>
                   <date type="foundation"/>

@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery Library">
                     <placeName xml:lang="it" xml:id="n1">Santo Stefano de' Mori</placeName>
                     <placeName xml:lang="it" xml:id="n2" type="alt">Santo Stefano degli Abissini</placeName>
-                    <country ref="LOC6527Vat"/>
+                    <country ref="gn:3164670"/>
                     <region/>
                     <settlement/>
                     <note>
