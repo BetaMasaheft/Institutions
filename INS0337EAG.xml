@@ -5,7 +5,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0336EAG" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0337EAG" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -57,8 +57,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     
                     <country ref="LOC3010Ethiop"/> 
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <region notAfter="1974" type="Province" ref=""/>
-                    <settlement type="zone" ref=""/>
+                    <region notAfter="1974" type="Province"/>
+                    <settlement type="zone"/>
                     <settlement type="town" ref="LOC1264Adwa"/>
                     <location>
                         <geo cert="medium">14.16436, 38.95195</geo>
@@ -74,11 +74,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         
                         <ab type="description"></ab>
                     </note>
-                    <listBibl>
-                        <bibl></bibl>
-                    </listBibl>
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
             </listPlace>
         </body>
     </text>
