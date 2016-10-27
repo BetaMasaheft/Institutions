@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <region ref="gn:361468"/>
                     <settlement type="desert" ref="gn:349333"/>
                     <location>
-                        <geo>28.846469, 32.551578</geo>
+                        <geo>28.846469 32.551578</geo>
                         <height>589 m</height>
                     </location>
                     <note>
@@ -65,11 +65,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         
                         <ab type="description"></ab>
                     </note>
-                    <listBibl>
-                        <bibl></bibl>
-                    </listBibl>
+                    
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+                
             </listPlace>
         </body>
     </text>
