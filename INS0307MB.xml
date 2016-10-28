@@ -53,9 +53,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                
                <placeName>Museo borgiano</placeName>
                <placeName type="alt">Palazzo di Propaganda Fide</placeName>
-               <country ref="LOC3940Italy"> </country>
-               <region/>
-               <settlement ref="LOC5374Rome"></settlement>
+               <country ref="gn:3175395"/> 
+               <region ref="gn:3174976"/>
+               <settlement type="city" ref="gn:3169070"/>
                <location>
               
                </location>
