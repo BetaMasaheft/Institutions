@@ -50,9 +50,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName xml:lang="fr">Abbaye de Saint-Germain-des-Prés</placeName>
                     <placeName xml:lang="en" type="alt"> Abbey Saint-Germain-des-Prés</placeName>
-                     <country ref="LOC3103France">France</country>
-                    <settlement ref="LOC5076Paris"/>
-                  </place>
+                    <country ref="gn:3017382"/>
+                    <region ref="gn:3012874"/>
+                    <settlement type="city" ref="gn:2988507"/>
+                </place>
                 <listRelation><relation><desc></desc></relation></listRelation>
             </listPlace>
         </body>

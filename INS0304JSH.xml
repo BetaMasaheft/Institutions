@@ -54,8 +54,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:lang="fr">Jacobins Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Couvent des Jacobins, rue Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Bibliothèque des Jacobins Saint-Honoré</placeName>
-                    <country ref="LOC3103France">France</country>
-                    <settlement ref="LOC5076Paris"/>
+                    <country ref="gn:3017382"/>
+                    <region ref="gn:3012874"/>
+                    <settlement type="city" ref="gn:2988507"/>
                     
                 </place>
                
