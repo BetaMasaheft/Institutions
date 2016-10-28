@@ -49,7 +49,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>Österreichische Nationalbibliothek</placeName>
                <country ref="gn:2782113"/>
-               <settlement ref="LOC6077Vienna"/>
+               <region ref="gn:2761367"></region>
+               <settlement type="city" ref="gn:2761369"/>
 
                 
                <listBibl type="catalogue">
