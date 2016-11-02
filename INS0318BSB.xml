@@ -37,6 +37,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <langUsage>
             <language ident="en">English</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="de">German</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -47,10 +48,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place type="library" subtype="institution">
-               <placeName>Bayerische Staatsbibliothek</placeName>
-               <placeName type="alt">Königliche Hof- und Staatsbibliothek</placeName>
-               <country ref="gn:2921044">Germany</country>
-               <settlement ref="LOC4910Munich">Munich</settlement>
+               <placeName xml:id="n1" xml:lang="de">Bayerische Staatsbibliothek</placeName>
+               <placeName xml:id="n2" xml:lang="de" type="alt">Königliche Hof- und Staatsbibliothek</placeName>
+               <country ref="gn:2921044"/>
+               <region ref="gn:2951839"/>
+               <settlement type="city" ref="gn:2867714"/>
                
                <listBibl type="catalogue">
                   <bibl>
