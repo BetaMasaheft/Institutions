@@ -49,7 +49,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>Universitätsbibliothek Tübingen</placeName>
                <country ref="gn:2921044"/>
-               <settlement ref="LOC6032Tubing"/>
+               <region ref="gn:2953481"/>
+               <settlement type="town" ref="gn:2820860"/>
 
                 
                <listBibl type="catalogue">
