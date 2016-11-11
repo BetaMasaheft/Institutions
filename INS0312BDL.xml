@@ -50,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName>Bodleian Library</placeName>
                <country ref="gn:2635167"/>
                <region ref="gn:6269131"/>
-               <settlement ref="LOC5063Oxford"/>
+               <settlement type="town" ref="gn:2640729"/>
                <location><geo>51.75411 -1.25406</geo></location>
                 
                <listBibl type="catalogue">
