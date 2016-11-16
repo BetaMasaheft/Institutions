@@ -49,7 +49,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>Leiden University Library</placeName>
                <country ref="gn:2750405"/>
-               <settlement ref="LOC4281Leiden"/>
+               <region ref="gn:2743698"/>
+               <settlement type="town" ref="gn:2751773"/>
             </place>
               </listPlace>
             <listBibl type="catalogue">
