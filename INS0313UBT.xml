@@ -55,7 +55,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 
                <listBibl type="catalogue">
                   <bibl>
-                     <ptr target="bm:Ewald1843Tuebingen"/>
+                     <ptr target="bm:Ewald1844Tuebingen"/>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Ewald1846Tuebingen"/>
