@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dayr Anbā Anṭūniyūs</title>
+                <title>Dayr ʾAnbā ʾAnṭūniyūs</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="ar">Dayr Anbā Anṭūniyūs</placeName>
+                    <placeName xml:id="n1" xml:lang="ar">Dayr ʾAnbā ʾAnṭūniyūs</placeName>
                     <placeName corresp="#n1" xml:lang="en">Saint Anthony</placeName>
                     <country ref="gn:357994"/> 
                     <region ref="gn:359797" cert="medium"/>

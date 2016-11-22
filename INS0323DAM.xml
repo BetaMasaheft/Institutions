@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dayr Abū Mīnā</title>
+                <title>Dayr ʾAbū Mīnā</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="ar">Dayr Abū Mīnā</placeName>
+                    <placeName xml:id="n1" xml:lang="ar">Dayr ʾAbū Mīnā</placeName>
                     <placeName type="alt"></placeName>
                     <country ref="gn:357994"/> 
                     <region ref="gn:360631"/>

@@ -46,11 +46,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="ar">Dayr al-Muḥarraq</placeName>
+                    <placeName xml:id="n1" xml:lang="ar">دير المحرق</placeName>
+                    <placeName  xml:lang="ar" type="normalized" corresp="#n1">Dayr al-Muḥarraq</placeName>
                     <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ቍስቋም፡</placeName>
-                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Qwǝsqwām</placeName>
-                    <placeName corresp="#n2" xml:lang="ar">Dayr Qūsqām</placeName>
-                    <placeName xml:id="n3" xml:lang="en" type="alt">Convent of the Apostles</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Qʷǝsqʷām</placeName>
+                    <placeName xml:id="n3" xml:lang="ar" type="alt">دير قسقام</placeName>
+                    <placeName  xml:lang="ar" type="normalized" corresp="#n3">Dayr Qusqām</placeName>
+                    <placeName xml:id="n4" xml:lang="en" type="alt">Convent of the Apostles</placeName>
                     <country ref="gn:357994"/> 
                     <region ref="gn:359781"/>
                     <settlement type="town" ref="gn:360526"/>

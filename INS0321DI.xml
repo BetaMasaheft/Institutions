@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dayr Ilyās</title>
+                <title>Dayr ʾIlyās</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="ar">Dayr Ilyās</placeName>
+                    <placeName xml:id="n1" xml:lang="ar">Dayr ʾIlyās</placeName>
                     <placeName corresp="#n1" xml:lang="en">Saint Elija</placeName>
                     <placeName xml:id="n2" xml:lang="gez" type="alt">Dabra ʾElyās (Bahāt)</placeName>
 <!--                    need to insert name in fidel?-->
