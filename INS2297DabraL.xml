@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Libanos</title>
+            <title>Dabra Libānos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,15 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-10-25">CREATED: institution</change>
-      </revisionDesc>
+         <change who="DR" when="2016-12-01">transcription corrected</change></revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Däbrä Libanos</placeName>
+               <placeName>Dabra Libānos</placeName>
                <placeName type="alt">ʿAsbo</placeName>
-               <region>Šäwa</region>
+               <region>Šawā</region>
             </place>
          </listPlace>
       </body>
