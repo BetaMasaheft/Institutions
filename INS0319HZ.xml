@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḥārat Zawīla</title>
+                <title>Ḥārat Zuwayla</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="quarter" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="ar">Ḥārat Zawīla</placeName>
+                    <placeName xml:id="n1" xml:lang="ar">Ḥārat Zuwayla</placeName>
                     <placeName type="alt"></placeName>
                     <country ref="gn:357994"/> 
                     <region ref="gn:360631"/>
