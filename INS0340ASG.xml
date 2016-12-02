@@ -48,13 +48,30 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place type="monastery" subtype="institution">
-               <placeName xml:lang="fr">Abbaye Sainte-Geneviève</placeName>
+               <placeName xml:id="n1" xml:lang="fr">Abbaye Sainte-Geneviève</placeName>
+               <country ref="gn:3017382"/>
+               <region ref="gn:3012874"/>
                <settlement type="city" ref="gn:2988507"/>
+               <location>
+                  <geo>48.8457 2.3481</geo>
+                  <height>42 m</height>
+               </location>
                <note>
                   <date type="foundation" when="0508"/>
-               </note>
+                  <desc type="foundation">
+                  </desc>
+                  
+                  <ab type="history"></ab>
+                  <ab type="tabot"><measure/></ab>
+                  
+                  <ab type="description"></ab>                
+               <note> 
+                  <listBibl>
+                     <bibl></bibl>
+                  </listBibl>
             </place>
-         </listPlace>
+            <listRelation><relation><desc></desc></relation></listRelation>
+            </listPlace>
       </body>
   </text>
 </TEI>
