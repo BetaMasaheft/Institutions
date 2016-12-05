@@ -54,7 +54,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         ʾƎsṭifānos</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
-                    <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                     <settlement type="zone" ref="LOC6544NorthGondar"/>
                     <location>
                         <geo>11.8961 37.3098</geo>

@@ -39,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-12-02" who="FP">added info</change>
            <change when="2016-10-19" who="FP">info added</change>
             <change when="2016-10-18" who="FP">info added</change>
            <change who="FP" when="2016-10-14">CREATED: place</change>
@@ -57,8 +58,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n3" xml:lang="gez" type="alt">ደብረ፡ እግዚአብኄር፡ አብ፡</placeName>
                     <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra ʾƎgziʾabǝḥer ʾAb</placeName>
                     
-                    <placeName xml:id="n4" xml:lang="gez" type="alt">ደብረ፡ ነግወድጓድ፡</placeName>
-                    <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Nagwadgwād</placeName>
+                    <placeName xml:id="n4" xml:lang="gez" type="alt">ደብረ፡ ነጐድጓድ፡</placeName>
+                    <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Nagʷadgʷād</placeName>
                     
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
@@ -76,7 +77,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <ab type="history"></ab>
                         <ab type="tabot"><measure/></ab>
                         
-                        <ab type="description"></ab>
+                        <ab type="description">The monastery of Dabra Ḥayq ʾƎsṭifānos is located </ab>
                     </note>
                     <listBibl type="secondary">
                         <bibl> <ptr target="bm:Derat2005EnAeDabraHE"/> </bibl>
