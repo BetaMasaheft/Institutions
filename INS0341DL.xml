@@ -25,8 +25,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
