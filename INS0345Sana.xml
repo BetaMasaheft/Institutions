@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="museum" subtype="institution">
                <placeName xml:id="n1">National Museum of Yemen, Ṣanʿāʾ</placeName>
                
-               <country ref="LOC6387Yemen"/>
-               <region  ref="LOC6387Yemen"/>
+               <country ref="gn:69543"/>
+               
                
                <settlement type="city"> 
                   <placeName ref="LOC5531Sana"/>
