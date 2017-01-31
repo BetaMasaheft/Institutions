@@ -31,15 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2017-01-31</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -52,12 +50,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery" subtype="institution">
-               <placeName xml:id="n1">Dabra Libānos</placeName>
-               <placeName xml:id="n2" type="alt">ʾƎndā ʾAbbā Maṭāʿ</placeName>
-               <placeName xml:id="n3" type="alt">Dabra Warq</placeName>
-               <region ref="LOC3756Ham"/>
+               <placeName xml:lang="gez" xml:id="n1" >ደብረ፡ ሊባኖስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
+               <placeName xml:lang="gez" xml:id="n2" >ዕንዳ፡ አባ፡ መጣዕ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿƎndā ʾAbbā Maṭāʿ</placeName>
+               <placeName xml:lang="gez" xml:id="n3" >ደብረ፡ ወርቅ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Dabra Warq</placeName>
+               <region ref="LOC5665Semaza"/>
                <settlement type="town" ref="LOC3756Ham"/>
                <country ref="gn:338010"/>
+               
+               <location></location>
+               <note>
+                  <date type="foundation"/>
+                  <desc type="foundation"></desc>
+                  <ab type="history">
+                  </ab>
+                  <ab type="tabot">
+                      <persName ref="PRS6298Libanos" type="tabot"/>
+                  </ab>
+               </note>
             </place>
          </listPlace>
       </body>
