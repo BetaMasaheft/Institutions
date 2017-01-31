@@ -4,15 +4,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
+     type="ins"
      xml:lang="en"
-     xml:id="INS0341DL">
+     xml:id="INS0346DL">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Dabra Libānos</title>
-            <!--            same as LOC2297DabraL-->
-            
+            <!-- same as place LOC2296DabraL  -->
+            <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -27,6 +27,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
+            
+            <date>2017-01-31</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -42,19 +44,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="SG" when="2016-10-25">CREATED: institution</change>
-         <change who="DR" when="2016-12-01">transcription corrected</change></revisionDesc>
+
+         <change who="ES" when="2017-01-31">CREATED: place</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Dabra Libānos</placeName>
-               <placeName type="alt">ʿAsbo</placeName>
-               <region>Šawā</region>
+            <place type="monastery" subtype="institution">
+               <placeName xml:id="n1">Dabra Libānos</placeName>
+               <placeName xml:id="n2" type="alt">ʾƎndā ʾAbbā Maṭāʿ</placeName>
+               <placeName xml:id="n3" type="alt">Dabra Warq</placeName>
+               <region ref="LOC3756Ham"/>
+               <settlement type="town" ref="LOC3756Ham"/>
+               <country ref="gn:338010"/>
             </place>
          </listPlace>
       </body>
