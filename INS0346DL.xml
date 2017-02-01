@@ -50,11 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery" subtype="institution">
-               <placeName xml:lang="gez" xml:id="n1" >ደብረ፡ ሊባኖስ፡</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
-               <placeName xml:lang="gez" xml:id="n2" >ዕንዳ፡ አባ፡ መጣዕ፡</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ዕንዳ፡ አባ፡ መጣዕ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿƎndā ʾAbbā Maṭāʿ</placeName>
-               <placeName xml:lang="gez" xml:id="n3" >ደብረ፡ ወርቅ፡</placeName>
+               <placeName xml:lang="gez" xml:id="n3">ደብረ፡ ወርቅ፡</placeName>
                <placeName xml:lang="gez" corresp="#n3" type="normalized">Dabra Warq</placeName>
                <region ref="LOC5665Semaza"/>
                <settlement type="town" ref="LOC3756Ham"/>

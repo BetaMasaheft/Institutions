@@ -61,7 +61,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <height>54 m</height>
                     </location>
                     <note>
-                        <date type="foundation" ></date>
+                        <date type="foundation"></date>
                         <desc type="foundation">
                         </desc>
                         
