@@ -46,10 +46,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place subtype="institution">
-               <placeName xml:id="t1"  xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-               <placeName corresp="t1" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
-               <placeName corresp="t1" type="alt">Medhane Alem</placeName>
-               <placeName corresp="t1" xml:lang="en">Saviour of the World</placeName>
+               <placeName xml:id="n1"  xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
+               <placeName corresp="#n1" type="alt">Medhane Alem</placeName>
+               <placeName corresp="#n1" xml:lang="en">Saviour of the World</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement ref="LOC4547Maqdal"/>
