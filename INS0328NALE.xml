@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="en">National Archives and Library of Ethiopia</placeName>
                     <placeName type="alt"></placeName>
-                    <country> </country>
-                    <region></region>
-                    <settlement></settlement>
+                    <country ref="LOC3010Ethiop"/>
+                    
+                    <settlement type="town" ref="LOC1216AddisA"/>
                     <location>
                         <geo>9.0180 38.7497</geo>
                         <height></height>
