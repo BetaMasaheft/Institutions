@@ -64,14 +64,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
          </listPlace>
          
-         <ab type="bibliography">
+         
             <listBibl type="catalogue">
                <bibl><ptr target="bm:Isaac1984Jerusalem"/></bibl>
                <bibl><ptr target="bm:Macomber1990Jerusalem"/></bibl>
                <bibl><ptr target="bm:Littmann1886Jerusalem"/></bibl>
                <bibl><ptr target="bm:Littmann1902Jerusalem"/></bibl>
             </listBibl>
-         </ab>
+         
       </body>
    </text>
 </TEI>
