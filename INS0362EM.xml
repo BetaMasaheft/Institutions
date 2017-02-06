@@ -50,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ማርያም፡ ምእሳሬ፡ አርኃ፡ </placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām Mǝʾǝsāre ʾArǝḫā</placeName>
                     <region ref="LOC1298Akkala"/>
-                    <settlement type="district" ref="LOC1298Akkala"/>
+                    <settlement type="town" ref="LOC6607Meesare"/>
                     <country ref="gn:338010"/>
                     
                     <note>
