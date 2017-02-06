@@ -61,10 +61,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n6" xml:lang="gez" type="normalized">Dabra Ṣǝllul</placeName>
                     
                     
-                    <region type="zone">Dǝbub</region>
+                    
                     <settlement type="province" ref="LOC5575Saraye"/>
                     <settlement type="district" ref="LOC3686Gwala"/>
-                    <settlement type="village" ref="LOC2527DaqqiB"></settlement>
+                    <settlement type="town" ref="LOC2614Debarw"></settlement>
                     <country ref="gn:338010"/>
                     
                     <note>
