@@ -40,7 +40,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change who="ES" when="2017-02-06">CREATED: place</change>
+           <change who="ES" when="2017-02-06">created</change>
         </revisionDesc>
     </teiHeader>
     <text>

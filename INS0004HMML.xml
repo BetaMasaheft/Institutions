@@ -6,7 +6,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>British Library</title>
+            <title>Hill Museum and Manuscript Library</title>
             <editor key="ES"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,10 +43,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place subtype="institution">
-               <placeName corresp="INS0004HMML" type="library">Hill Museum and Manuscript Library</placeName>
-               <placeName corresp="INS0004HMML" type="alt">HMML</placeName>
-               <placeName corresp="INS0004HMML" type="alt">Hill Monastic Manuscript Library</placeName>
+            <place type="library" subtype="institution">
+               <placeName xml:id="n1">Hill Museum and Manuscript Library</placeName>
+               <placeName corresp="#n1">HMML</placeName>
+               <placeName xml:id="n2" type="alt">Hill Monastic Manuscript Library</placeName>
                <country ref="gn:6252001"/>
                <region ref="gn:5037779"/>
                <settlement ref="gn:5021784"/>
