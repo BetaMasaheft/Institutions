@@ -47,7 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin</placeName>
+                    <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin Preussischer Kulturbesitz</placeName>
                     <placeName corresp="#n1" xml:lang="en">Berlin State Library</placeName>
                     <country ref="gn:2921044"/> 
                     <region ref="gn:6547383"></region>
