@@ -40,21 +40,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="ES" when="2017-01-31">created</change>
+         <change when="2017-02-07" who="ES">updated</change>
 
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church dabr" subtype="institution">
+            <place type="monastery gadam" subtype="institution">
                <placeName xml:id="n1" xml:lang="am">ደብረ፡ ቢዘን፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Dabra Bizan</placeName>
 
-               <country ref="LOC3010Ethiop"/>
+               <country ref="LOC2991Eritre"/>
 
-               <settlement type="town" ref="LOC2252DabraB"/>
+               <settlement type="mount" ref="LOC2252DabraB"/>
+               <settlement type="district" ref="LOC3764Hamase"></settlement>
                <location>
-
+                  <geo>15.333 39.083</geo>
                </location>
                
                
