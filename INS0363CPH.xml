@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0363CPH"
+     xml:lang="en"
+     type="ins">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Royal Library Copenhagen</title>
+            <editor key="ES"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+          multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+        
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+            This file is licensed under the Creative Commons
+            Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+        
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from original data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="ES" when="2017-02-07">created</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPlace>
+            <place type="library" subtype="institution">
+               <placeName xml:id="n1" xml:lang="en">The Royal Library</placeName>
+               <placeName corresp="#n1" xml:lang="da">Det Kongelige Bibliotek</placeName>
+               <placeName xml:id="n2" xml:lang="en">The Royal Library, the National Library of Denmark and the Copenhagen University Library</placeName>
+               <placeName corresp="#n2" xml:lang="da">Det Kongelige Bibliotek, Nationalbibliotek og Københavns Universitetsbibliotek</placeName>
+               <country ref="gn:2623032"/>
+               
+               <settlement type="city" ref="gn:2618425"/>
+               <location><geo>55.67594 12.56553</geo></location>
+               <note>
+                  <date type="foundation">1648</date>
+                  <desc type="foundation"/>
+            
+                  <ab type="history"/>
+                  <ab type="tabot"/>
+            
+                  <ab type="description"/>
+               </note>
+               <listBibl type="catalogue">
+                  <bibl/>
+               </listBibl>
+            </place>
+         </listPlace>
+      </body>
+  </text>
+</TEI>
