@@ -54,7 +54,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="gn:2623032"/>
                
                <settlement type="city" ref="gn:2618425"/>
-               <location><geo>55.67594 12.56553</geo></location>
+               <location><geo>55.673825 12.582208</geo></location>
                <note>
                   <date type="foundation">1648</date>
                   <desc type="foundation"/>
