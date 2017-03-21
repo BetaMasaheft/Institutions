@@ -58,19 +58,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                </location>
                <note>
                   <date type="foundation" when="0508"/>
-                  <desc type="foundation">
-                  </desc>
+               </note>
                   
-                  <ab type="history"></ab>
-                  <ab type="tabot"><measure/></ab>
-                  
-                  <ab type="description"></ab>                
-               <note> 
-                  <listBibl>
-                     <bibl></bibl>
-                  </listBibl>
             </place>
-            <listRelation><relation><desc></desc></relation></listRelation>
             </listPlace>
       </body>
   </text>
