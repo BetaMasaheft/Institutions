@@ -60,15 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt" corresp="#n4">Gundāgunde</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement when="2006-11-16"> 
-                  <placeName ref="LOC6520Irob" type="waradā"/>
-               </settlement>
-               <settlement when="2006-11-16"> 
-                  <placeName ref="LOC6521Ara" type="ṭabiya"/>
-               </settlement>
-               <settlement when="2006-11-16"> 
-                  <placeName ref="LOC6522Gunda" type="qušat"/>
-               </settlement>
+               <settlement when="2006-11-16"  ref="LOC6520Irob" type="waradā"/> 
+               
+               <settlement when="2006-11-16" ref="LOC6521Ara" type="ṭabiya"/> 
+               
+               <settlement when="2006-11-16" ref="LOC6522Gunda" type="qušat"/> 
+               
                <location>
                   <geo>14.3827 39.73528</geo>
                   <height unit="m">1.195</height>
