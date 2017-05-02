@@ -57,15 +57,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement when="2010-05-03"> 
-                  <placeName ref="LOC3640GuloMa" type="waradā"/>
-               </settlement>
-               <settlement when="2010-05-03"> 
-                  <placeName ref="LOC6517Kesad" type="ṭabiya"/>
-               </settlement>
-               <settlement when="2010-05-03"> 
-                  <placeName ref="LOC6518BetaP" type="qušat"/>
-               </settlement>
+               <settlement ref="LOC3640GuloMa" type="waradā" when="2010-05-03"/> 
+               
+               <settlement when="2010-05-03"  ref="LOC6517Kesad" type="ṭabiya"/> 
+                 
+               
+               <settlement when="2010-05-03" ref="LOC6518BetaP" type="qušat"/> 
+               
                <location>
                   <geo>14.308833 39.378683</geo>
                   <height unit="m">2437.0</height>

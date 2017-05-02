@@ -62,9 +62,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement> 
-                  <placeName ref="LOC1212Addigr" type="town"/>
-               </settlement>
+               <settlement ref="LOC1212Addigr" type="town"/> 
+               
                <settlement when="2010-05-19"> 
                   <placeName type="qabale">qabale 1</placeName>
                </settlement>
