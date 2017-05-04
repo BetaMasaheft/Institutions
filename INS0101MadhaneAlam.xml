@@ -45,7 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place subtype="institution">
+            <place type="library" subtype="institution">
                <placeName xml:id="n1"  xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
                <placeName corresp="#n1" type="alt">Medhane Alem</placeName>

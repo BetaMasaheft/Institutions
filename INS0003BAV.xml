@@ -43,7 +43,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place subtype="institution">
+            <place type="library" subtype="institution">
                <placeName corresp="INS0002BAV">Biblioteca Apostolica Vaticana</placeName>
                <placeName corresp="INS0002BAV" type="alt">Vatican Library</placeName>
                <country>Vatican</country>

@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="" subtype="institution">
+                <place type="academicInstitution" subtype="institution">
 <!--                    help needed in defining type-->
                     <placeName xml:id="n1" xml:lang="fr">Maison Professe des Jésuites</placeName>
                     <placeName corresp="#n1" xml:lang="en">Jesuits Professed House</placeName>
