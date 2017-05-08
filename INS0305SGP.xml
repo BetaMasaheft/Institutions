@@ -53,8 +53,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="gn:3017382"/>
                     <region ref="gn:3012874"/>
                     <settlement type="city" ref="gn:2988507"/>
+                    <location>
+                        <geo>48.853963 2.332161</geo>
+                    </location>
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
             </listPlace>
         </body>
     </text>
