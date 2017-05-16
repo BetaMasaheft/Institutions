@@ -50,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName xml:id="n1" xml:lang="gez">ተድባበ፡ ማርያም፡</placeName>
                <placeName corresp="#n1" xml:lang="en" type="normalized">Tadbāba Māryām</placeName>
                
-               <country ref=""/> Ethiopia
+               <country ref="gn:337996"/> 
                
               
                <note>
