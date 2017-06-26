@@ -42,14 +42,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-04">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change who="DR" when="2017-06-26">place type corrected and German name added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Asia-Africa-Institut</placeName>
-               <placeName type="alt">Asia-Africa-Institut</placeName>
+            <place type="academicInstitution">
+               <placeName xml:lang="de">Asien-Afrika-Institut</placeName>
+               <placeName type="alt" xml:lang="en">Asia Africa Institute</placeName>
                <country>Germany</country>
                <region/>
                <settlement from="2011-11-11" to="2011-11-11">Hamburg</settlement>
