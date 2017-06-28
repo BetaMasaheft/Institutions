@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement from="2011-11-23" to="2012-11-25" type="ṭābiya">Mazabǝr</settlement>
                <settlement from="2011-11-23" to="2012-11-25" type="qušat" ref="LOC2255DabraD"/>
                <location>
-                  <geo>14.374333 39.292167</geo>
+                  <geo>39.292167 14.374333</geo>
                   <height unit="m">2261.0</height>
                </location>
                <note>
