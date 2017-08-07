@@ -49,8 +49,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="church">
                <placeName xml:id="n1" xml:lang="gez">ተድባበ፡ ማርያም፡</placeName>
                <placeName corresp="#n1" xml:lang="en" type="normalized">Tadbāba Māryām</placeName>
-               
-               <country ref="gn:337996"/> 
+               <country ref="gn:337996"/>
+               <location><geo>11.114579 38.753164</geo></location> 
                
               
                <note>
