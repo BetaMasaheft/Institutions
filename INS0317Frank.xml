@@ -43,28 +43,24 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2016-08-26">CREATED: place</change>
+            <change who="DR" when="2017-08-18">Updates</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName>Frankfurt Stadt- und Universitätsbibliothek</placeName>
+                    <placeName>Universitätsbibliothek Johann Christian Senckenberg</placeName>
                     <placeName type="alt"
-                        ><!--any alternative name go each in one placeName--></placeName>
+                        >Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
                     <placeName type="alt"
-                        ><!--any alternative name go each in one placeName--></placeName>
+                        >Senckenbergische Bibliothek</placeName>
                     <location>
-                        <!--                  enter in geo the coordinates, latitude and longitude as in the below example, separated by a space. 
-                     This is just a representative point. Polygons and multi area geo object can also be encoded.
-                  Altitude can be stored in height
-                  -->
-                        <geo>50.120294 8.653069</geo>
+                        <country ref="Q183"/>
+                        <settlement type="city" ref="Q1794"/>
                         <height/>
                     </location>
                 </place>
-                <!--               If some relation is known, than use one relation element for each. Alter or Remove the mock example below if not needed!!-->
-                
             </listPlace>
         </body>
     </text>
