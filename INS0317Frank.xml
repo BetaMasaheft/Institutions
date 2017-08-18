@@ -56,8 +56,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         >Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
                     <placeName type="alt" xml:id="n3" xml:lang="de"
                         >Senckenbergische Bibliothek</placeName>
-                        <country sameAs="Q183"/>
-                        <settlement sameAs="Q1794"/>
+                    <country ref="gn:2921044"/>
+                    <settlement ref="gn:2925533"/>
                     <location><geo>50.120294 8.653069</geo></location>
                     <listBibl type="catalogue">
                         <bibl>
