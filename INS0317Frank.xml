@@ -56,8 +56,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName type="alt"
                         >Senckenbergische Bibliothek</placeName>
                     <location>
-                        <country ref="Q183"/>
-                        <settlement type="city" ref="Q1794"/>
+                        <country sameAs="Q183"/>
+                        <settlement sameAs="Q1794"/>
                         <geo>50.120294 8.653069</geo>
                         <height/>
                     </location>
