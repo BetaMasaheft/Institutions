@@ -57,11 +57,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <date type="foundation"/>
                   <desc type="foundation">formerly part of the British Museum
             </desc>
-            
-                  <ab type="history"/>
-                  <ab type="tabot"/>
-            
-                  <ab type="description"/>
                </note>
                <listBibl type="catalogue">
                   <bibl>
