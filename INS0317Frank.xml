@@ -58,6 +58,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <location>
                         <country ref="Q183"/>
                         <settlement type="city" ref="Q1794"/>
+                        <geo>50.120294 8.653069</geo>
                         <height/>
                     </location>
                 </place>
