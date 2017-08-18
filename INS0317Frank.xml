@@ -39,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="de">German</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -50,10 +51,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName>Universitätsbibliothek Johann Christian Senckenberg</placeName>
-                    <placeName type="alt"
+                    <placeName xml:id="n1" xml:lang="de">Universitätsbibliothek Johann Christian Senckenberg</placeName>
+                    <placeName type="alt" xml:id="n2" xml:lang="de"
                         >Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
-                    <placeName type="alt"
+                    <placeName type="alt" xml:id="n3" xml:lang="de"
                         >Senckenbergische Bibliothek</placeName>
                         <country sameAs="Q183"/>
                         <settlement sameAs="Q1794"/>
