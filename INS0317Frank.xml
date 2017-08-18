@@ -55,12 +55,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         >Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
                     <placeName type="alt"
                         >Senckenbergische Bibliothek</placeName>
-                    <location>
+           
                         <country sameAs="Q183"/>
                         <settlement sameAs="Q1794"/>
-                        <geo>50.120294 8.653069</geo>
-                        <height/>
-                    </location>
+                    <location>     <geo>50.120294 8.653069</geo></location>
                 </place>
             </listPlace>
         </body>
