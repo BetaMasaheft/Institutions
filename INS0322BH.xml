@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n2" xml:lang="en">Harley Collection</placeName>
                     <placeName xml:id="n3" xml:lang="en">Harleian Collection</placeName>
                     <country ref="gn:2635167"/>
-                    <region ref="gn:6269131" /> 
+                    <region ref="gn:6269131"/> 
                      <settlement type="city" ref="gn:2643743"/>
                     <location>
                         <geo>51.5288 -0.1267</geo>
