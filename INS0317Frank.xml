@@ -50,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="library" subtype="institution" sameAs="Q875587">
+                <place type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="de">Universitätsbibliothek Johann Christian Senckenberg</placeName>
                     <placeName type="alt" xml:id="n2" xml:lang="de"
                         >Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
