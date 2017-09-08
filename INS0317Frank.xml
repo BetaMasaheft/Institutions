@@ -6,13 +6,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0317Frank" xml:lang="en" type="ins">
-    <!--   CHANGE THE ID TO CORRESPOND TO THE FILENAME and the identifier for this Place-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><!--type here the primary name of the Person--></title>
+                <title>Stadt- und Universitätsbibliothek Frankfurt am Main</title>
                 <editor key="SG"/>
-                <!--change this value according to the abbreviations in the wiki-->
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
