@@ -44,11 +44,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place type="library" subtype="institution">
-               <placeName corresp="INS0002BAV">Biblioteca Apostolica Vaticana</placeName>
-               <placeName corresp="INS0002BAV" type="alt">Vatican Library</placeName>
-               <country>Vatican</country>
-               <region/>
-               <settlement/>
+               <placeName xml:lang="it" xml:id="n1">Biblioteca Apostolica Vaticana</placeName>
+               <placeName xml:lang="en" type="alt">Vatican Library</placeName>
+               <country ref="Q237">Vatican</country>
                <location>
                   <geo>41.90076 12.47447</geo>
                </location>
