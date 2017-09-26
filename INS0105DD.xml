@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church monastery" subtype="institution" sameAs="Q595895">
                <placeName>Dabra Dāmmo ʾAbuna ʾAragāwi</placeName>
                <placeName type="alt">Dabra Dāmmo</placeName>
                <country>Ethiopia</country>
