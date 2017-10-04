@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="ins"
@@ -27,7 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
+
             <date>2017-01-31</date>
          </publicationStmt>
          <sourceDesc>
@@ -58,8 +58,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n3" type="normalized">Dabra Warq</placeName>
                <region ref="LOC5665Semaza"/>
                <settlement type="town" ref="LOC3756Ham"/>
-               <country ref="gn:338010"/>
-               
+               <country ref="Q986"/>
+
                <location></location>
                <note>
                   <date type="foundation"/>

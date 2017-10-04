@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -18,13 +18,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
                     multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
-                
+
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                         This file is licensed under the Creative Commons
                         Attribution-ShareAlike 4.0. </licence>
                 </availability>
-                
+
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file created from original data</p>
@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName>Biblioteca dell’Accademia Nazionale dei Lincei</placeName>
                     <placeName type="alt"></placeName>
-                    <country ref="gn:3175395"/> 
-                    <region ref="gn:3174976"/>
-                    <settlement type="city" ref="gn:3169070"/>
+                    <country ref="Q38"/>
+                    <region ref="Q1282"/>
+                    <settlement type="city" ref="Q220"/>
                     <location>
                         <geo>41.8931 12.4667</geo>
                         <height></height>
@@ -59,10 +59,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <date type="foundation"></date>
                         <desc type="foundation">
                         </desc>
-                        
+
                         <ab type="history"></ab>
                         <ab type="tabot"><measure/></ab>
-                        
+
                         <ab type="description"></ab>
                     </note>
                     <listBibl>

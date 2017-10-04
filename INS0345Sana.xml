@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0345Sana"
@@ -48,25 +48,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="museum" subtype="institution">
                <placeName xml:id="n1">National Museum of Yemen, Ṣanʿāʾ</placeName>
-               
-               <country ref="gn:69543"/>
-               
-               
-               <settlement type="city" ref="LOC5531Sana"/> 
-               
+
+               <country ref="Q805"/>
+
+
+               <settlement type="city" ref="Q2471"/> 
+
                <location>
                   <geo>15.26069 44.42489</geo>
-                  
+
                </location>
-               
-               
 
 
-               
+
+
+
             </place>
 
 
-            
+
          </listPlace>
       </body>
    </text>
