@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
@@ -19,7 +19,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
           multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
-        
+
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
@@ -27,7 +27,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-        
+
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file created from original data</p>
@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPlace>
             <place type="library" subtype="institution">
                <placeName>Leiden University Library</placeName>
-               <country ref="gn:2750405"/>
-               <region ref="gn:2743698"/>
-               <settlement type="town" ref="gn:2751773"/>
+               <country ref="Q29999"/>
+               <region ref="Q694"/>
+               <settlement type="town" ref="Q43631"/>
             </place>
               </listPlace>
             <listBibl type="catalogue">

@@ -53,7 +53,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:lang="fr" type="alt"> Bibliothèque de la Société biblique de Londres</placeName>
                     <country ref="Q145"/>
                     <region ref="Q21"/>
-                    <settlement ref="LOC2104Cambri"/>
+                    <settlement ref="Q350"/>
                     <location><geo>52.205071 0.105571</geo></location>
                   </place>
 
