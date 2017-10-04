@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0004HMML" type="ins">
@@ -16,7 +16,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
           multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
-        
+
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
@@ -24,7 +24,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-        
+
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file created from original data</p>
@@ -47,16 +47,16 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName xml:id="n1">Hill Museum and Manuscript Library</placeName>
                <placeName corresp="#n1">HMML</placeName>
                <placeName xml:id="n2" type="alt">Hill Monastic Manuscript Library</placeName>
-               <country ref="gn:6252001"/>
-               <region ref="gn:5037779"/>
-               <settlement ref="gn:5021784"/>
+               <country ref="Q30"/>
+               <region ref="Q1527"/>
+               <settlement ref="Q1131352"/>
                   <note>
                   <date type="foundation">1965</date>
                   <desc type="foundation">The Benedictine monks of Saint John's Abbey founded HMML in 1965 as a response to the loss of manuscripts and books in European libraries during two World Wars.
             </desc>
-            
+
                   <ab type="history"/>
-            
+
                   <ab type="description">
                      <ptr target="http://www.hmml.org/"/>
                   </ab>
