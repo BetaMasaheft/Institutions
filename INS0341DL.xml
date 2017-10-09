@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="monastery" sameAs="Q16238130">
+            <place type="monastery" sameAs="Q2511832">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</placeName>
