@@ -8,7 +8,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Madḫane ʿĀlam</title>
+            <title>Madḫāne ʿĀlam</title>
             <editor key="ES"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,7 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPlace>
             <place type="library" subtype="institution">
                <placeName xml:id="n1"  xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Madḫane ʿĀlam </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Madḫāne ʿĀlam </placeName>
                <placeName corresp="#n1" type="alt">Medhane Alem</placeName>
                <placeName corresp="#n1" xml:lang="en">Saviour of the World</placeName>
                <country ref="LOC3010Ethiop"/>
