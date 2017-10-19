@@ -47,8 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="" type="monastery" subtype="institution">
+                <place sameAs="Q259971" type="monastery" subtype="institution">
                     <placeName>Kloster Andechs</placeName>
+                    <settlement ref="Q165958"/>
+                    
                 </place>
             </listPlace><!--from Menstrel-->
         </body>
