@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="" type="museum" subtype="institution">
+                <place sameAs="Q254156" type="museum" subtype="institution">
                     <placeName>Ägyptisches Museum</placeName>
-                    <settlement ref="Q254156">
+<settlement ref="Q64"/>
                       </place>
             </listPlace><!---->
         </body>
