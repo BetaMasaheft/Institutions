@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -18,13 +18,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
                     multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
-                
+
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                         This file is licensed under the Creative Commons
                         Attribution-ShareAlike 4.0. </licence>
                 </availability>
-                
+
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file created from original data</p>
@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Dayr al-ʾAnbā Būlā</placeName>
                     <placeName corresp="#n1" xml:lang="en">St. Paul's Monastery</placeName>
-                    <country ref="gn:357994"/> 
-                    <region ref="gn:361468"/>
-                    <settlement type="desert" ref="gn:349333"/>
+                    <country ref="Q79"/>
+                    <region ref="Q30831"/>
+                    <settlement type="desert" ref="Q208299"/>
                     <location>
                         <geo>28.846469 32.551578</geo>
                         <height>589 m</height>
@@ -59,15 +59,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <date type="foundation"></date>
                         <desc type="foundation">
                         </desc>
-                        
+
                         <ab type="history"></ab>
                         <ab type="tabot"><measure/></ab>
-                        
+
                         <ab type="description"></ab>
                     </note>
-                    
+
                 </place>
-                
+
             </listPlace>
         </body>
     </text>
