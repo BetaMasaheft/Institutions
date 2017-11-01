@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0319HZ" type="ins">
     <teiHeader>
         <fileDesc>
@@ -47,30 +45,36 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="quarter" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Ḥārat Zuwayla</placeName>
-                    <placeName type="alt"></placeName>
+                    <placeName type="alt"/>
                     <country ref="Q79"/>
                     <region ref="Q30805"/>
                     <settlement type="city" ref="Q85"/>
                     <location>
                         <geo cert="low">30.0626 31.2496</geo>
-<!--                        geo coord refer to Cairo, not specific for this monastery-->
+                  <!--                        geo coord refer to Cairo, not specific for this monastery-->
                         <height>23 m</height>
                     </location>
                     <note>
-                        <date type="foundation"></date>
+                        <date type="foundation"/>
                         <desc type="foundation">
                         </desc>
 
-                        <ab type="history"></ab>
-                        <ab type="tabot"><measure/></ab>
+                        <ab type="history"/>
+                        <ab type="tabot">
+                     <measure/>
+                  </ab>
 
-                        <ab type="description"></ab>
+                        <ab type="description"/>
                     </note>
                     <listBibl>
-                        <bibl></bibl>
+                        <bibl/>
                     </listBibl>
                 </place>
-                <listRelation><relation><desc></desc></relation></listRelation>
+                <listRelation>
+               <relation>
+                  <desc/>
+               </relation>
+            </listRelation>
             </listPlace>
         </body>
     </text>

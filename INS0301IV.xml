@@ -55,7 +55,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName type="alt">Institut Vostokovedenija</placeName>
                <country ref="Q159"/>
                <settlement ref="Q656"/>
-               <location><geo>59.944074 30.3197658</geo></location>
+               <location>
+                  <geo>59.944074 30.3197658</geo>
+               </location>
 
                <listBibl type="catalogue">
                   <bibl>

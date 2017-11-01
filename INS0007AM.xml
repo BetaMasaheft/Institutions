@@ -70,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement type="province"  ref="LOC5932Tegray"/>
+               <settlement type="province" ref="LOC5932Tegray"/>
                <settlement when="2009-11-16" ref="LOC1564ASbiW" type="waradā"/>
                  
                <settlement when="2009-11-16" ref="LOC6526Asir" type="qušat"/>

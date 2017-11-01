@@ -3,7 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="INS0312BDL"
+     xml:id="INS0312BDL"
      xml:lang="en"
      type="ins">
   <teiHeader>
@@ -51,7 +51,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="Q145"/>
                <region ref="Q21"/>
                <settlement type="town" ref="Q34217"/>
-               <location><geo>51.75411 -1.25406</geo></location>
+               <location>
+                  <geo>51.75411 -1.25406</geo>
+               </location>
 
                <listBibl type="catalogue">
                   <bibl>

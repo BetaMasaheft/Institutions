@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0369DabraSabaot" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0369DabraSabaot"
+     xml:lang="en"
+     type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -50,12 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="dabr" subtype="institution">
                    
                         <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ጸባዖት፡</placeName>
-                    <placeName  corresp="#n1" type="normalized">Dabra Ṣabāʿot</placeName>
+                    <placeName corresp="#n1" type="normalized">Dabra Ṣabāʿot</placeName>
                         <state type="existence" ref="Paks2"/>
                         
                     
                 </place>
-            </listPlace><!---->
+            </listPlace>
+         <!---->
         </body>
     </text>
 </TEI>

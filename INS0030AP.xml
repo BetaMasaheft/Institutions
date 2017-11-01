@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <settlement ref="LOC3640GuloMa" type="waradā" when="2010-05-03"/> 
                
-               <settlement when="2010-05-03"  ref="LOC6517Kesad" type="ṭabiya"/> 
+               <settlement when="2010-05-03" ref="LOC6517Kesad" type="ṭabiya"/> 
                  
                
                <settlement when="2010-05-03" ref="LOC6518BetaP" type="qušat"/> 

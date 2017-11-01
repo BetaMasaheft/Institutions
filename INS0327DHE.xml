@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0327DHE" type="ins">
     <teiHeader>
         <fileDesc>
@@ -74,13 +72,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <note>
                         <date type="foundation" cert="low" notBefore="0800" notAfter="1199">9th-12th
                             cent.</date>
-                        <desc type="foundation">According to <ref type="work"
-                                corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> there were two
-                            churches founded on the monastery's site. One was built around the <date
-                                notBefore="0900" notAfter="0999" cert="low">10th cent.</date> by <roleName
-                                type="title">ʾaṣe</roleName>
-                            <persName ref="PRS3493Delnaod">Dǝlnāʿod</persName> and <roleName
-                                type="title">ʾābuna</roleName>
+                        <desc type="foundation">According to <ref type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> there were two
+                            churches founded on the monastery's site. One was built around the <date notBefore="0900" notAfter="0999" cert="low">10th cent.</date> by <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS3493Delnaod">Dǝlnāʿod</persName> and <roleName type="title">ʾābuna</roleName>
                             <persName ref="PRS8390Salama">Salāmā</persName> and dedicated to God the
                             Father. The other one was founded in <date when="0862" cert="low">862
                                 AD</date> (or <date when="1167">1167 AD</date> according to
@@ -88,8 +82,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             consacrated by <roleName type="title">Metropolitan</roleName>
                             <persName ref="PRS2668Benyam">Bǝnyam</persName> and dedicated to
                                 <roleName type="title">Saint</roleName>
-                            <persName ref="PRS8974Stephen">Stephen</persName>. However, <ref
-                                type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> are
+                            <persName ref="PRS8974Stephen">Stephen</persName>. However, <ref type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> are
                             very incoherent and their goal seems rather to be to place the monastery's
                             foundation before the <persName ref="PRS10523Zagwe">Zāgʷe</persName>
                             dinasty.</desc>
@@ -105,11 +98,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 looted by <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm
                                     al-Ġāzī</persName> in <date when="1532">1532</date>. However the
                                 monastery continued to be an important religious centre throughout
-                                the <date notBefore="1800" notAfter="1899">19th</date> and <date
-                                    notBefore="1900" notAfter="1999">20th cent.</date> and has been
+                                the <date notBefore="1800" notAfter="1899">19th</date> and <date notBefore="1900" notAfter="1999">20th cent.</date> and has been
                                 famous for its rich library.</desc>
                         </ab>
-                        <ab type="tabot"><measure/></ab>
+                        <ab type="tabot">
+                     <measure/>
+                  </ab>
                         <ab type="description">The monastery of Dabra Ḥayq ʾƎsṭifānos is located on
                             the island of <placeName ref="LOC3832Hayq">Lake Ḥayq</placeName>.
                         </ab>

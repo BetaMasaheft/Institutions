@@ -52,7 +52,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="Q145"/>
                <region ref="Q21"/>
                <settlement type="city" ref="Q84"/>
-               <location><geo>51.52997 -0.12773</geo></location>
+               <location>
+                  <geo>51.52997 -0.12773</geo>
+               </location>
                <note>
                   <date type="foundation"/>
                   <desc type="foundation">formerly part of the British Museum

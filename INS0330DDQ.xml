@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0330DDQ" type="ins">
     <teiHeader>
         <fileDesc>
@@ -71,35 +69,27 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
                     <note>
                         <date type="foundation" from="1733" to="1746">1733-1746</date>
-                        <desc type="foundation">This church was founded by <roleName type="title"
-                                >ʾǝtege</roleName>
+                        <desc type="foundation">This church was founded by <roleName type="title">ʾǝtege</roleName>
                             <persName ref="PRS2682BerhanM">Mǝntǝwwāb</persName> over a period of
-                                <date dur="P13Y">13 years</date>: she began the process in <date
-                                when="1733">1733</date>, dedicated the tābot in <date>1740</date>,
-                            completed the building around <date when="1743" precision="low"
-                                >1743</date> and completed the church's endowment sometime <date
-                                notBefore="1746">after 1746</date>.</desc>
-                        <ab type="history">After its foundation by <roleName type="title"
-                                >ʾǝtege</roleName>
+                                <date dur="P13Y">13 years</date>: she began the process in <date when="1733">1733</date>, dedicated the tābot in <date>1740</date>,
+                            completed the building around <date when="1743" precision="low">1743</date> and completed the church's endowment sometime <date notBefore="1746">after 1746</date>.</desc>
+                        <ab type="history">After its foundation by <roleName type="title">ʾǝtege</roleName>
                             <persName ref="PRS2682BerhanM">Mǝntǝwwāb</persName>, Dabra Ḍaḥay Qʷǝsqʷām became one of the
-                            most important churches of Gondar. However, it was sacked by <roleName
-                                type="title">ʾaṣe</roleName>
-                            <persName ref="PRS9430Tewodros">Tewodros II</persName> in <date
-                                when="1866">1866</date>. He removed many of its manuscripts that
+                            most important churches of Gondar. However, it was sacked by <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS9430Tewodros">Tewodros II</persName> in <date when="1866">1866</date>. He removed many of its manuscripts that
                             ended up in the <placeName ref="INS0001BL">British Library</placeName>.
-                            The church was sacked even further by the Mahdists in the <date
-                                from="1880" to="1890">1880s</date> and seriously damaged by air
+                            The church was sacked even further by the Mahdists in the <date from="1880" to="1890">1880s</date> and seriously damaged by air
                             strikes in <date when="1941">1941</date>. Although it was recently
                             restored, it lost its past glory.</ab>
-                        <ab type="tabot"><measure></measure></ab>
-<!--                        FP: Info on tabots not available to me-->
+                        <ab type="tabot">
+                     <measure/>
+                  </ab>
+                  <!--                        FP: Info on tabots not available to me-->
                         <ab type="description">Dabra Ḍaḥay Qʷǝsqʷām is a church in the north-western part of
                                 <placeName ref="LOC3577Gondar">Gondar</placeName> and close to
                                 <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName>. It was
                             one of the most important churches of the town and richly endowed with
-                            lands in <placeName ref="LOC1712Bajana">Bāǧanā</placeName>, <placeName
-                                ref="LOC1739Balasa">Balasā</placeName> and in <placeName
-                                ref="LOC2767Ebenna">ʾƎbǝnnāt</placeName> that supported 260
+                            lands in <placeName ref="LOC1712Bajana">Bāǧanā</placeName>, <placeName ref="LOC1739Balasa">Balasā</placeName> and in <placeName ref="LOC2767Ebenna">ʾƎbǝnnāt</placeName> that supported 260
                             clergy.</ab>
                     </note>
                 </place>
@@ -107,16 +97,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:nearBy" active="INS0330DDQ" passive="LOC6540Entone">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was located near ʾAbbā ʾƎnṭonǝs.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#INS0330DDQ"
-                        passive="LOC1712Bajana">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#INS0330DDQ"
+                         passive="LOC1712Bajana">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Bāǧanā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#INS0330DDQ"
-                        passive="LOC1739Balasa">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#INS0330DDQ"
+                         passive="LOC1739Balasa">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Balasā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#INS0330DDQ"
-                        passive="LOC2767Ebenna">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#INS0330DDQ"
+                         passive="LOC2767Ebenna">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in ʾƎbǝnnāt.</desc>
                     </relation>
                 </listRelation>

@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             
        
-         <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="SG" when="2016-10-25">CREATED: institution</change>
          <change who="SG" when="2017-09-08">Complete record</change>
-         <change who="DR" when="2016-12-01">transcription corrected</change></revisionDesc>
+         <change who="DR" when="2016-12-01">transcription corrected</change>
+      </revisionDesc>
       
    </teiHeader>
    <text>
@@ -105,26 +106,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <biblScope unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</biblScope></bibl>
+                     <biblScope unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</biblScope>
+                  </bibl>
                   
                   
                   
                </listBibl>
                <note>
-                  <date type="foundation" cert="high">It was founded by <roleName type="title">ʾabuna</roleName><persName ref="PRS9162TaklaHa"/>
+                  <date type="foundation" cert="high">It was founded by <roleName type="title">ʾabuna</roleName>
+                     <persName ref="PRS9162TaklaHa"/>
                      who is credited with evangelizing the vast regions of central and southern Ethiopia, at the beginning of the 14th century.</date>
                   
                   <ab type="history">Dabra Libānos, originally known as Dabra ʿAsbo and renamed by 
-                     <roleName type="title">ʾaṣe</roleName><persName ref="PRS10626ZaraY"/>is a monastery located in 
+                     <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10626ZaraY"/>is a monastery located in 
                      <placeName ref="LOC5597Sawa"/> in the gorge near the river <placeName ref="LOC6469ZegaWa"/>. This southern location has to be emphasized: 
                      the community was established between the pagan kingdom of<placeName ref="LOC2488Damot"/>and the Muslim sultanate of 
                      <placeName ref="LOC5597Sawa"/>under the authority of<placeName ref="LOC3921Ifat"/>. According to the 
                      hagiography of<persName ref="PRS1955Anorewos"/>, one of the first disciples of 
-                     <roleName type="title">ʾabuna</roleName><persName ref="PRS9162TaklaHa"/>, the daily life was 
+                     <roleName type="title">ʾabuna</roleName>
+                     <persName ref="PRS9162TaklaHa"/>, the daily life was 
                      under the jurisdiction of<roleName type="title">maggābi</roleName>. It is known that the monastery enjoyed land donation atleast since the half of 15th century during 
-                     the reign of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10626ZaraY"/>. The monastery of Dabra Libānos 
+                     the reign of <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10626ZaraY"/>. The monastery of Dabra Libānos 
                      suffered a great destruction during the war of <persName ref="PRS1522Ahmadb"/> in <date>1532</date>. 
-                     However, it revived soon under <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"/>
+                     However, it revived soon under <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4428Galawdew"/>
                      and his successor <persName ref="PRS8550sardaDe"/> during which attempts were made to elivate  the monastery to 
                      the position of religious centre of the monarchy. But the situation deteriorated due to the massive expansion of the 
                      <persName ref="ETH1973Oromo"/>and increasing isolation of  Dabra Libānos from the rest of the Empire.
@@ -135,9 +142,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                  active="INS0341DL"
-                  passive="LOC5597Sawa"
-               />
+                         active="INS0341DL"
+                         passive="LOC5597Sawa"/>
             </listRelation>
           
          
@@ -153,22 +159,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               

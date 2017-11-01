@@ -2,7 +2,10 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0347EAY" type="ins" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0347EAY"
+     type="ins"
+     xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -53,18 +56,20 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     
                     
                     <settlement type="district" ref="LOC5271Qwahay"/>
-                    <settlement type="town" ref="LOC1166AddiKw"></settlement>
+                    <settlement type="town" ref="LOC1166AddiKw"/>
                     
                     
                     <note>
-                        <date type="foundation"></date>
+                        <date type="foundation"/>
                         <desc type="foundation">
                         </desc>
                         
-                        <ab type="history"></ab>
-                        <ab type="tabot"><measure/></ab>
+                        <ab type="history"/>
+                        <ab type="tabot">
+                     <measure/>
+                  </ab>
                         
-                        <ab type="description"></ab>
+                        <ab type="description"/>
                     </note>
                 </place>
             </listPlace>

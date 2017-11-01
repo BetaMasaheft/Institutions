@@ -3,7 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="INS0313UBT"
+     xml:id="INS0313UBT"
      xml:lang="en"
      type="ins">
   <teiHeader>

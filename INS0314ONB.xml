@@ -3,7 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="INS0314ONB"
+     xml:id="INS0314ONB"
      xml:lang="en"
      type="ins">
   <teiHeader>
@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName>Österreichische Nationalbibliothek</placeName>
                <country ref="Q40"/>
-               <region ref="Q1741"></region>
+               <region ref="Q1741"/>
                <settlement type="city" ref="Q1741"/>
 
 

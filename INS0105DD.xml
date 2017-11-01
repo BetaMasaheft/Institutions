@@ -59,15 +59,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <country>Ethiopia</country>
                <region>Tǝgray</region>
-               <settlement from="2011-11-23" to="2012-11-25" type="waradā" ref="LOC3640GuloMa"/>
+               <settlement from="2011-11-23"
+                           to="2012-11-25"
+                           type="waradā"
+                           ref="LOC3640GuloMa"/>
                <settlement from="2011-11-23" to="2012-11-25" type="ṭābiya">Mazabǝr</settlement>
-               <settlement from="2011-11-23" to="2012-11-25" type="qušat" ref="LOC2255DabraD"/>
+               <settlement from="2011-11-23"
+                           to="2012-11-25"
+                           type="qušat"
+                           ref="LOC2255DabraD"/>
                <location>
                   <geo>14.374333 39.292167</geo>
                   <height unit="m">2261.0</height>
                </location>
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                
                <listBibl type="editions">
                   <bibl>
@@ -144,7 +150,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      for it was at the forefront of the anti- Zāgʷe struggle. 
                      Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
                      where several prominent religious missionaries and monastic leaders have been trained,
-                     including <roleName type="title"> ʾabbā</roleName> <persName ref="PRS5633IyasusM"/>and <roleName type="title">ʾabuna</roleName><persName ref="PRS9162TaklaHa"/>.
+                     including <roleName type="title"> ʾabbā</roleName> 
+                     <persName ref="PRS5633IyasusM"/>and <roleName type="title">ʾabuna</roleName>
+                     <persName ref="PRS9162TaklaHa"/>.
                      So, it played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
                      Following the foundation of other monasteries like<placeName ref="INS0327DHE"/>and<placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
                      yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/>forces in <date>1557</date>.
@@ -188,9 +196,8 @@ Tabots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Māty�
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                  active="INS0105DD"
-                  passive="LOC5932Tegray"
-               />
+                         active="INS0105DD"
+                         passive="LOC5932Tegray"/>
                  </listRelation>
             
             
@@ -204,19 +211,3 @@ Tabots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Māty�
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

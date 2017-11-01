@@ -29,7 +29,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -66,10 +66,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          
             <listBibl type="catalogue">
-               <bibl><ptr target="bm:Isaac1984Jerusalem"/></bibl>
-               <bibl><ptr target="bm:Macomber1990Jerusalem"/></bibl>
-               <bibl><ptr target="bm:Littmann1886Jerusalem"/></bibl>
-               <bibl><ptr target="bm:Littmann1902Jerusalem"/></bibl>
+               <bibl>
+               <ptr target="bm:Isaac1984Jerusalem"/>
+            </bibl>
+               <bibl>
+               <ptr target="bm:Macomber1990Jerusalem"/>
+            </bibl>
+               <bibl>
+               <ptr target="bm:Littmann1886Jerusalem"/>
+            </bibl>
+               <bibl>
+               <ptr target="bm:Littmann1902Jerusalem"/>
+            </bibl>
             </listBibl>
          
       </body>
