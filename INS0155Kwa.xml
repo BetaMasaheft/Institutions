@@ -4,7 +4,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0155Kwäʿ"
+     xml:id="INS0155Kwa"
      type="ins"
      xml:lang="en">
    <teiHeader>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-26">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change who="DR" when="2017-11-02">Corrected ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,9 +68,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </list>
                   </ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>
