@@ -57,12 +57,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3640GuloMa" type="waradā" when="2010-05-03"/> 
+               <settlement ref="LOC3640GuloMa" type="warada" when="2010-05-03"/> 
                
-               <settlement when="2010-05-03" ref="LOC6517Kesad" type="ṭabiya"/> 
+               <settlement when="2010-05-03" ref="LOC6517Kesad" type="tabiya"/> 
                  
                
-               <settlement when="2010-05-03" ref="LOC6518BetaP" type="qušat"/> 
+               <settlement when="2010-05-03" ref="LOC6518BetaP" type="qushat"/> 
                
                <location>
                   <geo>14.308833 39.378683</geo>

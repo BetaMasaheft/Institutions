@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery gaṭar" subtype="institution">
+            <place type="church monastery gatar" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ቆልቋል፡ ጊዮርጊስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddi Qolqwāl Giyorgis</placeName>
                <placeName type="alt" xml:id="n2" xml:lang="gez">ቅዱስ፡ ጊዮርጊስ፡ ዓዲ፡ ቆልቋል፡</placeName>
@@ -57,9 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement when="2011-11-18" ref="LOC3640GuloMa" type="waradā"/>
-               <settlement when="2011-11-18" ref="LOC6547Haban" type="ṭabiya"/>
-               <settlement when="2011-11-18" ref="LOC6548AddiQ" type="qušat"/>
+               <settlement when="2011-11-18" ref="LOC3640GuloMa" type="warada"/>
+               <settlement when="2011-11-18" ref="LOC6547Haban" type="tabiya"/>
+               <settlement when="2011-11-18" ref="LOC6548AddiQ" type="qushat"/>
                <location>
                   <geo>14.42075 39.465111</geo>
                   <height unit="m">2328.0</height>
