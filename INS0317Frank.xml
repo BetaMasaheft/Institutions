@@ -10,7 +10,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Stadt- und Universitätsbibliothek Frankfurt am Main</title>
+                <title>Universitätsbibliothek Johann Christian Senckenberg</title>
                 <editor key="SG"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
