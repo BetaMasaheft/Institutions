@@ -53,9 +53,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n1" xml:lang="de">Universitätsbibliothek Johann Christian Senckenberg</placeName>
                     <placeName type="alt" xml:id="n2" xml:lang="de">Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
                     <placeName type="alt" xml:id="n3" xml:lang="de">Senckenbergische Bibliothek</placeName>
-                    <!--<country ref="Q183"/>
+                    <country ref="Q183"/>
                     <settlement ref="Q1794"/>
-                    --><location>
+                    <location>
                   <geo>50.120294 8.653069</geo>
                </location>
                     <listBibl type="catalogue">
