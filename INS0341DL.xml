@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery" sameAs="Q2511832">
-         <!--      <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿAsbo</placeName>
@@ -91,8 +91,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
                      <citedRange unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</citedRange>
                   </bibl>
-               </listBibl>-->
-               <note>
+               </listBibl>
+             <!--  <note>
                   <date type="foundation" cert="high">It was founded by <roleName type="title">ʾabuna</roleName>
                      <persName ref="PRS9162TaklaHa"/>
                      who is credited with evangelizing the vast regions of central and southern Ethiopia, at the beginning of the 14th century.</date>
@@ -118,7 +118,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      
                   </ab>
-               </note>
+               </note>-->
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
