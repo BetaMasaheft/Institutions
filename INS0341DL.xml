@@ -13,9 +13,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Dabra Libānos</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SG"/>
-            
-            
-       
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -57,39 +54,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery" sameAs="Q2511832">
-               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
+         <!--      <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿAsbo</placeName>
-               
-               
-               
-               
                <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
                
                <listBibl type="editions">
                   <bibl>
                      <ptr target="bm:Turaev1906ZenaDabralibanos"/>
-                     
                   </bibl>
                   
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
-                     
                   </bibl>
+                  
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
-                  
-                  
-                  
-                  
-                  
-                  
                </listBibl>
-               
-               
                
                
                <listBibl type="secondary">
@@ -99,7 +83,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Nosnitsin2010TaklaHaymanot"/>
                   </bibl>
-                  
                   <bibl>
                      <ptr target="bm:Solomon2015Geography"/>
                      <citedRange unit="page">109-118</citedRange>
@@ -108,10 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
                      <citedRange unit="page">7, 69, 76, 80, 83, 108, 116, 117, 120, 128, 152-4, 156, 224, 249</citedRange>
                   </bibl>
-                  
-                  
-                  
-               </listBibl>
+               </listBibl>-->
                <note>
                   <date type="foundation" cert="high">It was founded by <roleName type="title">ʾabuna</roleName>
                      <persName ref="PRS9162TaklaHa"/>
