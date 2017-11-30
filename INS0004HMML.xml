@@ -49,7 +49,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName xml:id="n2" type="alt">Hill Monastic Manuscript Library</placeName>
                <country ref="Q30"/>
                <region ref="Q1527"/>
-               <settlement ref="Q1131352"/>
+               <settlement>Collegeville</settlement>
+               
                   <note>
                   <date type="foundation">1965</date>
                   <desc type="foundation">The Benedictine monks of Saint John's Abbey founded HMML in 1965 as a response to the loss of manuscripts and books in European libraries during two World Wars.
