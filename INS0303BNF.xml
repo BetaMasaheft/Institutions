@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
+                <place sameAs="Q193563" type="library" subtype="institution">
                     <placeName xml:lang="fr">Bibliothèque nationale de France</placeName>
                     <placeName xml:lang="fr" type="alt"> Bibliothèque nationale</placeName>
                     <placeName type="alt">BnF</placeName>

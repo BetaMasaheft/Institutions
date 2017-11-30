@@ -44,7 +44,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
+                <place sameAs="Q856419" type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="it">Biblioteca Medicea Laurenziana</placeName>
                     <placeName corresp="#n1" xml:lang="en">Laurentian Medici Library</placeName>
                     <country ref="Q385"/>
@@ -54,27 +54,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <geo>43.7743 11.2540</geo>
                         <height>50 m</height>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
                 </place>
-                <listRelation>
-               <relation>
-                  <desc/>
-               </relation>
-            </listRelation>
             </listPlace>
         </body>
     </text>
