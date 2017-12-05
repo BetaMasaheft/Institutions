@@ -116,40 +116,40 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="#INS0329DE" passive="LOC2419Daga">
+                    <relation name="gn:locatedIn" active="INS0329DE" passive="LOC2419Daga">
                         <desc>The monastery is located on the island of Dāgā.</desc>
                     </relation>
-                    <relation name="gn:nearBy" active="#INS0329DE" passive="LOC2522Daq">
+                    <relation name="gn:nearBy" active="INS0329DE" passive="LOC2522Daq">
                         <desc>The monastery is close to the island of Da.</desc>
                     </relation>
-                    <relation name="gn:locatedIn" active="#INS0329DE" passive="LOC5888Tana">
+                    <relation name="gn:locatedIn" active="INS0329DE" passive="LOC5888Tana">
                         <desc>The monastery is located on an island in the lake Ṭānā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0329DE"
+                         active="INS0329DE"
                          passive="LOC4279Lejome">
                         <desc>The monastery was given lands in Lǝǧome in the 15th cent.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#INS0329DE">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE"> <!--passive?-->
                         <desc>The monastery was given lands in Zaǧor in the 15th cent.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0329DE"
+                         active="INS0329DE"
                          passive="LOC2522Daq">
                         <desc>The monastery was given lands on the island of Daq.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0329DE"
+                         active="INS0329DE"
                          passive="LOC6567Derdera">
                         <desc>The monastery was given lands in Dǝrdǝrā in the 17th cent.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0329DE"
+                         active="INS0329DE"
                          passive="LOC6463Zebed">
                         <desc>The monastery was given lands in Zǝbǝd in the 17th cent.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0329DE"
+                         active="INS0329DE"
                          passive="LOC4970NargaS">
                         <desc>There was a conflictual relationship between Dāgā ʾƎsṭifānos and Nārgā
                             Śǝllāse due to lands traditionally attributed to the former being

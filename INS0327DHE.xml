@@ -115,7 +115,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="#INS0327DHE" passive="LOC3832Hayq">
+                    <relation name="gn:nearBy" active="INS0327DHE" passive="LOC3832Hayq">
                         <desc>Dabra Ḥayq ʾƎsṭifānos is located on the island of Lake Ḥayq.</desc>
                     </relation>
                 </listRelation>
