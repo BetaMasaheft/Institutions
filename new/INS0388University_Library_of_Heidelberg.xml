@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                  <place sameAs="Q880794    " type="library" subtype="institution">
+                  <place sameAs="Q880794" type="library" subtype="institution">
                     <placeName>University Library of Heidelberg</placeName>
                 </place>
             </listPlace>
