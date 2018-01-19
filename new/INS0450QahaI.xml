@@ -48,7 +48,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church" subtype="institution">
-                    <placeName>Qāḥa ʾIyasus</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ቃሐ፡ ኢየሱስ፡</placeName>
+                    <placeName corresp="#n1" type="normalized" xml:lang="gez">Qāḥa ʾIyasus</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">ቀሐ፡ ኢየሱስ፡</placeName>
+                    <placeName corresp="#n2" type="normalized" xml:lang="gez">Qaḥa ʾIyasus</placeName>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="INS0450QahaI" passive="BLorient520"/>
