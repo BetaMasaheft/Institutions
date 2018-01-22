@@ -99,11 +99,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">Dabra Libānos, originally known as Dabra ʿAsbo and renamed by 
                      <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS10626ZaraY"/>is a monastery located in 
+                     <persName ref="PRS10626ZaraY"/> is a monastery located in 
                      <placeName ref="LOC5597Sawa"/> in the gorge near the river <placeName ref="LOC6469ZegaWa"/>. This southern location has to be emphasized: 
-                     the community was established between the pagan kingdom of<placeName ref="LOC2488Damot"/>and the Muslim sultanate of 
-                     <placeName ref="LOC5597Sawa"/>under the authority of<placeName ref="LOC3921Ifat"/>. According to the 
-                     hagiography of<persName ref="PRS1955Anorewos"/>, one of the first disciples of 
+                     the community was established between the pagan kingdom of <placeName ref="LOC2488Damot"/> and the Muslim sultanate of 
+                     <placeName ref="LOC5597Sawa"/> under the authority of <placeName ref="LOC3921Ifat"/>. According to the 
+                     hagiography of <persName ref="PRS1955Anorewos"/>, one of the first disciples of 
                      <roleName type="title">ʾabuna</roleName>
                      <persName ref="PRS9162TaklaHa"/>, the daily life was 
                      under the jurisdiction of<roleName type="title">maggābi</roleName>. It is known that the monastery enjoyed land donation atleast since the half of 15th century during 
@@ -114,7 +114,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS4428Galawdew"/>
                      and his successor <persName ref="PRS8550sardaDe"/> during which attempts were made to elivate  the monastery to 
                      the position of religious centre of the monarchy. But the situation deteriorated due to the massive expansion of the 
-                     <persName ref="ETH1973Oromo"/>and increasing isolation of  Dabra Libānos from the rest of the Empire.
+                     <persName ref="ETH1973Oromo"/> and increasing isolation of  Dabra Libānos from the rest of the Empire.
                      
                      
                   </ab>

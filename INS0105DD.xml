@@ -18,13 +18,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
-                                    This file is licensed under the Creative Commons
-                                    Attribution-ShareAlike 4.0. </p>
+                     This file is licensed under the Creative Commons
+                     Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
          </publicationStmt>
@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2011-01-31">created</change>
          <change who="DN" when="2014-11-16">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
-                            P5</change>
+            P5</change>
          <change who="SG" when="2017-10-02">complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -151,16 +151,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
                      where several prominent religious missionaries and monastic leaders have been trained,
                      including <roleName type="title"> ʾabbā</roleName> 
-                     <persName ref="PRS5633IyasusM"/>and <roleName type="title">ʾabuna</roleName>
+                     <persName ref="PRS5633IyasusM"/> and <roleName type="title">ʾabuna</roleName>
                      <persName ref="PRS9162TaklaHa"/>.
                      So, it played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
-                     Following the foundation of other monasteries like<placeName ref="INS0327DHE"/>and<placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
-                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/>forces in <date>1557</date>.
+                     Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
+                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/> forces in <date>1557</date>.
                      
                      Monastic community has, reportedly, up to 50 monks. 
-Below, at the foot of the mount, there is a small church at the place where ʾArägawi, reportedly "disappeared" (therefore called Mǝswarom). 
-A small nunnery is located in the village nearby.&#xD;
-Tabots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Mātyās, and many others.</ab>
+                     Below, at the foot of the mount, there is a small church at the place where ʾArägawi, reportedly "disappeared" (therefore called Mǝswarom). 
+                     A small nunnery is located in the village nearby.&#xD;
+                     Tabots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Mātyās, and many others.</ab>
                   <ab type="description">45 Mss. photographed: 
                      <ref type="mss" corresp="ESdd001">DD-001</ref> "Miracles of Mary"; 
                      <ref type="mss" corresp="ESdd002">DD-002</ref> "The Organ of Praise"; 
@@ -192,13 +192,13 @@ Tabots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Māty�
                      <ref type="mss" corresp="ESdd039">DD-039</ref> "Synoptic Lectionary for the Year", and a few others.</ab>
                   
                </note>
-              
+               
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
                          active="INS0105DD"
                          passive="LOC5932Tegray"/>
-                 </listRelation>
+            </listRelation>
             
             
             

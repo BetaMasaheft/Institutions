@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0447EMIP" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0447EMIP"
+     xml:lang="en"
+     type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -49,9 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="academicInstitution" subtype="institution">
                     <placeName>Ethiopic Manuscript Imaging Project</placeName>
-                    <settlement ref="Q6106"></settlement>
+                    <settlement ref="Q6106"/>
                 </place>
-            </listPlace><!---->
+            </listPlace>
+         <!---->
         </body>
     </text>
 </TEI>
