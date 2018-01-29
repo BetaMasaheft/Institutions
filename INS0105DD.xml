@@ -144,7 +144,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="0600" notAfter="0800">0600-0800</date>
                   <desc type="foundation"/>
-                  <ab type="history">. 
+                  <ab type="history">
                      The monastery Dabra Dāmmo  was one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau entirely surrounded by steep 
                      cliffs in the district of <placeName ref="LOC1938Bizat"/>. The monastery seems to have been favored by the Aksumites kings, but neglecetd in the Zāgʷe period, 
                      for it was at the forefront of the anti- Zāgʷe struggle. 

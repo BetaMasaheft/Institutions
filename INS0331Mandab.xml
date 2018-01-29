@@ -124,30 +124,30 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="#INS0331Mandab" passive="LOC3589Gorgor">
+                    <relation name="gn:nearBy" active="INS0331Mandab" passive="LOC3589Gorgor">
                         <desc>This monastery is close to Gorgorā.</desc>
                     </relation>
-                    <relation name="gn:nearBy" active="#INS0331Mandab" passive="LOC5888Tana">
+                    <relation name="gn:nearBy" active="INS0331Mandab" passive="LOC5888Tana">
                         <desc>This monastery is on the north shore of lake Ṭānā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0331Mandab"
+                         active="INS0331Mandab"
                          passive="INS0329DE">
                         <desc>This is the second largest monastery of the lake Ṭānā region after
                             Dāgā ʾƎsṭifānos.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0331Mandab"
+                         active="INS0331Mandab"
                          passive="LOC6565Sowit">
                         <desc>This monastery was endowed with lands in the area of Sowit.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0331Mandab"
+                         active="INS0331Mandab"
                          passive="LOC1314Alafa">
                         <desc>This monastery was endowed with lands in the area of ʾAlafā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0331Mandab"
+                         active="INS0331Mandab"
                          passive="LOC6566Takwesa">
                         <desc>This monastery was endowed with lands in the area of Takʷǝsā.</desc>
                     </relation>

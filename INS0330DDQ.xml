@@ -98,17 +98,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was located near ʾAbbā ʾƎnṭonǝs.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0330DDQ"
+                         active="INS0330DDQ"
                          passive="LOC1712Bajana">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Bāǧanā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0330DDQ"
+                         active="INS0330DDQ"
                          passive="LOC1739Balasa">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Balasā.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place"
-                         active="#INS0330DDQ"
+                         active="INS0330DDQ"
                          passive="LOC2767Ebenna">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in ʾƎbǝnnāt.</desc>
                     </relation>
