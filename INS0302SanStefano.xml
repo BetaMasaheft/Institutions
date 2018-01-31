@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="monastery Library">
+                <place type="monastery">
                     <placeName xml:lang="it" xml:id="n1">Santo Stefano de' Mori</placeName>
                     <placeName xml:lang="it" xml:id="n2" type="alt">Santo Stefano degli Abissini</placeName>
                     <country ref="Q237"/>
