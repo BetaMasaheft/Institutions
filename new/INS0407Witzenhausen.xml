@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q42282777" type="museum" subtype="institution">
                     <placeName>Museum of Ethnology Witzenhausen</placeName>
+                    <settlement ref="Q564827"/>
+                    <country ref="Q183"/>
+
                 </place>
             </listPlace>
          <!---->
