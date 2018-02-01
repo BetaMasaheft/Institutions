@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q1255096" type="library" subtype="institution">
                     <placeName>Thuringian State and University Library</placeName>
+                    <settlement ref="Q3150"/>
+                  <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

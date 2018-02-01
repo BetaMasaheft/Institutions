@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q42273723" subtype="institution">
                     <placeName>Library of Oriental Studies Leipzig</placeName>
+                    <settlement ref="Q2079"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

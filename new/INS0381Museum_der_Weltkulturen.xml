@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q1954571" type="museum" subtype="institution">
                     <placeName>Museum der Weltkulturen Frankfurt am Main</placeName>
+                    <settlement ref="Q1794"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q2324644" type="library" subtype="institution">
                     <placeName>State and University Library Hamburg Carl von Ossietzky</placeName>
+                    <settlement ref="Q1055"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

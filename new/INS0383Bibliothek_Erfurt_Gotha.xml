@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q2496246" type="library" subtype="institution">
                     <placeName>Universitaets und Forschungsbibliothek Erfurt/Gotha</placeName>
+                    <settlement ref="Q6986"/>
+                    <country ref="Q183"/>
+
                 </place>
             </listPlace>
          <!---->

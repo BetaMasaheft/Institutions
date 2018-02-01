@@ -55,6 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="Q254156" type="museum" subtype="institution">
                     <placeName>Ägyptisches Museum</placeName>
                <settlement ref="Q64"/>
+               <country ref="Q183"/>
+
+          </place>
+
+
                       </place>
             </listPlace>
          <!---->

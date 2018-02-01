@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                   <place sameAs="Q880794" type="library" subtype="institution">
                     <placeName>University Library of Heidelberg</placeName>
+                    <settlement ref="Q2966"/>
+                    <country ref="Q183"/>
+
                 </place>
             </listPlace>
          <!---->
