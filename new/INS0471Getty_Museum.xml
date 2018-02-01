@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0469Kroch_Library" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0471Getty_Museum" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carl A. Kroch Library New York</title>
+                <title>J. Paul Getty Museum</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47459839" subtype="institution">
-                    <placeName>Carl A. Kroch Library New York</placeName>
+                <place sameAs="Q731126" type="museum" subtype="institution">
+                    <placeName>J. Paul Getty Museum</placeName>
                 </place>
             </listPlace><!---->
         </body>
