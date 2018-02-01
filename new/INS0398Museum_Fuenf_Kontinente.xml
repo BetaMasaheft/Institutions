@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q454217" type="museum" subtype="institution">
                     <placeName>Museum Fuenf Kontinente München</placeName>
+                    <settlement ref="Q1726"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

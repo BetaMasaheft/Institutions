@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q334032" type="monastery" subtype="institution">
                     <placeName>Maria Laach Abbey</placeName>
+                    <settlement ref="Q644241"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->
