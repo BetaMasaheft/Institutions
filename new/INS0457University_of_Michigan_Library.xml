@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q7895764" type="library" subtype="institution">
                   <settlement ref="Q485172"/>
-                        <country ref="Q30"/>            Q485172  Q30  <placeName>University of Michigan Library</placeName>
+                        <country ref="Q30"/>
+                         <placeName>University of Michigan Library</placeName>
                 </place>
             </listPlace><!---->
         </body>
