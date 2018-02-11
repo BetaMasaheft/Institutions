@@ -29,7 +29,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </encodingDesc>
         <profileDesc>
             <creation/>
-            <abstract>u
+            <abstract>
                 <p/>
             </abstract>
             <langUsage>
