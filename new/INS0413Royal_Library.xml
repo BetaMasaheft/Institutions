@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q383931" type="library" subtype="institution">
                   <settlement ref="Q239"/>
-                  <country ref="Q38"/>
+                  <country ref="Q31"/>
 
                     <placeName>Royal Library of Belgium</placeName>
                 </place>
