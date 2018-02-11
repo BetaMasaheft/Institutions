@@ -53,7 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q43551566" type="monastery" subtype="institution">
-                    <placeName>Monastery of Dabra Gannat Kidana Mehrat</placeName>
+                  <settlement ref="Q1218"/>
+                      <country ref="Q801"/>
+                        <placeName>Monastery of Dabra Gannat Kidana Mehrat</placeName>
                 </place>
             </listPlace>
          <!---->

@@ -48,7 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q5312898" type="library" subtype="institution">
-                    <placeName>Duke University Libraries</placeName>
+                  <settlement ref="Q49229"/>
+
+                        <country ref="Q30"/>   <placeName>Duke University Libraries</placeName>
                 </place>
             </listPlace><!---->
         </body>

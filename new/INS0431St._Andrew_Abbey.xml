@@ -52,9 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
+              <settlement ref="Q220"/>
+                    <country ref="Q38"/>
+
                 <place sameAs="Q2109407" type="monastery" subtype="institution">
-                    <placeName>Sint-Andriesabdij St. Andrew Abbey</placeName>
-                    
+                  <settlement ref="Q12994"/>
+                        <country ref="Q31"/>
+ <placeName>Sint-Andriesabdij St. Andrew Abbey</placeName>
+
                 </place>
             </listPlace>
          <!---->

@@ -48,7 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q239303" type="academicInstitution" subtype="institution">
-                    <placeName>Art Institute of Chicago</placeName>
+                  <settlement ref="Q1297"/>
+                        <country ref="Q30"/>     <placeName>Art Institute of Chicago</placeName>
                 </place>
             </listPlace><!---->
         </body>

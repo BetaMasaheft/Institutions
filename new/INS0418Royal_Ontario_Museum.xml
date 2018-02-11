@@ -52,8 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q649250" type="museum" subtype="institution">
+                <place sameAs="Q649250">
+                  <settlement ref="Q172"/>
+                    <country ref="Q16"/>
+
+                  <type="museum" subtype="institution">
                     <placeName>Royal Ontario Museum</placeName>
+
+
                 </place>
             </listPlace>
          <!---->

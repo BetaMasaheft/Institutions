@@ -48,7 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q616527" type="library" subtype="institution">
-                    <placeName>Newberry Library Chicago</placeName>
+                  <settlement ref="Q1297"/>
+                        <country ref="Q30"/>     <placeName>Newberry Library Chicago</placeName>
                 </place>
             </listPlace><!---->
         </body>

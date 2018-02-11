@@ -52,7 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q167863" type="museum" subtype="institution">
+                <place sameAs="Q167863">
+                  <settlement ref="Q90"/>
+                        <country ref="Q142"/>
+                  <type="museum" subtype="institution">
                     <placeName>Musee du Quai Branly</placeName>
                 </place>
             </listPlace>

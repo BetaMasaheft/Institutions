@@ -48,7 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q2901382" type="library" subtype="institution">
-                    <placeName>Uppsala University Library</placeName>
+                  <settlement ref="Q25286"/>
+                        <country ref="Q39"/>    <placeName>Uppsala University Library</placeName>
                 </place>
             </listPlace><!---->
         </body>

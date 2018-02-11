@@ -53,7 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q378134" type="library" subtype="institution">
-                    <placeName>Institut Orientaliste de Louvain</placeName>
+                  <settlement ref="Q118958"/>
+                        <country ref="Q31"/> <placeName>Institut Orientaliste de Louvain</placeName>
                 </place>
             </listPlace>
          <!---->

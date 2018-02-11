@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0474Columbia_University_Department_of_Middle_Eastern_Studies" xml:lang="en" type="ins">
     <teiHeader>
@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title>Columbia University Department of Middle Eastern, South Asian, and African Studies</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,13 +41,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-02-01">Created entity</change>
+            <change who="SJ" when="2018-02-01">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place sameAs="" type="academicInstitution" subtype="institution">
+                <place sameAs="Q5149895" type="academicInstitution" subtype="institution">
                     <placeName>Columbia University Department of Middle Eastern, South Asian, and African Studies</placeName>
                 </place>
             </listPlace><!---->
