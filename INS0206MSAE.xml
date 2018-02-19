@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="4"/>Tabots of Trinity, Mary, Four Living Creatures, Ṣadǝqan of Baräknaha (recently introduced) (distributed between two churches).</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

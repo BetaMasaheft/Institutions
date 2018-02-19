@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="5"/>Tabots of Mary, Täklä Haymanot, Ṣadǝqan, Mädḫane ʿAläm, one unidentified marble tabot.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

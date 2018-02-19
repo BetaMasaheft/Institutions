@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47459839" subtype="institution">
+                <place sameAs="Q47459839" type="library" subtype="institution">
                     <placeName>Carl A. Kroch Library New York</placeName>
                 </place>
             </listPlace><!---->

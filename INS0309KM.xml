@@ -8,7 +8,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Kidāna Mǝḥrat</title>
-                <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -44,38 +43,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="tabot" subtype="institution">
+                <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ኪዳነ፡ ምሕረት፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Kidāna Mǝḥrat</placeName>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-               <!--                    no info on location available-->
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
+                    
                 </place>
-                <listRelation>
-               <relation>
-                  <desc/>
-               </relation>
-            </listRelation>
             </listPlace>
         </body>
     </text>

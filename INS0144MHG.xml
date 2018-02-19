@@ -73,9 +73,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="6"/>Tabots of Trinity, ʾArägawi, Mary, George, ʾAbrǝha and ʾAṣbǝḥa, Peter and Paul (some of them are said to be marble tabots).</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

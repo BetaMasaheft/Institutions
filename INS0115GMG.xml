@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="8"/>Tabots of Mary, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, George, two of Libanos (marble), Gabriel.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

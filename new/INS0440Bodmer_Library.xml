@@ -52,9 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q667858" type="Library" subtype="institution">
+                <place sameAs="Q667858" type="library" subtype="institution">
+                    <placeName>Bodmer Library</placeName>
                   <settlement ref="Q71"/>
-                        <country ref="Q39"/> <placeName>Bodmer Library/placeName>
+                        <country ref="Q39"/> 
                 </place>
             </listPlace>
          <!---->

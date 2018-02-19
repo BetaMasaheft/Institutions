@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="11"/>Tabots of 8 old, 3 recently added; some of them are Mädḫane ʿAläm, George, Täklä Haymanot, Gäbrä Mänfäs Qǝddus, Mary, Michael, Gabriel, Yonas, Trinity.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="6"/>Tabots of Mikaʾel, Trinity, Gäbrä Mänfäs Qǝddus, Täklä Haymanot, 24 Heavenly Priests, probably also Mary.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

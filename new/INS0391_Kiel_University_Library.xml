@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="it">Italian</language>
                 <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </langUsage>t
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SJ" when="2017-10-19">Created entity</change>

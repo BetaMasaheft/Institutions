@@ -52,12 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-              <settlement ref="Q220"/>
-                    <country ref="Q38"/>
-
                 <place sameAs="Q2109407" type="monastery" subtype="institution">
                   <settlement ref="Q12994"/>
-                        <country ref="Q31"/>
+                    <country ref="Q31"/><!--
+                        this where copypasted and left inside listPlace! which one is the correct set?
+                    <settlement ref="Q220"/>
+                    <country ref="Q38"/>-->
+                    
   <placeName>Sint-Andriesabdij St. Andrew Abbey</placeName>
 
                 </place>

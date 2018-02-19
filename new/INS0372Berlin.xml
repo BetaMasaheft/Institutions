@@ -58,9 +58,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="Q183"/>
 
           </place>
-
-
-                      </place>
             </listPlace>
          <!---->
         </body>
