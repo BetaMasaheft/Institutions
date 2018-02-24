@@ -71,9 +71,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="5"/>Tabots of Täklä Haymanot, Trinity, Kidanä Mǝḥrät, Four Living Creatures (marble), Twenty-Four Heavenly Priests.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q477451" type="academicInstitution" subtype="institution">
                     <placeName>Institute for New Testament Textual Research Münster</placeName>
+                    <settlement ref="Q2742"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

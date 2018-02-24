@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0440Bodmer_Library"
-     xml:lang="en"
-     type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0457University_of_Michigan_Library" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bodmer Library</title>
+                <title>University of Michigan Library</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,17 +41,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-11-24">Created entity</change>
+            <change who="SJ" when="2018-01-31">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q667858" type="Library" subtype="institution">
-                    <placeName>Bodmer Library/placeName>
+                <place sameAs="Q7895764" type="library" subtype="institution">
+                  <settlement ref="Q485172"/>
+                        <country ref="Q30"/>
+                         <placeName>University of Michigan Library</placeName>
                 </place>
-            </listPlace>
-         <!---->
+            </listPlace><!---->
         </body>
     </text>
 </TEI>

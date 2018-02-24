@@ -72,9 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="7"/>Tabots of Mary, Mädḫane ʿAläm, George, (Zä-Mikaʾel) ʾArägawi, Trinity, Kidanä Mǝḫrät, probably Täklä Haymanot.</ab>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

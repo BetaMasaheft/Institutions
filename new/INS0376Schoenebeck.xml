@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-10-19">Created entity</change>
+            <change who="SJ" when="2018-02-19">Pietro added missing change element to validate file created by Sibylla</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -54,6 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q42261420" type="museum" subtype="institution">
                     <placeName>Heimatmuseum Schloss Schönebeck</placeName>
+                    <settlement ref="Q24879"/>
+                    <country ref="Q183"/>
+
+
                 </place>
             </listPlace>
          <!---->

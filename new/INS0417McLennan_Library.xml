@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q6802196" type="library" subtype="institution">
                     <placeName>McLennan Library Building Montreal</placeName>
+                    <settlement ref="Q340"/>
+                      <country ref="Q16"/>
+
                 </place>
             </listPlace>
          <!---->

@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q315154" type="monastery" subtype="institution">
                     <placeName>Muensterschwarzach Abbey</placeName>
+                    <settlement ref="Q2742"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

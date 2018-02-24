@@ -53,7 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q43553143" type="monastery" subtype="institution">
-                    <placeName>Monastery Deir es-Sultan</placeName>
+                  <settlement ref="Q1218"/>
+                      <country ref="Q801"/>   <placeName>Monastery Deir es-Sultan</placeName>
                 </place>
             </listPlace>
          <!---->

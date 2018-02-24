@@ -56,6 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="it" xml:id="n1">Monumento Nazionale Abbazia di Casamari</placeName>
                     <settlement type="city">Veroli</settlement>
                     <location>
+<<<<<<< HEAD
+=======
+                        <geo>13.487203 41.671028</geo>
+>>>>>>> 22d7ab130f290a31032ae0b627099ee9541bab85
                         <height/>
                     </location>
                 </place>

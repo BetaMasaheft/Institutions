@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q1504057" type="library" subtype="institution">
                     <placeName>University Library Rostock</placeName>
+                    <settlement ref="Q2861"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

@@ -53,6 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q1784177" type="library" subtype="institution">
+                  <settlement ref="Q85"/>
+                    <country ref="Q79"/>
+
                     <placeName>Coptic Museum Cairo </placeName>
                 </place>
             </listPlace>

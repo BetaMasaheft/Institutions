@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0439Geneva_Ethnography_Museum"
-     xml:lang="en"
-     type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0467United_Library_Evanston" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Geneva Ethnography Museum</title>
+                <title>United Library Evanston</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,17 +41,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-11-24">Created entity</change>
+            <change who="SJ" when="2018-02-01">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1955752" type="Museum" subtype="institution">
-                    <placeName>Geneva Ethnography Museum</placeName>
+                <place sameAs="Q30289532" type="library" subtype="institution">
+                    <placeName>United Library Evanston</placeName>
                 </place>
-            </listPlace>
-         <!---->
+            </listPlace><!---->
         </body>
     </text>
 </TEI>

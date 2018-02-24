@@ -70,9 +70,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </ab>
                   <ab type="tabot"/>
                </note>
-               <listBibl type="secondary">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

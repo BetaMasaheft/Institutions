@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q2496316" type="library" subtype="institution">
                     <placeName>Kassel University Library</placeName>
+                    <settlement ref="Q2865"/>
+                    <country ref="Q183"/>
+
                 </place>
             </listPlace>
          <!---->

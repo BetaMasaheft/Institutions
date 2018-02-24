@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q1600777" type="library" subtype="institution">
                     <placeName>University and State Library of Saxony-Anhalt</placeName>
+                    <settlement ref="Q2814"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

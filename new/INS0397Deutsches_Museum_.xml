@@ -54,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q131617" type="museum" subtype="institution">
                     <placeName>Deutsches Museum München</placeName>
+                    <settlement ref="Q1726"/>
+                    <country ref="Q183"/>
                 </place>
             </listPlace>
          <!---->

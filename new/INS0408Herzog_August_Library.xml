@@ -54,6 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q663820" type="library" subtype="institution">
                     <placeName>Herzog August Library Wolfenbüttel </placeName>
+
+                    <settlement ref="Q4122"/>
+                    <country ref="Q183"/>
+                  
                 </place>
             </listPlace>
          <!---->

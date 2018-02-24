@@ -53,6 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q391976" type="library" subtype="institution">
+                  <settlement ref="Q1761"/>
+                        <country ref="Q27"/>
+                  
                     <placeName>Chester Beatty Library Dublin</placeName>
                 </place>
             </listPlace>

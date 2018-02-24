@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0375dillingen"
@@ -12,7 +12,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title> Stadt- &amp; Hochstiftmuseum Dillingen</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -55,6 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="Q2326313" type="museum" subtype="institution">
                     <placeName>Stadt- &amp; Hochstiftmuseum Dillingen</placeName>
                     <settlement ref="Q10417"/>
+                    <country ref="Q183"/>
+
                 </place>
             </listPlace>
          <!--http://www.menestrel.fr/spip.php?rubrique868&lang=fr-->

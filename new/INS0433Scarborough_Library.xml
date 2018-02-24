@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q43543428" type="library" subtype="institution">
+                <place sameAs="Q43543428" type="library" subtype="institution"> <settlement ref="Q172"/>
+                  <country ref="Q16"/>
                     <placeName>University of Toronto Scarborough Library</placeName>
                 </place>
             </listPlace>

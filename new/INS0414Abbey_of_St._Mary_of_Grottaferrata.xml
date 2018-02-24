@@ -55,6 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="Q1551179" type="monastery" subtype="institution">
                     <placeName>Exarchic Greek Abbey of St. Mary of Grottaferrata</placeName>
                     <settlement ref="Q242703"/>
+                      <country ref="Q38"/>
+
+
+
                 </place>
             </listPlace>
          <!---->
