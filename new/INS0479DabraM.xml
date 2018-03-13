@@ -48,7 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName>Dabra Māryām</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Māryām</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">እንደ፡ አቡነ፡ አብሳዲ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎnda ʾAbuna ʾAbsādi</placeName>
+                    <region ref="LOC5271Qwahay"/>
                 </place>
             </listPlace>
         </body>
