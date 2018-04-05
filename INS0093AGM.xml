@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAgamyo Qǝddus Mikaʾel</title>
+            <title>ʾAgamyo Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>ʾAgamyo Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Mikaʾel ʾAgamyo / Qǝddus Mikaʾel ʾAgamyo</placeName>
+               <placeName>ʾAgamyo Qǝddus Mikāʾel</placeName>
+               <placeName type="alt">Mikāʾel ʾAgamyo / Qǝddus Mikaʾel ʾAgamyo</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement when="2011-11-17" ref="LOC3640GuloMa" type="warada"/> 
@@ -66,8 +66,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">The tradition puts the time if the foundation into the reign of "ḥaṣay <persName ref="PRS4327GabraMa">Gabra Masqal</persName>".</desc>
-                  <ab type="history">Gäṭär.&#xD;
+                  <desc type="foundation">The tradition puts the time if the foundation into the reign of "ḥaṣāy <persName ref="PRS4327GabraMa">Gabra Masqal</persName>".</desc>
+                  <ab type="history">Gaṭar.&#xD;
 </ab>
                   <ab type="description">The library includes some 20 Mss.,10 Mss. were photographed: <ref type="mss" corresp="ESagm001">AGM-001</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESagm002">AGM-002</ref> "Psalter"; <ref type="mss" corresp="ESagm003">AGM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESagm004">AGM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESagm005">AGM-005</ref> "Vita of ʾƎsṭifanos" (dating to the time of King Yoḥannǝs IV); <ref type="mss" corresp="ESagm006">AGM-006</ref> "Collection of Magical Prayers"; <ref type="mss" corresp="ESagm007">AGM-007</ref> "Psalter"; <ref type="mss" corresp="ESagm008">AGM-008</ref> "Psalter"; <ref type="mss" corresp="ESagm009">AGM-009</ref> "Prayers"; <ref type="mss" corresp="ESagm010">AGM-010</ref> "Book of the Disciples" and other texts.</ab>
                   <ab type="appellations">
@@ -76,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </list>
                   </ab>
                   <ab type="tabot">
-                     <measure quantity="3"/>Tabots of Michael, ʾƎsṭifanos, Mary.</ab>
+                     <measure quantity="3"/>Tabots of Michael, ʾƎsṭifānos, Mary.</ab>
                </note>
             </place>
          </listPlace>
