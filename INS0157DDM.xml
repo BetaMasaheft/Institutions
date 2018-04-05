@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dändera Däbrä Mǝḥrät Mikaʾel</title>
+            <title>Danderā Dabra Mǝḥrat Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-10">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2018-04-05" who="ES">adjusted to schema</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Dändera Däbrä Mǝḥrät Mikaʾel</placeName>
-               <placeName type="alt">Dändera Däbrä Mǝḥrät Qǝddus Mikaʾel / Dändera Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-16" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Hagärä Sälam, qušät Dändera</settlement>
+               <placeName>Danderā Dabra Mǝḥrat Mikāʾel</placeName>
+               <placeName type="alt">Danderā Dabra Mǝḥrat Qǝddus Mikāʾel / Danderā Mikāʾel</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement type="warada" ref="LOC3293GantaA" from="2011-05-16" to="2011-05-18"></settlement>
+               <settlement type="tabiya" ref="LOC3740Hagara" from="2011-05-16" to="2011-05-18"></settlement>
+               <settlement type="qushat" ref="LOC6961Dandera" from="2011-05-16" to="2011-05-18"></settlement>
+               
+               
                <location>
                   <geo>14.218333 39.40105</geo>
                   <height unit="m">2905.0</height>
@@ -60,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation"/>
-                  <ab type="history">Däbr. &#xD;
+                  <ab type="history">Dabr. &#xD;
 </ab>
                   <ab type="description">23 Mss. photographed: <ref type="mss" corresp="ESddm001">DDM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESddm002">DDM-002</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESddm003">DDM-003</ref> "Synaxarion (second half of the year)"; <ref type="mss" corresp="ESddm004">DDM-004</ref> "Missal"; <ref type="mss" corresp="ESddm005">DDM-005</ref> "The Homily of St. Raphael"; <ref type="mss" corresp="ESddm006">DDM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESddm007">DDM-007</ref> "The Vita of St. Kiros"; <ref type="mss" corresp="ESddm008">DDM-008</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESddm009">DDM-009</ref> "Antiphonary"; <ref type="mss" corresp="ESddm010">DDM-010</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESddm011">DDM-011</ref> "Psalter"; <ref type="mss" corresp="ESddm012">DDM-012</ref> "Horologium"; <ref type="mss" corresp="ESddm013">DDM-013</ref> "The Five Pillars of Mystery"; <ref type="mss" corresp="ESddm014">DDM-014</ref> "The Bandlet of Righteousnes"; <ref type="mss" corresp="ESddm015">DDM-015</ref> "1) Four Gospels 2) Fragments"; <ref type="mss" corresp="ESddm016">DDM-016</ref> "Gospel of John"; <ref type="mss" corresp="ESddm017">DDM-017</ref> "The Song of the Rose"; <ref type="mss" corresp="ESddm018">DDM-018</ref> "Collection of Prayers"; <ref type="mss" corresp="ESddm019">DDM-019</ref> "Collection of Prayer, The Loosening of the Spell"; <ref type="mss" corresp="ESddm020">DDM-020</ref> "Four Gospels, Prayer of Penance, Image of Mary"; <ref type="mss" corresp="ESddm021">DDM-021</ref> "The Book of the covenant, Mystagogia"; <ref type="mss" corresp="ESddm022">DDM-022</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESddm023">DDM-023</ref> "Marian Prayers, details: assigned to Abrokos"</ab>
                   <ab type="appellations">
@@ -69,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </list>
                   </ab>
                   <ab type="tabot">
-                     <measure quantity="3"/>Tabots of Michael, Mary, George.</ab>
+                     <measure quantity="3"/>Tabots of <persName type="tabot" ref="PRS7049Michael">Michael</persName>, <persName type="tabot" ref="PRS6819Mary">Mary</persName>, <persName type="tabot" ref="PRS4585Georgeo">George</persName>.</ab>
                </note>
             </place>
          </listPlace>
