@@ -48,6 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q1885762" type="monastery" subtype="institution">
                     <placeName>Dayr as-Suryān</placeName>
+                    <country ref="Q79"/>
+                    <region ref="Q1074945"/>
                 </place>
             </listPlace>
             <listRelation>

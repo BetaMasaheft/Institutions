@@ -50,13 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="monastery gadam" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ጉንደ፡ ጉንዴ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gundā Gunde</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gunda Gunde</placeName>
                <placeName type="alt" xml:id="n2">ደብረ፡ ካስዋ፡</placeName>
                <placeName type="alt" corresp="#n2">Dabra Kāswā</placeName>
-               <placeName type="alt" xml:id="n3">ደብረ፡ ገሪያን፡</placeName>
+               <placeName type="alt" xml:id="n3">ደብረ፡ ገሪዛን፡</placeName>
                <placeName type="alt" corresp="#n3">Dabra Garizān</placeName>
                <placeName type="alt" xml:id="n4">ጉንደጉንዴ፡</placeName>
-               <placeName type="alt" corresp="#n4">Gundāgunde</placeName>
+               <placeName type="alt" corresp="#n4">Gundagunde</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement when="2006-11-16" ref="LOC6520Irob" type="warada"/> 
