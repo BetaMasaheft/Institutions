@@ -46,24 +46,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <body>
+         
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿUra Qirqos</placeName>
-               <placeName type="alt">ʿUra Qirqos - ʿUra Mäsqäl</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-04-27" to="2010-04-30">wäräda Gulo Mäkäda, ṭabiya Šäwit Lämläm, qušät ʿUra</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ዑራ፡ ቂርዎስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿUrā Qirqos</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ዑራ፡ መስቀል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʿUrā Masqal</placeName>
+
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-04-27" to="2010-04-30"/>
+               <settlement ref="LOC6962Sawit" type="tabiya" from="2010-04-27" to="2010-04-30"/>
+               <settlement from="2010-04-27" to="2010-04-30" ref="LOC6963Ura" type="qushat"/>
                <location>
                   <geo>14.4705 39.347056</geo>
                   <height unit="m">2525.0</height>
                </location>
+               
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1300">1200-1300</date>
                   <desc type="foundation"/>
-                  <ab type="history">Däbr.&#xD;
-</ab>
-                  <ab type="description">The library consists of some 55 MSS. In the past, many of them are said to have been kept at ʿUra Mäsqäl.&#xD;
-56 Mss. photographed: <ref type="mss" corresp="ESum001">UM-001</ref> "Homily of the Trinity"; <ref type="mss" corresp="ESum002">UM-002</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum003">UM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESum004">UM-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESum005">UM-005</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESum006">UM-006</ref> "Homily of St. Mary"; <ref type="mss" corresp="ESum007">UM-007</ref> "Missal"; <ref type="mss" corresp="ESum008">UM-008</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum009">UM-009</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum010">UM-010</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum011">UM-011</ref> "Homily of the Cross"; <ref type="mss" corresp="ESum012">UM-012</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum013">UM-013</ref> "Four Gospels"; <ref type="mss" corresp="ESum014">UM-014</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum015">UM-015</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESum016">UM-016</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum017">UM-017</ref> "Missal"; <ref type="mss" corresp="ESum018">UM-018</ref> "Vitae of the Martyrs"; <ref type="mss" corresp="ESum019">UM-019</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESum020">UM-020</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESum021">UM-021</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum022">UM-022</ref> "Vita of St. Micheal"; <ref type="mss" corresp="ESum023">UM-023</ref> "Missal"; <ref type="mss" corresp="ESum024">UM-024</ref> "Psalter"; <ref type="mss" corresp="ESum025">UM-025</ref> "Collection of homilies"; <ref type="mss" corresp="ESum026">UM-026</ref> "Psalter"; <ref type="mss" corresp="ESum027">UM-027</ref> "Four Gospels"; <ref type="mss" corresp="ESum028">UM-028</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum029">UM-029</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum030">UM-030</ref> "fragments of ca. 3 mss."; <ref type="mss" corresp="ESum031">UM-031</ref> "Psalter"; <ref type="mss" corresp="ESum032">UM-032</ref> "Homily of the Sabbath (by James of Sarugh)"; <ref type="mss" corresp="ESum033">UM-033</ref> "fragments of ca. 5 mss."; <ref type="mss" corresp="ESum034">UM-034</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum035">UM-035</ref> "Land charter of Tantaweddem"; <ref type="mss" corresp="ESum036">UM-036</ref> "A fragment of  Psalter and other texts"; <ref type="mss" corresp="ESum037">UM-037</ref> "Acts of the Apostles"; <ref type="mss" corresp="ESum038">UM-038</ref> "separated leaves"; <ref type="mss" corresp="ESum039">UM-039</ref> "canonical-liturgical collection"; <ref type="mss" corresp="ESum040">UM-040</ref> "Pentateuch"; <ref type="mss" corresp="ESum041">UM-041</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum042">UM-042</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum043">UM-043</ref> "Psalter"; <ref type="mss" corresp="ESum044">UM-044</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESum045">UM-045</ref> "Collection of homilies"; <ref type="mss" corresp="ESum046">UM-046</ref> "Collection of homilies"; <ref type="mss" corresp="ESum047">UM-047</ref> "Missal"; <ref type="mss" corresp="ESum048">UM-048</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESum049">UM-049</ref> "Homily of St. Rufaʾel"; <ref type="mss" corresp="ESum050">UM-050</ref> "Four Gospels; Homilies; other texts"; <ref type="mss" corresp="ESum050">UM-050</ref>a "Four Gospels"; <ref type="mss" corresp="ESum051">UM-051</ref> "separated leaves"; <ref type="mss" corresp="ESum052">UM-052</ref> "Litanies of the Morning"; <ref type="mss" corresp="ESum053">UM-053</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESum054">UM-054</ref> "The Book of the Hours"; <ref type="mss" corresp="ESum055">UM-055</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESum056">UM-056</ref> "Vita of Gäbrä Mänfäs Qǝddus"</ab>
+                  <ab type="history">Dabr.&#xD;
+                  </ab>
+                  <ab type="description">The library consists of some 55 MSS. In the past, many of them are said to have been kept at ʿUrā Masqal.&#xD;
+                     56 Mss. photographed: <ref type="mss" corresp="ESum001">UM-001</ref> "Homily of the Trinity"; <ref type="mss" corresp="ESum002">UM-002</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum003">UM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESum004">UM-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESum005">UM-005</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESum006">UM-006</ref> "Homily of St. Mary"; <ref type="mss" corresp="ESum007">UM-007</ref> "Missal"; <ref type="mss" corresp="ESum008">UM-008</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum009">UM-009</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum010">UM-010</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum011">UM-011</ref> "Homily of the Cross"; <ref type="mss" corresp="ESum012">UM-012</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum013">UM-013</ref> "Four Gospels"; <ref type="mss" corresp="ESum014">UM-014</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum015">UM-015</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESum016">UM-016</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum017">UM-017</ref> "Missal"; <ref type="mss" corresp="ESum018">UM-018</ref> "Vitae of the Martyrs"; <ref type="mss" corresp="ESum019">UM-019</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESum020">UM-020</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESum021">UM-021</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESum022">UM-022</ref> "Vita of St. Micheal"; <ref type="mss" corresp="ESum023">UM-023</ref> "Missal"; <ref type="mss" corresp="ESum024">UM-024</ref> "Psalter"; <ref type="mss" corresp="ESum025">UM-025</ref> "Collection of homilies"; <ref type="mss" corresp="ESum026">UM-026</ref> "Psalter"; <ref type="mss" corresp="ESum027">UM-027</ref> "Four Gospels"; <ref type="mss" corresp="ESum028">UM-028</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum029">UM-029</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum030">UM-030</ref> "fragments of ca. 3 mss."; <ref type="mss" corresp="ESum031">UM-031</ref> "Psalter"; <ref type="mss" corresp="ESum032">UM-032</ref> "Homily of the Sabbath (by James of Sarugh)"; <ref type="mss" corresp="ESum033">UM-033</ref> "fragments of ca. 5 mss."; <ref type="mss" corresp="ESum034">UM-034</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESum035">UM-035</ref> "Land charter of Tantaweddem"; <ref type="mss" corresp="ESum036">UM-036</ref> "A fragment of  Psalter and other texts"; <ref type="mss" corresp="ESum037">UM-037</ref> "Acts of the Apostles"; <ref type="mss" corresp="ESum038">UM-038</ref> "separated leaves"; <ref type="mss" corresp="ESum039">UM-039</ref> "canonical-liturgical collection"; <ref type="mss" corresp="ESum040">UM-040</ref> "Pentateuch"; <ref type="mss" corresp="ESum041">UM-041</ref> "Vita of Cyriacus"; <ref type="mss" corresp="ESum042">UM-042</ref> "Miracles of Mary"; <ref type="mss" corresp="ESum043">UM-043</ref> "Psalter"; <ref type="mss" corresp="ESum044">UM-044</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESum045">UM-045</ref> "Collection of homilies"; <ref type="mss" corresp="ESum046">UM-046</ref> "Collection of homilies"; <ref type="mss" corresp="ESum047">UM-047</ref> "Missal"; <ref type="mss" corresp="ESum048">UM-048</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESum049">UM-049</ref> "Homily of St. Rufaʾel"; <ref type="mss" corresp="ESum050">UM-050</ref> "Four Gospels; Homilies; other texts"; <ref type="mss" corresp="ESum050">UM-050</ref>a "Four Gospels"; <ref type="mss" corresp="ESum051">UM-051</ref> "separated leaves"; <ref type="mss" corresp="ESum052">UM-052</ref> "Litanies of the Morning"; <ref type="mss" corresp="ESum053">UM-053</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESum054">UM-054</ref> "The Book of the Hours"; <ref type="mss" corresp="ESum055">UM-055</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESum056">UM-056</ref> "Vita of Gäbrä Mänfäs Qǝddus"</ab>
                   <ab type="appellations">
                      <list>
                         <item/>
@@ -72,8 +84,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of Mary, Gabriel, George, Qirqos, Cross (the main one).</ab>
                </note>
+               <listBibl type="secondary">
+                  
+                  <bibl>
+                     <ptr target="bm:Nosnitsin2013Churches"/>
+                  </bibl>
+               </listBibl>
             </place>
          </listPlace>
+         
+         
+         
       </body>
    </text>
 </TEI>
