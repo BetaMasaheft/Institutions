@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">The church was re-established by dağğazmač Subagadis (early 19th cent.), but it was founded probably in a somewhat earlier time.</desc>
                   <ab type="history">Gäṭär.&#xD;
 </ab>
                   <ab type="description">10 Mss., 4 items photographed: <ref type="mss" corresp="ESqgm001">QGM-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESqgm002">QGM-002</ref> “Four Gospels”; <ref type="mss" corresp="ESqgm003">QGM-003</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESqgm004">QGM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESqgm005">QGM-005</ref> “Vita of St. George”;  <ref type="mss" corresp="ESqgm006">QGM-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqgm007">QGM-007</ref> “Missal”; <ref type="mss" corresp="ESqgm008">QGM-008</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqgm009">QGM-009</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESqgm010">QGM-010</ref> “Synaxarion (March-September)”.</ab>

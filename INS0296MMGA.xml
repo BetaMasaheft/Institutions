@@ -59,7 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1953" notAfter="1953">1953-1953</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">The present church, now in the town of May Gaba, was established by fitawrari Yǝlma in the time of Emperor Ḫaylä Śǝllase, in 1953. May Gaba itself was fouded around 1971.&#13;
+                     But the tabot of St. Michael was brought from the church of Bet Mulu, the "castle" of the 18th cent. governor ʾAyanäzgi (its remains standing on the hill, not far from May Gaba).</desc>
                   <ab type="history">Gädam, but there are no monks. The church is said to be supervised by the monks from Waldǝbba (Betä Minas)  &#xD;
 Only one tabot: St. Michael.</ab>
                   <ab type="description">At least 14 Mss. Many books originate from the former church at Bet Mulu.</ab>

@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Founded by däğğazmač Kasa ʾArʾaya, a son of ʾArʾaya Śǝllase Dǝmṣu (d. 1889).</desc>
                   <ab type="history">Gäṭär. Located very close to Ṣaḥǝlo Marya (SDMM).&#xD;
 </ab>
                   <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>

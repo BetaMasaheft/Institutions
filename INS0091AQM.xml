@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">The date provided by the local tradition is 1295 year of mercy.</desc>
+                  <desc type="foundation">The date provided by the local tradition is 1295 year of mercy. Accodring to local tradition, the
+                     founder was ʾabunä Mamas (from the time of King ʿAmdä Ṣǝyon I, r.
+                     1314-44).</desc>
                   <ab type="history">Gätär. According to the Vita of saint Bä-ṣälotä Mikaʾel of Däbrä Gol (ʾAmhara), he was exiled to Gulo Mäkäda and died at Gwǝdgwǝde, which seems to have been a name of the area around ʾAgärhǝse. Local tradition remembers him and confirms that his burial place is in the vicinity. &#xD;
 </ab>
                   <ab type="description">25 Mss.; 10 Mss. photographed: <ref type="mss" corresp="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm003">AQM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm008">AQM-008</ref> "Missal"; <ref type="mss" corresp="ESaqm009">AQM-009</ref> "Missal"; <ref type="mss" corresp="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"</ab>

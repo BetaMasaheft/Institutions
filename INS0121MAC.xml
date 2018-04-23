@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Local tradition claims foundation by ʾAksumite king Säʿaldoba.</desc>
                   <ab type="history">Gäṭär. In 2010-11 the church was in the process of reconstruction; a small temporary building was used to house the tabot; a new building in front of it was under construction.&#xD;
 </ab>
                   <ab type="description">7 Mss. photographed, objects: <ref type="mss" corresp="ESmac001">MAC-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmac002">MAC-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmac003">MAC-003</ref> "Four Gospels"; <ref type="mss" corresp="ESmac004">MAC-004</ref> "Missal"; <ref type="mss" corresp="ESmac005">MAC-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmac006">MAC-006</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmac007">MAC-007</ref> "The Book of the Funeral Rite"</ab>

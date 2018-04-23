@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Local tradition tells that the church was built in the Aksumite time, under King ʿAlameda, but re-established by Gäbrä Mäsqäl.</desc>
                   <ab type="history">Däbr. An intact old structure (possibly the old church) stands in the compound, in front of the recent church. &#xD;
 Aksumite pillars are used in the recent church building. &#xD;
 Some old wooden parts are preserved in the treasury.&#xD;

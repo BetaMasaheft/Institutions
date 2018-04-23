@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Local tradition claims that the church was founded by (Aksumite) Kings ʾAbrǝha and ʾAṣbǝḥa.</desc>
                   <ab type="history">Däbr.&#xD;
 </ab>
                   <ab type="description">Ca. 20 books, mostly recent.</ab>

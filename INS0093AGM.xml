@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">The tradition puts the time if the foundation into the reign of "ḥaṣāy <persName ref="PRS4327GabraMa">Gabra Masqal</persName>".</desc>
+                  <desc type="foundation">The tradition puts the time if the foundation into the reign of "ḥaṣāy <persName ref="PRS4327GabraMa">Gabra Masqal</persName>". The church is said to have been founded by the local community.</desc>
                   <ab type="history">Gaṭar.&#xD;
 </ab>
                   <ab type="description">The library includes some 20 Mss.,10 Mss. were photographed: <ref type="mss" corresp="ESagm001">AGM-001</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESagm002">AGM-002</ref> "Psalter"; <ref type="mss" corresp="ESagm003">AGM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESagm004">AGM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESagm005">AGM-005</ref> "Vita of ʾƎsṭifanos" (dating to the time of King Yoḥannǝs IV); <ref type="mss" corresp="ESagm006">AGM-006</ref> "Collection of Magical Prayers"; <ref type="mss" corresp="ESagm007">AGM-007</ref> "Psalter"; <ref type="mss" corresp="ESagm008">AGM-008</ref> "Psalter"; <ref type="mss" corresp="ESagm009">AGM-009</ref> "Prayers"; <ref type="mss" corresp="ESagm010">AGM-010</ref> "Book of the Disciples" and other texts.</ab>

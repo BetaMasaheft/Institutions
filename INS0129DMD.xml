@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Local tradition claims the foundation in the time of the Aksumite king Sälʿadoba.</desc>
                   <ab type="history">Däbr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#xD;
 </ab>
                   <ab type="description">13 Mss., items recorded: <ref type="mss" corresp="ESdmd001">DMD-001</ref> "Vita of Täklä Haymanot, Vita of Ewostatewos"; <ref type="mss" corresp="ESdmd002">DMD-002</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdmd003">DMD-003</ref> "Four Gospels"; <ref type="mss" corresp="ESdmd004">DMD-004</ref> "Story of St. Mary"; <ref type="mss" corresp="ESdmd005">DMD-005</ref> "Missal"; <ref type="mss" corresp="ESdmd006">DMD-006</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESdmd007">DMD-007</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESdmd008">DMD-008</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESdmd009">DMD-009</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESdmd010">DMD-010</ref> "Miracles of John"; <ref type="mss" corresp="ESdmd011">DMD-011</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdmd012">DMD-012</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESdmd013">DMD-013</ref> "Vita of Kiros"</ab>

@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">Local tradition claims the foundation in the time of King Säyfä ʾArʿad (r. 1344-71).</desc>
                   <ab type="history">Däbr.&#xD;
 </ab>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESams001">AMS-001</ref> “The Four Gospels”; <ref type="mss" corresp="ESams002">AMS-002</ref> “Synaxarium (the first half of the year)”; <ref type="mss" corresp="ESams003">AMS-003</ref> “Miracles of Maryam”; <ref type="mss" corresp="ESams004">AMS-004</ref> “The Book of the Espistle; Miracles of Jesus; Missal”; <ref type="mss" corresp="ESams005">AMS-005</ref> “Psalter”; <ref type="mss" corresp="ESams006">AMS-006</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESams007">AMS-007</ref> “Missal”; <ref type="mss" corresp="ESams008">AMS-008</ref> “Missal”; <ref type="mss" corresp="ESams009">AMS-009</ref> “Psalter”; <ref type="mss" corresp="ESams010">AMS-010</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESams011">AMS-011</ref> “The Book of  ʾAsläti”; <ref type="mss" corresp="ESams012">AMS-012</ref> “Miracles of Maryam”; <ref type="mss" corresp="ESams013">AMS-013</ref> “Prayer of Incense; The Book of Baptism”; <ref type="mss" corresp="ESams014">AMS-014</ref> “Pauline Epistles”.</ab>

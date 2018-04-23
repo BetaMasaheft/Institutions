@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation"/>
+                  <desc type="foundation">According to local tradition, the church was founded by ras Mikaʾel Sǝḥul (ca. 1691-1777).</desc>
                   <ab type="history">Däbr. The old round church is intact, stands behind the new church. &#xD;
 Tabos (4): Michael, Mary, Libanos, one unidentified marble tābot in disuse.</ab>
                   <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
