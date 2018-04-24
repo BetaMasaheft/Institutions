@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="gez">ዓደቃሐርሲ፡ ጰራቅሊጦስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddaqāḥarsi Ṗarāqliṭos</placeName>
                <placeName type="alt" xml:id="n2">ዓደቃሐርሲ፡ መካነ፡ ህይወት፡ ጰራቅሊጦስ፡</placeName>
-               <placeName type="alt" corresp="#n2">ʿAddaqāḥarsi Makāna Hǝywat Ṗarāqliṭos</placeName>
+               <placeName type="normalized" corresp="#n2">ʿAddaqāḥarsi Makāna Hǝywat Ṗarāqliṭos</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
@@ -70,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Existed aready in the pre-Christian time as the religious site of South Arabian migrants; the church was founded in a later period.</desc>
-                  <ab type="history">Däbr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop 
+                  <ab type="history">Dabr. A new large church is under construction outside of the compound of the old church, both standing on the rock outcrop 
                      (below is the river of <placeName type="river" ref="LOC6519Wafadabbo">Wafadabbo</placeName>).
                      </ab>
                   <ab type="tabot">
