@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿĀddi Qolqwāl Giyorgis</title>
+            <title>ʿĀddi Qolqʷāl Giyorgis</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change who="DR" when="2018-05-01">Added labiovelar to name transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,9 +50,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ቆልቋል፡ ጊዮርጊስ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddi Qolqwāl Giyorgis</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddi Qolqʷāl Giyorgis</placeName>
                <placeName type="alt" xml:id="n2" xml:lang="gez">ቅዱስ፡ ጊዮርጊስ፡ ዓዲ፡ ቆልቋል፡</placeName>
-               <placeName type="normalized" corresp="#n2" xml:lang="gez">Qǝddus Giyorgis ʿĀddi Qolqwāl</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Qǝddus Giyorgis ʿĀddi Qolqʷāl</placeName>
                
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
