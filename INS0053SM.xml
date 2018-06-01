@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church monastery dabr" subtype="institution">
                
                
-              <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡ መነበይቲ፡</placeName>
+              <placeName xml:id="n1" xml:lang="gez">ሰበያ፡ ማርያም፡ </placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Sabayā Māryām</placeName>
-               <placeName type="alt" xml:lang="gez" xml:id="n2">መነበይቲ፡ ጽዮን፡ ማርያም፡</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ደብረ፡ ገነት፡ ቅድስት፡ ማርያም፡ ሰበያ፡</placeName>
                <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Gannat Qǝddǝst Māryām Sabayā</placeName>
 
                
