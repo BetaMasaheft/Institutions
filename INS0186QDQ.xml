@@ -64,11 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. The old church stands outside the sity; the recent church associated with Qändaʿro Qirqos has been built close to the city.  &#xD;
 </ab>
                   <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESqdq001">QDQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESqdq002">QDQ-002</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESqdq003">QDQ-003</ref> “The Book of the Epistle; Miracles of Mary; Miracles of Libanos”; <ref type="mss" corresp="ESqdq004">QDQ-004</ref> “Synaxarion (September - August)”; <ref type="mss" corresp="ESqdq005">QDQ-005</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqdq006">QDQ-006</ref> “Vita of Cyriacus”; <ref type="mss" corresp="ESqdq007">QDQ-007</ref> “Miracles of Jesus; Vita of St. George”; <ref type="mss" corresp="ESqdq008">QDQ-008</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESqdq009">QDQ-009</ref> “Missal”; <ref type="mss" corresp="ESqdq010">QDQ-010</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESqdq011">QDQ-011</ref> “Vita of Abunä Arägawi”; <ref type="mss" corresp="ESqdq012">QDQ-012</ref> “Missal”; <ref type="mss" corresp="ESqdq013">QDQ-013</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESqdq014">QDQ-014</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESqdq015">QDQ-015</ref> “Missal”.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+     
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of Qirqos, George, Krǝstos Sämra, Maryam (the latter one or two tabots are probably in the recently built church).</ab>
                </note>

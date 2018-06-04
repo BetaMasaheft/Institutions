@@ -48,7 +48,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="en">Récollets Convent</placeName>
                     <location>
                         <geo>48.8754 2.3602</geo>
-                        <height/>
                     </location>
                 </place>
             </listPlace>

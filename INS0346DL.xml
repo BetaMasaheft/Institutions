@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement type="town" ref="LOC3756Ham"/>
                <country ref="Q986"/>
 
-               <location/>
+               
                <note>
                   <ab type="tabot">
                       <persName ref="PRS6298Libanos" type="tabot"/>

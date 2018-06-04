@@ -48,7 +48,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName/>
                <placeName type="alt">Gäbrä Mänfäs Qǝddus Bet Mäḵaʿ / Gäbrä Mänfäs Qǝddus Däbrä Sahǝl</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
@@ -59,15 +58,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Gäṭär. A small church associated with the church of Bet Mäkaʿ Däbrä Sahǝl Qǝddus Mikaʾel (DSM).&#xD;
 </ab>
                   <ab type="description">5 Mss. photographed: <ref type="mss" corresp="ESgmbm001">GMBM-001</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESgmbm002">GMBM-002</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESgmbm003">GMBM-003</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESgmbm004">GMBM-004</ref> "Collection of Marian Prayers"; <ref type="mss" corresp="ESgmbm005">GMBM-005</ref> "The Book of the Baptismal Rite"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+                
                   <ab type="tabot">
                      <measure quantity="1"/>Tābot of Gäbrä Mänfäs Qǝddus.</ab>
                </note>

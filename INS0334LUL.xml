@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <settlement ref="Q2167"/>
                     <location>
                         <geo>55.7089 13.1972</geo>
-                        <height/>
+                        
                     </location>
                 </place>
             </listPlace>

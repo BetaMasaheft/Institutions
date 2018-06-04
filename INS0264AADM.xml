@@ -63,11 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. &#xD;
 </ab>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESaadm001">AADM-001</ref> “Prayer of the Incense”; <ref type="mss" corresp="ESaadm002">AADM-002</ref> “Dǝggwa”; <ref type="mss" corresp="ESaadm003">AADM-003</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm004">AADM-004</ref> “Horologium”; <ref type="mss" corresp="ESaadm005">AADM-005</ref> “Book of  ʾAsläti; Excerpts from Missal ”; <ref type="mss" corresp="ESaadm006">AADM-006</ref> “Missal”; <ref type="mss" corresp="ESaadm007">AADM-007</ref> “Homiliary for the feasts of St. Michael; Miracles of St, Michael”; <ref type="mss" corresp="ESaadm008">AADM-008</ref> “Book of the Baptismal Ritual”; <ref type="mss" corresp="ESaadm009">AADM-009</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESaadm010">AADM-010</ref> “Missal”; <ref type="mss" corresp="ESaadm011">AADM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm012">AADM-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESaadm013">AADM-013</ref> “Book of Gǝṣṣawe”; <ref type="mss" corresp="ESaadm014">AADM-014</ref> “Missal”.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+         
                   <ab type="tabot">
                      <measure quantity="1"/>Tābots of Mary.</ab>
                </note>

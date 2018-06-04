@@ -55,19 +55,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement from="2010-04-27" to="2010-04-30">wäräda Gulo Makäda, ṭabiya Šäwit Lämläm, qušät ʿUra</settlement>
                <location>
                   <geo>14.481856 39.334575</geo>
-                  <height unit="m"/>
+                  
                </location>
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1300">1200-1300</date>
                   <desc type="foundation">Pre-15th cent. period (?)</desc>
                   <ab type="history">Deserted and inaccessible church, associated with ʿUra Qirqos.</ab>
                   <ab type="description">All the books and paraphernalia were transferred to the church of ʿUra Qirqos.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+    
                </note>
             </place>
          </listPlace>

@@ -63,11 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gäṭär. Located very close to Ṣaḥǝlo Marya (SDMM).&#xD;
 </ab>
                   <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+           
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of Mädḥane ʿAläm, Mary.</ab>
                </note>

@@ -49,7 +49,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="en">Jesuits Professed House</placeName>
                     <location>
                         <geo>48.8541 2.3610</geo>
-                        <height/>
                     </location>
                 </place>
             </listPlace>

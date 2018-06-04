@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo cert="medium">12.6000 37.4666</geo>
-                        <height/>
+                        
                         <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                     </location>
                     <listBibl type="secondary">
@@ -80,10 +80,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             The church was sacked even further by the Mahdists in the <date from="1880" to="1890">1880s</date> and seriously damaged by air
                             strikes in <date when="1941">1941</date>. Although it was recently
                             restored, it lost its past glory.</ab>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                  <!--                        FP: Info on tabots not available to me-->
                         <ab type="description">Dabra Ḍaḥay Qʷǝsqʷām is a church in the north-western part of
                                 <placeName ref="LOC3577Gondar">Gondar</placeName> and close to
                                 <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName>. It was

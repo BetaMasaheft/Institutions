@@ -114,8 +114,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      and his successor <persName ref="PRS8550sardaDe"/> during which attempts were made to elivate  the monastery to 
                      the position of religious centre of the monarchy. But the situation deteriorated due to the massive expansion of the 
                      <persName ref="ETH1973Oromo"/> and increasing isolation of  Dabra Libānos from the rest of the Empire.
-                     
-                     
                   </ab>
                </note>
             </place>
@@ -124,16 +122,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="INS0341DL"
                          passive="LOC5597Sawa"/>
             </listRelation>
-          
-         
-            
-            
-            
-            
-            
-            
-            
-            
          </listPlace>
       </body>
    </text>

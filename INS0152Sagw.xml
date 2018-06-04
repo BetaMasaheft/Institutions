@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName/>
+               
                <placeName type="alt">Šägwala Maryam</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
@@ -60,13 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="description">Composed of some 20 Mss. (of them ca. 7 older books, the Four Gospels book from the time of King Bäkaffa, r. 1721-30).</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+   
                </note>
             </place>
          </listPlace>

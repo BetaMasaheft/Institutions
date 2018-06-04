@@ -79,11 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Dabr.&#xD;
 </ab>
                   <ab type="description">11 Mss. photographed: <ref type="mss" corresp="ESmsm001">MSM-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmsm002">MSM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmsm003">MSM-003</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESmsm004">MSM-004</ref> "The Book of the Funeral Rite"; MSM 005 "Synaxarion (March)"; <ref type="mss" corresp="ESmsm006">MSM-006</ref> "Four Gospels"; <ref type="mss" corresp="ESmsm007">MSM-007</ref> "Homily of the Saviour of the World "; <ref type="mss" corresp="ESmsm008">MSM-008</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESmsm009">MSM-009</ref> "Missal"; <ref type="mss" corresp="ESmsm010">MSM-010</ref> "Missal"; <ref type="mss" corresp="ESmsm011">MSM-011</ref> "Miracles of Mary"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+            
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName> and <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymānot</persName> (in a small additional church).</ab>
                </note>

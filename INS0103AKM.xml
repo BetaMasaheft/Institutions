@@ -67,17 +67,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Dabr. &#xD;
                      The old rock-hewn church dedicated to <persName ref="PRS6298Libanos" type="tabot" xml:id="AKML">Maṭṭāʿ/Libānos</persName>, below, located in a hardly accessible place and is now deserted. 
                      The church of <persName ref="PRS10776Kidan" type="tabot" xml:id="AKMK">Kidāna Mǝḥrat</persName> was built in 1930s, specifically in more accessible place near the road.  &#xD;
 </ab>
                   <ab type="description">28 Mss. photographed: <ref type="mss" corresp="ESakm001">AKM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESakm001">AKM-001</ref>m magic scroll; <ref type="mss" corresp="ESakm002">AKM-002</ref> "Missal; two fragments"; <ref type="mss" corresp="ESakm002">AKM-002</ref>m magic scroll; <ref type="mss" corresp="ESakm003">AKM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESakm003">AKM-003</ref>m magic scroll; <ref type="mss" corresp="ESakm004">AKM-004</ref> "Vita of Libanos"; <ref type="mss" corresp="ESakm004">AKM-004</ref>m magic scroll; <ref type="mss" corresp="ESakm005">AKM-005</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESakm006">AKM-006</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESakm007">AKM-007</ref> "Book of Qedǝr"; <ref type="mss" corresp="ESakm008">AKM-008</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESakm009">AKM-009</ref> "Missal"; <ref type="mss" corresp="ESakm010">AKM-010</ref> "Story of St. Mary; Homily of St. Uraʾel"; <ref type="mss" corresp="ESakm011">AKM-011</ref> "Book of  ʾAsläṭi"; <ref type="mss" corresp="ESakm012">AKM-012</ref> "The Covenant of Grace"; <ref type="mss" corresp="ESakm013">AKM-013</ref> "Prayer of Mary"; <ref type="mss" corresp="ESakm014">AKM-014</ref> "Collection of Prayers; two fragments"; <ref type="mss" corresp="ESakm015">AKM-015</ref> "Miracles of Mary"; <ref type="mss" corresp="ESakm015">AKM-015</ref>a "Psalter"; <ref type="mss" corresp="ESakm016">AKM-016</ref> "Miracles of Mary"; <ref type="mss" corresp="ESakm017">AKM-017</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESakm018">AKM-018</ref> "Book of the Diciples"; <ref type="mss" corresp="ESakm019">AKM-019</ref> "The Anaphora of Mary"; <ref type="mss" corresp="ESakm020">AKM-020</ref> "The Anaphora of Mary"; <ref type="mss" corresp="ESakm021">AKM-021</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref type="mss" corresp="ESakm022">AKM-022</ref> "collection of protective texts"; <ref type="mss" corresp="ESakm023">AKM-023</ref> "Missal".</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+        
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6298Libanos" type="tabot">Libānos</persName>, <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>.</ab>
                </note>

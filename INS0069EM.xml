@@ -63,11 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. Another church, dedicated to St. Mary, is located in the vicinity.&#xD;
 </ab>
                   <ab type="description">1 Mss. photographed; the church possesses some 25 recent Mss.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+            
                   <ab type="tabot">
                      <measure quantity="1"/>Tābots of Gäbrä Mänfäs Qǝddus.</ab>
                </note>

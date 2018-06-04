@@ -60,15 +60,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Däbr.&#xD;
 </ab>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmm002">QMM-002</ref> "Missal"; <ref type="mss" corresp="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref type="mss" corresp="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref type="mss" corresp="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref type="mss" corresp="ESqmm006">QMM-006</ref> "Psalter"; <ref type="mss" corresp="ESqmm007">QMM-007</ref> "Missal"; <ref type="mss" corresp="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref type="mss" corresp="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref type="mss" corresp="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref type="mss" corresp="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+        
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of Michael, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, Mary.</ab>
                </note>

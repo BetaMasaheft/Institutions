@@ -59,16 +59,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                </location>
                <note>
                   <date type="foundation">1648</date>
-                  <desc type="foundation"/>
-            
-                  <ab type="history"/>
-                  <ab type="tabot"/>
-            
-                  <ab type="description"/>
                </note>
-               <listBibl type="catalogue">
-                  <bibl/>
-               </listBibl>
             </place>
          </listPlace>
       </body>

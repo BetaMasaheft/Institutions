@@ -62,11 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Possibly the foundation of an of earlier period, since there are Aksumite remains at the site (pillars standing in the sanctuary of the church).</desc>
                   <ab type="history">Däbr.&#xD;
 </ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+           
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of Trinity, Apostles (Ḥawaryat, possible of Peter and Paul).</ab>
                </note>
