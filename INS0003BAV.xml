@@ -49,15 +49,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <location>
                   <geo>41.90076 12.47447</geo>
                </location>
-               <note>
-                  <date type="foundation"/>
-                  <desc type="foundation"> 
-            </desc>
-            
-                  <ab type="history"/>
-            
-                  <ab type="description"/>
-               </note>
                <listBibl type="catalogue">
                   <bibl>
                      <ptr target="bm:GrebTiss1935Codices"/>

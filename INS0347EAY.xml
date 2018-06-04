@@ -47,29 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ አባ፡ ዮናስ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā ʾAbbā Yonās</placeName>
-                    
-
-                    
                     <country ref="LOC2991Eritre"/> 
-                    
-                    
-                    
                     <settlement type="district" ref="LOC5271Qwahay"/>
                     <settlement type="town" ref="LOC1166AddiKw"/>
-                    
-                    
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

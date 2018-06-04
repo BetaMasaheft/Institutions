@@ -55,8 +55,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <desc type="foundation">The Benedictine monks of Saint John's Abbey founded HMML in 1965 as a response to the loss of manuscripts and books in European libraries during two World Wars.
             </desc>
 
-                  <ab type="history"/>
-
                   <ab type="description">
                      <ptr target="http://www.hmml.org/"/>
                   </ab>

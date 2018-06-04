@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ አባ፡ ቡሩክ፡ </placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā ʾAbba Buruk</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā ʾAbbā Buruk</placeName>
                     
                     <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ኮል፡ </placeName>
                     <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Kol</placeName>
@@ -61,17 +61,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="Q986"/>
                     
                     <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
                         <ab type="tabot">
-                     <measure/>
                      <persName type="tabot" ref="PRS2955BurukAm"/>
                   </ab>
-                        
-                        <ab type="description"/>
                     </note>
                 </place>
             </listPlace>

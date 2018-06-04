@@ -49,20 +49,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:lang="it" xml:id="n1">Santo Stefano de' Mori</placeName>
                     <placeName xml:lang="it" xml:id="n2" type="alt">Santo Stefano degli Abissini</placeName>
                     <country ref="Q237"/>
-                    <region/>
-                    <settlement/>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
                     <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:GrebTiss1935Codices"/>

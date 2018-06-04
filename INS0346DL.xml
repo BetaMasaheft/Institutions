@@ -61,10 +61,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <location/>
                <note>
-                  <date type="foundation"/>
-                  <desc type="foundation"/>
-                  <ab type="history">
-                  </ab>
                   <ab type="tabot">
                       <persName ref="PRS6298Libanos" type="tabot"/>
                   </ab>

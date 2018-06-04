@@ -44,27 +44,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin Preussischer Kulturbesitz</placeName>
+                    <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin Preußischer Kulturbesitz</placeName>
                     <placeName corresp="#n1" xml:lang="en">Berlin State Library</placeName>
                     <country ref="Q183"/>
                     <region ref="Q64"/>
                     <settlement type="city" ref="Q64"/>
                     <location>
                         <geo>52.5068 13.3696</geo>
-                        <height/>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

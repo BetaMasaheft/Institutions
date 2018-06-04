@@ -51,21 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="Q986"/>
                     <location>
                         <geo cert="medium">14.700872 39.4260263</geo>
-                        
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                     <persName type="tabot" ref="PRS6819Mary"/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

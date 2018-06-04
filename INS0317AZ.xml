@@ -52,18 +52,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <geo>30.0459 31.2627</geo>
                         <height/>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

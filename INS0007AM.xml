@@ -83,12 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      movement).</desc>
                   <ab type="history">The monastery declined in late 1970 and was re-established as a nunnery around 2002.</ab>
                   <ab type="description">Ca. 70 Mss. photographed.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+         
                </note>
                <listBibl type="secondary">
                   <bibl>

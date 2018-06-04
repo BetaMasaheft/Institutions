@@ -56,16 +56,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <geo>11.5500 39.2833</geo>
                   <height unit="m">1247</height>
                </location>
-               <note>
-                  <date type="foundation"/>
-                  <desc type="foundation">
-            </desc>
-            
-                  <ab type="history"/>
-            
-                  <ab type="description"/>
-                  <ab type="tabot"/>
-               </note>
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Blanc1868Narrative"/>

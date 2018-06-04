@@ -47,35 +47,21 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ድማሕ፡ አቡነ፡ ማርቆረዎስ፡ </placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ድማሕ፡ አቡነ፡ ማርቆሬዎስ፡ </placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Dǝmāḥ ʾAbuna Mārqorewos</placeName>
-
-                    <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ማርቆረዎስ፡ </placeName>
+                    <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ማርቆሬዎስ፡ </placeName>
                     <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎndā Mārqorewos</placeName>
-                    <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ማርቆረዎስ፡ </placeName>
+                    <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ማርቆሬዎስ፡ </placeName>
                     <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra Mārqorewos</placeName>
-
                     <placeName xml:id="n4" xml:lang="gez">ደብረ፡ ድማሕ</placeName>
                     <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Dǝmāḥ</placeName>
-
-
-
                     <settlement type="province" ref="LOC5575Saraye"/>
                     <settlement type="district" ref="LOC6606DT"/>
                     <country ref="Q986"/>
-
                     <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
                         <ab type="tabot">
-                     <measure/>
                      <persName type="tabot" ref="PRS6768Marqorew"/>
                   </ab>
-
-                        <ab type="description"/>
                     </note>
                 </place>
             </listPlace>

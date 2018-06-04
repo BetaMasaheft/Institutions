@@ -53,18 +53,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <!--                        geo coord refer to Cairo, not specific for this monastery-->
                         <height>23 m</height>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

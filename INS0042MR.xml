@@ -81,11 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 &#xD;
 The library of the church incorporated books from a church dedicated to Libānos (Libānos of Masṭǝḥ), which does not exist any more, as well as the church of 
 Dabra Mikāʾel ʾƎnbā Ḥarisāy (the church of the people ʾƎnbā/ʾƎmbā Ḥarisāy/Ḥarišāy), which most probably also does not exist any more.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+                 
                   <ab type="tabot">
                      <measure quantity="7"/>Tābots of <persName ref="PRS6298Libanos" type="tabot" xml:id="MRL">Maṭṭāʿ/Libānos</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
                      <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS3249Cyriacus">Qirqos</persName>, 
