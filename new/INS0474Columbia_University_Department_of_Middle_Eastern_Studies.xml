@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q5149895" type="academicInstitution" subtype="institution">
                     <placeName>Columbia University Department of Middle Eastern, South Asian, and African Studies</placeName>
+<settlement ref="Q60"> <country ref="Q30">
                 </place>
             </listPlace><!---->
         </body>

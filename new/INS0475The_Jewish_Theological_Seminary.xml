@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q6189971" type="academicInstitution" subtype="institution">
                     <placeName>The Jewish Theological Seminary</placeName>
+                <settlement ref="Q60"> <country ref="Q30">
                 </place>
             </listPlace><!---->
         </body>

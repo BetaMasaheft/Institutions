@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>The Beinecke Rare Book and Manuscript  Library</title>
+                <title>The Beinecke Rare Book and Manuscript Library</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,7 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q814779" type="library" subtype="institution">
-                    <placeName>The Beinecke Rare Book and Manuscript  Library</placeName>
+                  <settlement ref="Q49145"/> <country ref="Q30"/>
+                    <placeName>The Beinecke Rare Book and Manuscript Library</placeName>
                 </place>
             </listPlace><!---->
         </body>

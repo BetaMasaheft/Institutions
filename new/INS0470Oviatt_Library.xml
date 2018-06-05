@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q47459852" type="library" subtype="institution">
+<settlement ref="Q2050326"/> <country ref="Q30"/>
                     <placeName>Oviatt Library</placeName>
                 </place>
             </listPlace><!---->

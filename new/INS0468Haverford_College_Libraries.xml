@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q47459820" type="library" subtype="institution">
+<settlement ref="Q5683748"/> <country ref="Q30"/>
                     <placeName>Haverford College Libraries</placeName>
                 </place>
             </listPlace><!---->

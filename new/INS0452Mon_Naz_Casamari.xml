@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0452Mon_Naz_Casamari"
@@ -52,15 +52,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place subtype="institution" type="monastery" sameAs="Q21552155">
+                <place subtype="institution" type="monastery" sameAs="Q833129">
                     <placeName xml:lang="it" xml:id="n1">Monumento Nazionale Abbazia di Casamari</placeName>
                     <settlement type="city" ref="Q42466">Veroli</settlement>
-                    <location>
+                   <country ref="Q38"/> <location>
                         <geo>13.487203 41.671028</geo>
                     </location>
                 </place>
             </listPlace>
-         
+
         </body>
     </text>
 </TEI>
