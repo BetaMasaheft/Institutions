@@ -63,11 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. The deserted and inaccessible rock-hewn church dedicated to Simon (?) is located at the rocky slope in the vicinity. &#xD;
 </ab>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESbqm001">BQM-001</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESbqm002">BQM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESbqm003">BQM-003</ref> "Synaxarion (the first half of the year)"; <ref type="mss" corresp="ESbqm004">BQM-004</ref> "Four Gospels"; <ref type="mss" corresp="ESbqm005">BQM-005</ref> "The Book of the Rite of the Passion Week"; <ref type="mss" corresp="ESbqm006">BQM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESbqm007">BQM-007</ref> "The Story of the Trinity"; <ref type="mss" corresp="ESbqm008">BQM-008</ref> "The Story of the Trinity"; <ref type="mss" corresp="ESbqm009">BQM-009</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESbqm010">BQM-010</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESbqm011">BQM-011</ref> "Antiphonary, The Book of the Chants, Mäwasǝʾt"; <ref type="mss" corresp="ESbqm012">BQM-012</ref> "The Homiliy of St. George"; <ref type="mss" corresp="ESbqm013">BQM-013</ref> "Missal"; <ref type="mss" corresp="ESbqm014">BQM-014</ref> "The Vita of St. Simon, the Miracles of St. Simon"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+       
                   <ab type="tabot">
                      <measure quantity="8"/>Tābots of Mary, Michael, Gabriel, Qirqos, George, Sǝmʿon (Apostle Simon?), Kidanä Mǝḥrät, John the Baptist.</ab>
                </note>

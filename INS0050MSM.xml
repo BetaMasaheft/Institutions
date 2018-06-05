@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>Dabra Ṣǝyon Manabayti</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2018-05-02" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName/>
-               <placeName type="alt">Däbrä Ṣǝyon Qǝddǝst Maryam Mänäbäyti</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-05-08" to="2010-05-08">wäräda Gulo Mäkäda, ṭabiya Sowit Lämläm, qušät Mänäbäyti</settlement>
+            <place type="church monastery dabr" subtype="institution">
+
+
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡ መነበይቲ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Ṣǝyon Qǝddǝst Māryām Manabayti</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">መነበይቲ፡ ጽዮን፡ ማርያም፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Manabayti Ṣǝyon Māryām</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n3">ደብረ፡ ጽዮን፡ መነበይቲ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n3">Dabra Ṣǝyon Manabayti</placeName>
+
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-08" to="2010-05-08"/> 
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC6984SowitLamlam " type="tabiya"/> 
+               
+               
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC6985Manabayti" type="qushat"/>
+
+               
+               
                <location>
                   <geo>14.422939 39.379801</geo>
                   <height unit="m">2514.0</height>
@@ -60,16 +76,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">The religious site existed already in the Aksumite time.</desc>
-                  <ab type="history">Däbr.&#xD;
+                  <ab type="history">Dabr.&#xD;
 </ab>
                   <ab type="description">11 Mss. photographed: <ref type="mss" corresp="ESmsm001">MSM-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmsm002">MSM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmsm003">MSM-003</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESmsm004">MSM-004</ref> "The Book of the Funeral Rite"; MSM 005 "Synaxarion (March)"; <ref type="mss" corresp="ESmsm006">MSM-006</ref> "Four Gospels"; <ref type="mss" corresp="ESmsm007">MSM-007</ref> "Homily of the Saviour of the World "; <ref type="mss" corresp="ESmsm008">MSM-008</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESmsm009">MSM-009</ref> "Missal"; <ref type="mss" corresp="ESmsm010">MSM-010</ref> "Missal"; <ref type="mss" corresp="ESmsm011">MSM-011</ref> "Miracles of Mary"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+            
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary and Täklä Haymanot (in a small additional church).</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName> and <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymānot</persName> (in a small additional church).</ab>
                </note>
             </place>
          </listPlace>

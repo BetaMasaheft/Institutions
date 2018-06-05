@@ -62,17 +62,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="Q986"/>
                     
                     <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
                         <ab type="tabot">
-                     <measure/>
                      <persName type="tabot" ref="PRS3801endreyas"/>
                   </ab>
-                        
-                        <ab type="description"/>
                     </note>
                 </place>
             </listPlace>

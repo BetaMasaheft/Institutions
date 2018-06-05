@@ -57,19 +57,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement from="2011-05-18" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥawaṣi</settlement>
                <location>
                   <geo>14.250969 39.374074</geo>
-                  <height unit="m"/>
+                  
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Gäṭär. The church is difficult to access.&#xD;
 </ab>
                   <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESgh001">GH-001</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESgh002">GH-002</ref> "Missal"; <ref type="mss" corresp="ESgh003">GH-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgh004">GH-004</ref> "Horologium"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+          
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of Gabriel, Mary.</ab>
                </note>

@@ -52,7 +52,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ሐይቅ፡</placeName>
                     <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Ḥayq</placeName>
 
-                    <placeName xml:id="n3" xml:lang="gez" type="alt">ደብረ፡ እግዚአብኄር፡ አብ፡</placeName>
+                    <placeName xml:id="n3" xml:lang="gez" type="alt">ደብረ፡ እግዚአብኄር፡ አብ፡</placeName> <!--is it "officially" spelled with ኄ? DR 2018-06-04-->
                     <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra ʾƎgziʾabǝḥer
                         ʾAb</placeName>
 
@@ -100,9 +100,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 the <date notBefore="1800" notAfter="1899">19th</date> and <date notBefore="1900" notAfter="1999">20th cent.</date> and has been
                                 famous for its rich library.</desc>
                         </ab>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
                         <ab type="description">The monastery of Dabra Ḥayq ʾƎsṭifānos is located on
                             the island of <placeName ref="LOC3832Hayq">Lake Ḥayq</placeName>.
                         </ab>

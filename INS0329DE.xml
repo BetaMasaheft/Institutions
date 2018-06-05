@@ -55,7 +55,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <settlement type="zone" ref="LOC6544NorthGondar"/>
                     <location>
                         <geo>11.8961 37.3098</geo>
-                        <height/>
                     </location>
                     <note>
                         <date type="foundation"
@@ -97,9 +96,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             the new monastery, causing conflicts. The church was burnt down again in
                             approx. <date when="1880" cert="low">1880</date> and reconstructed with
                             the present octagonal building.</ab>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
+                   
                         <!--                        info currently unknown-->
                         <ab type="description">The monastery of Dāgā ʾƎsṭifānos is located on the
                             small island of <placeName ref="LOC2419Daga">Dāgā</placeName>, on the

@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            to="2012-11-25"
                            type="warada"
                            ref="LOC3640GuloMa"/>
-               <settlement from="2011-11-23" to="2012-11-25" type="ṭābiya">Mazabǝr</settlement>
+               <settlement from="2011-11-23" to="2012-11-25" type="tabiya">Mazabǝr</settlement>
                <settlement from="2011-11-23"
                            to="2012-11-25"
                            type="qushat"
@@ -149,9 +149,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      for it was at the forefront of the anti- Zāgʷe struggle. 
                      Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
                      where several prominent religious missionaries and monastic leaders have been trained,
-                     including <roleName type="title"> ʾabbā</roleName> 
-                     <persName ref="PRS5633IyasusM"/> and <roleName type="title">ʾabuna</roleName>
-                     <persName ref="PRS9162TaklaHa"/>.
+                     including 
+                     <persName ref="PRS5633IyasusM"><roleName type="title"> ʾabbā</roleName></persName> <persName ref="PRS5633IyasusM"/>
+                        and 
+                     <persName ref="PRS9162TaklaHa"><roleName type="title">ʾabuna</roleName></persName> <persName ref="PRS9162TaklaHa"/>.
                      So, it played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
                      yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/> forces in <date>1557</date>.

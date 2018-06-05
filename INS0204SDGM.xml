@@ -59,15 +59,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Gädam. Currently, there are no monks. &#xD;
 </ab>
                   <ab type="description">9 Mss. photographed: <ref type="mss" corresp="ESsdgm001">SDGM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESsdgm002">SDGM-002</ref> “Synaxarion (September - February)”; <ref type="mss" corresp="ESsdgm003">SDGM-003</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESsdgm004">SDGM-004</ref> “Vita of Abunä Täklä Haymanot”; <ref type="mss" corresp="ESsdgm005">SDGM-005</ref> “Prayer of Incense”; <ref type="mss" corresp="ESsdgm006">SDGM-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsdgm007">SDGM-007</ref> “The Book of Gǝṣṣǝw”; <ref type="mss" corresp="ESsdgm008">SDGM-008</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsdgm009">SDGM-009</ref> “Miracles of Mary”.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+              
+              
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of Mary, Michael.</ab>
                </note>

@@ -46,25 +46,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="fr">Couvent des Récollets</placeName>
                     <placeName corresp="#n1" xml:lang="en">Récollets Convent</placeName>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
                     <location>
                         <geo>48.8754 2.3602</geo>
-                        <height/>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

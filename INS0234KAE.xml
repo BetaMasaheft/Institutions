@@ -63,12 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gäṭär. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;
 Tābots: Kiros (in a separate church), Four Living Creatures, Trinity, Mary.</ab>
                   <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “ Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+ 
                </note>
             </place>
          </listPlace>

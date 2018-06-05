@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement type="city">Veroli</settlement>
                     <location>
                         <geo>13.416431 41.6913973</geo>
-                        <height/>
+                        
                     </location>
 
 

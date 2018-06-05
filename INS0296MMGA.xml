@@ -64,12 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gädam, but there are no monks. The church is said to be supervised by the monks from Waldǝbba (Betä Minas)  &#xD;
 Only one tabot: St. Michael.</ab>
                   <ab type="description">At least 14 Mss. Many books originate from the former church at Bet Mulu.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+             
                </note>
             </place>
          </listPlace>

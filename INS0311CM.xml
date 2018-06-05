@@ -44,7 +44,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="en">Church of St. Marc</placeName>
-                    <placeName type="alt"/>
+                   
                     <country ref="Q79"/>
                     <region ref="Q30805"/>
                     <settlement type="city" ref="Q85"/>

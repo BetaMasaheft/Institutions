@@ -51,20 +51,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="de">Asien-Afrika-Institut</placeName>
                <placeName type="alt" xml:lang="en">Asia Africa Institute</placeName>
                <country>Germany</country>
-               <region/>
+               
                <settlement from="2011-11-11" to="2011-11-11">Hamburg</settlement>
                <location>
                   <geo>53.562402 9.988875</geo>
-                  <height unit="m"/>
+                  
                </location>
                <note>
                   <date type="foundation" notBefore="1910" notAfter="1912">1910-1912</date>
-                  <desc type="foundation"/>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
                </note>
             </place>
          </listPlace>

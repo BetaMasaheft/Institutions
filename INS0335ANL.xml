@@ -44,26 +44,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="library" subtype="institution">
                     <placeName>Biblioteca dell’Accademia Nazionale dei Lincei</placeName>
-                    <placeName type="alt"/>
+                   
                     <country ref="Q38"/>
                     <region ref="Q1282"/>
                     <settlement type="city" ref="Q220"/>
                     <location>
                         <geo>41.8931 12.4667</geo>
-                        <height/>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

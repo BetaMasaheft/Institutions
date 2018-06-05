@@ -47,25 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 <!--                    help needed in defining type-->
                     <placeName xml:id="n1" xml:lang="fr">Maison Professe des Jésuites</placeName>
                     <placeName corresp="#n1" xml:lang="en">Jesuits Professed House</placeName>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
                     <location>
                         <geo>48.8541 2.3610</geo>
-                        <height/>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

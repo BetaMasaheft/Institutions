@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName xml:id="n1" xml:lang="gez">አሲር፡ መቲራ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAsir Matirā</placeName>
                <placeName type="alt" xml:id="n2" xml:lang="gez">አሲር፡ መቲራ፡  ደብረ፡ ዓለማ፡ ቅድስት፡ ማርያም፡</placeName>
-               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʾAsir Matirā Dabra ʿĀlamā Qǝddǝst Maryam</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʾAsir Matirā Dabra ʿĀlamā Qǝddǝst Māryām</placeName>
                <placeName type="alt" xml:id="n3" xml:lang="gez">አሲረ፡ መቲራ፡  </placeName>
                <placeName type="normalized" corresp="#n3" xml:lang="gez">ʾAsira Matirā</placeName>
                <placeName type="alt" xml:id="n4" xml:lang="gez">አስር፡ መቲራ፡  </placeName>
@@ -81,14 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      second half of the 15th cent., in the time of tǝgre mäkwännǝn ʾAkalom, by
                      ʾAbäkärazun, Gäbrä Mäsiḥ (most probably, members of the Stephanite
                      movement).</desc>
-                  <ab type="history">The monastery declined in late 1970 and was re-established as nunnery around 2002.</ab>
+                  <ab type="history">The monastery declined in late 1970 and was re-established as a nunnery around 2002.</ab>
                   <ab type="description">Ca. 70 Mss. photographed.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+         
                </note>
                <listBibl type="secondary">
                   <bibl>

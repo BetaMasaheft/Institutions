@@ -55,19 +55,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement from="2011-05-18" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät ʾAbrǝqo</settlement>
                <location>
                   <geo>14.268189 39.368495</geo>
-                  <height unit="m"/>
+                  
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Gäṭär.&#xD;
 </ab>
                   <ab type="description">6 Mss. photographed: <ref type="mss" corresp="ESqma001">QMA-001</ref> "Missal"; <ref type="mss" corresp="ESqma002">QMA-002</ref> "Four Gospels"; <ref type="mss" corresp="ESqma003">QMA-003</ref> "Collection of Liturgic Prayers"; <ref type="mss" corresp="ESqma004">QMA-004</ref> "Missal"; <ref type="mss" corresp="ESqma005">QMA-005</ref> "The Sword of the Trinity, The Loosening of the Spell"; <ref type="mss" corresp="ESqma006">QMA-006</ref> "Miracles of Mary"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+              
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of 4 of Mary, Trinity.</ab>
                </note>

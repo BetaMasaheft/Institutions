@@ -64,11 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Däbr. Formerly a monastic community might have resided at the site. &#xD;
 </ab>
                   <ab type="description">20 Mss. photographed: <ref type="mss" corresp="ESqqm001">QQM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESqqm002">QQM-002</ref> "Praise of God"; <ref type="mss" corresp="ESqqm003">QQM-003</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESqqm004">QQM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqqm005">QQM-005</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESqqm006">QQM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqqm007">QQM-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESqqm008">QQM-008</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqqm009">QQM-009</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqqm010">QQM-010</ref> "Psalter"; <ref type="mss" corresp="ESqqm011">QQM-011</ref> "The Book of Gǝṣṣǝw"; <ref type="mss" corresp="ESqqm012">QQM-012</ref> "Psalter"; <ref type="mss" corresp="ESqqm013">QQM-013</ref> "Psalter"; <ref type="mss" corresp="ESqqm014">QQM-014</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESqqm015">QQM-015</ref> "1) The Praise of Mary 2) Missal"; <ref type="mss" corresp="ESqqm016">QQM-016</ref> "Psalter"; <ref type="mss" corresp="ESqqm017">QQM-017</ref> "Missal"; <ref type="mss" corresp="ESqqm018">QQM-018</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqqm019">QQM-019</ref> "Image of St. George"; <ref type="mss" corresp="ESqqm020">QQM-020</ref> "Collection of Mälkǝʾ-hymns".</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+           
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of Trinity, Mary.</ab>
                </note>

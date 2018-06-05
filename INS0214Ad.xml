@@ -49,24 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName/>
+               
                <placeName type="alt">Mikaʾel ʿAdḥǝyaw</placeName>
                <country>Ethiopia</country>
                <region>Tǝgray</region>
                <settlement>wäräda Gulo Mäkäda, ṭabiya Marta, qušät Däbrä Gännät</settlement>
-               <location>
-                  <height unit="m"/>
-               </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1950">1300-1950</date>
-                  <desc type="foundation"/>
+                  
                   <ab type="history">Apparently the church does not exist today; it is known from subscriptions and marginal notes in a few Mss. scattered in other churches of the area.</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
-                  <ab type="tabot"/>
+      
                </note>
             </place>
          </listPlace>

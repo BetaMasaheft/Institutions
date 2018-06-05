@@ -56,24 +56,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country ref="LOC3010Ethiop"/> 
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <region notAfter="1974" type="Province" ref="LOC5932Tegray"/>
-                    <settlement type="zone"/>
+                    
                     <settlement type="district" ref="LOC1264Adwa"/>
                     <location>
                         <geo cert="medium">14.16436 38.95195</geo>
                         <height>2169 m</height>
                     </location>
-                    <note>
-                        <date type="foundation"/>
-                        <desc type="foundation">
-                        </desc>
-                        
-                        <ab type="history"/>
-                        <ab type="tabot">
-                     <measure/>
-                  </ab>
-                        
-                        <ab type="description"/>
-                    </note>
                 </place>
             </listPlace>
         </body>

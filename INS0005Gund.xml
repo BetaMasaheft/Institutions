@@ -79,11 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Tābot of <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the upper church reserved for monks; 
                      tābot of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName> in the lower church for the local people.</ab>
                   <ab type="description">219 Mss. photographed in 2006 (for the <placeName ref="INS0004HMML" type="library">Hill Museum and Microfilm Library</placeName>; s. also <ref target="http://ethiopia.deeds.utoronto.ca/about.html"/>).</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+        
                </note>
                <listBibl type="secondary">
                   <bibl>

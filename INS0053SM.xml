@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säbäya Maryam</title>
+            <title>Sabayā Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,34 +42,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-04">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2018-06-01" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Säbäya Maryam</placeName>
-               <placeName type="alt">Däbrä Gännät Qǝddǝst Maryam Säbäya</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-05-13" to="2010-05-14">wäräda  Gulo Mäkäda, ṭabiya Säbäya, qušät Säsäḥayto</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               
+               
+              <placeName xml:id="n1" xml:lang="gez">ሰበያ፡ ማርያም፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sabayā Māryām</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ደብረ፡ ገነት፡ ቅድስት፡ ማርያም፡ ሰበያ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Gannat Qǝddǝst Māryām Sabayā</placeName>
+
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-08" to="2010-05-08"/> 
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7021Sabaya " type="tabiya"/> 
+               
+               
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7022Sasahayto" type="qushat"/>
+               
+               
+               
                <location>
                   <geo>14.4692 39.4974</geo>
                   <height unit="m">2120.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation"/>
-                  <ab type="history">Däbr. An archaeological site of the pre-Aksumite period is located in the vicinity.&#xD;
+                  <ab type="history">Dabr. An archaeological site of the pre-Aksumite period is located in the vicinity.&#xD;
 </ab>
                   <ab type="description">18 Mss. photographed: <ref type="mss" corresp="ESsm001">SM-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESsm002">SM-002</ref> "Psalter"; <ref type="mss" corresp="ESsm003">SM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESsm004">SM-004</ref> "Antiphonary"; <ref type="mss" corresp="ESsm005">SM-005</ref> "The Book of the Chants"; <ref type="mss" corresp="ESsm006">SM-006</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESsm007">SM-007</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESsm008">SM-008</ref> "Vita of ʿAbiyä ʾƎgziʾ"; <ref type="mss" corresp="ESsm009">SM-009</ref> "Psalter"; <ref type="mss" corresp="ESsm010">SM-010</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsm011">SM-011</ref> "Psalter"; <ref type="mss" corresp="ESsm012">SM-012</ref> "Psalter"; <ref type="mss" corresp="ESsm013">SM-013</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESsm014">SM-014</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESsm015">SM-015</ref> "Four Gospels"; <ref type="mss" corresp="ESsm016">SM-016</ref> "Book of  ʾAsläṭi"; <ref type="mss" corresp="ESsm017">SM-017</ref> "Psalter"; <ref type="mss" corresp="ESsm018">SM-018</ref> "Story of St. Mary"</ab>
-                  <ab type="appellations">
-                     <list>
-                        <item/>
-                     </list>
-                  </ab>
+       
                   <ab type="tabot">
-                     <measure quantity="11"/>Tābots of 8 old, 3 recently added; some of them are Mädḫane ʿAläm, George, Täklä Haymanot, Gäbrä Mänfäs Qǝddus, Mary, Michael, Gabriel, Yonas, Trinity.</ab>
+                     <measure quantity="11"/>Tābots of 8 old, 3 recently added; some of them are <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
+                     <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
+                     <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymānot</persName>, 
+                     <persName ref="PRS4306GabraMa" type="tabot"/>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
+                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, 
+                     <persName ref="PRS10442Yonas" type="tabot"></persName> Yonās, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
                </note>
             </place>
          </listPlace>
