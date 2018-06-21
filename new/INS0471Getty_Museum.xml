@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q731126" type="museum" subtype="institution">
                     <placeName>J. Paul Getty Museum</placeName>
-                    <settlement ref="Q65"/> <country ref="Q65"/>
+                    <settlement ref="Q65"/> <country ref="Q30"/>
                 </place>
             </listPlace><!---->
         </body>
