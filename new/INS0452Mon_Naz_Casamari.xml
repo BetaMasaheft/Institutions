@@ -54,9 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place subtype="institution" type="monastery" sameAs="Q833129">
                     <placeName xml:lang="it" xml:id="n1">Monumento Nazionale Abbazia di Casamari</placeName>
-                    <settlement type="city" ref="Q42466">Veroli</settlement>
+                    <settlement type="city" ref="Q42466">
                    <country ref="Q38"/> <location>
-                        <geo>13.487203 41.671028</geo>
+
+                      <geo>13.487203 41.671028</geo>
                     </location>
                 </place>
             </listPlace>
