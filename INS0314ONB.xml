@@ -45,7 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution">
+            <place sameAs="Q304037" type="library" subtype="institution">
                <placeName>Österreichische Nationalbibliothek</placeName>
                <country ref="Q40"/>
                <region ref="Q1741"/>

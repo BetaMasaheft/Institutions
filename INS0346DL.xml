@@ -56,10 +56,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" xml:id="n3">ደብረ፡ ወርቅ፡</placeName>
                <placeName xml:lang="gez" corresp="#n3" type="normalized">Dabra Warq</placeName>
                <region ref="LOC5665Semaza"/>
+
                <settlement type="town" ref="LOC3756Ham"/>
                <country ref="Q986"/>
 
-               
+
                <note>
                   <ab type="tabot">
                       <persName ref="PRS6298Libanos" type="tabot"/>
@@ -68,5 +69,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
          </listPlace>
       </body>
+
    </text>
 </TEI>

@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Österreichische Nationalbibliothek</title>
+            <title>Leiden University Library</title>
             <editor key="DR"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,7 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution">
+            <place sameAS="Q638395" type="library" subtype="institution">
                <placeName>Leiden University Library</placeName>
                <country ref="Q29999"/>
                <region ref="Q694"/>
