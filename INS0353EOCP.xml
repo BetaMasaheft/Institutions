@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0353EOCP"
@@ -45,24 +45,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution">
+            <place sameAs="Q55235514" type="library" subtype="institution">
                <placeName xml:id="n1">Ethiopian Orthodox Church Patriarchate Library </placeName>
-            
+                   <placeName>Ethiopian Orthodox Täwahedo Church Patriarchate Library</placeName>
+                  
                <country ref="LOC3010Ethiop"/>
 
                <settlement type="town" ref="LOC1216AddisA"/>
                <location>
                   <geo>9.02497 38.74689</geo>
                </location>
-               
-               
 
 
-               
+
+
+
             </place>
 
 
-            
+
          </listPlace>
       </body>
    </text>
