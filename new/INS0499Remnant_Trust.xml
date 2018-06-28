@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q55118968" subtype="institution">
-                    <placeName>Remnant Trust </placeName> <ref country="Q30"/> <ref settlement="Q2590154"/>
+                    <placeName>Remnant Trust </placeName> <country ref="Q30"/> <settlement ref="Q2590154"/>
                 </place>
             </listPlace><!---->
         </body>

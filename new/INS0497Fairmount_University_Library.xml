@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q55118902" type="library" subtype="institution">
-                    <placeName>Ruth Ann Musick Library</placeName> <ref settlement="Q1022764"/> <country settlement ="Q30"/>
+                    <placeName>Ruth Ann Musick Library</placeName> <settlement ref="Q1022764"/> <settlement country="Q30"/>
                 </place>
             </listPlace><!---->
         </body>

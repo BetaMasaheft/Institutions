@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q55118925" type="library" subtype="institution">
-                    <placeName>University of North Carolina Wilmington Randall Library</placeName> <ref country="Q30"/> <ref settlement="Q659400"/>
+                    <placeName>University of North Carolina Wilmington Randall Library</placeName> <country ref="Q30"/> <settlement ref="Q659400"/>
                 </place>
             </listPlace><!---->
         </body>

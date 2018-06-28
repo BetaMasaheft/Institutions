@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55235503" type="academicInstitution" subtype="institution"> <ref settlement="Q3624"/> <ref country="Q115"/>
+                <place sameAs="Q55235503" type="academicInstitution" subtype="institution"> <settlement ref="Q3624"/> <country ref="Q115"/>
                     <placeName>Addis Ababa University Institute of Ethiopian studies</placeName>
                 </place>
             </listPlace><!---->
