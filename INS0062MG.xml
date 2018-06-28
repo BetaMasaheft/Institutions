@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mätiʿ Gäbrǝʾel</title>
+            <title>Matiʿ Gäbrǝʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,25 +47,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mätiʿ Gäbrǝʾel</placeName>
-               <placeName type="alt">Mätiʿ Qǝddus Gäbrǝʾel</placeName>
-               <country>Tǝgray</country>
+            <place type="church monastery gatar" subtype="institution">
                
-               <settlement from="2010-05-14" to="2010-05-14">wäräda Gulo Mäkäda, ṭabiya Säbäya, qušät Mätiʿ, close to Säbäya Maryam</settlement>
+               
+               <placeName xml:id="n1" xml:lang="gez">መቲዖ ፡ ገብርኤል፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Matiʿ Gäbrǝʾel</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">መቲዖ ፡ ቅዱስ፡ ገብርኤል፡ </placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Matiʿ Qǝddus Gäbrǝʾel</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-08" to="2010-05-08"/> 
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7021Sabaya " type="tabiya"/> 
+               
+               
+               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7027Mati" type="qushat"/>
+               
+               
+               
+            
+               <settlement>close to <placeName ref="INS0053SM"/></settlement>
+               
                <location>
                   <geo>14.474919 39.488072</geo>
                   <height unit="m">2112.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">Nothing is known about the foundation and founder of the church, but local tradition claims that it is at least as old as Säbäya Maryam.</desc>
-                  <ab type="history">Gäṭär. &#xD;
+                  <desc type="foundation">Nothing is known about the foundation and founder of the church, but local tradition claims that it is at least as old as <placeName ref="INS0053SM"/>.</desc>
+                  <ab type="history">Gaṭar. &#xD;
 </ab>
                   <ab type="description">2 Mss. photographed: <ref type="mss" corresp="ESmg001">MG-001</ref> "Synaxarion"; <ref type="mss" corresp="ESmg002">MG-002</ref> "The Book of the Funeral Rite"</ab>
   
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Gabriel.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>.</ab>
                </note>
             </place>
          </listPlace>
