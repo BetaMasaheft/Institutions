@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddigrat Mädḫane ʿAläm</title>
+            <title>ʿĀddigrāt Madḫāne ʿĀlam</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,25 +47,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddigrat Mädḫane ʿAläm</placeName>
-               <placeName type="alt">Däbrä Mädḫanit Mädḫane ʿAläm ʿAddigrat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-05-20" to="2010-05-20">ʿAddigrat, qäbäle 01; close to ʿAddigrat Qirqos</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ መድኃኔ፡ ዓለም፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Madḫāne ʿĀlam</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ደብረ፡ መድኃኒት፡ መድኃኔ፡ ዓለም፡ ዓዲግራት፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Madḫānit Madḫāne ʿĀlam ʿĀddigrāt</placeName>
+               
+               
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC1212Addigr" type="town"/> 
+               
+               <settlement when="2010-05-19"> 
+                  <placeName type="qabale">qabale 1</placeName>, close to <placeName ref="INS0065AMQ"/>
+               </settlement>
                <location>
                   <geo>14.272528 39.463642</geo>
                   <height unit="m">2460.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation">According to local tradition, the founder is 17th-cent. Kǝflä Waḥǝd, governor of Təgray  (təgre mäkwännǝn).</desc>
-                  <ab type="history">Däbr. The church is located in the historical core of the city of ʿAddigrat, close to ʿAddigrat Qirqos.&#xD;
+                  <desc type="foundation">According to local tradition, the founder is 17th-cent. <persName ref="PRS5916KeflaWa">Kǝfla Wāḥǝd</persName>, governor of Təgray  (təgre makwannǝn).</desc>
+                  <ab type="history">Dabr. The church is located in the historical core of the city of <placeName ref="LOC1212Addigr"/>, close to <placeName ref="INS0065AMQ"/>.&#xD;
 </ab>
                   <ab type="description">13 Mss. photographed: <ref type="mss" corresp="ESamm001">AMM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESamm002">AMM-002</ref> "Psalter"; <ref type="mss" corresp="ESamm003">AMM-003</ref> "Missal"; <ref type="mss" corresp="ESamm004">AMM-004</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESamm005">AMM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESamm006">AMM-006</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESamm007">AMM-007</ref> "Miracles of Mary"; <ref type="mss" corresp="ESamm008">AMM-008</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESamm009">AMM-009</ref> "Psalter"; <ref type="mss" corresp="ESamm010">AMM-010</ref> "Acts of the Apostles"; <ref type="mss" corresp="ESamm011">AMM-011</ref> "Psalter"; <ref type="mss" corresp="ESamm012">AMM-012</ref> "Missal"; <ref type="mss" corresp="ESamm013">AMM-013</ref> "Psalter"</ab>
   
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Mädḫahe ʿAläm.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>.</ab>
                </note>
             </place>
          </listPlace>
