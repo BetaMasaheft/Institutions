@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿƎč Maʿre Gäbrä Mänfäs Qǝddus</title>
+            <title>ʿƎč Māʿre Gabra Manfas Qǝddus</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2018-07-02" who="ES">names updated/completed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿƎč Maʿre Gäbrä Mänfäs Qǝddus</placeName>
-               <placeName type="alt">ʿƎč Maʿre Ǝnda Gäbrä Mänfäs Qǝddus</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-05-01" to="2010-05-01">wäräda Gulo Mäkäda, ṭabiya Šowit Lämläm, qušät ʿƎč Maʿre</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ዕች፡ማርዔ፡ ገበረ፡ መንፈስ፡ ቅዱስ፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿƎč Māʿre Gabra Manfas Qǝddus</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ዕች፡ማርዔ፡ ዕንዳ፡ ገበረ፡ መንፈስ፡ ቅዱስ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">ʿƎč Māʿre Ǝndā Gabra Manfas Qǝddus</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-01" to="2010-05-01"/>
+               <settlement from="2010-05-01" to="2010-05-01" ref="LOC6984SowitLamlam " type="tabiya"/>
+               
+
+               <settlement from="2010-05-01" to="2010-05-01" ref="LOC7042EcMare"/>
                <location>
                   <geo>14.430418 39.377927</geo>
                   <height unit="m">2506.0</height>
@@ -60,12 +71,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">The religious site existed already in the Aksumite time.</desc>
-                  <ab type="history">Däbr. Another church, dedicated to St. Mary, is located in the vicinity.&#xD;
+                  <ab type="history">Dabr. Another church, dedicated to St. Mary, is located in the vicinity.&#xD;
 </ab>
                   <ab type="description">1 Mss. photographed; the church possesses some 25 recent Mss.</ab>
             
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Gäbrä Mänfäs Qǝddus.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>.</ab>
                </note>
             </place>
          </listPlace>
