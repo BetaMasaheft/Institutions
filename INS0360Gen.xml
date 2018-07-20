@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="it">Archivio Storico di Genova </placeName>
                <placeName corresp="#n1" xml:lang="en">Genoa Historical Archive</placeName>
             
-               <country ref="LOC3940Italy"/>
+               <country ref="Q38"/>
 
                <settlement type="town" ref="LOC3416Genoa"/>
                
