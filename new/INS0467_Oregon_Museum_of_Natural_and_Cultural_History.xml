@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q7896023" type="museum" subtype="institution">
                   <settlement ref="Q171224"/>
-              <country ref="30"/>
+              <country ref="Q30"/>
 
                     <placeName>Museum of Natural and Cultural History of the University of Oregon</placeName>
                 </place>

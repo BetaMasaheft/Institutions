@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q30289532" type="library" subtype="institution">
                   <settlement ref="Q171224"/>
-              <country ref="30"/>
+              <country ref="Q30"/>
                     <placeName>United Library Evanston</placeName>
                 </place>
             </listPlace><!---->
