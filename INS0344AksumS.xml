@@ -39,15 +39,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="ES" when="2017-01-31">created</change>
-
+         <change who="DR" when="2018-07-20">Corrected transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
-               <placeName xml:id="n1" xml:lang="am">አክሱም፡ ጽዮን፡</placeName>
-               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAksum Ṣǝyon</placeName>
+               <placeName xml:id="n1" xml:lang="gez">አክሱም፡ ጽዮን፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAksum Ṣǝyon</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt">ማርያም፡ ጽዮን፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Māryām Ṣǝyon</placeName>
                <placeName corresp="#n2" xml:lang="en">Mary of Zion</placeName>
@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">The church of ʾAksum Ṣǝyon has a long and complex history of
                      destructions and reconstructions with a number of legendary aspects. It has a
                      key role in Ethiopia's cultural heritage and is referred to in a number of
-                     sources: <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa ʾAksum</ref>,
+                     sources: <ref type="work" corresp="LIT1913Mashaf">Maṣḥafa ʾAksum</ref>,
                      <persName ref="PRS1778Alvares">Francisco Alvares</persName>'s account (ca.
                      <date when="1520" precision="low">1520</date>), <ref type="work" corresp="LIT1473GadlaL">Gadla Libānos</ref> (<date when="1400" precision="low">1400</date>), Iter de Venetiis ad Indiam (<date when="1400" precision="low">1400</date>), etc. Although the remains of ancient
                      structures were identified under or embedded in today's church, the early
@@ -76,8 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> ordered the church restored
                      in <date when="1406">1406</date>. The possessions of the church grew significantly over
-                     time and <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa ʾAksum</ref> records
-                     a number of land grants to the church. ʾAksum Ṣǝyon was destroyed in <date when="1535">1535</date> by <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm
+                     time and <ref type="work" corresp="LIT1913Mashaf">Maṣḥafa ʾAksum</ref> records
+                     a number of land grants to the church. ʾAksum Ṣǝyon was destroyed in <date when="1535">1535</date> by <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm
                            al-Ġāzī</persName> and then rebuilt by 
                      <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> Śarṣa Dǝngǝl</persName> in the <date from="1550" to="1600">second half of the 16th cent</date>. According to a Jesuit annual
                      letter, it was burned down by the <persName ref="ETH1973Oromo">Oromo</persName>

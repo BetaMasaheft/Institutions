@@ -105,13 +105,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      hagiography of <persName ref="PRS1955Anorewos"/>, one of the first disciples of
                      <roleName type="title">ʾabuna</roleName>
                      <persName ref="PRS9162TaklaHa"/>, the daily life was
-                     under the jurisdiction of<roleName type="title">maggābi</roleName>. It is known that the monastery enjoyed land donation atleast since the half of 15th century during
+                     under the jurisdiction of the <roleName type="title">maggābi</roleName>. It is known that the monastery enjoyed land donations at least since the half <!--which one?--> of 15th century during
                      the reign of <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS10626ZaraY"/>. The monastery of Dabra Libānos
-                     suffered a great destruction during the war of <persName ref="PRS1522Ahmadb"/> in <date>1532</date>.
+                     suffered great destruction during the war of <persName ref="PRS1522Ahmadb"/> in <date>1532</date>.
                      However, it revived soon under <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4428Galawdew"/>
-                     and his successor <persName ref="PRS8550sardaDe"/> during which attempts were made to elivate  the monastery to
+                     and his successor <persName ref="PRS8550sardaDe"/> during which attempts were made to elevate  the monastery to
                      the position of religious centre of the monarchy. But the situation deteriorated due to the massive expansion of the
                      <persName ref="ETH1973Oromo"/> and increasing isolation of  Dabra Libānos from the rest of the Empire.
                   </ab>

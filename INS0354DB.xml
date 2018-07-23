@@ -47,12 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery gadam" subtype="institution">
-               <placeName xml:id="n1" xml:lang="am">ደብረ፡ ቢዘን፡</placeName>
-               <placeName corresp="#n1" xml:lang="am" type="normalized">Dabra Bizan</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ቢዘን፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Bizan</placeName>
 
                <country ref="LOC2991Eritre"/>
 
-               <settlement type="mount" ref="LOC2252DabraB"/>
+               <settlement type="mountain" ref="LOC2252DabraB"/>
                <settlement type="district" ref="LOC3764Hamase"/>
                <location>
                   <geo>15.333 39.083</geo>
