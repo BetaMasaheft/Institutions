@@ -73,28 +73,28 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             cent.</date>
                         <desc type="foundation">According to <ref type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> there were two
                             churches founded on the monastery's site. One was built around the <date notBefore="0900" notAfter="0999" cert="low">10th cent.</date> by <roleName type="title">ʾaṣe</roleName>
-                            <persName ref="PRS3493Delnaod">Dǝlnāʿod</persName> and <roleName type="title">ʾābuna</roleName>
+                            <persName ref="PRS3493Delnaod">Dǝlnāʿod</persName> and <roleName type="title">ʾabuna</roleName>
                             <persName ref="PRS8390Salama">Salāmā</persName> and dedicated to God the
                             Father. The other one was founded in <date when="0862" cert="low">862
                                 AD</date> (or <date when="1167">1167 AD</date> according to
                                 <persName ref="PRS3076Cerulli">Cerulli</persName>'s chronology),
-                            consacrated by <roleName type="title">Metropolitan</roleName>
+                            consecrated by <roleName type="title">Metropolitan</roleName>
                             <persName ref="PRS2668Benyam">Bǝnyam</persName> and dedicated to
                                 <roleName type="title">Saint</roleName>
                             <persName ref="PRS8974Stephen">Stephen</persName>. However, <ref type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> are
                             very incoherent and their goal seems rather to be to place the monastery's
                             foundation before the <persName ref="PRS10523Zagwe">Zāgʷe</persName>
-                            dinasty.</desc>
+                            dynasty.</desc>
                         <ab type="history">
                             <desc>The development of Dabra Ḥayq ʾƎsṭifānos began with the arrival of
                                     <persName ref="PRS5633IyasusM">ʾIyasus Moʾā</persName> to the
                                 island in approx. <date when="1248" precision="low">1248</date>. He
                                 offered his support to <roleName type="title">ʾaṣe</roleName>
-                                <persName ref="PRS10303Yekunno">Yǝkunno Amlak</persName> to seize
+                                <persName ref="PRS10303Yekunno">Yǝkunno ʾAmlāk</persName> to seize
                                 the throne of the <persName ref="PRS10523Zagwe">Zāgʷe</persName>.
                                 The monastery became very close to the Ethiopian rulers and was richly
                                 endowed with lands. Dabra Ḥayq ʾƎsṭifānos was destroyed and
-                                looted by <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm
+                                looted by <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm
                                     al-Ġāzī</persName> in <date when="1532">1532</date>. However the
                                 monastery continued to be an important religious centre throughout
                                 the <date notBefore="1800" notAfter="1899">19th</date> and <date notBefore="1900" notAfter="1999">20th cent.</date> and has been
