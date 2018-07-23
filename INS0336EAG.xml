@@ -55,7 +55,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     
                     <country ref="LOC3010Ethiop"/> 
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <region notAfter="1974" type="Province" ref="LOC5932Tegray"/>
+                    <region notAfter="1974" type="province" ref="LOC5932Tegray"/>
                     
                     <settlement type="district" ref="LOC1264Adwa"/>
                     <location>
