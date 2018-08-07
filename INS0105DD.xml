@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
             P5</change>
          <change who="SG" when="2017-10-02">complete record</change>
+         <change when="2018-08-07" who="ES">link to the mountain added, link to qushat corrected, link to tabiya corrected, links to Aragawi added, tabots introduced</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,23 +57,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="ar" xml:id="n3" type="alt">እንዳ፡ አቡነ፡ አረጋዊ፡</placeName>
                <placeName xml:lang="ar" corresp="#n3" type="normalized">ʾƎndā ʾAbuna ʾAragāwi</placeName>
                
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
                <settlement from="2011-11-23"
                            to="2012-11-25"
                            type="warada"
                            ref="LOC3640GuloMa"/>
-               <settlement from="2011-11-23" to="2012-11-25" type="tabiya">Mazabǝr</settlement>
+               <settlement from="2011-11-23" to="2012-11-25" type="tabiya" ref="LOC4731Mazaba"></settlement>
                <settlement from="2011-11-23"
                            to="2012-11-25"
                            type="qushat"
-                           ref="LOC2255DabraD"/>
+                           ref="LOC7055DD"/>
                <location>
                   <geo>14.374333 39.292167</geo>
                   <height unit="m">2261.0</height>
                </location>
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"/>
+
                
                <listBibl type="editions">
                   <bibl>
@@ -142,9 +145,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <note>
                   <date type="foundation" notBefore="0600" notAfter="0800">0600-0800</date>
-                  <desc type="foundation">The monastery has been founded by the 6th-cent. ʾabunä (Zä-Mikaʾel) ʾArägawi, according to the tradition; for sure existed in the Aksumite period.</desc>
+                  <desc type="foundation">According to tradition, the monastery was founded by the <date>6th-cent.</date> <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>; for sure existed in the Aksumite period.</desc>
                   <ab type="history">
-                     The monastery Dabra Dāmmo  was one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau entirely surrounded by steep 
+                     The monastery Dabra Dāmmo  is one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau (<placeName ref="LOC2255DabraD"></placeName>) entirely surrounded by steep 
                      cliffs in the district of <placeName ref="LOC1938Bizat"/>. The monastery seems to have been favored by the Aksumites kings, but neglecetd in the Zāgʷe period, 
                      for it was at the forefront of the anti- Zāgʷe struggle. 
                      Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
@@ -153,15 +156,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS5633IyasusM"><roleName type="title"> ʾabbā</roleName></persName> <persName ref="PRS5633IyasusM"/>
                         and 
                      <persName ref="PRS9162TaklaHa"><roleName type="title">ʾabuna</roleName></persName> <persName ref="PRS9162TaklaHa"/>.
-                     So, it played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
+                     It played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
-                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/> forces in <date>1557</date>.
-                     
-                     Monastic community has, reportedly, up to 50 monks. 
-                     Below, at the foot of the mount, there is a small church at the place where ʾArägawi, reportedly "disappeared" (therefore called Mǝswarom). 
+                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/> forces in <date>1557</date>.</ab>
+                     <ab type="description">
+                     As of <date>2011</date>, monastic community has, reportedly, up to 50 monks. 
+                        Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 
                      A small nunnery is located in the village nearby.&#xD;
-                     Tābots (a large unidentified number):  ʾAragāwi, Mary, Takla Hayāmnot, Mātyās, and many others.</ab>
-                  <ab type="description">45 Mss. photographed: 
+                     
+                     
+                     
+45 Mss. photographed by the Ethio-SPaRe project: 
                      <ref type="mss" corresp="ESdd001">DD-001</ref> "Miracles of Mary"; 
                      <ref type="mss" corresp="ESdd002">DD-002</ref> "The Organ of Praise"; 
                      <ref type="mss" corresp="ESdd003">DD-003</ref> "Dǝggwā"; 
@@ -191,13 +196,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ref type="mss" corresp="ESdd038">DD-038</ref> "Psalter"; 
                      <ref type="mss" corresp="ESdd039">DD-039</ref> "Synoptic Lectionary for the Year", and a few others.</ab>
                   
+                  <ab type="tabot">
+                     <measure quantity="15"/>Tābots (a large unidentified number):  <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot"/>, 
+                     <persName ref="PRS6911Matyas" type="tabot">Mātyās</persName>, and many others .
+</ab>
+                  
                </note>
                
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
                          active="INS0105DD"
-                         passive="LOC5932Tegray"/>
+                         passive="LOC2255DabraD"/>
             </listRelation>
             
             
