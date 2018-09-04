@@ -47,13 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="" type="monastery" subtype="institution">
+                <place type="monastery" subtype="institution">
                     <placeName>Čankār Takla Hāymānot</placeName>
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="INS0507CTH" passive=""/>
+                    <relation name="lawd:hasAttestation" active="INS0507CTH" passive="BLorient645"/>
                 </listRelation>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
