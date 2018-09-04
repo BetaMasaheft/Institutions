@@ -48,7 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="Q3297681" type="library" subtype="institution">
-                    <placeName>Princeton University Library</placeName> <settlment ref="Q1345"/> <country ref="Q30"/>
+                    <placeName>Princeton University Library</placeName> 
+                    <settlement ref="Q1345"/> 
+                    <country ref="Q30"/>
                 </place>
             </listPlace><!---->
         </body>

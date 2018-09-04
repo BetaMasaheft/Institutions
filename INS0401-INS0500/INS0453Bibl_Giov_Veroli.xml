@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place subtype="institution" type="library">
-                  <place sameAS="Q54590147"/> <settlement ref="Q42466"/> <country ref="Q38"/>
+                <place subtype="institution" type="library" sameAs="Q54590147">
+                 <settlement ref="Q42466"/> <country ref="Q38"/>
                     <placeName xml:lang="it" xml:id="n1">Biblioteca Giovardiana di Veroli</placeName>
                     <settlement type="city">Veroli</settlement>
                     <location>

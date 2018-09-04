@@ -47,10 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47490728" type="library" subtype="institution"> <settlement ref="Q61"/> <place ref="Q30"/>
+                <place sameAs="Q47490728" type="library" subtype="institution"> 
+                    <settlement ref="Q61"/> 
+                    <country ref="Q30"/>
                     <placeName>Howard Divinity Library</placeName>
                 </place>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
