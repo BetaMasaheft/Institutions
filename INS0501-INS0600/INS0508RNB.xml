@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0508RNB" xml:lang="en" type="ins">
     <teiHeader>
@@ -49,6 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="" type="library" subtype="institution">
                     <placeName>Rossijskaja Nacionalnaja Biblioteka</placeName>
+                    <country ref="Q159"/>
+                    <settlement ref="Q656"/>
+                    <listBibl type="catalogue">
+                       <bibl>
+                          <ptr target="bm:Turaev1906rukopisi"/>
+                       </bibl>
+                    </listBibl>
                 </place>
             </listPlace><!---->
         </body>
