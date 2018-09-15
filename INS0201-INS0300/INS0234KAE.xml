@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church monastery" subtype="institution">
                <placeName>Kunāle ʾArbāʿtu ʾƎnsǝsā</placeName>
                <placeName type="alt">ʾArbāʿtu ʾƎnsǝsā Kunāle</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement from="2012-05-14" to="2012-05-14">waradā Dagʿa Tamben, ṭābiyā Salām, qušat Kunāle</settlement>
                <location>
                   <geo>13.663567 39.17335</geo>
