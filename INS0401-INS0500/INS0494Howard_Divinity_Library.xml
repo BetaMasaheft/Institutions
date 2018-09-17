@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0453Bibl_Giov_Veroli"
-     xml:lang="en"
-     type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0494Howard_Divinity_Library" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Biblioteca Giovardiana di Veroli</title>
+                <title>Howard Divinity Library</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="MV"/>
+                <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -45,26 +41,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2018-01-29">Created entity</change>
+            <change who="SJ" when="2018-06-21">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place subtype="institution" type="library">
-                  <place sameAS="Q54590147"/> <settlement ref="Q42466"/> <country ref="Q38"/>
-                    <placeName xml:lang="it" xml:id="n1">Biblioteca Giovardiana di Veroli</placeName>
-                    <settlement type="city">Veroli</settlement>
-                    <location>
-                        <geo>13.416431 41.6913973</geo>
-                        
-                    </location>
-
-
-
+                <place sameAs="Q47490728" type="library" subtype="institution"> 
+                    <settlement ref="Q61"/> 
+                    <country ref="Q30"/>
+                    <placeName>Howard Divinity Library</placeName>
                 </place>
             </listPlace>
-
         </body>
     </text>
 </TEI>

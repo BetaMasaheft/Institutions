@@ -50,13 +50,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="Q47490454" type="library" subtype="institution">
                     <placeName>Boston College Law Library Daniel R. Coquillette Rare Book Room</placeName> <settlement ref="Q100"/> <country ref="Q30"/>
                 </place>
-                <listRelation>
-                    <relation name="bm:husbandOf" active="INS0483Boston_College_Law_Library" passive=""/>
-                    <relation name="lawd:hasAttestation" active="INS0483Boston_College_Law_Library" passive=""/>
-                    <relation name="snap:AllianceWith" active="INS0483Boston_College_Law_Library" passive=""/>
-                    <relation name="bm:ordainedBy" active="INS0483Boston_College_Law_Library" passive=""/>
-                    <relation name="ecrm:P129i_is_subject_of" active="INS0483Boston_College_Law_Library" passive=""/>
-                </listRelation>
             </listPlace><!---->
         </body>
     </text>

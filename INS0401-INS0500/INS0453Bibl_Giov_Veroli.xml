@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0451QeddusYohannes"
+     xml:id="INS0453Bibl_Giov_Veroli"
      xml:lang="en"
      type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qǝddus Yoḥannǝs</title>
+                <title>Biblioteca Giovardiana di Veroli</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -45,26 +45,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-01-23">Created entity</change>
+            <change who="MV" when="2018-01-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                  <place sameAs="Q54588615">
-                    <placeName>Qǝddus Yoḥannǝs</placeName>
-                  <settlement ref="Q54585998"/> <country ref="Q115"/>
+                <place subtype="institution" type="library" sameAs="Q54590147">
+                 <settlement ref="Q42466"/> <country ref="Q38"/>
+                    <placeName xml:lang="it" xml:id="n1">Biblioteca Giovardiana di Veroli</placeName>
+                    <settlement type="city">Veroli</settlement>
+                    <location>
+                        <geo>13.416431 41.6913973</geo>
+                        
+                    </location>
+
+
+
                 </place>
             </listPlace>
-                <listRelation>
-                    <relation name="lawd:hasAttestation"
-                         active="INS0451QeddusYohannes"
-                         passive="BLorient521"/>
-                    <relation name="agrelon:hasFounder"
-                         active="INS0451QeddusYohannes"
-                         passive="PRS9931WaldaLe"/>
-                </listRelation>
+
         </body>
     </text>
 </TEI>

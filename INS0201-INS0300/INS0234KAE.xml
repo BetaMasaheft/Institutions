@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kunale ʾArbaʿtu ʾƎnsǝsa</title>
+            <title>Kunāle ʾArbāʿtu ʾƎnsǝsā</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,27 +42,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-15">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change who="DR" when="2018-09-03">Updated placename transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Kunale ʾArbaʿtu ʾƎnsǝsa</placeName>
-               <placeName type="alt">ʾArbaʿtu ʾƎnsǝsa Kunale</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-14" to="2012-05-14">wäräda Dägʿa Tämben, ṭabiya Sälam, qušät Kunale</settlement>
+               <placeName>Kunāle ʾArbāʿtu ʾƎnsǝsā</placeName>
+               <placeName type="alt">ʾArbāʿtu ʾƎnsǝsā Kunāle</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-05-14" to="2012-05-14">waradā Dagʿa Tamben, ṭābiyā Salām, qušat Kunāle</settlement>
                <location>
                   <geo>13.663567 39.17335</geo>
                   <height unit="m">2526.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition says that the chruch has been (re-)established in in the time of King Yohannes IV(r. 1872-89).</desc>
-                  <ab type="history">Gäṭär. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;
+                  <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of King Yohannes IV(r. 1872-89).</desc>
+                  <ab type="history">Gaṭar. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;
 Tābots: Kiros (in a separate church), Four Living Creatures, Trinity, Mary.</ab>
-                  <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “ Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
+                  <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
  
                </note>
             </place>

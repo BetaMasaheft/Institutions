@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0449AboraGiyorgis"
-     xml:lang="en"
-     type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0508RNB" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>አቦራ፡ ቅዱስ፡ ጊዮርጊስ፡</title>
+                <title>Rossijskaja Nacionalnaja Biblioteka</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -45,24 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-01-18">Created entity</change>
+            <change who="DE" when="2018-09-06">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                  <place sameAS="Q54587520"/> <settlement ref="Q207590"/>
-
-                    <placeName xml:id="n1" xml:lang="gez">አቦራ፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAborā qǝddus Giyorgis</placeName>
+                <place type="library" subtype="institution">
+                    <placeName>Rossijskaja Nacionalnaja Biblioteka</placeName>
+                    <country ref="Q159"/>
+                    <settlement ref="Q656"/>
+                    <listBibl type="catalogue">
+                       <bibl>
+                          <ptr target="bm:Turaev1906rukopisi"/>
+                       </bibl>
+                    </listBibl>
                 </place>
-                <listRelation>
-                    <relation name="lawd:hasAttestation"
-                         active="INS0449AboraGiyorgis"
-                         passive="BLorient509"/>
-                </listRelation>
-            </listPlace>
+            </listPlace><!---->
         </body>
     </text>
 </TEI>
