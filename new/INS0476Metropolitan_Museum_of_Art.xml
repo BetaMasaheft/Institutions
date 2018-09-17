@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="Q160236" type="museum" subtype="institution">
                     <placeName>Metropolitan Museum of Art</placeName>
-  <settlement ref="Q60"> <country ref="Q30">
+  <settlement ref="Q60"/> <country ref="Q30"/>
                 </place>
             </listPlace><!---->
         </body>
