@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                     <settlement ref="Q4122"/>
                     <country ref="Q183"/>
-                  
+                    <note><ref target="http://www.hab.de/en/home.html"> Library website</ref></note>
                 </place>
             </listPlace>
          <!---->
