@@ -44,7 +44,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="en">Ethiopian Manuscript Microfilm Library</placeName>
-                    <placeName corresp="#n1" xml:lang="en" type="abbreviation">EMML</placeName>
+                    <placeName corresp="#n1" xml:lang="en">EMML</placeName>
                     <country ref="Q30"/>
                     <region ref="Q1527"/>
                     <settlement type="town" ref="Q1898198"/>
