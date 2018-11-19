@@ -40,13 +40,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="DR" when="2016-07-22">CREATED: place</change>
-         <change who="DR" when="2018-11-19">Added catalogue</change>
+         <change who="DR" when="2018-11-19">Added catalogue and wikidata</change>
       </revisionDesc>
   </teiHeader>
   <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution">
+            <place type="library" subtype="institution" sameAs="Q82133">
                <placeName>Bodleian Library</placeName>
                <country ref="Q145"/>
                <region ref="Q21"/>
