@@ -40,6 +40,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="DR" when="2016-07-22">CREATED: place</change>
+         <change who="DR" when="2018-11-19">Added catalogue</change>
       </revisionDesc>
   </teiHeader>
   <text>
@@ -57,6 +58,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <listBibl type="catalogue">
                   <bibl>
                      <ptr target="bm:Dillmann1848Catalogus"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Ullendorff1951Catalogue"/>
                   </bibl>
                </listBibl>
             </place>
