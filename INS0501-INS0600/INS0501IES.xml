@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Addis Ababa University Institute of Ethiopian studies</title>
+                <title>Addis Ababa University Institute of Ethiopian Studies</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,15 +42,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SJ" when="2018-06-28">Created entity</change>
+            <change who="DR" when="2018-11-21">Updated name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55235503" type="academicInstitution" subtype="institution"> <settlement ref="Q3624"/> <country ref="Q115"/>
-                    <placeName>Addis Ababa University Institute of Ethiopian studies</placeName>
+                <place sameAs="Q55235503" type="academicInstitution" subtype="institution">
+                    <settlement ref="Q3624"/>
+                    <country ref="Q115"/>
+                    <placeName xml:lang="en" xml:id="n1">Institute of Ethiopian Studies</placeName>
+                    <placeName xml:lang="am" corresp="#n1">የኢትዮጵያ፡ ጤናትና፡ ምርምር፡ ተቋም፡</placeName>
+                    <placeName xml:lang="am" corresp="#n1" type="normalized">Ya-ʾItyoṗṗǝyā ṭenātǝnnā mǝrǝmmǝr taqʷām</placeName>
                 </place>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
