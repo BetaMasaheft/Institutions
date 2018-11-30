@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0515DabraSeyon" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0516NazretMaryam" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Seyon Abuna Abraham</title>
+                <title>Nazret Maryam</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,14 +41,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="PL" when="2018-11-29">Created entity for Nafisa Valieva</change>
+            <change who="PL" when="2018-11-30">Created entity for Nafisa Valieva</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church monastery" subtype="institution">
-                    <placeName>Dabra Seyon Abuna Abraham</placeName>
+                <place type="church" subtype="institution">
+                    <placeName>Nazret Maryam</placeName>
                     <settlement ref="LOC4383Madaba"/>
                 </place>
             </listPlace>
