@@ -5,9 +5,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Beta Madhane Alem</title>
+                <title>Beta Madḫāne ʿĀlam</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="PL"/>
+                <editor key="JG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,15 +41,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="PL" when="2018-11-30">Created entity</change>
+            <change when="2019-01-07" who="ES">merged INS0521BetaMadhaneAlem and LOC1888BetaMa</change>
+            <change who="JG" when="2018-11-20">Added region country, note, and edited transliteration</change>
+            <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
+            <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+            <change who="ES" when="2016-02-09">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Beta Madhane Alem</placeName>
+                <place type="church">
+                    <placeName xml:id="n1" xml:lang="gez">ቤተ፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Beta Madḫāne ʿĀlam </placeName>
+                    <placeName corresp="#n1" type="alt">Medhane Alem</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Saviour of the World</placeName>
                     <settlement ref="LOC4243Laliba"/>
+                    <region ref="LOC6573NorthWallo"/>
+                    <country ref="LOC3010Ethiop"/>
+                    <location>
+                        <geo>12.033725 39.043765</geo>
+                    </location>
+                    <note>The church is situated in the town Lālibalā and is the most promiment among those in the north-western cluster. Though hewn in the rock, it presents features that are indebted to Aksumite architecture.</note>
                 </place>
             </listPlace>
         </body>
