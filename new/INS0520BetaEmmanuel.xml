@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Beta Emmanuel</title>
+                <title>Beta ʾAmānuʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2019-01-17" who="ES">corrected spelling  added location linked to LOC</change>
             <change who="PL" when="2018-11-30">Created entity</change>
         </revisionDesc>
     </teiHeader>
@@ -48,10 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church" subtype="institution">
-                    <placeName>Beta Emmanuel</placeName>
+                    <placeName>Beta ʾAmānuʾel</placeName>
                     <settlement ref="LOC4243Laliba"/>
+                    <region ref="LOC6573NorthWallo"/>
+                    <country ref="LOC3010Ethiop"/>
+                    <location>
+                        <geo>12.031789 39.045646</geo>
+                    </location>
                 </place>
             </listPlace>
+            <listRelation><relation name="skos:exactMatch" active="INS0520BetaEmmanuel" passive="LOC1877BetaAm"></relation></listRelation>
         </body>
     </text>
 </TEI>

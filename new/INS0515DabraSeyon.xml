@@ -5,7 +5,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Ṣǝyon ʾAbuna ʾAbrǝham</title>
+
+
+                <title>Dabra Ṣǝyon ʾAbuna ʾAbrǝhām</title>
+
                 <editor role="generalEditor" key="AB"/>
                 <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,7 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName>Dabra Ṣǝyon ʾAbuna ʾAbrǝham</placeName>
+
+                    <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ጽዮን፡ አቡነ፡ አብርሃም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Ṣǝyon ʾAbuna ʾAbrǝhām</placeName>
+                    <placeName xml:lang="gez" xml:id="n2">ደብረ፡ ጽዮን፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Ṣǝyon</placeName>
+                    <placeName xml:lang="gez" xml:id="n3">አቡነ፡ አብርሃም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾAbuna ʾAbrǝhām</placeName>
+                    <settlement ref="LOC4383Madaba"/>
+
                 </place>
             </listPlace>
         </body>
