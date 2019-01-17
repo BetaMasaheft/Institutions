@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Seyon Abuna Abraham</title>
+                <title>Dabra Ṣǝyon ʾAbuna ʾAbrǝham</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="PL" when="2018-11-29">Created entity for Nafisa Valieva</change>
+            <change who="NV" when="2019-01-17">Corrected settlement and transliteration</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName>Dabra Seyon Abuna Abraham</placeName>
-                    <settlement ref="LOC4383Madaba"/>
+                    <placeName>Dabra Ṣǝyon ʾAbuna ʾAbrǝham</placeName>
                 </place>
             </listPlace>
         </body>
