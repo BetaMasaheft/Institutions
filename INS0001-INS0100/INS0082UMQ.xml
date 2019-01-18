@@ -42,17 +42,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-01-18" who="ES">names completed, relation to LOC added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>ʿUra Mäsqäl</placeName>
-               <placeName type="alt">Qǝfrǝya ʿUra Mäsqäl</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-04-27" to="2010-04-30">wäräda Gulo Makäda, ṭabiya Šäwit Lämläm, qušät ʿUra</settlement>
+
+               <placeName xml:id="n1" xml:lang="gez">ዑራ፡ መስቀል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿUrā Masqal</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ቅድርያ፡ ዑራ፡ መስቀል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Qǝfrǝyā ʿUrā Masqal</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-04-27" to="2010-04-30"/>
+               <settlement ref="LOC6962Sawit" type="tabiya" from="2010-04-27" to="2010-04-30"/>
+               <settlement from="2010-04-27" to="2010-04-30" ref="LOC6963Ura" type="qushat"/>
                <location>
                   <geo>14.481856 39.334575</geo>
                   
@@ -60,12 +70,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1300">1200-1300</date>
                   <desc type="foundation">Pre-15th cent. period (?)</desc>
-                  <ab type="history">Deserted and inaccessible church, associated with ʿUra Qirqos.</ab>
-                  <ab type="description">All the books and paraphernalia were transferred to the church of ʿUra Qirqos.</ab>
+                  <ab type="history">Deserted and inaccessible church, associated with <placeName ref="INS0017UM">ʿUrā Qirqos</placeName>.</ab>
+                  <ab type="description">All the books and paraphernalia were transferred to the church of <placeName ref="INS0017UM">ʿUrā Qirqos</placeName>.</ab>
     
                </note>
             </place>
          </listPlace>
+         <listRelation><relation name="skos:exactMatch" active="INS0082UMQ"  passive="LOC6063UraMas"></relation></listRelation>
       </body>
    </text>
 </TEI>
