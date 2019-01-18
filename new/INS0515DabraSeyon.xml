@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="PL" when="2018-11-29">Created entity for Nafisa Valieva</change>
             <change who="NV" when="2019-01-17">Corrected settlement and transliteration</change>
+            <change when="2019-01-17" who="ES">added names to harmonize with LOC entry, added relation</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -57,10 +58,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Ṣǝyon</placeName>
                     <placeName xml:lang="gez" xml:id="n3">አቡነ፡ አብርሃም፡</placeName>
                     <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾAbuna ʾAbrǝhām</placeName>
-                    <settlement ref="LOC4383Madaba"/>
+                    
 
                 </place>
             </listPlace>
+            <listRelation><relation name="skos:exactMatch" active="INS0515DabraSeyon" passive="LOC2372DabraS"></relation></listRelation>
         </body>
     </text>
 </TEI>
