@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Haverford College</placeName>
                <placeName type="alt">Haverford (PA), Haverford College</placeName>
-               <country ref="USA"/>
-               <region ref="PA"/>
-               <settlement ref="Haverford"/>
+               <country ref="Q30"/>
+               <region ref="Q1400"/>
+               <settlement ref="Q5683748"/>
                <location>
                   <geo>40.009231 -75.307955</geo>
                </location>

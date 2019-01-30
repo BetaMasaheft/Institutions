@@ -59,10 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
          <listPlace>
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">McGill University Library</placeName>
-               <placeName type="alt">MaGill University Library</placeName>
-               <country ref="Canada"/>
-               <region ref="Toronto"/>
-               <settlement ref="McGill"/>
+               <placeName type="alt">McGill University Library</placeName>
+               <country ref="Q16"/>
+               <region ref="Q172"/>
                <location>
                   <geo>45.503146 -73.575954</geo>
                </location>

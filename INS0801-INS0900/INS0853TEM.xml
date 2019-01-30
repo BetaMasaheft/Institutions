@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Ethiopian Manuscript Digital Library</placeName>
                <placeName type="alt">Toronto, Ethiopian Manuscript Digital Library</placeName>
-               <country ref="Canada"/>
-               <settlement ref="Toronto"/>
+               <country ref="Q16"/>
+               <settlement ref="Q172"/>
                <location>
                   <geo>13.489487 39.48443</geo>
                </location>

@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Beineke Manuscript Library of Yale University</placeName>
                <placeName type="alt">New Haven (CT), Beineke Manuscript Library of Yale University</placeName>
-               <country ref="USA"/>
-               <region ref="CT"/>
-               <settlement ref="NewHaven"/>
+               <country ref="Q30"/>
+               <region ref="Q779"/>
+               <settlement ref="Q49145"/>
                <location>
                   <geo>41.311512 -72.927348</geo>
                </location>

@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Tel Aviv University Sourasky Central Library</placeName>
                <placeName type="alt">Tel Aviv University, Sourasky Central Library</placeName>
-               <country ref="Israel"/>
-               <settlement ref="TelAviv"/>
+               <country ref="Q801"/>
+               <settlement ref="Q33935"/>
                <location>
                   <geo>32.114314 34.804463</geo>
                </location>

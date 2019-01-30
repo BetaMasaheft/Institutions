@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Abilene Christian University</placeName>
                <placeName type="alt">Abilene (TX), Abilene Christian University</placeName>
-               <country ref="USA"/>
-               <region ref="Texas"/>
-               <settlement ref="Abilene"/>
+               <country ref="Q30"/>
+               <region ref="Q1439"/>
+               <settlement ref="Q128295"/>
                <location>
                   <geo>32.469057 -99.708474</geo>
                </location>

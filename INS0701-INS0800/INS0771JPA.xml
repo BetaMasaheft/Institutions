@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Jerusalem Patriarchate of the Armenian Orthodox Church</placeName>
                <placeName type="alt">Jerusalem, Jerusalem Patriarchate of the Armenian Orthodox Church</placeName>
-               <country ref="Israel"/>
-               <settlement ref="Jerusalem"/>
+               <country ref="Q801"/>
+               <settlement ref="Q1218"/>
                <location>
                   <geo>31.774288 35.228505</geo>
                </location>

@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Brandeis University</placeName>
                <placeName type="alt">Waltham (MA), Brandeis University</placeName>
-               <country ref="USA"/>
-               <region ref="MA"/>
-               <settlement ref="Waltham"/>
+               <country ref="Q30"/>
+               <region ref="Q771"/>
+               <settlement ref="Q49190"/>
                <location>
                   <geo>42.367952 -71.258205</geo>
                </location>

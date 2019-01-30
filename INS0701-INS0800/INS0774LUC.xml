@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">University of California Los Angeles</placeName>
                <placeName type="alt">Los Angeles, University of California Los Angeles</placeName>
-               <country ref="USA"/>
-               <region ref="CA"/>
-               <settlement ref="LosAngeles"/>
+               <country ref="Q30"/>
+               <region ref="Q99"/>
+               <settlement ref="Q65"/>
                <location>
                   <geo>34.074945 -118.441566</geo>
                </location>

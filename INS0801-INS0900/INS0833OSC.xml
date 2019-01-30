@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Schøyen Collection</placeName>
                <placeName type="alt">Oslo, Schøyen Collection</placeName>
-               <country ref="Norway"/>
-               <settlement ref="Oslo"/>
+               <country ref="Q20"/>
+               <settlement ref="Q585"/>
                <location>
                   <geo>59.913475 10.752202</geo>
                </location>

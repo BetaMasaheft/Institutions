@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Museum of the Bible</placeName>
                <placeName type="alt">Washington D.C., Museum of the Bible</placeName>
-               <country ref="USA"/>
-               <region ref="D.C."/>
-               <settlement ref="Washington"/>
+               <country ref="Q30"/>
+               <region ref="Q3551781"/>
+               <settlement ref="Q61"/>
                <location>
                   <geo>38.884716 -77.016813</geo>
                </location>
