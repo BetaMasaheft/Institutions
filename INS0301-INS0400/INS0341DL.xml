@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <state type="existence" ref="Paks2"/>
                <country ref="Q115"/>
 
-               <listBibl type="editions">
+               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Turaev1906ZenaDabralibanos"/>
                   </bibl>
@@ -72,10 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
-               </listBibl>
-
-
-               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Derat2005DabraLibanos"/>
                   </bibl>
