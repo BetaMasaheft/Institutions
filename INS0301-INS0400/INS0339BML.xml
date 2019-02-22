@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0339BML" type="ins">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0339BML" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -44,14 +41,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place sameAs="Q856419" type="library" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="it">Biblioteca Medicea Laurenziana</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Laurentian Medici Library</placeName>
+                    <placeName xml:id="n1" xml:lang="it" type="main">Biblioteca Medicea Laurenziana</placeName>
+                    <placeName xml:lang="en" type="alt">Laurentian Medici Library</placeName>
                     <country ref="Q38"/>
                     <region ref="Q1273"/>
                     <settlement type="city" ref="Q2044"/>
                     <location>
                         <geo>43.7743 11.2540</geo>
-                        <height>50 m</height>
                     </location>
                 </place>
             </listPlace>
