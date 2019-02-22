@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place sameAs="Q856419" type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="it">Biblioteca Medicea Laurenziana</placeName>
                     <placeName corresp="#n1" xml:lang="en">Laurentian Medici Library</placeName>
-                    <country ref="Q385"/>
+                    <country ref="Q38"/>
                     <region ref="Q1273"/>
                     <settlement type="city" ref="Q2044"/>
                     <location>
