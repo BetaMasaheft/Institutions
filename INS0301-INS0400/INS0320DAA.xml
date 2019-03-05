@@ -54,6 +54,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <height>445 m</height>
                     </location>
                 </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="INS0320DAA" passive="LIT5164MiracleHolyWeek"/>
+                    <relation name="lawd:hasAttestation" active="INS0320DAA" passive="LIT5165MiracleKatib"/>
+                </listRelation>
             </listPlace>
         </body>
     </text>
