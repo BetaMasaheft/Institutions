@@ -63,6 +63,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5158MiracleLumber"/>
                     <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT3707Miracle"/>
                     <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT3702Miracle"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5210MiracleAnthony"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5212MiracleAnthony3"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5213MiracleAnthony4"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5211MiracleAnthony5"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5214MiracleAnthony6"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5224MiracleVisionTimothy9"/>
                 </listRelation>
             </listPlace>
         </body>
