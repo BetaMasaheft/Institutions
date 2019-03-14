@@ -42,27 +42,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-04">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-14" who="ES">adjusted to schema</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAḥzära  Maryam</placeName>
-               <placeName type="alt">ʾAḥzära Däbrä Mǝhrät Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-24" to="2011-11-24">wäräda Ganta ʾAfäšum, ṭabiya Wǝhdät, qušät ʾAḥzära</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">አሕዘራ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAḥzarā  Māryām</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">አሕዘራ፡ ደብረ፡ ምሕረት፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʾAḥzarā  Dabra Mǝhrat Qǝddǝst Māryām</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-11-24" ref="LOC3293GantaA" type="warada"/>
+               <settlement when="2011-11-24" ref="LOC7022Wehdat" type="tabiya"/>
+               <settlement when="2011-11-24" ref="LOC7023Ahzara" type="qushat"/>
+
+              
                <location>
                   <geo>14.329528 39.254685</geo>
                   <height unit="m">2047.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">The local tradition narrates that King Bazen, on the 10th year of his reign renewed the place which had been a site of religious veneration (Orit). The Queen of Sheba slept at this place during her trip (hence, the etymology of word Aḥzära;but it is unclear if it is a Tǝgrǝñña or Gǝʿǝz word); because of this, a temple was established here. Aḥmäd Graññ is said to have closely come to Aḥzära, but was chased away by a strong wind.</desc>
-                  <ab type="history">Däbr. &#xD;
-The compound of the rectangular church, built in the traditional style, is remarkable thanks to the massive gate tower, and another big structure, two-storey and complex ʿǝqa bet, built in the wall which encircles the church.&#xD;
-Tābots (at least 1, probably a few more): St. Mary.</ab>
+                  <desc type="foundation">The local tradition narrates that King <persName ref="PRS2597Bazen">Bazen</persName>, on the 10th year of his reign renewed the place which had been a site of religious veneration (Orit). 
+                     The <persName ref="PRS6541Makedda">Queen of Sheba</persName> slept at this place during her trip (hence, the etymology of word አሕዘራ;but it is unclear if it is a Tǝgrǝñña or Gǝʿǝz word); because of this, a temple was established here. 
+                     <persName ref="PRS1522Ahmadb">Aḥmad Grāñ</persName> is said to have closely come to ʾAḥzarā, but was chased away by a strong wind.</desc>
+                  <ab type="history">Dabr. &#xD;
+                     The compound of the rectangular church, built in the traditional style, is remarkable thanks to the massive gate tower, and another big structure, two-storey and complex ʿǝqa bet, built in the wall which encircles the church.                     </ab>
+                     <ab type="tabot">
+                        <measure quantity="1" cert="low"/>                        
+Tābots (at least 1, probably a few more): <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESdma001">DMA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESdma002">DMA-002</ref> "Missal"; <ref type="mss" corresp="ESdma003">DMA-003</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdma004">DMA-004</ref> "Four Gospels"; <ref type="mss" corresp="ESdma005">DMA-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma006">DMA-006</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESdma007">DMA-007</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma008">DMA-008</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESdma009">DMA-009</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma010">DMA-010</ref> "Miracles of Mary and other texts"; <ref type="mss" corresp="ESdma011">DMA-011</ref> "Story of St. Mary"; <ref type="mss" corresp="ESdma012">DMA-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESdma013">DMA-013</ref> "several fragments of iturgical book"; <ref type="mss" corresp="ESdma014">DMA-014</ref> "The Rite of the Holy Week"</ab>
         
                </note>

@@ -47,26 +47,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Dǝrba Däbrä ʾAbunä Yasay </placeName>
-               <placeName type="alt">ʾAbunä Yasay</placeName>
-               <placeName type="alt">Dǝrba Däbrä Yasay Däbrä ʾEmanuʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-11" to="2011-05-11">wäräda  ʾƎndärta, ṭabiya Mäsäwo, qušät Dǝrba</settlement>
+            <place type="church monastery dabr" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ድርባ፡ ደብረ፡ አቡነ፡ ያሳይ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dǝrbā Dabra ʾAbuna Yāsāy</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">አቡነ፡ ያሳይ፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʾAbuna Yāsāy</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ድርባ፡ ደብረ፡ ያሳይ፡ ደብረ፡ ኤማኑኤል፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Dǝrbā Dabra Yāsāy Dabra ʾEmānuʾel</placeName>
+               
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-05-11" ref="LOC2947Endart" type="warada"/>
+               <settlement when="2011-05-11" ref="LOC7025Masawo" type="tabiya"/>
+               <settlement when="2011-05-11" ref="LOC7024Derba" type="qushat"/>
+               
                <location>
                   <geo>13.569139 39.60225</geo>
                   <height unit="m">2313.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">Local tradition ascribes the foundation to the 14th-cent. saintly monk ʾabunä Yasay.</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <desc type="foundation">Local tradition ascribes the foundation to the 14th-cent. saintly monk <persName ref="PRS10253Yasay">ʾabuna Yāsāy</persName>.</desc>
+                  <ab type="history">Dabr. &#xD;
 </ab>
                   <ab type="description">8 Mss. photographed: <ref type="mss" corresp="ESday001">DAY-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESday002">DAY-002</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESday003">DAY-003</ref> "Four Gospels"; <ref type="mss" corresp="ESday004">DAY-004</ref> "Psalter"; <ref type="mss" corresp="ESday005">DAY-005</ref> "Psalter"; <ref type="mss" corresp="ESday006">DAY-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESday007">DAY-007</ref> "Vita of Yasay"; <ref type="mss" corresp="ESday008">DAY-008</ref> "Vita of Yasay"</ab>
 
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Yasay, ʾAmanuʾel, Mary, Michael.</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS10253Yasay">ʾabuna Yāsāy</persName>, <ref type="authFile" corresp="Amanuel">ʾAmanuʾel</ref>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
                </note>
             </place>
          </listPlace>

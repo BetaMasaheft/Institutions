@@ -42,7 +42,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2018-04-24" who="ES">adjusted to schema</change>
          <change who="DR" when="2018-05-01">Added labiovelar to name transcription</change>
+         <change when="2019-03-14" who="ES">added persnames</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +68,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">The tradition remembers that the church was "renovated" in the time of däğğazmač Wǝbe Ḫaylä Maryam and Metropolitan Sälama (in tenure 1841-67); however, it states that the church was founded before that time, probably by the local community.</desc>
+                  <desc type="foundation">The tradition remembers that the church was "renovated" in the time of däğğazmač <persName ref="PRS10102Webeha">Wǝbe Ḫayla Māryām</persName> and Metropolitan <persName ref="PRS8388SalamaI">Salāma</persName> (in tenure <date>1841-1867</date>); 
+                     however, it states that the church was founded before that time, probably by the local community.</desc>
                   
                   
                   <ab type="tabot">
