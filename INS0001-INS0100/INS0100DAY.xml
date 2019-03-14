@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-07">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-14" who="ES">adjusted to schema</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,8 +62,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement when="2011-05-11" ref="LOC2947Endart" type="warada"/>
-               <settlement when="2011-05-11" ref="LOC7025Masawo" type="tabiya"/>
-               <settlement when="2011-05-11" ref="LOC7024Derba" type="qushat"/>
+               <settlement when="2011-05-11" ref="LOC7155Masawo" type="tabiya"/>
+               <settlement when="2011-05-11" ref="LOC7154Derba" type="qushat"/>
                
                <location>
                   <geo>13.569139 39.60225</geo>
