@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-06">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">links to tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +67,7 @@ The small old round church stands below the recent one. &#xD;
                   <ab type="description">10 Mss. photographed: <ref type="mss" corresp="ESma001">MA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESma002">MA-002</ref> "The Vita of St. Ǝsṭifanos"; <ref type="mss" corresp="ESma003">MA-003</ref> "Missal"; <ref type="mss" corresp="ESma004">MA-004</ref> "Missal"; <ref type="mss" corresp="ESma005">MA-005</ref> "The Book of the History of Mary"; <ref type="mss" corresp="ESma006">MA-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESma007">MA-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESma008">MA-008</ref> "Mäṣḥafä Zena Sǝqlät"; <ref type="mss" corresp="ESma009">MA-009</ref> "Miracles of Mary"</ab>
                 
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, ʾƎsṭifanos.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS3894estifano" type="tabot">ʾƎsṭifānos</persName>.</ab>
                </note>
             </place>
          </listPlace>

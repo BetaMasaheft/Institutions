@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dǝbla Yoḥannǝs Mäṭmǝq</title>
+            <title>Dǝblā Yoḥannǝs Maṭmǝq</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-29">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Dǝbla Yoḥannǝs Mäṭmǝq</placeName>
-               <placeName type="alt">Däbrä Bǝrhan Yoḥannǝs Mäṭmǝq Dǝbla</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-09" to="2010-12-09">wäräda Ganta ʾAfäšum, ṭabiya Dǝbla Siʿet, qušät Dǝbla</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ድብላ፡ ዮሐንስ፡ መጥምቅ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dǝblā Yoḥannǝs Maṭmǝq</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ብርሃን፡ ዮሐንስ፡ መጥምቅ፡ ድብላ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Bǝrhān Yoḥannǝs Maṭmǝq Dǝblā</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-01"/>  
+               <settlement ref="LOC7186Debla" type="tabiya" when="2010-12-01"/>
+               
+               <settlement from="2010-12-01" to="2010-12-01" ref="LOC7187Debla" type="qushat"/>
+               
+
+               
                <location>
                   <geo>14.2227 39.47385</geo>
                   <height unit="m">2519.0</height>
@@ -60,12 +74,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation">Local tradition claims the foundation in the time of the Aksumite king Sälʿadoba.</desc>
-                  <ab type="history">Däbr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#xD;
+                  <ab type="history">Dabr. By the time of the visit the church was under construction. The old building was dismantled, with the exception of the sunctuary, and a new building was being built around. &#xD;
 </ab>
                   <ab type="description">13 Mss., items recorded: <ref type="mss" corresp="ESdmd001">DMD-001</ref> "Vita of Täklä Haymanot, Vita of Ewostatewos"; <ref type="mss" corresp="ESdmd002">DMD-002</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdmd003">DMD-003</ref> "Four Gospels"; <ref type="mss" corresp="ESdmd004">DMD-004</ref> "Story of St. Mary"; <ref type="mss" corresp="ESdmd005">DMD-005</ref> "Missal"; <ref type="mss" corresp="ESdmd006">DMD-006</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESdmd007">DMD-007</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESdmd008">DMD-008</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESdmd009">DMD-009</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESdmd010">DMD-010</ref> "Miracles of John"; <ref type="mss" corresp="ESdmd011">DMD-011</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdmd012">DMD-012</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESdmd013">DMD-013</ref> "Vita of Kiros"</ab>
              
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Mary, John the Baptist, Gabriel, ʾArägawi.</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, 
+                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>.</ab>
                </note>
             </place>
          </listPlace>

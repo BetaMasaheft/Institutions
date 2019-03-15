@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church dabr" subtype="institution">
                <placeName>Taḥtay Ruba Maryam</placeName>
                <placeName type="alt">Däbrä Bǝrhan Qǝddǝst Maryam Taḥtay Ruba</placeName>
                <country>Ethiopia</country>
@@ -60,9 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   
-                  <ab type="history">Däbr. &#xD;
-Currently there are three churches at the site: a small church of St. Mary on the peak of the rock (visible from Sǝddäyto, SGM), an older and a recent churches below in the compound. Pre-historic rock paintings have been discovered in the vicinity of the site. &#xD;
-Tābots (said to be 6 but only 3 were recalled): Mary, one marble with many names inscribed, Gabriel.</ab>
+                  <ab type="history">Dabr. &#xD;
+Currently there are three churches at the site: a small church of St. Mary on the peak of the rock (visible from Sǝddäyto, SGM), an older and a recent churches below in the compound. Pre-historic rock paintings have been discovered in the vicinity of the site. &#xD;</ab>
+                  <ab type="tabot"><measure quantity="6"/>Tābots (said to be 6 but only 3 were recalled): 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>, one marble with many names inscribed, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>.</ab>
                   <ab type="description">27 Mss. photographed: <ref type="mss" corresp="EStrm001">TRM-001</ref> “The Faith of the Fathers”; <ref type="mss" corresp="EStrm002">TRM-002</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="EStrm003">TRM-003</ref> “Miracles of Mary”; <ref type="mss" corresp="EStrm004">TRM-004</ref> “Four Gospel, Golden Gospel”; <ref type="mss" corresp="EStrm005">TRM-005</ref> “Missal”; <ref type="mss" corresp="EStrm006">TRM-006</ref> “Miracles of the Trinity”; <ref type="mss" corresp="EStrm007">TRM-007</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="EStrm008">TRM-008</ref> “Psalter”; <ref type="mss" corresp="EStrm009">TRM-009</ref> “Psalter incomplete at the beginning.”; <ref type="mss" corresp="EStrm010">TRM-010</ref> “Vita of Abunä Arägawi/ Vita Gäbrä Krǝstos”; <ref type="mss" corresp="EStrm011">TRM-011</ref> “Vita of Abunä Arägawi/ Vita Gäbrä Krǝstos”; <ref type="mss" corresp="EStrm012">TRM-012</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="EStrm013">TRM-013</ref> “Miracles of Mary/ Miracles of Jesus”; <ref type="mss" corresp="EStrm014">TRM-014</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="EStrm015">TRM-015</ref> “Miracles of Jesus”; <ref type="mss" corresp="EStrm016">TRM-016</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="EStrm017">TRM-017</ref> “Hymns of Mäwasʿǝt”; <ref type="mss" corresp="EStrm018">TRM-018</ref> “Collection of Mälkǝʿ-Poetry”; <ref type="mss" corresp="EStrm019">TRM-019</ref> “Homily on the Sabbath of Christians”; <ref type="mss" corresp="EStrm020">TRM-020</ref> “The Book of Qedar”; <ref type="mss" corresp="EStrm021">TRM-021</ref> “Homily on Gabriel”; <ref type="mss" corresp="EStrm022">TRM-022</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="EStrm023">TRM-023</ref> “Vita of Mäzgäbä Śǝllase”; <ref type="mss" corresp="EStrm024">TRM-024</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="EStrm025">TRM-025</ref> “Homily of Ṣǝyon”; <ref type="mss" corresp="EStrm026">TRM-026</ref> “Synaxarion (September - February)”; <ref type="mss" corresp="EStrm027">TRM-027</ref> “Prayer of Incense”.</ab>
          
                </note>

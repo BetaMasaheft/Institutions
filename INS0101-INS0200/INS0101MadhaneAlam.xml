@@ -47,7 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="library" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Madḫāne ʿĀlam </placeName>
-               <placeName corresp="#n1" type="alt">Medhane Alem</placeName>
+               <placeName corresp="#n1" type="alt">Maqdala Medhane Alem</placeName>
                <placeName corresp="#n1" xml:lang="en">Saviour of the World</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>

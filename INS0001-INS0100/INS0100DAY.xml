@@ -77,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">8 Mss. photographed: <ref type="mss" corresp="ESday001">DAY-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESday002">DAY-002</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESday003">DAY-003</ref> "Four Gospels"; <ref type="mss" corresp="ESday004">DAY-004</ref> "Psalter"; <ref type="mss" corresp="ESday005">DAY-005</ref> "Psalter"; <ref type="mss" corresp="ESday006">DAY-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESday007">DAY-007</ref> "Vita of Yasay"; <ref type="mss" corresp="ESday008">DAY-008</ref> "Vita of Yasay"</ab>
 
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of <persName ref="PRS10253Yasay">ʾabuna Yāsāy</persName>, <ref type="authFile" corresp="Amanuel">ʾAmanuʾel</ref>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS10253Yasay">ʾabuna Yāsāy</persName>, <ref type="authFile" corresp="Amanuel">ʾAmānuʾel</ref>, 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
                </note>
             </place>
          </listPlace>

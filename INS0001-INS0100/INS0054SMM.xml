@@ -91,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="tabot">
                      <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS6298Libanos" type="tabot">Maṭṭāʿ/Libānos</persName>, 
                      <persName ref="PRS1906Ananyao" type="tabot">ʾAnānyā</persName>, <persName ref="PRS10408Yohanne" type="tabot">Yoḥānnǝs Kamā</persName>, 
-                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS3249Cyriacus">Qirqos</persName>.</ab>
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>.</ab>
                </note>
             </place>
          </listPlace>

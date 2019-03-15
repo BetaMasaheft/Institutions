@@ -83,7 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
-                     <persName ref="PRS3249Cyriacus">Qirqos</persName>, <ref type="authFile" corresp="Masqal">Cross</ref> (the main one).</ab>
+                     <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>, <ref type="authFile" corresp="Masqal">Cross</ref> (the main one).</ab>
                </note>
                <listBibl type="secondary">
                   

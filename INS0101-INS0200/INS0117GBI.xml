@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gwaḥgot ʾIyäsus</title>
+            <title>Gwāḥgot ʾIyasus</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Gwaḥgot ʾIyäsus</placeName>
-               <placeName type="alt">Däbrä Ṣǝge ʾIyäsus Gwaḥgot</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-01" to="2010-12-01">wäräda Ganta Afäšum, ṭabiya Gwaḥgot, qušät Betä ʾIyäsus</settlement>
+            <place type="church  dabr" subtype="institution">
+
+
+               <placeName xml:id="n1" xml:lang="gez">ጓሕጎት፡ ኢየሱስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gwāḥgot ʾIyasus</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ጽጌ፡ ኢየሱስ፡ ጓሕጎት፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Ṣǝge ʾIyasus Gwāḥgot</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-01"/>  
+               <settlement ref="LOC7181Gwahgot" type="tabiya" when="2010-12-01"/>
+
+               <settlement from="2010-12-01" to="2010-12-01" ref="LOC7182BetaIyasus" type="qushat"/>
                <location>
                   <geo>14.1728 39.4906</geo>
                   <height unit="m">2.607</height>
@@ -60,11 +71,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1400">1400-1400</date>
                   
-                  <ab type="history">Däbr. Up to 7 small churches under the authority of Gwaḥgot ʾIyäsus, the old rock-hewn church, are scattered around. One more church is the old church dedicated to the Three Youths (Sälästu däqiq). &#xD;
-Tābots (3 + 6): Jesus, Michael, Gabriel; some of the tabots kept in other churches are 2 of Mary, Mädḫane ʿAläm, George, ʾArägawi.</ab>
+                  <ab type="history">Dabr. Up to 7 small churches under the authority of Gwāḥgot ʾIyasus, the old rock-hewn church, are scattered around. 
+                     One more church is the old church dedicated to the <persName ref="PRS11288AnAzMi" type="tabot">Three Youths (Salastu daqiq)</persName>. &#xD;
+                     </ab>
                   <ab type="description">13 Mss., objects photographed: <ref type="mss" corresp="ESgbi001">GBI-001</ref> "Four Gospels"; <ref type="mss" corresp="ESgbi002">GBI-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgbi003">GBI-003</ref> "Collection of Liturgical Texts"; <ref type="mss" corresp="ESgbi004">GBI-004</ref> "Psalter"; <ref type="mss" corresp="ESgbi005">GBI-005</ref> "Five Pillars of the Mystery"; <ref type="mss" corresp="ESgbi006">GBI-006</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESgbi007">GBI-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgbi008">GBI-008</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESgbi009">GBI-009</ref> "Missal"; <ref type="mss" corresp="ESgbi010">GBI-010</ref> "Homily of the Saviour of the World "; <ref type="mss" corresp="ESgbi011">GBI-011</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgbi012">GBI-012</ref> "Missal"; <ref type="mss" corresp="ESgbi013">GBI-013</ref> "Homily of the Saviour of the World"</ab>
-        
-               </note>
+                  <ab type="tabot">       
+                     <measure quantity="9"/>           Tābots (3 + 6): <persName ref="PRS5684JesusCh">Jesus</persName>, 
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>; 
+                     some of the tābots kept in other churches are 2 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
+                     <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>.
+</ab>               </note>
             </place>
          </listPlace>
       </body>

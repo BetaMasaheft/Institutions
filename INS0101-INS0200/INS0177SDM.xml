@@ -42,12 +42,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-26">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church dabr" subtype="institution">
                <placeName>Soṭa Däbrä Sälam Qǝddus Mikaʾel</placeName>
                <placeName type="alt">Soṭa Däbrä Sälam Qǝddus Mikaʾel Mädḫane ʿAläm / Soṭa Mikaʾel</placeName>
                <country>Ethiopia</country>
@@ -60,12 +61,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Local tradition tells that the church was founded in the time of King Zarʾa Yāʿqob (r. 1434-68).</desc>
-                  <ab type="history">Däbr. There are one recently built and one older round church at the site. &#xD;
+                  <ab type="history">Dabr. There are one recently built and one older round church at the site. &#xD;
 </ab>
                   <ab type="description">23 Mss. photographed:<ref type="mss" corresp="ESsdm001">SDM-001</ref> "Four Gospels";  <ref type="mss" corresp="ESsdm001">SDM-001</ref>a "Collection of Marain prayers"; <ref type="mss" corresp="ESsdm002">SDM-002</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESsdm003">SDM-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESsdm003">SDM-003</ref>a "The Miracles of St. Michael, The Miracles of Gäbrä Mänfäs Qǝddus, etc."; <ref type="mss" corresp="ESsdm004">SDM-004</ref> "Missal"; <ref type="mss" corresp="ESsdm005">SDM-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsdm006">SDM-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESsdm007">SDM-007</ref> "Barǝkännä Ǝgziʾnä, Mäṣḥafä Aslǝṭi"; <ref type="mss" corresp="ESsdm008">SDM-008</ref> "Missal"; <ref type="mss" corresp="ESsdm009">SDM-009</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESsdm010">SDM-010</ref> "Synaxarion (second half of the year)"; <ref type="mss" corresp="ESsdm011">SDM-011</ref> "The Book of the Rite of the Passion Week"; <ref type="mss" corresp="ESsdm012">SDM-012</ref> "The Prayer of the Incense"; <ref type="mss" corresp="ESsdm013">SDM-013</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESsdm014">SDM-014</ref> "Synaxarion (first half of the year)"; <ref type="mss" corresp="ESsdm015">SDM-015</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsdm016">SDM-016</ref> "The Book of Aslǝṭi"; <ref type="mss" corresp="ESsdm017">SDM-017</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESsdm018">SDM-018</ref> "The Five Pillars of Mystery"; <ref type="mss" corresp="ESsdm019">SDM-019</ref> "Collection of Mälkǝʿ and other Texts"; <ref type="mss" corresp="ESsdm020">SDM-020</ref> "The Loosening of the Spell"; <ref type="mss" corresp="ESsdm021">SDM-021</ref> "Collection of protective prayers"; <ref type="mss" corresp="ESsdm022">SDM-022</ref> "The Bandlet of Righteousnes"</ab>
            
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Mädḫane ʿAläm, Michael, George.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>.</ab>
                </note>
             </place>
          </listPlace>

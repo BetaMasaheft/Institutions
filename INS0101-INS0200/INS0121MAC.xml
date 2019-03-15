@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">7 Mss. photographed, objects: <ref type="mss" corresp="ESmac001">MAC-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmac002">MAC-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmac003">MAC-003</ref> "Four Gospels"; <ref type="mss" corresp="ESmac004">MAC-004</ref> "Missal"; <ref type="mss" corresp="ESmac005">MAC-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmac006">MAC-006</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmac007">MAC-007</ref> "The Book of the Funeral Rite"</ab>
      
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, Gäbrä Mänfäs Qǝddus.</ab>
                </note>
             </place>
          </listPlace>

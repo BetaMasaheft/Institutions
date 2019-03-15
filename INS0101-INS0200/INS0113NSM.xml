@@ -42,30 +42,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-11">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">updated location name tabot links</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Nǝḥbi Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Däbrä Sälam  Qǝddus Mikaʾel Nǝḥbi</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-11-25" to="2010-11-26">wäräda Ganta Afäšum, ṭabiya Bukot, qušät Nǝḥbi</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               
+               <placeName xml:lang="gez" xml:id="n1">ንሕቢ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Nǝḥbi Qǝddus Mikāʾel</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ሰላም፡ ቅዱስ፡ ሚካኤል፡ ንሕቢ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Salām  Qǝddus Mikāʾel Nǝḥbi</placeName>
+
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-11-25" to="2010-11-26"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2010-11-25" to="2010-11-26" type="tabiya" ref="LOC7168Bukot"></settlement>
+               <settlement from="2010-11-25" to="2010-11-26"
+                  type="qushat"
+                  ref="LOC4986Nehbi"/>
+               
+
                <location>
                   <geo>14.262 39.487683</geo>
                   <height unit="m">2510.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">The church may be an Aksumite foundation. Aksumite remains (a massive stone bowl, pillar) are found in the church compound. Local tradition does not specify the time of the foundation, but tells that Yǝsḥaq, the founder of Gundä Gunde and adherent of the Stephanite movement, established the monastic community at the church of Nǝḥbi before going to the area where he founded later Gundä Gunde (The Vita of Yǝsḥaq tells only that he was a native of Nəḥbä in ʿAgamä). As other churches and monasteries of the area, the monastic community of Nǝḥbi was favored by däğğazmač Subagadis Wäldu, in the early 19th cent., but it declined in the early 20th cent.  During the Italian period another church dedicated to Zärʾa Buruk was established nearby under the administration of Nǝḥbi Mikaʾel, but it declined in the early 20th cent.</desc>
-                  <ab type="history">Gädam. It is considered a monastery, but currently there are no monks.&#xD;
+                  <desc type="foundation">The church may be an Aksumite foundation. Aksumite remains (a massive stone bowl, pillar) are found in the church compound. 
+                     Local tradition does not specify the time of the foundation, but tells that <persName ref="PRS10340Yeshaq">Yǝsḥaq</persName>, the founder of <placeName ref="INS0005Gund">Gunda Gunde</placeName> and adherent of the Stephanite movement, 
+                     established the monastic community at the church of Nǝḥbi before going to the area where he founded later <placeName ref="INS0005Gund">Gunda Gunde</placeName> (The <ref type="work" corresp="LIT4810GadlaYe">Vita of Yǝsḥaq</ref> tells 
+                     only that he was a native of Nəḥba in ʿAgāma). 
+                     As other churches and monasteries of the area, the monastic community of 
+                     Nǝḥbi was favored by <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName>, in the early 19th cent., but it declined in the early 20th cent.  
+                     During the Italian period another church dedicated to <persName ref="PRS10618ZaraB" type="tabot">Zarʾā Buruk</persName> was established nearby under the administration of Nǝḥbi Mikāʾel, but it declined in the early 20th cent.</desc>
+                  <ab type="history">Gadām. It is considered a monastery, but currently there are no monks.&#xD;
 </ab>
                   <ab type="description">18 Mss. photographed: <ref type="mss" corresp="ESnsm001">NSM-001</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESnsm002">NSM-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESnsm003">NSM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESnsm004">NSM-004</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESnsm005">NSM-005</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESnsm006">NSM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESnsm007">NSM-007</ref> "Miracles of Mary"; <ref type="mss" corresp="ESnsm008">NSM-008</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESnsm009">NSM-009</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESnsm010">NSM-010</ref> "Missal"; <ref type="mss" corresp="ESnsm011">NSM-011</ref> "Prayer of Incense"; <ref type="mss" corresp="ESnsm012">NSM-012</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESnsm013">NSM-013</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESnsm014">NSM-014</ref> "Missal"; <ref type="mss" corresp="ESnsm015">NSM-015</ref> "Vita of Zarʾa Buruk"; <ref type="mss" corresp="ESnsm016">NSM-016</ref> "Missal"; <ref type="mss" corresp="ESnsm017">NSM-017</ref> "Vita of Kiros"; <ref type="mss" corresp="ESnsm018">NSM-018</ref> "Prayer of Mary". Objects.</ab>
        
                   <ab type="tabot">
-                     <measure quantity="5"/>Tābots of Minas (marble), two of Michael, Bäʾata Maryam (?), Zarʾa Buruk (in additional small church).</ab>
+                     <measure quantity="5"/>Tābots of <persName ref="PRS7000MenasM" type="tabot">Minās</persName> (marble), two of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Baʾata Māryām</persName> (?), 
+                     <persName ref="PRS10618ZaraB" type="tabot">Zarʾā Buruk</persName> (in additional small church).</ab>
                </note>
             </place>
          </listPlace>
