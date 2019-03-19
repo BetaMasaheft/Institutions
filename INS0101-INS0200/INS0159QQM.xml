@@ -43,26 +43,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddi Qiyaḥto Qǝddǝst Maryam</placeName>
-               <placeName type="alt">ʿAddi Qiyaḥto Maryam</placeName>
-               <placeName type="alt">Qǝddǝst Maryam Kudo Ḥawwǝs ʿAddi Qiyaḥto</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-24" to="2011-05-24">wäräda Gulo Mäkäda, ṭabiya Qälʿat, qušät ʿAddi Qiyaḥto</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ቂያሕቶ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddi Qiyāḥto Qǝddǝst Māryām</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ዓዲ፡ ቂያሕቶ፡ ማርያም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">ʿĀddi Qiyāḥto Māryām</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ቅድስት፡ ማርያም፡ ኩዶ፡ ሐውስ፡ ዓዲ፡ ቂያሕቶ፡ </placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Qǝddǝst Māryām Kudo Ḥawwǝs ʿĀddi Qiyāḥto</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2011-05-24" to="2011-05-24"/>
+               <settlement ref="LOC7213Qalat" type="tabiya" from="2011-05-24" to="2011-05-24"/>
+               <settlement from="2011-05-24" to="2011-05-24" type="qushat" ref="LOC7212Qiyahto"/>
                <location>
                   <geo>14.427111 39.451083</geo>
                   <height unit="m">2233.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition claims that the sanctuary existed at the site before the advent of Christianity; the church is saind to have been founded by King Gäbrä Mäsqäl.</desc>
-                  <ab type="history">Däbr. Formerly a monastic community might have resided at the site. &#xD;
+                  <desc type="foundation">Local tradition claims that the sanctuary existed at the site before the advent of Christianity; the church is saind to have been founded by <placeName ref="PRS4327GabraMa">King Gabra Masqal</placeName>.</desc>
+                  <ab type="history">Dabr. Formerly a monastic community might have resided at the site. &#xD;
 </ab>
                   <ab type="description">20 Mss. photographed: <ref type="mss" corresp="ESqqm001">QQM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESqqm002">QQM-002</ref> "Praise of God"; <ref type="mss" corresp="ESqqm003">QQM-003</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESqqm004">QQM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqqm005">QQM-005</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESqqm006">QQM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqqm007">QQM-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESqqm008">QQM-008</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqqm009">QQM-009</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqqm010">QQM-010</ref> "Psalter"; <ref type="mss" corresp="ESqqm011">QQM-011</ref> "The Book of Gǝṣṣǝw"; <ref type="mss" corresp="ESqqm012">QQM-012</ref> "Psalter"; <ref type="mss" corresp="ESqqm013">QQM-013</ref> "Psalter"; <ref type="mss" corresp="ESqqm014">QQM-014</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESqqm015">QQM-015</ref> "1) The Praise of Mary 2) Missal"; <ref type="mss" corresp="ESqqm016">QQM-016</ref> "Psalter"; <ref type="mss" corresp="ESqqm017">QQM-017</ref> "Missal"; <ref type="mss" corresp="ESqqm018">QQM-018</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqqm019">QQM-019</ref> "Image of St. George"; <ref type="mss" corresp="ESqqm020">QQM-020</ref> "Collection of Mälkǝʾ-hymns".</ab>
            

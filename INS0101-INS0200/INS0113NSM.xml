@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement from="2010-11-25" to="2010-11-26"
                   type="warada"
                   ref="LOC3293GantaA"/>
-               <settlement from="2010-11-25" to="2010-11-26" type="tabiya" ref="LOC7168Bukot"></settlement>
+               <settlement from="2010-11-25" to="2010-11-26" type="tabiya" ref="LOC7204Bekot"></settlement>
                <settlement from="2010-11-25" to="2010-11-26"
                   type="qushat"
                   ref="LOC4986Nehbi"/>

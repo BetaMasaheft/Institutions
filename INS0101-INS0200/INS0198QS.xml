@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qälaqǝl Maryam Ṣǝyon</title>
+            <title>Qalāqǝl Māryām Ṣǝyon</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,18 +43,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
-               <placeName>Qälaqǝl Maryam Ṣǝyon</placeName>
-               <placeName type="alt">Ṣǝyon Maryam Qälaqǝl</placeName>
-               <placeName type="alt">Qälaqǝl Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-02" to="2011-12-02">wäräda Sāʿsi Ṣaʿdā ʾƎmbā LOC7175Sasi, ṭabiya Wälwalo, qušät Qälaqǝl</settlement>
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ቀላቅል፡ ማርያም፡ ጽዮን ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Qalāqǝl Māryām Ṣǝyon</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ጽዮን ፡ ማርያም፡ ቀላቅል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Ṣǝyon Māryām Qalāqǝl</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ቀላቅል፡ ማርያም ፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Qalāqǝl Māryām</placeName>            
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-12-02" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-12-02" ref="LOC7191Walwalo" type="tabiya"/>
+               <settlement when="2011-12-02" ref="LOC7194Qalaqel" type="qushat"/>
+               
+
                <location>
                   <geo>14.234367 39.640233</geo>
                   <height unit="m">2900.0</height>

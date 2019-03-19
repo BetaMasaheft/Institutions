@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥangoda Däbrä Mǝḥrät Qǝddus Mikaʾel</title>
+            <title>Ḥangodā Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,17 +43,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">adjusted tabot</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
-               <placeName>Ḥangoda Däbrä Mǝḥrät Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Ḥangoda Qǝddus Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-05" to="2011-12-05">wäräda Saʿsi Ṣaʿda ʾƎmba = LOC7175Sasi, ṭabiya Ḥangoda, qušät Ḥangoda</settlement>
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ሐንጎዳ፡ ደብረ፡ ምሕረት፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥangodā Dabra Mǝḥrat Qǝddus Mikāʾel</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ሐንጎዳ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Ḥangodā Qǝddus Mikāʾel</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-11-30" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-11-30" ref="LOC7192Hangoda" type="tabiya"/>
+               <settlement when="2011-11-30" ref="LOC7193Hangoda" type="qushat"/>
+    
+  
+
                <location>
                   <geo>14.12015 39.547767</geo>
                   <height unit="m">2439.0</height>

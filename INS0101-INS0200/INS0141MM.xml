@@ -42,18 +42,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
-         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>         
+         <change when="2019-03-19" who="ES">adjusted name location </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery gatar" subtype="institution">
+            <place type="church dabr" subtype="institution">                         
                
-               <placeName type="alt">Qǝddǝst Maryam Mäkan</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ማርያም፡ ማይ፡ አብአ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Māryām Makān</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ብርሃን፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Qǝddǝst Māryām Makān</placeName>
+               
+
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2011-05-19"/>  
+               <settlement ref="LOC7204Bekot" type="tabiya" when="2011-05-19"/>
+               
+               <settlement from="2011-05-19" to="2011-05-19" ref="LOC7210MayAba" type="qushat"/>
+               
+               
+               
+               <location>
+                  <geo>14.256283 39.460617</geo>
+                  <height unit="m">2.465</height>
+               </location>
+               
+               
                <country>Ethiopia</country>
                <region>Tǝgray</region>
-               <settlement from="2011-05-11" to="2011-05-11">Ganta ʾAfäšum wäräda, ṭabiya  May ʾAbʾa Nǝḥbi, qušät Bǝkot</settlement>
+               <settlement from="2011-05-11" to="2011-05-11">Ganta ʾAfäšum wäräda, ṭabiya  Māy ʾĀbʾā Nǝḥbi, qušät Bǝkot</settlement>
                <location>
                   <geo>14.266111 39.443861</geo>
                   <height unit="m">2527.0</height>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam</title>
+            <title>Qiʿāt Dabra Ṣǝyon Qǝddǝst Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,17 +43,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
-               <placeName>Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Däbrä Ṣǝyon Qǝddǝst Maryam Qiʿat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-02" to="2010-12-02">wäräda Ganta ʾAfäšum, ṭabiya ʾAzäba, qušät Qiʿat</settlement>
+               
+               
+               
+               <placeName xml:lang="gez" xml:id="n1">ቂዓት፡ ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Qiʿāt Dabra Ṣǝyon Qǝddǝst Māryām</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡ ቂዓት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Ṣǝyon Qǝddǝst Māryām Qiʿāt</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2010-12-06" to="2010-12-06" type="tabiya" ref="LOC7218Azaba"></settlement>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="qushat"
+                  ref="LOC7219Qiat"/>
+               
+
+
                <location>
                   <geo>14.178333 39.383556</geo>
                   <height unit="m">2433.0</height>

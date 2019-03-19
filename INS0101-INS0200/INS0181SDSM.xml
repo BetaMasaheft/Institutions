@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säwnä Maryam</title>
+            <title>Sawna Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,17 +43,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">corrected tabots</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Säwnä Maryam</placeName>
-               <placeName type="alt">Däbrä Gännät Maryam Säwnä</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-29" to="2011-11-29">wäräda Saʿsiʿ Ṣäʿada ʾƎmba LOC7175Sasi, ṭabiya Säwnä, qušät Säwnä</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ሰውነ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sawna Māryām</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ደብረ፡ ገነት ፡ ማርያም፡ ሰውነ፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Dabra Gannat Māryām Sawna</placeName>
+          
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-12-02" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-12-02" ref="LOC7195Sawna" type="tabiya"/>
+               <settlement when="2011-12-02" ref="LOC7196Sawna" type="qushat"/>
+               
+               
                <location>
                   <geo>14.2899 39.716233</geo>
                   <height unit="m">2282.0</height>

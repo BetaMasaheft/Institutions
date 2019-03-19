@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church dabr" subtype="institution">
                <placeName xml:id="n1" xml:lang="gez">ጎልዐ፡ ደብረ፡ ብርሃን፡ ዮሐንስ፡ </placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Golʿa Dabra Bǝrhān Yoḥannǝs </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Golʿa Dabra Bǝrhān Yoḥannǝs</placeName>
                <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ብርሃን፡ ቅዱስ፡ ዮሐንስ፡ ጎልዐ፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Bǝrhān Qǝddus Yoḥannǝs Golʿa</placeName>
                

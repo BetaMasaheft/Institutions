@@ -43,26 +43,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-18" who="ES">adjusted name location </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Māy ʾAnbasā Dabra Gannat Kidānä Mǝḥrat</placeName>
-               <placeName type="alt">Māy ʾAnbasā Kidānä Mǝḥrat</placeName>
-               <placeName type="alt">Māy ʾAnbasā </placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-27" to="2011-05-27">waradā ʾƎndartā,  ṭābiyā Māy ʾAnbasā, qušat Māy Mǝʾri</settlement>
+            <place type="church monastery gadam" subtype="institution">                         
+               
+               <placeName xml:id="n1" xml:lang="gez">ሶጣ፡ ደብረ፡ ሰላም፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Māy ʾAnbasā Dabra Gannat Kidānä Mǝḥrat</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ሶጣ፡ ደብረ፡ ሰላም፡ ቅዱስ፡ ሚካኤል፡ መድኃኔ፡ ዓለም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Māy ʾAnbasā Kidānä Mǝḥrat</placeName>
+               
+               <placeName xml:id="n3" xml:lang="gez">ሶጣ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Māy ʾAnbasā</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC2947Endart" type="warada" when="2011-05-27"/>  
+               <settlement ref="LOC4656MayAnb" type="tabiya" when="2011-05-27"/>
+               
+               <settlement when="2011-05-27" ref="LOC7207MayMeri" type="qushat"/>
+
+
+               
                <location>
                   <geo>13.525948 39.385106</geo>
                   <height unit="m">1.943</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">Local tradition tells that the monastery was founded in the time of ʿAmdä Ṣǝyon (r. 1318-48) by ʾabunä ʾAbrǝham of Qata (the founder of Koholo Yoḥannǝs).</desc>
-                  <ab type="history">Gädam. At least 10 monks resided in the monastery at the moment of the visit. A nunnery ʾƎnda Maḥṣun, dedicated to ʾabunä Maḥṣäntä Maryam, is located further down the valley of river Gǝwa. Ruins of other structures (churches or dwellings of monks?) are visible along the river valley. &#xD;
+                  <desc type="foundation">Local tradition tells that the monastery was founded in the time of <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon</persName> (r. <date>1318-1348</date>) by ʾabuna <persName ref="PRS1296Abreham" type="tabot">Abrǝhām (of Qata)</persName> 
+                     (the founder of <placeName ref="INS0171KY">Koholo Yoḥannǝs</placeName>).</desc>
+                  <ab type="history">Gadām. At least 10 monks resided in the monastery at the moment of the visit. 
+                     A nunnery <placeName ref="LOC2910EndaMa">ʾƎndā Māḥṣun</placeName>, dedicated to <persName ref="PRS6524Mahsanta" type="tabot">Māḥṣanta Māryām</persName>, is located further down the valley of river <placeName ref="LOC7208Gewa">Gǝwā</placeName>. 
+                     Ruins of other structures (churches or dwellings of monks?) are visible along the river valley. &#xD;
                   </ab>
                   <ab type="tabot">Tābots: large unidentified number, including 
                      <persName ref="PRS10618ZaraB" type="tabot">Zarʾa Buruk</persName>, <persName ref="PRS6524Mahsanta" type="tabot">Māḥṣanta Māryām</persName>, <persName ref="PRS1296Abreham" type="tabot">Abrǝhām (of Qata)</persName> 

@@ -43,17 +43,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">corrected tabot</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery gatar" subtype="institution">
-               <placeName>Manawat Qǝddus Giyorgis</placeName>
-               <placeName type="alt">Manawat Qǝddus Giyorgis ʾƎndā Māryām</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2015-11-28" to="2015-11-28">waradā Sāʿsi Ṣāʿdā ʾƎmbā, ṭabiya Qoma Sǝwhā, qušat Manawat</settlement>
+            <place type="church gatar" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">መነወት፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Manawat Qǝddus Giyorgis</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">መነወት፡ ቅዱስ፡ ጊዮርጊስ፡ እንዳ፡ ማርያም፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Manawat Qǝddus Giyorgis ʾƎndā Māryām</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2015-11-28" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2015-11-28" ref="LOC7199Qoma" type="tabiya"/>
+               <settlement when="2015-11-28" ref="LOC7200Manawat" type="qushat"/>
+               
+
                <location>
                   <geo>14.255333 39.551017</geo>
                   <height unit="m">2626.0</height>

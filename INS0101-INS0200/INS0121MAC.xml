@@ -42,30 +42,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Ḉähat Mädḫane ʿAläm</placeName>
-               <placeName type="alt">Mädḫane ʿAläm Ḉäḥat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-06" to="2010-12-06">wäräda Ganta Afäšum, ṭabiya Bäʿatti May Mäsanu, qušät Ḉäḥat</settlement>
+            <place type="church gatar" subtype="institution">
+               
+               
+               
+               <placeName xml:lang="gez" xml:id="n1">ጨሃት፡ መድኃኔ፡ ዓለም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Č̣ahāt Madḫāne ʿĀlam</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">መድኃኔ፡ ዓለም፡ ጨሃት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Madḫāne ʿĀlam Č̣ahāt</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2010-12-06" to="2010-12-06" type="tabiya" ref="LOC7183Baatti"></settlement>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="qushat"
+                  ref="LOC7217Cahat"/>
+
+
                <location>
                   <geo>14.31276 39.428084</geo>
                   <height unit="m">2495.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition claims foundation by ʾAksumite king Säʿaldoba.</desc>
-                  <ab type="history">Gäṭär. In 2010-11 the church was in the process of reconstruction; a small temporary building was used to house the tabot; a new building in front of it was under construction.&#xD;
+                  <desc type="foundation">Local tradition claims foundation by ʾAksumite <persName ref="PRS8261Saaldob">King Saʿāldobā</persName> (<date>0400-0450</date>?).</desc>
+                  <ab type="history">Gaṭar. In <date>2010-2011</date> the church was in the process of reconstruction; a small temporary building was used to house the tabot; a new building in front of it was under construction.&#xD;
 </ab>
                   <ab type="description">7 Mss. photographed, objects: <ref type="mss" corresp="ESmac001">MAC-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmac002">MAC-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmac003">MAC-003</ref> "Four Gospels"; <ref type="mss" corresp="ESmac004">MAC-004</ref> "Missal"; <ref type="mss" corresp="ESmac005">MAC-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmac006">MAC-006</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmac007">MAC-007</ref> "The Book of the Funeral Rite"</ab>
      
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, Gäbrä Mänfäs Qǝddus.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>.</ab>
                </note>
             </place>
          </listPlace>

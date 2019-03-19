@@ -43,17 +43,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location spelling</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
-               <placeName>Däbrä Mäʿar Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Mǝʿǝrafä Qǝddusan Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-03" to="2010-12-03">wäräda Ganta ʾAfäšum, ṭabiya Ḥadǝnnät, qušät Däbrä Mäʿar</settlement>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ መዓር፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Maʿār Qǝddǝst Māryām</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ምዕራፈ፡ ቅዱሳን፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Mǝʿǝrāfa Qǝddusān Qǝddǝst Māryām</placeName>
+               
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-03"/>  
+               <settlement ref="LOC7201Hadennat" type="tabiya" when="2010-12-03"/>
+               <settlement ref="LOC7222DabraMaar" type="qushat" from="2010-12-03" to="2010-12-03"/>
                <location>
                   <geo>14.186783 39.39175</geo>
                   <height unit="m">2594.0</height>
@@ -62,7 +71,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation">According to locat tradition, the religious site existed before the advent of Christianity.</desc>
                   <ab type="history">Gadam. The monastic community declined. Only one monk (a native of Goğğam) was residing at the upper church in 2010). &#xD;
-The site accomodates two churches: the upper (2665 m ASL), smaller and older church is dedicated to St. Gäbrä Mänfäs Qǝddus (called ʿOna Maʿṣo); the church below (Däbrä Mäʿar), big and recent, is dedicated to  St. Mary.&#xD;
+                     The site accomodates two churches: the upper (2665 m ASL), smaller and older church is dedicated to <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName> (called ʿOnā Māʿṣo); 
+                     the church below (Dabra Maʿār), big and recent, is dedicated to  <persName ref="PRS6819Mary" type="tabot">St Mary</persName>.&#xD;
 </ab>
                   <ab type="description">19 Mss. photographed: <ref type="mss" corresp="ESmqm001">MQM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmqm002">MQM-002</ref> "Four Gospels"; 
                      <ref type="mss" corresp="ESmqm003">MQM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmqm004">MQM-004</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESmqm005">MQM-005</ref> "Missal"; 
@@ -73,7 +83,8 @@ The site accomodates two churches: the upper (2665 m ASL), smaller and older chu
                      <ref type="mss" corresp="ESmqm018">MQM-018</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmqm019">MQM-019</ref> "Book of  ʾAsläṭi"</ab>
 
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots (at least 3): <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10618ZaraB" type="tabot">Zarʾa Buruk</persName> (possibly a few more).</ab>
+                     <measure quantity="3"/>Tābots (at least 3): <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10618ZaraB" type="tabot">Zarʾa Buruk</persName> (possibly a few more).</ab>
 
                </note>
             </place>

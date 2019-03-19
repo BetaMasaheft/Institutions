@@ -43,24 +43,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">names locations updated/completed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
-               <placeName>Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät </placeName>
-               <placeName type="alt">Däbrä Gännät Kidanä Mǝḥrät Mäḵodʿä</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-04" to="2010-12-04">wäräda Ganta Afäšum, ṭabiya Gullat, qušät Mäḵodʿä</settlement>
+               
+               <placeName xml:id="n1" xml:lang="gez">መኾድዐ፡ ደብረ፡ ገነት፡ ኪዳነ፡ ምሕረት፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Maḵodʿa Dabra Gannat Kidāna Mǝḥrat</placeName>
+               <placeName  xml:lang="gez" xml:id="n2">ደብረ፡ ገነት፡ ኪዳነ፡ ምሕረት፡ መኾድዐ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Gannat Kidāna Mǝḥrat Maḵodʿa</placeName>
+
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-04"/>
+               <settlement ref="LOC7220Gullat" type="tabiya" when="2010-12-04"/>
+               <settlement ref="LOC7221Makoda" type="qushat" when="2010-12-04"/>
+            
+
                <location>
                   <geo>14.189278 39.362222</geo>
                   <height unit="m">2370.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1600">1600-1600</date>
-                  <desc type="foundation">Possibly diring the time of King Lǝbnā Dǝngǝl (r. 1508-40), re-established late 17th or early 18th cent. 
+                  <desc type="foundation">Possibly diring the time of <persName ref="PRS6229LebnaDe">King Lǝbnā Dǝngǝl</persName> (r. <date>1508-1540</date>), re-established late 17th or early 18th cent. 
                      <persName ref="PRS6951Mazgaba">Mazgaba Śǝllāse</persName>, the late 17th - early 18th-cent. head of Gunda Gunde, played a role in the establishement of the local monastic community.</desc>
                   <ab type="history">Gadam. Some 10 monks were residing in the monastery at the time of the visit. &#xD;
                      </ab>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sǝddäyto Däbrä Gännät Mikaʾel</title>
+            <title>Sǝddayto Dabra Gannat Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,17 +43,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Sǝddäyto Däbrä Gännät Mikaʾel</placeName>
-               <placeName type="alt">Sǝddäyto Däbrä Gännät Qǝddus Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-09" to="2011-11-09">wäräda Gulo Mäkäda, ṭabiya Hagärä Sälam, qušät Sǝddäyto</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ስደይቶ፡ ደብረ፡ ገነት፡ ሚካኤል፡  </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sǝddayto Dabra Gannat Mikāʾel</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ስደይቶ፡ ደብረ፡ ገነት፡ ቅዱስ፡ ሚካኤል፡ </placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Sǝddayto Dabra Gannat Qǝddus Mikāʾel</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-09" to="2011-11-09"/>
+               <settlement ref="LOC3740Hagara" type="tabiya" from="2011-11-09" to="2011-11-09"/>
+               <settlement ref="LOC7211Seddayto" type="qushat" from="2011-11-09" to="2011-11-09"/>
+               
+
+               
                <location>
                   <geo>14.376767 39.4901</geo>
                   <height unit="m">2415.0</height>
@@ -61,8 +71,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   
-                  <ab type="history">Däbr. &#xD;
-Under the slope of the rock, there are remains of a small church (chapel?) and a typical burial (in a small cave, creened off by a small wall). From that place, one can see the upper church of Taḥtay Ruba Maryam (TRM) located on  the peak of the rock.&#xD;
+                  <ab type="history">Dabr. &#xD;
+                     Under the slope of the rock, there are remains of a small church (chapel?) and a typical burial (in a small cave, creened off by a small wall). From that place, one can see the upper church of <placeName ref="INS0179TRM">Tāḥtāy Rubā Māryām (TRM)</placeName> located on  the peak of the rock.&#xD;
 </ab>
                   <ab type="description">23 Mss. photographed: <ref type="mss" corresp="ESsgm001">SGM-001</ref> “Homily of St. Mary”; <ref type="mss" corresp="ESsgm002">SGM-002</ref> “Four Gospels”; <ref type="mss" corresp="ESsgm003">SGM-003</ref> “The Book of the Rite of the Passion Week”; <ref type="mss" corresp="ESsgm004">SGM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsgm005">SGM-005</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESsgm006">SGM-006</ref> “Story of the Trinity”; <ref type="mss" corresp="ESsgm007">SGM-007</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESsgm008">SGM-008</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESsgm009">SGM-009</ref> “Missal”; <ref type="mss" corresp="ESsgm010">SGM-010</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsgm011">SGM-011</ref> “The Dǝggwa of the Lent”; <ref type="mss" corresp="ESsgm012">SGM-012</ref> “Psalter”; <ref type="mss" corresp="ESsgm013">SGM-013</ref> “Pauline Epistles”; <ref type="mss" corresp="ESsgm014">SGM-014</ref> “Prayer of Incense”; <ref type="mss" corresp="ESsgm015">SGM-015</ref> “The Book of Baptism”; <ref type="mss" corresp="ESsgm016">SGM-016</ref> “Homily of the Life-Giver”; <ref type="mss" corresp="ESsgm017">SGM-017</ref> “Missal”; <ref type="mss" corresp="ESsgm018">SGM-018</ref> “The Vita and Miracles of Mäzgäbä Śǝllase”; <ref type="mss" corresp="ESsgm019">SGM-019</ref> “fols. <ref type="mss" corresp="ES5121">5-121</ref> Homily of Michael; fols. <ref type="mss" corresp="ES122153">122-153</ref> The Miracles of Samuʾel”; <ref type="mss" corresp="ESsgm020">SGM-020</ref> “Hymnary”; <ref type="mss" corresp="ESsgm021">SGM-021</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsgm022">SGM-022</ref> “Psalter”; <ref type="mss" corresp="ESsgm023">SGM-023</ref> “Miracles of Mary”.</ab>
         
