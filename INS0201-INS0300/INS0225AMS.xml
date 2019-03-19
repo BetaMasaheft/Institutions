@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAräbay Qǝddus Mikaʾel</title>
+            <title>ʿĀrabāy Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted spelling location tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAräbay Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">ʿAräbay Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-30" to="2012-05-30">wäräda Dägʿa Tämben, ṭabiya ʿAräbay, qušät ʿAräbay</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>ʿĀrabāy Qǝddus Mikāʾel </placeName>
+               <placeName type="alt">ʿĀrabāy Mikāʾel</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-05-30" to="2012-05-30" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-05-30" to="2012-05-30" ref="LOC7231Arabay" type="tabiya"></settlement>
+               <settlement from="2012-05-30" to="2012-05-30" ref="LOC7232Arabay" type="qushat"></settlement>
+              
                <location>
                   <geo>13.72155 39.267483</geo>
                   <height unit="m">2616.0</height>
@@ -65,7 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESams001">AMS-001</ref> “The Four Gospels”; <ref type="mss" corresp="ESams002">AMS-002</ref> “Synaxarium (the first half of the year)”; <ref type="mss" corresp="ESams003">AMS-003</ref> “Miracles of Maryam”; <ref type="mss" corresp="ESams004">AMS-004</ref> “The Book of the Espistle; Miracles of Jesus; Missal”; <ref type="mss" corresp="ESams005">AMS-005</ref> “Psalter”; <ref type="mss" corresp="ESams006">AMS-006</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESams007">AMS-007</ref> “Missal”; <ref type="mss" corresp="ESams008">AMS-008</ref> “Missal”; <ref type="mss" corresp="ESams009">AMS-009</ref> “Psalter”; <ref type="mss" corresp="ESams010">AMS-010</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESams011">AMS-011</ref> “The Book of  ʾAsläti”; <ref type="mss" corresp="ESams012">AMS-012</ref> “Miracles of Maryam”; <ref type="mss" corresp="ESams013">AMS-013</ref> “Prayer of Incense; The Book of Baptism”; <ref type="mss" corresp="ESams014">AMS-014</ref> “Pauline Epistles”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="6"/>Tābots of Mikaʾel, Trinity, Gäbrä Mänfäs Qǝddus, Täklä Haymanot, 24 Heavenly Priests, probably also Mary.</ab>
+                     <measure quantity="6"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, 
+                     <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>, probably also <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>
