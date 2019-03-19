@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAlʿasa Qǝddus Mikaʾel</title>
+            <title>ʾĀlʿāsā Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,30 +42,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted location name tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAlʿasa Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">ʾAlʿasa Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-30" to="2012-05-31">wäräda Dägʿa Tämben, ṭabiya ʾAynäbǝrkakän, qušät ʾAlʿasa</settlement>
+            <place type="church gatar" subtype="institution">
+
+               
+               <placeName xml:id="n1" xml:lang="gez">ኣልዓሳ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾĀlʿāsā Qǝddus Mikāʾel</placeName>
+               <placeName type="alt" xml:id="n2">ኣልዓሳ፡ ሚካኤል፡</placeName>
+               <placeName type="alt" corresp="#n2">ʾĀlʿāsā Mikāʾel</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-05-30" to="2012-05-31" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-05-30" to="2012-05-31" ref="LOC6966Aynaberkakan" type="tabiya"></settlement>
+               <settlement from="2012-05-30" to="2012-05-31" ref="LOC7228Alasa" type="qushat"></settlement>
+               
+
                <location>
                   <geo>13.689183 39.2751</geo>
                   <height unit="m">2367.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Possibly local people, the "children of ʾAlʿasa".</desc>
-                  <ab type="history">Gäṭär. &#xD;
+                  <desc type="foundation">Possibly local people, the "children of ʾĀlʿāsā".</desc>
+                  <ab type="history">Gaṭar. &#xD;
 </ab>
                   <ab type="description">21 Mss. photographed: <ref type="mss" corresp="ESammg001">AMMG-001</ref> ʺVita of Näʾakkwäto Läʾab Homily of St. Michaelʺ; <ref type="mss" corresp="ESammg002">AMMG-002</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESammg003">AMMG-003</ref> ʺThe Book of the Funeral Riteʺ; <ref type="mss" corresp="ESammg004">AMMG-004</ref> ʺMissalʺ; <ref type="mss" corresp="ESammg005">AMMG-005</ref> ʺ1) Epistles of st. Paul 2) Acts of Epistlesʺ; <ref type="mss" corresp="ESammg006">AMMG-006</ref> ʺPsalterʺ; <ref type="mss" corresp="ESammg007">AMMG-007</ref> ʺThe Book of the Funeral Riteʺ; <ref type="mss" corresp="ESammg008">AMMG-008</ref> ʺ1) Homily on the Sabbath (ascribed to Jacob of Sarugh)  2) Book of the Epistleʺ; <ref type="mss" corresp="ESammg009">AMMG-009</ref> ʺVita of Gäbrä Mänfäs Qǝddusʺ; <ref type="mss" corresp="ESammg010">AMMG-010</ref> ʺGospel of Johnʺ; <ref type="mss" corresp="ESammg011">AMMG-011</ref> ʺThe Miracles of Maryʺ; <ref type="mss" corresp="ESammg012">AMMG-012</ref> ʺDǝggwa for Lentʺ; <ref type="mss" corresp="ESammg013">AMMG-013</ref> ʺHomily of St. Michaelʺ; <ref type="mss" corresp="ESammg014">AMMG-014</ref> ʺMiracles of Jesusʺ; <ref type="mss" corresp="ESammg015">AMMG-015</ref> ʺThe Book of the Baptismal Ritualʺ; <ref type="mss" corresp="ESammg016">AMMG-016</ref> ʺMissalʺ; <ref type="mss" corresp="ESammg017">AMMG-017</ref> ʺZǝmmare and  Mäwaśǝʾtʺ; <ref type="mss" corresp="ESammg018">AMMG-018</ref> ʺPsalterʺ; <ref type="mss" corresp="ESammg019">AMMG-019</ref> ʺLectionary for the Weekʺ; <ref type="mss" corresp="ESammg020">AMMG-020</ref> ʺThe Disciplesʺ; <ref type="mss" corresp="ESammg021">AMMG-021</ref> ʺPsalterʺ</ab>
      
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Mikaʾel, Gäbrä Mänfäs Qǝddus, Mary.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

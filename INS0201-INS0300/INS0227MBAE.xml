@@ -58,9 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6965DagaTamben"></settlement>
-               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6966Aynaberkakan"></settlement>
-               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6967MayBaatti"></settlement>
+               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6966Aynaberkakan" type="tabiya"></settlement>
+               <settlement from="2012-05-28" to="2012-05-28" ref="LOC6967MayBaatti" type="qushat"></settlement>
                <location>
                   <geo>13.647583 39.219867</geo>
                   <height unit="m">2347.0</height>
