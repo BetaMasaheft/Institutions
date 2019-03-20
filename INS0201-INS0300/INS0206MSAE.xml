@@ -42,17 +42,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>May Ṣäʿada Śǝllase</placeName>
-               <placeName type="alt">May Ṣäʿada Qǝddǝst Śǝllase</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-12" to="2011-11-15">wäräda Gulo Mäkäda, ṭabiya May Ṣäʿada, qušät May Ṣäʿada</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Māy Ṣaʿādā Śǝllāse</placeName>
+               <placeName type="alt">Māy Ṣaʿādā Qǝddǝst Śǝllāse</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-12" to="2011-11-15"/>
+               <settlement ref="LOC7238MaySaadat " type="tabiya" from="2011-11-12" to="2011-11-15"/>
+               <settlement from="2011-11-12" to="2011-11-15" type="qushat" ref="LOC7239MaySaadaq "/>
+               
+               
                <location>
                   <geo>14.336167 39.4693</geo>
                   <height unit="m">2455.0</height>
@@ -60,13 +66,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   
-                  <ab type="history">Gädam. It is considered a monastic community, but there are no monks. There are two churches at the site, May Ṣäʿada Qǝddǝst Śǝllase and May Ṣäʿada ʾArbaʿtu ʾƎnsǝsa (above), and one more deserted church building (also above).&#xD;
+                  <ab type="history">Gadām. It is considered a monastic community, but there are no monks. There are two churches at the site, Māy Ṣaʿādā Qǝddǝst Śǝllāse and Māy Ṣaʿādā ʾĀrbāʿtu ʾƎnsǝsā (above), and one more deserted church building (also above).&#xD;
 </ab>
                   <ab type="description">26 Mss. and one scroll photographed: <ref type="mss" corresp="ESmsae001">MSAE-001</ref> “Four Gospels”; <ref type="mss" corresp="ESmsae002">MSAE-002</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESmsae003">MSAE-003</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESmsae004">MSAE-004</ref> “Four Gospels”; <ref type="mss" corresp="ESmsae005">MSAE-005</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESmsae006">MSAE-006</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESmsae007">MSAE-007</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESmsae008">MSAE-008</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESmsae009">MSAE-009</ref> “Homily on the Saviour of the World”; <ref type="mss" corresp="ESmsae010">MSAE-010</ref> “Vita of Täklä Haymanot, a fragment”; <ref type="mss" corresp="ESmsae011">MSAE-011</ref> “Story of St. Mary”; <ref type="mss" corresp="ESmsae012">MSAE-012</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESmsae013">MSAE-013</ref> “Prayer of Incense”; <ref type="mss" corresp="ESmsae014">MSAE-014</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESmsae015">MSAE-015</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESmsae016">MSAE-016</ref> “Missal”; <ref type="mss" corresp="ESmsae017">MSAE-017</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESmsae018">MSAE-018</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmsae019">MSAE-019</ref> “Synoptic Lectionary for the Year, Bless us, our Lord…”; <ref type="mss" corresp="ESmsae020">MSAE-020</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmsae021">MSAE-021</ref> “Asmat-prayers, the Prayer of St. Mary on the Mount Golgotha”; <ref type="mss" corresp="ESmsae022">MSAE-022</ref> “Missal”; <ref type="mss" corresp="ESmsae023">MSAE-023</ref> “Missal”; <ref type="mss" corresp="ESmsae024">MSAE-024</ref> “Missal”; <ref type="mss" corresp="ESmsae025">MSAE-025</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmsae026">MSAE-026</ref> “Vita of the Righteous of Mäṭära”.</ab>
              
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Trinity, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
-                     <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, Ṣadǝqan of Baräknaha (recently introduced) (distributed between two churches).</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                     <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, <persName ref="PRS12530SadeqanBaraknaha" type="tabot">Ṣādǝqān of Bāraknāhā</persName> (recently introduced) (distributed between two churches).</ab>
                </note>
             </place>
          </listPlace>

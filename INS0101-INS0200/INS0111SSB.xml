@@ -84,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS11430Apostles" type="tabot">Apostles</persName> (Ḥāwāryāt, possible of 
-                     <persName ref="PRS12521PeterPaul" type="tabot">Peter and Paul</persName>).</ab>
+                     <persName ref="PRS12538PeterPaul" type="tabot">Peter and Paul</persName>).</ab>
                </note>
             </place>
          </listPlace>

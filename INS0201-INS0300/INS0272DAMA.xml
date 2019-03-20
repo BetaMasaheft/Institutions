@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däräba Mädḫane ʿAläm</title>
+            <title>Darabā Madḫāne ʿĀlam</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,12 +47,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Däräba Mädḫane ʿAläm</placeName>
-               <placeName type="alt">Mädḫane ʿAläm Däräba</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-09" to="2012-11-10">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  Gämad, qušät Däräba</settlement>
+            <place type="church gatar" subtype="institution">
+               <placeName>Darabā Madḫāne ʿĀlam</placeName>
+               <placeName type="alt">Madḫāne ʿĀlam Darabā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2012-11-09" to="2012-11-10"/>
+               <settlement ref="LOC7248Gamad" type="tabiya" from="2012-11-09" to="2012-11-10"/>
+               <settlement from="2012-11-09" to="2012-11-10" ref="LOC7249Daraba" type="qushat"/>
+               
+               
                <location>
                   <geo>13.871497 39.545778</geo>
                   <height unit="m">2326.69</height>
@@ -60,12 +66,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
                   <desc type="foundation">Founded by däğğazmač Kasa ʾArʾaya, a son of ʾArʾaya Śǝllase Dǝmṣu (d. 1889).</desc>
-                  <ab type="history">Gäṭär. Located very close to Ṣaḥǝlo Marya (SDMM).&#xD;
+                  <ab type="history">Gaṭar. Located very close to <placeName ref="INS0252SDMM">Ṣaḥǝlo Marya (SDMM)</placeName>.&#xD;
 </ab>
                   <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mädḥane ʿAläm, Mary.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

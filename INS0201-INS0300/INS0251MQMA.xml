@@ -42,17 +42,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-20">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mǝngaś Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Maryam Mǝngaś</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-16" to="2012-11-16">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Mǝngaś</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>Mǝngāś Qǝddǝst Māryām</placeName>
+               <placeName type="alt">Māryām Mǝngāś</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-16" to="2012-11-16"/>  
+               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-16" to="2012-11-16"/>
+               
+               <settlement from="2012-11-16" to="2012-11-16" ref="LOC7253Mengas" type="qushat"/>
+               
                <location>
                   <geo>14.177933 39.477217</geo>
                   <height unit="m">2460.0</height>
@@ -60,12 +66,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Remains of Aksumite structures have been recorded in the area around.</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <ab type="history">Dabr. &#xD;
 </ab>
                   <ab type="description">15 Mss., objects photographed: <ref type="mss" corresp="ESmqma001">MQMA-001</ref> “Four Gospels”; <ref type="mss" corresp="ESmqma002">MQMA-002</ref> “Book of the Funeral Rite; Excerpts from the hymonody books”; <ref type="mss" corresp="ESmqma003">MQMA-003</ref> “Homiliary for the feasts St. Michael”; <ref type="mss" corresp="ESmqma004">MQMA-004</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmqma005">MQMA-005</ref> “ʾAragawi Mänfäsawi; Vita of ʾabunä Täklä Maryam; Prayers of entrusting oneself; Exposition of Jesus”; <ref type="mss" corresp="ESmqma006">MQMA-006</ref> “Praise of God ”; <ref type="mss" corresp="ESmqma007">MQMA-007</ref> “Dǝggwa”; <ref type="mss" corresp="ESmqma008">MQMA-008</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESmqma009">MQMA-009</ref> “The Rite of the Passion Week”; <ref type="mss" corresp="ESmqma010">MQMA-010</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmqma011">MQMA-011</ref> “Missal”; <ref type="mss" corresp="ESmqma012">MQMA-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmqma013">MQMA-013</ref> “Psalter”; <ref type="mss" corresp="ESmqma014">MQMA-014</ref> “Prayers to St. Mary Horologium; Miracles of Mary; Sälam-hymns”; <ref type="mss" corresp="ESmqma015">MQMA-015</ref> “Death of Muse (and other texts)”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Täklä Haymanot, Mary.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

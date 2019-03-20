@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church monastery gadam" subtype="institution">
                <placeName>Zala ʾƎnda ʾAmanuʾel</placeName>
                <placeName type="alt">ʾƎnda ʾAmanuʾel</placeName>
                <country>Ethiopia</country>
@@ -60,7 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   
-                  <ab type="history">Gädam. The number of monks might be very small today, but in the past there was a strong monastic community. The manuscripts are stored in the treasury which seems to have been formerly used as rock-hewn church. A built facade nearby belongs to another rock-hewn chruch, the main church of the site. From the slope, the people point to a place on the plain below which is said to be the birth place of King Yoḥannǝs IV.&#xD;
+                  <ab type="history">Gadām. The number of monks might be very small today, but in the past there was a strong monastic community. The manuscripts are stored in the treasury which seems to have been formerly used as rock-hewn church. A built facade nearby belongs to another rock-hewn chruch, the main church of the site. 
+                     From the slope, the people point to a place on the plain below which is said to be the birth place of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName>
 </ab>
                   <ab type="description">20 Mss. photographed: <ref type="mss" corresp="ESzea001">ZEA-001</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESzea002">ZEA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESzea003">ZEA-003</ref> “Missal”; <ref type="mss" corresp="ESzea004">ZEA-004</ref> “Praise of Mary”; <ref type="mss" corresp="ESzea005">ZEA-005</ref> “Story of ʾabunä Sälama”; <ref type="mss" corresp="ESzea006">ZEA-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESzea007">ZEA-007</ref> “Synaxarion (the second half of the year)”; <ref type="mss" corresp="ESzea008">ZEA-008</ref> “Mǝʿraf”; <ref type="mss" corresp="ESzea009">ZEA-009</ref> “Psalter”; <ref type="mss" corresp="ESzea010">ZEA-010</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESzea011">ZEA-011</ref> “Psalter”; <ref type="mss" corresp="ESzea012">ZEA-012</ref> “ Catoholic Epistles; Revealation of John”; <ref type="mss" corresp="ESzea013">ZEA-013</ref> “Book of the Marriage Ritual; Order of the Monastic Proffession”; <ref type="mss" corresp="ESzea014">ZEA-014</ref> “Dǝggwa on Easter; ʾƎzl; Praise of Mary”; <ref type="mss" corresp="ESzea015">ZEA-015</ref> “Five Pillars of Mystery”; <ref type="mss" corresp="ESzea016">ZEA-016</ref> “Book of the Letter”; <ref type="mss" corresp="ESzea017">ZEA-017</ref> “Missal”; <ref type="mss" corresp="ESzea018">ZEA-018</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESzea019">ZEA-019</ref> “Psalter”; <ref type="mss" corresp="ESzea020">ZEA-020</ref> “Zǝmmare and Mäwasǝʿǝt”.</ab>
            

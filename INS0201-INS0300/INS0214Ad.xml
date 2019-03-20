@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>ʿĀd Ḥəyāw Qəddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,17 +43,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change who="DR" when="2017-11-02">Corrected ID</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot, restored title</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church" subtype="institution">
+               <placeName>ʿĀd Ḥəyāw Qəddus Mikāʾel</placeName>
+               <placeName type="alt">Mikāʾel ʿĀdḥǝyāw</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <placeName type="alt">Mikaʾel ʿAdḥǝyaw</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement>wäräda Gulo Mäkäda, ṭabiya Marta, qušät Däbrä Gännät</settlement>
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-11" to="2010-05-13"/>
+               <settlement ref="LOC6970Marta" type="tabiya" from="2010-05-11" to="2010-05-13"/> 
+               <settlement from="2010-05-11" to="2010-05-13" type="qushat" ref="LOC6971DabraGannat "/>
+               
+               
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1950">1300-1950</date>
                   

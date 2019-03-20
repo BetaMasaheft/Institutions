@@ -72,13 +72,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">Local tradition tells that the religious site existed in the Aksumite time. The site is associated with the <persName ref="PRS12529SadeqanKadih">Ṣādǝqān ("Righteous") of Kadiḥ</persName>. There is an enexplored archaeological site at near the church.</desc>
+                  <desc type="foundation">Local tradition tells that the religious site existed in the Aksumite time. The site is associated with the <persName ref="PRS12539SadeqanKadih">Ṣādǝqān ("Righteous") of Kadiḥ</persName>. There is an enexplored archaeological site at near the church.</desc>
                   <ab type="history">Dabr. &#xD;
 </ab>
                   <ab type="description">14 Mss., objects photographed: <ref type="mss" corresp="ESktm001">KTM-001</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESktm002">KTM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESktm003">KTM-003</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESktm004">KTM-004</ref> "Four Gospels"; <ref type="mss" corresp="ESktm005">KTM-005</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESktm006">KTM-006</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESktm007">KTM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESktm008">KTM-008</ref> "Missal"; <ref type="mss" corresp="ESktm009">KTM-009</ref> "Psalter"; <ref type="mss" corresp="ESktm010">KTM-010</ref> "Psalter"; <ref type="mss" corresp="ESktm011">KTM-011</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESktm012">KTM-012</ref> "The Sword of the Trinity"; <ref type="mss" corresp="ESktm013">KTM-013</ref> "The Book of the Hours/Horologium"; <ref type="mss" corresp="ESktm014">KTM-014</ref> "magical prayers"</ab>
 
                   <ab type="tabot">
-                     <measure quantity="5"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS12529SadeqanKadih" type="tabot">Ṣadǝqan</persName>, 
+                     <measure quantity="5"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS12539SadeqanKadih" type="tabot">Ṣadǝqan</persName>, 
                      <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, one unidentified marble tābot.</ab>
                </note>
             </place>

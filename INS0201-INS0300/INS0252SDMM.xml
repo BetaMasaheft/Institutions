@@ -42,31 +42,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-15">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Ṣaḥǝlo Däbrä Ṣäḥay Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Maryam Ṣaḥǝlo</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-10" to="2012-11-10">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya Gämad, qušät Ṣaḥǝlo</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>Ṣāḥǝlo Dabra Ṣaḥāy Qǝddǝst Māryām</placeName>
+               <placeName type="alt">Māryām Ṣāḥǝlo</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2012-11-09" to="2012-11-10"/>
+               <settlement ref="LOC7248Gamad" type="tabiya" from="2012-11-09" to="2012-11-10"/>
+               <settlement from="2012-11-09" to="2012-11-10" ref="LOC7251Sahelo" type="qushat"/>
+               
                <location>
                   <geo>13.8628 39.551583</geo>
                   <height unit="m">2318.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">Local tradition claims that the church was founded in the 4th century.</desc>
-                  <ab type="history">Däbr.&#xD;
-Located not far from the famous church of ʾAbrǝha and ʾAṣbǝḥa. &#xD;
+                  <desc type="foundation">Local tradition claims that the church was founded in the <date>4th century</date>.</desc>
+                  <ab type="history">Dabr.&#xD;
+                     Located not far from the famous church of <placeName ref="LOC5686SeraAb">ʾAbrǝhā and ʾAṣbǝḥā</placeName>. &#xD;
 </ab>
                   <ab type="description">11 Mss. photographed: <ref type="mss" corresp="ESsdmm001">SDMM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESsdmm002">SDMM-002</ref> “Mǝʿraf”; <ref type="mss" corresp="ESsdmm003">SDMM-003</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsdmm004">SDMM-004</ref> “Book of  ʾAslǝti”; <ref type="mss" corresp="ESsdmm005">SDMM-005</ref> “Psalter”; <ref type="mss" corresp="ESsdmm006">SDMM-006</ref> “Book of the passion and the story of crucification of our lord and our saviour Jesus Christ”; <ref type="mss" corresp="ESsdmm007">SDMM-007</ref> “Synaxarium (The first half of the year)”; <ref type="mss" corresp="ESsdmm008">SDMM-008</ref> “Dǝggwa”; <ref type="mss" corresp="ESsdmm009">SDMM-009</ref> “Miracles of Jesus Miracles of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESsdmm010">SDMM-010</ref> “Synaxarium (II Part)”; <ref type="mss" corresp="ESsdmm011">SDMM-011</ref> “Book of the Funeral Rite”.</ab>
 
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Mary, Ruphael, one old unidentified tabot.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>, one old unidentified tabot.</ab>
                </note>
             </place>
          </listPlace>

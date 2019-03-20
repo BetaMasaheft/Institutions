@@ -74,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1500"></date>
                   
-                  <ab type="history">Local tradition claims the foundation of the church in the <date notBefore="1200" notAfter="1300">time of King Gabra Masqal</date>. 
+                  <ab type="history">Local tradition claims the foundation of the church in the <date notBefore="1200" notAfter="1300">time of King <persName ref="PRS4327GabraMa">Gabra Masqal</persName></date>. 
                      The church must have been founded in the <date notAfter="1500">pre-15th century period</date>, and be re-established during the reign of King Yoḥannǝs IV (1872-1889). 
                      The church of <placeName ref="INS0082UMQ">ʿUra Masqal</placeName> (now deserted), on the top of the rock, appears to be an older institution.
                   </ab>

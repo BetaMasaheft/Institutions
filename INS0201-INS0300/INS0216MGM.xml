@@ -42,32 +42,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-20">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Mikaʾel Mǝʾǝsar Gwǝḥila</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-19" to="2012-05-19">wäräda Ganta Afäšum, ṭabiya ʿAddi Qänäy, qušät Mǝʾǝsar Gwǝḥila</settlement>
+            <place type="church gatar" subtype="institution">
+               <placeName>Mǝʾǝsār Gwǝḥilā Qǝddus Mikāʾel</placeName>
+               <placeName type="alt">Mikāʾel Mǝʾǝsār Gwǝḥilā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-05-19" to="2012-05-19"/>  
+               <settlement ref="LOC7254AddiQanay" type="tabiya" from="2012-05-19" to="2012-05-19"/>
+               
+               <settlement from="2012-05-19" to="2012-05-19" ref="LOC7255Meesar" type="qushat"/>
+               
                <location>
                   <geo>14.2844 39.315267</geo>
                   <height unit="m">2079.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1300">1200-1300</date>
-                  <desc type="foundation">Post-Aksumite potsherds (dating between 700/800 and 1200/1300 A.D.), remains of early medieval structures have been recorded at the site. According to local tradition, the church was founded by Noy (?). The name of the area, ʿAddi Qänäy is said to have been derived from "Noy" (ʿAddi däqqi Noy).</desc>
-                  <ab type="history">Gätär. &#xD;
-Burial places are located under the overhanging rock, along the river ʾAngar. The old deserted church rock-churcn stands behind the recently built one.&#xD;
-Two ruined structures standing closer to the entrance into the gorge are said to be churches of "ʾabba Yoḥanni" and "ʾabba Aboli" (?).     &#xD;
+                  <desc type="foundation">Post-Aksumite potsherds (dating between 700/800 and 1200/1300 A.D.), remains of early medieval structures have been recorded at the site. According to local tradition, the church was founded by <persName ref="PRS7594Noah">Noah</persName> (? or a certain local Noy ?). 
+                     The name of the area, <placeName ref="LOC7254AddiQanay">ʿĀddi Qanay</placeName>,  is said to have been derived from "Noy" (<persName ref="PRS7594Noah">Noah</persName>; <quote xml:lang="gez">ʿĀddi daqqi Noy</quote>).</desc>
+                  <ab type="history">Gatar. &#xD;
+                     Burial places are located under the overhanging rock, along the river <placeName ref="LOC1451Angar">ʾAngār</placeName>. The old deserted church rock-churcn stands behind the recently built one.&#xD;
+                     Two ruined structures standing closer to the entrance into the gorge are said to be churches of "<persName ref="PRS10429Yohanni" type="tabot">ʾabbā Yoḥanni</persName>" and "<persName ref="PRS1257Aboli" type="tabot">ʾabbā ʾAboli</persName>" (?).     &#xD;
 </ab>
                   <ab type="description">19 Mss. photographed: <ref type="mss" corresp="ESmgm001">MGM-001</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmgm002">MGM-002</ref> “Homily of st. Michael; Miracles of St. Michal”; <ref type="mss" corresp="ESmgm003">MGM-003</ref> “Collection of Homilies”; <ref type="mss" corresp="ESmgm004">MGM-004</ref> “Pauline Epistles; Acts of the Apostles; Catholic Epistles; Apocalipse of John”; <ref type="mss" corresp="ESmgm005">MGM-005</ref> “Synaxarion (The first half of the years)”; <ref type="mss" corresp="ESmgm006">MGM-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmgm007">MGM-007</ref> “Vita of the Apostles”; <ref type="mss" corresp="ESmgm008">MGM-008</ref> “Miracles of Jesus ”; <ref type="mss" corresp="ESmgm009">MGM-009</ref> “Synaxarion (The second half of the year)”; <ref type="mss" corresp="ESmgm010">MGM-010</ref> “Praise of Mary; Collection; Images of the Praise; A Part of Dǝggwa”; <ref type="mss" corresp="ESmgm011">MGM-011</ref> “Prayer of Incense; Missal”; <ref type="mss" corresp="ESmgm012">MGM-012</ref> “Vita of Libanos Miracles of Libanos”; <ref type="mss" corresp="ESmgm013">MGM-013</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; <ref type="mss" corresp="ESmgm014">MGM-014</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of Gäbrä  Mänfäs Qǝddus”; <ref type="mss" corresp="ESmgm015">MGM-015</ref> “The Book of the Baptismal Rite”; <ref type="mss" corresp="ESmgm016">MGM-016</ref> “Vita of ʾArägawi”; <ref type="mss" corresp="ESmgm017">MGM-017</ref> “The Book of the Funeral Rite”; MGM-leaves 1 (18) Fragments of different manuscripts; MGM-leaves 2 (19) Fragments of different manuscripts.</ab>
               
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Michael, ʾAbrǝha and ʾAṣbǝḥa (reportedly the tābot of the old church), <persName ref="PRS6819Mary" type="tabot">Mary</persName>, Twenty-Four Heavenly Priests.</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
+                     <persName ref="PRS1284Abrehaa" type="tabot">ʾAbrǝhā and ʾAṣbǝḥa</persName> (reportedly the tābot of the old church), <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>.</ab>
                </note>
             </place>
          </listPlace>

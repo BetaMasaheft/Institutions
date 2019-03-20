@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of King Yohannes IV (r. 1872-89).</desc>
+                  <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>).</desc>
                   <ab type="history">Gaṭar. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;</ab>
                     <ab type="tabot"><measure quantity="4"/>
                        Tābots: <persName ref="PRS6006Kiros" type="tabot">Kiros</persName> (in a separate church), 

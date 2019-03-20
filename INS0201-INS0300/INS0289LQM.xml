@@ -42,17 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Lǝḥuṣa Maryam</placeName>
-               <placeName type="alt">Lǝḥuṣa Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="0008-12-04" to="0009-12-05">wäräda Gulo Mäkäda, ṭabiya Märäta, qušät Lǝḥuṣa</settlement>
+            <place type="church gatar" subtype="institution">
+               <placeName>Lǝḥuṣā Māryām</placeName>
+               <placeName type="alt">Lǝḥuṣā Qǝddǝst Māryām</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-11-04" to="2010-12-05"/>
+               <settlement ref="LOC7242Marata" type="tabiya" from="2010-11-04" to="2010-12-05"/> 
+               <settlement from="2010-11-04" to="2010-12-05" type="qushat" ref="LOC7244Lehusa "/>
+               
                <location>
                   <geo>14.336444 39.336028</geo>
                   <height unit="m">2368.0</height>
@@ -60,12 +65,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   
-                  <ab type="history">Gäṭär. The church of ʾAmba Tähula Mikaʾel (TGM) can be seen from the site.  &#xD;
+                  <ab type="history">Gaṭar. The church of <placeName ref="INS0294TGM"/> can be seen from the site.  &#xD;
 </ab>
                   <ab type="description">11 Mss., one scroll are photographed: <ref type="mss" corresp="ESlqm001">LQM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESlqm002">LQM-002</ref> “The Miracles of Mary”; <ref type="mss" corresp="ESlqm003">LQM-003</ref> “Book of the night hours - Horologium”; <ref type="mss" corresp="ESlqm004">LQM-004</ref> “Missal”; <ref type="mss" corresp="ESlqm005">LQM-005</ref> “Acts of the Apostels”; <ref type="mss" corresp="ESlqm006">LQM-006</ref> “Synaxarium second half”; <ref type="mss" corresp="ESlqm007">LQM-007</ref> “Homily of the Sabbat of the Christians”; <ref type="mss" corresp="ESlqm008">LQM-008</ref> “Mircales of Jesus”; <ref type="mss" corresp="ESlqm009">LQM-009</ref> “Collection of Chants”; <ref type="mss" corresp="ESlqm010">LQM-010</ref> “Missal”; <ref type="mss" corresp="ESlqm011">LQM-011</ref> “Homily for the feasts of St. Michael”.</ab>
     
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Mary, Kidanä Mǝḥrät, Qirqos.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>, <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>.</ab>
                </note>
             </place>
          </listPlace>

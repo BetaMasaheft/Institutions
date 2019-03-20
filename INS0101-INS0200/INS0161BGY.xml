@@ -77,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
-                     <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, <persName ref="PRS12521PeterPaul" type="tabot">Peter and Paul</persName>.</ab>
+                     <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, <persName ref="PRS12538PeterPaul" type="tabot">Peter and Paul</persName>.</ab>
                </note>
             </place>
          </listPlace>
