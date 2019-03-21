@@ -51,9 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church dabr" subtype="institution">
                <placeName>Romānāt Qǝddus Mikāʾel</placeName>
                <placeName type="alt">Romānāt Mikāʾel /</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-02-12" to="2012-02-12">waradā ʾƎndartā, qušat Romānāt</settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2012-02-12" ref="LOC2947Endart" type="warada"/>
+               
+               <settlement when="2012-02-12" ref="LOC7279Romanat" type="qushat"/>
+               
                <location>
                   <geo>13.575667 39.41945</geo>
                   <height unit="m">1895.0</height>

@@ -73,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation">The date provided by the local tradition is <date>1295 year of mercy</date>. According to local tradition, the
-                     founder was ʾabuna <persName ref="PRS6620Mamas">Māmās</persName> (from the time of King ʿAmda Ṣǝyon I, r.
+                     founder was ʾabuna <persName ref="PRS6620Mamas">Māmās</persName> (from the time of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>, r.
                      <date>1314-1344</date>).</desc>
                   <ab type="history">Gatar. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Ba-ṣalota Mikāʾel of Dabra Gol</ref> (ʾAmhārā), he was exiled to <placeName ref="LOC3640GuloMa">Gulo Makada</placeName> and died at Gwǝdgwǝde, which seems to have been a name of the area around ʾAgarhǝse. 
                      Local tradition remembers him and confirms that his burial place is in the vicinity. &#xD;
