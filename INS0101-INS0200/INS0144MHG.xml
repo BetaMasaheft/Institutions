@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥarennät Gäbäzäyti Qǝddǝst Maryam</title>
+            <title>Ḥarennat Gabazayti Qǝddǝst Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -78,7 +78,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   type="qushat"
                   ref="LOC7171Sasun"/>
 
-
                
                <location>
                   <geo>14.248778 39.521306</geo>
@@ -87,9 +86,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1550">1500-1550</date>
                   <desc type="foundation">The local tradition claims that the church was founded long ago, in the time of <persName ref="PRS8261Saaldob">King Saʿāldobā</persName>. The founder is unknown. 
-                     <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> re-established the church and donated gwǝlt in the early 19th cent.</desc>
-                  <ab type="history">Dabr. The church of ʿAddigodana Täklä Haymanot, in the vicinity, was historically associated with Ḥarennat Māryām (but recently became an independent institution). 
-                     A ṣabal-source is located near ʿĀddigodānā Takla Hāymānot; near the source, there are ruins of the "old church of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>".&#xD;
+                     <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> re-established the church and donated gwǝlt in the early <date>19th cent</date>.</desc>
+                  <ab type="history">Dabr. The church of <placeName ref="LOC7280Addigodana">ʿĀddigodānā Takla Hāymānot</placeName>, in the vicinity, was historically associated with Ḥarennat Māryām (but recently became an independent institution). 
+                     A ṣabal-source is located near <placeName ref="LOC7280Addigodana">ʿĀddigodānā Takla Hāymānot</placeName>; near the source, there are ruins of the "old church of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>".&#xD;
 </ab>
                   <ab type="description">22 Mss. photographed: <ref type="mss" corresp="ESmhg001">MHG-001</ref> "The Vita of Täklä Haymanot"; <ref type="mss" corresp="ESmhg002">MHG-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmhg003">MHG-003</ref> "The Vita of Mänfäs Qǝddus"; <ref type="mss" corresp="ESmhg004">MHG-004</ref> "Four Gospels"; <ref type="mss" corresp="ESmhg005">MHG-005</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmhg006">MHG-006</ref> "The Book of the Epistle"; <ref type="mss" corresp="ESmhg007">MHG-007</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmhg008">MHG-008</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmhg009">MHG-009</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmhg010">MHG-010</ref> "Collection of Marian prayers"; <ref type="mss" corresp="ESmhg011">MHG-011</ref> "Missal"; <ref type="mss" corresp="ESmhg012">MHG-012</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmhg013">MHG-013</ref> "The Book of the Mistery"; <ref type="mss" corresp="ESmhg014">MHG-014</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmhg015">MHG-015</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmhg016">MHG-016</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESmhg017">MHG-017</ref> "Missal"; <ref type="mss" corresp="ESmhg018">MHG-018</ref> "Four Gospels"; <ref type="mss" corresp="ESmhg019">MHG-019</ref> "The Prayer of the Incense"; <ref type="mss" corresp="ESmhg020">MHG-020</ref> "Pauline Epistles"; <ref type="mss" corresp="ESmhg021">MHG-021</ref> "Miracles of Mary, other texts"; <ref type="mss" corresp="ESmhg022">MHG-022</ref> "1. The Book of Gǝṣṣǝw; 2. The Homily of the Sabbath of Christians"</ab>
              
