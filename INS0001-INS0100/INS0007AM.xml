@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2016-05-09" who="ES">names updated/completed</change>
+         <change when="2019-03-22" who="ES">added name corrected transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +66,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="normalized" corresp="#n6" xml:lang="gez">Dabra ʿĀlimā</placeName>
                <placeName type="alt" xml:id="n7" xml:lang="gez">ደብረ፡ ዓለማ፡  </placeName>
                <placeName type="normalized" corresp="#n7" xml:lang="gez">Dabra ʿĀlamā</placeName>
+               <placeName xml:id="n8" xml:lang="gez">ደብረ፡ ዓለማ፡ አሽር፡ መተራ፡ ደብረ፡ ሎዛ፡ </placeName>
+               <placeName corresp="#n8" xml:lang="gez" type="normalized" >Dabra ʿĀlamā ʾAšǝr Matarā Dabra Lozzā</placeName>
 
                   <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
@@ -78,8 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Established (or re-established) in the
-                     second half of the 15th cent., in the time of tǝgre mäkwännǝn ʾAkalom, by
-                     ʾAbäkärazun, Gäbrä Mäsiḥ (most probably, members of the Stephanite
+                     second half of the 15th cent., in the time of <persName ref="PRS1598Akkalom"><roleName type="title">tǝgre makʷannǝn</roleName> 
+                        ʾAkkalom</persName>, by
+                     ʾAbakarāzun, Gabra Masiḥ (most probably, members of the Stephanite
                      movement).</desc>
                   <ab type="history">The monastery declined in late 1970 and was re-established as a nunnery around 2002.</ab>
                   <ab type="description">Ca. 70 Mss. photographed.</ab>
