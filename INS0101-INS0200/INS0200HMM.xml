@@ -79,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">11 Mss. photographed: <ref type="mss" corresp="EShmm001">HMM-001</ref> “Four Gospels”; <ref type="mss" corresp="EShmm002">HMM-002</ref> “ Synaxarion (September - February); Wisdom of Sibyl”; <ref type="mss" corresp="EShmm003">HMM-003</ref> “ Synaxarion (March-August)”; <ref type="mss" corresp="EShmm004">HMM-004</ref> “Hymn book”; <ref type="mss" corresp="EShmm005">HMM-005</ref> “ Miracles of Mary”; <ref type="mss" corresp="EShmm006">HMM-006</ref> “Homily on St. Michael”; <ref type="mss" corresp="EShmm007">HMM-007</ref> “Mǝʿraf”; <ref type="mss" corresp="EShmm008">HMM-008</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="EShmm009">HMM-009</ref> “Zǝmmare Mäwasʾǝt”; <ref type="mss" corresp="EShmm010">HMM-010</ref> “Creation; Five Pillars of Mystery”; <ref type="mss" corresp="EShmm011">HMM-011</ref> “Miracles of Jesus”.</ab>
               
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS10776Kidan" type="tabot">Kidāna Mǝḥrat</persName>.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>

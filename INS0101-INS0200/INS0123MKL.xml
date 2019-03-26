@@ -82,7 +82,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
-                     <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>, <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName> (marble), 
+                     <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName> (marble), 
                      <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>.</ab>
                </note>
             </place>

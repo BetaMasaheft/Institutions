@@ -75,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">12 Mss photographed: <ref type="mss" corresp="ESmkmg001">MKMG-001</ref> “ Missal”; <ref type="mss" corresp="ESmkmg002">MKMG-002</ref> “ Prayer of Incense”; <ref type="mss" corresp="ESmkmg003">MKMG-003</ref> “ Missal”; <ref type="mss" corresp="ESmkmg004">MKMG-004</ref> “ Synaxarion (September-February)”; <ref type="mss" corresp="ESmkmg005">MKMG-005</ref> “Missal”; <ref type="mss" corresp="ESmkmg006">MKMG-006</ref> “ Miracles of Mary”; <ref type="mss" corresp="ESmkmg007">MKMG-007</ref> “Vita of  Zä-Mikaʾel Arägawi”; <ref type="mss" corresp="ESmkmg008">MKMG-008</ref> “ The Book of Baptism”; <ref type="mss" corresp="ESmkmg009">MKMG-009</ref> “ Synaxarion (March-February)”; <ref type="mss" corresp="ESmkmg010">MKMG-010</ref> “ The Rite of the Holy Week”; <ref type="mss" corresp="ESmkmg011">MKMG-011</ref> “The Book of Gǝṣṣǝw”; <ref type="mss" corresp="ESmkmg012">MKMG-012</ref> “Miracles of Mary”.</ab>
       
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>

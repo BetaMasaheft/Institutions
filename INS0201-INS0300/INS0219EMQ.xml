@@ -71,7 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gadām. At least 25 monks live in the community; there is a  well-established church school. 
                      A more recent church dedicated to <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, associated with the monastery, is located in the vicinity.&#xD;</ab>
                   
-                  <ab type="tabot"><measure quantity="6"/>  Tābots (6?): <persName ref="PRS6819Mary#Zion" type="tabot">Mary</persName> (?), <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>, <persName ref="PRS5684JesusCh" type="tabot">Jesus</persName>, 
+                  <ab type="tabot"><measure quantity="6"/>  Tābots (6?): <persName ref="PRS6819Mary#Zion" type="tabot">Mary</persName> (?), <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, <persName ref="PRS5684JesusCh" type="tabot">Jesus</persName>, 
                      <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, separately one tābot of <persName ref="PRS1251Abiyae" type="tabot">ʿAbiya ʾƎgziʾ</persName> was mentioned.</ab>
                   
                   <ab type="description">85 Mss. photographed, 1 scroll, objects:  

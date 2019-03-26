@@ -79,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">8 Mss. photographed: <ref type="mss" corresp="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref type="mss" corresp="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref type="mss" corresp="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsfm004">SFM-004</ref> “Psalter”; <ref type="mss" corresp="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsfm006">SFM-006</ref> “Psalter”; <ref type="mss" corresp="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref type="mss" corresp="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
                
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName type="tabot" ref="PRS10776Kidan">Kidāna Mǝḥrat</persName>.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>
