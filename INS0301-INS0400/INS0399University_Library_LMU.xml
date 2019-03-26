@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q2496326" type="library" subtype="institution">
+                <place sameAs="wd:Q2496326" type="library" subtype="institution">
                     <placeName>University Library of the LMU Munich</placeName>
-                    <settlement ref="Q1726"/>
-                    <country ref="Q183"/>
+                    <settlement ref="wd:Q1726"/>
+                    <country ref="wd:Q183"/>
                 </place>
             </listPlace>
          <!---->

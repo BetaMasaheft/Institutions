@@ -46,11 +46,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution" sameAs="Q82133">
+            <place type="library" subtype="institution" sameAs="wd:Q82133">
                <placeName>Bodleian Library</placeName>
-               <country ref="Q145"/>
-               <region ref="Q21"/>
-               <settlement type="town" ref="Q34217"/>
+               <country ref="wd:Q145"/>
+               <region ref="wd:Q21"/>
+               <settlement type="town" ref="wd:Q34217"/>
                <location>
                   <geo>51.75411 -1.25406</geo>
                </location>

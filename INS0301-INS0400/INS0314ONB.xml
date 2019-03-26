@@ -45,11 +45,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place sameAs="Q304037" type="library" subtype="institution">
+            <place sameAs="wd:Q304037" type="library" subtype="institution">
                <placeName>Österreichische Nationalbibliothek</placeName>
-               <country ref="Q40"/>
-               <region ref="Q1741"/>
-               <settlement type="city" ref="Q1741"/>
+               <country ref="wd:Q40"/>
+               <region ref="wd:Q1741"/>
+               <settlement type="city" ref="wd:Q1741"/>
 
 
                <listBibl type="catalogue">

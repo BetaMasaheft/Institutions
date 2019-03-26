@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Garrett-Evangelical Theological Seminary</placeName>
                <placeName type="alt">Evanston (IL), Garrett-Evangelical Theological Seminary</placeName>
-               <country ref="Q30"/>
-               <region ref="Q1204"/>
-               <settlement ref="Q462799"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q1204"/>
+               <settlement ref="wd:Q462799"/>
                <location>
                   <geo>42.056067 -87.675505</geo>
                </location>

@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q6837734" type="library" subtype="institution">
-                  <settlement ref="Q1166"/> <country ref="Q30"/>
+                <place sameAs="wd:Q6837734" type="library" subtype="institution">
+                  <settlement ref="wd:Q1166"/> <country ref="wd:Q30"/>
                     <placeName>Michigan State University Libraries</placeName>
                 </place>
             </listPlace><!---->

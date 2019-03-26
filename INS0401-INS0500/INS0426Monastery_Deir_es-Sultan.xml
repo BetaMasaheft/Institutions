@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q43553143" type="monastery" subtype="institution">
-                  <settlement ref="Q1218"/>
-                      <country ref="Q801"/>   <placeName>Monastery Deir es-Sultan</placeName>
+                <place sameAs="wd:Q43553143" type="monastery" subtype="institution">
+                  <settlement ref="wd:Q1218"/>
+                      <country ref="wd:Q801"/>   <placeName>Monastery Deir es-Sultan</placeName>
                 </place>
             </listPlace>
          <!---->

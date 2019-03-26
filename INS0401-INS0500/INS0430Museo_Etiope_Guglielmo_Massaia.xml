@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q43558535" type="museum" subtype="institution">
-                  <settlement ref="Q220"/>
-                        <country ref="Q38"/>
+                <place sameAs="wd:Q43558535" type="museum" subtype="institution">
+                  <settlement ref="wd:Q220"/>
+                        <country ref="wd:Q38"/>
                     <placeName>Museo Etiope Guglielmo Massaia</placeName>
                 </place>
             </listPlace>

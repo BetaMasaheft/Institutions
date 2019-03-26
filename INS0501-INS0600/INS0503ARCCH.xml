@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55235531" type="academicInstitution" subtype="institution"> <settlement ref="Q3624"/> <country ref="Q115"/>
+                <place sameAs="wd:Q55235531" type="academicInstitution" subtype="institution"> <settlement ref="wd:Q3624"/> <country ref="wd:Q115"/>
                     <placeName>Authority for Research and Conservation of Cultural Heritage</placeName>
                 </place>
             </listPlace><!---->

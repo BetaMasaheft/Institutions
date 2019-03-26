@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1609326" type="library" subtype="institution">
-                    <placeName>Smithsonian Institution Libraries</placeName> <country ref="Q30"/> <settlement ref="Q61"/>
+                <place sameAs="wd:Q1609326" type="library" subtype="institution">
+                    <placeName>Smithsonian Institution Libraries</placeName> <country ref="wd:Q30"/> <settlement ref="wd:Q61"/>
                 </place>
             </listPlace><!---->
         </body>

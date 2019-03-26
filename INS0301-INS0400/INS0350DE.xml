@@ -59,7 +59,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <settlement type="province" ref="LOC5575Saraye"/>
                     <settlement type="district" ref="LOC5439Saffea"/>
                     <settlement type="town" ref="LOC2614Debarw"/>
-                    <country ref="Q986"/>
+                    <country ref="wd:Q986"/>
                     
                     <note>
                         <ab type="tabot">

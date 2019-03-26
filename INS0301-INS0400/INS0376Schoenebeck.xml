@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q42261420" type="museum" subtype="institution">
+                <place sameAs="wd:Q42261420" type="museum" subtype="institution">
                     <placeName>Heimatmuseum Schloss Schönebeck</placeName>
-                    <settlement ref="Q24879"/>
-                    <country ref="Q183"/>
+                    <settlement ref="wd:Q24879"/>
+                    <country ref="wd:Q183"/>
 
 
                 </place>

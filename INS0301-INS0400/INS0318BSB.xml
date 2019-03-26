@@ -46,12 +46,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place sameAs="Q256507" type="library" subtype="institution">
+            <place sameAs="wd:Q256507" type="library" subtype="institution">
                <placeName xml:id="n1" xml:lang="de">Bayerische Staatsbibliothek</placeName>
                <placeName xml:id="n2" xml:lang="de" type="alt">Königliche Hof- und Staatsbibliothek</placeName>
-               <country ref="Q183"/>
-               <region ref="Q980"/>
-               <settlement type="city" ref="Q1726"/>
+               <country ref="wd:Q183"/>
+               <region ref="wd:Q980"/>
+               <settlement type="city" ref="wd:Q1726"/>
 
                <listBibl type="catalogue">
                   <bibl>

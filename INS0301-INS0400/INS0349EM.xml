@@ -57,7 +57,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Dǝmāḥ</placeName>
                     <settlement type="province" ref="LOC5575Saraye"/>
                     <settlement type="district" ref="LOC6606DT"/>
-                    <country ref="Q986"/>
+                    <country ref="wd:Q986"/>
                     <note>
                         <ab type="tabot">
                      <persName type="tabot" ref="PRS6768Marqorew"/>

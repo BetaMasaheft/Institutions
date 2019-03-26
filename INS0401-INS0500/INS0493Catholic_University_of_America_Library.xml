@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55118770" type="library" subtype="institution">
-                    <placeName>Catholic University of America Mullen Library</placeName> <settlement ref="Q61"/> <country ref="Q30"/>
+                <place sameAs="wd:Q55118770" type="library" subtype="institution">
+                    <placeName>Catholic University of America Mullen Library</placeName> <settlement ref="wd:Q61"/> <country ref="wd:Q30"/>
                 </place>
             </listPlace><!---->
         </body>

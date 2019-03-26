@@ -48,9 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55235503" type="academicInstitution" subtype="institution">
-                    <settlement ref="Q3624"/>
-                    <country ref="Q115"/>
+                <place sameAs="wd:Q55235503" type="academicInstitution" subtype="institution">
+                    <settlement ref="wd:Q3624"/>
+                    <country ref="wd:Q115"/>
                     <placeName xml:lang="en" xml:id="n1">Institute of Ethiopian Studies</placeName>
                     <placeName xml:lang="am" corresp="#n1">የኢትዮጵያ፡ ጤናትና፡ ምርምር፡ ተቋም፡</placeName>
                     <placeName xml:lang="am" corresp="#n1" type="normalized">Ya-ʾItyoṗṗǝyā ṭenātǝnnā mǝrǝmmǝr taqʷām</placeName>

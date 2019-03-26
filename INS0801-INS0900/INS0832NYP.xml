@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">New York Public Library</placeName>
                <placeName type="alt">New York, New York Public Library</placeName>
-               <country ref="Q30"/>
-               <region ref="Q1384"/>
-               <settlement ref="Q60"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q1384"/>
+               <settlement ref="wd:Q60"/>
                <location>
                   <geo>40.75312 -73.982276</geo>
                </location>

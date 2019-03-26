@@ -47,9 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="en">Saint Elija</placeName>
                     <placeName xml:id="n2" xml:lang="gez" type="alt">Dabra ʾElyās (Bahāt)</placeName>
                <!--                    need to insert name in fidel?-->
-                    <country ref="Q79"/>
-                    <region ref="Q30630"/>
-                    <settlement type="depression" ref="Q1074945"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q30630"/>
+                    <settlement type="depression" ref="wd:Q1074945"/>
                     <location>
                         <geo cert="low">30.4324 30.2377</geo>
                         <height cert="low">-23 m</height>

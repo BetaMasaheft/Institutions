@@ -45,9 +45,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="en">Ethiopian Manuscript Microfilm Library</placeName>
                     <placeName corresp="#n1" xml:lang="en">EMML</placeName>
-                    <country ref="Q30"/>
-                    <region ref="Q1527"/>
-                    <settlement type="town" ref="Q1898198"/>
+                    <country ref="wd:Q30"/>
+                    <region ref="wd:Q1527"/>
+                    <settlement type="town" ref="wd:Q1898198"/>
                     <location>
                         <geo>45.581299 -94.3939278</geo>
                         

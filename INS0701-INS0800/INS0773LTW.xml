@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Trinity Western University</placeName>
                <placeName type="alt">Langley (B.C.), Trinity Western University</placeName>
-               <country ref="Q16"/>
-               <region ref="Q1974"/>
-               <settlement ref="Q923243"/>
+               <country ref="wd:Q16"/>
+               <region ref="wd:Q1974"/>
+               <settlement ref="wd:Q923243"/>
                <location>
                   <geo>49.14159 -122.597748</geo>
                </location>

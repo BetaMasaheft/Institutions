@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q55118968" subtype="institution" type="academicInstitution">
-                    <placeName>Remnant Trust </placeName> <country ref="Q30"/> <settlement ref="Q2590154"/>
+                <place sameAs="wd:Q55118968" subtype="institution" type="academicInstitution">
+                    <placeName>Remnant Trust </placeName> <country ref="wd:Q30"/> <settlement ref="wd:Q2590154"/>
                 </place>
             </listPlace><!---->
         </body>

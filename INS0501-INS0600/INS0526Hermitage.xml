@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q132783" type="museum" subtype="institution">
+                <place sameAs="wd:Q132783" type="museum" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ru">Gosudarstvennyj Ermitaž</placeName>
                     <placeName xml:id="n2" xml:lang="ru">Ermitaž</placeName>
                     <placeName xml:id="n3" xml:lang="en">The State Hermitage Museum</placeName>

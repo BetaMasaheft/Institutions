@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">University of Oregon Library</placeName>
                <placeName type="alt">Eugene (OR), University of Oregon Library</placeName>
-               <country ref="Q30"/>
-               <region ref="Q824"/>
-               <settlement ref="Q171224"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q824"/>
+               <settlement ref="wd:Q171224"/>
                <location>
                   <geo>44.043513 -123.077752</geo>
                </location>

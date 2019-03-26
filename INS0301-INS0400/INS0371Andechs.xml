@@ -50,9 +50,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q259971" type="monastery" subtype="institution">
+                <place sameAs="wd:Q259971" type="monastery" subtype="institution">
                     <placeName>Kloster Andechs</placeName>
-                    <settlement ref="Q165958"/>
+                    <settlement ref="wd:Q165958"/>
                     
                 </place>
             </listPlace>

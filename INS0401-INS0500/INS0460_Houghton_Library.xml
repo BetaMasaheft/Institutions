@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q3719374" type="library" subtype="institution">
-                  <settlement ref="Q49111"/>
-                        <country ref="Q30"/>  <placeName> Houghton Library Harvard University</placeName>
+                <place sameAs="wd:Q3719374" type="library" subtype="institution">
+                  <settlement ref="wd:Q49111"/>
+                        <country ref="wd:Q30"/>  <placeName> Houghton Library Harvard University</placeName>
                 </place>
             </listPlace><!---->
         </body>

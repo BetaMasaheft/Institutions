@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q4120046" type="monastery" subtype="institution">
+                <place sameAs="wd:Q4120046" type="monastery" subtype="institution">
                     <placeName xml:lang="ar" xml:id="n1">دير البرموس</placeName>
                     <placeName xml:lang="ar" corresp="#n1" type="normalized">Dayr al-Baramūs</placeName>
                     <country ref="LOC2804Egypt"/>

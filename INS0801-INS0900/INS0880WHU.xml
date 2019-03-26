@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Howard University School of Divinity</placeName>
                <placeName type="alt">Washington D.C., Howard University School of Divinity</placeName>
-               <country ref="Q30"/>
-               <region ref="Q3551781"/>
-               <settlement ref="Q61"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q3551781"/>
+               <settlement ref="wd:Q61"/>
                <location>
                   <geo>38.9437 -77.058512</geo>
                </location>

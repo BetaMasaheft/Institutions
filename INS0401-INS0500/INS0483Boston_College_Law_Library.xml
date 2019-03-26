@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47490454" type="library" subtype="institution">
-                    <placeName>Boston College Law Library Daniel R. Coquillette Rare Book Room</placeName> <settlement ref="Q100"/> <country ref="Q30"/>
+                <place sameAs="wd:Q47490454" type="library" subtype="institution">
+                    <placeName>Boston College Law Library Daniel R. Coquillette Rare Book Room</placeName> <settlement ref="wd:Q100"/> <country ref="wd:Q30"/>
                 </place>
             </listPlace><!---->
         </body>

@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Dunham Bible Museum</placeName>
                <placeName type="alt">Houston (TX), Dunham Bible Museum</placeName>
-               <country ref="Q30"/>
-               <region ref="Q1439"/>
-               <settlement ref="Q16555"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q1439"/>
+               <settlement ref="wd:Q16555"/>
                <location>
                   <geo>29.693049 -95.514886</geo>
                </location>

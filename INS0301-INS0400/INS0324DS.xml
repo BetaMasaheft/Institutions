@@ -46,9 +46,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="church monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Dayr Sayyida</placeName>
                     <placeName xml:id="n2" xml:lang="en">Monastery of the Virgin of John Colobos</placeName>
-                    <country ref="Q79"/>
-                    <region ref="Q30630"/>
-                    <settlement type="depression" ref="Q1074945"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q30630"/>
+                    <settlement type="depression" ref="wd:Q1074945"/>
                     <location>
                         <geo cert="low">30.4324 30.2377</geo>
                         <height cert="low">-23 m</height>

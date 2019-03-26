@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1551179" type="monastery" subtype="institution">
+                <place sameAs="wd:Q1551179" type="monastery" subtype="institution">
                     <placeName>Exarchic Greek Abbey of St. Mary of Grottaferrata</placeName>
-                    <settlement ref="Q242703"/>
-                      <country ref="Q38"/>
+                    <settlement ref="wd:Q242703"/>
+                      <country ref="wd:Q38"/>
 
 
 

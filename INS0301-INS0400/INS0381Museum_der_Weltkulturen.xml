@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1954571" type="museum" subtype="institution">
+                <place sameAs="wd:Q1954571" type="museum" subtype="institution">
                     <placeName>Museum der Weltkulturen Frankfurt am Main</placeName>
-                    <settlement ref="Q1794"/>
-                    <country ref="Q183"/>
+                    <settlement ref="wd:Q1794"/>
+                    <country ref="wd:Q183"/>
                 </place>
             </listPlace>
          <!---->

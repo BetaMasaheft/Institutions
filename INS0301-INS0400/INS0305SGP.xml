@@ -47,9 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="library" subtype="institution">
                     <placeName xml:lang="fr">Abbaye de Saint-Germain-des-Prés</placeName>
                     <placeName xml:lang="en" type="alt"> Abbey Saint-Germain-des-Prés</placeName>
-                    <country ref="Q142"/>
-                    <region ref="Q13917"/>
-                    <settlement type="city" ref="Q90"/>
+                    <country ref="wd:Q142"/>
+                    <region ref="wd:Q13917"/>
+                    <settlement type="city" ref="wd:Q90"/>
                     <location>
                         <geo>48.853963 2.332161</geo>
                     </location>

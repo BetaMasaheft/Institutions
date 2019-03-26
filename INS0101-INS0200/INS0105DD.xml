@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery gadam" subtype="institution" sameAs="Q595895">
+            <place type="church monastery gadam" subtype="institution" sameAs="wd:Q595895">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ዳሞ፡ አቡነ፡ አረጋዊ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ዳሞ፡</placeName>
@@ -146,7 +146,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS9162TaklaHa"><roleName type="title">ʾabuna</roleName></persName> <persName ref="PRS9162TaklaHa"/>.
                      It played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
-                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="Q36730"/> forces in <date>1557</date>.</ab>
+                     yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="wd:Q36730"/> forces in <date>1557</date>.</ab>
                      <ab type="description">
                      As of <date>2011</date>, monastic community has, reportedly, up to 50 monks. 
                         Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 

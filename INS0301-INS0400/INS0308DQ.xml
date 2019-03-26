@@ -50,9 +50,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n3" xml:lang="ar" type="alt">دير قسقام</placeName>
                     <placeName xml:lang="ar" type="normalized" corresp="#n3">Dayr Qusqām</placeName>
                     <placeName xml:id="n4" xml:lang="en" type="alt">Convent of the Apostles</placeName>
-                    <country ref="Q79"/>
-                    <region ref="Q29965"/>
-                    <settlement type="town" ref="Q310844"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q29965"/>
+                    <settlement type="town" ref="wd:Q310844"/>
                     <location>
                         <geo>27.444444 30.816667</geo>
                         <height>54 m</height>

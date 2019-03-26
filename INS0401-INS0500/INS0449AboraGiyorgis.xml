@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution" sameAs="Q54587520">
-                <settlement ref="Q207590"/>
+                <place type="church" subtype="institution" sameAs="wd:Q54587520">
+                <settlement ref="wd:Q207590"/>
 
                     <placeName xml:id="n1" xml:lang="gez">አቦራ፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAborā Qǝddus Giyorgis</placeName>

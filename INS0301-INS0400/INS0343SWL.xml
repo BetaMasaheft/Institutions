@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
             <place type="library">
                <placeName xml:id="n1">Württembergische Landesbibliothek Stuttgart</placeName>
-               <settlement type="city" ref="Q1022"/>
+               <settlement type="city" ref="wd:Q1022"/>
 
             </place>
          </listPlace>

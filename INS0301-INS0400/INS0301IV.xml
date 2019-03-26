@@ -52,8 +52,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place type="academicInstitution" subtype="institution">
                <placeName xml:lang="ru">Institut Vostočnyh Rukopisej Rossijskoj Akademii Nauk</placeName>
                <placeName type="alt">Institut Vostokovedenija</placeName>
-               <country ref="Q159"/>
-               <settlement ref="Q656"/>
+               <country ref="wd:Q159"/>
+               <settlement ref="wd:Q656"/>
                <location>
                   <geo>59.944074 30.3197658</geo>
                </location>

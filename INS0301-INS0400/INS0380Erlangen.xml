@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q15979678" type="library" subtype="institution">
+                <place sameAs="wd:Q15979678" type="library" subtype="institution">
                     <placeName>Koenigliche Universitaetsbibliothek zu Erlangen-Nuernberg</placeName>
-                    <settlement ref="Q3126"/>
-                    <country ref="Q183"/>
+                    <settlement ref="wd:Q3126"/>
+                    <country ref="wd:Q183"/>
 
 
                 </place>

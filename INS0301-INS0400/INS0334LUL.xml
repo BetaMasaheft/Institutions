@@ -47,9 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n1" xml:lang="sv">Lund Universitetsbiblioteket</placeName>
                     <placeName corresp="n1" xml:lang="en">Lund University Library</placeName>
 
-                    <country ref="Q34"/>
-                    <region ref="Q180756"/>
-                    <settlement ref="Q2167"/>
+                    <country ref="wd:Q34"/>
+                    <region ref="wd:Q180756"/>
+                    <settlement ref="wd:Q2167"/>
                     <location>
                         <geo>55.7089 13.1972</geo>
                         

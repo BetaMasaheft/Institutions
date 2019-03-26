@@ -49,9 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="" type="market" subtype="institution">
                     <placeName xml:id="n1">Bernard Quaritch Ltd</placeName>
-                    <country ref="Q145"/>
-                    <region ref="Q21"/>
-                    <settlement type="city" ref="Q84"/>
+                    <country ref="wd:Q145"/>
+                    <region ref="wd:Q21"/>
+                    <settlement type="city" ref="wd:Q84"/>
                 </place>
 
             </listPlace><!---->

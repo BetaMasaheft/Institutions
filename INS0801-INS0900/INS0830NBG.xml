@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Barrister's Gallery</placeName>
                <placeName type="alt">New Orleans, Barrister's Gallary</placeName>
-               <country ref="Q30"/>
-               <region ref="Q1588"/>
-               <settlement ref="Q34404"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q1588"/>
+               <settlement ref="wd:Q34404"/>
                <location>
                   <geo>29.969151 -90.053558</geo>
                </location>

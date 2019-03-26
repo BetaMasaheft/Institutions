@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:lang="en">Bible Society's Library</placeName>
                     <placeName xml:lang="en" type="alt"> Bible House Library</placeName>
                     <placeName xml:lang="fr" type="alt"> Bibliothèque de la Société biblique de Londres</placeName>
-                    <country ref="Q145"/>
-                    <region ref="Q21"/>
-                    <settlement ref="Q350"/>
+                    <country ref="wd:Q145"/>
+                    <region ref="wd:Q21"/>
+                    <settlement ref="wd:Q350"/>
                     <location>
                   <geo>52.205071 0.105571</geo>
                </location>

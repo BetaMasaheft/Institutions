@@ -45,12 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="museum" subtype="institution" sameAs="Q2652168">
+                <place type="museum" subtype="institution" sameAs="wd:Q2652168">
                     
                     <placeName xml:id="n1">National Museum of Ethiopia</placeName>                    
                     
                     <country ref="LOC3010Ethiop"/>
-                    <settlement ref="Q3624"/>
+                    <settlement ref="wd:Q3624"/>
                     
                 </place>
             </listPlace>

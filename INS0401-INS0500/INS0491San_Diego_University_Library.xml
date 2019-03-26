@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47490683" type="library" subtype="institution">
-                    <placeName>San Diego  State University Library</placeName> <settlement ref="Q23337"/> <country ref="Q30"/>
+                <place sameAs="wd:Q47490683" type="library" subtype="institution">
+                    <placeName>San Diego  State University Library</placeName> <settlement ref="wd:Q23337"/> <country ref="wd:Q30"/>
                 </place>
             </listPlace><!---->
         </body>

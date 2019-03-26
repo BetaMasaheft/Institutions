@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <place subtype="institution" type="academicInstitution">
                <placeName type="normalized">Cambridge University Library Collections</placeName>
                <placeName type="alt">Cambridge University Library Collections</placeName>
-               <country ref="Q145"/>
-               <settlement ref="Q350"/>
+               <country ref="wd:Q145"/>
+               <settlement ref="wd:Q350"/>
                <location>
                   <geo>52.204991 0.107705</geo>
                </location>

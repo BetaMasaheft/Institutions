@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="en">Harleian Library</placeName>
                     <placeName xml:id="n2" xml:lang="en">Harley Collection</placeName>
                     <placeName xml:id="n3" xml:lang="en">Harleian Collection</placeName>
-                    <country ref="Q174193"/>
-                    <region ref="Q21"/>
-                     <settlement type="city" ref="Q84"/>
+                    <country ref="wd:Q174193"/>
+                    <region ref="wd:Q21"/>
+                     <settlement type="city" ref="wd:Q84"/>
                     <location>
                         <geo>51.5288 -0.1267</geo>
                     </location>

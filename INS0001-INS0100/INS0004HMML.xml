@@ -46,8 +46,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName xml:id="n1">Hill Museum and Manuscript Library</placeName>
                <placeName corresp="#n1">HMML</placeName>
                <placeName xml:id="n2" type="alt">Hill Monastic Manuscript Library</placeName>
-               <country ref="Q30"/>
-               <region ref="Q1527"/>
+               <country ref="wd:Q30"/>
+               <region ref="wd:Q1527"/>
                <settlement>Collegeville</settlement>
                
                   <note>

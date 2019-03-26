@@ -40,12 +40,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q856419" type="library" subtype="institution">
+                <place sameAs="wd:Q856419" type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="it" type="main">Biblioteca Medicea Laurenziana</placeName>
                     <placeName xml:lang="en" type="alt">Laurentian Medici Library</placeName>
-                    <country ref="Q38"/>
-                    <region ref="Q1273"/>
-                    <settlement type="city" ref="Q2044"/>
+                    <country ref="wd:Q38"/>
+                    <region ref="wd:Q1273"/>
+                    <settlement type="city" ref="wd:Q2044"/>
                     <location>
                         <geo>43.7743 11.2540</geo>
                     </location>

@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="academicInstitution" subtype="institution">
                     <placeName>Ethiopic Manuscript Imaging Project</placeName>
-                    <settlement ref="Q6106"/>
+                    <settlement ref="wd:Q6106"/>
                 </place>
             </listPlace>
          <!---->

@@ -42,10 +42,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place type="library" subtype="institution" sameAs="Q213678">
+            <place type="library" subtype="institution" sameAs="wd:Q213678">
                <placeName xml:lang="it" xml:id="n1">Biblioteca Apostolica Vaticana</placeName>
                <placeName xml:lang="en" type="alt">Vatican Library</placeName>
-               <country ref="Q237">Vatican</country>
+               <country ref="wd:Q237">Vatican</country>
                <location>
                   <geo>41.90076 12.47447</geo>
                </location>
