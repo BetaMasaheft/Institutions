@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place sameAs="wd:Q460907" type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="it">Biblioteca Nazionale Centrale di Firenze</placeName>
                     <placeName corresp="#n1" xml:lang="en">Florence National Central Library</placeName>
-                    <country ref="wd:Q385"/>
+                    <country ref="wd:Q38"/>
                     <region ref="wd:Q1273"/>
                     <settlement type="city" ref="wd:Q2044"/>
                     <location>
