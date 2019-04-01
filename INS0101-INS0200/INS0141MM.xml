@@ -85,7 +85,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">The church is said to be old; the monastic community (now extinct) was established by <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> (1780-1831).</desc>
                   <ab type="history">Gaṭar. Two churches are at the site; one is very recent, one is older (but not older than 19th cent.); some unidentified structures are in the rock above the older church.&#xD;
 </ab>
-                  <ab type="description">11 Mss. photographed: <ref type="mss" corresp="ESmm001">MM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESmm002">MM-002</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESmm003">MM-003</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESmm004">MM-004</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmm005">MM-005</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmm006">MM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmm007">MM-007</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmm008">MM-008</ref> "The Book of the Marriage Ritual"; <ref type="mss" corresp="ESmm009">MM-009</ref> "Collection of Prayers"; <ref type="mss" corresp="ESmm010">MM-010</ref> "Missal"; <ref type="mss" corresp="ESmm011">MM-011</ref> "The Vita of the Apostles"</ab>
+                  <ab type="description">
+                     
+                     <figure>
+                        <graphic url="Sites/MM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     11 Mss. photographed: <ref type="mss" corresp="ESmm001">MM-001</ref> "Four Gospels"; <ref type="mss" corresp="ESmm002">MM-002</ref> "The Rite of the Passion Week"; <ref type="mss" corresp="ESmm003">MM-003</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESmm004">MM-004</ref> "The Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmm005">MM-005</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmm006">MM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmm007">MM-007</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmm008">MM-008</ref> "The Book of the Marriage Ritual"; <ref type="mss" corresp="ESmm009">MM-009</ref> "Collection of Prayers"; <ref type="mss" corresp="ESmm010">MM-010</ref> "Missal"; <ref type="mss" corresp="ESmm011">MM-011</ref> "The Vita of the Apostles"</ab>
           
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6298Libanos" type="tabot">Libānos</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName> (marble).</ab>

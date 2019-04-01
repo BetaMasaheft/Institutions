@@ -74,7 +74,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      The site accomodates two churches: the upper (2665 m ASL), smaller and older church is dedicated to <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName> (called ʿOnā Māʿṣo); 
                      the church below (Dabra Maʿār), big and recent, is dedicated to  <persName ref="PRS6819Mary" type="tabot">St Mary</persName>.&#xD;
 </ab>
-                  <ab type="description">19 Mss. photographed: <ref type="mss" corresp="ESmqm001">MQM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmqm002">MQM-002</ref> "Four Gospels"; 
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MQM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     19 Mss. photographed: <ref type="mss" corresp="ESmqm001">MQM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmqm002">MQM-002</ref> "Four Gospels"; 
                      <ref type="mss" corresp="ESmqm003">MQM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmqm004">MQM-004</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESmqm005">MQM-005</ref> "Missal"; 
                      <ref type="mss" corresp="ESmqm006">MQM-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmqm007">MQM-007</ref> "Missal"; <ref type="mss" corresp="ESmqm008">MQM-008</ref> "Vita of Gäbrä Mänfäs Qǝddus"; 
                      <ref type="mss" corresp="ESmqm009">MQM-009</ref> "Psalter"; <ref type="mss" corresp="ESmqm010">MQM-010</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmqm011">MQM-011</ref> "The Book of the Chants"; 
