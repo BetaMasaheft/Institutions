@@ -74,7 +74,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">Gadām. It is considered a monastery, but there are no monks. &#xD;
 </ab>
-                  <ab type="description">12 Mss. photographed: <ref type="mss" corresp="ESmma001">MMA-001</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmma002">MMA-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmma003">MMA-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmma004">MMA-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmma005">MMA-005</ref> "Missal"; <ref type="mss" corresp="ESmma006">MMA-006</ref> "Prayer of Incense"; <ref type="mss" corresp="ESmma007">MMA-007</ref> "Psalter"; <ref type="mss" corresp="ESmma008">MMA-008</ref> "Missal"; <ref type="mss" corresp="ESmma009">MMA-009</ref> "Four Gospels"; <ref type="mss" corresp="ESmma010">MMA-010</ref> "Homily of the Living One"; <ref type="mss" corresp="ESmma011">MMA-011</ref> "Homily of St. George"; <ref type="mss" corresp="ESmma012">MMA-012</ref> "Miracles of Mary".</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MMA.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     12 Mss. photographed: <ref type="mss" corresp="ESmma001">MMA-001</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmma002">MMA-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmma003">MMA-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmma004">MMA-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmma005">MMA-005</ref> "Missal"; <ref type="mss" corresp="ESmma006">MMA-006</ref> "Prayer of Incense"; <ref type="mss" corresp="ESmma007">MMA-007</ref> "Psalter"; <ref type="mss" corresp="ESmma008">MMA-008</ref> "Missal"; <ref type="mss" corresp="ESmma009">MMA-009</ref> "Four Gospels"; <ref type="mss" corresp="ESmma010">MMA-010</ref> "Homily of the Living One"; <ref type="mss" corresp="ESmma011">MMA-011</ref> "Homily of St. George"; <ref type="mss" corresp="ESmma012">MMA-012</ref> "Miracles of Mary".</ab>
        
                   <ab type="tabot">
                      <measure quantity="3"/>Tābots of <ref type="authFile" corresp="Amanuel">ʾAmānuʾel</ref>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>.</ab>

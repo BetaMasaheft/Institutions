@@ -77,7 +77,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">The religious site might have existed already in the ʾAksumite time.</desc>
                   <ab type="history">Gadām. It is considered as monastery, but there are no monks. There are two churches, one very recent and one a bit older, at the site. An ʾAksumite burial hewn in the rock is located in the vicinity.&#xD;
 </ab>
-                  <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESbma001">BMA-001</ref> "Missal"; <ref type="mss" corresp="ESbma002">BMA-002</ref> "Synaxarion"; <ref type="mss" corresp="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref type="mss" corresp="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="description">
+                     
+                     <figure>
+                        <graphic url="Sites/BMA.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     4 Mss. photographed: <ref type="mss" corresp="ESbma001">BMA-001</ref> "Missal"; <ref type="mss" corresp="ESbma002">BMA-002</ref> "Synaxarion"; <ref type="mss" corresp="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref type="mss" corresp="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
             
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 

@@ -77,7 +77,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ab type="tabot"><measure quantity="6"/>Tābots (6 distributed between 2 churches): 
                         <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, 
                         2 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>.</ab>
-                  <ab type="description">7 Mss. photographed:  <ref type="mss" corresp="ESsdsm001">SDSM-001</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESsdsm002">SDSM-002</ref> “Psalter”; <ref type="mss" corresp="ESsdsm003">SDSM-003</ref> “Book of Grammar; The Praise of Mary - ʾAndǝmta”; <ref type="mss" corresp="ESsdsm004">SDSM-004</ref> “Four Gospels”; <ref type="mss" corresp="ESsdsm005">SDSM-005</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESsdsm006">SDSM-006</ref> “Vita of Abunä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESsdsm007">SDSM-007</ref> “Miracles of Mary”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/SDSM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>7 Mss. photographed:  <ref type="mss" corresp="ESsdsm001">SDSM-001</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESsdsm002">SDSM-002</ref> “Psalter”; <ref type="mss" corresp="ESsdsm003">SDSM-003</ref> “Book of Grammar; The Praise of Mary - ʾAndǝmta”; <ref type="mss" corresp="ESsdsm004">SDSM-004</ref> “Four Gospels”; <ref type="mss" corresp="ESsdsm005">SDSM-005</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESsdsm006">SDSM-006</ref> “Vita of Abunä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESsdsm007">SDSM-007</ref> “Miracles of Mary”.</ab>
      
                </note>
             </place>

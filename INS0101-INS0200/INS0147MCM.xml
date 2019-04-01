@@ -72,7 +72,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">15th century (?). Local tradition claims the foundation in the time of <persName ref="PRS4327GabraMa"><roleName type="title">ḥaṣay</roleName> Gabra Masqal</persName>.</desc>
                   <ab type="history">Gaṭar. The recently built church stands near the dismantle building of the old church.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MCM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     7 Mss. photographed: <ref type="mss" corresp="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
             
                   <ab type="tabot">
                      <measure quantity="1"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>

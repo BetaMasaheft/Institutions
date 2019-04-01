@@ -148,6 +148,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
                      yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="wd:Q36730"/> forces in <date>1557</date>.</ab>
                      <ab type="description">
+                        <figure>
+                           <graphic url="Sites/DD.tif">
+                              <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                        </figure>
+                        
                      As of <date>2011</date>, monastic community has, reportedly, up to 50 monks. 
                         Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 
                      A small nunnery is located in the village nearby.&#xD;

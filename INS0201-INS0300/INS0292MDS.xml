@@ -67,7 +67,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">Dabr. &#xD;</ab>
                   <ab type="tabot"><measure quantity="1"/>Tābots (probably 1): <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
-                  <ab type="description">10 Mss. photographed: <ref type="mss" corresp="ESmds001">MDS-001</ref> “Vita of ʾabunä Zä-Mikaʾel ʾArägawi”; <ref type="mss" corresp="ESmds002">MDS-002</ref> “Horologium for the Night Hours”; <ref type="mss" corresp="ESmds003">MDS-003</ref> “Collection of Marian and protective prayers”; <ref type="mss" corresp="ESmds004">MDS-004</ref> “Psalter”; <ref type="mss" corresp="ESmds005">MDS-005</ref> “Missal”; <ref type="mss" corresp="ESmds006">MDS-006</ref> “Vita of ʾabumä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESmds007">MDS-007</ref> “Marian Prayers”; <ref type="mss" corresp="ESmds008">MDS-008</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmds009">MDS-009</ref> “Homily on the Glory of John”; <ref type="mss" corresp="ESmds010">MDS-010</ref> “The Disciples”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/MDS.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>10 Mss. photographed: <ref type="mss" corresp="ESmds001">MDS-001</ref> “Vita of ʾabunä Zä-Mikaʾel ʾArägawi”; <ref type="mss" corresp="ESmds002">MDS-002</ref> “Horologium for the Night Hours”; <ref type="mss" corresp="ESmds003">MDS-003</ref> “Collection of Marian and protective prayers”; <ref type="mss" corresp="ESmds004">MDS-004</ref> “Psalter”; <ref type="mss" corresp="ESmds005">MDS-005</ref> “Missal”; <ref type="mss" corresp="ESmds006">MDS-006</ref> “Vita of ʾabumä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESmds007">MDS-007</ref> “Marian Prayers”; <ref type="mss" corresp="ESmds008">MDS-008</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmds009">MDS-009</ref> “Homily on the Glory of John”; <ref type="mss" corresp="ESmds010">MDS-010</ref> “The Disciples”.</ab>
       
                </note>
             </place>

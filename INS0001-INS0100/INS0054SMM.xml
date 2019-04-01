@@ -86,7 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Samāz was favored by <persName ref="PRS2012Arayas"><roleName type="title">ras</roleName> ʾArʾāya Śǝllāse</persName> (ca. 1869-88), a son of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName>, who donated at least one book to the church.</desc>
                   <ab type="history">Gadām. Formally, Samāz Māryām is a monastery, but the monastic community declined in 1980-90s; currently, there are no monks.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed (ca. 13 recent Mss. left): <ref type="mss" corresp="ESsmm001">SMM-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESsmm002">SMM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsmm003">SMM-003</ref> "The Book of aslǝṭi"; <ref type="mss" corresp="ESsmm004">SMM-004</ref> "Prayers of the Faith"; <ref type="mss" corresp="ESsmm005">SMM-005</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESsmm006">SMM-006</ref> "Collection of liturgical prayers"; <ref type="mss" corresp="ESsmm007">SMM-007</ref> "Missal"</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/SMM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     7 Mss. photographed (ca. 13 recent Mss. left): <ref type="mss" corresp="ESsmm001">SMM-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESsmm002">SMM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsmm003">SMM-003</ref> "The Book of aslǝṭi"; <ref type="mss" corresp="ESsmm004">SMM-004</ref> "Prayers of the Faith"; <ref type="mss" corresp="ESsmm005">SMM-005</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESsmm006">SMM-006</ref> "Collection of liturgical prayers"; <ref type="mss" corresp="ESsmm007">SMM-007</ref> "Missal"</ab>
             
                   <ab type="tabot">
                      <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS6298Libanos" type="tabot">Maṭṭāʿ/Libānos</persName>, 

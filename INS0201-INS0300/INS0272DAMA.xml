@@ -68,7 +68,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Founded by däğğazmač Kasa ʾArʾaya, a son of ʾArʾaya Śǝllase Dǝmṣu (d. 1889).</desc>
                   <ab type="history">Gaṭar. Located very close to <placeName ref="INS0252SDMM">Ṣaḥǝlo Marya (SDMM)</placeName>.&#xD;
 </ab>
-                  <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/DAMA.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>
            
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
