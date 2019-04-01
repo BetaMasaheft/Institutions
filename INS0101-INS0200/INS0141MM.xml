@@ -67,12 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <settlement from="2011-05-11" to="2011-05-11" ref="LOC7278Bekot" type="qushat"/>
                
+                         
                
-               
-               <location>
-                  <geo>14.256283 39.460617</geo>
-                  <height unit="m">2.465</height>
-               </location>
                
                
 
