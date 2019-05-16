@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qälaqǝl Maryam Ṣǝyon</title>
+            <title>Qalāqǝl Māryām Ṣǝyon</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,31 +42,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-17">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Qälaqǝl Maryam Ṣǝyon</placeName>
-               <placeName type="alt">Ṣǝyon Maryam Qälaqǝl</placeName>
-               <placeName type="alt">Qälaqǝl Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-02" to="2011-12-02">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Wälwalo, qušät Qälaqǝl</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ቀላቅል፡ ማርያም፡ ጽዮን ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Qalāqǝl Māryām Ṣǝyon</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ጽዮን ፡ ማርያም፡ ቀላቅል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Ṣǝyon Māryām Qalāqǝl</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ቀላቅል፡ ማርያም ፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Qalāqǝl Māryām</placeName>            
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-12-02" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-12-02" ref="LOC7191Walwalo" type="tabiya"/>
+               <settlement when="2011-12-02" ref="LOC7194Qalaqel" type="qushat"/>
+               
+
                <location>
                   <geo>14.234367 39.640233</geo>
                   <height unit="m">2900.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">Local tradition tells that the religious site existed before the advent of Christianity; the church was founded by the Aksumite kings ʾAbrǝha and ʾAṣbǝḥa and re-established by däggazmac Subagadis (d. 1831)</desc>
-                  <ab type="history">Däbr.&#xD;
+                  <desc type="foundation">Local tradition tells that the religious site existed before the advent of Christianity; the church was founded by the Aksumite kings <persName ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥa</persName> and re-established by 
+                     <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> (d. 1831)</desc>
+                  <ab type="history">Dabr.&#xD;
 </ab>
-                  <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESqs001">QS-001</ref> “Gospel of John”; <ref type="mss" corresp="ESqs002">QS-002</ref> “Zǝmmare and Mäwasǝʾǝt”; <ref type="mss" corresp="ESqs003">QS-003</ref> “Mǝʿraf”; <ref type="mss" corresp="ESqs004">QS-004</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqs005">QS-005</ref> “Four Gospel”; <ref type="mss" corresp="ESqs006">QS-006</ref> “Dǝggwa”; <ref type="mss" corresp="ESqs007">QS-007</ref> “Homily of John the Evangelist”; <ref type="mss" corresp="ESqs008">QS-008</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESqs009">QS-009</ref> “Missal”; <ref type="mss" corresp="ESqs010">QS-010</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESqs011">QS-011</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESqs012">QS-012</ref> “Story of St. Mary”; <ref type="mss" corresp="ESqs013">QS-013</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESqs014">QS-014</ref> “Miracles of Mary”; <ref type="mss" corresp="ESqs015">QS-015</ref> “The Faith of the Fathers”.</ab>
+                  <ab type="description"> <figure>
+                     <graphic url="Sites/QS.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>15 Mss. photographed: <ref type="mss" corresp="ESqs001">QS-001</ref> “Gospel of John”; <ref type="mss" corresp="ESqs002">QS-002</ref> “Zǝmmare and Mäwasǝʾǝt”; <ref type="mss" corresp="ESqs003">QS-003</ref> “Mǝʿraf”; <ref type="mss" corresp="ESqs004">QS-004</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqs005">QS-005</ref> “Four Gospel”; <ref type="mss" corresp="ESqs006">QS-006</ref> “Dǝggwa”; <ref type="mss" corresp="ESqs007">QS-007</ref> “Homily of John the Evangelist”; <ref type="mss" corresp="ESqs008">QS-008</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESqs009">QS-009</ref> “Missal”; <ref type="mss" corresp="ESqs010">QS-010</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESqs011">QS-011</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESqs012">QS-012</ref> “Story of St. Mary”; <ref type="mss" corresp="ESqs013">QS-013</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESqs014">QS-014</ref> “Miracles of Mary”; <ref type="mss" corresp="ESqs015">QS-015</ref> “The Faith of the Fathers”.</ab>
 
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Mädḫane ʿAläm, Michael, Gabriel, Mary.</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

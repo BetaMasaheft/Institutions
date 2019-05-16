@@ -1,0 +1,61 @@
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0516NazretMaryam" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nāzret Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="PL"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2018-11-30">Created entity for Nafisa Valieva</change>
+            <change when="2019-01-17" who="ES">updated spelling inserted relation to LOC</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="gez">ናዝሬት፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Nāzret Māryām</placeName>
+                    
+                    
+                </place>
+            </listPlace>
+            <listRelation><relation name="skos:exactMatch" active="INS0516NazretMaryam" passive="LOC4980Nazret"></relation></listRelation>
+        </body>
+    </text>
+</TEI>

@@ -42,17 +42,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-06">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAbrǝqo Maryam</placeName>
-               <placeName type="alt">ʾAbrǝqo Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-18" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät ʾAbrǝqo</settlement>
+            <place type="church gatar" subtype="institution">                         
+               
+               <placeName xml:id="n1" xml:lang="gez">አብርቆ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAbrǝqo Māryām</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">አብርቆ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾAbrǝqo Qǝddǝst Māryām</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-01"/>  
+               <settlement ref="LOC7159Marg" type="tabiya" when="2010-12-01"/>
+               
+               <settlement from="2010-12-01" to="2010-12-01" ref="LOC7189Abreqo" type="qushat"/>
+               
+               
                <location>
                   <geo>14.268189 39.368495</geo>
                   
@@ -60,12 +74,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   
-                  <ab type="history">Gäṭär.&#xD;
+                  <ab type="history">Gaṭar.&#xD;
 </ab>
                   <ab type="description">6 Mss. photographed: <ref type="mss" corresp="ESqma001">QMA-001</ref> "Missal"; <ref type="mss" corresp="ESqma002">QMA-002</ref> "Four Gospels"; <ref type="mss" corresp="ESqma003">QMA-003</ref> "Collection of Liturgic Prayers"; <ref type="mss" corresp="ESqma004">QMA-004</ref> "Missal"; <ref type="mss" corresp="ESqma005">QMA-005</ref> "The Sword of the Trinity, The Loosening of the Spell"; <ref type="mss" corresp="ESqma006">QMA-006</ref> "Miracles of Mary"</ab>
               
                   <ab type="tabot">
-                     <measure quantity="5"/>Tābots of 4 of Mary, Trinity.</ab>
+                     <measure quantity="5"/>Tābots  4 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
                </note>
             </place>
          </listPlace>

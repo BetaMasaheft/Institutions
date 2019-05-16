@@ -42,32 +42,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-07">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Däbri Däbrä Zakaryas Qǝddus Giyorgis</placeName>
-               <placeName type="alt">Däbri Qǝddus Giyorgis</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-16" to="2012-12-04">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Däbri</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>Dabri Dabra Zakāryās Qǝddus Giyorgis</placeName>
+               <placeName type="alt">Dabri Qǝddus Giyorgis</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-16" to="2012-12-04"/>  
+               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-16" to="2012-12-04"/>
+               
+               <settlement from="2012-11-16" to="2012-12-04" ref="LOC7252Dabri" type="qushat"/>
+               
                <location>
                   <geo>14.141549 39.492582</geo>
                   <height unit="m">2587.96</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1200" notAfter="1300">1200-1300</date>
-                  <desc type="foundation">Local tradition claims that the church was founded in the time of King Gäbrä Mäsqäl, the tabot was brought by King ʾAlʿameda.</desc>
-                  <ab type="history">Däbr. Aksumite remains have been found in the vicinity. &#xD;
-The recent church of Mädḫane ʿAläm was built in the time of ; before,  (?).&#xD;
-The church of St. George stands on the rock and is hardly accessible The structures visible in the roch under the church of George (?) are said to have been a church dedicated to Qirqos (now deserted and inaccessible). In the valley, there is an associated church dedicated to Mädḫane ʿAläm, built in King Ḫaylä Śǝllase's time (but it was founded by grazmač Mäšäša).  &#xD;
+                  <desc type="foundation">Local tradition claims that the church was founded in the time of King <persName ref="PRS4327GabraMa">Gabra Masqal</persName>, the tābot was brought by King <persName ref="PRS3729ellaAm">ʾAlʿāmedā</persName>.</desc>
+                  <ab type="history">Dabr. Aksumite remains have been found in the vicinity. &#xD;
+                     The recent church of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName> was built in the time of ; before,  (?).&#xD;
+The church of St. <persName ref="PRS4585Georgeo" type="tabot">George</persName> stands on the rock and is hardly accessible. 
+                     The structures visible in the rock under the church of George (?) are said to have been a church dedicated to <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName> (now deserted and inaccessible). 
+                     In the valley, there is an associated church dedicated to <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, built in <persName ref="PRS5226haylase">King Ḫāyla Śǝllāse</persName>'s time (<date>1930-1950</date>?; but it was founded by <persName ref="PRS6841MasasaW"><roleName type="title">grāzmāč</roleName> Mašašā</persName>).  &#xD;
 </ab>
-                  <ab type="description">10 Mss. photographed: <ref type="mss" corresp="ESdqg001">DQG-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESdqg002">DQG-002</ref> “Vita of Mar Giyorgis”; <ref type="mss" corresp="ESdqg003">DQG-003</ref> “Compilation of gospel's texts”; <ref type="mss" corresp="ESdqg004">DQG-004</ref> “Miracles of Mary”; <ref type="mss" corresp="ESdqg005">DQG-005</ref> “Vita of Giyorgis; Miracles of Giyorgis; Supplication prayer; Image of Giyorgis”; <ref type="mss" corresp="ESdqg006">DQG-006</ref> “Psalter”; <ref type="mss" corresp="ESdqg007">DQG-007</ref> “Harp of Praise”; <ref type="mss" corresp="ESdqg008">DQG-008</ref> “Four Gospels”; <ref type="mss" corresp="ESdqg009">DQG-009</ref> “Book of the Baptismal Ritual”; <ref type="mss" corresp="ESdqg010">DQG-010</ref> “Praise of Marry”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/DQG.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>10 Mss. photographed: <ref type="mss" corresp="ESdqg001">DQG-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESdqg002">DQG-002</ref> “Vita of Mar Giyorgis”; <ref type="mss" corresp="ESdqg003">DQG-003</ref> “Compilation of gospel's texts”; <ref type="mss" corresp="ESdqg004">DQG-004</ref> “Miracles of Mary”; <ref type="mss" corresp="ESdqg005">DQG-005</ref> “Vita of Giyorgis; Miracles of Giyorgis; Supplication prayer; Image of Giyorgis”; <ref type="mss" corresp="ESdqg006">DQG-006</ref> “Psalter”; <ref type="mss" corresp="ESdqg007">DQG-007</ref> “Harp of Praise”; <ref type="mss" corresp="ESdqg008">DQG-008</ref> “Four Gospels”; <ref type="mss" corresp="ESdqg009">DQG-009</ref> “Book of the Baptismal Ritual”; <ref type="mss" corresp="ESdqg010">DQG-010</ref> “Praise of Marry”.</ab>
       
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of 2 of George (in the upper church) and 1 Mädḫane ʿAläm (below). The tābot of Qirqos is not there any more (reportedly stolen). The old dedication might be reflected in the name of the church, Däbrä Zäkaryas (Prophet Zachariah?).</ab>
+                     <measure quantity="3"/>Tābots of 2 of <persName ref="PRS4585Georgeo" type="tabot">George</persName> (in the upper church) and 1 <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName> (below). 
+                     The tābot of <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName> is not there any more (reportedly stolen). The old dedication might be reflected in the name of the church, Dabra Zakāryās (<persName ref="PRS10692Zechari" type="tabot">Prophet Zechariah</persName>?).</ab>
                </note>
             </place>
          </listPlace>

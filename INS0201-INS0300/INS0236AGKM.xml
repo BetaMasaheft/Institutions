@@ -42,31 +42,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAgulaʿ Getesemani Kidanä Mǝḥrät</placeName>
-               <placeName type="alt">ʾAgulaʿ Kidanä Mǝḥrät /</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-26" to="2012-05-26">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  ʾAgulaʿ, kätäma ʾAgulaʿ</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>ʾAgulāʿ Getesemani Kidāna Mǝḥrat</placeName>
+               <placeName type="alt">ʾAgulāʿ Kidāna Mǝḥrat /</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2014-01-29" to="2014-02-07"/>
+               <settlement ref="LOC7261Agula" type="tabiya" from="2012-05-26" to="2012-05-26"/>
+               <settlement from="2012-05-26" to="2012-05-26" ref="LOC1283Agula" type="town"/>
+               
                <location>
                   <geo>13.691042 39.592547</geo>
                   <height unit="m">2008.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">(Re-)established as monastery by King
-                     Yoḥannǝs IV (r. 1872-86); possibly existed before as a church.</desc>
-                  <ab type="history">Gädam. However, currently there is no monastic community. A "residence" of Yoḥannǝs IV (two building, recently restored) is located in the vicinity. &#xD;
+                  <desc type="foundation">(Re-)established as monastery by <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1886</date>); possibly existed before as a church.</desc>
+                  <ab type="history">Gadām. However, currently there is no monastic community. A "residence" of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (two building, recently restored) is located in the vicinity. &#xD;
 </ab>
-                  <ab type="description">36 Mss. photographed: <ref type="mss" corresp="ESagkm001">AGKM-001</ref>ʺ Four Gospelsʺ; <ref type="mss" corresp="ESagkm003">AGKM-003</ref> ʺ1) Octateuch 2) Book of king (in four parts with commentary in Amharic and Gǝʿǝz); <ref type="mss" corresp="ESagkm004">AGKM-004</ref> ʺCollection of Sälam- hymnsʺ; <ref type="mss" corresp="ESagkm005">AGKM-005</ref> ʺThe Miracles of Maryʺ; <ref type="mss" corresp="ESagkm006">AGKM-006</ref> ʺCollection of Sälam- hymns (from sǝnkǝssar, for the whole year)ʺ; <ref type="mss" corresp="ESagkm007">AGKM-007</ref> ʺThe Book of the Spiritual Elderʺ; <ref type="mss" corresp="ESagkm008">AGKM-008</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESagkm009">AGKM-009</ref> ʺThe Book of the Funeral Riteʺ; <ref type="mss" corresp="ESagkm010">AGKM-010</ref> ʺThe Book of Mar Yǝshaqʺ; <ref type="mss" corresp="ESagkm011">AGKM-011</ref> ʺThe collection of Imagesʺ; <ref type="mss" corresp="ESagkm012">AGKM-012</ref> ʺThe organ of praiseʺ; <ref type="mss" corresp="ESagkm013">AGKM-013</ref> ʺ1) The Book of Collection (Gǝʿǝz) 2) Kinds of Creation (Amharic )ʺ; <ref type="mss" corresp="ESagkm014">AGKM-014</ref> ʺThe Mistery of the Trinityʺ; <ref type="mss" corresp="ESagkm015">AGKM-015</ref> ʺ1) Epistles of st. Paul 2) Catholic Epistles 3) Acts of Apostler 4) Apocalipse of st. Johnʺ; <ref type="mss" corresp="ESagkm016">AGKM-016</ref> ʺSynaxarion (The first half of the years)ʺ; <ref type="mss" corresp="ESagkm017">AGKM-017</ref> ʺ1) Collection of Images 2) Praise of the Belovedʺ; <ref type="mss" corresp="ESagkm018">AGKM-018</ref> ʺPsalterʺ; <ref type="mss" corresp="ESagkm019">AGKM-019</ref> ʺThe Book of Cyrillʺ, etc.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/AGKM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>36 Mss. photographed: <ref type="mss" corresp="ESagkm001">AGKM-001</ref>ʺ Four Gospelsʺ; <ref type="mss" corresp="ESagkm003">AGKM-003</ref> ʺ1) Octateuch 2) Book of king (in four parts with commentary in Amharic and Gǝʿǝz); <ref type="mss" corresp="ESagkm004">AGKM-004</ref> ʺCollection of Sälam- hymnsʺ; <ref type="mss" corresp="ESagkm005">AGKM-005</ref> ʺThe Miracles of Maryʺ; <ref type="mss" corresp="ESagkm006">AGKM-006</ref> ʺCollection of Sälam- hymns (from sǝnkǝssar, for the whole year)ʺ; <ref type="mss" corresp="ESagkm007">AGKM-007</ref> ʺThe Book of the Spiritual Elderʺ; <ref type="mss" corresp="ESagkm008">AGKM-008</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESagkm009">AGKM-009</ref> ʺThe Book of the Funeral Riteʺ; <ref type="mss" corresp="ESagkm010">AGKM-010</ref> ʺThe Book of Mar Yǝshaqʺ; <ref type="mss" corresp="ESagkm011">AGKM-011</ref> ʺThe collection of Imagesʺ; <ref type="mss" corresp="ESagkm012">AGKM-012</ref> ʺThe organ of praiseʺ; <ref type="mss" corresp="ESagkm013">AGKM-013</ref> ʺ1) The Book of Collection (Gǝʿǝz) 2) Kinds of Creation (Amharic )ʺ; <ref type="mss" corresp="ESagkm014">AGKM-014</ref> ʺThe Mistery of the Trinityʺ; <ref type="mss" corresp="ESagkm015">AGKM-015</ref> ʺ1) Epistles of st. Paul 2) Catholic Epistles 3) Acts of Apostler 4) Apocalipse of st. Johnʺ; <ref type="mss" corresp="ESagkm016">AGKM-016</ref> ʺSynaxarion (The first half of the years)ʺ; <ref type="mss" corresp="ESagkm017">AGKM-017</ref> ʺ1) Collection of Images 2) Praise of the Belovedʺ; <ref type="mss" corresp="ESagkm018">AGKM-018</ref> ʺPsalterʺ; <ref type="mss" corresp="ESagkm019">AGKM-019</ref> ʺThe Book of Cyrillʺ, etc.</ab>
     
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Kidanä Mǝḥrät, Trinity.</ab>
+                     <measure quantity="2"/>Tābots of <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
                </note>
             </place>
          </listPlace>

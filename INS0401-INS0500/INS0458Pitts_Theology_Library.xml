@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q43185924" type="library" subtype="institution">
-                  <settlement ref="Q23556"/>
-                        <country ref="Q30"/>  <placeName>Pitts Theology Library Emory University</placeName>
+                <place sameAs="wd:Q43185924" type="library" subtype="institution">
+                  <settlement ref="wd:Q23556"/>
+                        <country ref="wd:Q30"/>  <placeName>Pitts Theology Library Emory University</placeName>
                 </place>
             </listPlace><!---->
         </body>

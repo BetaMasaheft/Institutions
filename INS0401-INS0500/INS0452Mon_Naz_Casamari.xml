@@ -18,7 +18,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -52,10 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place subtype="institution" type="monastery" sameAs="Q833129">
+                <place subtype="institution" type="monastery" sameAs="wd:Q833129">
                     <placeName xml:lang="it" xml:id="n1">Monumento Nazionale Abbazia di Casamari</placeName>
-                    <settlement type="city" ref="Q42466"/>
-                   <country ref="Q38"/> 
+                    <settlement type="city" ref="wd:Q42466"/>
+                   <country ref="wd:Q38"/>
                         <location>
                        <geo>13.487203 41.671028</geo>
                     </location>

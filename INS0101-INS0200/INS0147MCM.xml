@@ -42,30 +42,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-24">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>May Ḉäw Mikaʾel</placeName>
-               <placeName type="alt">Mikaʾel May Ḉäw</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-25" to="2011-05-25">wäräda Gulo Mäkäda, ṭabiya Habän, qušät May Ḉäw</settlement>
+            <place type="church monastery gatar" subtype="institution">
+               <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ቂያሕቶ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Māy Č̣aw Mikāʾel</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ዓዲ፡ ቂያሕቶ፡ ማርያም፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Mikāʾel Māy Č̣aw</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2011-05-24" to="2011-05-25"/>
+               <settlement ref="LOC6547Haban" type="tabiya" from="2011-05-24" to="2011-05-25"/>
+               <settlement from="2011-05-24" to="2011-05-25" type="qushat" ref="LOC7215MayCaw"/>
+
+
+               
                <location>
                   <geo>14.445483 39.467833</geo>
                   <height unit="m">2195.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">15th century (?). Local tradition claims the foundation in the time of ḥaṣäy Gäbrä Mäsqäl.</desc>
-                  <ab type="history">Gäṭär. The recently built church stands near the dismantle building of the old church.&#xD;
+                  <desc type="foundation">15th century (?). Local tradition claims the foundation in the time of <persName ref="PRS4327GabraMa"><roleName type="title">ḥaṣay</roleName> Gabra Masqal</persName>.</desc>
+                  <ab type="history">Gaṭar. The recently built church stands near the dismantle building of the old church.&#xD;
 </ab>
-                  <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MCM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     7 Mss. photographed: <ref type="mss" corresp="ESmcm001">MCM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmcm002">MCM-002</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESmcm003">MCM-003</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESmcm004">MCM-004</ref> "The Vita of the Apostles"; <ref type="mss" corresp="ESmcm005">MCM-005</ref> "Psalter", etc.</ab>
             
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Mikaʾel.</ab>
+                     <measure quantity="1"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
                </note>
             </place>
          </listPlace>

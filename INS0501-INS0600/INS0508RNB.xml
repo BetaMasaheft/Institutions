@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="library" subtype="institution">
                     <placeName>Rossijskaja Nacionalnaja Biblioteka</placeName>
-                    <country ref="Q159"/>
-                    <settlement ref="Q656"/>
+                    <country ref="wd:Q159"/>
+                    <settlement ref="wd:Q656"/>
                     <listBibl type="catalogue">
                        <bibl>
                           <ptr target="bm:Turaev1906rukopisi"/>

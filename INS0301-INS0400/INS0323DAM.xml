@@ -45,9 +45,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="church monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Dayr ʾAbū Mīnā</placeName>
                    
-                    <country ref="Q79"/>
-                    <region ref="Q30805"/>
-                    <settlement type="city" ref="Q85"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q30805"/>
+                    <settlement type="city" ref="wd:Q85"/>
                     <location>
                         <geo cert="medium">30.0023 31.1354</geo>
                         <height>23 m</height>

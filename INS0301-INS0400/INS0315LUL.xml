@@ -45,11 +45,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text>
       <body>
          <listPlace>
-            <place sameAs="Q638395" type="library" subtype="institution">
+            <place sameAs="wd:Q638395" type="library" subtype="institution">
                <placeName>Leiden University Library</placeName>
-               <country ref="Q29999"/>
-               <region ref="Q694"/>
-               <settlement type="town" ref="Q43631"/>
+               <country ref="wd:Q29999"/>
+               <region ref="wd:Q694"/>
+               <settlement type="town" ref="wd:Q43631"/>
             </place>
               </listPlace>
             <listBibl type="catalogue">

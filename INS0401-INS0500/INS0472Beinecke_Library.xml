@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q814779" type="library" subtype="institution">
-                  <settlement ref="Q49145"/> <country ref="Q30"/>
+                <place sameAs="wd:Q814779" type="library" subtype="institution">
+                  <settlement ref="wd:Q49145"/> <country ref="wd:Q30"/>
                     <placeName>The Beinecke Rare Book and Manuscript  Library</placeName>
                 </place>
             </listPlace><!---->

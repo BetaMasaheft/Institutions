@@ -42,30 +42,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted location links tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddi ʾArbaʾa Däbrä Sǝbḥat Qǝddǝst Maryam</placeName>
-               <placeName type="alt">ʿAddi ʾArbaʾa Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-08" to="2012-11-08">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  Gänfäl, qušät ʿAddi ʾArbaʾa</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>ʿĀddi ʾĀrbāʾa Dabra Sǝbḥat Qǝddǝst Māryām</placeName>
+               <placeName type="alt">ʿĀddi ʾĀrbāʾa Māryām</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2012-11-08" to="2012-11-08"/>
+               <settlement ref="LOC7262Ganfal" type="tabiya" from="2012-11-08" to="2012-11-08"/>
+               <settlement from="2012-11-08" to="2012-11-08" ref="LOC7263AddiArba" type="qushat"/>
+               
                <location>
                   <geo>13.797386 39.573408</geo>
                   <height unit="m">2090.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition claims the foundation in the time of the kings ʾAbrǝha and ʾAṣbǝḥa.</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <desc type="foundation">Local tradition claims the foundation in the time of the kings <persName ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥa</persName>.</desc>
+                  <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESaadm001">AADM-001</ref> “Prayer of the Incense”; <ref type="mss" corresp="ESaadm002">AADM-002</ref> “Dǝggwa”; <ref type="mss" corresp="ESaadm003">AADM-003</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm004">AADM-004</ref> “Horologium”; <ref type="mss" corresp="ESaadm005">AADM-005</ref> “Book of  ʾAsläti; Excerpts from Missal ”; <ref type="mss" corresp="ESaadm006">AADM-006</ref> “Missal”; <ref type="mss" corresp="ESaadm007">AADM-007</ref> “Homiliary for the feasts of St. Michael; Miracles of St, Michael”; <ref type="mss" corresp="ESaadm008">AADM-008</ref> “Book of the Baptismal Ritual”; <ref type="mss" corresp="ESaadm009">AADM-009</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESaadm010">AADM-010</ref> “Missal”; <ref type="mss" corresp="ESaadm011">AADM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm012">AADM-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESaadm013">AADM-013</ref> “Book of Gǝṣṣawe”; <ref type="mss" corresp="ESaadm014">AADM-014</ref> “Missal”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/AADM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>14 Mss. photographed: <ref type="mss" corresp="ESaadm001">AADM-001</ref> “Prayer of the Incense”; <ref type="mss" corresp="ESaadm002">AADM-002</ref> “Dǝggwa”; <ref type="mss" corresp="ESaadm003">AADM-003</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm004">AADM-004</ref> “Horologium”; <ref type="mss" corresp="ESaadm005">AADM-005</ref> “Book of  ʾAsläti; Excerpts from Missal ”; <ref type="mss" corresp="ESaadm006">AADM-006</ref> “Missal”; <ref type="mss" corresp="ESaadm007">AADM-007</ref> “Homiliary for the feasts of St. Michael; Miracles of St, Michael”; <ref type="mss" corresp="ESaadm008">AADM-008</ref> “Book of the Baptismal Ritual”; <ref type="mss" corresp="ESaadm009">AADM-009</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESaadm010">AADM-010</ref> “Missal”; <ref type="mss" corresp="ESaadm011">AADM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESaadm012">AADM-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESaadm013">AADM-013</ref> “Book of Gǝṣṣawe”; <ref type="mss" corresp="ESaadm014">AADM-014</ref> “Missal”.</ab>
          
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Mary.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

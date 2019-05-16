@@ -45,9 +45,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="quarter" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Ḥārat Zuwayla</placeName>
                    
-                    <country ref="Q79"/>
-                    <region ref="Q30805"/>
-                    <settlement type="city" ref="Q85"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q30805"/>
+                    <settlement type="city" ref="wd:Q85"/>
                     <location>
                         <geo cert="low">30.0626 31.2496</geo>
                   <!--                        geo coord refer to Cairo, not specific for this monastery-->

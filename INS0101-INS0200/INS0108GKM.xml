@@ -42,29 +42,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">names locations updated/completed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät </placeName>
-               <placeName type="alt">Däbrä Gännät Kidanä Mǝḥrät Mäḵodʿä</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-04" to="2010-12-04">wäräda Ganta Afäšum, ṭabiya Gullat, qušät Mäḵodʿä</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">መኾድዐ፡ ደብረ፡ ገነት፡ ኪዳነ፡ ምሕረት፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Maḵodʿa Dabra Gannat Kidāna Mǝḥrat</placeName>
+               <placeName  xml:lang="gez" xml:id="n2">ደብረ፡ ገነት፡ ኪዳነ፡ ምሕረት፡ መኾድዐ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Gannat Kidāna Mǝḥrat Maḵodʿa</placeName>
+
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-04"/>
+               <settlement ref="LOC7220Gullat" type="tabiya" when="2010-12-04"/>
+               <settlement ref="LOC7221Makoda" type="qushat" when="2010-12-04"/>
+            
+
                <location>
                   <geo>14.189278 39.362222</geo>
                   <height unit="m">2370.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1600">1600-1600</date>
-                  <desc type="foundation">Possibly diring the time of King Lebnä Dǝngǝl (r. 1508-40), re-established late 17th or early 18th cent. Mäzgäbä Śǝllase, the late 17th - early 18th-cent. head of Gundä Gunde, played a role in the establishement of the local monastic community.</desc>
-                  <ab type="history">Gädam. Some 10 monks were residing in the monastery at the time of the visit. &#xD;
-Tābots: said to be "44", i.e. very many, both wooden and marble; specifically were mentioned tabots of Trinity, Mäzgäbä Śǝllase, Michael, Mädḫane ʿAläm, Mary.</ab>
-                  <ab type="description">22 Mss. photographed: <ref type="mss" corresp="ESgkm001">GKM-001</ref> "The Spiritual Elder"; <ref type="mss" corresp="ESgkm002">GKM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgkm003">GKM-003</ref> "The Book of the Chants"; <ref type="mss" corresp="ESgkm004">GKM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgkm005">GKM-005</ref> "Four Gospels"; <ref type="mss" corresp="ESgkm006">GKM-006</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgkm007">GKM-007</ref> "Homily of the Living One"; <ref type="mss" corresp="ESgkm008">GKM-008</ref> "Pauline Epistles"; <ref type="mss" corresp="ESgkm009">GKM-009</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESgkm010">GKM-010</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgkm011">GKM-011</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESgkm012">GKM-012</ref> "Miracles of Mikaʾel"; <ref type="mss" corresp="ESgkm013">GKM-013</ref> "Vita of Mäzgäbä Śǝllase"; <ref type="mss" corresp="ESgkm014">GKM-014</ref> "Psalter"; <ref type="mss" corresp="ESgkm015">GKM-015</ref> "Prayer of Incense"; <ref type="mss" corresp="ESgkm016">GKM-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgkm017">GKM-017</ref> "The Covenant of Mary"; <ref type="mss" corresp="ESgkm018">GKM-018</ref> "Psalter"; <ref type="mss" corresp="ESgkm019">GKM-019</ref> "Collection of Maryam Texts and hymns"; <ref type="mss" corresp="ESgkm020">GKM-020</ref> "Prayers of Mary"; <ref type="mss" corresp="ESgkm021">GKM-021</ref> "The Book of the Baptismal Rite; The Book of the Baptismal Rite"; <ref type="mss" corresp="ESgkm022">GKM-022</ref> fragments of a Missal and a Psalter.</ab>
-     
-               </note>
+                  <desc type="foundation">Possibly diring the time of <persName ref="PRS6229LebnaDe">King Lǝbnā Dǝngǝl</persName> (r. <date>1508-1540</date>), re-established late 17th or early 18th cent. 
+                     <persName ref="PRS6951Mazgaba">Mazgaba Śǝllāse</persName>, the late 17th - early 18th-cent. head of Gunda Gunde, played a role in the establishement of the local monastic community.</desc>
+                  <ab type="history">Gadam. Some 10 monks were residing in the monastery at the time of the visit. &#xD;
+                     </ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/GKM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     22 Mss. photographed: <ref type="mss" corresp="ESgkm001">GKM-001</ref> "The Spiritual Elder"; <ref type="mss" corresp="ESgkm002">GKM-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgkm003">GKM-003</ref> "The Book of the Chants"; <ref type="mss" corresp="ESgkm004">GKM-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgkm005">GKM-005</ref> "Four Gospels"; <ref type="mss" corresp="ESgkm006">GKM-006</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgkm007">GKM-007</ref> "Homily of the Living One"; <ref type="mss" corresp="ESgkm008">GKM-008</ref> "Pauline Epistles"; <ref type="mss" corresp="ESgkm009">GKM-009</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESgkm010">GKM-010</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgkm011">GKM-011</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESgkm012">GKM-012</ref> "Miracles of Mikaʾel"; <ref type="mss" corresp="ESgkm013">GKM-013</ref> "Vita of Mäzgäbä Śǝllase"; <ref type="mss" corresp="ESgkm014">GKM-014</ref> "Psalter"; <ref type="mss" corresp="ESgkm015">GKM-015</ref> "Prayer of Incense"; <ref type="mss" corresp="ESgkm016">GKM-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgkm017">GKM-017</ref> "The Covenant of Mary"; <ref type="mss" corresp="ESgkm018">GKM-018</ref> "Psalter"; <ref type="mss" corresp="ESgkm019">GKM-019</ref> "Collection of Maryam Texts and hymns"; <ref type="mss" corresp="ESgkm020">GKM-020</ref> "Prayers of Mary"; <ref type="mss" corresp="ESgkm021">GKM-021</ref> "The Book of the Baptismal Rite; The Book of the Baptismal Rite"; <ref type="mss" corresp="ESgkm022">GKM-022</ref> fragments of a Missal and a Psalter.</ab>
+                  <ab type="tabot"> <measure quantity="44"/>   Tābots: said to be "44", i.e. very many, both wooden and marble; specifically were mentioned tābots of 
+                     <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6951Mazgaba" type="tabot">Mazgaba Śǝllāse</persName>, 
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.  
+                     Possibly there exists also specifically <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.
+</ab>               </note>
             </place>
          </listPlace>
       </body>

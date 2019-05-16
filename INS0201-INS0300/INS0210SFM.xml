@@ -42,17 +42,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Sänqaṭa Fǝrewäyni Maryam</placeName>
-               <placeName type="alt">Sänqaṭa Fǝrewäyni Däbrä Ṣǝge Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-06" to="2011-12-06">wäräda Saʿsi Ṣaʿda ʾƎmba, town of Sänqaṭa</settlement>
+            <place type="church dabr" subtype="institution">
+
+
+               <placeName xml:id="n1" xml:lang="gez">ሰንቃጣ፡ ፍሬወይኒ፡ ማርያም፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sanqāṭā Fǝrewayni Māryām</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ሰንቃጣ፡ ፍሬወይኒ፡ ደብረ፡ ጽጌ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Sanqāṭā Fǝrewayni Dabra Ṣǝge Qǝddǝst Māryām</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-12-06" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-12-06" ref="LOC5683Senqat" type="tabiya"/>
+               <settlement when="2011-12-06" ref="LOC7177Senqata" type="town"/>
+
+
+               
                <location>
                   <geo>14.054617 39.569</geo>
                   <height unit="m">2460.0</height>
@@ -60,12 +74,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1670" notAfter="1755">1670-1755</date>
                   <desc type="foundation">Local tradition claims the foundation in the time of King ʾIyasu (ʾIyasu I, r. 1682-1706, or ʾIyasu II, r. 1730-55).</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description">8 Mss. photographed: <ref type="mss" corresp="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref type="mss" corresp="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref type="mss" corresp="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsfm004">SFM-004</ref> “Psalter”; <ref type="mss" corresp="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsfm006">SFM-006</ref> “Psalter”; <ref type="mss" corresp="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref type="mss" corresp="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/SFM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>8 Mss. photographed: <ref type="mss" corresp="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref type="mss" corresp="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref type="mss" corresp="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsfm004">SFM-004</ref> “Psalter”; <ref type="mss" corresp="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsfm006">SFM-006</ref> “Psalter”; <ref type="mss" corresp="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref type="mss" corresp="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
                
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, Kidanä Mǝḥrät.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>

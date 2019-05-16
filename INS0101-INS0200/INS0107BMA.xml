@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddigrat Bet Marya</title>
+            <title>ʿAddigrāt Bet Māryā</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,18 +42,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">names tabots updated/completed</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddigrat Bet Marya</placeName>
-               <placeName type="alt">Bet Marya ʿAddigrat</placeName>
-               <placeName type="alt">Bet Maryam ʿAddigrat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-08-11" to="2011-08-11">wäräda Ganta Afäšum, ʿAddigrat qäbälä 2</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ዓዲግራት፡ ቤት፡ ማርያ፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀddigrāt Bet Māryā</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ቤት፡ ማርያ፡ ዓዲግራት፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Bet Māryā ʿĀddigrāt</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n3">ቤት፡ ማርያም፡ ዓዲግራት፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n3">Bet Māryām ʿĀddigrāt</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2011-08-11"/>
+               <settlement ref="LOC1212Addigr" type="town"/> 
+               
+               <settlement when="2011-08-11"> 
+                  <placeName type="qabale">ʿĀddigrāt qabale 2</placeName>               </settlement>
+               
+               
                <location>
                   <geo>14.275883 39.4831</geo>
                   <height unit="m">2454.0</height>
@@ -61,12 +75,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">The religious site might have existed already in the ʾAksumite time.</desc>
-                  <ab type="history">Gädam. It is considered as monastery, but there are no monks. There are two churches, one very recent and one a bit older, at the site. An Aksumite burial hewn in the rock is located in the vicinity.&#xD;
+                  <ab type="history">Gadām. It is considered as monastery, but there are no monks. There are two churches, one very recent and one a bit older, at the site. An ʾAksumite burial hewn in the rock is located in the vicinity.&#xD;
 </ab>
-                  <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESbma001">BMA-001</ref> "Missal"; <ref type="mss" corresp="ESbma002">BMA-002</ref> "Synaxarion"; <ref type="mss" corresp="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref type="mss" corresp="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="description">
+                     
+                     <figure>
+                        <graphic url="Sites/BMA.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     4 Mss. photographed: <ref type="mss" corresp="ESbma001">BMA-001</ref> "Missal"; <ref type="mss" corresp="ESbma002">BMA-002</ref> "Synaxarion"; <ref type="mss" corresp="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref type="mss" corresp="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
             
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Trinity, Michael, Gäbrä Mänfäs Qǝddus, ʾArsema, distributed between two churches (one very recent).</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, 
+                     <persName ref="PRS12518Arsema" type="tabot">ʾArsemā</persName>, distributed between two churches (one very recent).</ab>
                </note>
             </place>
          </listPlace>

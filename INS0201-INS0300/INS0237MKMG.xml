@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäkaʿǝlo Mäkanä Lǝʿul</title>
+            <title>Makāʿǝlo Makāna Lǝʿul</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,30 +42,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-01">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted spelling location tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mäkaʿǝlo Mäkanä Lǝʿul</placeName>
-               <placeName type="alt">Mäkaʿǝlo</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-16" to="2011-11-16">wäräda Gulo Mäkäda, ṭabiya Ḥabän, qušät Mäkaʿǝlo</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Makāʿǝlo Makāna Lǝʿul</placeName>
+               <placeName type="alt">Makāʿǝlo</placeName>
+               <placeName type="alt">Makāʿlo</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-16" to="2011-11-16"/>
+               <settlement ref="LOC6547Haban" type="tabiya" from="2011-11-16" to="2011-11-16"/>
+               <settlement from="2011-11-16" to="2011-11-16" type="qushat" ref="LOC7223Makalo"/>
+               
+               
+
                <location>
                   <geo>14.411504 39.465905</geo>
                   <height unit="m">2230.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">Founded possibly during the time of King Särṣä Dǝngǝl (r. 1563–97).</desc>
-                  <ab type="history">Gädam. It is still considered a monastery, but there are no monks. A small recent church dedicated to Yǝmaʾta is located on the other side of the road, on the rock, close to ʿAddi Qolqwal (AQG). The church of Däbrä Maʿṣo Yoḥannǝs and it's flat-top mountain can be seen from the compound of Mäkaʿǝlo. &#xD;
+                  <desc type="foundation">Founded possibly during the time of King <persName ref="PRS8550sardaDe">Sarṣa Dǝngǝl</persName> (r. <date>1563–1597</date>).</desc>
+                  <ab type="history">Gadām. It is still considered a monastery, but there are no monks. A small recent church dedicated to <persName ref="PRS10322Yemata">Yǝmʾātā</persName> is located on the other side of the road, on the rock, close to 
+                     <placeName ref="INS0097AQG">ʿĀddi Qolqwāl (AQG)</placeName>. The church of <placeName ref="INS0039MY">Dabra Māʿṣo Yoḥannǝs</placeName> and it's flat-top mountain can be seen from the compound of Makāʿǝlo. &#xD;
 </ab>
-                  <ab type="description">12 Mss photographed: <ref type="mss" corresp="ESmkmg001">MKMG-001</ref> “ Missal”; <ref type="mss" corresp="ESmkmg002">MKMG-002</ref> “ Prayer of Incense”; <ref type="mss" corresp="ESmkmg003">MKMG-003</ref> “ Missal”; <ref type="mss" corresp="ESmkmg004">MKMG-004</ref> “ Synaxarion (September-February)”; <ref type="mss" corresp="ESmkmg005">MKMG-005</ref> “Missal”; <ref type="mss" corresp="ESmkmg006">MKMG-006</ref> “ Miracles of Mary”; <ref type="mss" corresp="ESmkmg007">MKMG-007</ref> “Vita of  Zä-Mikaʾel Arägawi”; <ref type="mss" corresp="ESmkmg008">MKMG-008</ref> “ The Book of Baptism”; <ref type="mss" corresp="ESmkmg009">MKMG-009</ref> “ Synaxarion (March-February)”; <ref type="mss" corresp="ESmkmg010">MKMG-010</ref> “ The Rite of the Holy Week”; <ref type="mss" corresp="ESmkmg011">MKMG-011</ref> “The Book of Gǝṣṣǝw”; <ref type="mss" corresp="ESmkmg012">MKMG-012</ref> “Miracles of Mary”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/MKMG.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>12 Mss photographed: <ref type="mss" corresp="ESmkmg001">MKMG-001</ref> “ Missal”; <ref type="mss" corresp="ESmkmg002">MKMG-002</ref> “ Prayer of Incense”; <ref type="mss" corresp="ESmkmg003">MKMG-003</ref> “ Missal”; <ref type="mss" corresp="ESmkmg004">MKMG-004</ref> “ Synaxarion (September-February)”; <ref type="mss" corresp="ESmkmg005">MKMG-005</ref> “Missal”; <ref type="mss" corresp="ESmkmg006">MKMG-006</ref> “ Miracles of Mary”; <ref type="mss" corresp="ESmkmg007">MKMG-007</ref> “Vita of  Zä-Mikaʾel Arägawi”; <ref type="mss" corresp="ESmkmg008">MKMG-008</ref> “ The Book of Baptism”; <ref type="mss" corresp="ESmkmg009">MKMG-009</ref> “ Synaxarion (March-February)”; <ref type="mss" corresp="ESmkmg010">MKMG-010</ref> “ The Rite of the Holy Week”; <ref type="mss" corresp="ESmkmg011">MKMG-011</ref> “The Book of Gǝṣṣǝw”; <ref type="mss" corresp="ESmkmg012">MKMG-012</ref> “Miracles of Mary”.</ab>
       
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Trinity, Kidanä Mǝḥrät.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>

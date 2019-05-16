@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tänsǝḥe Kidanä Mǝḥrät</title>
+            <title>Tansǝḥe Kidāna Mǝḥrat</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-11">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted spelling tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Tänsǝḥe Kidanä Mǝḥrät</placeName>
-               <placeName type="alt">Tänsǝḥe Kidanä Mǝḥrät</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-16" to="2012-05-17">wäräda Dägʿa Tämben, ṭabiya Sälam, qušät Tänsǝḥe</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ታንስሄ፡ ኪዳነ፡ ምሕረት፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Tansǝḥe Kidāna Mǝḥrat</placeName>
+               <placeName type="alt" xml:id="n2">ኪዳነ፡ ምሕረት፡ ታንስሄ፡</placeName>
+               <placeName type="alt" corresp="#n2">Kidāna Mǝḥrat Tansǝḥe</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-05-16" to="2012-05-17" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-05-16" to="2012-05-17" ref="LOC7224Salam" type="tabiya"></settlement>
+               <settlement from="2012-05-16" to="2012-05-17" ref="LOC7225Tansehe" type="qushat"></settlement>
+               
                <location>
                   <geo>13.694183 39.187917</geo>
                   <height unit="m">150.0</height>
@@ -60,13 +69,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   
-                  <ab type="history">Gädam.&#xD;
-The old rock hewn church is reserved only for the monastic community; the recent church of Kidanä Mǝḥrät located before the entrance to the monastic compound, is used by the local community.&#xD;
+                  <ab type="history">Gadām.&#xD;
+                     The old rock hewn church is reserved only for the monastic community; the recent church of <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref> located before the entrance to the monastic compound, is used by the local community.&#xD;
 </ab>
-                  <ab type="description">47 Mss. photographed: <ref type="mss" corresp="EStkmg001">TKMG-001</ref> “Miracles of Mary”; <ref type="mss" corresp="EStkmg002">TKMG-002</ref> “Book of the Rite of the Passion Week”; <ref type="mss" corresp="EStkmg003">TKMG-003</ref> “Miracles of Mary”; <ref type="mss" corresp="EStkmg004">TKMG-004</ref> “Four Gospels”; <ref type="mss" corresp="EStkmg005">TKMG-005</ref> “Four Gospels”; <ref type="mss" corresp="EStkmg006">TKMG-006</ref> “Synaxarion (Second half of the years)”; <ref type="mss" corresp="EStkmg007">TKMG-007</ref> “The Faith of the Fathers”; <ref type="mss" corresp="EStkmg008">TKMG-008</ref> “Psalter”; <ref type="mss" corresp="EStkmg009">TKMG-009</ref> “Justice of the Kings”; <ref type="mss" corresp="EStkmg010">TKMG-010</ref> “Collection of Mariam texts and other texts”; <ref type="mss" corresp="EStkmg011">TKMG-011</ref> “Horologium of Egypt”; <ref type="mss" corresp="EStkmg012">TKMG-012</ref> “Vita of Kiros”; <ref type="mss" corresp="EStkmg013">TKMG-013</ref> “Acts of the Apostles”; <ref type="mss" corresp="EStkmg014">TKMG-014</ref> “Psalter”; <ref type="mss" corresp="EStkmg015">TKMG-015</ref> “The Book of Minor Prophets with Commentary in Gǝ`ǝz and Amharic”; <ref type="mss" corresp="EStkmg016">TKMG-016</ref> “Testament of our Lord”; <ref type="mss" corresp="EStkmg017">TKMG-017</ref> “Psalter”; <ref type="mss" corresp="EStkmg018">TKMG-018</ref> “The Book of Cyrill”; <ref type="mss" corresp="EStkmg019">TKMG-019</ref> “Book of the interpretation of the Gospels”; <ref type="mss" corresp="EStkmg020">TKMG-020</ref> “Calendaric Treatise”; <ref type="mss" corresp="EStkmg022">TKMG-022</ref> “Lectionary for the year”; <ref type="mss" corresp="EStkmg023">TKMG-023</ref> “Homily of St. Michael”; <ref type="mss" corresp="EStkmg024">TKMG-024</ref> “Miracles of Jesus ”; <ref type="mss" corresp="EStkmg025">TKMG-025</ref> “The Harph of Praise”; <ref type="mss" corresp="EStkmg026">TKMG-026</ref> “The Book of the Spiritual Elder”; <ref type="mss" corresp="EStkmg027">TKMG-027</ref> “Praise of God”; <ref type="mss" corresp="EStkmg028">TKMG-028</ref> “The Disciples”; <ref type="mss" corresp="EStkmg029">TKMG-029</ref> “Mäwasǝʿt”; <ref type="mss" corresp="EStkmg030">TKMG-030</ref> “Part of Dǝggwa” ;<ref type="mss" corresp="EStkmg031">TKMG-031</ref> “Miracles of Jesus ”; <ref type="mss" corresp="EStkmg032">TKMG-032</ref> “The Book of the Jar; monastic ritual”; <ref type="mss" corresp="EStkmg033">TKMG-033</ref> “Psalter”; <ref type="mss" corresp="EStkmg034">TKMG-034</ref> “Spiritual Elder ( with commentary in Gǝʿǝz and Amharic)”; <ref type="mss" corresp="EStkmg035">TKMG-035</ref> “Vita of the Righteous Ones”; <ref type="mss" corresp="EStkmg036">TKMG-036</ref> “Psalter”; <ref type="mss" corresp="EStkmg037">TKMG-037</ref> “Homily of the Sabbath of Christians Five Piltass of Mystery”; <ref type="mss" corresp="EStkmg038">TKMG-038</ref> “The Disciples”; <ref type="mss" corresp="EStkmg039">TKMG-039</ref> “Psalter”; <ref type="mss" corresp="EStkmg040">TKMG-040</ref> “Gospel of John”; <ref type="mss" corresp="EStkmg041">TKMG-041</ref> “Gospel of John”; <ref type="mss" corresp="EStkmg042">TKMG-042</ref> “Homily of the Sariour of the world”; <ref type="mss" corresp="EStkmg043">TKMG-043</ref> “The Five Pilars of Faith (commentary)”; <ref type="mss" corresp="EStkmg045">TKMG-045</ref> “The collection of Images”; <ref type="mss" corresp="EStkmg046">TKMG-046</ref> “Praise of Mary”; <ref type="mss" corresp="EStkmg047">TKMG-047</ref> “Homily of the Sabbath of Christians”, <ref type="mss" corresp="EStkmg048">TKMG-048</ref> “Missail (incomplete at the beginning)”; <ref type="mss" corresp="EStkmg050">TKMG-050</ref> “The Covenant of Mary”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/TKMG.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>47 Mss. photographed: <ref type="mss" corresp="EStkmg001">TKMG-001</ref> “Miracles of Mary”; <ref type="mss" corresp="EStkmg002">TKMG-002</ref> “Book of the Rite of the Passion Week”; <ref type="mss" corresp="EStkmg003">TKMG-003</ref> “Miracles of Mary”; <ref type="mss" corresp="EStkmg004">TKMG-004</ref> “Four Gospels”; <ref type="mss" corresp="EStkmg005">TKMG-005</ref> “Four Gospels”; <ref type="mss" corresp="EStkmg006">TKMG-006</ref> “Synaxarion (Second half of the years)”; <ref type="mss" corresp="EStkmg007">TKMG-007</ref> “The Faith of the Fathers”; <ref type="mss" corresp="EStkmg008">TKMG-008</ref> “Psalter”; <ref type="mss" corresp="EStkmg009">TKMG-009</ref> “Justice of the Kings”; <ref type="mss" corresp="EStkmg010">TKMG-010</ref> “Collection of Mariam texts and other texts”; <ref type="mss" corresp="EStkmg011">TKMG-011</ref> “Horologium of Egypt”; <ref type="mss" corresp="EStkmg012">TKMG-012</ref> “Vita of Kiros”; <ref type="mss" corresp="EStkmg013">TKMG-013</ref> “Acts of the Apostles”; <ref type="mss" corresp="EStkmg014">TKMG-014</ref> “Psalter”; <ref type="mss" corresp="EStkmg015">TKMG-015</ref> “The Book of Minor Prophets with Commentary in Gǝ`ǝz and Amharic”; <ref type="mss" corresp="EStkmg016">TKMG-016</ref> “Testament of our Lord”; <ref type="mss" corresp="EStkmg017">TKMG-017</ref> “Psalter”; <ref type="mss" corresp="EStkmg018">TKMG-018</ref> “The Book of Cyrill”; <ref type="mss" corresp="EStkmg019">TKMG-019</ref> “Book of the interpretation of the Gospels”; <ref type="mss" corresp="EStkmg020">TKMG-020</ref> “Calendaric Treatise”; <ref type="mss" corresp="EStkmg022">TKMG-022</ref> “Lectionary for the year”; <ref type="mss" corresp="EStkmg023">TKMG-023</ref> “Homily of St. Michael”; <ref type="mss" corresp="EStkmg024">TKMG-024</ref> “Miracles of Jesus ”; <ref type="mss" corresp="EStkmg025">TKMG-025</ref> “The Harph of Praise”; <ref type="mss" corresp="EStkmg026">TKMG-026</ref> “The Book of the Spiritual Elder”; <ref type="mss" corresp="EStkmg027">TKMG-027</ref> “Praise of God”; <ref type="mss" corresp="EStkmg028">TKMG-028</ref> “The Disciples”; <ref type="mss" corresp="EStkmg029">TKMG-029</ref> “Mäwasǝʿt”; <ref type="mss" corresp="EStkmg030">TKMG-030</ref> “Part of Dǝggwa” ;<ref type="mss" corresp="EStkmg031">TKMG-031</ref> “Miracles of Jesus ”; <ref type="mss" corresp="EStkmg032">TKMG-032</ref> “The Book of the Jar; monastic ritual”; <ref type="mss" corresp="EStkmg033">TKMG-033</ref> “Psalter”; <ref type="mss" corresp="EStkmg034">TKMG-034</ref> “Spiritual Elder ( with commentary in Gǝʿǝz and Amharic)”; <ref type="mss" corresp="EStkmg035">TKMG-035</ref> “Vita of the Righteous Ones”; <ref type="mss" corresp="EStkmg036">TKMG-036</ref> “Psalter”; <ref type="mss" corresp="EStkmg037">TKMG-037</ref> “Homily of the Sabbath of Christians Five Piltass of Mystery”; <ref type="mss" corresp="EStkmg038">TKMG-038</ref> “The Disciples”; <ref type="mss" corresp="EStkmg039">TKMG-039</ref> “Psalter”; <ref type="mss" corresp="EStkmg040">TKMG-040</ref> “Gospel of John”; <ref type="mss" corresp="EStkmg041">TKMG-041</ref> “Gospel of John”; <ref type="mss" corresp="EStkmg042">TKMG-042</ref> “Homily of the Sariour of the world”; <ref type="mss" corresp="EStkmg043">TKMG-043</ref> “The Five Pilars of Faith (commentary)”; <ref type="mss" corresp="EStkmg045">TKMG-045</ref> “The collection of Images”; <ref type="mss" corresp="EStkmg046">TKMG-046</ref> “Praise of Mary”; <ref type="mss" corresp="EStkmg047">TKMG-047</ref> “Homily of the Sabbath of Christians”, <ref type="mss" corresp="EStkmg048">TKMG-048</ref> “Missail (incomplete at the beginning)”; <ref type="mss" corresp="EStkmg050">TKMG-050</ref> “The Covenant of Mary”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Trinity, Kidanä Mǝḥrät, possibly Ṣadǝqan.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, possibly <persName ref="PRS8300sadeqan" type="tabot">Ṣādǝqān</persName>.</ab>
                </note>
             </place>
          </listPlace>

@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q477451" type="academicInstitution" subtype="institution">
+                <place sameAs="wd:Q477451" type="academicInstitution" subtype="institution">
                     <placeName>Institute for New Testament Textual Research Münster</placeName>
-                    <settlement ref="Q2742"/>
-                    <country ref="Q183"/>
+                    <settlement ref="wd:Q2742"/>
+                    <country ref="wd:Q183"/>
                 </place>
             </listPlace>
          <!---->

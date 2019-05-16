@@ -42,17 +42,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-03">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Ṣäbäla Däbrä Gännät Maryam</placeName>
-               <placeName type="alt">Ṣäbäla Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-08" to="2011-12-08">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝndäda, qušät Ṣäbäla</settlement>
+            <place type="church monastery gadam" subtype="institution">
+
+               
+               <placeName xml:id="n1" xml:lang="gez">ጸበላ፡ ደብረ፡ ገነት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṣabalā Dabra Gannat Māryām</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ጸበላ፡ ማርያም፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Ṣabalā Māryām</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-12-06" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-12-06" ref="LOC7178Sendada" type="tabiya"/>
+               <settlement when="2011-12-06" ref="LOC7180Sabala" type="qushat"/>
+               
+               
                <location>
                   <geo>13.9773 39.60775</geo>
                   <height unit="m">2524.0</height>
@@ -60,13 +73,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   
-                  <ab type="history">Gädam. Currently, there are no monks. &#xD;
+                  <ab type="history">Gadām. Currently, there are no monks. &#xD;
 </ab>
                   <ab type="description">9 Mss. photographed: <ref type="mss" corresp="ESsdgm001">SDGM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESsdgm002">SDGM-002</ref> “Synaxarion (September - February)”; <ref type="mss" corresp="ESsdgm003">SDGM-003</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESsdgm004">SDGM-004</ref> “Vita of Abunä Täklä Haymanot”; <ref type="mss" corresp="ESsdgm005">SDGM-005</ref> “Prayer of Incense”; <ref type="mss" corresp="ESsdgm006">SDGM-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsdgm007">SDGM-007</ref> “The Book of Gǝṣṣǝw”; <ref type="mss" corresp="ESsdgm008">SDGM-008</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsdgm009">SDGM-009</ref> “Miracles of Mary”.</ab>
               
               
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, Michael.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
                </note>
             </place>
          </listPlace>

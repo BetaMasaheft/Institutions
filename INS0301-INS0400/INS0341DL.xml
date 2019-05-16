@@ -52,15 +52,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="monastery" subtype="institution" sameAs="Q2511832">
+            <place type="monastery" subtype="institution" sameAs="wd:Q2511832">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Libānos</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ዓስቦ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿAsbo</placeName>
                <state type="existence" ref="Paks2"/>
-               <country ref="Q115"/>
+               <country ref="wd:Q115"/>
 
-               <listBibl type="editions">
+               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Turaev1906ZenaDabralibanos"/>
                   </bibl>
@@ -72,10 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
-               </listBibl>
-
-
-               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Derat2005DabraLibanos"/>
                   </bibl>

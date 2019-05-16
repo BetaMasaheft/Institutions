@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery">
                     <placeName xml:lang="it" xml:id="n1">Santo Stefano de' Mori</placeName>
                     <placeName xml:lang="it" xml:id="n2" type="alt">Santo Stefano degli Abissini</placeName>
-                    <country ref="Q237"/>
+                    <country ref="wd:Q237"/>
                     <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:GrebTiss1935Codices"/>

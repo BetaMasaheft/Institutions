@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q2567785" type="library" subtype="institution"> <settlement ref="Q3624"/> <country ref="Q115"/>
+                <place sameAs="wd:Q2567785" type="library" subtype="institution"> <settlement ref="wd:Q3624"/> <country ref="wd:Q115"/>
 
                     <placeName>Ethiopian National Archives and Library Agency</placeName>
 

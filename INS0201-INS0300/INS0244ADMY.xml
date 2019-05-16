@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddimḥara Däbrä Mädḫanit ʾAbba Yoḥanni</title>
+            <title>ʿĀddimḥārā Dabra Madḫanit ʾAbbā Yoḥanni</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,31 +42,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-07">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʿAddimḥara Däbrä Mädḫanit ʾAbba Yoḥanni</placeName>
-               <placeName type="alt">ʾAbba Yoḥanni ʿAddimḥara</placeName>
-               <placeName type="alt">ʾAbba Yoḥanni ʿAddi ʾAmḥara</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-12" to="2012-11-12">wäräda Ganta ʾAfäšum, ṭabiya Baḥǝra - Sǝḥeta, qušät ʿAddimḥara</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>ʿĀddimḥārā Dabra Madḫanit ʾAbbā Yoḥanni</placeName>
+               <placeName type="alt">ʾAbbā Yoḥanni ʿĀddimḥārā</placeName>
+               <placeName type="alt">ʾAbbā Yoḥanni ʿĀddi ʾAmḥārā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-12" to="2012-11-12"/>  
+               <settlement ref="LOC7256Bahera" type="tabiya" from="2012-11-12" to="2012-11-12"/>
+               
+               <settlement from="2012-11-12" to="2012-11-12" ref="LOC7257Addimhara" type="qushat"/>
+               
+               
                <location>
                   <geo>14.18187 39.45513</geo>
                   <height unit="m">2485.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">Local tradition tells that the church was established by šum ʿagame Romḥay (Rämḥa Śǝllase).</desc>
-                  <ab type="history">Däbr.&#xD;
+                  <desc type="foundation">Local tradition tells that the church was established by <persName ref="PRS12535Romhay">šum ʿāgāme Romḥay (Ramḥa Śǝllase)</persName>.</desc>
+                  <ab type="history">Dabr.&#xD;
 </ab>
-                  <ab type="description">14 Mss., objects photographed: <ref type="mss" corresp="ESadmy001">ADMY-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESadmy002">ADMY-002</ref> “Collection of Images”; <ref type="mss" corresp="ESadmy003">ADMY-003</ref> “Vita and Miracls of ˤ Abba Yohanni; Image of ˤAbba Yohanni”; <ref type="mss" corresp="ESadmy004">ADMY-004</ref> “Homily of the Sabbath and other texts”; <ref type="mss" corresp="ESadmy005">ADMY-005</ref> “Homily of St. Michael”; <ref type="mss" corresp="ESadmy006">ADMY-006</ref> “Four Gospels”; <ref type="mss" corresp="ESadmy007">ADMY-007</ref> “Miracles of Mary”; <ref type="mss" corresp="ESadmy008">ADMY-008</ref> “Book of the Rite of the passion Week”; <ref type="mss" corresp="ESadmy009">ADMY-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESadmy010">ADMY-010</ref> “Synaxarion”; <ref type="mss" corresp="ESadmy011">ADMY-011</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESadmy012">ADMY-012</ref> “Prayer of  Incense”; <ref type="mss" corresp="ESadmy013">ADMY-013</ref> “Book of  ʾAsläti”; <ref type="mss" corresp="ESadmy014">ADMY-014</ref> “Vita of  ʾabba Yoḥanni; Miracles of  ʾabba Yoḥanni; Image of  ʾabba Yoḥanni”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/ADMY.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>14 Mss., objects photographed: <ref type="mss" corresp="ESadmy001">ADMY-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESadmy002">ADMY-002</ref> “Collection of Images”; <ref type="mss" corresp="ESadmy003">ADMY-003</ref> “Vita and Miracls of ˤ Abba Yohanni; Image of ˤAbba Yohanni”; <ref type="mss" corresp="ESadmy004">ADMY-004</ref> “Homily of the Sabbath and other texts”; <ref type="mss" corresp="ESadmy005">ADMY-005</ref> “Homily of St. Michael”; <ref type="mss" corresp="ESadmy006">ADMY-006</ref> “Four Gospels”; <ref type="mss" corresp="ESadmy007">ADMY-007</ref> “Miracles of Mary”; <ref type="mss" corresp="ESadmy008">ADMY-008</ref> “Book of the Rite of the passion Week”; <ref type="mss" corresp="ESadmy009">ADMY-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESadmy010">ADMY-010</ref> “Synaxarion”; <ref type="mss" corresp="ESadmy011">ADMY-011</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESadmy012">ADMY-012</ref> “Prayer of  Incense”; <ref type="mss" corresp="ESadmy013">ADMY-013</ref> “Book of  ʾAsläti”; <ref type="mss" corresp="ESadmy014">ADMY-014</ref> “Vita of  ʾabba Yoḥanni; Miracles of  ʾabba Yoḥanni; Image of  ʾabba Yoḥanni”.</ab>
           
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, Yoḥanni (?).</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10429Yohanni" type="tabot">Yoḥanni</persName> (?).</ab>
                </note>
             </place>
          </listPlace>

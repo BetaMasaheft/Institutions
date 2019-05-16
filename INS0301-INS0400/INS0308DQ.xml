@@ -50,14 +50,30 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n3" xml:lang="ar" type="alt">دير قسقام</placeName>
                     <placeName xml:lang="ar" type="normalized" corresp="#n3">Dayr Qusqām</placeName>
                     <placeName xml:id="n4" xml:lang="en" type="alt">Convent of the Apostles</placeName>
-                    <country ref="Q79"/>
-                    <region ref="Q29965"/>
-                    <settlement type="town" ref="Q310844"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q29965"/>
+                    <settlement type="town" ref="wd:Q310844"/>
                     <location>
                         <geo>27.444444 30.816667</geo>
                         <height>54 m</height>
                     </location>
                 </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5164MiracleHolyWeek"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5158MiracleLumber"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT3707Miracle"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT3702Miracle"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5210MiracleAnthony"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5212MiracleAnthony3"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5213MiracleAnthony4"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5211MiracleAnthony5"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5214MiracleAnthony6"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5224MiracleVisionTimothy9"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5374MiracleTribute"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5402MiracleRuins"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5421MiracleApparition"/>
+                    <relation name="lawd:hasAttestation" active="INS0308DQ" passive="LIT5530MiracleCross"/>
+                </listRelation>
             </listPlace>
         </body>
     </text>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäläsa Qǝddus Mikaʾel </title>
+            <title>Balasā Qǝddus Mikāʾel </title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,27 +42,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-08">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Bäläsa Qǝddus Mikaʾel </placeName>
-               <placeName type="alt">Däbrä Gännät Qǝddus Mikaʾel Bäläsa</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-13" to="2010-12-13">wäräda Kǝlǝttä ʾAwlaʿlo, ṭabiya  ʿAddäkǝsandǝd, qušät Bäläsa</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               <placeName xml:lang="gez" xml:id="n1">በለሳ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Balasā Qǝddus Mikāʾel</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ገነት፡ ቅዱስ፡ ሚካኤል፡ በለሳ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Gannat Qǝddus Mikāʾel Balasā</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2010-12-13" to="2010-12-13"/>
+               <settlement ref="LOC7168Adda" type="tabiya" from="2010-12-13" to="2010-12-13"/>
+               <settlement from="2010-12-13" to="2010-12-13" ref="LOC7209Balasa" type="qushat"/>
+
+
+
                <location>
                   <geo>13.84545 39.602683</geo>
                   <height unit="m">2131.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">According to local tradition, the church was founded by ras Mikaʾel Sǝḥul (ca. 1691-1777).</desc>
-                  <ab type="history">Däbr. The old round church is intact, stands behind the new church. &#xD;
-Tabos (4): Michael, Mary, Libanos, one unidentified marble tābot in disuse.</ab>
-                  <ab type="description">7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
+                  <desc type="foundation">According to local tradition, the church was founded by <persName ref="PRS7091Mikael">rās Mikāʾel Sǝḥul</persName> (ca. <date>1691-1777</date>).</desc>
+                  <ab type="history">Dabr. The old round church is intact, stands behind the new church. &#xD;</ab>
+                     <ab type="tabot"><measure quantity="4"/>Tābots (4): <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                        <persName ref="PRS6298Libanos" type="tabot">Maṭṭāʿ/Libānos</persName>, one unidentified marble tābot in disuse.</ab>
+                  <ab type="description"> <figure>
+                     <graphic url="Sites/QMB.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure> 7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
                  
                </note>
                

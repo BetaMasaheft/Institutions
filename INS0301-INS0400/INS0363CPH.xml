@@ -51,9 +51,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <placeName xml:id="n2" xml:lang="en">The Royal Library, the National Library of Denmark and the Copenhagen University Library</placeName>
                <placeName corresp="#n2" xml:lang="da">Det Kongelige Bibliotek, Nationalbibliotek og Københavns Universitetsbibliotek</placeName>
                
-               <country ref="Q35"/>
+               <country ref="wd:Q35"/>
                
-               <settlement type="city" ref="Q1748"/>
+               <settlement type="city" ref="wd:Q1748"/>
                <location>
                   <geo>55.673825 12.582208</geo>
                </location>

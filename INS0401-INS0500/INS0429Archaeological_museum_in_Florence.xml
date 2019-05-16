@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q3330682" type="museum" subtype="institution">
-                  <settlement ref="Q2044"/>
-                        <country ref="Q38"/>
+                <place sameAs="wd:Q3330682" type="museum" subtype="institution">
+                  <settlement ref="wd:Q2044"/>
+                        <country ref="wd:Q38"/>
                     <placeName>Archaeological museum in Florence</placeName>
                 </place>
             </listPlace>

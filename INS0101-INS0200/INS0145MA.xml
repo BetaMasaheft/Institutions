@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAndel Qǝddǝst Maryam</title>
+            <title>ʾĀndel Qǝddǝst Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,31 +42,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-06">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">links to tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAndel Qǝddǝst Maryam</placeName>
-               <placeName type="alt">ʾAndel Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-24" to="2011-05-24">wäräda Ganta ʾAfäšum, ṭabiya Hagärä Sälam, qušät ʾAndel</settlement>
+            <place type="church monastery gatar" subtype="institution">
+               
+               <placeName xml:lang="gez" xml:id="n1">ኣንዴል፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾĀndel Qǝddǝst Māryām</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ኣንዴል፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾĀndel Māryām</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2011-05-24" to="2011-05-24"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2011-05-24" to="2011-05-24" type="tabiya" ref="LOC3740Hagara"></settlement>
+               <settlement from="2011-05-24" to="2011-05-24"
+                  type="qushat"
+                  ref="LOC7216Andel"/>
+               
+ 
+               
                <location>
                   <geo>14.253306 39.414028</geo>
                   <height unit="m">2900.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition tells that the church was founded in the time of King Zarʾa Yāʿqob (r. 1434-68).</desc>
-                  <ab type="history">Gäṭär. &#xD;
+                  <desc type="foundation">Local tradition tells that the church was founded in the time of <persName ref="PRS10626ZaraY">King Zarʾa Yāʿqob</persName> (r. <date>1434-1468</date>).</desc>
+                  <ab type="history">Gaṭar. &#xD;
 The small old round church stands below the recent one. &#xD;
 </ab>
-                  <ab type="description">10 Mss. photographed: <ref type="mss" corresp="ESma001">MA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESma002">MA-002</ref> "The Vita of St. Ǝsṭifanos"; <ref type="mss" corresp="ESma003">MA-003</ref> "Missal"; <ref type="mss" corresp="ESma004">MA-004</ref> "Missal"; <ref type="mss" corresp="ESma005">MA-005</ref> "The Book of the History of Mary"; <ref type="mss" corresp="ESma006">MA-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESma007">MA-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESma008">MA-008</ref> "Mäṣḥafä Zena Sǝqlät"; <ref type="mss" corresp="ESma009">MA-009</ref> "Miracles of Mary"</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MA.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     10 Mss. photographed: <ref type="mss" corresp="ESma001">MA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESma002">MA-002</ref> "The Vita of St. Ǝsṭifanos"; <ref type="mss" corresp="ESma003">MA-003</ref> "Missal"; <ref type="mss" corresp="ESma004">MA-004</ref> "Missal"; <ref type="mss" corresp="ESma005">MA-005</ref> "The Book of the History of Mary"; <ref type="mss" corresp="ESma006">MA-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESma007">MA-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESma008">MA-008</ref> "Mäṣḥafä Zena Sǝqlät"; <ref type="mss" corresp="ESma009">MA-009</ref> "Miracles of Mary"</ab>
                 
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, ʾƎsṭifanos.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS3894estifano" type="tabot">ʾƎsṭifānos</persName>.</ab>
                </note>
             </place>
          </listPlace>

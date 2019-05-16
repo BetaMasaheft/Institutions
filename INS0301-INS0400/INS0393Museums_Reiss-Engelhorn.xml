@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q468496" type="museum" subtype="institution">
-                  <settlement ref="Q2119"/>
-                  <country ref="Q183"/>
+                <place sameAs="wd:Q468496" type="museum" subtype="institution">
+                  <settlement ref="wd:Q2119"/>
+                  <country ref="wd:Q183"/>
 
                     <placeName>Museums Reiss-Engelhorn Mannheim</placeName>
                 </place>

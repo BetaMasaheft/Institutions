@@ -42,30 +42,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-08">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>ʾAf Mǝhyaw Qǝddǝst Maryam</placeName>
-               <placeName type="alt">ʾAf Mǝhyaw Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-13" to="2012-11-14">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät ʾAf Mǝhyaw</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>ʾĀf Mǝhyāw Qǝddǝst Māryām</placeName>
+               <placeName type="alt">ʾĀf Mǝhyāw Māryām</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-13" to="2012-11-14"/>  
+               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-13" to="2012-11-14"/>
+               
+               <settlement from="2012-11-13" to="2012-11-14" ref="LOC7251AfMehyaw" type="qushat"/>
+               
                <location>
                   <geo>14.144982 39.454456</geo>
                   <height unit="m">2483.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">According to local tradition, the church was established around 1610 year of mercy (= 1617/18) by ras Mikaʾel Sǝḥul (however, he lived later and died around 1779); re-established by King Yoḥannǝs IV (r. 1772-89).</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <desc type="foundation">According to local tradition, the church was established around <date when="1618">1610 year of mercy</date> (= 1617/1618) by ras Mikaʾel Sǝḥul (however, he lived later and died around <date>1679</date>); 
+                     re-established by <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1772-1789</date>).</desc>
+                  <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description">12 Mss. photographed: <ref type="mss" corresp="ESafmm001">AFMM-001</ref> “Four Gospel”; <ref type="mss" corresp="ESafmm002">AFMM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm004">AFMM-004</ref> “Vita of Täklä Haymanot,             Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESafmm005">AFMM-005</ref> “Missal”; <ref type="mss" corresp="ESafmm006">AFMM-006</ref> “Synoptic Lectionary for the Year”, <ref type="mss" corresp="ESafmm007">AFMM-007</ref> “Homiliary for the Feast of St. Michael; Miracles of Michael; Image of Michael”; <ref type="mss" corresp="ESafmm008">AFMM-008</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESafmm009">AFMM-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESafmm010">AFMM-010</ref> “Homiliy on the Sabbath of Christians”; <ref type="mss" corresp="ESafmm011">AFMM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm012">AFMM-012</ref> “Homily on the Sabbath of Christians”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/AFMM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>12 Mss. photographed: <ref type="mss" corresp="ESafmm001">AFMM-001</ref> “Four Gospel”; <ref type="mss" corresp="ESafmm002">AFMM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm004">AFMM-004</ref> “Vita of Täklä Haymanot,             Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESafmm005">AFMM-005</ref> “Missal”; <ref type="mss" corresp="ESafmm006">AFMM-006</ref> “Synoptic Lectionary for the Year”, <ref type="mss" corresp="ESafmm007">AFMM-007</ref> “Homiliary for the Feast of St. Michael; Miracles of Michael; Image of Michael”; <ref type="mss" corresp="ESafmm008">AFMM-008</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESafmm009">AFMM-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESafmm010">AFMM-010</ref> “Homiliy on the Sabbath of Christians”; <ref type="mss" corresp="ESafmm011">AFMM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm012">AFMM-012</ref> “Homily on the Sabbath of Christians”.</ab>
       
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of Mary.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

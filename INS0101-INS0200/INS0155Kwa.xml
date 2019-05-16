@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>Kwaʿeyn Qəddus Gabrəʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -49,11 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>Kwäʿ</placeName>
-               <!-- there was nothing here-->
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-07-05" to="2011-07-05">wäräda ʾƎndärta</settlement>
+               <placeName>Kwaʿeyn Qəddus Gabrəʾel</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2011-07-05" to="2011-07-05" type="warada" ref="LOC2947Endart"/>
+               
                <location>
                   <geo>13.4948 39.63775</geo>
                   <height unit="m">2365.0</height>

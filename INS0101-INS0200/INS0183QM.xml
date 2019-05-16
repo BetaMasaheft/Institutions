@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qǝta Maryam</title>
+            <title>Qǝtā Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,30 +42,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-07">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Qǝta Maryam</placeName>
-               <placeName type="alt">Maryam Qǝta</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-21" to="2011-05-22">wäräda Ganta Afäšum, ṭabiya Mäzäbǝr, qušät Qǝta</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez"> ቅታ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Qǝtā Māryām</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ማርያም፡ ቅታ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Māryām Qǝtā</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2011-05-21"/>  
+               <settlement ref="LOC4731Mazaba" type="tabiya" when="2011-05-21"/>
+
+               <settlement ref="LOC7172Qeta" type="qushat" when="2011-05-21"/>
+
+               
                <location>
                   <geo>14.229817 39.301167</geo>
                   <height unit="m">2389.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition claims that the church was founded by (Aksumite) Kings ʾAbrǝha and ʾAṣbǝḥa.</desc>
-                  <ab type="history">Däbr.&#xD;
+                  <desc type="foundation">Local tradition claims that the church was founded by (Aksumite) Kings <persName ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥa</persName>.</desc>
+                  <ab type="history">Dabr.&#xD;
 </ab>
-                  <ab type="description">Ca. 20 books, mostly recent.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/QM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>Ca. 20 books, mostly recent.</ab>
         
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābots of probably only one, of Mary.</ab>
+                     <measure quantity="1"/>Tābots of probably only one, of <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

@@ -45,15 +45,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="church monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Dayr ʾAnbā ʾAnṭūniyūs</placeName>
                     <placeName corresp="#n1" xml:lang="en">Saint Anthony</placeName>
-                    <country ref="Q79"/>
-                    <region ref="Q134514" cert="medium"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q134514" cert="medium"/>
                <!--                    GeoNames gives Saint Anthony in the Suez Governorate, while Google Maps gives it in the Red Sea Governorate-->
-                    <settlement type="mountain" ref="Q23938880"/>
+                    <settlement type="mountain" ref="wd:Q23938880"/>
                     <location>
                         <geo>28.8996 32.4734</geo>
                         <height>445 m</height>
                     </location>
                 </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="INS0320DAA" passive="LIT5164MiracleHolyWeek"/>
+                    <relation name="lawd:hasAttestation" active="INS0320DAA" passive="LIT5165MiracleKatib"/>
+                </listRelation>
             </listPlace>
         </body>
     </text>

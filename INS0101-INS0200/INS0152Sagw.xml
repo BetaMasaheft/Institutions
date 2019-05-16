@@ -43,17 +43,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change who="DR" when="2017-11-02">Corrected ID</change>
+         <change when="2019-03-19" who="ES">adjusted name location </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church monastery" subtype="institution">                         
                
-               <placeName type="alt">Šägwala Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-07-05" to="2011-07-05">wäräda ʾƎndärta</settlement>
+               <placeName xml:id="n1" xml:lang="gez">ሸጓላ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Šagwālā Māryām</placeName>
+               
+              
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2011-07-05" to="2011-07-05" type="warada" ref="LOC2947Endart"/>
+               
+
                <location>
                   <geo>13.4948 39.63775</geo>
                   <height unit="m">2359.0</height>
@@ -61,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   
-                  <ab type="description">Composed of some 20 Mss. (of them ca. 7 older books, the Four Gospels book from the time of King Bäkaffa, r. 1721-30).</ab>
+                  <ab type="description">Composed of some 20 Mss. (of them ca. 7 older books, the Four Gospels book from the time of King Bakāffa, r. 1721-30).</ab>
    
                </note>
             </place>

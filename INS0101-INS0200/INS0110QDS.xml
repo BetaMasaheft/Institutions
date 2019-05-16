@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam</title>
+            <title>Qiʿāt Dabra Ṣǝyon Qǝddǝst Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-03">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Däbrä Ṣǝyon Qǝddǝst Maryam Qiʿat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-02" to="2010-12-02">wäräda Ganta ʾAfäšum, ṭabiya ʾAzäba, qušät Qiʿat</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               
+               <placeName xml:lang="gez" xml:id="n1">ቂዓት፡ ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Qiʿāt Dabra Ṣǝyon Qǝddǝst Māryām</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ጽዮን፡ ቅድስት፡ ማርያም፡ ቂዓት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Ṣǝyon Qǝddǝst Māryām Qiʿāt</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2010-12-06" to="2010-12-06" type="tabiya" ref="LOC7218Azaba"></settlement>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="qushat"
+                  ref="LOC7219Qiat"/>
+               
+
+
                <location>
                   <geo>14.178333 39.383556</geo>
                   <height unit="m">2433.0</height>
@@ -60,12 +79,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation">Local tradition tells that the religious sites existed before the advent of Christinity.</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description">12 Mss. photographed: <ref type="mss" corresp="ESqds001">QDS-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqds002">QDS-002</ref> "Missal"; <ref type="mss" corresp="ESqds003">QDS-003</ref> "Four Gospels"; <ref type="mss" corresp="ESqds004">QDS-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESqds005">QDS-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESqds006">QDS-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqds007">QDS-007</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqds008">QDS-008</ref> "Vita of Libanos"; <ref type="mss" corresp="ESqds009">QDS-009</ref> "Collection of Hymns"; <ref type="mss" corresp="ESqds010">QDS-010</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqds011">QDS-011</ref> "Vita of Gäbrä Nazrawi"; <ref type="mss" corresp="ESqds012">QDS-012</ref> "Collection of Maryam Prayers and Hymns"; <ref type="mss" corresp="ESqds013">QDS-013</ref> "Book of Images".</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/QDS.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     12 Mss. photographed: <ref type="mss" corresp="ESqds001">QDS-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqds002">QDS-002</ref> "Missal"; <ref type="mss" corresp="ESqds003">QDS-003</ref> "Four Gospels"; <ref type="mss" corresp="ESqds004">QDS-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESqds005">QDS-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESqds006">QDS-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqds007">QDS-007</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqds008">QDS-008</ref> "Vita of Libanos"; <ref type="mss" corresp="ESqds009">QDS-009</ref> "Collection of Hymns"; <ref type="mss" corresp="ESqds010">QDS-010</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqds011">QDS-011</ref> "Vita of Gäbrä Nazrawi"; <ref type="mss" corresp="ESqds012">QDS-012</ref> "Collection of Maryam Prayers and Hymns"; <ref type="mss" corresp="ESqds013">QDS-013</ref> "Book of Images".</ab>
         
                   <ab type="tabot">
-                     <measure quantity="9"/>Tābots of God Father, Kiros, Four Living Creatures, Twenty-Four Heavenly Priests, 2 of Mary, Libanos, Zarʾa Buruk, Gäbrä Nazrawi.</ab>
+                     <measure quantity="9"/>Tābots of <persName ref="PRS3697egziabe" type="tabot">God Father</persName>, <persName ref="PRS6006Kiros" type="tabot">Kiros</persName>, 
+                     <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>, 2 of 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                     <persName ref="PRS6298Libanos" type="tabot">Libānos</persName>, <persName ref="PRS10618ZaraB" type="tabot">Zarʾa Buruk</persName>, <persName ref="PRS4349GabraNa" type="tabot">Gabra Nāzrāwi</persName>.</ab>
                </note>
             </place>
          </listPlace>

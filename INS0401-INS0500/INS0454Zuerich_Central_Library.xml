@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q47459205" type="library" subtype="institution">
-                  <settlement ref="Q72"/>
-                        <country ref="Q39"/>   <placeName>Kantons-, Stadt- und Universitätsbibliothek Zuerich</placeName>
+                <place sameAs="wd:Q47459205" type="library" subtype="institution">
+                  <settlement ref="wd:Q72"/>
+                        <country ref="wd:Q39"/>   <placeName>Kantons-, Stadt- und Universitätsbibliothek Zuerich</placeName>
                 </place>
             </listPlace><!---->
         </body>

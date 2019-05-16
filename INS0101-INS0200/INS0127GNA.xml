@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Nazrawi ʾAgäzna</title>
+            <title>Gabra Nāzrāwi ʾAgaznā</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-04">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-14" who="ES">adjusted to schema, updated names, location, tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Gäbrä Nazrawi ʾAgäzna</placeName>
-               <placeName type="alt">ʾAgäzna Gäbrä Nazrawi</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgaḥǝya, qušät ʾAgäzna</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ገብረ፡ ናዝራዊ፡ አገዝና፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gabra Nāzrāwi ʾAgaznā</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">አገዝና፡ ገብረ፡ ናዝራዊ፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʾAgaznā Gabra Nāzrāwi</placeName>
+
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2010-12-08" ref="LOC3293GantaA" type="warada"/>
+               <settlement when="2010-12-08" ref="LOC7159Marg" type="tabiya"/>
+               <settlement when="2010-12-08" ref="LOC7161Agazna" type="qushat"/>
+               
+
+
+               
                <location>
                   <geo>14.262418 39.398269</geo>
                   <height unit="m">2919.86</height>
@@ -60,13 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1937" notAfter="1938">1937-1938</date>
                   <desc type="foundation">Ca. 1930 A.M. (= 1937/38 A.D.) Probably the local community.</desc>
-                  <ab type="history">Däbr.&#xD;
-The present church building is new; it was built mainly on the donation of the local people: ʾaläqa Ḥagos, mämhǝr Ammǝha Gǝdday Kǝnfä (who provided for the tin roof). Other people contributed with manpower. The clergy of the church consists of 9 priests, 17 deacons, 1 cantor.&#xD;
+                  <ab type="history">Dabr.&#xD;
+                     The present church building is new; it was built mainly on the donation of the local people: ʾalaqā Ḥāgos, mamhǝr ʾAmmǝhā Gǝddāy Kǝnfa (who provided for the tin roof). Other people contributed with manpower. The clergy of the church consists of 9 priests, 17 deacons, 1 cantor.&#xD;
 </ab>
-                  <ab type="description">2 Mss. were photographed (some 7 recent left behind, including the new copy of the Vita of Gäbrä Nazrawi): <ref type="mss" corresp="ESgna001">GNA-001</ref> "The Book of the Funeral Rite"</ab>
+                  <ab type="description">2 Mss. were photographed (some 7 recent left behind, including the new copy of the <ref type="work" corresp="LIT4755GadlaGN">Vita of Gabra Nāzrāwi</ref>): 
+                     <ref type="mss" corresp="ESgna001">GNA-001</ref> "The Book of the Funeral Rite"</ab>
          
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Trinity, Gäbrä Nazrawi, Mary.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS4349GabraNa" type="tabot">Gabra Nāzrāwi</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

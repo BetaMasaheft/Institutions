@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q2901297" type="library" subtype="institution">
-              <settlement ref="Q47465"/>
-                    <country ref="Q142"/> 
+                <place sameAs="wd:Q2901297" type="library" subtype="institution">
+              <settlement ref="wd:Q47465"/>
+                    <country ref="wd:Q142"/> 
                     <placeName>Bibliotheque Mejanes Aix en Provence</placeName>
                 </place>
             </listPlace>

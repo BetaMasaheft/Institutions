@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q463561" type="administrativeUnit" subtype="institution">
+                <place sameAs="wd:Q463561" type="administrativeUnit" subtype="institution">
                     <placeName>American Bible Society</placeName>
-<settlement ref="Q1345"> <country ref="Q30">
+<settlement ref="wd:Q1345"/> <country ref="wd:Q30"/>
                 </place>
             </listPlace><!---->
         </body>

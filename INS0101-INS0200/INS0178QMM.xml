@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Märgaḥǝya Qǝddus Mikaʾel</title>
+            <title>Margāḥǝya Mikaʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,18 +42,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-06">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-14" who="ES">adjusted to schema - name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Märgaḥǝya Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Däbrä Sälam Qǝddus Mikaʾel Märgaḥǝya</placeName>
-               <placeName type="alt">Märgaḥǝya Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-08" to="2010-12-08">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥabib ʿAddi Ḥǝyaw</settlement>
+            <place type="church dabr" subtype="institution">
+
+
+               <placeName xml:id="n1" xml:lang="gez">መርጋሕየ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Margāḥǝya Qǝddus Mikāʾel</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ደብረ፡ ሰላም፡ ቅዱስ፡ ሚካኤል፡ መርጋሕየ፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Dabra Salām Qǝddus Mikaʾel Margāḥǝya</placeName>
+               <placeName type="alt" xml:id="n3" xml:lang="gez">መርጋሕየ፡ ሚካኤል፡</placeName>
+               <placeName type="normalized" corresp="#n3" xml:lang="gez">Margāḥǝya Mikaʾel</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2010-12-08" ref="LOC3293GantaA" type="warada"/>
+               <settlement when="2010-12-08" ref="LOC7159Marg" type="tabiya"/>
+               <settlement when="2010-12-08" ref="LOC7160Habib" type="qushat"/>
+
+               
                <location>
                   <geo>14.277804 39.388802</geo>
                   <height unit="m">2411.0</height>
@@ -61,12 +76,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   
-                  <ab type="history">Däbr.&#xD;
+                  <ab type="history">Dabr.&#xD;
 </ab>
-                  <ab type="description">14 Mss. photographed: <ref type="mss" corresp="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmm002">QMM-002</ref> "Missal"; <ref type="mss" corresp="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref type="mss" corresp="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref type="mss" corresp="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref type="mss" corresp="ESqmm006">QMM-006</ref> "Psalter"; <ref type="mss" corresp="ESqmm007">QMM-007</ref> "Missal"; <ref type="mss" corresp="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref type="mss" corresp="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref type="mss" corresp="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref type="mss" corresp="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
+                  <ab type="description">
+                     
+                     <figure>
+                        <graphic url="Sites/QMM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     14 Mss. photographed: <ref type="mss" corresp="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmm002">QMM-002</ref> "Missal"; <ref type="mss" corresp="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref type="mss" corresp="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref type="mss" corresp="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref type="mss" corresp="ESqmm006">QMM-006</ref> "Psalter"; <ref type="mss" corresp="ESqmm007">QMM-007</ref> "Missal"; <ref type="mss" corresp="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref type="mss" corresp="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref type="mss" corresp="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref type="mss" corresp="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
         
                   <ab type="tabot">
-                     <measure quantity="5"/>Tābots of Michael, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, Mary.</ab>
+                     <measure quantity="5"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

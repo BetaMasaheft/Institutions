@@ -48,12 +48,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q875587" type="library" subtype="institution">
+                <place sameAs="wd:Q875587" type="library" subtype="institution">
                     <placeName xml:id="n1" xml:lang="de">Universitätsbibliothek Johann Christian Senckenberg</placeName>
                     <placeName type="alt" xml:id="n2" xml:lang="de">Stadt- und Universitätsbibliothek Frankfurt am Main</placeName>
                     <placeName type="alt" xml:id="n3" xml:lang="de">Senckenbergische Bibliothek</placeName>
-                    <country ref="Q183"/>
-                    <settlement ref="Q1794"/>
+                    <country ref="wd:Q183"/>
+                    <settlement ref="wd:Q1794"/>
                     <location>
                   <geo>50.120294 8.653069</geo>
                </location>

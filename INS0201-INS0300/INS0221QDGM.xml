@@ -42,30 +42,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-21">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-19" who="ES">adjusted spelling location tabots</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Qäqäma Däbrä Gännät Qǝddǝst Maryam </placeName>
-               <placeName type="alt">Qäqäma Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-06-01" to="2012-06-01">wäräda Dägʿa Tämben, ṭabiya Mizan, qušät Qäqäma</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Qaqamā Dabra Gannat Qǝddǝst Māryām </placeName>
+               <placeName type="alt">Qaqamā Māryām</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-06-01" to="2012-06-01" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-06-01" to="2012-06-01" ref="LOC7229Mizan" type="tabiya"></settlement>
+               <settlement from="2012-06-01" to="2012-06-01" ref="LOC7230Qaqama" type="qushat"></settlement>
+               
                <location>
                   <geo>13.5664 39.0586</geo>
                   <height unit="m">2122.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">The old church is said to have been founded by King Zärʾa Yaʿqob (r. 1438-68); the monastic community was established by King Yoḥannǝs IV (r. 1872-89). The religious site might have existed in the Aksumite time.</desc>
-                  <ab type="history">Gädam. The monastic community consists of at least 15 monks. &#xD;
+                  <desc type="foundation">The old church is said to have been founded by King Zarʾā Yāʿqob (r. <date>1438-1468</date>); the monastic community was established by <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>). The religious site might have existed in the Aksumite time.</desc>
+                  <ab type="history">Gadām. The monastic community consists of at least 15 monks. &#xD;
 </ab>
-                  <ab type="description">13 Mss. photographed: <ref type="mss" corresp="ESqdgm001">QDGM-001</ref> ʺThe Four Gospelsʺ; <ref type="mss" corresp="ESqdgm002">QDGM-002</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm003">QDGM-003</ref> ʺOctateuchʺ; <ref type="mss" corresp="ESqdgm004">QDGM-004</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm005">QDGM-005</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm006">QDGM-006</ref> ʺThe Harp of Praiseʺ; <ref type="mss" corresp="ESqdgm007">QDGM-007</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESqdgm008">QDGM-008</ref> ʺThe Book of the Spirtual Elderʺ; <ref type="mss" corresp="ESqdgm009">QDGM-009</ref> ʺCommentary to the Pauline Epistlesʺ; <ref type="mss" corresp="ESqdgm010">QDGM-010</ref> ʺThe History of the Apostlesʺ; <ref type="mss" corresp="ESqdgm011">QDGM-011</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm012">QDGM-012</ref> ʺVita of ʾArägawiʺ; <ref type="mss" corresp="ESqdgm013">QDGM-013</ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/QDGM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>13 Mss. photographed: <ref type="mss" corresp="ESqdgm001">QDGM-001</ref> ʺThe Four Gospelsʺ; <ref type="mss" corresp="ESqdgm002">QDGM-002</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm003">QDGM-003</ref> ʺOctateuchʺ; <ref type="mss" corresp="ESqdgm004">QDGM-004</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm005">QDGM-005</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm006">QDGM-006</ref> ʺThe Harp of Praiseʺ; <ref type="mss" corresp="ESqdgm007">QDGM-007</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESqdgm008">QDGM-008</ref> ʺThe Book of the Spirtual Elderʺ; <ref type="mss" corresp="ESqdgm009">QDGM-009</ref> ʺCommentary to the Pauline Epistlesʺ; <ref type="mss" corresp="ESqdgm010">QDGM-010</ref> ʺThe History of the Apostlesʺ; <ref type="mss" corresp="ESqdgm011">QDGM-011</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm012">QDGM-012</ref> ʺVita of ʾArägawiʺ; <ref type="mss" corresp="ESqdgm013">QDGM-013</ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</ab>
                 
                   <ab type="tabot">
-                     <measure quantity="7"/>Tābots of Mary, Mädḫane ʿAläm, George, (Zä-Mikaʾel) ʾArägawi, Trinity, Kidanä Mǝḫrät, probably Täklä Haymanot.</ab>
+                     <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
+                     <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, 
+                     probably <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>.</ab>
                </note>
             </place>
          </listPlace>

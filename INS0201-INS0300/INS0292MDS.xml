@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäzabǝr Däbrä Śǝllase</title>
+            <title>Mazābǝr Dabra Śǝllāse</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-07">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Mäzabǝr Däbrä Śǝllase</placeName>
-               <placeName type="alt">Mäzabǝr Śǝllase</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="0006-12-05" to="0007-12-05">wäräda Gulo Mäkäda, ṭabiya Mäzabǝr, qušät Mäzabǝr</settlement>
+            <place type="church dabr" subtype="institution">
+               <placeName>Mazābǝr Dabra Śǝllāse</placeName>
+               <placeName type="alt">Mazābǝr Śǝllāse</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-12-05" to="2010-12-05"/>
+               <settlement ref="LOC4731Mazaba" type="tabiya" from="2010-12-05" to="2010-12-05"/> 
+               <settlement from="2010-12-05" to="2010-12-05" type="qushat" ref="LOC7245Mazaber "/>
+               
                <location>
                   <geo>14.392222 39.298676</geo>
                   <height unit="m">2180.0</height>
@@ -60,9 +65,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   
-                  <ab type="history">Däbr. &#xD;
-Tābots (probably 1): Trinity.</ab>
-                  <ab type="description">10 Mss. photographed: <ref type="mss" corresp="ESmds001">MDS-001</ref> “Vita of ʾabunä Zä-Mikaʾel ʾArägawi”; <ref type="mss" corresp="ESmds002">MDS-002</ref> “Horologium for the Night Hours”; <ref type="mss" corresp="ESmds003">MDS-003</ref> “Collection of Marian and protective prayers”; <ref type="mss" corresp="ESmds004">MDS-004</ref> “Psalter”; <ref type="mss" corresp="ESmds005">MDS-005</ref> “Missal”; <ref type="mss" corresp="ESmds006">MDS-006</ref> “Vita of ʾabumä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESmds007">MDS-007</ref> “Marian Prayers”; <ref type="mss" corresp="ESmds008">MDS-008</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmds009">MDS-009</ref> “Homily on the Glory of John”; <ref type="mss" corresp="ESmds010">MDS-010</ref> “The Disciples”.</ab>
+                  <ab type="history">Dabr. &#xD;</ab>
+                  <ab type="tabot"><measure quantity="1"/>Tābots (probably 1): <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/MDS.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>10 Mss. photographed: <ref type="mss" corresp="ESmds001">MDS-001</ref> “Vita of ʾabunä Zä-Mikaʾel ʾArägawi”; <ref type="mss" corresp="ESmds002">MDS-002</ref> “Horologium for the Night Hours”; <ref type="mss" corresp="ESmds003">MDS-003</ref> “Collection of Marian and protective prayers”; <ref type="mss" corresp="ESmds004">MDS-004</ref> “Psalter”; <ref type="mss" corresp="ESmds005">MDS-005</ref> “Missal”; <ref type="mss" corresp="ESmds006">MDS-006</ref> “Vita of ʾabumä Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESmds007">MDS-007</ref> “Marian Prayers”; <ref type="mss" corresp="ESmds008">MDS-008</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmds009">MDS-009</ref> “Homily on the Glory of John”; <ref type="mss" corresp="ESmds010">MDS-010</ref> “The Disciples”.</ab>
       
                </note>
             </place>

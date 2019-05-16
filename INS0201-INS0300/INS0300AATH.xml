@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAddi ʾAbun Täklä Haymanot</title>
+            <title>ʾĀddi ʾAbun Takla Hāymānot</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-02">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-21" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
-               <placeName>ʾAddi ʾAbun Täklä Haymanot</placeName>
-               <placeName type="alt">Däbrä Marqos</placeName>
-               <country>Ethiopia</country>
-               <region>Central Tigray</region>
-               <settlement from="2015-03-25" to="2015-03-26">wäräda ʿAdwa, ṭabiya ʾAbǝnnät, qušät Qäṭäna 2</settlement>
+               <placeName>ʾĀddi ʾAbun Takla Hāymānot</placeName>
+               <placeName type="alt">Dabra Mārqos</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notBefore="1999" type="zone" ref="LOC6654CentralTegray"/>
+               <settlement from="2015-03-25" to="2015-03-26" ref="LOC1263Adwa" type="warada"></settlement>
+               <settlement from="2015-03-25" to="2015-03-26" ref="LOC7276Abennat" type="tabiya"/>
+               <settlement from="2015-03-25" to="2015-03-26" ref="LOC7277Qatana" type="qushat"/>
+               
+
                <location>
                   <geo>14.194971 38.875</geo>
                   <height unit="m">1905.0</height>

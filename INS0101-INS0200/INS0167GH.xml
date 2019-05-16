@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥawaṣi Gäbrǝʾel </title>
+            <title>Ḥawāṣi Gabrǝʾel </title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,18 +43,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change who="DR" when="2017-11-02">Corrected ID</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Ḥawaṣi Gäbrǝʾel </placeName>
-               <placeName type="alt">Qǝddus Gäbrǝʾel Ḥawaṣi</placeName>
-               <placeName type="alt">Gäbrǝʾel Ḥawaṣi</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-05-18" to="2011-05-18">wäräda Ganta ʾAfäšum, ṭabiya Märgahaya, qušät Ḥawaṣi</settlement>
+            <place type="church gatar" subtype="institution">
+               
+               <placeName xml:id="n1" xml:lang="gez">ሐዋጺ፡ ገብርኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥawāṣi Gabrǝʾel</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ቅዱስ፡ ገብርኤል፡ ሐዋጺ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Qǝddus Gabrǝʾel Ḥawāṣi</placeName>
+               
+               
+               <placeName xml:id="n3" xml:lang="gez">ገብርኤል፡ ሐዋጺ፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabrǝʾel Ḥawāṣi</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-01"/>  
+               <settlement ref="LOC7159Marg" type="tabiya" when="2010-12-01"/>
+               
+               <settlement from="2010-12-01" to="2010-12-01" ref="LOC7188Hawasi" type="qushat"/>
+               
+               
+
                <location>
                   <geo>14.250969 39.374074</geo>
                   
@@ -62,12 +78,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   
-                  <ab type="history">Gäṭär. The church is difficult to access.&#xD;
+                  <ab type="history">Gaṭar. The church is difficult to access.&#xD;
 </ab>
                   <ab type="description">4 Mss. photographed: <ref type="mss" corresp="ESgh001">GH-001</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESgh002">GH-002</ref> "Missal"; <ref type="mss" corresp="ESgh003">GH-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgh004">GH-004</ref> "Horologium"</ab>
           
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Gabriel, Mary.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

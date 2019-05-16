@@ -51,9 +51,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:lang="fr">Jacobins Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Couvent des Jacobins, rue Saint-Honoré</placeName>
                     <placeName xml:lang="fr" type="alt"> Bibliothèque des Jacobins Saint-Honoré</placeName>
-                    <country ref="Q142"/>
-                    <region ref="Q13917"/>
-                    <settlement type="city" ref="Q90"/>
+                    <country ref="wd:Q142"/>
+                    <region ref="wd:Q13917"/>
+                    <settlement type="city" ref="wd:Q90"/>
 
                 </place>
 

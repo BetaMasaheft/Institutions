@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1519139" type="library" subtype="institution">
-                  <settlement ref="Q118958"/>
-                        <country ref="Q31"/>    <placeName>KU Leuven Library</placeName>
+                <place sameAs="wd:Q1519139" type="library" subtype="institution">
+                  <settlement ref="wd:Q118958"/>
+                        <country ref="wd:Q31"/>    <placeName>KU Leuven Library</placeName>
                 </place>
             </listPlace>
          <!---->

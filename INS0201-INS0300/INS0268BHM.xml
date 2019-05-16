@@ -47,26 +47,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Baḥǝra Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Baḥǝra Maryam</placeName>
-               <placeName type="alt">Maryam Baḥǝra</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-14" to="2012-11-15">wäräda Ganta ʾAfäšum, ṭabiya Gwaḥgot, qušät Baḥǝra</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Bāḥǝrā Qǝddǝst Māryām</placeName>
+               <placeName type="alt">Bāḥǝrā Māryām</placeName>
+               <placeName type="alt">Māryām Bāḥǝrā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-14" to="2012-11-15"/>  
+               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-14" to="2012-11-15"/>
+               
+               <settlement from="2012-11-14" to="2012-11-15" ref="LOC7250Bahera" type="qushat"/>
+               
                <location>
                   <geo>14.165289 39.447665</geo>
                   <height unit="m">2504.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition tells that the rock-hewn church is ancient foundation; it was re-established in the time of King Yosṭos (r. 1711-16) and King Yoḥannǝs IV (r. 1872-89).</desc>
-                  <ab type="history">Gädam. The monastic community declined, only a few monks reside at the church.  &#xD;
+                  <desc type="foundation">Local tradition tells that the rock-hewn church is ancient foundation; it was re-established in the time of King Yosṭos (r. <date>1711-1716</date>) and <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>).</desc>
+                  <ab type="history">Gadām. The monastic community declined, only a few monks reside at the church.  &#xD;
 </ab>
-                  <ab type="description">9 Mss. photographed: <ref type="mss" corresp="ESbhm001">BHM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESbhm002">BHM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbhm003">BHM-003</ref> “Homiliany for the feasts of St. Michael; Miracles of Michael f. 59R; Homily of the 24 Heavenly Priests”; <ref type="mss" corresp="ESbhm004">BHM-004</ref> “Missal”; <ref type="mss" corresp="ESbhm005">BHM-005</ref> “Homily of Mary”; <ref type="mss" corresp="ESbhm006">BHM-006</ref> “Synaxarium (second part)”; <ref type="mss" corresp="ESbhm007">BHM-007</ref> “Synaxarium (The first half of the year)”; <ref type="mss" corresp="ESbhm008">BHM-008</ref> “Collection of Images ”; <ref type="mss" corresp="ESbhm009">BHM-009</ref> “Book of the Baptismal Rite”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/BHM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>9 Mss. photographed: <ref type="mss" corresp="ESbhm001">BHM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESbhm002">BHM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbhm003">BHM-003</ref> “Homiliany for the feasts of St. Michael; Miracles of Michael f. 59R; Homily of the 24 Heavenly Priests”; <ref type="mss" corresp="ESbhm004">BHM-004</ref> “Missal”; <ref type="mss" corresp="ESbhm005">BHM-005</ref> “Homily of Mary”; <ref type="mss" corresp="ESbhm006">BHM-006</ref> “Synaxarium (second part)”; <ref type="mss" corresp="ESbhm007">BHM-007</ref> “Synaxarium (The first half of the year)”; <ref type="mss" corresp="ESbhm008">BHM-008</ref> “Collection of Images ”; <ref type="mss" corresp="ESbhm009">BHM-009</ref> “Book of the Baptismal Rite”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Mary, ʾArägawi (in the additional, recently built small church).</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>  (in the additional, recently built small church).</ab>
                </note>
             </place>
          </listPlace>

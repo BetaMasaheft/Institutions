@@ -48,8 +48,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPlace>
             <place type="library" subtype="institution">
                <placeName>Linden-Museum Stuttgart</placeName>
-               <country ref="Q183"/>
-               <settlement type="city" ref="Q1022"/>
+               <country ref="wd:Q183"/>
+               <settlement type="city" ref="wd:Q1022"/>
             </place>
               </listPlace>
             <listBibl type="catalogue">

@@ -41,17 +41,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-20">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Läqay Kidanä Mǝḥrät</placeName>
-               <placeName type="alt">Däbrä Mǝḥrät Kidanä Mǝḥrät Läqay</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-12-06" to="2010-12-06">wäräda Ganta Afäšum, ṭabiya Bäʿatti May Mäsanu, qušät Läqay</settlement>
+            <place type="church dabr" subtype="institution">
+
+               
+               
+               <placeName xml:lang="gez" xml:id="n1">ላቃይ፡ ኪዳነ፡ ምሕረት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Laqāy Kidāna Mǝḥrat</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ መሕረት፡ ኪዳነ፡ ምሕረት፡ ላቃይ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Mǝḥrat Kidāna Mǝḥrat Laqāy</placeName>
+       
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2010-12-06" to="2010-12-06" type="tabiya" ref="LOC7183Baatti"></settlement>
+               <settlement from="2010-12-06" to="2010-12-06"
+                  type="qushat"
+                  ref="LOC7184Laqay"/>
+               
+               
                <location>
                   <geo>14.30405 39.439817</geo>
                   <height unit="m">2553.0</height>
@@ -59,12 +76,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation">Local tradition tells that the church was founded in the time of King Kaleb (6 cent.). Some pottery from the Aksumite period has been found at and around the site.</desc>
-                  <ab type="history">Däbr. &#xD;
+                  <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description">23 Mss. photographed: <ref type="mss" corresp="ESmkl001">MKL-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmkl002">MKL-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmkl003">MKL-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmkl004">MKL-004</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmkl005">MKL-005</ref> "Four Gospels"; <ref type="mss" corresp="ESmlk006">MLK-006</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESmkl007">MKL-007</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmkl008">MKL-008</ref> "Missal"; <ref type="mss" corresp="ESmkl009">MKL-009</ref> "Missal"; <ref type="mss" corresp="ESmkl010">MKL-010</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESmkl011">MKL-011</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmkl012">MKL-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmkl013">MKL-013</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmkl014">MKL-014</ref> "Vita of Libanos"; <ref type="mss" corresp="ESmkl015">MKL-015</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmkl016">MKL-016</ref> "Vita of Kiros"; <ref type="mss" corresp="ESmkl017">MKL-017</ref> "Prayer of Incense; Miracles of Mary"; <ref type="mss" corresp="ESmkl018">MKL-018</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESmkl019">MKL-019</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESmkl020">MKL-020</ref> "Story of the Trinity"; <ref type="mss" corresp="ESmkl021">MKL-021</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESmkl022">MKL-022</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESmkl023">MKL-023</ref> "Revelation of John (?)"</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MKL.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     23 Mss. photographed: <ref type="mss" corresp="ESmkl001">MKL-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmkl002">MKL-002</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmkl003">MKL-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmkl004">MKL-004</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmkl005">MKL-005</ref> "Four Gospels"; <ref type="mss" corresp="ESmlk006">MLK-006</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESmkl007">MKL-007</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmkl008">MKL-008</ref> "Missal"; <ref type="mss" corresp="ESmkl009">MKL-009</ref> "Missal"; <ref type="mss" corresp="ESmkl010">MKL-010</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESmkl011">MKL-011</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmkl012">MKL-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmkl013">MKL-013</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmkl014">MKL-014</ref> "Vita of Libanos"; <ref type="mss" corresp="ESmkl015">MKL-015</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmkl016">MKL-016</ref> "Vita of Kiros"; <ref type="mss" corresp="ESmkl017">MKL-017</ref> "Prayer of Incense; Miracles of Mary"; <ref type="mss" corresp="ESmkl018">MKL-018</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESmkl019">MKL-019</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESmkl020">MKL-020</ref> "Story of the Trinity"; <ref type="mss" corresp="ESmkl021">MKL-021</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESmkl022">MKL-022</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESmkl023">MKL-023</ref> "Revelation of John (?)"</ab>
             
                   <ab type="tabot">
-                     <measure quantity="5"/>Tābots of Täklä Haymanot, Trinity, Kidanä Mǝḥrät, Four Living Creatures (marble), Twenty-Four Heavenly Priests.</ab>
+                     <measure quantity="5"/>Tābots of <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName> (marble), 
+                     <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>.</ab>
                </note>
             </place>
          </listPlace>

@@ -1,22 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0412AddisUni"
-     xml:lang="en"
-     type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0509MuseumZafar" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Addis Ababa University. YaʼItyop̣yā ṭenātenā meremer taqwām</title>
+                <title>Museum of Zafar</title>
                 <editor role="generalEditor" key="AB"/>
+                <editor key="PL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -44,20 +41,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="PL" when="2017-11-29">Created entity</change>
+            <change who="PL" when="2018-10-15">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q1238770" type="academicInstitution library" subtype="institution">
-                    <placeName>Addis Ababa University. YaʼItyop̣yā ṭenātenā meremer taqwām</placeName>
-                    <settlement ref="Q3624"/>
-                    <country ref="Q115"/>
-
+                <place sameAs="" type="museum" subtype="institution">
+                    <placeName>Museum of Zafar</placeName>
                 </place>
-            </listPlace>
-         <!---->
+            </listPlace><!---->
         </body>
     </text>
 </TEI>

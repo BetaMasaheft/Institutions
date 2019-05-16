@@ -42,27 +42,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-01-25">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Rubaḵusa Qǝddus Giyorgis</placeName>
-               <placeName type="alt">Rubaḵusa Giyorgis</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-11-25" to="2012-11-30">wäräda Dägʿa Tämben, ṭabiya Mikaʾel ʿAbiy, qušät Rubaḵusa</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Rubāḵusā Qǝddus Giyorgis</placeName>
+               <placeName type="alt">Rubāḵusā Giyorgis</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement from="2012-11-25" to="2012-11-30" ref="LOC6965DagaTamben" type="warada"></settlement>
+               <settlement from="2012-11-25" to="2012-11-30" ref="LOC7267MikaelAbiy " type="tabiya"></settlement>
+               <settlement from="2012-11-25" to="2012-11-30" ref="LOC7268Rubakusa" type="qushat"></settlement>
+               
+               
                <location>
                   <geo>13.596 39.227233</geo>
                   <height unit="m">1957.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <desc type="foundation">The church is said to have been an old foundation; the monastic community was founded by monk Tälawe Krǝstos.</desc>
-                  <ab type="history">Gädam / monastery. &#xD;
-Tābots (5 in two churches): Kidanä Mǝḥrät, Täklä Haymanot, St. George (main) in the monastic church; Mädḫane ʿAläm (old), Mary in the second church.</ab>
-                  <ab type="description">37 Mss. photographed: <ref type="mss" corresp="ESrqg001">RQG-001</ref> “Sinodos ”; <ref type="mss" corresp="ESrqg002">RQG-002</ref> “Psalter”; <ref type="mss" corresp="ESrqg003">RQG-003</ref> “Gospel of John”; <ref type="mss" corresp="ESrqg004">RQG-004</ref> “The Harp of the praise (incomplete at the end)”; <ref type="mss" corresp="ESrqg005">RQG-005</ref> “Book of Mar Isaac of Nineveh with commentary”; <ref type="mss" corresp="ESrqg006">RQG-006</ref> “The Law of the kings”; <ref type="mss" corresp="ESrqg007">RQG-007</ref> “Four Gospels”; <ref type="mss" corresp="ESrqg008">RQG-008</ref> “Four Gospels”; <ref type="mss" corresp="ESrqg009">RQG-009</ref> “History of the church; Introduction to the Epistles; Mälǝʾǝktä Pawols; Mälǝʾǝktat; Raʾǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; <ref type="mss" corresp="ESrqg010">RQG-010</ref> “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; <ref type="mss" corresp="ESrqg011">RQG-011</ref> “Spritual Elder; Rule of Abba Pachomiur”; <ref type="mss" corresp="ESrqg012">RQG-012</ref> “The Harp of Praise”; <ref type="mss" corresp="ESrqg013">RQG-013</ref> “Spritual Elder ”; <ref type="mss" corresp="ESrqg014">RQG-014</ref> “Order of the Monastic Profession”; <ref type="mss" corresp="ESrqg015">RQG-015</ref> “Psalter with Hymns of Virgin”; <ref type="mss" corresp="ESrqg016">RQG-016</ref> “Spritual Elder”; <ref type="mss" corresp="ESrqg017">RQG-017</ref> “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; <ref type="mss" corresp="ESrqg018">RQG-018</ref> “Praise of God”; <ref type="mss" corresp="ESrqg019">RQG-019</ref> “Psalter”; <ref type="mss" corresp="ESrqg020">RQG-020</ref> “Absolution of the Son; Pater noster; Book of Hours; Prayers”; <ref type="mss" corresp="ESrqg021">RQG-021</ref> “Synaxarion (second half of the year) ”; <ref type="mss" corresp="ESrqg022">RQG-022</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESrqg023">RQG-023</ref> “Praise of God; Harp of&#xD;
+                  <desc type="foundation">The church is said to have been an old foundation; the monastic community was founded by monk Talāwe Krǝstos.</desc>
+                  <ab type="history">Gadām / monastery. &#xD;</ab>
+                  <ab type="tabot"><measure quantity="5"/>Tābots (5 in two churches): <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, 
+                        <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName> (main) in the monastic church; 
+                        <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName> (old), <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the second church.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/RQG.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>37 Mss. photographed: <ref type="mss" corresp="ESrqg001">RQG-001</ref> “Sinodos ”; <ref type="mss" corresp="ESrqg002">RQG-002</ref> “Psalter”; <ref type="mss" corresp="ESrqg003">RQG-003</ref> “Gospel of John”; <ref type="mss" corresp="ESrqg004">RQG-004</ref> “The Harp of the praise (incomplete at the end)”; <ref type="mss" corresp="ESrqg005">RQG-005</ref> “Book of Mar Isaac of Nineveh with commentary”; <ref type="mss" corresp="ESrqg006">RQG-006</ref> “The Law of the kings”; <ref type="mss" corresp="ESrqg007">RQG-007</ref> “Four Gospels”; <ref type="mss" corresp="ESrqg008">RQG-008</ref> “Four Gospels”; <ref type="mss" corresp="ESrqg009">RQG-009</ref> “History of the church; Introduction to the Epistles; Mälǝʾǝktä Pawols; Mälǝʾǝktat; Raʾǝyu lä-Yohannǝs; Gǝbrä Hawaryat”; <ref type="mss" corresp="ESrqg010">RQG-010</ref> “Collection of Sälam-hymns from the synaxarion; Excerpts from Miracles of Mary”; <ref type="mss" corresp="ESrqg011">RQG-011</ref> “Spritual Elder; Rule of Abba Pachomiur”; <ref type="mss" corresp="ESrqg012">RQG-012</ref> “The Harp of Praise”; <ref type="mss" corresp="ESrqg013">RQG-013</ref> “Spritual Elder ”; <ref type="mss" corresp="ESrqg014">RQG-014</ref> “Order of the Monastic Profession”; <ref type="mss" corresp="ESrqg015">RQG-015</ref> “Psalter with Hymns of Virgin”; <ref type="mss" corresp="ESrqg016">RQG-016</ref> “Spritual Elder”; <ref type="mss" corresp="ESrqg017">RQG-017</ref> “(12) Minor Prophets; Books of Solomon (3); Book of Isaiah”; <ref type="mss" corresp="ESrqg018">RQG-018</ref> “Praise of God”; <ref type="mss" corresp="ESrqg019">RQG-019</ref> “Psalter”; <ref type="mss" corresp="ESrqg020">RQG-020</ref> “Absolution of the Son; Pater noster; Book of Hours; Prayers”; <ref type="mss" corresp="ESrqg021">RQG-021</ref> “Synaxarion (second half of the year) ”; <ref type="mss" corresp="ESrqg022">RQG-022</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESrqg023">RQG-023</ref> “Praise of God; Harp of&#xD;
 Praise”; <ref type="mss" corresp="ESrqg024">RQG-024</ref> “Commentary to Beauty of the Creation”; <ref type="mss" corresp="ESrqg025">RQG-025</ref> “Epistles of St. Paul”; <ref type="mss" corresp="ESrqg026">RQG-026</ref> “Commentary to different Prayers”; <ref type="mss" corresp="ESrqg027">RQG-027</ref> “Vita of Gäbrä Mänfäs Qǝddus; Miracles of  Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESrqg028">RQG-028</ref> “Synacarion (First half of the year)”; <ref type="mss" corresp="ESrqg029">RQG-029</ref> “Psalter”; <ref type="mss" corresp="ESrqg030">RQG-030</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESrqg031">RQG-031</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESrqg032">RQG-032</ref> “Praise of God”; <ref type="mss" corresp="ESrqg033">RQG-033</ref> “Books of the NT; Epistles of St. Paul; Acts of th Aposttes; Epistles of St. Peter;  Revelation of John”; <ref type="mss" corresp="ESrqg034">RQG-034</ref> “History of Grañ”; <ref type="mss" corresp="ESrqg035">RQG-035</ref> “Book of the Nt; Epistles of St. Peter; Epistles of John, etc.; Revelation of John”; <ref type="mss" corresp="ESrqg036">RQG-036</ref> “Mǝˤraf”; <ref type="mss" corresp="ESrqg037">RQG-037</ref> “Vita of George”.</ab>
 
                </note>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wälwalo Däbrä Bǝrhan Qirqos</title>
+            <title>Walwālo Qirqos</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,31 +42,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-09-03">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+   
+         <change when="2019-03-18" who="ES">adjusted to schema - name location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Wälwalo Däbrä Bǝrhan Qirqos</placeName>
-               <placeName type="alt">Wälwalo Qirqos</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-30" to="2011-11-30">wäräda Saʿsi Ṣaʿda Emba, ṭabiya Wälwalo, qušät Mäydo</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ወልዋሎ፡ ደብረ፡ ብርሃን፡ ቂርቆስ ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Walwālo Dabra Bǝrhān Qirqos</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ወልዋሎ፡ ቂርቆስ፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Walwālo Qirqos</placeName>
+
+                             
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-11-30" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-11-30" ref="LOC7191Walwalo" type="tabiya"/>
+               <settlement when="2011-11-30" ref="LOC7190Maydo" type="qushat"/>
+               
+   
+
                <location>
                   <geo>14.237567 39.645717</geo>
                   <height unit="m">2813.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition tells that the church was built in the Aksumite time, under King ʿAlameda, but re-established by Gäbrä Mäsqäl.</desc>
-                  <ab type="history">Däbr. An intact old structure (possibly the old church) stands in the compound, in front of the recent church. &#xD;
+                  <desc type="foundation">Local tradition tells that the church was built in the Aksumite time, under <persName ref="PRS3729ellaAm">King ʿAlāmedā</persName>, but re-established by <persName ref="PRS4327GabraMa">Gabra Masqal</persName>.</desc>
+                  <ab type="history">Dabr. An intact old structure (possibly the old church) stands in the compound, in front of the recent church. &#xD;
 Aksumite pillars are used in the recent church building. &#xD;
 Some old wooden parts are preserved in the treasury.&#xD;
-A burial place, possibly old, can be seen behind the church.  &#xD;
-Tābots (22): those remembered are Mary, Qirqos, ʾAnanya, Michael, Täklä Haymanot, 2 of ʾArägawi,&#xD;
-Four Living Creatures, Gäbrä Mänfäs Qǝddus, Holy Cross.</ab>
-                  <ab type="description">8 Mss. photographed: <ref type="mss" corresp="ESwq001">WQ-001</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESwq002">WQ-002</ref> “Homily on the Sabbath of Christians”; <ref type="mss" corresp="ESwq003">WQ-003</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESwq004">WQ-004</ref> “Story of St. Mary”; <ref type="mss" corresp="ESwq005">WQ-005</ref> “Missal”; <ref type="mss" corresp="ESwq006">WQ-006</ref> “Vita of Cyriacus”; <ref type="mss" corresp="ESwq007">WQ-007</ref> “Four Gospels”; <ref type="mss" corresp="ESwq008">WQ-008</ref> “Miracles of Jesus”.</ab>
+A burial place, possibly old, can be seen behind the church.  &#xD;</ab>
+                  <ab type="tabot"><measure quantity="22"/>Tābots (22): those remembered are <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>, 
+                     <persName ref="PRS1906Ananyao" type="tabot">ʾAnānyā</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
+                     <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, 2 of <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>,&#xD;
+                     <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, 
+                     <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, <ref type="authFile" corresp="TrueCross">Holy Cross</ref>.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/WQ.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>8 Mss. photographed: <ref type="mss" corresp="ESwq001">WQ-001</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESwq002">WQ-002</ref> “Homily on the Sabbath of Christians”; <ref type="mss" corresp="ESwq003">WQ-003</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESwq004">WQ-004</ref> “Story of St. Mary”; <ref type="mss" corresp="ESwq005">WQ-005</ref> “Missal”; <ref type="mss" corresp="ESwq006">WQ-006</ref> “Vita of Cyriacus”; <ref type="mss" corresp="ESwq007">WQ-007</ref> “Four Gospels”; <ref type="mss" corresp="ESwq008">WQ-008</ref> “Miracles of Jesus”.</ab>
   
                </note>
             </place>

@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām</placeName>
                     <region ref="LOC5665Semaza"/>
                     <settlement type="town" ref="LOC3756Ham"/>
-                    <country ref="Q986"/>
+                    <country ref="wd:Q986"/>
                     <location>
                         <geo cert="medium">14.700872 39.4260263</geo>
                     </location>

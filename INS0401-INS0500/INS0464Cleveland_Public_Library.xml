@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q5132215" type="library" subtype="institution">
-                  <settlement ref="Q37320"/>
-                        <country ref="Q30"/>
+                <place sameAs="wd:Q5132215" type="library" subtype="institution">
+                  <settlement ref="wd:Q37320"/>
+                        <country ref="wd:Q30"/>
                           <placeName>Cleveland Public Library</placeName>
                 </place>
             </listPlace><!---->

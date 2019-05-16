@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gänaḥti Qǝddǝst Maryam</title>
+            <title>Ganāḥti Qǝddǝst Māryām</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,30 +42,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-05">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">updated location name tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Gänaḥti Qǝddǝst Maryam</placeName>
-               <placeName type="alt">Gänaḥti Däbrä Gännät Qǝddǝst Maryam</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2010-11-27" to="2010-11-27">wäräda Ganta Afäšum, ṭabiya Gwalʿa Gänaḥti, qušät Gänaḥti</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               <placeName xml:lang="gez" xml:id="n1">ገናሕቲ፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ganāḥti Qǝddǝst Māryām</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ገናሕቲ፡ ደብረ፡ ገነት፡ ቅድስት፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Ganāḥti Dabra Gannat Qǝddǝst Māryām</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2010-11-27" to="2010-11-27"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement ref="LOC7169Gwala" type="tabiya" when="2011-11-27"/>
+               <settlement ref="LOC7170Ganahti" type="qushat" when="2011-11-27"/>
+                              
+               
                <location>
                   <geo>14.297683 39.496767</geo>
                   <height unit="m">2.543</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local tradition claims the foundation in the time of King Säʿaldoba, the year 430. Local tradition refers to medieval rulers Kǝndšǝh, ʾAkḥadom and Kätay who is said to be the ancestor of däğğazmač Säbagadis (1780-1831, born reportedly in Gänaḥti).</desc>
-                  <ab type="history">Däbr. An (ʾAksumite?) stown pillar stands in the church compound.&#xD;
+                  <desc type="foundation">Local tradition claims the foundation in the time of <persName ref="PRS8261Saaldob">King Saʿāldobā</persName>, the year 430. Local tradition refers to medieval rulers Kǝndšǝh, ʾAkḥadom and Katāy who is said to be the ancestor of dağğāzmāč Sabāgādis (1780-1831, born reportedly in Ganāḥti).</desc>
+                  <ab type="history">Dabr. An (ʾAksumite?) stown pillar stands in the church compound.&#xD;
 </ab>
-                  <ab type="description">21 Mss., objects photographed: <ref type="mss" corresp="ESgmg001">GMG-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgmg002">GMG-002</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg003">GMG-003</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg004">GMG-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg005">GMG-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESgmg006">GMG-006</ref> "Lectionary"; <ref type="mss" corresp="ESgmg007">GMG-007</ref> "Psalter"; <ref type="mss" corresp="ESgmg008">GMG-008</ref> "Vita of St. George"; <ref type="mss" corresp="ESgmg009">GMG-009</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESgmg010">GMG-010</ref> "Missal"; <ref type="mss" corresp="ESgmg011">GMG-011</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg012">GMG-012</ref> "Story of the Trinity"; <ref type="mss" corresp="ESgmg013">GMG-013</ref> "Homily of Jesus"; <ref type="mss" corresp="ESgmg014">GMG-014</ref> "Vita of Libanos"; <ref type="mss" corresp="ESgmg015">GMG-015</ref> "Collection of Hymns"; <ref type="mss" corresp="ESgmg016">GMG-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgmg017">GMG-017</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESgmg018">GMG-018</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgmg019">GMG-019</ref> "Prayer of Mary"; <ref type="mss" corresp="ESgmg020">GMG-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESgmg021">GMG-021</ref> "Prayer of Incense"</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/GMG.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                     </figure>
+                     21 Mss., objects photographed: <ref type="mss" corresp="ESgmg001">GMG-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgmg002">GMG-002</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg003">GMG-003</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg004">GMG-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg005">GMG-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESgmg006">GMG-006</ref> "Lectionary"; <ref type="mss" corresp="ESgmg007">GMG-007</ref> "Psalter"; <ref type="mss" corresp="ESgmg008">GMG-008</ref> "Vita of St. George"; <ref type="mss" corresp="ESgmg009">GMG-009</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESgmg010">GMG-010</ref> "Missal"; <ref type="mss" corresp="ESgmg011">GMG-011</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg012">GMG-012</ref> "Story of the Trinity"; <ref type="mss" corresp="ESgmg013">GMG-013</ref> "Homily of Jesus"; <ref type="mss" corresp="ESgmg014">GMG-014</ref> "Vita of Libanos"; <ref type="mss" corresp="ESgmg015">GMG-015</ref> "Collection of Hymns"; <ref type="mss" corresp="ESgmg016">GMG-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgmg017">GMG-017</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESgmg018">GMG-018</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgmg019">GMG-019</ref> "Prayer of Mary"; <ref type="mss" corresp="ESgmg020">GMG-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESgmg021">GMG-021</ref> "Prayer of Incense"</ab>
          
                   <ab type="tabot">
-                     <measure quantity="8"/>Tābots of Mary, Trinity, Mädḫane ʿAläm, Gäbrä Mänfäs Qǝddus, George, two of Libanos (marble), Gabriel.</ab>
+                     <measure quantity="8"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
+                     <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
+                     two of <persName ref="PRS6298Libanos" type="tabot">Libānos</persName> (marble), <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>.</ab>
                </note>
             </place>
          </listPlace>

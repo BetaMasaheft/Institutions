@@ -43,17 +43,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change who="DR" when="2017-11-02">Corrected ID</change>
+         <change when="2019-03-15" who="ES">restored name corrected spelling location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church dabr" subtype="institution">
                
-               <placeName type="alt">Mikaʾel ʿAddi Ḉǝwa</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-06" to="2011-11-06">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Sǝnqaṭa, qušät ʿAddi Ḉǝwa</settlement>
+               <placeName xml:id="n1" xml:lang="gez">ሚካኤል፡ ዓዲ፡ ጭዋ፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Mikāʾel ʿĀddi Č̣ǝwā</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ዓዲ፡ ጭዋ፡ ሚካኤል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">ʿĀddi Č̣ǝwā Mikāʾel</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-11-06" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-11-06" ref="LOC5683Senqat" type="tabiya"/>
+               <settlement when="2011-11-06" ref="LOC7176AddiCewa" type="qushat"/>
+               
+               
                <location>
                   <geo>14.0544 39.5961</geo>
                   <height unit="m">2553.0</height>
@@ -61,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   
-                  <ab type="history">Däbr / church</ab>
+                  <ab type="history">Dabr</ab>
          
                </note>
             </place>

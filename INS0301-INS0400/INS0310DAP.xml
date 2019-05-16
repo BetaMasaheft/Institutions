@@ -45,9 +45,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="monastery" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ar">Dayr al-ʾAnbā Būlā</placeName>
                     <placeName corresp="#n1" xml:lang="en">St. Paul's Monastery</placeName>
-                    <country ref="Q79"/>
-                    <region ref="Q30831"/>
-                    <settlement type="desert" ref="Q208299"/>
+                    <country ref="wd:Q79"/>
+                    <region ref="wd:Q30831"/>
+                    <settlement type="desert" ref="wd:Q208299"/>
                     <location>
                         <geo>28.846469 32.551578</geo>
                         <height>589 m</height>

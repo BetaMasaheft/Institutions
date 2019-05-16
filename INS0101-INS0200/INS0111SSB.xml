@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bet Ḥawaryat</title>
+            <title>Bet Ḥāwāryāt</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-28">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">updated location name tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Bet Ḥawaryat</placeName>
-               <placeName type="alt">Betä Ḥawaryat; Ṣǝrḥa Ṣǝyon Betä Ḥawaryat</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-09-11" to="2011-09-11">wäräda Ganta Afäšum, ṭabiya Sasun Bet Ḥawaryat , qušät Bet Ḥawaryat</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               <placeName xml:lang="gez" xml:id="n1">ቤት፡ ሓዋርያት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bet Ḥāwāryāt</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ቤተ፡ ሓዋርያት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Beta Ḥāwāryāt</placeName>
+               <placeName xml:lang="gez" xml:id="n3" type="alt">ስርሐ፡ ስዮን፡ ቤተ፡ ሓዋርያት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Ṣǝrḥa Ṣǝyon Beta Ḥāwāryāt</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2011-09-11"
+                  to="2011-09-11"
+                  type="warada"
+                  ref="LOC3293GantaA"/>
+               <settlement from="2011-09-11" to="2011-09-11" type="tabiya" ref="LOC7166Sasun"></settlement>
+               <settlement from="2011-09-11"
+                  to="2011-09-11"
+                  type="qushat"
+                  ref="LOC7167Bet"/>
+               
+
                <location>
                   <geo>14.2227 39.531567</geo>
                   <height unit="m">2504.0</height>
@@ -60,11 +79,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
                   <desc type="foundation">Possibly the foundation of an of earlier period, since there are Aksumite remains at the site (pillars standing in the sanctuary of the church).</desc>
-                  <ab type="history">Däbr.&#xD;
+                  <ab type="history">Dabr.&#xD;
 </ab>
-           
+           <ab type="description">
+              <figure>
+                 <graphic url="Sites/SSB.tif">
+                    <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+              </figure>
+           </ab>
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of Trinity, Apostles (Ḥawaryat, possible of Peter and Paul).</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS11430Apostles" type="tabot">Apostles</persName> (Ḥāwāryāt, possible of 
+                     <persName ref="PRS12538PeterPaul" type="tabot">Peter and Paul</persName>).</ab>
                </note>
             </place>
          </listPlace>

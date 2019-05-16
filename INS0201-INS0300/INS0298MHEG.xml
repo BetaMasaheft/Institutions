@@ -42,17 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-02">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">corrected spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>May Ḥargäs ʾƎnda Giyorgis</placeName>
-               <placeName type="alt">May Ḥargäs Giyorgis</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2015-03-19" to="2015-03-19">wäräda Wälqayt, ṭabiya May Ḉäʿa, qušät May Ḥargäs ʾƎnda Giyorgis</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Māy Ḥārgas ʾƎndā Giyorgis</placeName>
+               <placeName type="alt">Māy Ḥārgas Giyorgis</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC6186Walqay" type="warada" from="2015-03-19" to="2015-03-19"/> 
+               <settlement ref="LOC7236MayCaa" type="tabiya" from="2015-03-19" to="2015-03-19"/>
+               <settlement ref="LOC7237MayHargas" type="qushat" from="2015-03-19" to="2015-03-19"/>
+               
                <location>
                   <geo>13.712101 37.764639</geo>
                   <height unit="m">912.0</height>
@@ -60,8 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1750" notAfter="1850">1750-1850</date>
                   
-                  <ab type="history">Gädam, with a number of monks and nuns. The site will be submerged.&#xD;
-Tābots: St. George of Lydda, Michael, St. Mary.</ab>
+                  <ab type="history">Gadām, with a number of monks and nuns. The site will be submerged.&#xD;</ab>
+                  <ab type="tabot"><measure quantity="3"/>Tābots: <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                   <ab type="description">Ca. 40 Mss.</ab>
        
                </note>

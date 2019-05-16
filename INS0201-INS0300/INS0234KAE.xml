@@ -43,27 +43,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change who="DR" when="2018-09-03">Updated placename transliteration</change>
+         <change when="2019-03-15" who="ES">introduced tabots, completed location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
+            <place type="church monastery gatar" subtype="institution">
                <placeName>Kunāle ʾArbāʿtu ʾƎnsǝsā</placeName>
                <placeName type="alt">ʾArbāʿtu ʾƎnsǝsā Kunāle</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2012-05-14" to="2012-05-14">waradā Dagʿa Tamben, ṭābiyā Salām, qušat Kunāle</settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement ref="LOC6965DagaTamben" type="warada" when="2011-11-16"/>  
+               
+               <settlement when="2012-05-14" ref="LOC7165Salam" type="tabiya"/>
+               <settlement when="2012-05-14" ref="LOC7164Kunale" type="qushat"/>
+               
+               
                <location>
                   <geo>13.663567 39.17335</geo>
                   <height unit="m">2526.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of King Yohannes IV(r. 1872-89).</desc>
-                  <ab type="history">Gaṭar. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;
-Tābots: Kiros (in a separate church), Four Living Creatures, Trinity, Mary.</ab>
-                  <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
+                  <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>).</desc>
+                  <ab type="history">Gaṭar. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;</ab>
+                    <ab type="tabot"><measure quantity="4"/>
+                       Tābots: <persName ref="PRS6006Kiros" type="tabot">Kiros</persName> (in a separate church), 
+                       <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, 
+                       <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                       <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/KAE.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
  
                </note>
             </place>

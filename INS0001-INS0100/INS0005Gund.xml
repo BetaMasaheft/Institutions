@@ -71,8 +71,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Yǝsḥaq</desc>
-                  <ab type="history">Gadām. The number of monks dwelling at the monastery is small (not more than 4).</ab>
+                  <desc type="foundation">Founded by the abbot <persName ref="PRS10340Yeshaq">Yǝsḥaq</persName> in the 15th century.</desc>
+                  <ab type="history">Gadām. The number of monks dwelling at the monastery as of 2006 is small (not more than 4).</ab>
                   <ab type="tabot">
                      <measure quantity="30" cert="unknown"/>
                      Reportedly, up to 30 tābots (also those brought from the deserted churches in the vicinity). 

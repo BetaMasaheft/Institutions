@@ -48,9 +48,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPlace>
             <place type="monastery" subtype="institution">
                <placeName xml:id="n1" xml:lang="fr">Abbaye Sainte-Geneviève</placeName>
-               <country ref="Q142"/>
-               <region ref="Q13917"/>
-               <settlement type="city" ref="Q90"/>
+               <country ref="wd:Q142"/>
+               <region ref="wd:Q13917"/>
+               <settlement type="city" ref="wd:Q90"/>
                <location>
                   <geo>48.8457 2.3481</geo>
                   <height>42 m</height>

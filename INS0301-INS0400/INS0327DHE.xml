@@ -74,7 +74,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <desc type="foundation">According to <ref type="work" corresp="LIT1467GadlaI">Gadla ʾIyasus Moʾā</ref> there were two
                             churches founded on the monastery's site. One was built around the <date notBefore="0900" notAfter="0999" cert="low">10th cent.</date> by <roleName type="title">ʾaṣe</roleName>
                             <persName ref="PRS3493Delnaod">Dǝlnāʿod</persName> and <roleName type="title">ʾabuna</roleName>
-                            <persName ref="PRS8390Salama">Salāmā</persName> and dedicated to God the
+                            <persName ref="PRS8386SalamaI">Salāmā</persName> and dedicated to God the
                             Father. The other one was founded in <date when="0862" cert="low">862
                                 AD</date> (or <date when="1167">1167 AD</date> according to
                                 <persName ref="PRS3076Cerulli">Cerulli</persName>'s chronology),

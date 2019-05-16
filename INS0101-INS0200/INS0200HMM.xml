@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥangoda Däbrä Mǝḥrät Qǝddus Mikaʾel</title>
+            <title>Ḥangodā Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,30 +42,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-12-08">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">adjusted tabot</change>
+         <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Ḥangoda Däbrä Mǝḥrät Qǝddus Mikaʾel</placeName>
-               <placeName type="alt">Ḥangoda Qǝddus Mikaʾel</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-12-05" to="2011-12-05">wäräda Saʿsi Ṣaʿda ʾƎmba, ṭabiya Ḥangoda, qušät Ḥangoda</settlement>
+            <place type="church dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ሐንጎዳ፡ ደብረ፡ ምሕረት፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥangodā Dabra Mǝḥrat Qǝddus Mikāʾel</placeName>
+               <placeName type="alt" xml:id="n2" xml:lang="gez">ሐንጎዳ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName type="normalized" corresp="#n2" xml:lang="gez">Ḥangodā Qǝddus Mikāʾel</placeName>
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement when="2011-11-30" ref="LOC7175Sasi" type="warada"/>
+               <settlement when="2011-11-30" ref="LOC7192Hangoda" type="tabiya"/>
+               <settlement when="2011-11-30" ref="LOC7193Hangoda" type="qushat"/>
+    
+  
+
                <location>
                   <geo>14.12015 39.547767</geo>
                   <height unit="m">2439.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
-                  <desc type="foundation">Local traditio tells that it was founded in the time of Aksumite King ʾAlʿameda and re-stablished by St. Täklä Haymanot (d. 1313).</desc>
-                  <ab type="history">Däbr. The area is said to have formerly been the place of monks and hermits. Currently, a few nuns live at the church; there are indeed traces of monks' presense in the gourge around the church.  &#xD;
+                  <desc type="foundation">Local traditio tells that it was founded in the time of Aksumite King <persName ref="PRS3729ellaAm">ʾAlʿāmedā</persName> and re-stablished by St. <persName ref="PRS9162TaklaHa">Takla Haymanot</persName> (d. 1313).</desc>
+                  <ab type="history">Dabr. The area is said to have formerly been the place of monks and hermits. Currently, a few nuns live at the church; there are indeed traces of monks' presense in the gourge around the church.  &#xD;
 </ab>
-                  <ab type="description">11 Mss. photographed: <ref type="mss" corresp="EShmm001">HMM-001</ref> “Four Gospels”; <ref type="mss" corresp="EShmm002">HMM-002</ref> “ Synaxarion (September - February); Wisdom of Sibyl”; <ref type="mss" corresp="EShmm003">HMM-003</ref> “ Synaxarion (March-August)”; <ref type="mss" corresp="EShmm004">HMM-004</ref> “Hymn book”; <ref type="mss" corresp="EShmm005">HMM-005</ref> “ Miracles of Mary”; <ref type="mss" corresp="EShmm006">HMM-006</ref> “Homily on St. Michael”; <ref type="mss" corresp="EShmm007">HMM-007</ref> “Mǝʿraf”; <ref type="mss" corresp="EShmm008">HMM-008</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="EShmm009">HMM-009</ref> “Zǝmmare Mäwasʾǝt”; <ref type="mss" corresp="EShmm010">HMM-010</ref> “Creation; Five Pillars of Mystery”; <ref type="mss" corresp="EShmm011">HMM-011</ref> “Miracles of Jesus”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/HMM.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>11 Mss. photographed: <ref type="mss" corresp="EShmm001">HMM-001</ref> “Four Gospels”; <ref type="mss" corresp="EShmm002">HMM-002</ref> “ Synaxarion (September - February); Wisdom of Sibyl”; <ref type="mss" corresp="EShmm003">HMM-003</ref> “ Synaxarion (March-August)”; <ref type="mss" corresp="EShmm004">HMM-004</ref> “Hymn book”; <ref type="mss" corresp="EShmm005">HMM-005</ref> “ Miracles of Mary”; <ref type="mss" corresp="EShmm006">HMM-006</ref> “Homily on St. Michael”; <ref type="mss" corresp="EShmm007">HMM-007</ref> “Mǝʿraf”; <ref type="mss" corresp="EShmm008">HMM-008</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="EShmm009">HMM-009</ref> “Zǝmmare Mäwasʾǝt”; <ref type="mss" corresp="EShmm010">HMM-010</ref> “Creation; Five Pillars of Mystery”; <ref type="mss" corresp="EShmm011">HMM-011</ref> “Miracles of Jesus”.</ab>
               
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of Michael, Trinity, Kidanä Mǝḥrät.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>
                </note>
             </place>
          </listPlace>

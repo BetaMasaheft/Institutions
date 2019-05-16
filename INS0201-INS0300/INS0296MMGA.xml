@@ -42,28 +42,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2015-05-02">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>May Gaba Mikaʾel</placeName>
-               <placeName type="alt">Qǝddus Mikaʾel May Gaba</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2015-03-21" to="2015-03-21">wäräda Wälqayt, ṭabiya May Gaba, qušät ʾAddisu</settlement>
+            <place type="church monastery gadam" subtype="institution">
+               <placeName>Māy Gābā Mikāʾel</placeName>
+               <placeName type="alt">Qǝddus Mikāʾel Māy Gābā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC6186Walqay" type="warada" from="2015-03-21" to="2015-03-21"/> 
+               <settlement ref="LOC7246MayGaba" type="tabiya" from="2015-03-21" to="2015-03-21"/>
+               <settlement ref="LOC7247Addisu" type="qushat" from="2015-03-21" to="2015-03-21"/>
+               
                <location>
                   <geo>13.786626 37.685894</geo>
                   <height unit="m">1095.0</height>
                </location>
                <note>
-                  <date type="foundation" notBefore="1953" notAfter="1953">1953-1953</date>
-                  <desc type="foundation">The present church, now in the town of May Gaba, was established by fitawrari Yǝlma in the time of Emperor Ḫaylä Śǝllase, in 1953. May Gaba itself was fouded around 1971.&#13;
-                     But the tabot of St. Michael was brought from the church of Bet Mulu, the "castle" of the 18th cent. governor ʾAyanäzgi (its remains standing on the hill, not far from May Gaba).</desc>
-                  <ab type="history">Gädam, but there are no monks. The church is said to be supervised by the monks from Waldǝbba (Betä Minas)  &#xD;
-Only one tabot: St. Michael.</ab>
-                  <ab type="description">At least 14 Mss. Many books originate from the former church at Bet Mulu.</ab>
+                  <date type="foundation" notBefore="1953" notAfter="1953">1953</date>
+                  <desc type="foundation">The present church, now in the town of Māy Gābā, was established by <persName ref="PRS10304Yelma">fitāwrāri Yǝlmā</persName> in the time of <persName ref="PRS5226haylase">Emperor Ḫāyla Śǝllāse</persName>, in 1953. 
+                     Māy Gābā itself was fouded around 1971.&#13;
+                     But the tābot of <persName ref="PRS7049Michael" type="tabot">Michael</persName> was brought from the church of <placeName ref="LOC1875BetMul">Bet Mulu</placeName>, the "castle" of the 18th cent. governor <persName ref="PRS2265Ayanazgi">ʾAyānazgi</persName> (its remains standing on the hill, not far from Māy Gābā).</desc>
+                  <ab type="history">Gadām, but there are no monks. The church is said to be supervised by the monks from <placeName ref="INS0316Waldb">Wāldǝbbā</placeName> (Beta Minās) </ab>
+                     <ab type="tabot"><measure quantity="1"/>Only one tābot: St. <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
+                  <ab type="description">At least 14 Mss. Many books originate from the former church at <placeName ref="LOC1875BetMul">Bet Mulu</placeName>.</ab>
              
                </note>
             </place>

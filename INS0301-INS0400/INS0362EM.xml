@@ -51,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām Mǝʾǝsāre ʾArǝḫā</placeName>
                     <region ref="LOC1298Akkala"/>
                     <settlement type="town" ref="LOC6607Meesare"/>
-                    <country ref="Q986"/>
+                    <country ref="wd:Q986"/>
                     
                     <note>
                         <ab type="tabot">

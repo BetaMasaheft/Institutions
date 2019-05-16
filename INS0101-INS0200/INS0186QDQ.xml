@@ -42,18 +42,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-11-26">last edited</change>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
+         <change when="2019-03-15" who="ES">linked tabots</change>
+         <change when="2019-03-18" who="ES">adjusted name location </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">
-               <placeName>Qändaʿro Qǝddus Qirqos</placeName>
-               <placeName type="alt">Qändaʿro Qirqos</placeName>
-               <placeName type="alt">Däbrä Hayl Qǝddus Qirqos Qǝddus Giyorgis Qändaʿro</placeName>
-               <country>Ethiopia</country>
-               <region>Tǝgray</region>
-               <settlement from="2011-11-25" to="2011-11-25">wäräda Ganta ʾAfäšum, ṭabiya Bäʿatti May Mäsanu, qušät Qändaʿro</settlement>
+            <place type="church dabr" subtype="institution">                         
+               
+               <placeName xml:id="n1" xml:lang="gez">ቀንሳዒሮ፡ ቅዱስ፡ ቂርቆስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Qandāʿro Qǝddus Qirqos</placeName>
+               
+               <placeName xml:id="n2" xml:lang="gez">ቀንሳዒሮ፡ ቂርቆስ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Qandāʿro Qirqos</placeName>
+               
+               <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሃዝል፡ ቅዱስ፡ ቂርቆስ፡ ቅዱስ፡ ጊዮርጊስ፡ ቀንሳዒሮ፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra Hāyl Qǝddus Qirqos Qǝddus Giyorgis Qandāʿro</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2011-11-25"/>  
+               <settlement ref="LOC7183Baatti" type="tabiya" when="2011-11-25"/>
+               
+               <settlement when="2011-11-25" ref="LOC7203Qandaro" type="qushat"/>
+               
+             
                <location>
                   <geo>14.289933 39.442217</geo>
                   <height unit="m">2667.0</height>
@@ -61,12 +76,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
                   <desc type="foundation">Local tradition tells that the religious site existed before the advent of Christianity.</desc>
-                  <ab type="history">Däbr. The old church stands outside the sity; the recent church associated with Qändaʿro Qirqos has been built close to the city.  &#xD;
+                  <ab type="history">Dabr. The old church stands outside the sity; the recent church associated with Qandāʿro Qirqos has been built close to the city.  &#xD;
 </ab>
-                  <ab type="description">15 Mss. photographed: <ref type="mss" corresp="ESqdq001">QDQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESqdq002">QDQ-002</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESqdq003">QDQ-003</ref> “The Book of the Epistle; Miracles of Mary; Miracles of Libanos”; <ref type="mss" corresp="ESqdq004">QDQ-004</ref> “Synaxarion (September - August)”; <ref type="mss" corresp="ESqdq005">QDQ-005</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqdq006">QDQ-006</ref> “Vita of Cyriacus”; <ref type="mss" corresp="ESqdq007">QDQ-007</ref> “Miracles of Jesus; Vita of St. George”; <ref type="mss" corresp="ESqdq008">QDQ-008</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESqdq009">QDQ-009</ref> “Missal”; <ref type="mss" corresp="ESqdq010">QDQ-010</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESqdq011">QDQ-011</ref> “Vita of Abunä Arägawi”; <ref type="mss" corresp="ESqdq012">QDQ-012</ref> “Missal”; <ref type="mss" corresp="ESqdq013">QDQ-013</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESqdq014">QDQ-014</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESqdq015">QDQ-015</ref> “Missal”.</ab>
+                  <ab type="description"><figure>
+                     <graphic url="Sites/QDQ.tif">
+                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                  </figure>15 Mss. photographed: <ref type="mss" corresp="ESqdq001">QDQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESqdq002">QDQ-002</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESqdq003">QDQ-003</ref> “The Book of the Epistle; Miracles of Mary; Miracles of Libanos”; <ref type="mss" corresp="ESqdq004">QDQ-004</ref> “Synaxarion (September - August)”; <ref type="mss" corresp="ESqdq005">QDQ-005</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqdq006">QDQ-006</ref> “Vita of Cyriacus”; <ref type="mss" corresp="ESqdq007">QDQ-007</ref> “Miracles of Jesus; Vita of St. George”; <ref type="mss" corresp="ESqdq008">QDQ-008</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESqdq009">QDQ-009</ref> “Missal”; <ref type="mss" corresp="ESqdq010">QDQ-010</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESqdq011">QDQ-011</ref> “Vita of Abunä Arägawi”; <ref type="mss" corresp="ESqdq012">QDQ-012</ref> “Missal”; <ref type="mss" corresp="ESqdq013">QDQ-013</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESqdq014">QDQ-014</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESqdq015">QDQ-015</ref> “Missal”.</ab>
      
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of Qirqos, George, Krǝstos Sämra, Maryam (the latter one or two tabots are probably in the recently built church).</ab>
+                     <measure quantity="4"/>Tābots of <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>, 
+                     <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS6079Krestos" type="tabot">Krǝstos Samrā</persName>, 
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName> (the latter one or two tabots are probably in the recently built church).</ab>
                </note>
             </place>
          </listPlace>

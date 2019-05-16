@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q842858" type="museum" subtype="institution">
-                  <settlement ref="Q1754"/>
-                        <country ref="Q39"/> <placeName>Nationalmuseum Stockholm</placeName>
+                <place sameAs="wd:Q842858" type="museum" subtype="institution">
+                  <settlement ref="wd:Q1754"/>
+                        <country ref="wd:Q39"/> <placeName>Nationalmuseum Stockholm</placeName>
                 </place>
             </listPlace><!---->
         </body>
