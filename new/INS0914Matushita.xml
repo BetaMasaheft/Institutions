@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="wd:Q25045355" type="museum" subtype="institution">
-                    <placeName>Matsushita Museum of Art</placeName>
-                    <settlement ref="wd:Q858352">Kirishima</settlement>
+                    <placeName xml:id="n1" xml:lang="en">Matsushita Museum of Art</placeName>
+                    <settlement ref="wd:Q858352"/>
                     <country ref="wd:Q17"/>
                 </place>
             </listPlace><!---->
