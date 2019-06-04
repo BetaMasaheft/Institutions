@@ -90,6 +90,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6620Mamas" type="tabot">Māmās</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>.</ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="INS0091AQM" passive="LIT5670MMGuloMakeda"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
