@@ -49,6 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q2900049" type="church" subtype="institution">
                     <placeName>Beta Gabrǝʾel</placeName>
+                    <settlement ref="wd:Q207590"/>
+                    <country ref="wd:Q115"/>
                 </place>
             </listPlace>
         </body>
