@@ -42,7 +42,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="it">Italiano</language>
+                <language ident="it">Italian</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
