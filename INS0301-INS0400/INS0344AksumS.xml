@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0344AksumS"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAksum Ṣǝyon</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -42,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-07-20">Corrected transcription</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -72,27 +80,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      history of this church is hard to reconstruct and involved legendary figures
                      such as <persName ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥā</persName> and
                     
-                     <persName ref="PRS3858esato"> <roleName type="title">queen</roleName>  ʾƎsāto</persName>. <ref type="work" corresp="LIT1473GadlaL">Gadla Libānos</ref> refers that
+                     <persName ref="PRS3858esato"> 
+                        <roleName type="title">queen</roleName>  ʾƎsāto</persName>. <ref type="work" corresp="LIT1473GadlaL">Gadla Libānos</ref> refers that
                      
-                     <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> ordered the church restored
+                     <persName ref="PRS3429DawitII">
+                        <roleName type="title">ʾaṣe</roleName> Dāwit II</persName> ordered the church restored
                      in <date when="1406">1406</date>. The possessions of the church grew significantly over
                      time and <ref type="work" corresp="LIT1913Mashaf">Maṣḥafa ʾAksum</ref> records
                      a number of land grants to the church. ʾAksum Ṣǝyon was destroyed in <date when="1535">1535</date> by <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm
                            al-Ġāzī</persName> and then rebuilt by 
-                     <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> Śarṣa Dǝngǝl</persName> in the <date from="1550" to="1600">second half of the 16th cent</date>. According to a Jesuit annual
+                     <persName ref="PRS8550sardaDe">
+                        <roleName type="title">ʾaṣe</roleName> Śarṣa Dǝngǝl</persName> in the <date from="1550" to="1600">second half of the 16th cent</date>. According to a Jesuit annual
                      letter, it was burned down by the <persName ref="ETH1973Oromo">Oromo</persName>
                      in <date when="1611">1611</date> but it was probably quickly restored as the
                      church was visited and described by <persName ref="PRS1767Almeida">Manoel de
                         Almeida</persName>, <persName ref="PRS2462Barreto">Tomás Barreto</persName>
                      and <persName ref="PRS2477Barradas">Manoel Barradas</persName> in the <date from="1620" precision="low" to="1635">1620s - early 1630s</date>. The church
                      was restored in <date when="1655">1655</date> by 
-                     <persName ref="PRS4015Fasilada"><roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> and again in<date from="1749" to="1750">
+                     <persName ref="PRS4015Fasilada">
+                        <roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> and again in<date from="1749" to="1750">
                         1749-50</date> by 
-                     <persName ref="PRS5617IyasuII"><roleName type="title">ʾaṣe</roleName> ʾIyāsu II</persName>. Following this last restoration the church has
+                     <persName ref="PRS5617IyasuII">
+                        <roleName type="title">ʾaṣe</roleName> ʾIyāsu II</persName>. Following this last restoration the church has
                      remained the same, except for some <date from="1801" to="2000" precision="low">19th-20th cent.</date> alterations, while the surrounding buildings have
                      experienced radical changes including the new round church of <placeName ref="LOC6564MaryamS">Māryām Ṣǝyon</placeName> built by
                      
-                     <persName ref="PRS5226haylase"><roleName type="title">ʾaṣe</roleName> Ḫāyla Śǝllāse I</persName> next to the old one. </ab>
+                     <persName ref="PRS5226haylase">
+                        <roleName type="title">ʾaṣe</roleName> Ḫāyla Śǝllāse I</persName> next to the old one. </ab>
                   <ab type="description">The <ref type="work" corresp="LIT1913Mashaf">Maṣḥafa
                      ʾAksum</ref> describes ʾAksum Ṣǝyon in technical terms while <persName ref="PRS1778Alvares">Francisco Alvares</persName> describes the old church
                      as "<quote>very large; it has five aisles of good width and great length,

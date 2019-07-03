@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0145MA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾĀndel Qǝddǝst Māryām</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
@@ -60,13 +68,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement from="2011-05-24" to="2011-05-24"
-                  type="warada"
-                  ref="LOC3293GantaA"/>
-               <settlement from="2011-05-24" to="2011-05-24" type="tabiya" ref="LOC3740Hagara"></settlement>
-               <settlement from="2011-05-24" to="2011-05-24"
-                  type="qushat"
-                  ref="LOC7216Andel"/>
+               <settlement from="2011-05-24"
+                           to="2011-05-24"
+                           type="warada"
+                           ref="LOC3293GantaA"/>
+               <settlement from="2011-05-24"
+                           to="2011-05-24"
+                           type="tabiya"
+                           ref="LOC3740Hagara"/>
+               <settlement from="2011-05-24"
+                           to="2011-05-24"
+                           type="qushat"
+                           ref="LOC7216Andel"/>
                
  
                
@@ -83,7 +96,8 @@ The small old round church stands below the recent one. &#xD;
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/MA.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      10 Mss. photographed: <ref type="mss" corresp="ESma001">MA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESma002">MA-002</ref> "The Vita of St. Ǝsṭifanos"; <ref type="mss" corresp="ESma003">MA-003</ref> "Missal"; <ref type="mss" corresp="ESma004">MA-004</ref> "Missal"; <ref type="mss" corresp="ESma005">MA-005</ref> "The Book of the History of Mary"; <ref type="mss" corresp="ESma006">MA-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESma007">MA-007</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESma008">MA-008</ref> "Mäṣḥafä Zena Sǝqlät"; <ref type="mss" corresp="ESma009">MA-009</ref> "Miracles of Mary"</ab>
                 

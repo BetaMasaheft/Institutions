@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0161BGY"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title/>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">restored place name adjusted location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -62,7 +70,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement ref="LOC1212Addigr" type="town"/> 
                
                <settlement when="2011-05-22"> 
-                  <placeName type="qabale">qabale 2, Golʿā</placeName>               </settlement>
+                  <placeName type="qabale">qabale 2, Golʿā</placeName>               
+               </settlement>
                
                <location>
                   <geo>14.2968 39.4823</geo>
@@ -76,7 +85,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/BGY.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      14 Mss. photographed: <ref type="mss" corresp="ESbgy001">BGY-001</ref> "Synaxarion (January-June)"; <ref type="mss" corresp="ESbgy002">BGY-002</ref> "Four Gospels"; <ref type="mss" corresp="ESbgy003">BGY-003</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESbgy004">BGY-004</ref> "The Book of the Rite of the Passion Week"; <ref type="mss" corresp="ESbgy005">BGY-005</ref> "The Miracles of Mary"; <ref type="mss" corresp="ESbgy006">BGY-006</ref> "Four Gospels"; <ref type="mss" corresp="ESbgy007">BGY-007</ref> "The Book of the Chants"; <ref type="mss" corresp="ESbgy008">BGY-008</ref> "Synaxarion (the first half of the year)"; <ref type="mss" corresp="ESbgy009">BGY-009</ref> "Antiphonary"; <ref type="mss" corresp="ESbgy010">BGY-010</ref> "Synaxarion (second half of the year)"; <ref type="mss" corresp="ESbgy011">BGY-011</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESbgy012">BGY-012</ref> "Text devoted to John the Baptist"; <ref type="mss" corresp="ESbgy013">BGY-013</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESbgy014">BGY-014</ref> "The Loosening of the Spell"</ab>
               

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0099DMA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAḥzära  Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-14" who="ES">adjusted to schema</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery dabr" subtype="institution">
@@ -79,7 +87,8 @@ Tābots (at least 1, probably a few more): <persName ref="PRS6819Mary" type="tab
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/DMA.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      14 Mss. photographed: <ref type="mss" corresp="ESdma001">DMA-001</ref> "Four Gospels"; <ref type="mss" corresp="ESdma002">DMA-002</ref> "Missal"; <ref type="mss" corresp="ESdma003">DMA-003</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdma004">DMA-004</ref> "Four Gospels"; <ref type="mss" corresp="ESdma005">DMA-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma006">DMA-006</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESdma007">DMA-007</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma008">DMA-008</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESdma009">DMA-009</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdma010">DMA-010</ref> "Miracles of Mary and other texts"; <ref type="mss" corresp="ESdma011">DMA-011</ref> "Story of St. Mary"; <ref type="mss" corresp="ESdma012">DMA-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESdma013">DMA-013</ref> "several fragments of iturgical book"; <ref type="mss" corresp="ESdma014">DMA-014</ref> "The Rite of the Holy Week"</ab>
         

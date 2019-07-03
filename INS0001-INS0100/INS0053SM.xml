@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0053SM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sabayā Māryām</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-06-01" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery dabr" subtype="institution">
@@ -60,11 +68,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-08" to="2010-05-08"/> 
-               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7021Sabaya " type="tabiya"/> 
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-05-08"
+                           to="2010-05-08"/> 
+               <settlement from="2010-05-08"
+                           to="2010-05-08"
+                           ref="LOC7021Sabaya "
+                           type="tabiya"/> 
                
                
-               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7022Sasahayto" type="qushat"/>
+               <settlement from="2010-05-08"
+                           to="2010-05-08"
+                           ref="LOC7022Sasahayto"
+                           type="qushat"/>
                
                
                
@@ -79,7 +96,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/SM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      18 Mss. photographed: <ref type="mss" corresp="ESsm001">SM-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESsm002">SM-002</ref> "Psalter"; <ref type="mss" corresp="ESsm003">SM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESsm004">SM-004</ref> "Antiphonary"; <ref type="mss" corresp="ESsm005">SM-005</ref> "The Book of the Chants"; <ref type="mss" corresp="ESsm006">SM-006</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESsm007">SM-007</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESsm008">SM-008</ref> "Vita of ʿAbiyä ʾƎgziʾ"; <ref type="mss" corresp="ESsm009">SM-009</ref> "Psalter"; <ref type="mss" corresp="ESsm010">SM-010</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsm011">SM-011</ref> "Psalter"; <ref type="mss" corresp="ESsm012">SM-012</ref> "Psalter"; <ref type="mss" corresp="ESsm013">SM-013</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESsm014">SM-014</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESsm015">SM-015</ref> "Four Gospels"; <ref type="mss" corresp="ESsm016">SM-016</ref> "Book of  ʾAsläṭi"; <ref type="mss" corresp="ESsm017">SM-017</ref> "Psalter"; <ref type="mss" corresp="ESsm018">SM-018</ref> "Story of St. Mary"</ab>
        
@@ -89,7 +107,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymānot</persName>, 
                      <persName ref="PRS4306GabraMa" type="tabot"/>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
                      <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, 
-                     <persName ref="PRS10442Yonas" type="tabot"></persName> Yonās, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
+                     <persName ref="PRS10442Yonas" type="tabot"/> Yonās, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.</ab>
                </note>
             </place>
          </listPlace>

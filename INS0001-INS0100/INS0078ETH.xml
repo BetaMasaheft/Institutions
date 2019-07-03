@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0078ETH"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿƎmbayto Takla Hāymānot</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
@@ -82,7 +90,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/ETH.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      12 Mss. were photographed: <ref type="mss" corresp="ESeth001">ETH-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESeth002">ETH-002</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESeth003">ETH-003</ref> "Missal"; <ref type="mss" corresp="ESeth004">ETH-004</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth005">ETH-005</ref> "Homily of St. Gabriel"; <ref type="mss" corresp="ESeth006">ETH-006</ref> "The Book of the Chants"; <ref type="mss" corresp="ESeth007">ETH-007</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth008">ETH-008</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESeth009">ETH-009</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESeth010">ETH-010</ref> "Missal"; <ref type="mss" corresp="ESeth011">ETH-011</ref> "Four Gospels"; <ref type="mss" corresp="ESeth012">ETH-012</ref> "The Book of the Baptismal Rite"</ab>
    

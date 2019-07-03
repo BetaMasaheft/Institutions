@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0266AFMM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAf Mǝhyaw Qǝddǝst Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -54,10 +62,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-13" to="2012-11-14"/>  
-               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-13" to="2012-11-14"/>
+               <settlement ref="LOC3293GantaA"
+                           type="warada"
+                           from="2012-11-13"
+                           to="2012-11-14"/>  
+               <settlement ref="LOC7181Gwahgot"
+                           type="tabiya"
+                           from="2012-11-13"
+                           to="2012-11-14"/>
                
-               <settlement from="2012-11-13" to="2012-11-14" ref="LOC7251AfMehyaw" type="qushat"/>
+               <settlement from="2012-11-13"
+                           to="2012-11-14"
+                           ref="LOC7251AfMehyaw"
+                           type="qushat"/>
                
                <location>
                   <geo>14.144982 39.454456</geo>
@@ -69,10 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      re-established by <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1772-1789</date>).</desc>
                   <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/AFMM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>12 Mss. photographed: <ref type="mss" corresp="ESafmm001">AFMM-001</ref> “Four Gospel”; <ref type="mss" corresp="ESafmm002">AFMM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm004">AFMM-004</ref> “Vita of Täklä Haymanot,             Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESafmm005">AFMM-005</ref> “Missal”; <ref type="mss" corresp="ESafmm006">AFMM-006</ref> “Synoptic Lectionary for the Year”, <ref type="mss" corresp="ESafmm007">AFMM-007</ref> “Homiliary for the Feast of St. Michael; Miracles of Michael; Image of Michael”; <ref type="mss" corresp="ESafmm008">AFMM-008</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESafmm009">AFMM-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESafmm010">AFMM-010</ref> “Homiliy on the Sabbath of Christians”; <ref type="mss" corresp="ESafmm011">AFMM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm012">AFMM-012</ref> “Homily on the Sabbath of Christians”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/AFMM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>12 Mss. photographed: <ref type="mss" corresp="ESafmm001">AFMM-001</ref> “Four Gospel”; <ref type="mss" corresp="ESafmm002">AFMM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm003">AFMM-003</ref> “Rite of the Passion  Week”; <ref type="mss" corresp="ESafmm004">AFMM-004</ref> “Vita of Täklä Haymanot,             Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESafmm005">AFMM-005</ref> “Missal”; <ref type="mss" corresp="ESafmm006">AFMM-006</ref> “Synoptic Lectionary for the Year”, <ref type="mss" corresp="ESafmm007">AFMM-007</ref> “Homiliary for the Feast of St. Michael; Miracles of Michael; Image of Michael”; <ref type="mss" corresp="ESafmm008">AFMM-008</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESafmm009">AFMM-009</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESafmm010">AFMM-010</ref> “Homiliy on the Sabbath of Christians”; <ref type="mss" corresp="ESafmm011">AFMM-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESafmm012">AFMM-012</ref> “Homily on the Sabbath of Christians”.</ab>
       
                   <ab type="tabot">
                      <measure quantity="1"/>Tābot of <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>

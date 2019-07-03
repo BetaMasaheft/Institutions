@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0242ZEA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zālā ʾƎndā ʾAmānuʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-21" who="ES">adjusted spelling location tabots links</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -53,9 +61,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">ʾƎndā ʾAmānuʾel</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement from="2012-11-24" to="2012-11-24" ref="LOC6965DagaTamben" type="warada"></settlement>
-               <settlement from="2012-11-24" to="2012-11-24" ref="LOC7274Dagol" type="tabiya"/>
-               <settlement from="2012-11-24" to="2012-11-24" ref="LOC7275HaseyZala" type="qushat"/>
+               <settlement from="2012-11-24"
+                           to="2012-11-24"
+                           ref="LOC6965DagaTamben"
+                           type="warada"/>
+               <settlement from="2012-11-24"
+                           to="2012-11-24"
+                           ref="LOC7274Dagol"
+                           type="tabiya"/>
+               <settlement from="2012-11-24"
+                           to="2012-11-24"
+                           ref="LOC7275HaseyZala"
+                           type="qushat"/>
                
                <location>
                   <geo>13.672133 39.08535</geo>
@@ -66,11 +83,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">Gadām. The number of monks might be very small today, but in the past there was a strong monastic community. The manuscripts are stored in the treasury which seems to have been formerly used as rock-hewn church. A built facade nearby belongs to another rock-hewn chruch, the main church of the site. 
                      From the slope, the people point to a place on the plain below which is said to be the birth place of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName>
-</ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/ZEA.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>20 Mss. photographed: <ref type="mss" corresp="ESzea001">ZEA-001</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESzea002">ZEA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESzea003">ZEA-003</ref> “Missal”; <ref type="mss" corresp="ESzea004">ZEA-004</ref> “Praise of Mary”; <ref type="mss" corresp="ESzea005">ZEA-005</ref> “Story of ʾabunä Sälama”; <ref type="mss" corresp="ESzea006">ZEA-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESzea007">ZEA-007</ref> “Synaxarion (the second half of the year)”; <ref type="mss" corresp="ESzea008">ZEA-008</ref> “Mǝʿraf”; <ref type="mss" corresp="ESzea009">ZEA-009</ref> “Psalter”; <ref type="mss" corresp="ESzea010">ZEA-010</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESzea011">ZEA-011</ref> “Psalter”; <ref type="mss" corresp="ESzea012">ZEA-012</ref> “ Catoholic Epistles; Revealation of John”; <ref type="mss" corresp="ESzea013">ZEA-013</ref> “Book of the Marriage Ritual; Order of the Monastic Proffession”; <ref type="mss" corresp="ESzea014">ZEA-014</ref> “Dǝggwa on Easter; ʾƎzl; Praise of Mary”; <ref type="mss" corresp="ESzea015">ZEA-015</ref> “Five Pillars of Mystery”; <ref type="mss" corresp="ESzea016">ZEA-016</ref> “Book of the Letter”; <ref type="mss" corresp="ESzea017">ZEA-017</ref> “Missal”; <ref type="mss" corresp="ESzea018">ZEA-018</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESzea019">ZEA-019</ref> “Psalter”; <ref type="mss" corresp="ESzea020">ZEA-020</ref> “Zǝmmare and Mäwasǝʿǝt”.</ab>
+                  </ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/ZEA.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>20 Mss. photographed: <ref type="mss" corresp="ESzea001">ZEA-001</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESzea002">ZEA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESzea003">ZEA-003</ref> “Missal”; <ref type="mss" corresp="ESzea004">ZEA-004</ref> “Praise of Mary”; <ref type="mss" corresp="ESzea005">ZEA-005</ref> “Story of ʾabunä Sälama”; <ref type="mss" corresp="ESzea006">ZEA-006</ref> “Miracles of Mary”; <ref type="mss" corresp="ESzea007">ZEA-007</ref> “Synaxarion (the second half of the year)”; <ref type="mss" corresp="ESzea008">ZEA-008</ref> “Mǝʿraf”; <ref type="mss" corresp="ESzea009">ZEA-009</ref> “Psalter”; <ref type="mss" corresp="ESzea010">ZEA-010</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESzea011">ZEA-011</ref> “Psalter”; <ref type="mss" corresp="ESzea012">ZEA-012</ref> “ Catoholic Epistles; Revealation of John”; <ref type="mss" corresp="ESzea013">ZEA-013</ref> “Book of the Marriage Ritual; Order of the Monastic Proffession”; <ref type="mss" corresp="ESzea014">ZEA-014</ref> “Dǝggwa on Easter; ʾƎzl; Praise of Mary”; <ref type="mss" corresp="ESzea015">ZEA-015</ref> “Five Pillars of Mystery”; <ref type="mss" corresp="ESzea016">ZEA-016</ref> “Book of the Letter”; <ref type="mss" corresp="ESzea017">ZEA-017</ref> “Missal”; <ref type="mss" corresp="ESzea018">ZEA-018</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESzea019">ZEA-019</ref> “Psalter”; <ref type="mss" corresp="ESzea020">ZEA-020</ref> “Zǝmmare and Mäwasǝʿǝt”.</ab>
            
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS8386SalamaI" type="tabot">Salāmā</persName>, <ref type="authFile" corresp="Amanuel">ʾAmānuʾel</ref>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>

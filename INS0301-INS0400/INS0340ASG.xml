@@ -6,7 +6,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
      xml:id="INS0340ASG"
      xml:lang="en"
      type="ins">
-  <teiHeader>
+  <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Abbaye Sainte-Geneviève</title>
@@ -32,6 +32,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <p>A TEI file created from original data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -43,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <change who="DR" when="2016-11-24">Created record</change>
       </revisionDesc>
   </teiHeader>
-  <text>
+  <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery" subtype="institution">

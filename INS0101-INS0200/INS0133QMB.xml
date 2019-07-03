@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0133QMB"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Balasā Qǝddus Mikāʾel </title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -61,9 +69,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2010-12-13" to="2010-12-13"/>
-               <settlement ref="LOC7168Adda" type="tabiya" from="2010-12-13" to="2010-12-13"/>
-               <settlement from="2010-12-13" to="2010-12-13" ref="LOC7209Balasa" type="qushat"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2010-12-13"
+                           to="2010-12-13"/>
+               <settlement ref="LOC7168Adda"
+                           type="tabiya"
+                           from="2010-12-13"
+                           to="2010-12-13"/>
+               <settlement from="2010-12-13"
+                           to="2010-12-13"
+                           ref="LOC7209Balasa"
+                           type="qushat"/>
 
 
 
@@ -75,12 +92,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   <desc type="foundation">According to local tradition, the church was founded by <persName ref="PRS7091Mikael">rās Mikāʾel Sǝḥul</persName> (ca. <date>1691-1777</date>).</desc>
                   <ab type="history">Dabr. The old round church is intact, stands behind the new church. &#xD;</ab>
-                     <ab type="tabot"><measure quantity="4"/>Tābots (4): <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                     <ab type="tabot">
+                     <measure quantity="4"/>Tābots (4): <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
                         <persName ref="PRS6298Libanos" type="tabot">Maṭṭāʿ/Libānos</persName>, one unidentified marble tābot in disuse.</ab>
-                  <ab type="description"> <figure>
-                     <graphic url="Sites/QMB.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure> 7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
+                  <ab type="description"> 
+                     <figure>
+                        <graphic url="Sites/QMB.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure> 7 Mss. photographed: <ref type="mss" corresp="ESqmb001">QMB-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqmb002">QMB-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmb003">QMB-003</ref> "Gospel of John"; <ref type="mss" corresp="ESqmb004">QMB-004</ref> "Missal"; <ref type="mss" corresp="ESqmb005">QMB-005</ref> "Vita of Kiros"; <ref type="mss" corresp="ESqmb006">QMB-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmb007">QMB-007</ref> "Collection of Mälkǝʿ-Poetry for Mary"</ab>
                  
                </note>
                

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0298MHEG"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>May Ḥargäs ʾƎnda Giyorgis</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">corrected spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -54,9 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC6186Walqay" type="warada" from="2015-03-19" to="2015-03-19"/> 
-               <settlement ref="LOC7236MayCaa" type="tabiya" from="2015-03-19" to="2015-03-19"/>
-               <settlement ref="LOC7237MayHargas" type="qushat" from="2015-03-19" to="2015-03-19"/>
+               <settlement ref="LOC6186Walqay"
+                           type="warada"
+                           from="2015-03-19"
+                           to="2015-03-19"/> 
+               <settlement ref="LOC7236MayCaa"
+                           type="tabiya"
+                           from="2015-03-19"
+                           to="2015-03-19"/>
+               <settlement ref="LOC7237MayHargas"
+                           type="qushat"
+                           from="2015-03-19"
+                           to="2015-03-19"/>
                
                <location>
                   <geo>13.712101 37.764639</geo>
@@ -66,7 +83,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1750" notAfter="1850">1750-1850</date>
                   
                   <ab type="history">Gadām, with a number of monks and nuns. The site will be submerged.&#xD;</ab>
-                  <ab type="tabot"><measure quantity="3"/>Tābots: <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
+                  <ab type="tabot">
+                     <measure quantity="3"/>Tābots: <persName ref="PRS4585Georgeo" type="tabot">George</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                   <ab type="description">Ca. 40 Mss.</ab>
        
                </note>

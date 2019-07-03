@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0091AQM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAgärhǝse ʾAbunä Mamas</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
@@ -81,7 +89,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/AQM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      25 Mss.; 10 Mss. photographed: <ref type="mss" corresp="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm003">AQM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm008">AQM-008</ref> "Missal"; <ref type="mss" corresp="ESaqm009">AQM-009</ref> "Missal"; <ref type="mss" corresp="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"</ab>
   
@@ -91,7 +100,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="INS0091AQM" passive="LIT5670MMGuloMakeda"/>
+               <relation name="lawd:hasAttestation"
+                         active="INS0091AQM"
+                         passive="LIT5670MMGuloMakeda"/>
             </listRelation>
          </listPlace>
       </body>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0007AM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAsir Matirā</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-22" who="ES">added name corrected transcription</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -67,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt" xml:id="n7" xml:lang="gez">ደብረ፡ ዓለማ፡  </placeName>
                <placeName type="normalized" corresp="#n7" xml:lang="gez">Dabra ʿĀlamā</placeName>
                <placeName xml:id="n8" xml:lang="gez">ደብረ፡ ዓለማ፡ አሽር፡ መተራ፡ ደብረ፡ ሎዛ፡ </placeName>
-               <placeName corresp="#n8" xml:lang="gez" type="normalized" >Dabra ʿĀlamā ʾAšǝr Matarā Dabra Lozzā</placeName>
+               <placeName corresp="#n8" xml:lang="gez" type="normalized">Dabra ʿĀlamā ʾAšǝr Matarā Dabra Lozzā</placeName>
 
                   <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
@@ -81,7 +89,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1400" notAfter="1500">1400-1500</date>
                   <desc type="foundation">Established (or re-established) in the
-                     second half of the 15th cent., in the time of <persName ref="PRS1598Akkalom"><roleName type="title">tǝgre makʷannǝn</roleName> 
+                     second half of the 15th cent., in the time of <persName ref="PRS1598Akkalom">
+                        <roleName type="title">tǝgre makʷannǝn</roleName> 
                         ʾAkkalom</persName>, by
                      ʾAbakarāzun, Gabra Masiḥ (most probably, members of the Stephanite
                      movement).</desc>

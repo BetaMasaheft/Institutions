@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0062MG"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Matiʿ Gabrǝʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2018-07-02">adjusted spelling</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
@@ -60,16 +68,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-08" to="2010-05-08"/> 
-               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7021Sabaya " type="tabiya"/> 
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-05-08"
+                           to="2010-05-08"/> 
+               <settlement from="2010-05-08"
+                           to="2010-05-08"
+                           ref="LOC7021Sabaya "
+                           type="tabiya"/> 
                
                
-               <settlement from="2010-05-08" to="2010-05-08" ref="LOC7027Mati" type="qushat"/>
+               <settlement from="2010-05-08"
+                           to="2010-05-08"
+                           ref="LOC7027Mati"
+                           type="qushat"/>
                
                
                
             
-               <settlement>close to <placeName ref="INS0053SM"/></settlement>
+               <settlement>close to <placeName ref="INS0053SM"/>
+               </settlement>
                
                <location>
                   <geo>14.474919 39.488072</geo>
@@ -83,7 +101,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/MG.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      2 Mss. photographed: <ref type="mss" corresp="ESmg001">MG-001</ref> "Synaxarion"; <ref type="mss" corresp="ESmg002">MG-002</ref> "The Book of the Funeral Rite"</ab>
   

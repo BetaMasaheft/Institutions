@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0289LQM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lǝḥuṣa Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church gatar" subtype="institution">
@@ -54,9 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-11-04" to="2010-12-05"/>
-               <settlement ref="LOC7242Marata" type="tabiya" from="2010-11-04" to="2010-12-05"/> 
-               <settlement from="2010-11-04" to="2010-12-05" type="qushat" ref="LOC7244Lehusa "/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-11-04"
+                           to="2010-12-05"/>
+               <settlement ref="LOC7242Marata"
+                           type="tabiya"
+                           from="2010-11-04"
+                           to="2010-12-05"/> 
+               <settlement from="2010-11-04"
+                           to="2010-12-05"
+                           type="qushat"
+                           ref="LOC7244Lehusa "/>
                
                <location>
                   <geo>14.336444 39.336028</geo>
@@ -67,10 +84,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">Gaṭar. The church of <placeName ref="INS0294TGM"/> can be seen from the site.  &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/LQM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>11 Mss., one scroll are photographed: <ref type="mss" corresp="ESlqm001">LQM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESlqm002">LQM-002</ref> “The Miracles of Mary”; <ref type="mss" corresp="ESlqm003">LQM-003</ref> “Book of the night hours - Horologium”; <ref type="mss" corresp="ESlqm004">LQM-004</ref> “Missal”; <ref type="mss" corresp="ESlqm005">LQM-005</ref> “Acts of the Apostels”; <ref type="mss" corresp="ESlqm006">LQM-006</ref> “Synaxarium second half”; <ref type="mss" corresp="ESlqm007">LQM-007</ref> “Homily of the Sabbat of the Christians”; <ref type="mss" corresp="ESlqm008">LQM-008</ref> “Mircales of Jesus”; <ref type="mss" corresp="ESlqm009">LQM-009</ref> “Collection of Chants”; <ref type="mss" corresp="ESlqm010">LQM-010</ref> “Missal”; <ref type="mss" corresp="ESlqm011">LQM-011</ref> “Homily for the feasts of St. Michael”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/LQM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>11 Mss., one scroll are photographed: <ref type="mss" corresp="ESlqm001">LQM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESlqm002">LQM-002</ref> “The Miracles of Mary”; <ref type="mss" corresp="ESlqm003">LQM-003</ref> “Book of the night hours - Horologium”; <ref type="mss" corresp="ESlqm004">LQM-004</ref> “Missal”; <ref type="mss" corresp="ESlqm005">LQM-005</ref> “Acts of the Apostels”; <ref type="mss" corresp="ESlqm006">LQM-006</ref> “Synaxarium second half”; <ref type="mss" corresp="ESlqm007">LQM-007</ref> “Homily of the Sabbat of the Christians”; <ref type="mss" corresp="ESlqm008">LQM-008</ref> “Mircales of Jesus”; <ref type="mss" corresp="ESlqm009">LQM-009</ref> “Collection of Chants”; <ref type="mss" corresp="ESlqm010">LQM-010</ref> “Missal”; <ref type="mss" corresp="ESlqm011">LQM-011</ref> “Homily for the feasts of St. Michael”.</ab>
     
                   <ab type="tabot">
                      <measure quantity="3"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>.</ab>

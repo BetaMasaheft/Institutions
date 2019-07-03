@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0110QDS"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Qiʿāt Dabra Ṣǝyon Qǝddǝst Māryām</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-19" who="ES">adjusted name location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -62,13 +70,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement from="2010-12-06" to="2010-12-06"
-                  type="warada"
-                  ref="LOC3293GantaA"/>
-               <settlement from="2010-12-06" to="2010-12-06" type="tabiya" ref="LOC7218Azaba"></settlement>
-               <settlement from="2010-12-06" to="2010-12-06"
-                  type="qushat"
-                  ref="LOC7219Qiat"/>
+               <settlement from="2010-12-06"
+                           to="2010-12-06"
+                           type="warada"
+                           ref="LOC3293GantaA"/>
+               <settlement from="2010-12-06"
+                           to="2010-12-06"
+                           type="tabiya"
+                           ref="LOC7218Azaba"/>
+               <settlement from="2010-12-06"
+                           to="2010-12-06"
+                           type="qushat"
+                           ref="LOC7219Qiat"/>
                
 
 
@@ -84,7 +97,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/QDS.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      12 Mss. photographed: <ref type="mss" corresp="ESqds001">QDS-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqds002">QDS-002</ref> "Missal"; <ref type="mss" corresp="ESqds003">QDS-003</ref> "Four Gospels"; <ref type="mss" corresp="ESqds004">QDS-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESqds005">QDS-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESqds006">QDS-006</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqds007">QDS-007</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqds008">QDS-008</ref> "Vita of Libanos"; <ref type="mss" corresp="ESqds009">QDS-009</ref> "Collection of Hymns"; <ref type="mss" corresp="ESqds010">QDS-010</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqds011">QDS-011</ref> "Vita of Gäbrä Nazrawi"; <ref type="mss" corresp="ESqds012">QDS-012</ref> "Collection of Maryam Prayers and Hymns"; <ref type="mss" corresp="ESqds013">QDS-013</ref> "Book of Images".</ab>
         

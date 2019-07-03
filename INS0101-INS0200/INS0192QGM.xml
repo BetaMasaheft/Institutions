@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0192QGM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Manawat Qǝddus Giyorgis</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-18" who="ES">adjusted to schema - name location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church gatar" subtype="institution">
@@ -75,10 +83,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">The church was re-established by <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> (early 19th cent.), but it was founded probably in a somewhat earlier time.</desc>
                   <ab type="history">Gaṭar.&#xD;
 </ab>
-                  <ab type="description"> <figure>
-                     <graphic url="Sites/QGM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>10 Mss., 4 items photographed: <ref type="mss" corresp="ESqgm001">QGM-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESqgm002">QGM-002</ref> “Four Gospels”; <ref type="mss" corresp="ESqgm003">QGM-003</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESqgm004">QGM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESqgm005">QGM-005</ref> “Vita of St. George”;  <ref type="mss" corresp="ESqgm006">QGM-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqgm007">QGM-007</ref> “Missal”; <ref type="mss" corresp="ESqgm008">QGM-008</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqgm009">QGM-009</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESqgm010">QGM-010</ref> “Synaxarion (March-September)”.</ab>
+                  <ab type="description"> 
+                     <figure>
+                        <graphic url="Sites/QGM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>10 Mss., 4 items photographed: <ref type="mss" corresp="ESqgm001">QGM-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESqgm002">QGM-002</ref> “Four Gospels”; <ref type="mss" corresp="ESqgm003">QGM-003</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESqgm004">QGM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESqgm005">QGM-005</ref> “Vita of St. George”;  <ref type="mss" corresp="ESqgm006">QGM-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESqgm007">QGM-007</ref> “Missal”; <ref type="mss" corresp="ESqgm008">QGM-008</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqgm009">QGM-009</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESqgm010">QGM-010</ref> “Synaxarion (March-September)”.</ab>
           
           
                   <ab type="tabot">
