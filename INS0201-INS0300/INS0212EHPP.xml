@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0212EHPP"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎnda Ḥawaryat Ṗeṭros wä-Ṗawlos</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church gatar" subtype="institution">
@@ -54,9 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-23" to="2011-11-23"/>
-               <settlement ref="LOC7238MaySaadat " type="tabiya" from="2011-11-23" to="2011-11-23"/> 
-               <settlement from="2011-11-23" to="2011-11-23" type="qushat" ref="LOC7241EndaHawaryat "/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2011-11-23"
+                           to="2011-11-23"/>
+               <settlement ref="LOC7238MaySaadat "
+                           type="tabiya"
+                           from="2011-11-23"
+                           to="2011-11-23"/> 
+               <settlement from="2011-11-23"
+                           to="2011-11-23"
+                           type="qushat"
+                           ref="LOC7241EndaHawaryat "/>
                
                
                <location>
@@ -69,10 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Gatar. &#xD;
 &#xD;
 A small church dedicated to <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName> is located in the vicinity.</ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/EHPP.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>17 Mss., one scroll photographed: <ref type="mss" corresp="ESehpp001">EHPP-001</ref> “Dawit”; <ref type="mss" corresp="ESehpp002">EHPP-002</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESehpp003">EHPP-003</ref> “Homily on the Saviour of the World”; <ref type="mss" corresp="ESehpp004">EHPP-004</ref> “Vita of Mäzgäbä Śǝllase”; <ref type="mss" corresp="ESehpp005">EHPP-005</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESehpp006">EHPP-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESehpp007">EHPP-007</ref> “Vita of John the Baptist, Miracles of John the Baptist”; <ref type="mss" corresp="ESehpp008">EHPP-008</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESehpp009">EHPP-009</ref> “The Book of Baptism”; <ref type="mss" corresp="ESehpp010">EHPP-010</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESehpp011">EHPP-011</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESehpp012">EHPP-012</ref> “Four Gospels”; <ref type="mss" corresp="ESehpp013">EHPP-013</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESehpp014">EHPP-014</ref> “The Loosening of the Spells”; <ref type="mss" corresp="ESehpp015">EHPP-015</ref> “Missal”; <ref type="mss" corresp="ESehpp016">EHPP-016</ref> “Homily on the Sabbath of Christians”; <ref type="mss" corresp="ESehpp017">EHPP-017</ref> “The Bandlet of Righteous”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/EHPP.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>17 Mss., one scroll photographed: <ref type="mss" corresp="ESehpp001">EHPP-001</ref> “Dawit”; <ref type="mss" corresp="ESehpp002">EHPP-002</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESehpp003">EHPP-003</ref> “Homily on the Saviour of the World”; <ref type="mss" corresp="ESehpp004">EHPP-004</ref> “Vita of Mäzgäbä Śǝllase”; <ref type="mss" corresp="ESehpp005">EHPP-005</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESehpp006">EHPP-006</ref> “Vita of Gäbrä Mänfäs Qǝddus”; <ref type="mss" corresp="ESehpp007">EHPP-007</ref> “Vita of John the Baptist, Miracles of John the Baptist”; <ref type="mss" corresp="ESehpp008">EHPP-008</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESehpp009">EHPP-009</ref> “The Book of Baptism”; <ref type="mss" corresp="ESehpp010">EHPP-010</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESehpp011">EHPP-011</ref> “Acts of the Apostles”; <ref type="mss" corresp="ESehpp012">EHPP-012</ref> “Four Gospels”; <ref type="mss" corresp="ESehpp013">EHPP-013</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESehpp014">EHPP-014</ref> “The Loosening of the Spells”; <ref type="mss" corresp="ESehpp015">EHPP-015</ref> “Missal”; <ref type="mss" corresp="ESehpp016">EHPP-016</ref> “Homily on the Sabbath of Christians”; <ref type="mss" corresp="ESehpp017">EHPP-017</ref> “The Bandlet of Righteous”.</ab>
          
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS12538PeterPaul" type="tabot">Peter and Paul</persName> (marble), 

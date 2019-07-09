@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0119MQM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Däbrä Mäʿar Qǝddǝst Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-19" who="ES">adjusted name location spelling</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -62,7 +70,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <settlement ref="LOC3293GantaA" type="warada" when="2010-12-03"/>  
                <settlement ref="LOC7201Hadennat" type="tabiya" when="2010-12-03"/>
-               <settlement ref="LOC7222DabraMaar" type="qushat" from="2010-12-03" to="2010-12-03"/>
+               <settlement ref="LOC7222DabraMaar"
+                           type="qushat"
+                           from="2010-12-03"
+                           to="2010-12-03"/>
                <location>
                   <geo>14.186783 39.39175</geo>
                   <height unit="m">2594.0</height>
@@ -77,7 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/MQM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      19 Mss. photographed: <ref type="mss" corresp="ESmqm001">MQM-001</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmqm002">MQM-002</ref> "Four Gospels"; 
                      <ref type="mss" corresp="ESmqm003">MQM-003</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmqm004">MQM-004</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESmqm005">MQM-005</ref> "Missal"; 

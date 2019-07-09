@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0111SSB"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bet Ḥāwāryāt</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">updated location name tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -62,14 +70,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <settlement type="province" ref="LOC5932Tegray"/>
                <settlement from="2011-09-11"
-                  to="2011-09-11"
-                  type="warada"
-                  ref="LOC3293GantaA"/>
-               <settlement from="2011-09-11" to="2011-09-11" type="tabiya" ref="LOC7166Sasun"></settlement>
+                           to="2011-09-11"
+                           type="warada"
+                           ref="LOC3293GantaA"/>
                <settlement from="2011-09-11"
-                  to="2011-09-11"
-                  type="qushat"
-                  ref="LOC7167Bet"/>
+                           to="2011-09-11"
+                           type="tabiya"
+                           ref="LOC7166Sasun"/>
+               <settlement from="2011-09-11"
+                           to="2011-09-11"
+                           type="qushat"
+                           ref="LOC7167Bet"/>
                
 
                <location>
@@ -81,12 +92,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Possibly the foundation of an of earlier period, since there are Aksumite remains at the site (pillars standing in the sanctuary of the church).</desc>
                   <ab type="history">Dabr.&#xD;
 </ab>
-           <ab type="description">
-              <figure>
-                 <graphic url="Sites/SSB.tif">
-                    <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-              </figure>
-           </ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/SSB.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>
+                  </ab>
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS11430Apostles" type="tabot">Apostles</persName> (Ḥāwāryāt, possible of 
                      <persName ref="PRS12538PeterPaul" type="tabot">Peter and Paul</persName>).</ab>

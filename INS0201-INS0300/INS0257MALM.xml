@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0257MALM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Malakusayto Qǝddǝst Māryām</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -54,10 +62,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-12" to="2012-11-13"/>  
-               <settlement ref="LOC7256Bahera" type="tabiya" from="2012-11-12" to="2012-11-13"/>
+               <settlement ref="LOC3293GantaA"
+                           type="warada"
+                           from="2012-11-12"
+                           to="2012-11-13"/>  
+               <settlement ref="LOC7256Bahera"
+                           type="tabiya"
+                           from="2012-11-12"
+                           to="2012-11-13"/>
                
-               <settlement from="2012-11-12" to="2012-11-13" ref="LOC7258Malakusayto" type="qushat"/>
+               <settlement from="2012-11-12"
+                           to="2012-11-13"
+                           ref="LOC7258Malakusayto"
+                           type="qushat"/>
                
                <location>
                   <geo>14.192339 39.466972</geo>
@@ -65,14 +82,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
-                  <desc type="foundation">Local tradition claims the foundation in the year of mercy 336. The original founder is said to have been a certain <persName ref="PRS12537Azzay">ʾAzzāy Ba-Kwǝllu</persName> (?). Later it is said to be re-established by <persName ref="PRS12536GabraDengel"><roleName type="title">ʾayta</roleName> Gabra Dǝngǝl</persName>. 
+                  <desc type="foundation">Local tradition claims the foundation in the year of mercy 336. The original founder is said to have been a certain <persName ref="PRS12537Azzay">ʾAzzāy Ba-Kwǝllu</persName> (?). Later it is said to be re-established by <persName ref="PRS12536GabraDengel">
+                        <roleName type="title">ʾayta</roleName> Gabra Dǝngǝl</persName>. 
                      The written account about the church foundation (<ref type="mss" corresp="ESmalm004">MALM-004</ref>) differs from the oral story.</desc>
                   <ab type="history">Dabr. Two churches located at the site: the older is placed on the rock, the recent, very modest and still under construction is located on the slope closer to the road. &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/MALM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>18 Mss. photographed: <ref type="mss" corresp="ESmalm001">MALM-001</ref> “ The Harp of the praise”;
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/MALM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>18 Mss. photographed: <ref type="mss" corresp="ESmalm001">MALM-001</ref> “ The Harp of the praise”;
                      <ref type="mss" corresp="ESmalm002">MALM-002</ref> “Homiliary for the feasts of St. Michael”; 
                      <ref type="mss" corresp="ESmalm003">MALM-003</ref> “Homiliary for the Feasts of St. Michael”; <ref type="mss" corresp="ESmalm004">MALM-004</ref> “Four Gospels”; <ref type="mss" corresp="ESmalm005">MALM-005</ref> “Miracles of Mary”; <ref type="mss" corresp="ESmalm006">MALM-006</ref> “Missal”; <ref type="mss" corresp="ESmalm007">MALM-007</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESmalm008">MALM-008</ref> “Praise of God ”; <ref type="mss" corresp="ESmalm009">MALM-009</ref> “Homily for commemeration  of the Saviour of the World”; <ref type="mss" corresp="ESmalm010">MALM-010</ref> “Vita of Gäbrä Mikaʾel”; <ref type="mss" corresp="ESmalm011">MALM-011</ref> “Book of the letter; Regulations concerning the priest; Excerpts from Zǝmmare”; <ref type="mss" corresp="ESmalm012">MALM-012</ref> “Book of the  letter; Regulations concerning the priest; Excerpt from Zǝmmare”; <ref type="mss" corresp="ESmalm013">MALM-013</ref> “Psalter”; <ref type="mss" corresp="ESmalm014">MALM-014</ref> “Loosening of Spell”; <ref type="mss" corresp="ESmalm015">MALM-015</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESmalm016">MALM-016</ref> “Vita of Gäbrä Mikaʾel”; <ref type="mss" corresp="ESmalm017">MALM-017</ref> “Magical prayers against evil eye and diseases”; <ref type="mss" corresp="ESmalm018">MALM-018</ref> “Homily on the 24 Heavenly priests; Vita of  ʾAbba Yoḥanni”.</ab>
          

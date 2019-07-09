@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0221QDGM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Qäqäma Däbrä Gännät Qǝddǝst Maryam </title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-19" who="ES">adjusted spelling location tabots</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -53,9 +61,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Qaqamā Māryām</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement from="2012-06-01" to="2012-06-01" ref="LOC6965DagaTamben" type="warada"></settlement>
-               <settlement from="2012-06-01" to="2012-06-01" ref="LOC7229Mizan" type="tabiya"></settlement>
-               <settlement from="2012-06-01" to="2012-06-01" ref="LOC7230Qaqama" type="qushat"></settlement>
+               <settlement from="2012-06-01"
+                           to="2012-06-01"
+                           ref="LOC6965DagaTamben"
+                           type="warada"/>
+               <settlement from="2012-06-01"
+                           to="2012-06-01"
+                           ref="LOC7229Mizan"
+                           type="tabiya"/>
+               <settlement from="2012-06-01"
+                           to="2012-06-01"
+                           ref="LOC7230Qaqama"
+                           type="qushat"/>
                
                <location>
                   <geo>13.5664 39.0586</geo>
@@ -66,10 +83,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">The old church is said to have been founded by King Zarʾā Yāʿqob (r. <date>1438-1468</date>); the monastic community was established by <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>). The religious site might have existed in the Aksumite time.</desc>
                   <ab type="history">Gadām. The monastic community consists of at least 15 monks. &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/QDGM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>13 Mss. photographed: <ref type="mss" corresp="ESqdgm001">QDGM-001</ref> ʺThe Four Gospelsʺ; <ref type="mss" corresp="ESqdgm002">QDGM-002</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm003">QDGM-003</ref> ʺOctateuchʺ; <ref type="mss" corresp="ESqdgm004">QDGM-004</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm005">QDGM-005</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm006">QDGM-006</ref> ʺThe Harp of Praiseʺ; <ref type="mss" corresp="ESqdgm007">QDGM-007</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESqdgm008">QDGM-008</ref> ʺThe Book of the Spirtual Elderʺ; <ref type="mss" corresp="ESqdgm009">QDGM-009</ref> ʺCommentary to the Pauline Epistlesʺ; <ref type="mss" corresp="ESqdgm010">QDGM-010</ref> ʺThe History of the Apostlesʺ; <ref type="mss" corresp="ESqdgm011">QDGM-011</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm012">QDGM-012</ref> ʺVita of ʾArägawiʺ; <ref type="mss" corresp="ESqdgm013">QDGM-013</ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/QDGM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>13 Mss. photographed: <ref type="mss" corresp="ESqdgm001">QDGM-001</ref> ʺThe Four Gospelsʺ; <ref type="mss" corresp="ESqdgm002">QDGM-002</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm003">QDGM-003</ref> ʺOctateuchʺ; <ref type="mss" corresp="ESqdgm004">QDGM-004</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm005">QDGM-005</ref> ʺPraise of Godʺ; <ref type="mss" corresp="ESqdgm006">QDGM-006</ref> ʺThe Harp of Praiseʺ; <ref type="mss" corresp="ESqdgm007">QDGM-007</ref> ʺFour Gospelsʺ; <ref type="mss" corresp="ESqdgm008">QDGM-008</ref> ʺThe Book of the Spirtual Elderʺ; <ref type="mss" corresp="ESqdgm009">QDGM-009</ref> ʺCommentary to the Pauline Epistlesʺ; <ref type="mss" corresp="ESqdgm010">QDGM-010</ref> ʺThe History of the Apostlesʺ; <ref type="mss" corresp="ESqdgm011">QDGM-011</ref> ʺPsalterʺ; <ref type="mss" corresp="ESqdgm012">QDGM-012</ref> ʺVita of ʾArägawiʺ; <ref type="mss" corresp="ESqdgm013">QDGM-013</ref> ʺVita of Kirosʺ. The collection includes more than 120 Mss.</ab>
                 
                   <ab type="tabot">
                      <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 

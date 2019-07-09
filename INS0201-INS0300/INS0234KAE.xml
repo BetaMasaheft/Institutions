@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0234KAE"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kunāle ʾArbāʿtu ʾƎnsǝsā</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">introduced tabots, completed location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
@@ -68,15 +76,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1700" notAfter="1800">1700-1800</date>
                   <desc type="foundation">Local tradition says that the church has been (re-)established in in the time of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>).</desc>
                   <ab type="history">Gaṭar. A small recent church dedicated to Kiros is located in the vicinity, associated with the main church. &#xD;</ab>
-                    <ab type="tabot"><measure quantity="4"/>
+                    <ab type="tabot">
+                     <measure quantity="4"/>
                        Tābots: <persName ref="PRS6006Kiros" type="tabot">Kiros</persName> (in a separate church), 
                        <persName ref="PRS12016Evangelists#Four" type="tabot">Four Living Creatures</persName>, 
                        <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
                        <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/KAE.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/KAE.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>15 Mss. photographed: <ref type="mss" corresp="ESkae001">KAE-001</ref> “Collection of texts dedicated to the Four Heavenly Creatures”; <ref type="mss" corresp="ESkae002">KAE-002</ref> “The Four Gospels”; <ref type="mss" corresp="ESkae003">KAE-003</ref> “The Book of the Faith of the Fathers”; <ref type="mss" corresp="ESkae004">KAE-004</ref> “Missal”; <ref type="mss" corresp="ESkae005">KAE-005</ref> “Psalter”; <ref type="mss" corresp="ESkae006">KAE-006</ref> “O you who descended from the sky…”; <ref type="mss" corresp="ESkae007">KAE-007</ref> “Psalter”; <ref type="mss" corresp="ESkae008">KAE-008</ref> “Psalter”; <ref type="mss" corresp="ESkae009">KAE-009</ref> “Missal”; <ref type="mss" corresp="ESkae010">KAE-010</ref> “Collection of Hymns”; <ref type="mss" corresp="ESkae011">KAE-011</ref> “Miracles of Many”; <ref type="mss" corresp="ESkae012">KAE-012</ref> “Vita of Täkla Hawaryat”; <ref type="mss" corresp="ESkae013">KAE-013</ref> “Rite of the Passion Week”; <ref type="mss" corresp="ESkae014">KAE-014</ref> “Dǝggwa”; <ref type="mss" corresp="ESkae015">KAE-015</ref> “Vita of Kiros; Miracles of Kiros; Miracles of Mary; Homily and Miracles of Four Heavenly Creatures”.</ab>
  
                </note>
             </place>

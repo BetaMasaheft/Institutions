@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0214Ad"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿĀd Ḥəyāw Qəddus Mikāʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot, restored title</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church" subtype="institution">
@@ -55,9 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-11" to="2010-05-13"/>
-               <settlement ref="LOC6970Marta" type="tabiya" from="2010-05-11" to="2010-05-13"/> 
-               <settlement from="2010-05-11" to="2010-05-13" type="qushat" ref="LOC6971DabraGannat "/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-05-11"
+                           to="2010-05-13"/>
+               <settlement ref="LOC6970Marta"
+                           type="tabiya"
+                           from="2010-05-11"
+                           to="2010-05-13"/> 
+               <settlement from="2010-05-11"
+                           to="2010-05-13"
+                           type="qushat"
+                           ref="LOC6971DabraGannat "/>
                
                
                <note>

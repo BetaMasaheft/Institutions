@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0034DZ"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Däbrä Zäyt Qǝddǝst Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-04-24" who="ES">adjusted names, location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery dabr" subtype="institution">
@@ -63,10 +71,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-06" to="2010-05-07"/>
-               <settlement from="2010-05-06" to="2010-05-07" ref="LOC6517Kesad" type="tabiya"/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-05-06"
+                           to="2010-05-07"/>
+               <settlement from="2010-05-06"
+                           to="2010-05-07"
+                           ref="LOC6517Kesad"
+                           type="tabiya"/>
                
-               <settlement from="2010-05-06" to="2010-05-07" ref="LOC6964MedraRuba"></settlement>
+               <settlement from="2010-05-06" to="2010-05-07" ref="LOC6964MedraRuba"/>
                <location>
                   <geo>14.327355 39.40431</geo>
                   <height unit="m">2443.0</height>
@@ -78,7 +92,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/DZ.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      25 Mss. photographed: <ref type="mss" corresp="ESdz001">DZ-001</ref> "Four Gospels"; <ref type="mss" corresp="ESdz002">DZ-002</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESdz003">DZ-003</ref> "Miracles of Mary" and other texts; <ref type="mss" corresp="ESdz004">DZ-004</ref> "Vitae of the Apostles"; <ref type="mss" corresp="ESdz005">DZ-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdz006">DZ-006</ref> "Collection of Mälkǝʿ-Poetry"; <ref type="mss" corresp="ESdz007">DZ-007</ref> "Story of St. Mary"; <ref type="mss" corresp="ESdz008">DZ-008</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESdz009">DZ-009</ref> "Dǝggwa"; <ref type="mss" corresp="ESdz010">DZ-010</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESdz011">DZ-011</ref> "Missal"; <ref type="mss" corresp="ESdz013">DZ-013</ref> "Missal"; <ref type="mss" corresp="ESdz014">DZ-014</ref> "Miracles of Mary"; <ref type="mss" corresp="ESdz015">DZ-015</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESdz016">DZ-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESdz017">DZ-017</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdz018">DZ-018</ref> "Vita of St. George"; <ref type="mss" corresp="ESdz019">DZ-019</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESdz020">DZ-020</ref> "Prayer of Incense"; <ref type="mss" corresp="ESdz021">DZ-021</ref> "Story of the Trinity"; <ref type="mss" corresp="ESdz022">DZ-022</ref> "Litanies"; <ref type="mss" corresp="ESdz023">DZ-023</ref> "Missal"; <ref type="mss" corresp="ESdz024">DZ-024</ref> "Four Gospels"; <ref type="mss" corresp="ESdz025">DZ-025</ref> "Psalter"</ab>
      

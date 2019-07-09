@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0178QMM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Margāḥǝya Mikaʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-14" who="ES">adjusted to schema - name location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -82,7 +90,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      <figure>
                         <graphic url="Sites/QMM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      14 Mss. photographed: <ref type="mss" corresp="ESqmm001">QMM-001</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqmm002">QMM-002</ref> "Missal"; <ref type="mss" corresp="ESqmm003">QMM-003</ref> "Prayers of Mary"; <ref type="mss" corresp="ESqmm004">QMM-004</ref> "The Fortress of the Cross"; <ref type="mss" corresp="ESqmm005">QMM-005</ref> "Collection of Mälkǝʿ-Poetry for Mary"; <ref type="mss" corresp="ESqmm006">QMM-006</ref> "Psalter"; <ref type="mss" corresp="ESqmm007">QMM-007</ref> "Missal"; <ref type="mss" corresp="ESqmm008">QMM-008</ref> "Dǝggwa"; <ref type="mss" corresp="ESqmm009">QMM-009</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqmm010">QMM-010</ref> "The Book of the Chants"; <ref type="mss" corresp="ESqmm011">QMM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqmm012">QMM-012</ref> "Pauline Epistles"; <ref type="mss" corresp="ESqmm013">QMM-013</ref> "Collection of Nägś-Hymns"; <ref type="mss" corresp="ESqmm014">QMM-014</ref> "Prayers of Mary"</ab>
         

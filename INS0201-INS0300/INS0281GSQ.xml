@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0281GSQ"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gwaḥtärat Qirqos</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot links</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -55,9 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2014-01-29" to="2014-02-07"/>
-               <settlement ref="LOC7259MahbaraWayni" type="tabiya" from="2014-01-29" to="2014-02-07"/>
-               <settlement from="2014-01-29" to="2014-02-07" ref="LOC7260Gwahtarat" type="qushat"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2014-01-29"
+                           to="2014-02-07"/>
+               <settlement ref="LOC7259MahbaraWayni"
+                           type="tabiya"
+                           from="2014-01-29"
+                           to="2014-02-07"/>
+               <settlement from="2014-01-29"
+                           to="2014-02-07"
+                           ref="LOC7260Gwahtarat"
+                           type="qushat"/>
                
                <location>
                   <geo>13.653472 39.500889</geo>
@@ -68,10 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Local tradition tells that the church is ancient; the monastery was established here in the time of <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName>, by <persName ref="PRS1873AmlasuA">wayzāro ʾAmlāsu</persName>, a wife of the King's general <persName ref="PRS1777Alulaen">rās ʾAlulā ʾƎngǝdā</persName> (d. <date>1897</date>).</desc>
                   <ab type="history">Gadām. Currently, there are no monks, the monastic community declined after 1970s. The church compound is adjacent to the area of the traditional school, with the huts of the students (up to 20).&#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/GSQ.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>15 Mss. photographed: <ref type="mss" corresp="ESgsq001">GSQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESgsq002">GSQ-002</ref> “1. Orit zä-lelawǝyan 2. Orit zä-fǝträt( fols. 7-18) 3. Tǝmhǝrtä didǝsqǝlya (fols. 19-36) 4. Proverts (fols. 37-40) 5. Orit zä-däʿat (fols. 51-53) 6. Mäṣḥafä Henok (fols. 51-79) 7. MäṣḥafäṬobit (fols. 80-85) 8. Mäṣḥafä ʾṮsayǝyyas (fols.86-94) 9. ʿƎrgätä ʾṮsayǝyyas (94-95) 10. Tägśaš zä-solomon (<ref type="mss" corresp="ES100101">100-101</ref>) 11. Mäṣḥafä ʿƎzra (1<ref type="mss" corresp="ES03vc108">03vc-108</ref>)”; <ref type="mss" corresp="ESgsq003">GSQ-003</ref> “Psalter”; <ref type="mss" corresp="ESgsq004">GSQ-004</ref> “Miracles of Qirqos. Image of Qirqos.”; <ref type="mss" corresp="ESgsq005">GSQ-005</ref> “1. story of the Fathers 2. Mar Yǝshaq 3. Paradise of montes”; <ref type="mss" corresp="ESgsq006">GSQ-006</ref> “Faith of the Fatheres ”; <ref type="mss" corresp="ESsq007">SQ-007</ref> “Vita of Kiros”; <ref type="mss" corresp="ESgsq008">GSQ-008</ref> “2. Antiphonary for feusts and funeral service”; <ref type="mss" corresp="ESgsq009">GSQ-009</ref> “Horologium for the Night and the Morning Hours”; <ref type="mss" corresp="ESgsq010">GSQ-010</ref> “Missal”; <ref type="mss" corresp="ESgsq011">GSQ-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESgsq012">GSQ-012</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESgsq013">GSQ-013</ref> “Vita of Täklä Haymanot; Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESgsq014">GSQ-014</ref> “Synaxarion (The second half of the year)”; <ref type="mss" corresp="ESgsq015">GSQ-015</ref> “Dǝggwa; Ṣomä dǝggwa“.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/GSQ.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>15 Mss. photographed: <ref type="mss" corresp="ESgsq001">GSQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESgsq002">GSQ-002</ref> “1. Orit zä-lelawǝyan 2. Orit zä-fǝträt( fols. 7-18) 3. Tǝmhǝrtä didǝsqǝlya (fols. 19-36) 4. Proverts (fols. 37-40) 5. Orit zä-däʿat (fols. 51-53) 6. Mäṣḥafä Henok (fols. 51-79) 7. MäṣḥafäṬobit (fols. 80-85) 8. Mäṣḥafä ʾṮsayǝyyas (fols.86-94) 9. ʿƎrgätä ʾṮsayǝyyas (94-95) 10. Tägśaš zä-solomon (<ref type="mss" corresp="ES100101">100-101</ref>) 11. Mäṣḥafä ʿƎzra (1<ref type="mss" corresp="ES03vc108">03vc-108</ref>)”; <ref type="mss" corresp="ESgsq003">GSQ-003</ref> “Psalter”; <ref type="mss" corresp="ESgsq004">GSQ-004</ref> “Miracles of Qirqos. Image of Qirqos.”; <ref type="mss" corresp="ESgsq005">GSQ-005</ref> “1. story of the Fathers 2. Mar Yǝshaq 3. Paradise of montes”; <ref type="mss" corresp="ESgsq006">GSQ-006</ref> “Faith of the Fatheres ”; <ref type="mss" corresp="ESsq007">SQ-007</ref> “Vita of Kiros”; <ref type="mss" corresp="ESgsq008">GSQ-008</ref> “2. Antiphonary for feusts and funeral service”; <ref type="mss" corresp="ESgsq009">GSQ-009</ref> “Horologium for the Night and the Morning Hours”; <ref type="mss" corresp="ESgsq010">GSQ-010</ref> “Missal”; <ref type="mss" corresp="ESgsq011">GSQ-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESgsq012">GSQ-012</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESgsq013">GSQ-013</ref> “Vita of Täklä Haymanot; Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESgsq014">GSQ-014</ref> “Synaxarion (The second half of the year)”; <ref type="mss" corresp="ESgsq015">GSQ-015</ref> “Dǝggwa; Ṣomä dǝggwa“.</ab>
         
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of 2 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 2 of <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>, one unidentified marble.</ab>

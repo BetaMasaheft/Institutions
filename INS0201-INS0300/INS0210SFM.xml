@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0210SFM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sänqaṭa Fǝrewäyni Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -76,10 +84,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Local tradition claims the foundation in the time of King ʾIyasu (ʾIyasu I, r. 1682-1706, or ʾIyasu II, r. 1730-55).</desc>
                   <ab type="history">Dabr. &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/SFM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>8 Mss. photographed: <ref type="mss" corresp="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref type="mss" corresp="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref type="mss" corresp="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsfm004">SFM-004</ref> “Psalter”; <ref type="mss" corresp="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsfm006">SFM-006</ref> “Psalter”; <ref type="mss" corresp="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref type="mss" corresp="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/SFM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>8 Mss. photographed: <ref type="mss" corresp="ESsfm001">SFM-001</ref> “ Synaxarion (September - February)”; <ref type="mss" corresp="ESsfm002">SFM-002</ref> “The Faith of the Fathers”; <ref type="mss" corresp="ESsfm003">SFM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsfm004">SFM-004</ref> “Psalter”; <ref type="mss" corresp="ESsfm005">SFM-005</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsfm006">SFM-006</ref> “Psalter”; <ref type="mss" corresp="ESsfm007">SFM-007</ref> “Sǝna Golgota; Doctrina”; <ref type="mss" corresp="ESsfm008">SFM-008</ref> “Collection of Mälkǝʿ-Poetry”.</ab>
                
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.</ab>

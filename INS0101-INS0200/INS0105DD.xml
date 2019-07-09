@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0105DD"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Dabra Dāmmo ʾAbuna ʾAragāwi</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,10 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-08-07" who="ES">link to the mountain added, link to qushat corrected, link to tabiya corrected, links to Aragawi added, tabots introduced</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="church monastery gadam" subtype="institution" sameAs="wd:Q595895">
+            <place type="church monastery gadam"
+                   subtype="institution"
+                   sameAs="wd:Q595895">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ዳሞ፡ አቡነ፡ አረጋዊ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ዳሞ፡</placeName>
@@ -65,11 +75,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            to="2012-11-25"
                            type="warada"
                            ref="LOC3640GuloMa"/>
-               <settlement from="2011-11-23" to="2012-11-25" type="tabiya" ref="LOC4731Mazaba"></settlement>
                <settlement from="2011-11-23"
                            to="2012-11-25"
-                           type="qushat"
-                           ref="LOC7055DD"/>
+                           type="tabiya"
+                           ref="LOC4731Mazaba"/>
+               <settlement from="2011-11-23" to="2012-11-25" type="qushat" ref="LOC7055DD"/>
                <location>
                   <geo>14.374333 39.292167</geo>
                   <height unit="m">2261.0</height>
@@ -133,28 +143,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <note>
                   <date type="foundation" notBefore="0600" notAfter="0800">0600-0800</date>
-                  <desc type="foundation">According to tradition, the monastery was founded by the <date>6th-cent.</date> <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>; for sure existed in the Aksumite period.</desc>
+                  <desc type="foundation">According to tradition, the monastery was founded by the <date>6th-cent.</date> 
+                     <persName ref="PRS10581Zamika">
+                        <roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>; for sure existed in the Aksumite period.</desc>
                   <ab type="history">
-                     The monastery Dabra Dāmmo  is one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau (<placeName ref="LOC2255DabraD"></placeName>) entirely surrounded by steep 
+                     The monastery Dabra Dāmmo  is one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau (<placeName ref="LOC2255DabraD"/>) entirely surrounded by steep 
                      cliffs in the district of <placeName ref="LOC1938Bizat"/>. The monastery seems to have been favored by the Aksumites kings, but neglecetd in the Zāgʷe period, 
                      for it was at the forefront of the anti- Zāgʷe struggle. 
                      Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
                      where several prominent religious missionaries and monastic leaders have been trained,
                      including 
-                     <persName ref="PRS5633IyasusM"><roleName type="title"> ʾabbā</roleName></persName> <persName ref="PRS5633IyasusM"/>
+                     <persName ref="PRS5633IyasusM">
+                        <roleName type="title"> ʾabbā</roleName>
+                     </persName> 
+                     <persName ref="PRS5633IyasusM"/>
                         and 
-                     <persName ref="PRS9162TaklaHa"><roleName type="title">ʾabuna</roleName></persName> <persName ref="PRS9162TaklaHa"/>.
+                     <persName ref="PRS9162TaklaHa">
+                        <roleName type="title">ʾabuna</roleName>
+                     </persName> 
+                     <persName ref="PRS9162TaklaHa"/>.
                      It played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
                      yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="wd:Q36730"/> forces in <date>1557</date>.</ab>
                      <ab type="description">
                         <figure>
                            <graphic url="Sites/DD.tif">
-                              <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                              <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                         </figure>
                         
                      As of <date>2011</date>, monastic community has, reportedly, up to 50 monks. 
-                        Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika"><roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 
+                        Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika">
+                        <roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 
                      A small nunnery is located in the village nearby.&#xD;
                      
                      

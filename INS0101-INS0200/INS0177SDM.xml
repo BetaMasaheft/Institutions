@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0177SDM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Soṭā Dabra Salām Qǝddus Mikāʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-18" who="ES">adjusted name location </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">                         
@@ -66,7 +74,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement ref="LOC3293GantaA" type="warada" when="2011-05-18"/>  
                <settlement ref="LOC7201Hadennat" type="tabiya" when="2011-05-18"/>
                
-               <settlement from="2011-05-18" to="2011-05-18" ref="LOC7202Sota" type="qushat"/>
+               <settlement from="2011-05-18"
+                           to="2011-05-18"
+                           ref="LOC7202Sota"
+                           type="qushat"/>
                             
                
                <location>
@@ -82,7 +93,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      <figure>
                         <graphic url="Sites/SDM.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      23 Mss. photographed:<ref type="mss" corresp="ESsdm001">SDM-001</ref> "Four Gospels";  <ref type="mss" corresp="ESsdm001">SDM-001</ref>a "Collection of Marain prayers"; <ref type="mss" corresp="ESsdm002">SDM-002</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESsdm003">SDM-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESsdm003">SDM-003</ref>a "The Miracles of St. Michael, The Miracles of Gäbrä Mänfäs Qǝddus, etc."; <ref type="mss" corresp="ESsdm004">SDM-004</ref> "Missal"; <ref type="mss" corresp="ESsdm005">SDM-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsdm006">SDM-006</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESsdm007">SDM-007</ref> "Barǝkännä Ǝgziʾnä, Mäṣḥafä Aslǝṭi"; <ref type="mss" corresp="ESsdm008">SDM-008</ref> "Missal"; <ref type="mss" corresp="ESsdm009">SDM-009</ref> "The Homily of St. Michael"; <ref type="mss" corresp="ESsdm010">SDM-010</ref> "Synaxarion (second half of the year)"; <ref type="mss" corresp="ESsdm011">SDM-011</ref> "The Book of the Rite of the Passion Week"; <ref type="mss" corresp="ESsdm012">SDM-012</ref> "The Prayer of the Incense"; <ref type="mss" corresp="ESsdm013">SDM-013</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESsdm014">SDM-014</ref> "Synaxarion (first half of the year)"; <ref type="mss" corresp="ESsdm015">SDM-015</ref> "Miracles of Mary"; <ref type="mss" corresp="ESsdm016">SDM-016</ref> "The Book of Aslǝṭi"; <ref type="mss" corresp="ESsdm017">SDM-017</ref> "The Homiliy of the Saviour of the world"; <ref type="mss" corresp="ESsdm018">SDM-018</ref> "The Five Pillars of Mystery"; <ref type="mss" corresp="ESsdm019">SDM-019</ref> "Collection of Mälkǝʿ and other Texts"; <ref type="mss" corresp="ESsdm020">SDM-020</ref> "The Loosening of the Spell"; <ref type="mss" corresp="ESsdm021">SDM-021</ref> "Collection of protective prayers"; <ref type="mss" corresp="ESsdm022">SDM-022</ref> "The Bandlet of Righteousnes"</ab>
            

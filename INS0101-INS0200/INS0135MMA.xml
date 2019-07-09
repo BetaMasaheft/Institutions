@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0135MMA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title/>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">adjusted name location tabots</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -60,9 +68,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2010-12-15" to="2010-12-15"/>
-               <settlement ref="LOC7173Nagas" type="tabiya" from="2010-12-15" to="2010-12-15"/>
-               <settlement from="2010-12-15" to="2010-12-15" ref="LOC7174Maago" type="qushat"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2010-12-15"
+                           to="2010-12-15"/>
+               <settlement ref="LOC7173Nagas"
+                           type="tabiya"
+                           from="2010-12-15"
+                           to="2010-12-15"/>
+               <settlement from="2010-12-15"
+                           to="2010-12-15"
+                           ref="LOC7174Maago"
+                           type="qushat"/>
                
                
                <location>
@@ -77,7 +94,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/MMA.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      12 Mss. photographed: <ref type="mss" corresp="ESmma001">MMA-001</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESmma002">MMA-002</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmma003">MMA-003</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmma004">MMA-004</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmma005">MMA-005</ref> "Missal"; <ref type="mss" corresp="ESmma006">MMA-006</ref> "Prayer of Incense"; <ref type="mss" corresp="ESmma007">MMA-007</ref> "Psalter"; <ref type="mss" corresp="ESmma008">MMA-008</ref> "Missal"; <ref type="mss" corresp="ESmma009">MMA-009</ref> "Four Gospels"; <ref type="mss" corresp="ESmma010">MMA-010</ref> "Homily of the Living One"; <ref type="mss" corresp="ESmma011">MMA-011</ref> "Homily of St. George"; <ref type="mss" corresp="ESmma012">MMA-012</ref> "Miracles of Mary".</ab>
        

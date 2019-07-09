@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0082UMQ"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿUra Mäsqäl</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-01-18" who="ES">names completed, relation to LOC added</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery" subtype="institution">
@@ -60,9 +68,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC3640GuloMa" type="warada" from="2010-04-27" to="2010-04-30"/>
-               <settlement ref="LOC6962Sawit" type="tabiya" from="2010-04-27" to="2010-04-30"/>
-               <settlement from="2010-04-27" to="2010-04-30" ref="LOC6963Ura" type="qushat"/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2010-04-27"
+                           to="2010-04-30"/>
+               <settlement ref="LOC6962Sawit"
+                           type="tabiya"
+                           from="2010-04-27"
+                           to="2010-04-30"/>
+               <settlement from="2010-04-27"
+                           to="2010-04-30"
+                           ref="LOC6963Ura"
+                           type="qushat"/>
                <location>
                   <geo>14.481856 39.334575</geo>
                   
@@ -76,7 +93,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
          </listPlace>
-         <listRelation><relation name="skos:exactMatch" active="INS0082UMQ"  passive="LOC6063UraMas"></relation></listRelation>
+         <listRelation>
+            <relation name="skos:exactMatch" active="INS0082UMQ" passive="LOC6063UraMas"/>
+         </listRelation>
       </body>
    </text>
 </TEI>

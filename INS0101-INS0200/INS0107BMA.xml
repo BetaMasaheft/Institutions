@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0107BMA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿAddigrāt Bet Māryā</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">names tabots updated/completed</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement ref="LOC1212Addigr" type="town"/> 
                
                <settlement when="2011-08-11"> 
-                  <placeName type="qabale">ʿĀddigrāt qabale 2</placeName>               </settlement>
+                  <placeName type="qabale">ʿĀddigrāt qabale 2</placeName>               
+               </settlement>
                
                
                <location>
@@ -81,7 +90,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      <figure>
                         <graphic url="Sites/BMA.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      4 Mss. photographed: <ref type="mss" corresp="ESbma001">BMA-001</ref> "Missal"; <ref type="mss" corresp="ESbma002">BMA-002</ref> "Synaxarion"; <ref type="mss" corresp="ESbma003">BMA-003</ref> "Story of St. Mary"; <ref type="mss" corresp="ESbma004">BMA-004</ref> "The Book of the Funeral Rite"</ab>
             

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0211SQMM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Säglat Qǝddus Mikaʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -54,9 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-15" to="2011-11-15"/>
-               <settlement ref="LOC7213Qalat " type="tabiya" from="2011-11-15" to="2011-11-15"/>
-               <settlement from="2011-11-15" to="2011-11-15" type="qushat" ref="LOC7240Saglat "/>
+               <settlement ref="LOC3640GuloMa"
+                           type="warada"
+                           from="2011-11-15"
+                           to="2011-11-15"/>
+               <settlement ref="LOC7213Qalat "
+                           type="tabiya"
+                           from="2011-11-15"
+                           to="2011-11-15"/>
+               <settlement from="2011-11-15"
+                           to="2011-11-15"
+                           type="qushat"
+                           ref="LOC7240Saglat "/>
                
                <location>
                   <geo>14.414867 39.430583</geo>
@@ -68,10 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Dabr. &#xD;
 &#xD;
 A small church dedicated to <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName> is located in the vicinity.</ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/SQMM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>22 Mss. photographed: <ref type="mss" corresp="ESsqmm001">SQMM-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsqmm002">SQMM-002</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsqmm003">SQMM-003</ref> “Mracles of Mary, The Prayer of Mary on the Mount Golgotha etc”; <ref type="mss" corresp="ESsqmm004">SQMM-004</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESsqmm005">SQMM-005</ref> “Synaxarion (Mäggabit- Pägwǝmen)”; <ref type="mss" corresp="ESsqmm006">SQMM-006</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESsqmm007">SQMM-007</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsqmm008">SQMM-008</ref> “Missal”; <ref type="mss" corresp="ESsqmm009">SQMM-009</ref> “Missal”; <ref type="mss" corresp="ESsqmm010">SQMM-010</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESsqmm011">SQMM-011</ref> “Prayer of Incense”; <ref type="mss" corresp="ESsqmm012">SQMM-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESsqmm013">SQMM-013</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESsqmm014">SQMM-014</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESsqmm015">SQMM-015</ref> “The Book of the Chants”; <ref type="mss" corresp="ESsqmm016">SQMM-016</ref> “The Book of Baptism”; <ref type="mss" corresp="ESsqmm017">SQMM-017</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESsqmm018">SQMM-018</ref> “Dǝggwa”; <ref type="mss" corresp="ESsqmm019">SQMM-019</ref> “The Book of Ziq”; <ref type="mss" corresp="ESsqmm020">SQMM-020</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESsqmm021">SQMM-021</ref> “Deggwa, the Book of Qedär”; <ref type="mss" corresp="ESsqmm022">SQMM-022</ref> “Antiphonary”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/SQMM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>22 Mss. photographed: <ref type="mss" corresp="ESsqmm001">SQMM-001</ref> “Miracles of Mary”; <ref type="mss" corresp="ESsqmm002">SQMM-002</ref> “Homily on the Saviour of the World ”; <ref type="mss" corresp="ESsqmm003">SQMM-003</ref> “Mracles of Mary, The Prayer of Mary on the Mount Golgotha etc”; <ref type="mss" corresp="ESsqmm004">SQMM-004</ref> “The Rite of the Holy Week”; <ref type="mss" corresp="ESsqmm005">SQMM-005</ref> “Synaxarion (Mäggabit- Pägwǝmen)”; <ref type="mss" corresp="ESsqmm006">SQMM-006</ref> “Synaxarion (September-February)”; <ref type="mss" corresp="ESsqmm007">SQMM-007</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESsqmm008">SQMM-008</ref> “Missal”; <ref type="mss" corresp="ESsqmm009">SQMM-009</ref> “Missal”; <ref type="mss" corresp="ESsqmm010">SQMM-010</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESsqmm011">SQMM-011</ref> “Prayer of Incense”; <ref type="mss" corresp="ESsqmm012">SQMM-012</ref> “Miracles of Jesus”; <ref type="mss" corresp="ESsqmm013">SQMM-013</ref> “The Book of the Story of the Trinity”; <ref type="mss" corresp="ESsqmm014">SQMM-014</ref> “The Book of the Matrimony Rite”; <ref type="mss" corresp="ESsqmm015">SQMM-015</ref> “The Book of the Chants”; <ref type="mss" corresp="ESsqmm016">SQMM-016</ref> “The Book of Baptism”; <ref type="mss" corresp="ESsqmm017">SQMM-017</ref> “Psalter of Dawit”; <ref type="mss" corresp="ESsqmm018">SQMM-018</ref> “Dǝggwa”; <ref type="mss" corresp="ESsqmm019">SQMM-019</ref> “The Book of Ziq”; <ref type="mss" corresp="ESsqmm020">SQMM-020</ref> “Synoptic Lectionary for the Year”; <ref type="mss" corresp="ESsqmm021">SQMM-021</ref> “Deggwa, the Book of Qedär”; <ref type="mss" corresp="ESsqmm022">SQMM-022</ref> “Antiphonary”.</ab>
        
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName> (the main church below), <persName ref="PRS7049Michael" type="tabot">Michael</persName> (in the recently built upper church).</ab>

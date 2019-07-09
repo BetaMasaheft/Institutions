@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0117GBI"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gwāḥgot ʾIyasus</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church  dabr" subtype="institution">
@@ -63,7 +71,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement ref="LOC3293GantaA" type="warada" when="2010-12-01"/>  
                <settlement ref="LOC7181Gwahgot" type="tabiya" when="2010-12-01"/>
 
-               <settlement from="2010-12-01" to="2010-12-01" ref="LOC7182BetaIyasus" type="qushat"/>
+               <settlement from="2010-12-01"
+                           to="2010-12-01"
+                           ref="LOC7182BetaIyasus"
+                           type="qushat"/>
                <location>
                   <geo>14.1728 39.4906</geo>
                   <height unit="m">2.607</height>
@@ -77,7 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/GBI.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      13 Mss., objects photographed: <ref type="mss" corresp="ESgbi001">GBI-001</ref> "Four Gospels"; <ref type="mss" corresp="ESgbi002">GBI-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgbi003">GBI-003</ref> "Collection of Liturgical Texts"; <ref type="mss" corresp="ESgbi004">GBI-004</ref> "Psalter"; <ref type="mss" corresp="ESgbi005">GBI-005</ref> "Five Pillars of the Mystery"; <ref type="mss" corresp="ESgbi006">GBI-006</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESgbi007">GBI-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgbi008">GBI-008</ref> "Synaxarion (March)"; <ref type="mss" corresp="ESgbi009">GBI-009</ref> "Missal"; <ref type="mss" corresp="ESgbi010">GBI-010</ref> "Homily of the Saviour of the World "; <ref type="mss" corresp="ESgbi011">GBI-011</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgbi012">GBI-012</ref> "Missal"; <ref type="mss" corresp="ESgbi013">GBI-013</ref> "Homily of the Saviour of the World"</ab>
                   <ab type="tabot">       
@@ -86,7 +98,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      some of the tābots kept in other churches are 2 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
                      <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
                      <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>.
-</ab>               </note>
+</ab>               
+               </note>
             </place>
          </listPlace>
       </body>

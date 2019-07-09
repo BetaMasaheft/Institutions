@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0115GMG"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ganāḥti Qǝddǝst Māryām</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">updated location name tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -60,9 +68,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement from="2010-11-27" to="2010-11-27"
-                  type="warada"
-                  ref="LOC3293GantaA"/>
+               <settlement from="2010-11-27"
+                           to="2010-11-27"
+                           type="warada"
+                           ref="LOC3293GantaA"/>
                <settlement ref="LOC7169Gwala" type="tabiya" when="2011-11-27"/>
                <settlement ref="LOC7170Ganahti" type="qushat" when="2011-11-27"/>
                               
@@ -79,7 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/GMG.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      21 Mss., objects photographed: <ref type="mss" corresp="ESgmg001">GMG-001</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESgmg002">GMG-002</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg003">GMG-003</ref> "Four Gospels"; <ref type="mss" corresp="ESgmg004">GMG-004</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg005">GMG-005</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESgmg006">GMG-006</ref> "Lectionary"; <ref type="mss" corresp="ESgmg007">GMG-007</ref> "Psalter"; <ref type="mss" corresp="ESgmg008">GMG-008</ref> "Vita of St. George"; <ref type="mss" corresp="ESgmg009">GMG-009</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESgmg010">GMG-010</ref> "Missal"; <ref type="mss" corresp="ESgmg011">GMG-011</ref> "Miracles of Mary"; <ref type="mss" corresp="ESgmg012">GMG-012</ref> "Story of the Trinity"; <ref type="mss" corresp="ESgmg013">GMG-013</ref> "Homily of Jesus"; <ref type="mss" corresp="ESgmg014">GMG-014</ref> "Vita of Libanos"; <ref type="mss" corresp="ESgmg015">GMG-015</ref> "Collection of Hymns"; <ref type="mss" corresp="ESgmg016">GMG-016</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESgmg017">GMG-017</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESgmg018">GMG-018</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESgmg019">GMG-019</ref> "Prayer of Mary"; <ref type="mss" corresp="ESgmg020">GMG-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESgmg021">GMG-021</ref> "Prayer of Incense"</ab>
          

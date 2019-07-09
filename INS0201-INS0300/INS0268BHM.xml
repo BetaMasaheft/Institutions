@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0268BHM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Baḥǝra Qǝddǝst Maryam</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -44,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             P5</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -54,10 +62,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC3293GantaA" type="warada" from="2012-11-14" to="2012-11-15"/>  
-               <settlement ref="LOC7181Gwahgot" type="tabiya" from="2012-11-14" to="2012-11-15"/>
+               <settlement ref="LOC3293GantaA"
+                           type="warada"
+                           from="2012-11-14"
+                           to="2012-11-15"/>  
+               <settlement ref="LOC7181Gwahgot"
+                           type="tabiya"
+                           from="2012-11-14"
+                           to="2012-11-15"/>
                
-               <settlement from="2012-11-14" to="2012-11-15" ref="LOC7250Bahera" type="qushat"/>
+               <settlement from="2012-11-14"
+                           to="2012-11-15"
+                           ref="LOC7250Bahera"
+                           type="qushat"/>
                
                <location>
                   <geo>14.165289 39.447665</geo>
@@ -68,10 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Local tradition tells that the rock-hewn church is ancient foundation; it was re-established in the time of King Yosṭos (r. <date>1711-1716</date>) and <persName ref="PRS10378Yohanne">King Yoḥannǝs IV</persName> (r. <date>1872-1889</date>).</desc>
                   <ab type="history">Gadām. The monastic community declined, only a few monks reside at the church.  &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/BHM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>9 Mss. photographed: <ref type="mss" corresp="ESbhm001">BHM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESbhm002">BHM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbhm003">BHM-003</ref> “Homiliany for the feasts of St. Michael; Miracles of Michael f. 59R; Homily of the 24 Heavenly Priests”; <ref type="mss" corresp="ESbhm004">BHM-004</ref> “Missal”; <ref type="mss" corresp="ESbhm005">BHM-005</ref> “Homily of Mary”; <ref type="mss" corresp="ESbhm006">BHM-006</ref> “Synaxarium (second part)”; <ref type="mss" corresp="ESbhm007">BHM-007</ref> “Synaxarium (The first half of the year)”; <ref type="mss" corresp="ESbhm008">BHM-008</ref> “Collection of Images ”; <ref type="mss" corresp="ESbhm009">BHM-009</ref> “Book of the Baptismal Rite”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/BHM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>9 Mss. photographed: <ref type="mss" corresp="ESbhm001">BHM-001</ref> “Four Gospels”; <ref type="mss" corresp="ESbhm002">BHM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbhm003">BHM-003</ref> “Homiliany for the feasts of St. Michael; Miracles of Michael f. 59R; Homily of the 24 Heavenly Priests”; <ref type="mss" corresp="ESbhm004">BHM-004</ref> “Missal”; <ref type="mss" corresp="ESbhm005">BHM-005</ref> “Homily of Mary”; <ref type="mss" corresp="ESbhm006">BHM-006</ref> “Synaxarium (second part)”; <ref type="mss" corresp="ESbhm007">BHM-007</ref> “Synaxarium (The first half of the year)”; <ref type="mss" corresp="ESbhm008">BHM-008</ref> “Collection of Images ”; <ref type="mss" corresp="ESbhm009">BHM-009</ref> “Book of the Baptismal Rite”.</ab>
            
                   <ab type="tabot">
                      <measure quantity="2"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>  (in the additional, recently built small church).</ab>

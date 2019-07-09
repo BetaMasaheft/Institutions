@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0296MMGA"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>May Gaba Mikaʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
@@ -54,9 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
-               <settlement ref="LOC6186Walqay" type="warada" from="2015-03-21" to="2015-03-21"/> 
-               <settlement ref="LOC7246MayGaba" type="tabiya" from="2015-03-21" to="2015-03-21"/>
-               <settlement ref="LOC7247Addisu" type="qushat" from="2015-03-21" to="2015-03-21"/>
+               <settlement ref="LOC6186Walqay"
+                           type="warada"
+                           from="2015-03-21"
+                           to="2015-03-21"/> 
+               <settlement ref="LOC7246MayGaba"
+                           type="tabiya"
+                           from="2015-03-21"
+                           to="2015-03-21"/>
+               <settlement ref="LOC7247Addisu"
+                           type="qushat"
+                           from="2015-03-21"
+                           to="2015-03-21"/>
                
                <location>
                   <geo>13.786626 37.685894</geo>
@@ -65,10 +82,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <date type="foundation" notBefore="1953" notAfter="1953">1953</date>
                   <desc type="foundation">The present church, now in the town of Māy Gābā, was established by <persName ref="PRS10304Yelma">fitāwrāri Yǝlmā</persName> in the time of <persName ref="PRS5226haylase">Emperor Ḫāyla Śǝllāse</persName>, in 1953. 
-                     Māy Gābā itself was fouded around 1971.&#13;
+                     Māy Gābā itself was fouded around 1971.&#xD;
                      But the tābot of <persName ref="PRS7049Michael" type="tabot">Michael</persName> was brought from the church of <placeName ref="LOC1875BetMul">Bet Mulu</placeName>, the "castle" of the 18th cent. governor <persName ref="PRS2265Ayanazgi">ʾAyānazgi</persName> (its remains standing on the hill, not far from Māy Gābā).</desc>
                   <ab type="history">Gadām, but there are no monks. The church is said to be supervised by the monks from <placeName ref="INS0316Waldb">Wāldǝbbā</placeName> (Beta Minās) </ab>
-                     <ab type="tabot"><measure quantity="1"/>Only one tābot: St. <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
+                     <ab type="tabot">
+                     <measure quantity="1"/>Only one tābot: St. <persName ref="PRS7049Michael" type="tabot">Michael</persName>.</ab>
                   <ab type="description">At least 14 Mss. Many books originate from the former church at <placeName ref="LOC1875BetMul">Bet Mulu</placeName>.</ab>
              
                </note>

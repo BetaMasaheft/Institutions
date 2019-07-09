@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0448HamaraN"
      xml:lang="en"
      type="ins">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Ḥamara Noḫ</title>
@@ -30,7 +30,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -48,11 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DR" when="2018-01-17">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place sameAs="wd:Q54585686" type="church monastery" subtype="institution">
-                  <settlement ref="wd:Q54585998"/> <country ref="wd:Q115"/>
+                  <settlement ref="wd:Q54585998"/> 
+               <country ref="wd:Q115"/>
                   <placeName xml:id="n1" xml:lang="gez">ሐመረ፡ ኖኅ፡</placeName>
                     <placeName corresp="#n1" type="normalized">Ḥamara Noḫ</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ሠለስቱ፡ ምእት፡</placeName>

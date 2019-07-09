@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0270QES"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Qaḥen ʾƎnda Ṣadǝqan</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">adjusted location links tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -55,9 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2012-11-06" to="2012-11-07"/>
-               <settlement ref="LOC7264Qahen" type="tabiya" from="2012-11-06" to="2012-11-07"/>
-               <settlement from="2012-11-06" to="2012-11-07" ref="LOC7265Qahen" type="qushat"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2012-11-06"
+                           to="2012-11-07"/>
+               <settlement ref="LOC7264Qahen"
+                           type="tabiya"
+                           from="2012-11-06"
+                           to="2012-11-07"/>
+               <settlement from="2012-11-06"
+                           to="2012-11-07"
+                           ref="LOC7265Qahen"
+                           type="qushat"/>
                
                <location>
                   <geo>13.652017 39.543733</geo>
@@ -69,10 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Dabr. A new church is being built at the rock near the old rock-hewn church, with the burial of the local <persName ref="PRS12540SadeqanQahen">Ṣādǝqān</persName>. 
                      A recent church above on the plain is dedicated to <persName ref="PRS7049Michael" type="tabot">Michael</persName>.  &#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/QES.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>16 Mss. and 4 scroll photographed: <ref type="mss" corresp="ESqes001">QES-001</ref> “Missal”; <ref type="mss" corresp="ESqes002">QES-002</ref> “Vita of  George; Miracles of George”; <ref type="mss" corresp="ESqes003">QES-003</ref> “Vita of the Righteous Ones”; <ref type="mss" corresp="ESqes004">QES-004</ref> “Prayer of Incense and other texts”; <ref type="mss" corresp="ESqes005">QES-005</ref> “Homiliary for the feasts St. Michael Miracles of St. Mikaʾel”; <ref type="mss" corresp="ESqes006">QES-006</ref> “Vita of Righeous ones;               Miracles of the Righteous ones”; <ref type="mss" corresp="ESqes007">QES-007</ref> “Vita of  ʾEwostatewos; Miracles of  ʾEwostatewos; Image of  ʾEwostatewos”; <ref type="mss" corresp="ESqes008">QES-008</ref> “Book of the Marriage Ritual”; <ref type="mss" corresp="ESqes009">QES-009</ref> “Book of the Covenant of the Righteous ones; Vita of the Righteous ones”; <ref type="mss" corresp="ESqes010">QES-010</ref> “Bǝsratä Yoḥannǝs (fols. 3r-82r); Bǝsratä Marqos (<ref type="mss" corresp="ES83r122">83r-122</ref>vb); Fǝkare ʾIyäsus (1<ref type="mss" corresp="ES23ra132">23ra-132</ref>vb); Tǝnbitä Sabela (1<ref type="mss" corresp="ES33ra147">33ra-147</ref>); Dǝrsan Zä- Yohannǝs ʾAfäwärq (read on the feast of Rufaʾel ) (fols. 1<ref type="mss" corresp="ES41ra161">41ra-161</ref>rb); Täʾamrä Rufaʾel (1<ref type="mss" corresp="ES61rb192">61rb-192</ref>rb)”; <ref type="mss" corresp="ESqes011">QES-011</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqes012">QES-012</ref> “Bandlet of Righteousness”; <ref type="mss" corresp="ESqes013">QES-013</ref> “Excerpts from Dǝqqwa”; <ref type="mss" corresp="ESqes014">QES-014</ref> “Book of Hymns”; <ref type="mss" corresp="ESqes015">QES-015</ref> “1Rite of the passion Week; Doctrina Arcanorum; Other texts for passion week ”; <ref type="mss" corresp="ESqes016">QES-016</ref> “Bandlet of Righteousness”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/QES.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>16 Mss. and 4 scroll photographed: <ref type="mss" corresp="ESqes001">QES-001</ref> “Missal”; <ref type="mss" corresp="ESqes002">QES-002</ref> “Vita of  George; Miracles of George”; <ref type="mss" corresp="ESqes003">QES-003</ref> “Vita of the Righteous Ones”; <ref type="mss" corresp="ESqes004">QES-004</ref> “Prayer of Incense and other texts”; <ref type="mss" corresp="ESqes005">QES-005</ref> “Homiliary for the feasts St. Michael Miracles of St. Mikaʾel”; <ref type="mss" corresp="ESqes006">QES-006</ref> “Vita of Righeous ones;               Miracles of the Righteous ones”; <ref type="mss" corresp="ESqes007">QES-007</ref> “Vita of  ʾEwostatewos; Miracles of  ʾEwostatewos; Image of  ʾEwostatewos”; <ref type="mss" corresp="ESqes008">QES-008</ref> “Book of the Marriage Ritual”; <ref type="mss" corresp="ESqes009">QES-009</ref> “Book of the Covenant of the Righteous ones; Vita of the Righteous ones”; <ref type="mss" corresp="ESqes010">QES-010</ref> “Bǝsratä Yoḥannǝs (fols. 3r-82r); Bǝsratä Marqos (<ref type="mss" corresp="ES83r122">83r-122</ref>vb); Fǝkare ʾIyäsus (1<ref type="mss" corresp="ES23ra132">23ra-132</ref>vb); Tǝnbitä Sabela (1<ref type="mss" corresp="ES33ra147">33ra-147</ref>); Dǝrsan Zä- Yohannǝs ʾAfäwärq (read on the feast of Rufaʾel ) (fols. 1<ref type="mss" corresp="ES41ra161">41ra-161</ref>rb); Täʾamrä Rufaʾel (1<ref type="mss" corresp="ES61rb192">61rb-192</ref>rb)”; <ref type="mss" corresp="ESqes011">QES-011</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESqes012">QES-012</ref> “Bandlet of Righteousness”; <ref type="mss" corresp="ESqes013">QES-013</ref> “Excerpts from Dǝqqwa”; <ref type="mss" corresp="ESqes014">QES-014</ref> “Book of Hymns”; <ref type="mss" corresp="ESqes015">QES-015</ref> “1Rite of the passion Week; Doctrina Arcanorum; Other texts for passion week ”; <ref type="mss" corresp="ESqes016">QES-016</ref> “Bandlet of Righteousness”.</ab>
   
                   <ab type="tabot">
                      <measure quantity="3"/>Tābots of <persName ref="PRS5684JesusCh" type="tabot">Jesus</persName> and <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the old church, 

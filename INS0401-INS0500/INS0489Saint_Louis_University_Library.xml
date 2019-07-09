@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0489Saint_Louis_University_Library" xml:lang="en" type="ins">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="INS0489Saint_Louis_University_Library"
+     xml:lang="en"
+     type="ins">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Saint Louis University Pius XII Memorial Library</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,13 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="SJ" when="2018-06-21">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place sameAs="wd:Q47490626" type="library" subtype="institution">
-                    <placeName>Saint Louis University Pius XII Memorial Library</placeName> <settlement ref="wd:Q38022"/> <country ref="wd:Q30"/>
+                    <placeName>Saint Louis University Pius XII Memorial Library</placeName> 
+               <settlement ref="wd:Q38022"/> 
+               <country ref="wd:Q30"/>
                 </place>
-            </listPlace><!---->
+            </listPlace>
+         <!---->
         </body>
     </text>
 </TEI>

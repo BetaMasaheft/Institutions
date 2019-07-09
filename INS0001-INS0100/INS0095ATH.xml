@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0095ATH"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾArāʿro Takla Hāymānot</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery dabr" subtype="institution">
@@ -81,7 +89,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/ATH.tif">
-                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
                      </figure>
                      10 mss. photographed: <ref type="mss" corresp="ESath001">ATH-001</ref> "Four Gospels"; <ref type="mss" corresp="ESath002">ATH-002</ref> "Vita of Takla Hāymānot"; <ref type="mss" corresp="ESath003">ATH-003</ref> "Homily of St. George"; <ref type="mss" corresp="ESath004">ATH-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESath005">ATH-005</ref> "Synaxario"; <ref type="mss" corresp="ESath006">ATH-006</ref> "Collection of Prayers"; <ref type="mss" corresp="ESath007">ATH-007</ref> "Book of the Rite of the Passion Week"; <ref type="mss" corresp="ESath009">ATH-009</ref> "Missal".</ab>
             

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="INS0208BMQM"
      type="ins"
      xml:lang="en">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bet Muḵaʿ Mikaʾel</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file created from Ethio-SPaRe data</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">adjusted name location tabot</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church dabr" subtype="institution">
@@ -76,10 +84,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      But according to Additio 5 of BMQM-006, the church was founded during the 6th year of the reign of <persName ref="PRS5636IyoasI">King ʾIyoʾās</persName> (=<date when="1761">1761 A.D.</date>)</desc>
                   <ab type="history">Dabr.&#xD;
 </ab>
-                  <ab type="description"><figure>
-                     <graphic url="Sites/BMQM.tif">
-                        <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc></graphic>
-                  </figure>14 Mss. photographed: <ref type="mss" corresp="ESbmqm001">BMQM-001</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESbmqm002">BMQM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbmqm003">BMQM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESbmqm004">BMQM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESbmqm005">BMQM-005</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESbmqm006">BMQM-006</ref> “Four Gospels”; <ref type="mss" corresp="ESbmqm007">BMQM-007</ref> “Hymnary”; <ref type="mss" corresp="ESbmqm008">BMQM-008</ref> “Psalter”; <ref type="mss" corresp="ESbmqm009">BMQM-009</ref> “Missal”; <ref type="mss" corresp="ESbmqm010">BMQM-010</ref> “Missal”; <ref type="mss" corresp="ESbmqm011">BMQM-011</ref> “The Book of Baptism”; <ref type="mss" corresp="ESbmqm012">BMQM-012</ref> “Prayer of Incense”; <ref type="mss" corresp="ESbmqm013">BMQM-013</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESbmqm014">BMQM-014</ref> “1(The Disciples; 2) The Prayer of the Convenant”.</ab>
+                  <ab type="description">
+                     <figure>
+                        <graphic url="Sites/BMQM.tif">
+                           <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
+                        </graphic>
+                     </figure>14 Mss. photographed: <ref type="mss" corresp="ESbmqm001">BMQM-001</ref> “Synaxarion (March-September)”; <ref type="mss" corresp="ESbmqm002">BMQM-002</ref> “Miracles of Mary”; <ref type="mss" corresp="ESbmqm003">BMQM-003</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESbmqm004">BMQM-004</ref> “Homily on St. Michael”; <ref type="mss" corresp="ESbmqm005">BMQM-005</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESbmqm006">BMQM-006</ref> “Four Gospels”; <ref type="mss" corresp="ESbmqm007">BMQM-007</ref> “Hymnary”; <ref type="mss" corresp="ESbmqm008">BMQM-008</ref> “Psalter”; <ref type="mss" corresp="ESbmqm009">BMQM-009</ref> “Missal”; <ref type="mss" corresp="ESbmqm010">BMQM-010</ref> “Missal”; <ref type="mss" corresp="ESbmqm011">BMQM-011</ref> “The Book of Baptism”; <ref type="mss" corresp="ESbmqm012">BMQM-012</ref> “Prayer of Incense”; <ref type="mss" corresp="ESbmqm013">BMQM-013</ref> “Vita of Täklä Haymanot”; <ref type="mss" corresp="ESbmqm014">BMQM-014</ref> “1(The Disciples; 2) The Prayer of the Convenant”.</ab>
              
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
