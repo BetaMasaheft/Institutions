@@ -63,8 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="en" xml:id="n1">Private collection of Dr Treeske Fricke</placeName>
                     <country ref="wd:Q183"/>
                     <settlement ref="Q703497"/>
-                    <note>During her stay in Ethiopia in <date>1963-1975</date>, <persName ref="PRS12742Omansen"/> acquired a small collection of three psalters and three scrolls.
-                    These manuscripts are currently kept by her daughter, Dr Treeske Fricke, who has kindly provided them to the project
+                    <note>During her stay in Ethiopia in <date>1963-1974</date>, <persName ref="PRS12742Omansen"/> acquired a small collection of three psalters and three scrolls,
+                        probably in <placeName ref="LOC1216AddisA"/> or <placeName ref="LOC4244Laliba"/>.
+                    These manuscripts are currently kept by her daughter, Dr Treeske Fricke, who has kindly made them available to the project
                     Beta maṣāḥǝft for digitization and scientific description.</note>
                 </place>
             </listPlace>
