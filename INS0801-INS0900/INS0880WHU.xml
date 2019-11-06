@@ -72,6 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <location>
                   <geo>38.9437 -77.058512</geo>
                </location>
+               <desc>See the introduction to the Manuscripts of the Tweed collection <ref target="https://betamasaheft.eu/tweed.html" >here</ref>.</desc>
             </place>
          </listPlace>
       </body>
