@@ -61,6 +61,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Dayr as-Suryān</placeName>
                     <country ref="wd:Q79"/>
                     <region ref="wd:Q1074945"/>
+              <note>
+                <ab type="description">
+                    <figure>
+                        <graphic url="Sites/INS0478DS/" n="29">
+                            <desc>
+                                The church photographed by Denis Nosnitsin.
+                            </desc>
+                        </graphic>
+                    </figure>
+                </ab> </note> 
                 </place>
             </listPlace>
             <listRelation>
