@@ -92,7 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                   <ab type="tabot">
                      <measure quantity="6"/>Tābots of <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
-                     <persName ref="PRS4306GabraMa" tape="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, 
+                     <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, 
                      <persName ref="PRS12519TwentyFour" type="tabot">Twenty-Four Heavenly Priests</persName>, probably also <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
