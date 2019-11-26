@@ -96,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      1 Mss. photographed; the church possesses some 25 recent Mss.</ab>
             
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābot of <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>.</ab>
                </note>
             </place>
          </listPlace>

@@ -80,11 +80,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">"Goytana Ḫaylu" (<persName ref="PRS5252hayluTa">Ḫaylu Tawalda Madḫǝn</persName> of Ḥāmāsen?). 
-                     According to the local tradition, it was founded by “goytana Ḫaylu” (<persName ref="PRS5252hayluTa">Ḫaylu Täwäldä Mädḫǝn</persName> of <placeName ref="LOC3764Hamase">Ḥāmāsen</placeName>?) in the time of <persName ref="PRS9434Tewodros">Tewodros II</persName> (r. <date>1855-1869</date>). 
+                  <desc type="foundation">Founder: "Goytana Ḫaylu" (<persName ref="PRS5252hayluTa">Ḫaylu Tawalda Madḫǝn</persName> of Ḥāmāsen?). 
+                     According to the local tradition, it was founded by “goytana Ḫaylu” (<persName ref="PRS5252hayluTa">Ḫaylu Tawaldä Mädḫǝn</persName> of <placeName ref="LOC3764Hamase">Ḥāmāsen</placeName>?) in the time of <persName ref="PRS9434Tewodros">Tewodros II</persName> (r. <date>1855-1869</date>). 
                      As a rare case, the ʾalaqā of the church knew the tradition about the history of the church, and also the genealogy of “goytana Ḫaylu”.</desc>
                   <ab type="history">Gaṭar. &#xD;
-                     The church is said to have been linked to another church of <persName ref="PRS10322Yemata" role="tabot">ʾabuna Yǝmʾātā</persName>, located somewhere around. An old teacher of qǝne, aqqwāqwām and zemā lived at the church for the time of the visit. 
+                     An old teacher of qǝne, aqqwāqwām and zemā lived at the church for the time of the visit. 
                      According to his own words, he is the native of this place, studied many years in Gondar (<placeName ref="LOC1676Baata">Baʾatā church</placeName>), and then returned to ʿƎmbayto.&#xD;
 </ab>
                   <ab type="description">
@@ -96,7 +96,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      12 Mss. were photographed: <ref type="mss" corresp="ESeth001">ETH-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESeth002">ETH-002</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESeth003">ETH-003</ref> "Missal"; <ref type="mss" corresp="ESeth004">ETH-004</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth005">ETH-005</ref> "Homily of St. Gabriel"; <ref type="mss" corresp="ESeth006">ETH-006</ref> "The Book of the Chants"; <ref type="mss" corresp="ESeth007">ETH-007</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth008">ETH-008</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESeth009">ETH-009</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESeth010">ETH-010</ref> "Missal"; <ref type="mss" corresp="ESeth011">ETH-011</ref> "Four Gospels"; <ref type="mss" corresp="ESeth012">ETH-012</ref> "The Book of the Baptismal Rite"</ab>
    
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
+                     <measure quantity="3"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.
+                     <note>The church is said to have been linked to another church of <persName ref="PRS10322Yemata" type="tabot">ʾabuna Yǝmʾātā</persName>, located somewhere around. </note></ab>
                </note>
             </place>
          </listPlace>

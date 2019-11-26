@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
             
                   <ab type="tabot">
-                     <measure quantity="1"/>Tābot of <persName ref="PRS4709Giyorgis" role="tabot"/>.</ab>
+                     <measure quantity="1"/>Tābot of <persName ref="PRS4709Giyorgis" type="tabot"/>.</ab>
                </note>
             </place>
          </listPlace>

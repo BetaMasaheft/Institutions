@@ -64,6 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n2" xml:lang="gez">ምዕራፈ፡ ቅዱሳን፡ ቅድስት፡ ማርያም፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Mǝʿǝrāfa Qǝddusān Qǝddǝst Māryām</placeName>
                
+               
+              
 
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
@@ -82,8 +84,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
                   <desc type="foundation">According to locat tradition, the religious site existed before the advent of Christianity.</desc>
                   <ab type="history">Gadam. The monastic community declined. Only one monk (a native of Goğğam) was residing at the upper church in 2010). &#xD;
-                     The site accomodates two churches: the upper (2665 m ASL), smaller and older church is dedicated to <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName> (called ʿOnā Māʿṣo); 
-                     the church below (Dabra Maʿār), big and recent, is dedicated to  <persName ref="PRS6819Mary" type="tabot">St Mary</persName>.&#xD;
+                     The site accomodates two churches: the upper (2665 m ASL), smaller and older church is dedicated to <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName> (called <placeName xml:id="n3">ዖና፡ ማዕጾ፡</placeName>,  
+                     <placeName corresp="#n3" xml:lang="gez" type="normalized">ʿOnā Māʿṣo</placeName>); 
+                     the church below ( <placeName xml:id="n4" xml:lang="gez">ደብረ፡ መዓር፡</placeName>
+                     <placeName corresp="#n4" xml:lang="gez" type="normalized">Dabra Maʿār </placeName>), big and recent, is dedicated to  <persName ref="PRS6819Mary" type="tabot">St Mary</persName>.&#xD;
 </ab>
                   <ab type="description">
                      <figure>
@@ -100,7 +104,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ref type="mss" corresp="ESmqm018">MQM-018</ref> "The Book of the Chants"; <ref type="mss" corresp="ESmqm019">MQM-019</ref> "Book of  ʾAsläṭi"</ab>
 
                   <ab type="tabot">
-                     <measure quantity="3"/>Tābots (at least 3): <persName ref="PRS4306GabraMa" role="tabot">Gabra Manfas Qǝddus</persName>, 
+                     <measure quantity="3"/>Tābots (at least 3): <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, 
                      <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10618ZaraB" type="tabot">Zarʾa Buruk</persName> (possibly a few more).</ab>
 
                </note>
