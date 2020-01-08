@@ -71,6 +71,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                      <ptr target="bm:Ullendorff1951Catalogue"/>
                   </bibl>
                </listBibl>
+               
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:Gnisci2019Treasures"/>
+                  </bibl>
+               </listBibl>
             </place>
          </listPlace>
       </body>
