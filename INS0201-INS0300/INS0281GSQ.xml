@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0281GSQ"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gwaḥtärat Qirqos</title>
+            <title>Gʷāḥtarāt Qirqos</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,17 +51,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-20" who="ES">adjusted spelling location tabot links</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gadam" subtype="institution">
-               <placeName>Gwāḥtarāt Qirqos</placeName>
-               <placeName type="alt">Gwāḥtarāt Dabra Ṣaḥāy Qǝddus Qirqos</placeName>
+               <placeName>Gʷāḥtarāt Qirqos</placeName>
+               <placeName type="alt">Gʷāḥtarāt Dabra Ṣaḥāy Qǝddus Qirqos</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
+
                <settlement type="province" ref="LOC5932Tegray"/>
                <settlement ref="LOC4047Kelett"
                            type="warada"
@@ -75,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            to="2014-02-07"
                            ref="LOC7260Gwahtarat"
                            type="qushat"/>
-               
+
                <location>
                   <geo>13.653472 39.500889</geo>
                   <height unit="m">1942.0</height>
@@ -91,7 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
                         </graphic>
                      </figure>15 Mss. photographed: <ref type="mss" corresp="ESgsq001">GSQ-001</ref> “Four Gospels”; <ref type="mss" corresp="ESgsq002">GSQ-002</ref> “1. Orit zä-lelawǝyan 2. Orit zä-fǝträt( fols. 7-18) 3. Tǝmhǝrtä didǝsqǝlya (fols. 19-36) 4. Proverts (fols. 37-40) 5. Orit zä-däʿat (fols. 51-53) 6. Mäṣḥafä Henok (fols. 51-79) 7. MäṣḥafäṬobit (fols. 80-85) 8. Mäṣḥafä ʾṮsayǝyyas (fols.86-94) 9. ʿƎrgätä ʾṮsayǝyyas (94-95) 10. Tägśaš zä-solomon (<ref type="mss" corresp="ES100101">100-101</ref>) 11. Mäṣḥafä ʿƎzra (1<ref type="mss" corresp="ES03vc108">03vc-108</ref>)”; <ref type="mss" corresp="ESgsq003">GSQ-003</ref> “Psalter”; <ref type="mss" corresp="ESgsq004">GSQ-004</ref> “Miracles of Qirqos. Image of Qirqos.”; <ref type="mss" corresp="ESgsq005">GSQ-005</ref> “1. story of the Fathers 2. Mar Yǝshaq 3. Paradise of montes”; <ref type="mss" corresp="ESgsq006">GSQ-006</ref> “Faith of the Fatheres ”; <ref type="mss" corresp="ESsq007">SQ-007</ref> “Vita of Kiros”; <ref type="mss" corresp="ESgsq008">GSQ-008</ref> “2. Antiphonary for feusts and funeral service”; <ref type="mss" corresp="ESgsq009">GSQ-009</ref> “Horologium for the Night and the Morning Hours”; <ref type="mss" corresp="ESgsq010">GSQ-010</ref> “Missal”; <ref type="mss" corresp="ESgsq011">GSQ-011</ref> “Miracles of Mary”; <ref type="mss" corresp="ESgsq012">GSQ-012</ref> “Book of the Funeral Rite”; <ref type="mss" corresp="ESgsq013">GSQ-013</ref> “Vita of Täklä Haymanot; Miracles of Täklä Haymanot”; <ref type="mss" corresp="ESgsq014">GSQ-014</ref> “Synaxarion (The second half of the year)”; <ref type="mss" corresp="ESgsq015">GSQ-015</ref> “Dǝggwa; Ṣomä dǝggwa“.</ab>
-        
+
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots of 2 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 2 of <persName ref="PRS3249Cyriacus" type="tabot">Qirqos</persName>, one unidentified marble.</ab>
                </note>
