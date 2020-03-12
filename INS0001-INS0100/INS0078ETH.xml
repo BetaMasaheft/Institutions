@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0078ETH"
@@ -51,40 +51,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
-               
+
                <placeName xml:id="n1" xml:lang="gez">እምበይቶ፡ተክለ፡ ሃይማኖት፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿƎmbayto Takla Hāymānot</placeName>
                <placeName type="alt" xml:lang="gez" xml:id="n2">ተክለ፡ ሃይማኖት፡ እምበይቶ፡</placeName>
                <placeName type="normalized" xml:lang="gez" corresp="#n2">Takla Hāymānot ʿƎmbayto</placeName>
 
-               
-               
+
+
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
-               <settlement ref="LOC3640GuloMa" type="warada" when="2011-11-19"/> 
-                
+
+               <settlement ref="LOC3640GuloMa" type="warada" when="2011-11-19"/>
+
                <settlement when="2011-11-19" ref="LOC6547Haban" type="tabiya"/>
-               
+
                <settlement when="2011-11-19" ref="LOC7156Embayto" type="qushat"/>
-               
+
                <location>
                   <geo>14.396753 39.457975</geo>
                   <height unit="m">2248.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1900">1800-1900</date>
-                  <desc type="foundation">Founder: "Goytana Ḫaylu" (<persName ref="PRS5252hayluTa">Ḫaylu Tawalda Madḫǝn</persName> of Ḥāmāsen?). 
-                     According to the local tradition, it was founded by “goytana Ḫaylu” (<persName ref="PRS5252hayluTa">Ḫaylu Tawaldä Mädḫǝn</persName> of <placeName ref="LOC3764Hamase">Ḥāmāsen</placeName>?) in the time of <persName ref="PRS9434Tewodros">Tewodros II</persName> (r. <date>1855-1869</date>). 
+                  <desc type="foundation">Founder: "Goytana Ḫaylu" (<persName ref="PRS5252hayluTa">Ḫaylu Tawalda Madḫǝn</persName> of Ḥāmāsen?).
+                     According to the local tradition, it was founded by “goytana Ḫaylu” (<persName ref="PRS5252hayluTa">Ḫaylu Tawaldä Mädḫǝn</persName> of <placeName ref="LOC3764Hamase">Ḥāmāsen</placeName>?) in the time of <persName ref="PRS9434Tewodros">Tewodros II</persName> (r. <date>1855-1869</date>).
                      As a rare case, the ʾalaqā of the church knew the tradition about the history of the church, and also the genealogy of “goytana Ḫaylu”.</desc>
                   <ab type="history">Gaṭar. &#xD;
-                     An old teacher of qǝne, aqqwāqwām and zemā lived at the church for the time of the visit. 
+                     An old teacher of qǝne, aqqʷāqʷām and zemā lived at the church for the time of the visit.
                      According to his own words, he is the native of this place, studied many years in Gondar (<placeName ref="LOC1676Baata">Baʾatā church</placeName>), and then returned to ʿƎmbayto.&#xD;
 </ab>
                   <ab type="description">
@@ -94,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </graphic>
                      </figure>
                      12 Mss. were photographed: <ref type="mss" corresp="ESeth001">ETH-001</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESeth002">ETH-002</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESeth003">ETH-003</ref> "Missal"; <ref type="mss" corresp="ESeth004">ETH-004</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth005">ETH-005</ref> "Homily of St. Gabriel"; <ref type="mss" corresp="ESeth006">ETH-006</ref> "The Book of the Chants"; <ref type="mss" corresp="ESeth007">ETH-007</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESeth008">ETH-008</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESeth009">ETH-009</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESeth010">ETH-010</ref> "Missal"; <ref type="mss" corresp="ESeth011">ETH-011</ref> "Four Gospels"; <ref type="mss" corresp="ESeth012">ETH-012</ref> "The Book of the Baptismal Rite"</ab>
-   
+
                   <ab type="tabot">
                      <measure quantity="3"/>Tābots of <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.
                      <note>The church is said to have been linked to another church of <persName ref="PRS10322Yemata" type="tabot">ʾabuna Yǝmʾātā</persName>, located somewhere around. </note></ab>
