@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0105DD"
@@ -51,7 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
             P5</change>
          <change who="SG" when="2017-10-02">complete record</change>
-         <change when="2018-08-07" who="ES">link to the mountain added, link to qushat corrected, link to tabiya corrected, links to Aragawi added, tabots introduced</change>
+         <change when="2018-08-07" who="ES">link to the mountain added, link to qushat corrected,
+           link to tabiya corrected, links to Aragawi added, tabots introduced</change>
+           <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -66,10 +68,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Dāmmo</placeName>
                <placeName xml:lang="gez" xml:id="n3" type="alt">እንዳ፡ አቡነ፡ አረጋዊ፡</placeName>
                <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾƎndā ʾAbuna ʾAragāwi</placeName>
-               
+
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
+
                <settlement type="province" ref="LOC5932Tegray"/>
                <settlement from="2011-11-23"
                            to="2012-11-25"
@@ -86,33 +88,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <state type="existence" ref="Paks2"/>
 
-               
+
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Kur1965IyasusMoa"/>
                      <citedRange unit="page">8, 9, 10, etc</citedRange>
-                     
+
                   </bibl>
                   <bibl>
                      <ptr target="bm:Kropp1988LebnaI"/>
                      <citedRange unit="page">20</citedRange>
-                     
+
                   </bibl>
                   <bibl>
                      <ptr target="bm:Kropp1988LebnaII"/>
                      <citedRange unit="page">20</citedRange>
-                     
+
                   </bibl>
                   <bibl>
                      <ptr target="bm:Guidi1895GadlaAragawi"/>
                      <citedRange unit="page">65, 66, </citedRange>
-                     
+
                   </bibl>
-                  
-                  
+
+
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
-                     
+
                   </bibl>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
@@ -120,14 +122,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Marrassini1993AmdaSeyon"/>
                      <citedRange unit="page">56, 60, 78, 112</citedRange>.
-                     
+
                   </bibl>
                   <bibl>
                      <ptr target="bm:Perruchon1893Zarayaeqob"/>
                      <citedRange unit="page">12</citedRange>.
-                     
+
                   </bibl>
-                  
+
                   <bibl>
                      <ptr target="bm:TsegayRed2005DabraDamo"/>
                   </bibl>
@@ -135,34 +137,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Solomon2015Geography"/>
                      <citedRange unit="page">109-118</citedRange>
                   </bibl>
-                  
-                  
-                  
-                  
+
+
+
+
                </listBibl>
-               
+
                <note>
                   <date type="foundation" notBefore="0600" notAfter="0800">0600-0800</date>
-                  <desc type="foundation">According to tradition, the monastery was founded by the <date>6th-cent.</date> 
+                  <desc type="foundation">According to tradition, the monastery was founded by the <date>6th-cent.</date>
                      <persName ref="PRS10581Zamika">
                         <roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>; for sure existed in the Aksumite period.</desc>
                   <ab type="history">
-                     The monastery Dabra Dāmmo  is one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau (<placeName ref="LOC2255DabraD"/>) entirely surrounded by steep 
-                     cliffs in the district of <placeName ref="LOC1938Bizat"/>. The monastery seems to have been favored by the Aksumites kings, but neglecetd in the Zāgʷe period, 
-                     for it was at the forefront of the anti- Zāgʷe struggle. 
-                     Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution, 
+                     The monastery Dabra Dāmmo  is one of the oldest Ethiopian monasteries, which is located on top of the mountain plateau (<placeName ref="LOC2255DabraD"/>) entirely surrounded by steep
+                     cliffs in the district of <placeName ref="LOC1938Bizat"/>. The monastery seems to have been favored by the Aksumites kings, but neglecetd in the Zāgʷe period,
+                     for it was at the forefront of the anti- Zāgʷe struggle.
+                     Dabra Dāmmo enjoyed a high reputation as a traditional church educational institution,
                      where several prominent religious missionaries and monastic leaders have been trained,
-                     including 
+                     including
                      <persName ref="PRS5633IyasusM">
                         <roleName type="title"> ʾabbā</roleName>
-                     </persName> 
+                     </persName>
                      <persName ref="PRS5633IyasusM"/>
-                        and 
+                        and
                      <persName ref="PRS9162TaklaHa">
                         <roleName type="title">ʾabuna</roleName>
-                     </persName> 
+                     </persName>
                      <persName ref="PRS9162TaklaHa"/>.
-                     It played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production. 
+                     It played a pivotal role in the expansion of Christianity in its early years and was also a center of learning and manuscript production.
                      Following the foundation of other monasteries like <placeName ref="INS0327DHE"/> and <placeName ref="INS0346DL"/>,  it was no more the pre-dominant monastery,
                      yet it was important in the Christian Highland until it was looted and destructed by the <placeName ref="wd:Q36730"/> forces in <date>1557</date>.</ab>
                      <ab type="description">
@@ -171,65 +173,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
                         </graphic>
                         </figure>
-                        
-                     As of <date>2011</date>, monastic community has, reportedly, up to 50 monks. 
+
+                     As of <date>2011</date>, monastic community has, reportedly, up to 50 monks.
                         Below, at the foot of the mount, there is a small church at the place where <persName ref="PRS10581Zamika">
-                        <roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom). 
+                        <roleName type="title">ʾabuna</roleName> (Za-Mikāʾel) ʾAragāwi</persName>, reportedly "disappeared" (therefore called Mǝswārom).
                      A small nunnery is located in the village nearby.&#xD;
-                     
-                     
-                     
-45 Mss. photographed by the Ethio-SPaRe project: 
-                     <ref type="mss" corresp="ESdd001">DD-001</ref> "Miracles of Mary"; 
-                     <ref type="mss" corresp="ESdd002">DD-002</ref> "The Organ of Praise"; 
-                     <ref type="mss" corresp="ESdd003">DD-003</ref> "Dǝggwā"; 
-                     <ref type="mss" corresp="ESdd004">DD-004</ref> "Psalter"; 
-                     <ref type="mss" corresp="ESdd005">DD-005</ref> "The Justice of the Kings"; 
-                     <ref type="mss" corresp="ESdd006">DD-006</ref> "Miracles of Mary"; 
-                     <ref type="mss" corresp="ESdd007">DD-007</ref> "The Faith of the Fathers"; 
-                     <ref type="mss" corresp="ESdd008">DD-008</ref> "The Faith of the Fathers"; 
-                     <ref type="mss" corresp="ESdd009">DD-009</ref> "Homily of the Living One"; 
-                     <ref type="mss" corresp="ESdd010">DD-010</ref> "Miracles of Mary"; 
-                     <ref type="mss" corresp="ESdd011">DD-011</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESdd012">DD-012</ref> "Collection of Homilies"; 
-                     <ref type="mss" corresp="ESdd013">DD-013</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdd014">DD-014</ref> "Pentateuch"; 
-                     <ref type="mss" corresp="ESdd015">DD-015</ref> "Book of Hawi"; <ref type="mss" corresp="ESdd015">DD-015</ref>a "Dǝggwa"; 
-                     <ref type="mss" corresp="ESdd016">DD-016</ref> "The Order of the Chruch; The Justice of the Kings"; 
-                     <ref type="mss" corresp="ESdd017">DD-017</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdd018">DD-018</ref> "Synaxarion (March)"; 
-                     <ref type="mss" corresp="ESdd019">DD-019</ref> "Dǝggwa"; <ref type="mss" corresp="ESdd020">DD-020</ref> "Synaxarion (March)"; 
-                     <ref type="mss" corresp="ESdd021">DD-021</ref> "The Epistles (NT)"; <ref type="mss" corresp="ESdd022">DD-022</ref> "Miracles of Mary"; 
-                     <ref type="mss" corresp="ESdd023">DD-023</ref> "Praise of God"; <ref type="mss" corresp="ESdd024">DD-024</ref> "Dǝggwa"; 
-                     <ref type="mss" corresp="ESdd025">DD-025</ref> "Synaxarion (March)"; 
-                     <ref type="mss" corresp="ESdd026">DD-026</ref> "The Book of Cyril of Alexandria"; 
-                     <ref type="mss" corresp="ESdd027">DD-027</ref> "The Book of Mar Isaac"; <ref type="mss" corresp="ESdd028">DD-028</ref> "Psalter"; 
-                     <ref type="mss" corresp="ESdd029">DD-029</ref> "Psalter"; <ref type="mss" corresp="ESdd030">DD-030</ref> "Psalter"; 
-                     <ref type="mss" corresp="ESdd031">DD-031</ref> "The Book of the Hours/Horologium; History of Wäldä ʿAmid"; 
-                     <ref type="mss" corresp="ESdd032">DD-032</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdd033">DD-033</ref> "Psalter"; 
-                     <ref type="mss" corresp="ESdd034">DD-034</ref> "Psalter"; <ref type="mss" corresp="ESdd035">DD-035</ref> "Four Gospels"; 
-                     <ref type="mss" corresp="ESdd036">DD-036</ref> "The Spiritual Elder"; <ref type="mss" corresp="ESdd037">DD-037</ref> "Synaxarion (March)"; 
-                     <ref type="mss" corresp="ESdd038">DD-038</ref> "Psalter"; 
+
+
+
+45 Mss. photographed by the Ethio-SPaRe project:
+                     <ref type="mss" corresp="ESdd001">DD-001</ref> "Miracles of Mary";
+                     <ref type="mss" corresp="ESdd002">DD-002</ref> "The Organ of Praise";
+                     <ref type="mss" corresp="ESdd003">DD-003</ref> "Dǝggʷā";
+                     <ref type="mss" corresp="ESdd004">DD-004</ref> "Psalter";
+                     <ref type="mss" corresp="ESdd005">DD-005</ref> "The Justice of the Kings";
+                     <ref type="mss" corresp="ESdd006">DD-006</ref> "Miracles of Mary";
+                     <ref type="mss" corresp="ESdd007">DD-007</ref> "The Faith of the Fathers";
+                     <ref type="mss" corresp="ESdd008">DD-008</ref> "The Faith of the Fathers";
+                     <ref type="mss" corresp="ESdd009">DD-009</ref> "Homily of the Living One";
+                     <ref type="mss" corresp="ESdd010">DD-010</ref> "Miracles of Mary";
+                     <ref type="mss" corresp="ESdd011">DD-011</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESdd012">DD-012</ref> "Collection of Homilies";
+                     <ref type="mss" corresp="ESdd013">DD-013</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdd014">DD-014</ref> "Pentateuch";
+                     <ref type="mss" corresp="ESdd015">DD-015</ref> "Book of Hawi"; <ref type="mss" corresp="ESdd015">DD-015</ref>a "Dǝggwa";
+                     <ref type="mss" corresp="ESdd016">DD-016</ref> "The Order of the Chruch; The Justice of the Kings";
+                     <ref type="mss" corresp="ESdd017">DD-017</ref> "Synaxarion (September)"; <ref type="mss" corresp="ESdd018">DD-018</ref> "Synaxarion (March)";
+                     <ref type="mss" corresp="ESdd019">DD-019</ref> "Dǝggwa"; <ref type="mss" corresp="ESdd020">DD-020</ref> "Synaxarion (March)";
+                     <ref type="mss" corresp="ESdd021">DD-021</ref> "The Epistles (NT)"; <ref type="mss" corresp="ESdd022">DD-022</ref> "Miracles of Mary";
+                     <ref type="mss" corresp="ESdd023">DD-023</ref> "Praise of God"; <ref type="mss" corresp="ESdd024">DD-024</ref> "Dǝggwa";
+                     <ref type="mss" corresp="ESdd025">DD-025</ref> "Synaxarion (March)";
+                     <ref type="mss" corresp="ESdd026">DD-026</ref> "The Book of Cyril of Alexandria";
+                     <ref type="mss" corresp="ESdd027">DD-027</ref> "The Book of Mar Isaac"; <ref type="mss" corresp="ESdd028">DD-028</ref> "Psalter";
+                     <ref type="mss" corresp="ESdd029">DD-029</ref> "Psalter"; <ref type="mss" corresp="ESdd030">DD-030</ref> "Psalter";
+                     <ref type="mss" corresp="ESdd031">DD-031</ref> "The Book of the Hours/Horologium; History of Wäldä ʿAmid";
+                     <ref type="mss" corresp="ESdd032">DD-032</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdd033">DD-033</ref> "Psalter";
+                     <ref type="mss" corresp="ESdd034">DD-034</ref> "Psalter"; <ref type="mss" corresp="ESdd035">DD-035</ref> "Four Gospels";
+                     <ref type="mss" corresp="ESdd036">DD-036</ref> "The Spiritual Elder"; <ref type="mss" corresp="ESdd037">DD-037</ref> "Synaxarion (March)";
+                     <ref type="mss" corresp="ESdd038">DD-038</ref> "Psalter";
                      <ref type="mss" corresp="ESdd039">DD-039</ref> "Synoptic Lectionary for the Year", and a few others.</ab>
-                  
+
                   <ab type="tabot">
-                     <measure quantity="15"/>Tābots (a large unidentified number):  <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot"/>, 
+                     <measure quantity="15"/>Tābots (a large unidentified number):  <persName ref="PRS10581Zamika" type="tabot">ʾAragāwi</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS9162TaklaHa" type="tabot"/>,
                      <persName ref="PRS6911Matyas" type="tabot">Mātyās</persName>, and many others .
 </ab>
-                  
+
                </note>
-               
+
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
                          active="INS0105DD"
                          passive="LOC2255DabraD"/>
             </listRelation>
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
          </listPlace>
       </body>
    </text>
