@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0049QSM"
@@ -51,41 +51,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2018-06-01" who="ES">tabots added, name location adjusted</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            
+
             <place type="church monastery dabr" subtype="institution">
-               
+
                <placeName xml:id="n1" xml:lang="gez">ቀርሰበር፡ ቅዱስ፡ ሚካኤል፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Qarsabar Qǝddus Mikāʾel</placeName>
                <placeName type="alt" xml:id="n2" xml:lang="gez">ደብረ፡ ሰላም፡ ቅዱስ፡ ሚካኤል፡ ቀርሰበር፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Salām Qǝddus Mikāʾel Qarsabar</placeName>
-               
-               
+
+
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement ref="LOC3640GuloMa"
                            type="warada"
                            from="2010-05-17"
-                           to="2010-05-18"/> 
+                           to="2010-05-18"/>
                <settlement from="2010-05-17"
                            to="2010-05-18"
                            ref="LOC7019Kokab"
-                           type="tabiya"/> 
-               
-               
+                           type="tabiya"/>
+
+
                <settlement from="2010-05-17"
                            to="2010-05-18"
                            ref="LOC7020Qarsabar"
                            type="qushat"/>
-            
 
 
 
-               
+
+
                <location>
                   <geo>14.345286 39.435027</geo>
                   <height unit="m">2525.0</height>
@@ -101,15 +102,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
                         </graphic>
                      </figure>
-                     38 Mss. photographed: <ref type="mss" corresp="ESqsm001">QSM-001</ref> "Synaxarion"; <ref type="mss" corresp="ESqsm002">QSM-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqsm003">QSM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESqsm004">QSM-004</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqsm005">QSM-005</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqsm006">QSM-006</ref> "Story of the Holy Trinity"; <ref type="mss" corresp="ESqsm007">QSM-007</ref> "Synaxarion"; <ref type="mss" corresp="ESqsm008">QSM-008</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqsm009">QSM-009</ref> "Vita of St. George"; <ref type="mss" corresp="ESqsm010">QSM-010</ref> "Missal"; <ref type="mss" corresp="ESqsm011">QSM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm012">QSM-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm013">QSM-013</ref> "Missal"; <ref type="mss" corresp="ESqsm014">QSM-014</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqsm015">QSM-015</ref> "Missal"; <ref type="mss" corresp="ESqsm016">QSM-016</ref> "The Book of Liturgical Hymns"; <ref type="mss" corresp="ESqsm017">QSM-017</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqsm018">QSM-018</ref> "Psalter"; <ref type="mss" corresp="ESqsm019">QSM-019</ref> "Collections of Prayers"; <ref type="mss" corresp="ESqsm020">QSM-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESqsm021">QSM-021</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqsm022">QSM-022</ref> "Missal"; <ref type="mss" corresp="ESqsm023">QSM-023</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESqsm024">QSM-024</ref> "Miracles of Mikaʾel"; <ref type="mss" corresp="ESqsm025">QSM-025</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESqsm026">QSM-026</ref> "Prayer of Incense"; <ref type="mss" corresp="ESqsm027">QSM-027</ref> "Somä Dǝggwa"; <ref type="mss" corresp="ESqsm028">QSM-028</ref> "Book of Prayers"; <ref type="mss" corresp="ESqsm029">QSM-029</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESqsm030">QSM-030</ref> "Homily of John Chrysostomos"; <ref type="mss" corresp="ESqsm031">QSM-031</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqsm032">QSM-032</ref> "Homily of St. Gabriel"; <ref type="mss" corresp="ESqsm033">QSM-033</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm034">QSM-034</ref> "Story of St. Mary"; <ref type="mss" corresp="ESqsm035">QSM-035</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESqsm036">QSM-036</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESqsm037">QSM-037</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESqsm038">QSM-038</ref> "Vita of Kiros"</ab>
-                
+                     38 Mss. photographed: <ref type="mss" corresp="ESqsm001">QSM-001</ref> "Synaxarion"; <ref type="mss" corresp="ESqsm002">QSM-002</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESqsm003">QSM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESqsm004">QSM-004</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqsm005">QSM-005</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqsm006">QSM-006</ref> "Story of the Holy Trinity"; <ref type="mss" corresp="ESqsm007">QSM-007</ref> "Synaxarion"; <ref type="mss" corresp="ESqsm008">QSM-008</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESqsm009">QSM-009</ref> "Vita of St. George"; <ref type="mss" corresp="ESqsm010">QSM-010</ref> "Missal"; <ref type="mss" corresp="ESqsm011">QSM-011</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm012">QSM-012</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm013">QSM-013</ref> "Missal"; <ref type="mss" corresp="ESqsm014">QSM-014</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESqsm015">QSM-015</ref> "Missal"; <ref type="mss" corresp="ESqsm016">QSM-016</ref> "The Book of Liturgical Hymns"; <ref type="mss" corresp="ESqsm017">QSM-017</ref> "Miracles of Mary"; <ref type="mss" corresp="ESqsm018">QSM-018</ref> "Psalter"; <ref type="mss" corresp="ESqsm019">QSM-019</ref> "Collections of Prayers"; <ref type="mss" corresp="ESqsm020">QSM-020</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESqsm021">QSM-021</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESqsm022">QSM-022</ref> "Missal"; <ref type="mss" corresp="ESqsm023">QSM-023</ref> "The Faith of the Fathers"; <ref type="mss" corresp="ESqsm024">QSM-024</ref> "Miracles of Mikaʾel"; <ref type="mss" corresp="ESqsm025">QSM-025</ref> "Vita of Täklä Haymanot"; <ref type="mss" corresp="ESqsm026">QSM-026</ref> "Prayer of Incense"; <ref type="mss" corresp="ESqsm027">QSM-027</ref> "Soma Dǝggʷā"; <ref type="mss" corresp="ESqsm028">QSM-028</ref> "Book of Prayers"; <ref type="mss" corresp="ESqsm029">QSM-029</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESqsm030">QSM-030</ref> "Homily of John Chrysostomos"; <ref type="mss" corresp="ESqsm031">QSM-031</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESqsm032">QSM-032</ref> "Homily of St. Gabriel"; <ref type="mss" corresp="ESqsm033">QSM-033</ref> "Vita of Gäbrä Mänfäs Qǝddus"; <ref type="mss" corresp="ESqsm034">QSM-034</ref> "Story of St. Mary"; <ref type="mss" corresp="ESqsm035">QSM-035</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESqsm036">QSM-036</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESqsm037">QSM-037</ref> "Vita of ʾArägawi"; <ref type="mss" corresp="ESqsm038">QSM-038</ref> "Vita of Kiros"</ab>
+
                   <ab type="tabot">
-                     <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
-                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
-                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
-                     <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
-                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, 
-                     <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
+                     <measure quantity="7"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>,
+                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>,
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>,
+                     <persName ref="PRS4585Georgeo" type="tabot">George</persName>,
+                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>,
+                     <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>,
                      one unidentified marble.</ab>
                </note>
             </place>
