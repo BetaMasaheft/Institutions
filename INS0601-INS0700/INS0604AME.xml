@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Māḫbara Bākwǝr Māryām</title>
+            <title>Māḫbara Bākʷǝr Māryām</title>
             <title type="short">AME</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
@@ -58,13 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                                 spreadsheet</change>
          <change who="PL" when="2019-01-30">Created XML file from excel
                                 spreadsheet</change>
+        <change when="2020-11-03" who="DE">Corrected labiovelars</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">Māḫbara Bākwǝr Māryām</placeName>
+               <placeName type="normalized">Māḫbara Bākʷǝr Māryām</placeName>
                <placeName type="alt">Asigirt, Shewa, Mahebara Bakwr Maryam Church</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>

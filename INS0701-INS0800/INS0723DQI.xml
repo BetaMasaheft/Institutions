@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Makwǝriya (Kǝnfa), qes</title>
+            <title>Makʷǝriya (Kǝnfa), qes</title>
             <title type="short">DQI</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
@@ -58,13 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                                 spreadsheet</change>
          <change who="PL" when="2019-01-30">Created XML file from excel
                                 spreadsheet</change>
+                                <change when="2020-11-03" who="DE">Corrected labiovelars.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place subtype="institution" type="privateHouse">
-               <placeName type="normalized">Makwǝriya (Kǝnfa), qes</placeName>
+               <placeName type="normalized">Makʷǝriya (Kǝnfa), qes</placeName>
                <placeName type="alt">Dabra Birhan, Shewa, Qes Makwriya (Kenfa) (private)</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
