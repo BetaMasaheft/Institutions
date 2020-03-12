@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gwǝguf Mikāʾel</title>
+            <title>Gʷǝguf Mikāʾel</title>
             <title type="short">DGW</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
@@ -58,13 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                                 spreadsheet</change>
          <change who="PL" when="2019-01-30">Created XML file from excel
                                 spreadsheet</change>
+                                <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">Gwǝguf Mikāʾel</placeName>
+               <placeName type="normalized">Gʷǝguf Mikāʾel</placeName>
                <placeName type="alt">Dabra Birhan, Shewa, Gweguf Mika'el Church</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
