@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="INS0091AQM"
@@ -51,29 +51,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery gatar" subtype="institution">
-               
+
                <placeName xml:id="n1" xml:lang="gez">አገርህሴ፡ አቡነ፡ ማማስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAgarhǝse ʾAbuna Māmās</placeName>
                <placeName type="alt" xml:lang="gez" xml:id="n2">ደብረ፡ ቅዱሳን፡ አቡነ፡ ማማስ፡ አገርህሴ፡</placeName>
                <placeName type="normalized" xml:lang="gez" corresp="#n2">Dabra Qǝddusān ʾAbuna Māmās ʾAgarhǝse</placeName>
-               
-               
+
+
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
-               <settlement ref="LOC3640GuloMa" type="warada" when="2011-11-19"/> 
-               
+
+               <settlement ref="LOC3640GuloMa" type="warada" when="2011-11-19"/>
+
                <settlement when="2011-11-16" ref="LOC6962Sawit" type="tabiya"/>
-               
+
                <settlement when="2011-11-16" ref="LOC7158Agarhese" type="qushat"/>
-               
-               
+
+
                <location>
                   <geo>14.44875 39.342167</geo>
                   <height unit="m">2312.0</height>
@@ -83,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">The date provided by the local tradition is <date>1295 year of mercy</date>. According to local tradition, the
                      founder was ʾabuna <persName ref="PRS6620Mamas">Māmās</persName> (from the time of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>, r.
                      <date>1314-1344</date>).</desc>
-                  <ab type="history">Gatar. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Ba-ṣalota Mikāʾel of Dabra Gol</ref> (ʾAmhārā), he was exiled to <placeName ref="LOC3640GuloMa">Gulo Makada</placeName> and died at Gwǝdgwǝde, which seems to have been a name of the area around ʾAgarhǝse. 
+                  <ab type="history">Gatar. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Ba-ṣalota Mikāʾel of Dabra Gol</ref> (ʾAmhārā), he was exiled to <placeName ref="LOC3640GuloMa">Gulo Makada</placeName> and died at Gʷǝdgʷǝde, which seems to have been a name of the area around ʾAgarhǝse.
                      Local tradition remembers him and confirms that his burial place is in the vicinity. &#xD;
 </ab>
                   <ab type="description">
@@ -93,9 +94,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </graphic>
                      </figure>
                      25 Mss.; 10 Mss. photographed: <ref type="mss" corresp="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm003">AQM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm008">AQM-008</ref> "Missal"; <ref type="mss" corresp="ESaqm009">AQM-009</ref> "Missal"; <ref type="mss" corresp="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"</ab>
-  
+
                   <ab type="tabot">
-                     <measure quantity="4"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
+                     <measure quantity="4"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>,
                      <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6620Mamas" type="tabot">Māmās</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>.</ab>
                </note>
             </place>
