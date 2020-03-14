@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0329DE" type="ins">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0329DE" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -27,20 +24,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change when="2016-10-14" who="FP">added info to record</change>
@@ -65,11 +56,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <geo>11.8961 37.3098</geo>
                     </location>
                     <note>
-                        <date type="foundation"
-                        notBefore="1400"
-                        notAfter="1499"
-                        cert="low"
-                        precision="low">15th cent.</date>
+                        <date type="foundation" notBefore="1400" notAfter="1499" cert="low" precision="low">15th cent.</date>
                         <desc type="foundation">Although it is said to have been founded by
                                 <roleName type="title">Saint</roleName>
                             <persName ref="PRS5365hirutaA">Ḫiruta ʾAmlāk</persName> (<date notBefore="1200" notAfter="1299" precision="low">13th cent.</date>),
@@ -129,32 +116,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:locatedIn" active="INS0329DE" passive="LOC5888Tana">
                         <desc>The monastery is located on an island in the lake Ṭānā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0329DE"
-                         passive="LOC4279Lejome">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE" passive="LOC4279Lejome">
                         <desc>The monastery was given lands in Lǝǧome in the 15th cent.</desc>
                     </relation>
                     <relation name="syriaca:has-relation-to-place" active="INS0329DE"> <!--passive?-->
                         <desc>The monastery was given lands in Zaǧor in the 15th cent.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0329DE"
-                         passive="LOC2522Daq">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE" passive="LOC2522Daq">
                         <desc>The monastery was given lands on the island of Daq.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0329DE"
-                         passive="LOC6567Derdera">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE" passive="LOC6567Derdera">
                         <desc>The monastery was given lands in Dǝrdǝrā in the 17th cent.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0329DE"
-                         passive="LOC6463Zebed">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE" passive="LOC6463Zebed">
                         <desc>The monastery was given lands in Zǝbǝd in the 17th cent.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0329DE"
-                         passive="LOC4970NargaS">
+                    <relation name="syriaca:has-relation-to-place" active="INS0329DE" passive="LOC4970NargaS">
                         <desc>There was a conflictual relationship between Dāgā ʾƎsṭifānos and Nārgā
                             Śǝllāse due to lands traditionally attributed to the former being
                             transferred to the latter.</desc>

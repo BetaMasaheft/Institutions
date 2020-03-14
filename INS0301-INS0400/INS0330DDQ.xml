@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0330DDQ" type="ins">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0330DDQ" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -27,20 +24,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2016-10-07">CREATED: institution from place record
@@ -100,19 +91,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:nearBy" active="INS0330DDQ" passive="LOC6540Entone">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was located near ʾAbbā ʾƎnṭonǝs.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0330DDQ"
-                         passive="LOC1712Bajana">
+                    <relation name="syriaca:has-relation-to-place" active="INS0330DDQ" passive="LOC1712Bajana">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Bāǧanā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0330DDQ"
-                         passive="LOC1739Balasa">
+                    <relation name="syriaca:has-relation-to-place" active="INS0330DDQ" passive="LOC1739Balasa">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in Balasā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0330DDQ"
-                         passive="LOC2767Ebenna">
+                    <relation name="syriaca:has-relation-to-place" active="INS0330DDQ" passive="LOC2767Ebenna">
                         <desc>Dabra Ḍaḥay Qʷǝsqʷām was endowed with lands in ʾƎbǝnnāt.</desc>
                     </relation>
                 </listRelation>
