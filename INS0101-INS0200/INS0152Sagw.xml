@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0152Sagw"
-     type="ins"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0152Sagw" type="ins" xml:lang="en">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -32,18 +26,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-08-04">created</change>
@@ -52,24 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             P5</change>
          <change who="DR" when="2017-11-02">Corrected ID</change>
          <change when="2019-03-19" who="ES">adjusted name location </change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="church monastery" subtype="institution">                         
-               
+            <place type="church monastery" subtype="institution">
+
                <placeName xml:id="n1" xml:lang="gez">ሸጓላ፡ ማርያም፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Šagwālā Māryām</placeName>
-               
-              
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Šagʷālā Māryām</placeName>
+
+
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement from="2011-07-05"
-                           to="2011-07-05"
-                           type="warada"
-                           ref="LOC2947Endart"/>
-               
+               <settlement from="2011-07-05" to="2011-07-05" type="warada" ref="LOC2947Endart"/>
+
 
                <location>
                   <geo>13.4948 39.63775</geo>
@@ -77,9 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  
+
                   <ab type="description">Composed of some 20 Mss. (of them ca. 7 older books, the Four Gospels book from the time of King Bakāffa, r. 1721-30).</ab>
-   
+
                </note>
             </place>
          </listPlace>

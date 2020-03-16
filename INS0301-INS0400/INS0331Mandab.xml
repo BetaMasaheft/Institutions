@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0331Mandab" type="ins">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0331Mandab" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -28,21 +25,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="gez">Gǝʿǝz</language>
-                <language ident="am">Amharic</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="am">Amharic</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2016-10-12">CREATED: place</change>
@@ -137,25 +127,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:nearBy" active="INS0331Mandab" passive="LOC5888Tana">
                         <desc>This monastery is on the north shore of lake Ṭānā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0331Mandab"
-                         passive="INS0329DE">
+                    <relation name="syriaca:has-relation-to-place" active="INS0331Mandab" passive="INS0329DE">
                         <desc>This is the second largest monastery of the lake Ṭānā region after
                             Dāgā ʾƎsṭifānos.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0331Mandab"
-                         passive="LOC6565Sowit">
+                    <relation name="syriaca:has-relation-to-place" active="INS0331Mandab" passive="LOC6565Sowit">
                         <desc>This monastery was endowed with lands in the area of Sowit.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0331Mandab"
-                         passive="LOC1314Alafa">
+                    <relation name="syriaca:has-relation-to-place" active="INS0331Mandab" passive="LOC1314Alafa">
                         <desc>This monastery was endowed with lands in the area of ʾAlafā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="INS0331Mandab"
-                         passive="LOC6566Takwesa">
+                    <relation name="syriaca:has-relation-to-place" active="INS0331Mandab" passive="LOC6566Takwesa">
                         <desc>This monastery was endowed with lands in the area of Takʷǝsā.</desc>
                     </relation>
                 </listRelation>

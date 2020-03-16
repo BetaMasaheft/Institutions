@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="INS0039MY"
-     type="ins"
-     xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0039MY" type="ins" xml:lang="en">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -32,18 +26,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-06-04">created</change>
@@ -51,48 +41,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">transformed from mycore to TEI
                             P5</change>
          <change when="2018-04-24" who="ES">tabots added, name location adjusted</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church monastery dabr" subtype="institution">
-               
+
                <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ማዕጾ፡ ቅዱስ፡ ዮሐንስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Māʿṣo Qǝddus Yoḥannǝs</placeName>
                <placeName type="alt" xml:id="n2">ደብረ፡ ማዕጾ፡ ዮሐንስ፡</placeName>
                <placeName type="normalized" corresp="#n2">Dabra Māʿṣo Yoḥannǝs</placeName>
-               
+
 
 
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
-               <settlement ref="LOC3640GuloMa"
-                           type="warada"
-                           from="2010-05-10"
-                           to="2010-05-11"/> 
-               
-               <settlement from="2010-05-10"
-                           to="2010-05-11"
-                           ref="LOC6969TahtayQelat"
-                           type="tabiya"/> 
-               
-               
-               <settlement from="2010-05-10"
-                           to="2010-05-11"
-                           ref="LOC6968DabraMaso"
-                           type="qushat"/> 
 
-               
+               <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-10" to="2010-05-11"/>
+
+               <settlement from="2010-05-10" to="2010-05-11" ref="LOC6969TahtayQelat" type="tabiya"/>
+
+
+               <settlement from="2010-05-10" to="2010-05-11" ref="LOC6968DabraMaso" type="qushat"/>
+
+
                <location>
                   <geo>14.4677 39.450333</geo>
                   <height unit="m">2595.0</height>
                </location>
                <note>
                   <date type="foundation" notBefore="1150" notAfter="1300">1150-1300</date>
-                  <desc type="foundation">Possibly founded during the time of the <persName ref="PRS10523Zagwe">Zāgwe</persName> dynasty, or even earlier.</desc>
-                  <ab type="history">Dabr. The church stands on a separate peak, not directly accessible from the flat top mountain where the village is located. 
+                  <desc type="foundation">Possibly founded during the time of the <persName ref="PRS10523Zagwe">Zāgʷe</persName> dynasty, or even earlier.</desc>
+                  <ab type="history">Dabr. The church stands on a separate peak, not directly accessible from the flat top mountain where the village is located.
                      Local people say that they are descendants of a ḉäwa-group. A monastic community reportedly existed, but died out in the time of <persName ref="PRS5226haylase"/>.&#xD;
 </ab>
                   <ab type="description">
@@ -102,13 +84,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </graphic>
                      </figure>
                      28 Mss. photographed: <ref type="mss" corresp="ESmy001">MY-001</ref> "Acts of the Apostles"; <ref type="mss" corresp="ESmy002">MY-002</ref> "Collection of Homilies"; <ref type="mss" corresp="ESmy003">MY-003</ref> "The Rite of the Holy Week"; <ref type="mss" corresp="ESmy004">MY-004</ref> "Acts of the Apostles"; <ref type="mss" corresp="ESmy005">MY-005</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmy006">MY-006</ref> "Four Gospels"; <ref type="mss" corresp="ESmy007">MY-007</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmy008">MY-008</ref> "Four Gospels"; <ref type="mss" corresp="ESmy009">MY-009</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmy010">MY-010</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmy011">MY-011</ref> "Missal"; <ref type="mss" corresp="ESmy012">MY-012</ref> "Homily of St. Michael"; <ref type="mss" corresp="ESmy013">MY-013</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmy014">MY-014</ref> "The Book of the Matrimony Rite"; <ref type="mss" corresp="ESmy015">MY-015</ref> "Story of the Trinity"; <ref type="mss" corresp="ESmy016">MY-016</ref> "Homily of the Sabbath"; <ref type="mss" corresp="ESmy017">MY-017</ref> "Prayer of Incense"; <ref type="mss" corresp="ESmy018">MY-018</ref> "Miracles of Mary"; <ref type="mss" corresp="ESmy019">MY-019</ref> "Vita of John the Baptist"; <ref type="mss" corresp="ESmy020">MY-020</ref> "The Book of the Funeral Rite"; <ref type="mss" corresp="ESmy021">MY-021</ref> "Litany of the Morning"; <ref type="mss" corresp="ESmy022">MY-022</ref> "Synoptic Lectionary for the Year"; <ref type="mss" corresp="ESmy023">MY-023</ref> "Vita of John the Baptist"; <ref type="mss" corresp="ESmy024">MY-024</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmy025">MY-025</ref> "Homily of the Saviour of the World"; <ref type="mss" corresp="ESmy026">MY-026</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESmy027">MY-027</ref> "Vita of  ʾArägawi; Gäbrä Krǝstos"; <ref type="mss" corresp="ESmy028">MY-028</ref> "Miracles of Jesus"</ab>
-    
+
                   <ab type="tabot">
-                     <measure quantity="6"/>Tābots of <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, 
-                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, 
-                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>, 
-                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>, 
-                     <persName ref="PRS6152Lalibala" type="tabot">Lālibalā</persName>, 
+                     <measure quantity="6"/>Tābots of <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>,
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>,
+                     <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>,
+                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>,
+                     <persName ref="PRS6152Lalibala" type="tabot">Lālibalā</persName>,
                      <persName ref="PRS4585Georgeo" type="tabot">George</persName>.</ab>
                </note>
             </place>
