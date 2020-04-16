@@ -69,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </location>
                <note>
                   <date type="foundation" notBefore="1600" notAfter="1700">1600-1700</date>
-                  <desc type="foundation">According to local tradition, the founder is 17th-cent. <persName ref="PRS5916KeflaWa">Kǝfla Wāḥǝd</persName>, governor of Təgray  (təgre makʷannǝn).</desc>
+                  <desc type="foundation">According to local tradition, the founder is 17th-cent. <persName ref="PRS5916KeflaWa">Kǝfla Wāḥǝd</persName>, governor of Tǝgray  (tǝgre makʷannǝn).</desc>
                   <ab type="history">Dabr. The church is located in the historical core of the city of <placeName ref="LOC1212Addigr"/>, close to <placeName ref="INS0065AMQ"/>.&#xD;
 </ab>
                   <ab type="description">

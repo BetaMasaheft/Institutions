@@ -49,9 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="church monastery gadam" subtype="institution">
                
                <placeName xml:lang="gez" xml:id="n1">በዓቲ፡ ቅዱስ፡ ሚካኤል፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Baʿātti Qəddus Mikāʾel</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Baʿātti Qǝddus Mikāʾel</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ መሕረት፡ ቅዱስ፡ ሚካኤል፡ በዓቲ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Mǝḥrat Qəddus Mikāʾel Baʿātti</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Mǝḥrat Qǝddus Mikāʾel Baʿātti</placeName>
                
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
@@ -70,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <note>
                   <date type="foundation" notBefore="1800" notAfter="1831">1800-1831</date>
                   <desc type="foundation">
-                     <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> (d. 1831) established Baʿātti Qəddus Mikāʾel as monastery (gadām).</desc>
+                     <persName ref="PRS8265Sabagadi">Dağğāzmāč Sabāgādis</persName> (d. 1831) established Baʿātti Qǝddus Mikāʾel as monastery (gadām).</desc>
                   <ab type="history">Gädam. The monastic community disappeared long ago.&#xD;
 </ab>
                   <ab type="description">

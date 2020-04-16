@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʿĀd Ḥəyāw Qəddus Mikāʾel</title>
+            <title>ʿĀd Ḥǝyāw Qǝddus Mikāʾel</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="church" subtype="institution">
-               <placeName>ʿĀd Ḥəyāw Qəddus Mikāʾel</placeName>
+               <placeName>ʿĀd Ḥǝyāw Qǝddus Mikāʾel</placeName>
                <placeName type="alt">Mikāʾel ʿĀdḥǝyāw</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
