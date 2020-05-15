@@ -5,7 +5,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>ʾƎnda ʾAbbona</title>
+                <title>ʾƎndā ʾAbbonā</title>
                <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -37,16 +37,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
            <change who="ES" when="2017-02-02">CREATED: place</change>
+            <change who="DR" when="2020-05-15">Corrected transliteration</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="gez">እንዳ፡ አቦነ፡ </placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā ʾAbbona</placeName>
-                    <placeName xml:id="n2" xml:lang="gez">እንዳቦነ፡ </placeName>
-                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎndābbona</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">እንዳ፡ አቦና፡ </placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā ʾAbbonā</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">እንዳቦና፡ </placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎndābbonā</placeName>
                     <placeName xml:id="n3" xml:lang="gez">እንዳ፡ አብራንዮስ፡ </placeName>
                     <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾƎndā ʾAbrānyos</placeName>
                     <placeName xml:id="n4" xml:lang="gez">ደብረ፡ አቡነ፡ አብራንዮስ፡ </placeName>
