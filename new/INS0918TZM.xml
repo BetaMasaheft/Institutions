@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" type="normalized">Tamazzo Māryām</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC6655SudTegray"/>
+                    <settlement ref="LOC1410Ambala" type="warada"/> 
                 </place>
             </listPlace>
         </body>
