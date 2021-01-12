@@ -45,10 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ተክለ፡ ሃይማኖት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Dabra Takla Hāymānot</placeName>
-                      <placeName xml:id="n2" xml:lang="gez">ደብር፡ ተክለ፡ ሃይማኖት፡</placeName>
-                    <placeName corresp="#n2" xml:lang="gez">Dabr Takla Hāymānot</placeName>
+                      <placeName xml:id="n1" xml:lang="gez">ደብር፡ ተክለ፡ ሃይማኖት፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez">Dabr Takla Hāymānot</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">
