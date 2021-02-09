@@ -77,6 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
 
             </listBibl>
          </div>
+         <listRelation><relation name="gn:locatedIn" active="INS0358TanaDM" passive="LOC2318DabraM"></relation></listRelation>
       </body>
    </text>
 </TEI>
