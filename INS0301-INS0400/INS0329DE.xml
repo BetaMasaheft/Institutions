@@ -105,6 +105,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             <ptr target="bm:BoscTiesseBalicka2005EnAeDagaEstifanos"/>
                         </bibl>
                     </listBibl>
+                    <listBibl type="catalogue">
+                        <bibl><ptr target="bm:Six1999VOHD3"/></bibl>
+                    </listBibl>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="INS0329DE" passive="LOC2419Daga">
