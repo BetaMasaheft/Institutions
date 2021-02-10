@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Private collection of Dr Carl Heinz and Jutta Neukirchen</title>
+                <title>Private collection <!--of Dr Carl Heinz and Jutta Neukirchen--></title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,12 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName xml:lang="en" xml:id="n1">Private collection of Dr Carl Heinz and Jutta Neukirchen</placeName>
+                    <placeName xml:lang="en" xml:id="n1">Private collection <!--of Dr Carl Heinz and Jutta Neukirchen--></placeName>
                     <country ref="wd:Q183"/>
                     <settlement ref="wd:Q1055"/>
-                    <note>The manuscripts were acquired by Dr Carl Heinz and Jutta Neukirchen during their stay
+                    <note>The manuscripts were acquired <!--by Dr Carl Heinz and Jutta Neukirchen during their stay-->
                       in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in <date>1963-1966</date>.
-                    These manuscripts are currently kept by their son, Professor Thomas Neukirchen, who has kindly made them available to the project
+                    They have been kindly made available to the project
                     Beta maṣāḥǝft for digitization, catalogue description, and publication.</note>
                 </place>
             </listPlace>
