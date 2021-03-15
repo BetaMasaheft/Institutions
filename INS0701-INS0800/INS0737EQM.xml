@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dayr ʿAnbā Maqār</title>
+            <title>Dayr ʾAnbā Maqār</title>
             <title type="short">EQM</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
@@ -54,8 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="monastery">
-               <placeName type="normalized">Dayr ʿAnbā Maqār</placeName>
-               <placeName type="alt">El Beheira, Egypt, Qeddus Macarius Monastery</placeName>
+               <placeName xml:lang="ar" xml:id="n1">دير الأنبا مقار</placeName>
+               <placeName type="normalized" xml:lang="ar" corresp="#n1">Dayr al-ʾAnbā Maqār</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ደብረ፡ አባ፡ መቃርስ፡</placeName>
+               <placeName type="normalized" xml:lang="ar" corresp="#n2">Dabra ʾAbbā Maqārəs</placeName>
+               <placeName type="alt">El Beheira, Egypt, St Macarius Monastery</placeName>
                <country ref="wd:Q79"/>
                <settlement>El Beheira</settlement>
                <location>
