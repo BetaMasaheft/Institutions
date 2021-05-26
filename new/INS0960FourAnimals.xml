@@ -50,7 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
+<<<<<<< HEAD
                 <place type="church" subtype="institution">
+=======
+                <place type="church">
+>>>>>>> ca3fcdae0b02da19e5d9d73378d3c9f76b2c87a1
 
                     <placeName corresp="n1" xml:lang="en">Church of the Four Animals</placeName>
                     <placeName corresp="#n1" xml:lang="fr">église des Quatre Animaux</placeName>
@@ -62,6 +66,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </listPlace>
             <div type="bibliography">
                 <listBibl type="catalogue">
+<<<<<<< HEAD
+=======
+
+>>>>>>> ca3fcdae0b02da19e5d9d73378d3c9f76b2c87a1
                     <bibl>
                         <ptr target="bm:RIE1"/>
                         <citedRange unit="page">292</citedRange>
