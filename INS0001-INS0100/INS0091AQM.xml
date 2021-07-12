@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾAgärhǝse ʾAbunä Mamas</title>
+            <title>ʾAgarhǝse ʾAbuna Māmās</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                             P5</change>
          <change when="2019-03-14" who="ES">tabots added, name location adjusted</change>
          <change when="2020-03-12" who="DE">Corrected transliteration.</change>
+         <change when="2021-07-12" who="DN">Corrected data.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -71,23 +72,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">The date provided by the local tradition is <date>1295 year of mercy</date>. According to local tradition, the
-                     founder was ʾabuna <persName ref="PRS6620Mamas">Māmās</persName> (from the time of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>, r.
-                     <date>1314-1344</date>).</desc>
-                  <ab type="history">Gatar. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Ba-ṣalota Mikāʾel of Dabra Gol</ref> (ʾAmhārā), he was exiled to <placeName ref="LOC3640GuloMa">Gulo Makada</placeName> and died at Gʷǝdgʷǝde, which seems to have been a name of the area around ʾAgarhǝse.
-                     Local tradition remembers him and confirms that his burial place is in the vicinity. &#xD;
-</ab>
+                  <desc type="foundation">The foundation date mentioned by the local oral tradition is <date>1295 year of mercy</date>, but it is linked to
+                  the time of <persName ref="PRS3429DawitII">ʾaṣe Dāwit</persName>.
+                  According to the same tradition, the
+                     founder was ʾabuna <persName ref="PRS13452Mamas">Māmās</persName> (from the time of King <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>, r.
+                     <date>1344-1371</date> and his successor <persName ref="PRS3429DawitII"/>).</desc>
+                  <ab type="history">Gatar, formerly gadām. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Baṣalota
+                     Mikāʾel of Dabra Gol</ref> (ʾAmhārā), Baṣalota Mikāʾel was exiled to <placeName ref="LOC3640GuloMa">Gulo Makadā</placeName> and died at Gʷǝdgʷǝde,
+                     which seems to have been a name of the area around ʾAgarhǝse.
+                     Local tradition remembers him and confirms that his
+                     burial place is in the vicinity.
+                   </ab>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/AQM.tif">
                            <desc>The church photographed by Denis Nosnitsin during the Ethio-SPaRe project.</desc>
                         </graphic>
                      </figure>
-                     25 Mss.; 10 Mss. photographed: <ref type="mss" corresp="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm003">AQM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm008">AQM-008</ref> "Missal"; <ref type="mss" corresp="ESaqm009">AQM-009</ref> "Missal"; <ref type="mss" corresp="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"</ab>
+                     25 Mss.; 10 Mss. photographed: <ref type="mss" corresp="ESaqm001">AQM-001</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm002">AQM-002</ref> "Vita of Mamas"; <ref type="mss" corresp="ESaqm003">AQM-003</ref> "Four Gospels"; <ref type="mss" corresp="ESaqm004">AQM-004</ref> "The Book of the Baptismal Rite"; <ref type="mss" corresp="ESaqm005">AQM-005</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm006">AQM-006</ref> "Miracles of Mary"; <ref type="mss" corresp="ESaqm007">AQM-007</ref> "Miracles of Jesus"; <ref type="mss" corresp="ESaqm008">AQM-008</ref> "Missal"; <ref type="mss" corresp="ESaqm009">AQM-009</ref> "Missal"; <ref type="mss" corresp="ESaqm010">AQM-010</ref> "The Book of the Funeral Rite"
+                   </ab>
 
                   <ab type="tabot">
                      <measure quantity="4"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>,
-                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS6620Mamas" type="tabot">Māmās</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>.</ab>
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS13452Mamas" type="tabot">Māmās</persName>, <persName ref="PRS8083Raphael" type="tabot">Raphael</persName>
+                     The main feast is that of <persName ref="PRS13452Mamas">Māmās</persName> on <date>30 Tāḫśāś</date>.</ab>
                </note>
             </place>
             <listRelation>
