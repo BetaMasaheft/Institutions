@@ -75,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <desc type="foundation">The foundation date mentioned by the local oral tradition is <date>1295 year of mercy</date>, but it is linked to
                   the time of <persName ref="PRS3429DawitII">ʾaṣe Dāwit</persName>.
                   According to the same tradition, the
-                     founder was ʾabuna <persName ref="PRS6620Mamas">Māmās</persName> (from the time of King <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>, r.
+                     founder was ʾabuna <persName ref="PRS13452Mamas">Māmās</persName> (from the time of King <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>, r.
                      <date>1344-1371</date> and his successor <persName ref="PRS3429DawitII"/>).</desc>
                   <ab type="history">Gatar, formerly gadām. According to the <ref type="work" corresp="LIT1428GadlaB">Vita of saint Ba-ṣalota
                      Mikāʾel of Dabra Gol</ref> (ʾAmhārā), Ba-ṣalota Mikāʾel was exiled to <placeName ref="LOC3640GuloMa">Gulo Makadā</placeName> and died at Gʷǝdgʷǝde,
