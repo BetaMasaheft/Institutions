@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2021-11-22">Created entity with information provded by Getinet Asmare</change>
+            <change who="DR" when="2021-11-22">Created entity with information provided by Getinet Asimare</change>
         </revisionDesc>
     </teiHeader>
     <text>
