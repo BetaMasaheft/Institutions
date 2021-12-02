@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <place sameAs="wd:Q647987" type="museum" subtype="institution">
                   <placeName xml:id="n1" xml:lang="de">Museum für Archäologie Schloss Gottorf</placeName>
                   <placeName corresp="#n1" xml:lang="en">Archaeological Museum Schloss Gottorf</placeName>
-                  <placeName xml:id="n2" xml:lang="en">Archäologisches Landesmuseum der Christian-Albrechts-Universität, Schloß Gottorf</placeName>
+                  <placeName xml:id="n2" xml:lang="de">Archäologisches Landesmuseum der Christian-Albrechts-Universität, Schloß Gottorf</placeName>
                     <placeName xml:id="n3" xml:lang="en">Museum Gottorf Castle</placeName>
                     <settlement ref="wd:Q501661"/>
                     <country ref="wd:Q183"/>
