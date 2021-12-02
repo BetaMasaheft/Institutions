@@ -4,10 +4,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title>Museum Fünf Kontinente</title>
             <editor key="VP"/>
             <editor role="generalEditor" key="AB"/>
-            <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <funder></funder>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -45,8 +45,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       <body>
          <listPlace>
             <place  type="museum" subtype="institution">
-               <placeName xml:id="n1" xml:lang="de">Bayerische Staatsbibliothek</placeName>
-               <placeName xml:id="n2" xml:lang="de" type="alt">Königliche Hof- und Staatsbibliothek</placeName>
+               <placeName xml:id="n1" xml:lang="de">Museum Fünf Kontinente</placeName>
+               <placeName xml:id="n2" xml:lang="de" type="alt">Museum für Völkerkunde</placeName>
                <country ref="wd:Q183"/>
                <region ref="wd:Q980"/>
                <settlement type="city" ref="wd:Q1726"/>
