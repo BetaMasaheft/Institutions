@@ -49,8 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAtkanā Giyorgis</placeName>
                     <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
                      <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
+                    <note>
+                    <date type="foundation" when="1596">1596</date>
+                    <desc type="foundation">Founded by the rās <persName ref="PRS11898Waldakrestos">Walda Krǝstos</persName> in 1596.</desc>
+                    </note>
                    </place>
-            </listPlace><!---->
+               </listPlace><!---->
         </body>
     </text>
 </TEI>
