@@ -76,7 +76,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             mausoleum for the members of the royal family and seems to have been
                             very prosperous. <date notBefore="1563" notAfter="1574">Between 1563 and
                                 1574</date>, <roleName type="title">mamhǝr</roleName>
-                            <persName ref="PRS4283GabraKr">Gabra Krǝstos</persName> restored the
+                            <persName ref="PRS13661GabraKr">Gabra Krǝstos</persName> restored the
                             church with the support of <roleName type="title">kantibā</roleName>
                             <persName ref="PRS4342GabraMi">Gabra Mikāʾel</persName>. The monastery
                             supported <roleName type="title">ʾaṣe</roleName>
