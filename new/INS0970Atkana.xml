@@ -44,17 +44,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church religiousSite" subtype="institution">
+                <place type="church"  subtype="institution">
                     <placeName xml:lang="gez" xml:id="n1">አትከና፡ ጊዮርጊስ፡</placeName>
                     <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAtkanā Giyorgis</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">Atqhanâ</placeName>
                     <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
-                     <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
+                    <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
+                     <location><geo>11.966675 38.18329</geo></location>
+                     <country ref="LOC3010Ethiop"></country>
+
                     <note>
                     <date type="foundation" when="1596">1596</date>
                     <desc type="foundation">Founded by the rās <persName ref="PRS11898Waldakrestos">Walda Krǝstos</persName> in 1596.</desc>
+                    <ab type="tabot">Main tābot dedicated to <persName ref="PRS4585Georgeo" type="tabot">George</persName>.</ab>
+
                     </note>
                    </place>
                </listPlace><!---->
+               <listBibl type="secondary">
+                           <bibl>
+                              <ptr target="bm:1907RASOC6"/><citedRange unit="page">435-437</citedRange>
+                           </bibl>
+                        </listBibl>
         </body>
     </text>
 </TEI>
