@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAtkanā Giyorgis</placeName>
                     <placeName xml:lang="gez" corresp="#n1">Atqhanâ</placeName>
                     <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
-                    <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
+                    <region notAfter="1974" type="Region" ref="LOC1713Bagemd"/>
+                     <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
                      <location><geo>11.966675 38.18329</geo></location>
                      <country ref="LOC3010Ethiop"></country>
 
