@@ -44,18 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="library" subtype="institution">
-               <placeName xml:id="n1" xml:lang="it">Archivio Storico di Genova </placeName>
-               <placeName corresp="#n1" xml:lang="en">Genoa Historical Archive</placeName>
-            
-               <country ref="wd:Q38"/>
-
-               <settlement type="town" ref="LOC3416Genoa"/>
-               
-               
-               
-
-
-               
+               <placeName xml:id="n1" xml:lang="it">Archivio Storico del Comune di Genova </placeName>
+               <placeName corresp="#n1" xml:lang="en">Historical Archive of the Municipality of Genoa</placeName>            
+               <country ref="wd:Q38">Italy</country>
+               <settlement type="town" ref="wd:Q1449">Genoa</settlement>
             </place>
 
 
