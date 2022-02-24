@@ -44,13 +44,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place  type="museum" subtype="institution">
+            <place  type="museum" subtype="institution" sameAs="wd:Q454217">
                <placeName xml:id="n1" xml:lang="de">Museum Fünf Kontinente</placeName>
+               <placeName corresp="#n1" xml:lang="en">Museum Five Continents</placeName>
                <placeName xml:id="n2" xml:lang="de" type="alt">Museum für Völkerkunde</placeName>
                <country ref="wd:Q183">Germany</country>
                <region ref="wd:Q980"/>
                <settlement type="city" ref="wd:Q1726">Munich</settlement>
-
+               <location><geo>48.137597 11.585697</geo></location>
             </place>
          </listPlace>
       </body>
