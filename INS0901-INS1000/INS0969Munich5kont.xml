@@ -47,9 +47,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <place  type="museum" subtype="institution">
                <placeName xml:id="n1" xml:lang="de">Museum Fünf Kontinente</placeName>
                <placeName xml:id="n2" xml:lang="de" type="alt">Museum für Völkerkunde</placeName>
-               <country ref="wd:Q183"/>
+               <country ref="wd:Q183">Germany</country>
                <region ref="wd:Q980"/>
-               <settlement type="city" ref="wd:Q1726"/>
+               <settlement type="city" ref="wd:Q1726">Munich</settlement>
 
             </place>
          </listPlace>
