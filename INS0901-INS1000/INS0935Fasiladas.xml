@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ፋሲለደስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Fāsiladas</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Fāsiladas</placeName>
                     <settlement ref="LOC3577Gondar"/>
                     <note>The church is now abandoned, its <foreign xml:lang="gez">tābot</foreign> is now located in 
                         the church of <placeName ref="INS0450QahaI"/>.</note>
