@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <region ref="wd:Q64"/>
                     <settlement type="city" ref="wd:Q64"/>
                     <location>
-                        <geo>52.5068 13.3696</geo>
+                        <geo>52.506389 13.370278</geo>
                     </location>
                 </place>
             </listPlace>
