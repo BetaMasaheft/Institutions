@@ -41,14 +41,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
+                <place type="library" subtype="institution" sameAs="wd:Q170109">
                     <placeName xml:id="n1" xml:lang="de">Staatsbibliothek zu Berlin Preußischer Kulturbesitz</placeName>
                     <placeName corresp="#n1" xml:lang="en">Berlin State Library</placeName>
                     <country ref="wd:Q183"/>
                     <region ref="wd:Q64"/>
                     <settlement type="city" ref="wd:Q64"/>
                     <location>
-                        <geo>52.5068 13.3696</geo>
+                        <geo>52.506389 13.370278</geo>
                     </location>
                 </place>
             </listPlace>

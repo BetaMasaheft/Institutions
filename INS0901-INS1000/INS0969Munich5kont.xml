@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"
-?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0969Munich5kont" xml:lang="en" type="ins">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0969Munich5kont" xml:lang="en" type="ins">
   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -38,19 +38,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <langUsage><language ident="en">English</language><language ident="de">German</language></langUsage>
       </profileDesc>
       <revisionDesc>
-        <change who="VP" when="2021-12-02">Created catalogue entry stub</change>
+        <change who="VP" when="2021-12-02">Created  entry stub</change>
+         <change who="ES" when="2022-02-24">Added wd coordinates</change>
+         
        </revisionDesc>
   </teiHeader>
   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place  type="museum" subtype="institution">
+            <place  type="museum" subtype="institution" sameAs="wd:Q454217">
                <placeName xml:id="n1" xml:lang="de">Museum Fünf Kontinente</placeName>
+               <placeName corresp="#n1" xml:lang="en">Museum Five Continents</placeName>
                <placeName xml:id="n2" xml:lang="de" type="alt">Museum für Völkerkunde</placeName>
-               <country ref="wd:Q183"/>
+               <country ref="wd:Q183">Germany</country>
                <region ref="wd:Q980"/>
-               <settlement type="city" ref="wd:Q1726"/>
-
+               <settlement type="city" ref="wd:Q1726">Munich</settlement>
+               <location><geo>48.137597 11.585697</geo></location>
             </place>
          </listPlace>
       </body>
