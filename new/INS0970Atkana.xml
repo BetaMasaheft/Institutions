@@ -1,5 +1,7 @@
+
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0970Atkana" xml:lang="en" type="ins">
     <teiHeader>
@@ -13,11 +15,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+
                     Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -32,22 +36,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+
+            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="MKr" when="2021-12-15">Created entity</t:change>
+            <change who="MKr" when="2021-12-15">Created entity</change>
+
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place  type="church religiousSite" subtype="institution">
-                    <placeName>ʾAtkanā Giyorgis</placeName>
-                </place>
-            </listPlace><!---->
+
+                <place type="church"  subtype="institution">
+                    <placeName xml:lang="gez" xml:id="n1">አትከና፡ ጊዮርጊስ፡</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAtkanā Giyorgis</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">Atqhanâ</placeName>
+                    <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
+                    <region notAfter="1974" type="Region" ref="LOC1713Bagemd"/>
+                     <settlement when="2021-12-15" type="warada" ref="LOC3056Farta"/>
+                     <location><geo>11.966675 38.18329</geo></location>
+                     <country ref="LOC3010Ethiop"></country>
+
+                    <note>
+                    <date type="foundation" when="1596">1596</date>
+                    <desc type="foundation">Founded by the rās <persName ref="PRS11898Waldakrestos">Walda Krǝstos</persName> in 1596.</desc>
+                    <ab type="tabot">Main tābot dedicated to <persName ref="PRS4585Georgeo" type="tabot">George</persName>.</ab>
+
+                    </note>
+                   </place>
+               </listPlace>
+               <listBibl type="secondary">
+                           <bibl>
+                              <ptr target="bm:1907RASOC6"/><citedRange unit="page">435-437</citedRange>
+                           </bibl>
+                        </listBibl>
+
         </body>
     </text>
 </TEI>
