@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place  type="library" subtype="institution">
+            <place  type="library" subtype="institution" sameAs="wd:Q872896">
                <placeName xml:id="n1" xml:lang="de">Universitätsbibliothek Leipzig</placeName>
               <country ref="wd:Q183">Germany</country>
                <settlement type="city">Leipzig</settlement>
