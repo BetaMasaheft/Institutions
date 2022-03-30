@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="academicInstitution library" subtype="institution">
                     <placeName>Biblioteca Statale di Montevergine annessa al Monumento nazionale di Montevergine</placeName>
-                    <country ref="wd:Q38"/>
-                    <settlement type="Town" ref="wd:Q1423685"/>
+                    <country ref="wd:Q38">Italy</country>
+                    <settlement type="Town" ref="wd:Q1423685">Avellino</settlement>
                     <settlement type="City" ref="wd:Q55053"/>
                     <region type="Province" ref="wd:Q16120"/>
                     <region type="Region" ref="wd:Q1438"/>
