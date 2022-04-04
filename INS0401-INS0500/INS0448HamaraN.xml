@@ -52,9 +52,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <placeName xml:id="n2" xml:lang="gez">ሠለስቱ፡ ምእት፡</placeName>
                     <placeName corresp="#n2" type="normalized">Śalastu mǝʾt</placeName>
                     <placeName corresp="#n2" xml:lang="it">Selestù Mit</placeName>
+                    <placeName xml:id="n3" xml:lang="gez">ሐመረ፡ ኖኅ፡ ኪዳነ፡ ምሕረት፡</placeName>
+                    <placeName corresp="#n3" type="normalized">Ḥamara Noḫ Kidāna Mǝḥrat</placeName>
                     <state type="existence" ref="Gon"/>
                     <country ref="LOC3010Ethiop"/>
                     <settlement ref="LOC3577Gondar"/>
+                    <note>
+                        <date type="foundation" when="1709"></date>
+                        <desc type="foundation">Restored by <persName ref="PRS6643MananLi">Manan</persName> in <date when="1844">1844</date>.</desc>
+                        
+                        <ab type="tabot"><ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, 
+                            <persName ref="PRS6152Lalibala" type="tabot">Lalibalā</persName></ab>
+                        
+                        
+                    </note>
                     <listBibl type="secondary">
                         <bibl>
                      <ptr target="bm:Fiaccadori2007EAEHamara"/>
