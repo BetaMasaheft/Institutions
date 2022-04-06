@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <titleStmt>
                 <title>Ḥamara Noḫ</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -35,45 +35,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="it">Italian</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-01-17">Created entity</change>
+            <change who="ES" when="2022-04-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q54585686" type="church monastery" subtype="institution">
-                  <settlement ref="wd:Q54585998"/> 
-               <country ref="wd:Q115"/>
-                  <placeName xml:id="n1" xml:lang="gez">ሐመረ፡ ኖኅ፡</placeName>
-                    <placeName corresp="#n1" type="normalized">Ḥamara Noḫ</placeName>
-                    <placeName xml:id="n2" xml:lang="gez">ሠለስቱ፡ ምእት፡</placeName>
-                    <placeName corresp="#n2" type="normalized">Śalastu mǝʾt</placeName>
-                    <placeName corresp="#n2" xml:lang="it">Selestù Mit</placeName>
-                    <placeName xml:id="n3" xml:lang="gez">ሐመረ፡ ኖኅ፡ ኪዳነ፡ ምሕረት፡</placeName>
-                    <placeName corresp="#n3" type="normalized">Ḥamara Noḫ Kidāna Mǝḥrat</placeName>
-                    <state type="existence" ref="Gon"/>
-                    <country ref="LOC3010Ethiop"/>
-                    <settlement ref="LOC3577Gondar"/>
-                    <note>
-                        <date type="foundation" when="1709"></date>
-                        <desc type="foundation">Restored by <persName ref="PRS6643MananLi">Manan</persName> in <date when="1844">1844</date>.</desc>
+                <place type="church monastery" subtype="institution">
+                    <settlement ref="wd:Q3624"/> 
+                    <country ref="wd:Q115"/>
+
+                    <placeName xml:id="n1" xml:lang="gez">ሐመረ፡ ኖኅ፡ ኪዳነ፡ ምሕረት፡</placeName>
+                    <placeName corresp="#n1" type="normalized">Ḥamara Noḫ Kidāna Mǝḥrat</placeName>
+                    
+
+                    <note>                        
+                        <ab type="tabot"><ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>
+                            </ab>                       
                         
-                        <ab type="tabot"><ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, 
-                            <persName ref="PRS6152Lalibala" type="tabot">Lalibalā</persName></ab>
-                        
-                        
-                    </note>
-                    <listBibl type="secondary">
-                        <bibl>
-                     <ptr target="bm:Fiaccadori2007EAEHamara"/>
-                  </bibl>
-                        <bibl>
-                     <ptr target="bm:Guidi1906Archivi"/>
-                  </bibl>
-                    </listBibl>
+                    </note>                    
                 </place>
             </listPlace>
         </body>
