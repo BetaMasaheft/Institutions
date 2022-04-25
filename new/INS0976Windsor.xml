@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q111718320" type="academicInstitution library" subtype="institution">
                     <placeName>Royal Library Windsor Castle</placeName>
-                    <country ref="gn:2635167"/>
-                    <settlement ref="gn:2633842"></settlement>
+                    <country ref="wd:Q145"/>
+                    <settlement ref="wd:Q464955"/>
                 </place>
             </listPlace><!---->
         </body>
