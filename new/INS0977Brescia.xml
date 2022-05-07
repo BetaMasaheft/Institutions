@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="academicInstitution library" subtype="institution">
-                    <placeName>La Biblioteca Morcelliana</placeName>
+                    <placeName>Fondazione Biblioteca Morcelli - Pinacoteca Repossi di Chiari</placeName>
                     <country ref="wd:Q111902449">Italy</country>
                     <settlement type="town" ref="wd:Q6221"/>
                     <settlement type="city" ref="wd:Q55053"/>
