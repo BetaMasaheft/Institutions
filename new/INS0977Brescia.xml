@@ -1,0 +1,58 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0977Brescia" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Biblioteca Morcelliana</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2022-05-07">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="academicInstitution library" subtype="institution">
+                    <placeName>La Biblioteca Morcelliana</placeName>
+                    <country ref="wd:Q111902449">Italy</country>
+                    <settlement type="town" ref="wd:Q6221"/>
+                    <settlement type="city" ref="wd:Q55053"/>
+                    
+                    <region type="region" ref="wd:Q1210"/>
+                </place>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>
