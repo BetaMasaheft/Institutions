@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="wd:Q3662403" type="library" subtype="institution">
-                    <placeName>Genova Castello d'Albertis</placeName>
+                    <placeName>Castello d'Albertis</placeName>
                     <country ref="wd:Q38"/>
                     <settlement ref="wd:Q1449"/>
                 </place>
