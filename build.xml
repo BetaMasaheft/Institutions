@@ -1,7 +1,7 @@
 <project default="xar">
     <xmlproperty file="expath-pkg.xml"/>
     <property name="project.version" value="${package(version)}"/>
-    <property name="project.app" value="narratives"/>
+    <property name="project.app" value="institutions"/>
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
