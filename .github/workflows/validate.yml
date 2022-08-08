@@ -16,7 +16,9 @@ jobs:
           path: schema
           fetch-depth: 1  
       - name: Install Test Dependencies
-        run: sudo apt-get install libxml2-utils
+        run: |
+          sudo apt-get update
+          sudo apt-get install libxml2-utils
       # - name: check local Files
       #   run: |
       #     cd schema
