@@ -48,9 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" xml:id="n1">መንበረ፡ ልዑል፡ ቅዱስ፡ ማርቆስ፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Manbara Lǝʿul Qəddus Mārqos </placeName>
                     <country ref="wd:Q115">Ethiopia</country>
-                    <settlement ref="LOC4508Manbar"/> 
                 </place>
             </listPlace>
+            <div type="bibliography">
+                <listRelation>
+                    <relation name="skos:exactMatch" active="INS0984MLQM" passive="LOC4508Manbar"/>
+                </listRelation>
+            </div>
         </body>
     </text>
 </TEI>
