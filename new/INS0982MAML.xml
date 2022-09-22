@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private collection of Mamhǝr ʾAʾmǝro (Marṭul Māryām)</title>
+                <title>Private collection of Mamhǝr ʾAʾmǝro (Marṭula Māryām)</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,6 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of Mamhǝr ʾAʾmǝro (Marṭula Māryām)</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC2958Ennaba"/>
+                    <settlement ref="LOC4594Martul"/>
                 </place>
             </listPlace>
         </body>
