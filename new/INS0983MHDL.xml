@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2022-09-22">Created entity</change>
+            <change who="DR" when="2022-09-23">Included information on the collection provided by Mersha Alehegne Mengistie</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,7 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of Hayla Māryām (Dabra Libānos)</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC5597Sawa">Šawā</region>
+                    <region ref="LOC5482Salale"/>
                     <settlement ref="LOC2297DabraL">Dabra Libānos</settlement> 
+                    <note>The private collection of Mamhǝr Hayla Māryām, photographed by Mersha Alehegne Mengistie in January 2010, 
+                        consists of manuscripts of Mamhǝr Hayla Māryām's father, 
+                    a renowned ʾAndǝmtā scholar.</note>
                 </place>
             </listPlace>
         </body>

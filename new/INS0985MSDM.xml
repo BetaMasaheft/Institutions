@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2022-09-22">Created entity</change>
+            <change who="DR" when="2022-09-23">Included information on the collection provided by Mersha Alehegne Mengistie</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,7 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of Mamhǝr Salomon (Dabra Mārqos)</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC7114EGz"/>
                     <settlement ref="LOC2310DabraM">Dabra Mārqos</settlement> 
+                    <note>The private collection of Mamhǝr Salomon of <placeName ref="LOC2310DabraM"/>, photographed 
+                    by Mersha Alehegne Mengistie in January 2011, consists of manuscripts copied manually and of photocopies of manuscripts
+                    made by Mamhǝr Salomon
+                    in East Goǧǧām and the St Paul Seminary</note>
                 </place>
             </listPlace>
         </body>

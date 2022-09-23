@@ -47,6 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of Mamhǝr Damǝss (Dabra Libānos)</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC5597Sawa">Šawā</region>
+                    <region ref="LOC5482Salale"/>
                     <settlement ref="LOC2297DabraL">Dabra Libānos</settlement> 
                 </place>
             </listPlace>
