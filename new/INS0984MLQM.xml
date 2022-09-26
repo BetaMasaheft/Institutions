@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" xml:id="n1">መንበረ፡ ልዑል፡ ቅዱስ፡ ማርቆስ፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Manbara Lǝʿul Qəddus Mārqos </placeName>
                     <country ref="wd:Q115">Ethiopia</country>
-                    <settlement ref="wd:Q3624">ʾAddis Ababā</settlement>
+                    <settlement ref="LOC1216AddisA">ʾAddis Ababā</settlement>
                 </place>
             </listPlace>
             <div type="bibliography">
