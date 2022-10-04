@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-              <place sameAs="Q1333399" type="academicInstitution">
+              <place sameAs="wd:Q1333399" type="academicInstitution">
                  <placeName>University of Leicester</placeName>
                  <placeName type="university"></placeName>
                   <country ref="wd:Q145"/>
