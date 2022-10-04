@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q3356148" type="academicInstitution">
+                <place sameAs="wd:Q3356148" type="academicInstitution" subtype="institution">
                     <placeName>Kulturhistorisk Museum </placeName>
                  <placeName type="museum"></placeName>
                     <country ref="wd:Q20"/>
