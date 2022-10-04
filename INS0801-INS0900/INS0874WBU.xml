@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-            ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0874WBU" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0874WBU" xml:lang="en" type="ins">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -53,14 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="academicInstitution">
+            <place subtype="institution" type="academicInstitution" sameAs="wd:Q49119">
                <placeName type="normalized">Brandeis University</placeName>
                <placeName type="alt">Waltham (MA), Brandeis University</placeName>
                <country ref="wd:Q30"/>
                <region ref="wd:Q771"/>
-               <settlement ref="wd:Q49190"/>
+               <settlement ref="wd:Q49190">Waltham, MA</settlement>
                <location>
-                  <geo>42.367952 -71.258205</geo>
+                  <geo>42.367952 71.258205</geo>
                </location>
             </place>
          </listPlace>
