@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q3356148" type="academicInstitution" subtype="institution">
                     <placeName>Warner Pacific University </placeName>
-                    <placeName type="university"></placeName>
+                    
                     <country ref="wd:Q30"/>
                     <region ref="wd:Q824"></region>
                     <settlement type="city" ref="wd:Q6106">Portland</settlement>
