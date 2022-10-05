@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <fileDesc>
          <titleStmt>
             <title>Capuchin Center for Research and Retreat</title>
-            <title type="short">ACC</title>
+            
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,9 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="academicInstitution">
+            <place subtype="institution" type="academicInstitution" sameAs="wd:Q114424928">
                <placeName type="normalized">Capuchin Center for Research and Retreat</placeName>
                <placeName type="alt">Addis Ababa, Capuchin Center for Research and Retreat</placeName>
+               <placeName type="alt">Capuchin Franciscan Research and Retreat Center</placeName>
+               <placeName type="alt">Capuchin Theological Institute</placeName>
+               <placeName type="alt">Capuchin Friary Addis Ababa</placeName>
+               <placeName type="short">CFRRC</placeName>
+               <placeName type="short">ACC</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
                <settlement ref="LOC1216AddisA"/>
