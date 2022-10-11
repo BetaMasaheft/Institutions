@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="ins" xml:lang="en" xml:id="INS0988Esatan">
+    <teiHeader xml:base="https://betamasaheft.eu/">
+        <fileDesc>
+            <titleStmt>
+                <title>ʾƎšatan Māryām</title>
+                <author/>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JG"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p> This file is licensed
+                            under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                    </licence>
+                </availability>
+                
+                
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+                <xi:fallback>
+                    <p>Definitions of prefixes used.</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JG" when="2018-11-19">Added region country, note, location, and edited transliteration</change>
+            <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
+            <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+            <change who="ES" when="2016-02-09">CREATED: place</change>
+            <change who="SG" when="2020-05-01">transcription</change>
+            <change who="ES" when="2022-10-11">copied from LOC to INS</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="church">
+                    <placeName xml:lang="gez" corresp="n1" >እሸተን፡ ማርያም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾƎšatan Māryām</placeName>
+                    
+                    <placeName xml:lang="gez" xml:id="n2" type="alt">አሸተን፡ ማርያም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾAšatan Māryām</placeName>
+                    
+                    <country ref="LOC3010Ethiop"/>
+                    <region ref="LOC6573NorthWallo"/>
+                    <location>
+                        <geo>12.016957 39.071967</geo>
+                    </location>
+                    <note>The hewn church is situated on a flat-topped mountain south-east of Lālibalā.</note>
+                    
+                    
+                    
+                    
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="INS0988Esatan" passive="LOC2997Esatan"></relation></listRelation>
+                
+            </listPlace>
+            
+            
+        </body>
+    </text>
+</TEI>
