@@ -44,8 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="wd:" type="library" subtype="institution">
+                <place type="library" subtype="institution">
                     <placeName>National Library of Scotland</placeName>
+                    <country ref="wd:Q145"/>
+                    <settlement ref="wd:Q23436"/>
                 </place>
             </listPlace><!---->
         </body>
