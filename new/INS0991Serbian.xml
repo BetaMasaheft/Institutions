@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0991Serbian" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Library of Serbia</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>  
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2022-12-30">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place sameAs="wd:Q111718320" type="academicInstitution library" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="en">National Library of Serbia</placeName>
+                    <placeName xml:id="n2" xml:lang="sr">Народна библиотека Србије</placeName>
+                    <country ref="wd:Q403"/>               
+                    <settlement type="city" ref="wd:Q3711"/>
+                    <location>
+                        <geo>44.797528 20.467167</geo>
+                    </location>
+                </place>
+            </listPlace>            
+            <listRelation>
+                                  <relation name="saws:hasOwned" active="INS0991Serbian" passive="SNLkopt01"/>
+                </listRelation>
+         
+        </body>
+    </text>
+</TEI>
