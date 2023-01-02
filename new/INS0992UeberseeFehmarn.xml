@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="de">German</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -44,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="museum" subtype="institution">
-                    <placeName xml:lang="ger">Museum Übersee</placeName>
+                <place type="museum" subtype="institution" sameAs="wd:Q333527">
+                    <placeName xml:lang="de">Museum Übersee</placeName>
                     <country ref="wd:Q183"/>               
                     <settlement type="city" ref="wd:Q3172"/>
                     <location>
