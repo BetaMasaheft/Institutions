@@ -34,7 +34,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>  
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="sr">Serbian</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>

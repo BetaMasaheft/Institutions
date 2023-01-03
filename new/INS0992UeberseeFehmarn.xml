@@ -51,12 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement type="city" ref="wd:Q3172"/>
                     <location>
                         <geo>54.422333 11.188998</geo>
-                    </location>
+                    </location>                
                 </place>
-                <listRelation>
-                    <relation name="saws:hasOwned" active="INS0992UeberseeFehmarn" passive="MUFet01"/>
-                </listRelation>
-            </listPlace><!---->
+              </listPlace>
         </body>
     </text>
 </TEI>
