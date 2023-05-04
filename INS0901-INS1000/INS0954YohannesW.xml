@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ዮሐንስ፡ ወልደ፡ ነጐድጓድ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Yoḥannəs Walda Nagʷadgʷād</placeName>
-                    
-                    <settlement ref="LOC3577Gondar"/>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Yoḥannəs Walda Nagʷadgʷād</placeName>
+                    <country ref="wd:Q115">Ethiopia</country>
+                    <settlement ref="LOC3577Gondar">Gondar</settlement>
                 </place>
             </listPlace>
             <div type="bibliography">
