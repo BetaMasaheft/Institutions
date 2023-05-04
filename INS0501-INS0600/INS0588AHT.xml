@@ -54,8 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">Qǝddǝst Śǝllāse / Holy Trinity Cathedral</placeName>
-               <placeName type="alt">Addis Ababa, Shewa, Holy Trinity Cathedral</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n1">ቅድስት፡ ሥላሴ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Qǝddǝst Śǝllāse </placeName>
+               <placeName xml:lang="en" corresp="#n1" type="main">Holy Trinity Cathedral</placeName>
+               <placeName xml:lang="gez" xml:id="n2">መንበረ፡ ሰባኦት፡ ቅድስት፡ ሥላሴ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Manbara Ṣabāʾot qǝddǝst Śǝllāse </placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
                <settlement ref="LOC1216AddisA"/>
