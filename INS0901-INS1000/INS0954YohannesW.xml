@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>                        
                         <ab type="tabot"><persName ref="PRS5695John#n3" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>
                         </ab>                       
-                        
+                        <desc type="foundation">Emperor Takla Hāymānot founded the church in <date when="1769">1769</date></desc>
                     </note>
                 </place>
             </listPlace>
