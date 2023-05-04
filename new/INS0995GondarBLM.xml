@@ -46,8 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place  type="church" subtype="institution">
                     <placeName>Gondar Baʾātā Lamāryām</placeName>
-                    <country>Ethiopia</country>
-                    <settlement>Gondar</settlement>
+                    <country ref="wd:Q115">Ethiopia</country>
+                    <settlement ref="LOC3577Gondar">Gondar</settlement>
+                    <note><desc type="foundation">Founded in <date when="1771">1771</date> during the reign of Emperor Takla Hāymānot</desc></note>
                 </place>
             </listPlace><!---->
         </body>
