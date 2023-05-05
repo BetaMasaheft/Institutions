@@ -50,6 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement ref="LOC1721BaherD"/>
                     <note>
                         <ab type="tabot"><persName ref="PRS10775Trinity" type="tabot">Trinity</persName></ab>
+                        <desc type="foundation">It was founded in <date when="1694">January 1694</date> during the reign of ʾaṣe Iyāsu I. </desc>
                     </note>
                 </place>
             </listPlace><!---->
