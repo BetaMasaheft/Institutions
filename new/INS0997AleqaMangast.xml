@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0981MDDL" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0997AleqaMangast" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private collection of Mamhǝr Dǝggu</title>
+                <title>Alaqa Mangest</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -32,28 +32,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2022-09-22">Created entity</change>
-            <change when="2023-05-09" who="ES">renamed the collection in accordance with the EAP spreadsheet</change>
+            <change who="ES" when="2023-05-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Mamhǝr Dǝggu</placeName>
+                    <placeName>Alaqā Mangǝst private collection</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
-                    
-                    <settlement ref="LOC1110Addet">Addet</settlement> 
-                    <note>Collection of <persName ref="PRS14015Deggu"></persName>. He started collecting manuscripts when he was a student of Andǝmta. The collection was digitized for <ref target="https://eap.bl.uk/project/EAP336">EAP336</ref> as EAP336/2.</note>
+                    <region ref="LOC3549Gojjam"></region>
+                    <settlement ref="LOC7370FalagaB">Falaga Bǝrhan</settlement>
+                    <settlement ref="LOC7371FalagaB">Falaga Bǝrhan Iyasus</settlement>
+                    <note>The collection was digitized for <ref target="https://eap.bl.uk/project/EAP336">EAP336</ref> as EAP336/1.</note>
                 </place>
-            </listPlace>
+            </listPlace><!---->
         </body>
     </text>
 </TEI>

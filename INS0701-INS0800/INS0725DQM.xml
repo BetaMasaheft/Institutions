@@ -62,6 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <location>
                   <geo>10.304485 37.735583</geo>
                </location>
+               <note>Digitized for EAP432; selected mss also digitized for EAP336 as EAP336/7</note>
             </place>
          </listPlace>
       </body>
