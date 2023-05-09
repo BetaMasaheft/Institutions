@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private collection of Mamhǝr Damǝss (Dabra Libānos)</title>
+                <title>Private collection of Mamhǝr Dǝggu</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,17 +39,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2022-09-22">Created entity</change>
+            <change when="2023-05-09" who="ES">renamed the collection in accordance with the EAP spreadsheet</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Mamhǝr Damǝss (Dabra Libānos)</placeName>
+                    <placeName>Private collection of Mamhǝr Dǝggu</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
-                    <region ref="LOC5597Sawa">Šawā</region>
-                    <region ref="LOC5482Salale"/>
-                    <settlement ref="LOC2297DabraL">Dabra Libānos</settlement> 
+                    <region ref="LOC1426Amhara">Amhara</region>
+                    
+                    <settlement ref="LOC1110Addet">Addet</settlement> 
+                    <note>Collection of <persName ref="PRS14015Deggu"></persName>. He started collecting manuscripts when he was a student of Andǝmta. The collection was digitized for <ref target="https://eap.bl.uk/project/EAP336">EAP336</ref> as EAP336/2.</note>
                 </place>
             </listPlace>
         </body>
