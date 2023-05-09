@@ -57,6 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <location>
                         <geo>11.078314 37.873026</geo>
                     </location>
+                    <note>9 mss from MG digitized for EAP336 as EAP336/3</note>
                 </place>
             </listPlace>
             <listRelation>
