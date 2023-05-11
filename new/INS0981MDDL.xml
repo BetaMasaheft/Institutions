@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region ref="LOC1426Amhara">Amhara</region>
                     
                     <settlement ref="LOC1110Addet">Addet</settlement> 
-                    <note>Collection of <persName ref="PRS14015Deggu"></persName>. He started collecting manuscripts when he was a student of Andǝmta. The collection was digitized for <ref target="https://eap.bl.uk/project/EAP336">EAP336</ref> as EAP336/2.</note>
+                    <note>Collection of <persName ref="PRS14015Deggu">Mamhǝr Dǝggu</persName>. He started collecting manuscripts when he was a student of Andǝmta. The collection was digitized for <ref target="https://eap.bl.uk/project/EAP336">EAP336</ref> as EAP336/2.</note>
                 </place>
             </listPlace>
         </body>
