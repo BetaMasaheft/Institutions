@@ -9,7 +9,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
             <title>ʿAbbāy Mādo Qəddus Gabrəʾel</title>
             <title type="short">AMQG</title>
             <editor role="generalEditor" key="AB"/>
-            <editor key="SDe"/>
+            <editor key="ES"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
