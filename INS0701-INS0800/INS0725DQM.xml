@@ -48,16 +48,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                                 spreadsheet</change>
          <change who="PL" when="2019-01-30">Created XML file from excel
                                 spreadsheet</change>
+         <change when="2022-05-17" who="ES">merged with INS0921QM</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place subtype="institution" type="monastery">
-               <placeName type="normalized">Qaranǝyo Madḫāne ʿĀlam</placeName>
-               <placeName type="alt">Debre Markos, Gojjam, Qaraneyo Madhane Alam Monastery</placeName>
+               <placeName type="normalized">Qarānǝyo Madḫāne ʿĀlam</placeName>
+               <placeName type="alt">Qarānyo Madḫāne ʿĀlam</placeName>
+               <desc>Debre Markos, Gojjam, Qaraneyo Madhane Alam Monastery</desc>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC3549Gojjam"/>
+               <region ref="LOC7114EGz"/>
                <settlement ref="LOC2310DabraM"/>
                <location>
                   <geo>10.304485 37.735583</geo>
@@ -65,6 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <note>Digitized for EAP432; selected mss also digitized for EAP336 as EAP336/7</note>
             </place>
          </listPlace>
+         <listRelation><relation name="betmas:formerlyAlsoListedAs" active="INS0725DQM" passive="INS0921QM"></relation></listRelation>
       </body>
    </text>
 </TEI>
