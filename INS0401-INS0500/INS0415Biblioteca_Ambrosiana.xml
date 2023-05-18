@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place sameAs="wd:Q815611" type="library" subtype="institution">
                     <placeName>Biblioteca Ambrosiana</placeName>
+                    <placeName type="alt">Veneranda Biblioteca Ambrosiana</placeName>
                     <settlement ref="wd:Q1885419"/>
                       <country ref="wd:Q38"/>
             
