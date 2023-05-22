@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Mamhǝr Dǝggu</placeName>
+                    <placeName xml:id="n1" xml:lang="en">Private collection of Mamhǝr Dǝggu</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
                     
