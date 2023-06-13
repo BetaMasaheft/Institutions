@@ -66,6 +66,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <location>
                   <geo>9.030818 38.766624</geo>
                </location>
+               <note>                        
+                  <ab type="tabot"><persName ref="PRS10775Trinity" type="tabot">Trinity</persName>
+                  </ab>                       
+                  
+               </note>
             </place>
          </listPlace>
       </body>
