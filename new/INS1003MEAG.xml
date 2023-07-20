@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region ref="LOC5482Salale"/>
                     <settlement ref="LOC2297DabraL">Bātā Church</settlement> 
                     <note>Məntasnot is a scribe who work at  Bātā Church, Gondar, Ethiopia. 
-    He is well-known scribe in the city and he explained that he owned the manuscript from his father and he keeps it as an exaplasr for his current scribal works.</note>
+    He is well-known scribe in the city and he explained that he owned the manuscript from his father 
+    and he keeps it as an exaplar for his current scribal works.</note>
                 </place>
             </listPlace><!---->
         </body>
