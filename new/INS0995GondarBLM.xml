@@ -13,11 +13,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                    Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -45,13 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place  type="church" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="gez">በአታ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Baʾatā</placeName>
-                    <placeName xml:id="n2" xml:lang="gez" type="alt">በአተ፡ ማርያም፡</placeName>
-                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Baʾata Māryām</placeName>
-                    <placeName xml:id="n3" xml:lang="gez" type="alt">በአታ፡ ለማርያም፡</placeName>
-                    <placeName corresp="#n3" xml:lang="gez" type="normalized">Baʾatā
-                        La-Māryām</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">በአታ፡ ለማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Baʾatā
+                        Lamāryām</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">በአታ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Baʾatā</placeName>
+                    <placeName xml:id="n3" xml:lang="gez" type="alt">በአተ፡ ማርያም፡</placeName>
+                    <placeName corresp="#n3" xml:lang="gez" type="normalized">Baʾata Māryām</placeName>
+                    
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
@@ -65,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
             </listPlace>
             <listRelation>
-                <relation name="skos:exactMatch" active="INS0995GondarBLM" passive="LOC1676Baata"/>
+                <relation name="skos:exactMatch" active="INS0995GondarBLM" passive="LOC1676Baata"><desc>Same site</desc></relation>
             </listRelation>
         </body>
     </text>
