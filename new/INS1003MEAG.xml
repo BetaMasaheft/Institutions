@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private Collection of Məntasnot  ʾAbbuhay (Gondar Bātā Church) </title>
+                <title>Private Collection of Məntasnot  ʾAbbuhay</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
                   <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private Collection of Məntasnot  ʾAbbuhay (Gondar Bātā Church) </placeName>
+                    <placeName>Private Collection of Məntasnot  ʾAbbuhay</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC3577Gondar">Gondar</region>
-                    <note>Məntasnot is a scribe who works at  <placeName ref="LOC1676Baata">Bātā Church</placeName>, Gondar, Ethiopia. 
+                    <note><persName ref="PRS14050MentasnotAbbuhay">Məntasnot</persName> is a scribe who works at  <placeName ref="LOC1676Baata">Baʾatā Church</placeName>, Gondar, Ethiopia. 
+                        
     </note>
                 </place>
             </listPlace>
