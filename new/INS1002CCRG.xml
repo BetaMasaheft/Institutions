@@ -5,6 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
+                
                 <title>Č̣āč̣ara Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
