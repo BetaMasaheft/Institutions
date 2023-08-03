@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church monastery" subtype="institution">
-                    <placeName>ጫጨረ፡ ጊዮርጊስ፡ </placeName>
-                    <placeName>Č̣āč̣ara Giyorgis</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ጫጨረ፡ ጊዮርጊስ፡ </placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Č̣āč̣ara Giyorgis</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                   
                     <location>
