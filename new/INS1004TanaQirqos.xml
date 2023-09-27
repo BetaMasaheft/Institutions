@@ -45,12 +45,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="wd:Q7682177" type="monastery" subtype="institution">
-                    <placeName>Ṭānā Qirqos </placeName>
+                    <placeName>Ṭānā Qirqos</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                      <placeName xml:lang="gez" xml:id="n1">ጣና፡ ቂርቆስ፡</placeName>
+                      <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṭānā Qirqos</placeName>
                 </place>
                 <listRelation>
                     <relation name="skos:exactMatch" active="INS1004TanaQirqos" passive="LOC5890TanaQi"/>
                 </listRelation>
-            </listPlace><!---->
+            </listPlace>
+
+            <listBibl type="secondary">
+                        <bibl>
+                           <ptr target="bm:BoscTiesse2000Tana"/><citedRange unit="page">211-218</citedRange>
+                        </bibl>
+            </listBibl>
+            <!---->
         </body>
     </text>
 </TEI>
