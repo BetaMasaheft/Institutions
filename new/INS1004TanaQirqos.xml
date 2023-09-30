@@ -49,9 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop"/>
                       <placeName xml:lang="gez" xml:id="n1">ጣና፡ ቂርቆስ፡</placeName>
                       <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṭānā Qirqos</placeName>
+                      <placeName xml:lang="gez" corresp="#n1">Ṭānā Ḉerqos</placeName>
                       <settlement type="district" ref="LOC5888Tana"/>
                       <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
+
                       <location><geo>11.863611 37.490833</geo></location>
+
+                      <note>
+                        One of the ancient Christian establishments in the area of Lake Ṭānā. According to the tradition it is a burial place of
+                        <persName ref="PRS8386SalamaI">St Frumentius</persName>. 
+                      </note>
                 </place>
                 <listRelation>
                     <relation name="skos:exactMatch" active="INS1004TanaQirqos" passive="LOC5890TanaQi"/>
