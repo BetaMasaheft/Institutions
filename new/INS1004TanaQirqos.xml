@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1004TanaQirqos" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ṭānā Qirqos </title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2023-09-27">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place sameAs="wd:Q7682177" type="monastery" subtype="institution">
+                    <placeName>Ṭānā Qirqos</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                      <placeName xml:lang="gez" xml:id="n1">ጣና፡ ቂርቆስ፡</placeName>
+                      <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṭānā Qirqos</placeName>
+                      <placeName xml:lang="gez" corresp="#n1">Ṭānā Ḉerqos</placeName>
+                      <settlement type="district" ref="LOC5888Tana"/>
+                      <region notBefore="1991" type="RegionalState" ref="LOC6568Amhara"/>
+
+                      <location><geo>11.863611 37.490833</geo></location>
+
+                      <note>
+                        One of the ancient Christian establishments in the area of Lake Ṭānā. According to the tradition it is a burial place of
+                        <persName ref="PRS8386SalamaI">St Frumentius</persName>. 
+                      </note>
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="INS1004TanaQirqos" passive="LOC5890TanaQi"/>
+                </listRelation>
+            </listPlace>
+
+            <listBibl type="secondary">
+                        <bibl>
+                           <ptr target="bm:BoscTiesse2000Tana"/><citedRange unit="page">211-218</citedRange>
+                        </bibl>
+            </listBibl>
+            <!---->
+        </body>
+    </text>
+</TEI>
