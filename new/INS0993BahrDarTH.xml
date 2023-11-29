@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bāhər Dār Takla Hāymānot</title>
+                <title>Bāhǝr Dār Takla Hāymānot</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church" subtype="institution">
-                    <placeName>Bāhər Dār Takla Hāymānot</placeName>
+                    <placeName>Bāhǝr Dār Takla Hāymānot</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="LOC1721BaherD"/>
                     <note>

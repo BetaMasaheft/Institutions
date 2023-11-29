@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gʷārā Yoḥannəs</title>
+                <title>Gʷārā Yoḥannǝs</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ጓራ፡ ዮሐንስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Gʷārā Yoḥannəs</placeName>
+                    <placeName corresp="#n1" xml:lang="gez">Gʷārā Yoḥannǝs</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">

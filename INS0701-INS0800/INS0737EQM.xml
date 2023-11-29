@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <placeName xml:lang="ar" xml:id="n1">دير الأنبا مقار</placeName>
                <placeName type="normalized" xml:lang="ar" corresp="#n1">Dayr al-ʾAnbā Maqār</placeName>
                <placeName xml:lang="gez" xml:id="n2">ደብረ፡ አባ፡ መቃርስ፡</placeName>
-               <placeName type="normalized" xml:lang="ar" corresp="#n2">Dabra ʾAbbā Maqārəs</placeName>
+               <placeName type="normalized" xml:lang="ar" corresp="#n2">Dabra ʾAbbā Maqārǝs</placeName>
                <placeName type="alt">El Beheira, Egypt, St Macarius Monastery</placeName>
                <country ref="wd:Q79"/>
                <settlement>El Beheira</settlement>

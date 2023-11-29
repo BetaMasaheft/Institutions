@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dǝbā Kidāna Məḥrat</title>
+                <title>Dǝbā Kidāna Mǝḥrat</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ድባ፡ ኪዳነ፡ ምሕረት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Dǝbā Kidāna Məḥrat</placeName>
+                    <placeName corresp="#n1" xml:lang="gez">Dǝbā Kidāna Mǝḥrat</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">
