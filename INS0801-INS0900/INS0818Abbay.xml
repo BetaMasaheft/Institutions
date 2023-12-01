@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʿAbbāy Mādo Qəddus Gabrəʾel</title>
+            <title>ʿAbbāy Mādo Qǝddus Gabrǝʾel</title>
             <title type="short">AMQG</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="ES"/>
@@ -52,10 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">ʿAbbāy Mādo Qəddus Gabrəʾel</placeName>               
+               <placeName type="normalized">ʿAbbāy Mādo Qǝddus Gabrǝʾel</placeName>               
                <country ref="wd:Q115">Ethiopia</country>
                <settlement ref="LOC1721BaherD"/>
-               <location><desc>This is a relatively new Church in the outskirt of Bāḥər Dār where there is a school of Dəggwa</desc>                  
+               <location><desc>This is a relatively new Church in the outskirt of Bāḥǝr Dār where there is a school of Dǝggwa</desc>                  
                </location>
                
             </place>

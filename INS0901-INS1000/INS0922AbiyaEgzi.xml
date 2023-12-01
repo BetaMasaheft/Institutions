@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAbbā ʿĀbiya ʾƎgziʾ Kidāna Məḥrat</title>
+                <title>ʾAbbā ʿĀbiya ʾƎgziʾ Kidāna Mǝḥrat</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">አባ፡ ዓቢየ፡ እግዚእ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez">ʾAbbā ʿĀbiya ʾƎgziʾ</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ኪዳነ፡ ምሕረት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Kidāna Məḥrat</placeName>
+                    <placeName corresp="#n1" xml:lang="gez">Kidāna Mǝḥrat</placeName>
                     <settlement ref="LOC3577Gondar"/>
                 </place>
             </listPlace>

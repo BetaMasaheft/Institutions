@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Bərhān Śəllāse</title>
+                <title>Dabra Bǝrhān Śǝllāse</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place  type="church" subtype="institution">
-                    <placeName>Dabra Bərhān Śəllāse</placeName>
+                    <placeName>Dabra Bǝrhān Śǝllāse</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="LOC3577Gondar">Gondar</settlement>
                     <note><desc type="foundation">Located on a hill in the north-west side of the city, this church is one of the famous churches in Gondar town. It was founded in <date when="1694">January 1694</date> during the reign of ʾaṣe Iyyāsu I. </desc></note>
