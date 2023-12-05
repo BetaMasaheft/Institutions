@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n3" xml:lang="en">Yoḥannǝs Maʿāquddi Dabra Karbe </placeName>
                     <placeName xml:id="n4" xml:lang="gez">ደብረ፡ ከርቤ፡ ዮሐንስ፡ መዓቁዲ፡</placeName>
                     <placeName corresp="#n4" xml:lang="en">Yoḥannǝs Maʿāquddi Dabra Karbe</placeName>
-                            <placeName xml:id="n5" xml:lang="gez">ዮሐንስ፡ ዓዲ፡ አይኑ፡</placeName>               
+                    <placeName xml:id="n5" xml:lang="gez">ዮሐንስ፡ ዓዲ፡ ዓይኑ፡</placeName>               
                             <placeName corresp="#n5" xml:lang="en">Yoḥannǝs ʿĀddi ʿĀynu</placeName>
                             
                             <country ref="LOC3010Ethiop"></country>
@@ -73,9 +73,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <ab type="tabot">
                                     <measure quantity="2"></measure>                                   
                                     <persName ref="PRS5695John" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>, 
-                                    <persName ref="PRS6819Mary" type="tabot">Mary</persName>
-                                    <persName ref="PRS10776Kidan" type="tabot">the Covenant of Mercy</persName>
-                                    <note>The third <foreign xml:lang="gez">tabot</foreign>, dedicated to <persName ref="PRS10776Kidan"/>, is hosted by a new church 
+                                    <persName ref="PRS6819Mary" type="tabot">Mary</persName>                                   
+                                    <note>The third <foreign xml:lang="gez">tābot</foreign>, dedicated to 
+                                        <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, is hosted by another new church 
                                     located in the vicinity.</note>                                    
                                 </ab>
                                 
