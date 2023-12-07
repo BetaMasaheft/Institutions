@@ -71,12 +71,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <ab type="history">Dabr. Rock-hewn church well-known for its frescos depicting <persName ref="PRS4015Fasilada">King Fasiladas</persName>.
                                 </ab>
                                 <ab type="tabot">
-                                    <measure quantity="2">2</measure>                                   
+                                    <measure quantity="2">2</measure>  2 main  tābots,                                
                                     <persName ref="PRS5695John" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>, 
-                                    <persName ref="PRS6819Mary" type="tabot">Mary</persName>                                   
-                                    <note>The third <foreign xml:lang="gez">tābot</foreign>, dedicated to 
+                                    <persName ref="PRS6819Mary" type="tabot">Mary</persName>. A third <foreign xml:lang="gez">tābot</foreign>, dedicated to 
                                         <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, is hosted by another new church 
-                                    located in the vicinity.</note>                                    
+                                    located in the vicinity.                                    
                                 </ab>
                                 
                                 <ab type="description">Six manuscripts were digitized and 22 others were recorded by D. Nosnitsin on <date>15 November 2023</date>. 
