@@ -71,7 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <ab type="history">Dabr. Rock-hewn church well-known for its frescos depicting <persName ref="PRS4015Fasilada">King Fasiladas</persName>.
                                 </ab>
                                 <ab type="tabot">
-                                    <measure quantity="2"></measure>                                   
+                                    <measure quantity="2">2</measure>                                   
                                     <persName ref="PRS5695John" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>, 
                                     <persName ref="PRS6819Mary" type="tabot">Mary</persName>                                   
                                     <note>The third <foreign xml:lang="gez">tābot</foreign>, dedicated to 
