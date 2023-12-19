@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="en" xml:id="n1">Franciscan Center of Christian Oriental Studies</placeName>
                     <placeName xml:lang="en" xml:id="n2">Franciscan Center for Christian Oriental Studies</placeName>
                     <placeName xml:lang="fr" xml:id="n3">Centre d'Etudes Orientales Chrétiennes du Mouski</placeName>
-                    <country ref="wd:Q79">Egypt</country>               
-                    <settlement type="city" ref="wd:Q85">Cairo</settlement>
+                    <country ref="LOC2804Egypt">Egypt</country>               
+                    <settlement type="city" ref="LOC2085Cairo">Cairo</settlement>
                 </place>
             </listPlace>
         </body>
