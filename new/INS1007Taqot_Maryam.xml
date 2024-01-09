@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -70,10 +71,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <ab type="tabot">
                             <measure quantity="3">3</measure>  3 tābots,                                
                                   <persName ref="PRS6819Mary" type="tabot">Mary</persName>,  
-                            <persName ref="PRS9684Uriel" type="tabot">ʿUraʾel</persName>,
+                            <persName ref="PRS9684Uriel" type="tabot">ʿUrāʾel</persName>,
                             <persName ref="PRS1284Abrehaa" type="tabot">Abrǝhā and ʾAṣbǝḥa</persName>.                                                               
                         </ab>
-                                                <ab type="description">The church of St. Mary Zion stands on the foundation dating at least to the Aksumite time, 
+                                                <ab type="description">The church of St Mary Zion stands on the foundation dating at least to the Aksumite time, 
                             other remains of Aksumite stonework are visible in the church compound.
                             An old rock-hewn church is located nearby, called by the local people <foreign xml:lang="ti">Naḵwāl ʾƎmni</foreign>.
                             An archeological has been recently found just outside the church compound, where the community 
