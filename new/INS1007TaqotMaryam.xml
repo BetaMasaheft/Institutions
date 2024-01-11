@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church religiousSite" subtype="institution">                    
+                <place type="church religiousSite dabr" subtype="institution">                    
                     <placeName xml:id="n1" xml:lang="gez">ጣቖት፡ ደብረ፡ ጽዮን፡ ማርያም፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Ṭāq̲ot Dabra Ṣəyon Māryām</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ማርያም፡ ጣቖት፡</placeName>
