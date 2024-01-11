@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     <settlement ref="LOC6653EastTegray" type="zone" when="2023-11-15">East Tǝgrāy zone</settlement>
                     <settlement ref="LOC3826Hawzen" type="warada" when="2023-11-15"> waradā  Ḥawzen</settlement>
-                    <settlement when="2023-11-15" ref="LOC7408Maykwiha" type="tabiya">ṭabiyā Māy Kʷiḥā</settlement>
+                    <settlement when="2023-11-15" ref="LOC7408Maykwiha" type="tabiya">ṭābiyā Māy Kʷiḥā</settlement>
                     <settlement when="2023-11-15" ref="LOC4358Maaqud" type="qushat">qušat Maʿāquddi</settlement>
                             <location>
                                 <geo>13.849072 39.447303</geo>
@@ -87,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="skos:exactMatch" active="INS1005Maaqud" passive="LOC4359Maaqud"/>
                 </listRelation>
-            </listPlace>
+            </listPlace>            
         </body>
     </text>
 </TEI>
