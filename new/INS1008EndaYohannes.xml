@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1008EndaYohannes" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾƎndā Yoḥannǝs</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ti">Tigrinya</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="DN" when="2024-01-23">Created entity</t:change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                    <place type="church gadam monastery" subtype="institution">
+                        <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ዮሐንስ፡ </placeName>
+                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Yoḥannǝs</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ቈላ፡ ገብሌ፡ </placeName>
+                        <placeName corresp="#n2" xml:lang="en">ʾƎndā Yoḥannǝs Qʷallā Gable</placeName>
+                        <placeName xml:id="n3" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ገዳም፡</placeName>
+                        <placeName corresp="#n3" xml:lang="en">ʾƎndā Yoḥannǝs gadām</placeName>
+                        
+                        <country ref="LOC3010Ethiop">Ethiopia</country>
+                        <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                        
+                        <settlement ref="LOC6555CentralTegray" type="zone" when="2024-01-09">Central Tǝgrāy zone</settlement>
+                        <settlement ref="LOC3746Hahayl" type="warada" when="2024-01-09">waradā  Ḥaḥayle</settlement>
+                        
+                        <settlement when="2024-01-09" ref="LOC7434HaddushAddi" type="tabiya">ṭābiyā Ḥādduš ʿAddi</settlement>
+                        <settlement when="2024-01-09" ref="LOC7435MayKwak" type="qushat">qušat Māy Kʷāḵ</settlement>
+                        
+                        <location>
+                            <geo>14.172079 39.564739</geo>
+                            <height unit="m">2635.0</height>
+                        </location>
+                        <note>
+                            <date type="foundation" notBefore="1300" notAfter="1499"/>
+                            <ab type="history">Gadām.</ab>
+                            <ab type="tabot">
+                                <measure quantity="10">10</measure>  10 tābots, at least one of them is dedicated to 
+                                                             
+                                <persName ref="PRS10419Yohanne" type="tabot">Yoḥannǝs of Wifāt.</persName>.                                                               
+                            </ab>
+                            <ab type="description">The church of Yohannes of <persName ref="PRS10419Yohanne">Yoḥannǝs of Wifāt.</persName> 
+                                stands not far from the archaeological site.
+                                21 priests and 32 deacons serve in the church (the stand for <date>January 2024</date>).
+                                70 manuscripts were inventarized on <date>15 Januar 2024</date> by Amahuel Abraha. 
+                               </ab>
+                        </note>
+                    </place>
+            </listPlace>
+                    <listRelation>                        
+                        <relation name="skos:exactMatch" active="INS1008EndaYohannes" passive="LOC7435MayKwak"/>
+                         </listRelation>
+       
+        </body>
+    </text>
+</TEI>
