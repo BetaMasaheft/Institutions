@@ -62,8 +62,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <settlement when="2024-01-09" ref="LOC7435MayKwak" type="qushat">qušat Māy Kʷāḵ</settlement>
                         
                         <location>
-                            <geo>14.172079 39.564739</geo>
-                            <height unit="m">2635.0</height>
+                            <geo>14.114261 39.102658</geo>
+                            <height unit="m">2338.4</height>
                         </location>
                         <note>
                             <date type="foundation" notBefore="1300" notAfter="1499"/>
