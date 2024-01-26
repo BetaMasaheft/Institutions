@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0011GuyaTH" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guyā Takla Ḥaymānot</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2024-01-23">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                    <place type="church gadam monastery" subtype="institution">
+                        <placeName xml:id="n1" xml:lang="gez">ጉያ፡ ተክለ፡ ሐይማኖት፡ </placeName>
+                        <placeName corresp="#n1" xml:lang="en">Guyā Takla Ḥaymānot</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">ተክለ፡ ሐይማኖት፡ ታምባ፡ </placeName>
+                        <placeName corresp="#n2" xml:lang="en">Takla Ḥaymānot Tāmba</placeName>
+                        <placeName xml:id="n3" xml:lang="gez">ማርያም፡ ታምባ፡</placeName>
+                        <placeName corresp="#n3" xml:lang="en">Māryām Tāmbā</placeName>
+                        
+                        <country ref="LOC3010Ethiop">Ethiopia</country>
+                        <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                        
+                        <settlement ref="LOC6555CentralTegray" type="zone" when="2023-12-09">Central Tǝgrāy zone</settlement>
+                        <settlement ref="LOC5882Tamben" type="region">Tamben region</settlement>
+                        <settlement ref="LOC5278Qwalla" type="warada" when="2023">waradā  Qolla Tamben</settlement>
+                        
+                        <settlement when="2024-01-09" ref="LOC7400Guya" type="tabiya">ṭābiyā Guyā</settlement>
+                        
+                        
+                        <location>
+                            <geo>13.620572 38.825651</geo>                            
+                        </location>
+                        <note>
+                            <date type="foundation" notBefore="1434" notAfter="1499"/>
+                            
+                            <ab type="tabot">
+                                <measure quantity="2">2</measure>  2 tābots,  
+                                                             
+                                <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName> and <persName ref="PRS6819Mary" type="tabot">St Mary</persName>.                                                               
+                            </ab>
+                            <ab type="description">Rock-hewn church.
+                                198 manuscripts were counted in <date>December 2023</date> by Guesh Solomon. 
+                               </ab>
+                            <ab type="history">According to the local tradition, the rock-hewn church was built during the reign of Emperor Zarʾa Yāʿqob (r. 1434−1468 CE). The monastery is said to have suffered significant destruction, primarily affecting its movable treasures, during to the invasion by Aḥmad b. Ibrāhīm Al-Ġāzī (Ahmad Grāññ ‘the left-handed’) in the sixteenth century.</ab>
+                        </note>
+                    </place>
+            </listPlace>
+            <listRelation><relation name="skos:exactMatch" active="INS0011GuyaTH" passive="LOC3676GuyaTa"></relation></listRelation>
+       
+        </body>
+    </text>
+</TEI>
