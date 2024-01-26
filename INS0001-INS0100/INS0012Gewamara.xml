@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0012Gewamara" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ǧǝwāmāra Mikaʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2024-01-23">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                    <place type="church gadam monastery" subtype="institution">
+                        <placeName xml:id="n1" xml:lang="gez">አምብርስዋ፡ ሚካኤል፡</placeName>
+                        <placeName corresp="#n1" xml:lang="en">Ǧǝwāmāra Mikaʾel</placeName>
+
+                        
+                        <country ref="LOC3010Ethiop">Ethiopia</country>
+                        <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                        
+                        <settlement ref="LOC6555CentralTegray" type="zone" when="2023-12-09">Central Tǝgrāy zone</settlement>
+                        <settlement ref="LOC5882Tamben" type="region">Tamben region</settlement>
+                        <settlement ref="LOC5278Qwalla" type="warada" when="2023">waradā  Qolla Tamben</settlement>
+                        
+                        <settlement when="2024-01-09" ref="LOC7351Gewamara" type="tabiya">ṭābiyā Ǧǝwāmāra</settlement>
+                        
+                        
+                        <location>
+                            <geo>13.650557 38.670969</geo>                            
+                        </location>
+                        <note>
+                            
+                            <ab type="tabot">
+                                <measure quantity="3">3</measure>  3 tābots,  
+                                                             
+                                <persName ref="PRS7049Michael" type="tabot">St Michael</persName>, <persName ref="PRS9395Tensae" type="tabot">Tanśǝʾa Wald</persName>, <persName ref="PRS14239Maaza" type="tabot">Maʿāzā Dǝngǝl</persName>.                                                               
+                            </ab>
+                            <ab type="description">
+                                200 manuscripts were counted in <date>December 2023</date> by Guesh Solomon. 
+                               </ab>
+                            
+                        </note>
+                    </place>
+            </listPlace>
+            
+       
+        </body>
+    </text>
+</TEI>
