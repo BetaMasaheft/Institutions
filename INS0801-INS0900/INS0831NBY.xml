@@ -53,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="academicInstitution">
-               <placeName type="normalized">Beineke Manuscript Library of Yale University</placeName>
+            <place subtype="institution" type="academicInstitution" sameAs="wd:Q814779">
+               <placeName type="normalized">Yale University, Beinecke Rare Book and Manuscript Library</placeName>
                <placeName type="alt">New Haven (CT), Beineke Manuscript Library of Yale University</placeName>
                <country ref="wd:Q30"/>
                <region ref="wd:Q779"/>
