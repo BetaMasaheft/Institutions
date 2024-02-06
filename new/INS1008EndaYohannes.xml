@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎndā Yoḥannǝs</title>
+                <title>ʾƎndā Yoḥannǝs Qʷallā Gable</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,13 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                     <place type="church gadam monastery" subtype="institution">
-                        <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ዮሐንስ፡ </placeName>
-                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Yoḥannǝs</placeName>
-                        <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ቈላ፡ ገብሌ፡ </placeName>
-                        <placeName corresp="#n2" xml:lang="en">ʾƎndā Yoḥannǝs Qʷallā Gable</placeName>
-                        <placeName xml:id="n3" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ገዳም፡</placeName>
-                        <placeName corresp="#n3" xml:lang="en">ʾƎndā Yoḥannǝs gadām</placeName>
                         
+                        <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ቈላ፡ ገብሌ፡ </placeName>
+                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Yoḥannǝs Qʷallā Gable</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ገዳም፡</placeName>
+                        <placeName corresp="#n2" xml:lang="en">ʾƎndā Yoḥannǝs gadām</placeName>
+                        <placeName xml:id="n3" xml:lang="gez">እንዳ፡ ዮሐንስ፡ </placeName>
+                        <placeName corresp="#n3" xml:lang="en">ʾƎndā Yoḥannǝs</placeName>
+                        <placeName xml:id="n4" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ማይ፡ ኳኽ፡</placeName>
+                        <placeName corresp="#n4" xml:lang="en">ʾƎndā Yoḥannǝs Māy Kʷāḵ</placeName>
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                         
