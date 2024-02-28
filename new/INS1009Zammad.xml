@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </t:langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2024-02-13">Created entity</change>
+            <change who="MKr" when="2024-02-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,17 +51,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" corresp="#n2">Dabra Zamaddo</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC4259Lasta"/>
-
                     <note>
 
 <ab type="description">According to tradition the monastery was founded by a local saint <persName ref="PRS2470Bartalom">Bartalomewos</persName> during the reign
 of <persName ref="PRS10303Yekunno">Yǝkunno ʾAmlāk</persName>.</ab>
 
-                    </note>  
+                    </note>
 
 
                 </place>
             </listPlace><!---->
+            <div type="bibliography">
+                       <listBibl type="secondary">
+                           <bibl><ptr target="bm:Balicka2014Zammadu"/></bibl>
+                       </listBibl>
+           </div>
         </body>
     </text>
 </TEI>
