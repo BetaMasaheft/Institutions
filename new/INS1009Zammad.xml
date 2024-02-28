@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2024-02-28">Created entity</change>
@@ -65,6 +65,9 @@ of <persName ref="PRS10303Yekunno">Yǝkunno ʾAmlāk</persName>.</ab>
                        <listBibl type="secondary">
                            <bibl><ptr target="bm:Balicka2014Zammadu"/></bibl>
                        </listBibl>
+                       <listRelation>
+                    <relation name="skos:exactMatch" active="INS1009Zammad" passive="LOC6431Zammad"></relation>
+                </listRelation>
            </div>
         </body>
     </text>
