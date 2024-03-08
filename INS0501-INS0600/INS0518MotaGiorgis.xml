@@ -41,12 +41,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <revisionDesc>
             <change who="PL" when="2018-11-30">Created entity</change>
             <change when="2023-05-09" who="ES">merged doublets INS0518MotaGiorgis and INS0818MSG</change>
+            <change when="2023-03-08" who="ES">added wikidata and HMML references</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
+                <place type="church" subtype="institution" sameAs="wd:Q124785546">
                     <placeName xml:id="n1" xml:lang="gez">ሞጣ፡ ጊዮርጊስ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Moṭā Giyorgis</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ሞጣ፡ ጊዮርጊስ፡ ደብረ፡ ገነት፡ </placeName>
@@ -60,12 +61,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <location>
                         <geo>11.078314 37.873026</geo>
                     </location>
-                    <note>9 mss from MG digitized for EAP336 as EAP336/3</note>
+                    <note>9 mss from MG digitized for EAP336 as EAP336/3. 55 mss digitized as  EMDA 00072- EMDA 00126 for HMML. See <ptr target="https://hmml.org/collections/repositories/ethiopia/mo%E1%B9%AD%C4%81-giyorgis-church/"/>, <ptr target="https://haf.vhmml.org/organization/538112869643"/>.
+                    </note>
                 </place>
             </listPlace>
             <listRelation>
             <relation name="skos:exactMatch" active="INS0518MotaGiorgis" passive="LOC4876MotaGi"/>
                 <relation name="betmas:formerlyAlsoListedAs" active="INS0518MotaGiorgis" passive="INS0818MSG"></relation>
+                <relation name="skos:exactMatch" active="INS0518MotaGiorgis" passive="https://haf.vhmml.org/organization/538112869643"></relation>
          </listRelation>
         </body>
     </text>
