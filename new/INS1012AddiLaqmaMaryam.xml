@@ -1,0 +1,93 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1012AddiLaqmaMaryam" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʿĀddi Lāq̲mā Qǝddǝst Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2024-03-31">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church religiousSite" subtype="institution">                    
+                    <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ላቕማ፡ ቅድስት፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">ʿĀddi Lāq̲mā Qǝddǝst Māryām</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">ዓዲ፡ ላቕማ፡ ማርያም፡ ዘዲበ፡ ኰኵሕ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">ʿĀddi Lāq̲mā Māryām Wadiba Kʷakʷǝḥ</placeName>
+                    
+                    
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                    <settlement ref="LOC6653EastTegray" type="zone" when="2024-03-15">East Tǝgrāy zone</settlement>
+                    <settlement ref="LOC3640GuloMa" type="warada" when="2024-03-15"> waradā  Gulo Maḵadā</settlement>
+                    <settlement when="2024-03-15" ref="LOC7445RegbayMadabay" type="tabiya">ṭābiyā Rǝgbāy Madabāy</settlement>
+                    <settlement when="2024-03-15" ref="LOC7446Alaqma" type="qushat">qušat ʿĀddi Lāq̲mā</settlement>
+                    <settlement when="2024-03-15" ref="LOC7447GolgolDaro" type="area">locality Golgol Dāʿro</settlement>
+                    <location>
+                        <geo>14.378267 39.354153</geo>
+                        <height unit="m">2227.0</height>
+                    </location>
+                    <note>
+                        <date type="foundation" notBefore="1350" notAfter="1449">Possibly around mid-14th century.</date>
+                        <ab type="history">Dabr. According to the local tradition, the first church was built in the 12th century.
+                            Before,  the area is said to have been occupied by the 'people who came from Israel' and by Kalaw-Balaw.
+                            The present church is said to have been built some 120 years ago. Some archaeological traces of early settlements
+                            were discovered in the area around the church. 
+                        </ab>
+                        <ab type="tabot">
+                            <measure quantity="2">4</measure> four main  tābots,                              
+                             <persName ref="PRS6819Mary" type="tabot">Mary</persName>. 
+                            <persName ref="PRS1906Ananyao" type="tabot">ʾAnānyā</persName>, 
+                            <persName ref="PRS6298Libanos" type="tabot">Libānos</persName>, 
+                            and of the three Patriarchs <persName ref="PRS5650Jacob" type="tabot">Jacob</persName>
+                            <persName ref="PRS1269Abraham" type="tabot">Abreham</persName>, and 
+                            <persName ref="PRS5578Isaac" type="tabot">Isaac</persName>.
+                        </ab>
+                        
+                        <ab type="description">33 manuscripts were inventarized on <date>30 March 2024</date>
+                            by Getnet Desta, Amanuel Abrha, Hailay Atsbha (Department of Archaeology and Heritage Management, 
+                            Adigrat University), and Hagos Gebremariam (Department of Sociology, Adigrat University).</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="PRS1269Abraham" passive="LOC7446Alaqma"/>
+                </listRelation>
+            </listPlace>             
+        </body>
+    </text>
+</TEI>
