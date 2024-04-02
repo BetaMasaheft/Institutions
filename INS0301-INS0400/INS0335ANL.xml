@@ -41,12 +41,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="library" subtype="institution">
+                <place type="library" subtype="institution" sameAs="wd:Q3639657">
                     <placeName>Biblioteca dell’Accademia Nazionale dei Lincei</placeName>
                    
-                    <country ref="wd:Q38"/>
+                    <country ref="wd:Q38">Italy</country>
                     <region ref="wd:Q1282"/>
-                    <settlement type="city" ref="wd:Q220"/>
+                    <settlement type="city" ref="wd:Q220">Rome</settlement>
                     <location>
                         <geo>41.8931 12.4667</geo>
                     </location>

@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
 
-                <place type="church"  subtype="institution">
+                <place type="church"  subtype="institution" sameAs="wd:Q125264033">
                     <placeName xml:lang="gez" xml:id="n1">አትከና፡ ጊዮርጊስ፡</placeName>
                     <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAtkanā Giyorgis</placeName>
                     <placeName xml:lang="gez" corresp="#n1">Atqhanâ</placeName>
