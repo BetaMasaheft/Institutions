@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">ዓዲ፡ ላቕማ፡ ቅድስት፡ ማርያም፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">ʿĀddi Lāq̲mā Qǝddǝst Māryām</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ዓዲ፡ ላቕማ፡ ማርያም፡ ዘዲበ፡ ኰኵሕ፡</placeName>
-                    <placeName corresp="#n2" xml:lang="en">ʿĀddi Lāq̲mā Māryām Wadiba Kʷakʷǝḥ</placeName>
+                    <placeName corresp="#n2" xml:lang="en">ʿĀddi Lāq̲mā Māryām Zadiba Kʷakʷǝḥ</placeName>
                     
                     
                     <country ref="LOC3010Ethiop">Ethiopia</country>
@@ -65,12 +65,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>
                         <date type="foundation" notBefore="1350" notAfter="1449">Possibly around mid-14th century.</date>
                         <ab type="history">Dabr. According to the local tradition, the first church was built in the 12th century.
-                            Before,  the area is said to have been occupied by the 'people who came from Israel' and by Kalaw-Balaw.
-                            The present church is said to have been built some 120 years ago. Some archaeological traces of early settlements
+                            Before,  the area is said to have been occupied by the 'people who came from Israel' and by the Kalaw-Balaw people.
+                            The present church is said to have been built some 120 years ago. Some archaeological traces of earlier settlements
                             were discovered in the area around the church. 
                         </ab>
                         <ab type="tabot">
-                            <measure quantity="2">4</measure> four main  tābots,                              
+                            <measure quantity="4">4</measure> four main  tābots,                              
                              <persName ref="PRS6819Mary" type="tabot">Mary</persName>. 
                             <persName ref="PRS1906Ananyao" type="tabot">ʾAnānyā</persName>, 
                             <persName ref="PRS6298Libanos" type="tabot">Libānos</persName>, 
@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="skos:exactMatch" active="PRS1269Abraham" passive="LOC7446Alaqma"/>
+                    <relation name="skos:exactMatch" active="INS1012AddiLaqmaMaryam" passive="LOC7446Alaqma"/>
                 </listRelation>
             </listPlace>             
         </body>
