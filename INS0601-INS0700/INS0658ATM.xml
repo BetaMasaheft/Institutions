@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾƎnṭoṭṭo Manbara Śǝllāse</title>
+            <title>Manbara Sǝbḥat Qǝddǝst Śǝllāse</title>
             <title type="short">ATM</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="SDe"/>
@@ -48,18 +48,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                                 spreadsheet</change>
          <change who="PL" when="2019-01-30">Created XML file from excel
                                 spreadsheet</change>
+         <change when="2024-04-03" who="ES">added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="church">
-               <placeName type="normalized">ʾƎnṭoṭṭo Manbara Śǝllāse</placeName>
+            <place subtype="institution" type="church" sameAs="wd:Q97226046">
+               <placeName type="normalized" xml:id="n1">Manbara Sǝbḥat Qǝddǝst Śǝllāse</placeName>
+               <placeName type="normalized" xml:id="n2">ʾƎnṭoṭṭo Manbara Śǝllāse</placeName>
                <placeName type="alt">Addis Ababa, Entotto, Shewa, Trinity Manbara Sellase Church</placeName>
-               <country ref="LOC3010Ethiop"/>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC5597Sawa"/>
-               <settlement ref="LOC1216AddisA"/>
-               <settlement ref="LOC2977Entott"/>
+               <settlement ref="LOC1216AddisA">Addis Ababa</settlement>
+               <settlement ref="LOC2977Entott">ʾƎnṭoṭṭo</settlement>
                <location>
                   <geo>9.061907 38.790307</geo>
                </location>
