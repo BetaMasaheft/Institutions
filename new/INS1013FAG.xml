@@ -52,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">ʾAmharā</region>  
                     <settlement ref="LOC3056Farta" type="warada">waradā Fārṭā</settlement>
+                    <settlement ref="LOC7448DagurA" type="qabale">qabale Ḍagur ʾAdiko</settlement>
                 </place>
                 <listRelation>
                     <relation name="betmas:formerlyAlsoListedAs" active="INS1013FAG" passive="PRS12979GabrielFA"/>
