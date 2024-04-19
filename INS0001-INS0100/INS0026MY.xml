@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="privateHouse">
+            <place subtype="institution" type="library">
                <placeName>Mekane Yesus Seminary Library</placeName>
                <placeName type="normalized">Makāna Iyyasus</placeName>
                
