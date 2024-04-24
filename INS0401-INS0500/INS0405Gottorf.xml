@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0403Library_Rostock" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0405Gottorf" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>University Library Rostock</title>
+                <title>Museum für Archäologie Schloss Gottorf</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,10 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q1504057" type="library" subtype="institution">
-                    <placeName>University Library Rostock</placeName>
-                    <settlement ref="wd:Q2861"/>
+                <place sameAs="wd:Q647987" type="museum" subtype="institution">
+                  <placeName xml:id="n1" xml:lang="de">Museum für Archäologie Schloss Gottorf</placeName>
+                  <placeName corresp="#n1" xml:lang="en">Archaeological Museum Schloss Gottorf</placeName>
+                  <placeName xml:id="n2" xml:lang="de">Archäologisches Landesmuseum der Christian-Albrechts-Universität, Schloß Gottorf</placeName>
+                    <placeName xml:id="n3" xml:lang="en">Museum Gottorf Castle</placeName>
+                    <settlement ref="wd:Q501661"/>
                     <country ref="wd:Q183"/>
+
                 </place>
             </listPlace>
          <!---->

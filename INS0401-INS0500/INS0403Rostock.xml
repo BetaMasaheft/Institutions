@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0404Sankt_Augustin" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0403Rostock" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Museum Haus Voelker und Kulturen in Sankt Augustin </title>
+                <title>University Library Rostock</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,11 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q42279131" type="museum" subtype="institution">
-                    <placeName>Museum Haus Voelker und Kulturen in Sankt Augustin </placeName>
-                    <settlement ref="wd:Q4090"/>
+                <place sameAs="wd:Q1504057" type="library" subtype="institution">
+                    <placeName>University Library Rostock</placeName>
+                    <settlement ref="wd:Q2861"/>
                     <country ref="wd:Q183"/>
-
                 </place>
             </listPlace>
          <!---->
