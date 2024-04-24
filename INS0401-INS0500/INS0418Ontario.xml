@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0499Remnant_Trust" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0418Ontario" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Remnant Trust </title>
+                <title>Royal Ontario Museum</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -39,16 +38,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2018-06-21">Created entity</change>
+            <change who="SJ" when="2017-11-08">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q55118968" subtype="institution" type="academicInstitution">
-                    <placeName>Remnant Trust </placeName> 
-               <country ref="wd:Q30"/> 
-               <settlement ref="wd:Q2590154"/>
+                <place sameAs="wd:Q649250" type="museum" subtype="institution">
+                  <settlement ref="wd:Q172"/>
+                    <country ref="wd:Q16"/>
+
+                  
+                    <placeName>Royal Ontario Museum</placeName>
+
+
                 </place>
             </listPlace>
          <!---->

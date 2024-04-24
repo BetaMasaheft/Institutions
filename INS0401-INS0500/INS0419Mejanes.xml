@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0519Beta_Libanos" xml:lang="en" type="ins">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0419Mejanes" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Beta ʾAbbā Libānos</title>
+                <title>Bibliotheque Mejanes Aix en Provence</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="PL"/>
+                <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -39,26 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2019-01-17" who="ES">corrected spelling  added location linked to LOC</change>
-            <change who="PL" when="2018-11-30">Created entity</change>
+            <change who="SJ" when="2017-11-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Beta ʾAbbā Libānos</placeName>
-                    <settlement ref="LOC4243Laliba"/>
-                    <region ref="LOC6573NorthWallo"/>
-                    <country ref="LOC3010Ethiop"/>
-                    <location>
-                        <geo>12.031398 39.045206</geo>
-                    </location>
+                <place sameAs="wd:Q2901297" type="library" subtype="institution">
+              <settlement ref="wd:Q47465"/>
+                    <country ref="wd:Q142"/> 
+                    <placeName>Bibliotheque Mejanes Aix en Provence</placeName>
                 </place>
             </listPlace>
-            <listRelation>
-            <relation name="skos:exactMatch" active="INS0519Beta_Libanos" passive="LOC1876BetaAb"/>
-         </listRelation>
+         <!---->
         </body>
     </text>
 </TEI>
