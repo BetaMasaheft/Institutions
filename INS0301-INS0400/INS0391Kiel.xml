@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0386Museum_of_Ethnology" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0391Kiel" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Museum of Ethnology Hamburg</title>
+                <title> Kiel University Library </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,9 +44,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q675774" type="museum" subtype="institution">
-                    <placeName>Museum of Ethnology Hamburg</placeName>
-                    <settlement ref="wd:Q1055"/>
+                <place sameAs="wd:Q2496307" type="library" subtype="institution">
+                    <placeName> Universitätsbibliothek Kiel </placeName>
+                    <settlement ref="wd:Q1707"/>
                     <country ref="wd:Q183"/>
                 </place>
             </listPlace>
