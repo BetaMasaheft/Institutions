@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0496Smithsonian_Institution_Libraries" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0498Randall" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Smithsonian Institution Libraries</title>
+                <title>University of North Carolina Wilmington Randall Library</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q1609326" type="library" subtype="institution">
-                    <placeName>Smithsonian Institution Libraries</placeName> 
+                <place sameAs="wd:Q55118925" type="library" subtype="institution">
+                    <placeName>University of North Carolina Wilmington Randall Library</placeName> 
                <country ref="wd:Q30"/> 
-               <settlement ref="wd:Q61"/>
+               <settlement ref="wd:Q659400"/>
                 </place>
             </listPlace>
          <!---->
