@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0424Monastery_of_Dabra_Gannat_Kidana_Mehrat" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0424JerDabraGannat" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -45,9 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place sameAs="wd:Q43551566" type="monastery" subtype="institution">
-                  <settlement ref="wd:Q1218"/>
-                      <country ref="wd:Q801"/>
-                        <placeName>Monastery of Dabra Gannat Kidana Mehrat</placeName>
+
+                        <placeName>Dabra Gannat Kidāna Meḥrat</placeName>
+                    <country ref="LOC3937Israel"/>
+                    
+                    <settlement type="town" ref="LOC3957Jerusa"/>
+                    <note><ab type="description">The monastery, located in West Jerusalem, Ethiopia Street, was commissioned by King of Kings Yohannes IV (1872-1889) but was finished in 1896 by Menilek II (1889-1913).
+                        
+                    </ab></note>
                 </place>
             </listPlace>
          <!---->
