@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0431St._Andrew_Abbey" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0439GenfEth" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Sint-Andriesabdij St. Andrew Abbey</title>
+                <title>Geneva Ethnography Museum</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,22 +38,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-11-08">Created entity</change>
+            <change who="SJ" when="2017-11-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q2109407" type="monastery" subtype="institution">
-                  <settlement ref="wd:Q12994"/>
-                    <country ref="wd:Q31"/>
-               <!--
-                        this where copypasted and left inside listPlace! which one is the correct set?
-                    <settlement ref="Q220"/>
-                    <country ref="Q38"/>-->
-                    
-               <placeName>Sint-Andriesabdij St. Andrew Abbey</placeName>
-
+                <place sameAs="wd:Q1955752" type="museum" subtype="institution">
+                  <settlement ref="wd:Q71"/>
+                        <country ref="wd:Q39"/>   
+               <placeName>Geneva Ethnography Museum</placeName>
                 </place>
             </listPlace>
          <!---->

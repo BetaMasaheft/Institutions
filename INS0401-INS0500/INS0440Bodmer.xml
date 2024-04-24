@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0434Societe_des_Bollandistes" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0440Bodmer" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Société des Bollandistes </title>
+                <title>Bodmer Library</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,16 +38,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-11-08">Created entity</change>
+            <change who="SJ" when="2017-11-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q42852606" type="library" subtype="institution">
-                  <settlement ref="wd:Q239"/>
-                        <country ref="wd:Q31"/>  
-               <placeName>Société des Bollandistes </placeName>
+                <place sameAs="wd:Q667858" type="library" subtype="institution">
+                    <placeName>Bodmer Library</placeName>
+                  <settlement ref="wd:Q71"/>
+                        <country ref="wd:Q39"/> 
                 </place>
             </listPlace>
          <!---->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0430Museo_Etiope_Guglielmo_Massaia" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0436IOLouvain" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Museo Etiope Guglielmo Massaia</title>
+                <title>Institut Orientaliste de Louvain</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,16 +38,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SJ" when="2017-11-24">Created entity</change>
+            <change who="SJ" when="2017-11-08">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q43558535" type="museum" subtype="institution">
-                  <settlement ref="wd:Q220"/>
-                        <country ref="wd:Q38"/>
-                    <placeName>Museo Etiope Guglielmo Massaia</placeName>
+                <place sameAs="wd:Q378134" type="library" subtype="institution">
+                  <settlement ref="wd:Q118958"/>
+                        <country ref="wd:Q31"/> 
+               <placeName>Institut Orientaliste de Louvain</placeName>
                 </place>
             </listPlace>
          <!---->
