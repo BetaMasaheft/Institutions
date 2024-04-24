@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0497Fairmount_University_Library" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0487Virginia" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Ruth Ann Musick Library</title>
+                <title>Virginia Museum of fine arts</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,12 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q55118902" type="library" subtype="institution">
-                    <placeName>Ruth Ann Musick Library</placeName>
-                    <settlement ref="wd:Q1022764"/>
-                    <country ref="wd:Q30"/>
+                <place sameAs="wd:Q4013975" type="museum" subtype="institution">
+                    <placeName>Virginia Museum of fine arts</placeName> 
+               <settlement ref="wd:Q43421"/> 
+               <country ref="wd:Q30"/>
                 </place>
             </listPlace>
+         <!---->
         </body>
     </text>
 </TEI>

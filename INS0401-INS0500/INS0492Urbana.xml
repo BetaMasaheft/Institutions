@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0491San_Diego_University_Library" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0492Urbana" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>San Diego&#x2028;State University Library</title>
+                <title>University of Illinois at Urbana-Champaign University Library</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q47490683" type="library" subtype="institution">
-                    <placeName>San Diego &#x2028;State University Library</placeName> 
-               <settlement ref="wd:Q23337"/> 
-               <country ref="wd:Q30"/>
+                <place sameAs="wd:Q22096046" type="library" subtype="institution">
+                    <placeName>University of Illinois at Urbana-Champaign University Library</placeName> 
+               <country ref="wd:Q30"/> 
+               <settlement ref="wd:Q577964"/>
                 </place>
             </listPlace>
          <!---->
