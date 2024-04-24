@@ -46,10 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="academicInstitution library" subtype="institution">
+                <place type="academicInstitution library" subtype="institution" sameAs="wd:Q43553143">
                     <placeName xml:lang="fr">Société d’Archéologie Copte</placeName>
                     <placeName xml:lang="ar">جمعية الأثار القبطية</placeName>
-                    <placeName xml:lang="en">Society of Coptic Archeology</placeName>
+                    <placeName xml:lang="en">Society of Coptic Archaeology</placeName>
                     <country ref="LOC2804Egypt">Egypt</country>               
                     <settlement type="city" ref="LOC2085Cairo">Cairo</settlement>
                 </place>
