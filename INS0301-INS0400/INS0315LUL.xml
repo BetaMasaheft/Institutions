@@ -39,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="DR" when="2016-08-09">CREATED: place</change>
+         <change when="2024-04-24" who="ES">added history and bibliography</change>
       </revisionDesc>
   </teiHeader>
   <text xml:base="https://betamasaheft.eu/">
@@ -49,12 +50,51 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                <country ref="wd:Q29999"/>
                <region ref="wd:Q694"/>
                <settlement type="town" ref="wd:Q43631"/>
+               <note>
+                  <ab type="description">Collection of c. 250 Ethiopic manuscripts in Ge’ez and Amharic, for the greater part dating from the twentieth century and exclusively of a religious nature.</ab>
+                  <ab type="history">
+                     
+                     The first two Ethiopic manuscripts, Or. 262 and Or. 4734, entered Leiden University Library with the bequest of Josephus Justus Scaliger (1540-1609). Between 1609 and 1970 only isolated items entered the library. In 1973 the curator P.S. van Koningsveld acquired 10 Ethiopic manuscripts from Mr M.J.M Maas Leeflang, Amsterdam (Or. 12.833 – Or. 12.842). The majority of Ethiopic manuscripts, however, were acquired during the curatorship of Prof. J.J. Witkam between 1974 and 2005, most notably from the following persons:
+                     
+                     Or. 17.004 – Or. 17.048, acquired in 1980 from Mr HW Karstens, a private dealer in Amsterdam.
+                     
+                     Or. 20.943 – Or. 20.962, Or. 20.971 – Or. 20.985, Or. 22.024 – Or. 22.047 and Or. 22.503 – Or. 22.511 were all bought on several occasions between 1988 and 1991 from Ms Ingrid Zoetmulder MA, a dealer in Eastern Orthodox art and manuscripts in Delft who has published on Russian icons. About one particular section, Or. 22.024 – Or. 22.047, Prof. Luc Van Rompay remarked that the manuscripts 'may very well have belonged to the library of a small monastery'.
+                     
+                     Or. 25.429 – Or. 25.461 originate from Mr Robert Cornelis Hekker of The Hague (1917-1990), a specialist of Dutch vernacular architecture who taught art history at Leiden University. Mr Hekker collected Oriental materials purely as a hobby. His Ethiopic manuscripts were acquired during a visit to Addis Abeba in 1972. His collection was donated to Leiden University Library in 1993 by his son Menno Hekker. When Rachel Struyk finished her inventory in 1995 the Hekker manuscripts had not yet been assigned 'Or.' classmarks.
+                     
+                  </ab>
+               </note>
             </place>
               </listPlace>
             <listBibl type="catalogue">
                <bibl>
                   <ptr target="bm:DeGoeje1873Catalogus"/>
                </bibl>
+               <bibl>
+                  <ptr target="bm:Struyk1995Catalogus"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2007Leiden1"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2007Leiden5"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2007Leiden7"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2007Leiden15"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2007Leiden3"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2015Leiden11"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Witkam2019Leiden9"/>
+               </bibl>
+               
             </listBibl>
       </body>
   </text>
