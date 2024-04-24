@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0383Bibliothek_Erfurt_Gotha" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0399LMU" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Universitaets und Forschungsbibliothek Erfurt/Gotha</title>
+                <title>University Library of the LMU Munich</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,11 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q2496246" type="library" subtype="institution">
-                    <placeName>Universitaets und Forschungsbibliothek Erfurt/Gotha</placeName>
-                    <settlement ref="wd:Q6986"/>
+                <place sameAs="wd:Q2496326" type="library" subtype="institution">
+                    <placeName>Ludwig-Maximilians-Universität München, Universitätsbibliothek</placeName>
+                    <settlement ref="wd:Q1726"/>
                     <country ref="wd:Q183"/>
-
                 </place>
             </listPlace>
          <!---->

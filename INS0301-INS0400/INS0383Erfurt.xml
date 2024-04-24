@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0378Voelkerkundemuseum_Dresden" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0383Erfurt" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Museum fuer Voelkerkunde Dresden</title>
+                <title>Universitaets und Forschungsbibliothek Erfurt/Gotha</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,9 +44,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q278978" type="museum" subtype="institution">
-                    <placeName>Museum fuer Voelkerkunde Dresden</placeName>
-                    <settlement ref="wd:Q1731"/>
+                <place sameAs="wd:Q2496246" type="library" subtype="institution">
+                    <placeName>Universitaets und Forschungsbibliothek Erfurt/Gotha</placeName>
+                    <settlement ref="wd:Q6986"/>
                     <country ref="wd:Q183"/>
 
                 </place>
