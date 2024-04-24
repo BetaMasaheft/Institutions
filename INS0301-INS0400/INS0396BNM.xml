@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0408Herzog_August_Library" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0396BNM" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Herzog August Library Wolfenbüttel </title>
+                <title>Bavarian National Museum München</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,14 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q663820" type="library" subtype="institution">
-                    <placeName>Herzog August Library Wolfenbüttel </placeName>
-
-                    <settlement ref="wd:Q4122"/>
+                <place sameAs="wd:Q631056" type="museum" subtype="institution">
+                    <placeName>Bavarian National Museum München</placeName>
+                    <settlement ref="wd:Q1726"/>
                     <country ref="wd:Q183"/>
-                    <note>
-                  <ref target="http://www.hab.de/en/home.html"> Library website</ref>
-               </note>
+
                 </place>
             </listPlace>
          <!---->
