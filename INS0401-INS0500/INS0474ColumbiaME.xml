@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0475The_Jewish_Theological_Seminary" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0474ColumbiaME" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>The Jewish Theological Seminary</title>
+                <title>Columbia University Department of Middle Eastern, South Asian, and African Studies</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,9 +44,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q6189971" type="academicInstitution" subtype="institution">
-                    <placeName>The Jewish Theological Seminary</placeName>
-                <settlement ref="wd:Q60"/> 
+                <place sameAs="wd:Q5149895" type="academicInstitution" subtype="institution">
+                    <placeName>Columbia University Department of Middle Eastern, South Asian, and African Studies</placeName>
+               <settlement ref="wd:Q60"/> 
                <country ref="wd:Q30"/>
                 </place>
             </listPlace>

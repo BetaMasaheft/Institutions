@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0476Metropolitan_Museum_of_Art" xml:lang="en" type="ins">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0467ULEvanston" xml:lang="en" type="ins">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Metropolitan Museum of Art</title>
+                <title>United Library Evanston</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SJ"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,10 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q160236" type="museum" subtype="institution">
-                    <placeName>Metropolitan Museum of Art</placeName>
-               <settlement ref="wd:Q60"/> 
-               <country ref="wd:Q30"/>
+                <place sameAs="wd:Q30289532" type="library" subtype="institution">
+                  <settlement ref="wd:Q171224"/>
+              <country ref="wd:Q30"/>
+                    <placeName>United Library Evanston</placeName>
                 </place>
             </listPlace>
          <!---->
