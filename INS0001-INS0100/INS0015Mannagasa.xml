@@ -42,12 +42,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          
          <listPlace>
-            <place type="church dabr" subtype="institution" sameAs="wd:Q125347070">
-               
+            <place type="church dabr" subtype="institution" sameAs="wd:Q125347070">               
                
                <placeName xml:id="n1" xml:lang="gez">መናገሻ፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Mannāgašā Qǝddus Giyorgis</placeName>
-
                
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC5597Sawa"/>
