@@ -55,7 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   including a copy of a Dǝrsāna Māryām dated to the reign of Dawit II.</note>
             </place>
          </listPlace>
-         <listRelation><relation name="skos:exactMatch" active="INS0040BLG" passive="LOC1887BetaLe"></relation></listRelation>
+         <listRelation><relation name="skos:exactMatch" active="INS0040BLG" passive="LOC1887BetaLe"></relation>
+            <relation name="betmas:formerlyAlsoListedAs" active="INS0040BLG" passive="INS0028BLG"></relation></listRelation>
       </body>
    </text>
 </TEI>
