@@ -44,10 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="wd:" type="privateHouse" subtype="institution">
+                <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of Marigetā Damḍa ʾƎndālaw</placeName>
+                    <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC2384DabraT">Dabra Tābor </region>
+                    <note><persName ref="PRS14417MarigetaDamseEndalew">Marigetā Damḍa ʾƎndālaw</persName>
+                        is a scribe who works at  <placeName ref="LOC2386DabraT">Dabra Tābor ʾIyasus parish</placeName>
+                        , Dabra Tābor, Ethiopia.</note>            
+ 
                 </place>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
