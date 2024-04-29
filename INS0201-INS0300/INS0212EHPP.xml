@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                
                <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-23" to="2011-11-23"/>
                <settlement ref="LOC7238MaySaadat " type="tabiya" from="2011-11-23" to="2011-11-23"/> 
-               <settlement from="2011-11-23" to="2011-11-23" type="qushat" ref="LOC7241EndaHawaryat "/>
+               <settlement from="2011-11-23" to="2011-11-23" type="qushat" ref="LOC7241EndaHawaryat"/>
                
                
                <location>
