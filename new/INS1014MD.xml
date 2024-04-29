@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region ref="LOC2384DabraT">Dabra Tābor </region>
                     <note><persName ref="PRS14417MarigetaDamseEndalew">Marigetā Damḍa ʾƎndālaw</persName>
                         is a scribe who works at  <placeName ref="LOC2386DabraT">Dabra Tābor ʾIyasus parish</placeName>
-                        ,Dabra Tābor, Ethiopia.</note>            
+                        , Dabra Tābor, Ethiopia.</note>            
  
                 </place>
             </listPlace>
