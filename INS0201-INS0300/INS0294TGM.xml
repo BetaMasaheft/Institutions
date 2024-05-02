@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </location>
                <note>
                   <date type="foundation" notBefore="1300" notAfter="1400">1300-1400</date>
-                  <desc type="foundation">Local tradition tells that the founder was <persName ref="PRS12533Taklom ">Taḵlom</persName>, hence the name of the church; the local people are thus daqqi Taḵlom, i.e. his descendants.</desc>
+                  <desc type="foundation">Local tradition tells that the founder was <persName ref="PRS12533Taklom">Taḵlom</persName>, hence the name of the church; the local people are thus daqqi Taḵlom, i.e. his descendants.</desc>
                   <ab type="history">Gadām. &#xD;
 It is considered a monastic community, but currently there are no monks. Local tradition speaks of "one thousand monks" who once resided around.&#xD;
 At the foot of the mountain, there are collapsed structures of a rock-hewn church (?); some caves at the place of ascension to the church appear to be an old church or monks dwelling; a few other caverns in the rock on the other side are were used as burial places.&#xD;
