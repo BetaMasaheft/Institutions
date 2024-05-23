@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0056DQ" type="ins" xml:lang="en">
+   <teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt>
+            <title>Dabra Qwayaṣā</title>
+            <editor key="ES"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. 
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>digitally created file</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2024-05-23">created</change>
+         
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="https://betamasaheft.eu/">
+      <body>
+         <listPlace>
+            <place type="church monastery dabr" subtype="institution">
+               
+               
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ቅወየጻ፡ </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Qwayaṣā</placeName>
+               <placeName type="alt" xml:lang="gez" xml:id="n2">ሳሙኤል፡ ቅወየጻ፡</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">Sāmuʾel Qwayaṣā</placeName>
+               
+               
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+
+               <settlement ref="LOC5290QwayaS" type="qushat"/>
+               
+               
+               
+            
+               <settlement>same as <placeName ref="LOC2338DabraQ"/>
+               </settlement>
+               
+               
+               <note>
+
+  
+                  <ab type="tabot">
+                     <measure quantity="1"/>Tābot of <persName ref="PRS8484Samuel" type="tabot">Samuel of Qwayaṣā</persName>.</ab>
+               </note>
+            </place>
+            <listRelation><relation name="skos:exactMatch" active="INS0056DQ" passive="LOC2338DabraQ"></relation></listRelation>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
