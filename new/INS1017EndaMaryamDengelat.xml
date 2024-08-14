@@ -51,11 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                         
-                        <settlement ref="LOC6653EastTegray" type="zone" when="2024-01-09">Eastern Tǝgrāy Zone</settlement>
-                        <settlement ref="LOC7175Sasi" type="warada" when="2024-01-09">waradā Sāʿsiʿ Ṣaʿdā ʾƎmbā</settlement>
+                        <settlement ref="LOC6653EastTegray" type="zone" when="2024-05-09">Eastern Tǝgrāy Zone</settlement>
+                        <settlement ref="LOC7175Sasi" type="warada" when="2024-05-09">waradā Sāʿsiʿ Ṣaʿdā ʾƎmbā</settlement>
                         
-                        <settlement when="2024-01-09" ref="LOC7452Balaso" type="tabiya">ṭābiyā Balaso</settlement>
-                        <settlement when="2024-01-09" ref="LOC7453Dangalat" type="qushat">qušat Dangalat</settlement>
+                        <settlement when="2024-05-09" ref="LOC7452Balaso" type="tabiya">ṭābiyā Balaso</settlement>
+                        <settlement when="2024-05-09" ref="LOC7453Dangalat" type="qushat">qušat Dangalat</settlement>
                         
                         <location>
                             <geo>14.159083 39.516900</geo>
