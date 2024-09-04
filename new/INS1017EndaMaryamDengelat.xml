@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎndā Māryām Dangalat</title>
+                <title>ʾƎndā Māryām Dangalāt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>       
                     <place type="church religiousSite" subtype="institution">
                         <placeName xml:id="n1" xml:lang="ti">እንዳ፡ ማርያም፡ ደንገላት፡</placeName>
-                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Māryām Dangalat</placeName>                    
+                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Māryām Dangalāt</placeName>                    
                                               
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <settlement ref="LOC7175Sasi" type="warada" when="2024-05-09">waradā Sāʿsiʿ Ṣaʿdā ʾƎmbā</settlement>
                          
                         <settlement ref="LOC7452Balaso" type="tabiya" when="2024-05-09">ṭābiyā Balaso</settlement>
-                        <settlement ref="LOC7453Dangalat" type="qushat" when="2024-05-09">qušat Dangalat</settlement>
+                        <settlement ref="LOC7453Dangalat" type="qushat" when="2024-05-09">qušat Dangalāt</settlement>
                         
                         <location>
                             <geo>14.159083 39.516900</geo>
