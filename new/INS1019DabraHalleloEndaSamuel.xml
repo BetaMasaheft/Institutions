@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1019DabraHalleloEndaSamuel" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dabra Hāllelo ʾƎnda ʾAbuna Sāmuʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2024-09-10">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="monastery" subtype="institution">                                
+                        <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሃሌሎ፡ እንዳ፡ አቡነ፡ ሳሙኤል፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Dabra Hāllelo ʾƎndā ʾAbuna Sāmuʾel</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሃሌሎ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Dabra Hāllelo</placeName>
+                    <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሃሌሉያ፡</placeName>
+                    <placeName corresp="#n3" xml:lang="en">Dabra Hālleluyā</placeName>                       
+                                                
+                        <country ref="LOC3010Ethiop">Ethiopia</country>
+                        <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                    <settlement ref="LOC6654CentralTegray" type="zone" when="2024-08-15">Central Tǝgrāy zone</settlement>
+                    <settlement ref="LOC1121AddiAr" type="warada" when="2024-08-15"> waradā  Rāmā ʿĀddi ʾArbaʿǝta</settlement>
+                    <settlement when="2024-03-15" ref="LOC7454WaddiAmbaray" type="tabiya">ṭābiyā Māy Waddi ʾAmbarāy</settlement>
+                    <settlement when="2024-03-15" ref="LOC7455Hallelo" type="qushat">qušat Hāllelo</settlement>
+                       
+                        <location>
+                            <geo>14.529167 38.781667</geo>
+                            <height unit="m">1823.0</height>
+                        </location>
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="INS1019DabraHalleloEndaSamuel" passive="LOC2281DabraH"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>
