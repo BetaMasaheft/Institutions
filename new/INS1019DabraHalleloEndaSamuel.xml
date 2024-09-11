@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሃሌሎ፡</placeName>
                     <placeName corresp="#n2" xml:lang="en">ደብረ፡ ሃሌሎ፡</placeName>
                     <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሃሌሉያ፡</placeName>
-                    <placeName corresp="#n3" xml:lang="en">Dabra Hāllelo</placeName>                       
+                    <placeName corresp="#n3" xml:lang="en">Dabra Hālleluyā</placeName>                       
                                                 
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
