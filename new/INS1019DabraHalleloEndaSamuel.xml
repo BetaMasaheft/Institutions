@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="monastery" subtype="institution">                                
                         <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሃሌሎ፡ እንዳ፡ አቡነ፡ ሳሙኤል፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Dabra Hāllelo ʾƎnda ʾAbuna Sāmuʾel</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Dabra Hāllelo ʾƎndā ʾAbuna Sāmuʾel</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሃሌሎ፡</placeName>
-                    <placeName corresp="#n2" xml:lang="en">ደብረ፡ ሃሌሎ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Dabra Hāllelo</placeName>
                     <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ሃሌሉያ፡</placeName>
                     <placeName corresp="#n3" xml:lang="en">Dabra Hālleluyā</placeName>                       
                                                 
