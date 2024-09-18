@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="museum" subtype="institution">
                     <placeName n="1" xml:lang="sv">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
                     <placeName n="2" xml:lang="sv">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
-                    <settlement ref="wd:Q1754"/>
+                    <settlement ref="LOC7456Stockholm"/>
                     <country ref="wd:Q39"/> 
                 </place>
             </listPlace><!---->
