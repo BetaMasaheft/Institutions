@@ -50,7 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement ref="LOC7456Stockholm"/>
                     <country ref="wd:Q39"/> 
                 </place>
-            </listPlace><!---->
+            </listPlace>
+            <div type="bibliography">
+                <listBibl type="catalogue">
+                    <bibl>
+                        <ptr target="bm:Loefgren1929Evangeliska"/>
+                    </bibl>
+                </listBibl>
+            </div>
         </body>
     </text>
 </TEI>
