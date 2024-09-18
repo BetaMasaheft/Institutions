@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1020EFSmissionsmuseum" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="sv">Swedish</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JK" when="2024-09-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="museum" subtype="institution">
+                    <placeName n="1" xml:lang="sv">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
+                    <placeName n="2" xml:lang="sv">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
+                    <settlement ref="LOC7456Stockholm"/>
+                    <country ref="wd:Q39"/> 
+                </place>
+            </listPlace>
+            <div type="bibliography">
+                <listBibl type="catalogue">
+                    <bibl>
+                        <ptr target="bm:Loefgren1929Evangeliska"/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
