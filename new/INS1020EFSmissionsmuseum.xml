@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="sv">Swedish</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -45,9 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="museum" subtype="institution">
-                    <placeName n="1">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
-                    <placeName n="2">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
-                    <country ref="LOC5829Sweden"></country>
+                    <placeName n="1" xml:lang="sv">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
+                    <placeName n="2" xml:lang="sv">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
+                    <settlement ref="wd:Q1754"/>
+                    <country ref="wd:Q39"/> 
                 </place>
             </listPlace><!---->
         </body>
