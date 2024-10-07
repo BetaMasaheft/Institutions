@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place subtype="institution" type="church">
                     <placeName xml:id="n1" xml:lang="gez">ተመዞ፡ ማርያም፡</placeName>
-                    <placeName xml:lang="gez" type="normalized">Tamazzo Māryām</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Tamazzo Māryām</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC6655SudTegray"/>
                     <settlement ref="LOC1410Ambala" type="warada"/> 
