@@ -5,19 +5,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mesrop Mashtots Research Institute of Ancient Manuscripts (Matenadaran)</title>
+                <title>Mesrop Mashtots Research Institute of Ancient Manuscripts
+                    (Matenadaran)</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -44,9 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="museum" subtype="institution">
-                    <placeName n="1" xml:lang="en">Mesrop Mashtots Research Institute of Ancient Manuscripts (Matenadaran)</placeName>
+                    <placeName n="1" xml:lang="en">Mesrop Mashtots Research Institute of Ancient
+                        Manuscripts (Matenadaran)</placeName>
                     <settlement ref="LOC7457Yerevan"/>
-                    <country ref="wd:Q399"/> 
+                    <country ref="wd:Q399"/>
                 </place>
             </listPlace>
             <div type="bibliography">
