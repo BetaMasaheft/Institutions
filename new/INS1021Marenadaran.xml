@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName n="2" xml:lang="hy">Մատենադարան</placeName>
                     <placeName corresp="#2" xml:lang="hy" type="normalized">Matenadaran</placeName>
                     <settlement ref="LOC7457Yerevan"/>
-                    <country ref="wd:Q399"/>
+                    <country ref="LOC7374Armenia"/>
                 </place>
             </listPlace>
             <div type="bibliography">
