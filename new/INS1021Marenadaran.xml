@@ -7,6 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title xml:lang="en">Mesrop Mashtots Research Institute of Ancient Manuscripts
                     (Matenadaran)</title>
+                <title xml:lang="hy">Մատենադարան</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
