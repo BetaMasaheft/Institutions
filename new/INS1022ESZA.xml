@@ -45,13 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of ʾƎšat Zammana</placeName>
+                    <placeName>Private collection of Qasis ʾƎšat Zammana</placeName>
                       <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC6575SouthGondar">South Gondar</region>
                     <note><persName ref="PRS14593EsatZammana">Ǝšat</persName> is a scribe who works at 
-                        <placeName ref="LOC7316Andabet">ʾAndābet</placeName>, South Gondar, Ethiopia. 
-                        
-                    </note>
+                        <placeName ref="LOC7316Andabet">ʾAndābet, Zaboya Mikaʾel parish</placeName>, 
+                        South Gondar, Ethiopia. </note>
                 </place>
             </listPlace>
         </body>
