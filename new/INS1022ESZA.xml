@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private collection of ʾƎšat Zammana</title>
+                <title>Private collection of qasis ʾƎšat Zammana</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Qasis ʾƎšat Zammana ʾAndābet</placeName>
+                    <placeName>Private collection of qasis ʾƎšat Zammana ʾAndābet</placeName>
                       <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC6575SouthGondar">South Gondar</region>
                     <note><persName ref="PRS14593EsatZammana">Ǝšat</persName> is a scribe who works at 
