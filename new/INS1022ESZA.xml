@@ -12,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -46,11 +46,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
                     <placeName>Private collection of qasis ʾƎšat Zammana ʾAndābet</placeName>
-                      <country ref="wd:Q115">Ethiopia</country>
+                    <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC6575SouthGondar">South Gondar</region>
-                    <note><persName ref="PRS14593EsatZammana">Ǝšat</persName> is a scribe who works at 
-                        <placeName ref="LOC7316Andabet">ʾAndābet, Zaboya Mikaʾel parish</placeName>, 
-                        South Gondar, Ethiopia. </note>
+                    <note><persName ref="PRS14593EsatZammana">Ǝšat</persName> is a scribe who works
+                        at <placeName ref="LOC7316Andabet">ʾAndābet, Zaboya Mikaʾel
+                            parish</placeName>, South Gondar, Ethiopia. </note>
                 </place>
             </listPlace>
         </body>
