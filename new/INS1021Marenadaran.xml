@@ -54,6 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
             </listPlace>
             <div type="bibliography">
+             <listBibl type="catalogue">
+                    <bibl>
+                        <ptr target="bm:Eganyan1965"/>
+                    </bibl>
+             </listBibl>
                 <listBibl type="secondary">
                     <bibl>
                         <ptr target="bm:Pogossian2021Armenia"/>
