@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>A church possibly located in </p>
             </abstract>
             <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
@@ -47,10 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="church religiousSite" subtype="institution">           
                     <placeName xml:id="n1" xml:lang="gez">ጭላ፡ ማርያም፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Č̣ǝlā Māryām</placeName>
+                    
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara" cert="medium">The regional State of Amḥarā</region>  
+                    <settlement ref="LOC6144Wagara" type="warada" cert="low">waradā  Wagarā</settlement>                 
+                    <settlement ref="LOC2221Dabat" type="tabiya" cert="low">Dābāt</settlement>  
+                    <settlement when="2025-01-27" ref="LOC7450CelaMaryam" type="area">Č̣ǝlā</settlement>
+                    <settlement when="2024-01-09" ref="LOC7451CelaMaryam" type="area">Č̣ǝlā Māryām</settlement>
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="INS1016CelaMaryam" passive="BNFabb50"/>
-                    <relation name="skos:exactMatch" active="INS1016CelaMaryam" passive="LOC7450CelaMaryam"/>
+                    <relation name="lawd:hasAttestation" active="INS1016CelaMaryam" passive="BNFabb50"/>                    
+                    
                 </listRelation>
             </listPlace><!---->
         </body>
