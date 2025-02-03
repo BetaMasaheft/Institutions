@@ -38,19 +38,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </t:langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2024-07-15">Created entity</change>
+            <change who="DN" when="2024-07-15">created entity</change>
+            <change who="DN" when="2025-02-03">updated entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church religiousSite" subtype="institution">           
-                    <placeName xml:id="n1" xml:lang="gez">ጭላ፡ ማርያም፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Č̣ǝlā Māryām</placeName>
-                </place>
+                
+                        <place type="church" subtype="institution">
+                            <placeName xml:id="n1" xml:lang="gez">ጭላ፡ ማርያም፡</placeName>
+                            <placeName corresp="#n1" xml:lang="en">Č̣ǝlā Māryām</placeName>
+                            <country ref="LOC3010Ethiop">Ethiopia</country>
+                            <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara" cert="medium">The regional State of ʾAmḥarā</region>  
+                            <settlement ref="LOC6144Wagara" type="warada" cert="low">waradā Wagarā</settlement>                 
+                            <settlement ref="LOC2221Dabat" type="tabiya" cert="low">Dābāt</settlement>  
+                            <settlement when="2025-01-27" ref="LOC7459Cela" type="area">Č̣ǝlā</settlement>
+                            <settlement when="2024-01-09" ref="LOC7460CelaMaryam" type="area">Č̣ǝlā Māryām</settlement>
+                        </place>
+                    
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="INS1016CelaMaryam" passive="BNFabb50"/>
-                    <relation name="skos:exactMatch" active="INS1016CelaMaryam" passive="LOC7450CelaMaryam"/>
+                    <relation name="skos:exactMatch" active="INS1016CelaMaryam" passive="LOC7460CelaMaryam"/>
                 </listRelation>
             </listPlace><!---->
         </body>
