@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place sameAs="wd:Q81165250" type="academicInstitution" subtype="institution">
-                 <placeName>University of Leicester</placeName>                 
+                 <placeName xml:id="n1">University of Leicester</placeName>                 
                   <country ref="wd:Q145"/>
                  <region ref="wd:Q21"/>
                  <settlement type="city" ref="wd:Q83065"/>
