@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
             </listPlace>            
             <listRelation>
-                                  <relation name="saws:hasOwned" active="INS0991Serbian" passive="SNLkopt01"/>
+                                  <relation name="saws:hasOwned" active="INS0991Serbian" passive="NLSerkopt1"/>
                 </listRelation>
          
         </body>
