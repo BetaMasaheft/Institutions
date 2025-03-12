@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change when="2018-08-07" who="ES">link to the mountain added, link to qushat corrected,
            link to tabiya corrected, links to Aragawi added, tabots introduced</change>
            <change when="2020-03-12" who="DE">Corrected transliteration.</change>
+         <change when="2025-03-11" who="CH">Updated transcription of Walda ʾAmid</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -186,7 +187,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                      <ref type="mss" corresp="ESdd026">DD-026</ref> "The Book of Cyril of Alexandria";
                      <ref type="mss" corresp="ESdd027">DD-027</ref> "The Book of Mar Isaac"; <ref type="mss" corresp="ESdd028">DD-028</ref> "Psalter";
                      <ref type="mss" corresp="ESdd029">DD-029</ref> "Psalter"; <ref type="mss" corresp="ESdd030">DD-030</ref> "Psalter";
-                     <ref type="mss" corresp="ESdd031">DD-031</ref> "The Book of the Hours/Horologium; History of Wäldä ʿAmid";
+                     <ref type="mss" corresp="ESdd031">DD-031</ref> "The Book of the Hours/Horologium; History of Walda ʾAmid";
                      <ref type="mss" corresp="ESdd032">DD-032</ref> "The Book of the Chants"; <ref type="mss" corresp="ESdd033">DD-033</ref> "Psalter";
                      <ref type="mss" corresp="ESdd034">DD-034</ref> "Psalter"; <ref type="mss" corresp="ESdd035">DD-035</ref> "Four Gospels";
                      <ref type="mss" corresp="ESdd036">DD-036</ref> "The Spiritual Elder"; <ref type="mss" corresp="ESdd037">DD-037</ref> "Synaxarion (March)";
