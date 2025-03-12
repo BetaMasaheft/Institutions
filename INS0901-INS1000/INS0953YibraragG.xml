@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="chapel" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ዪብረረቅ፡ ገብርኤል፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Yibrarag Gabrǝʾel</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Yibrarag Gabrǝʾel</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">

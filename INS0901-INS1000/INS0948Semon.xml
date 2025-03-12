@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ስምዖን፡ ዘዓምድ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Sǝmʿon Zaʿāmd</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Sǝmʿon Zaʿāmd</placeName>
                     
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
