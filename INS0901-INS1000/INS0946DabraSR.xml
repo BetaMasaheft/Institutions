@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሳህል፡ ሩፋኤል፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Dabra Sāhǝl Rufāʾel</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Sāhǝl Rufāʾel</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="gez">ቂርቆስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Qirqos</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Qirqos</placeName>
                 </place>
             </listPlace>
             <div type="bibliography">
