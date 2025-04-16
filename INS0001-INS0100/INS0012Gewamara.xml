@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                     <place type="church gadam monastery" subtype="institution">
-                        <placeName xml:id="n1" xml:lang="gez">አምብርስዋ፡ ሚካኤል፡</placeName>
+                        <placeName xml:id="n1" xml:lang="gez">ጅዋማረ፡ ሚካኤል፡</placeName>
                         <placeName corresp="#n1" xml:lang="en">Ǧǝwāmāra Mikaʾel</placeName>
 
                         
