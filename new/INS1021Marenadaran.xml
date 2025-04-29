@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2024-11-25">Created entity</change>
+            <change who="NV" when="2024-11-26">Added secondary bibliography</change>
         </revisionDesc>
     </teiHeader>
     <text>
