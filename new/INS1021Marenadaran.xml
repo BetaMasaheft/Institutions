@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1021Matenadaran" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
-            <titleStmt>
+            <titleStmt> 
                 <title>Mesrop Mashtots Research Institute of Ancient Manuscripts</title>
 
                 <editor role="generalEditor" key="AB"/>
