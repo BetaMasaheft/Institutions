@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Täsfa Gäbrä Śəllase Printing Press</title>
+            <title>Täsfa Gäbrä Śǝllase Printing Press</title>
             
             <editor role="generalEditor" key="AB"/>
             <editor key="ES"/>
@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="privateHouse">
-               <placeName>Täsfa Gäbrä Śəllase Printing Press</placeName>
+               <placeName>Täsfa Gäbrä Śǝllase Printing Press</placeName>
                
                <country>Ethiopia</country>
                

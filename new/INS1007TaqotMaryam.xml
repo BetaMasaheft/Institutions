@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ṭāq̲ot Dabra Ṣəyon Māryām</title>
+                <title>Ṭāq̲ot Dabra Ṣǝyon Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,18 +47,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church religiousSite dabr" subtype="institution">                    
                     <placeName xml:id="n1" xml:lang="gez">ጣቖት፡ ደብረ፡ ጽዮን፡ ማርያም፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ṭāq̲ot Dabra Ṣəyon Māryām</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Ṭāq̲ot Dabra Ṣǝyon Māryām</placeName>
                     <placeName xml:id="n2" xml:lang="gez">ማርያም፡ ጣቖት፡</placeName>
                     <placeName corresp="#n2" xml:lang="en">Māryam Ṭāq̲ot</placeName>
                     <placeName xml:id="n3" xml:lang="gez">ጣቖት፡ እንዳ፡ ጽዮን፡ ማርያም፡</placeName>
-                    <placeName corresp="#n3" xml:lang="en">Ṭāq̲ot ʾƎndā Ṣəyon Māryām</placeName>                    
+                    <placeName corresp="#n3" xml:lang="en">Ṭāq̲ot ʾƎndā Ṣǝyon Māryām</placeName>                    
                     
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     <settlement ref="LOC6653EastTegray" type="zone" when="2024-01-09">East Tǝgrāy zone</settlement>
                     <settlement ref="LOC7175Sasi" type="warada" when="2024-01-09">waradā  Sāʿsiʿ Ṣaʿdā ʾƎmbā</settlement>
                     
-                    <settlement when="2024-01-09" ref="LOC7411HaddesHeywat" type="tabiya">ṭābiyā Ḥāddəš Həywat</settlement>
+                    <settlement when="2024-01-09" ref="LOC7411HaddesHeywat" type="tabiya">ṭābiyā Ḥāddǝš Hǝywat</settlement>
                     <settlement when="2024-01-09" ref="LOC7409Taqot" type="qushat">qušat Ṭāq̲ot</settlement>
                     
                     <location>
