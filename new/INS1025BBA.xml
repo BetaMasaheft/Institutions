@@ -44,10 +44,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="wd:" type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Bare Bəzuʿālam</placeName>
-                </place>
-            </listPlace><!---->
+                <place type="privateHouse" subtype="institution">
+                    <placeName>Private collection of Marigetā Malāʾka Gannat Bare Bəzuʿālam ʾAndābet</placeName>
+                    <country ref="wd:Q115">Ethiopia</country>
+                    <region ref="LOC6575SouthGondar">South Gondar</region>
+                    <note><persName ref="PRS14881BareBzualam">Bare</persName> is a scribe who works
+                        at <placeName ref="LOC7316Andabet">ʾAndābet, Gənb Qəddus Giyorgis parish
+                        </placeName>, South Gondar, Ethiopia. </note>                  
+                 </place>
+            </listPlace>
         </body>
     </text>
 </TEI>
