@@ -84,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <ab type="tabot"> 
                      <measure quantity="44"/>   Tābots: said to be "44", i.e. very many, both wooden and marble; specifically were mentioned tābots of 
                      <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, <persName ref="PRS6951Mazgaba" type="tabot">Mazgaba Śǝllāse</persName>, 
-                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.  
+                     <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.  
                      Possibly there exists also specifically <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>.
 </ab>               
                </note>

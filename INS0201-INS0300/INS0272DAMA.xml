@@ -74,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                      </figure>4 Mss. photographed: <ref type="mss" corresp="ESdama001">DAMA-001</ref> “Absolution of the Son”; <ref type="mss" corresp="ESdama002">DAMA-002</ref> “Four Gospels”; <ref type="mss" corresp="ESdama003">DAMA-003</ref> “Sänbätä Krǝstiyan”; <ref type="mss" corresp="ESdama004">DAMA-004</ref> “Psalter”.</ab>
            
                   <ab type="tabot">
-                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
+                     <measure quantity="2"/>Tābots of <persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS6819Mary" type="tabot">Mary</persName>.</ab>
                </note>
             </place>
          </listPlace>

@@ -82,7 +82,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          
                   <ab type="tabot">
                      <measure quantity="8"/>Tābots of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>, 
-                     <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
+                     <persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, 
                      <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName>, 
                      two of <persName ref="PRS6298Libanos" type="tabot">Libānos</persName> (marble), <persName ref="PRS4377Gabriel" type="tabot">Gabriel</persName>.</ab>
                </note>

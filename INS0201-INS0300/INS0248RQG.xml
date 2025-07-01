@@ -67,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <ab type="tabot">
                      <measure quantity="5"/>Tābots (5 in two churches): <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>, 
                         <persName ref="PRS9162TaklaHa" type="tabot">Takla Haymanot</persName>, <persName ref="PRS4585Georgeo" type="tabot">George</persName> (main) in the monastic church; 
-                        <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName> (old), <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the second church.</ab>
+                        <persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName> (old), <persName ref="PRS6819Mary" type="tabot">Mary</persName> in the second church.</ab>
                   <ab type="description">
                      <figure>
                         <graphic url="Sites/RQG.tif">

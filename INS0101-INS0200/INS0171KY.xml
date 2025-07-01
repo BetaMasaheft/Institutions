@@ -74,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                      One ruined rock-hewn church, with remains of paintings, is located in the rock under the main church of <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>. &#xD;</ab>
                   <ab type="tabot">
                      <measure quantity="12"/>Tābots (at least 12, 7 of them marble): <persName ref="PRS7049Michael" type="tabot">Michael</persName>, <persName ref="PRS4306GabraMa" type="tabot">Gabra Manfas Qǝddus</persName>, 
-                     3 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5684JesusCh#MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, 
+                     3 of <persName ref="PRS6819Mary" type="tabot">Mary</persName>, <persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS5741Johnthe" type="tabot">John the Baptist</persName>, 
                      <persName ref="PRS1296Abreham" type="tabot">Abrǝhām (of Qata)</persName>, <persName ref="PRS5684JesusCh" type="tabot">Jesus</persName> (<persName ref="PRS1906Ananyao" type="tabot">ʾAnānyā</persName> in a small church in the vicinity;
 other tābots in small associated churches around).</ab>
                   <ab type="description">
