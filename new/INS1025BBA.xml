@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Private collection of Bare Bəzuʿālam</title>
+                <title>Private collection of Bare Bǝzuʿālam</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,11 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="privateHouse" subtype="institution">
-                    <placeName>Private collection of Marigetā Malāʾka Gannat Bare Bəzuʿālam ʾAndābet</placeName>
+                    <placeName>Private collection of Marigetā Malāʾka Gannat Bare Bǝzuʿālam ʾAndābet</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <region ref="LOC6575SouthGondar">South Gondar</region>
                     <note><persName ref="PRS14881BareBzualam">Bare</persName> is a scribe who works
-                        at <placeName ref="LOC7316Andabet">ʾAndābet, Gənb Qəddus Giyorgis parish
+                        at <placeName ref="LOC7316Andabet">ʾAndābet, Gǝnb Qǝddus Giyorgis parish
                         </placeName>, South Gondar, Ethiopia. </note>                  
                  </place>
             </listPlace>
