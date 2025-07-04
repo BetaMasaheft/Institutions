@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="wd:Q630461" type="academicInstitution library" subtype="institution">
                     <placeName>Bibliothèque Nationale et Universitaire de Strasbourg (BNU)</placeName>
                     <country ref="wd:Q142">France</country>
-                    <settlement type="city" ref="wd:Q6602"/>
+                    <settlement type="city" ref="LOC5803Strasb"/>
                     <region type="province" ref="wd:Q12717"/>
                     <region type="province" ref="wd:Q1142"/>
                     <region type="region" ref="wd:Q18677983"/>
