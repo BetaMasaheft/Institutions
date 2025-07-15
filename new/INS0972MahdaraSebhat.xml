@@ -50,7 +50,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <placeName corresp="#n1" type="normalized">Māḫǝdara Sǝbḥāt lǝdatā la-Māryām</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="wd:Q3624">ʾAddis ʾAbabā</settlement> 
-                    <note>                        
+                    <note>           
+                        <date type="foundation" when="1922">This church was inaugurated on 21 Yakkātit 1916 EC. The founder and patron of the church was <persName ref="PRS8588Sawiros">ʾƎč̣č̣age Gabra Manfas Qǝddus (later ʾAbuna Sāwiros)</persName>. The site was comparatively extensive and belonged to the ʾƎč̣č̣age’s office.
+                            The church had 40 gāšās of land for its upkeep, thirty of which belonged to the Gabaz, Lǝǧ Gabra ʾAdǝnaw, who was Mənilək’s ʾƎlfǝññ ʾAskalkāy and is sometimes known as Bālamwāl Gabre. The land was inherited by his children who have, however, no connection with the church and have even stopped the annual feast on Gǝnbot one which their father used to organize in order to commemorate the day of  Lǝdatā. 
+                            In 1963, there were 32 priests and deacons, and 38 dabtarās serving the church. Influential people attached to the church included Daǧǧāč <persName ref="PRS2435Balcasa">Bālčā ʾAbbā Nafso</persName>, Daǧǧāč ʾAsaffā Lǝʿul Saggad and <persName ref="PRS10671Zawditu">Empress Zawditu</persName>. In the 1960s <persName ref="PRS6561Makwanne">Rās Bitwaddad Makwannǝn ʾƎndālkāččaw</persName> and his wife used to support the church. The Italian forces tried to demolish the church, perhaps because they had plans to use the land for some other purpose. They forbade the use of the church and it was for some time surrounded by soldiers .</date>
+                        <ab type="description" subtype="school">All levels of the ecclesiastical education are offered, even though some of them are not active. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="NebabBet">Nǝbāb bet</ref></cell>
+                                    <cell>n.d.</cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                                    <cell>Mamhǝr Ṭǝbaba Yiheyis </cell>
+                                    <cell>11</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Mamhǝr Dassālaññ ʾAlāmǝrrawu </cell>
+                                    <cell>15</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Liqa Māʾǝmmǝran Dāwit Asaffā</cell>
+                                    <cell>10</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Mamhǝr Zakkārias Ammbāwu </cell>
+                                    <cell>15</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="MashafBet#Andemta">Maṣḥāf bet: ʾAndǝmtā</ref></cell>
+                                    <cell>Maggābi Haddis ʾAnduʾālam</cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                            </table>
+                        </ab>
                         <ab type="tabot"><persName ref="PRS6819Mary" type="tabot">Mary</persName>
                             </ab>                       
                         

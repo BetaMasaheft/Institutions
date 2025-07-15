@@ -50,7 +50,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <placeName corresp="#n1" type="normalized">Ḥamara Noḫ Kidāna Mǝḥrat</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="wd:Q3624">ʾAddis ʾAbabā</settlement> 
-                    <note>                        
+                    <desc facs="Sites/INS0448HamaraN/" n="26">Images</desc>
+                    <note>      
+                        <date type="foundation" notBefore="1909" notAfter="1930">According to an additional note in a manuscript, it was established at the foot of the <placeName ref="LOC2977Entott">ʾƎnṭoṭṭo Mountain</placeName> by <persName ref="PRS9345taytuBe">Empress Ṭāytu</persName> in 1902 EC. Later, <persName ref="PRS6642MananAs">Empress Manan</persName> built a new church in 1923 EC. Rās Dastā supervised the construction work.</date>
+                        <ab type="description">Near the church, there is a holy water spring which is highly visited due to the belief of its miraculous healing power. </ab>
+                        <ab type="description" subtype="school">All levels of the ecclesiastical education are offered, even though some of them are not active. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="NebabBet">Nǝbāb bet</ref></cell>
+                                    <cell>Mamhǝr Damṣa Tasammā</cell>
+                                    <cell>40</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                                    <cell>Mamhǝr ʾAbbā Ḥayla ʾIyyasus Mattāfariyā </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Liqa ṭabbabt Takasta Bǝrhānu </cell>
+                                    <cell>6</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Mamhǝr Yoḫannǝs Dasse   </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Mamhǝr ʾƎngdāwarq Tǝrfe </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="MashafBet#Andemta">Maṣḥāf bet: ʾAndǝmtā</ref></cell>
+                                    <cell>Mamhǝr Gǝrmā Rǝʾǝyatu </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                            </table>
+                        </ab>
                         <ab type="tabot"><ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>
                             </ab>                       
                         

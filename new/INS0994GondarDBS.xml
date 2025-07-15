@@ -44,11 +44,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place  type="church" subtype="institution">
-                    <placeName>Dabra Bǝrhān Śǝllāse</placeName>
-                    <country ref="wd:Q115">Ethiopia</country>
-                    <settlement ref="LOC3577Gondar">Gondar</settlement>
-                    <note><desc type="foundation">Located on a hill in the north-west side of the city, this church is one of the famous churches in Gondar town. It was founded in <date when="1694">January 1694</date> during the reign of ʾaṣe Iyyāsu I. </desc></note>
+                <place  type="church" subtype="institution" sameAs="wd:Q3580176">
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ብርሃን፡ ሥላሴ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Bǝrhān
+                        Śǝllāse</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Mount of Light of the Trinity</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">ሥሉስ፡ ቅዱስ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Śǝllus Qǝddus</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
+                    <location>
+                        <geo>12.616667 37.483333</geo>
+                    </location>
+                    <desc facs="Sites/INS0994GondarDBS/" n="4">Images</desc>
+                    <note>
+                        <date type="foundation">1694</date>
+                        <ab type="history">Dabra Bǝrhān Śǝllāse was an influential church situated on an
+                            elevated land north-west of <placeName ref="LOC3577Gondar">Gondar</placeName>
+                            and consecrated in <date>1694</date> during the reign of <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. The original establishment
+                            included 170 clergy and generous land grants. In this church the <roleName type="function">emperor</roleName> and his court celebrated the Feast of the
+                            Trinity. The church was destroyed by lightning in <date>1707</date> but
+                            immediately rebuilt. Probably between <date>1800</date> and <date>1830</date>,
+                            it was replaced by the current rectangular building which survived the attack
+                            of Gondar by the dervishes in <date>1888</date>.</ab>
+                        <ab type="description">Dabra Bǝrhān Śǝllāse is described in both the <ref type="work" corresp="LIT3950ChronIyasu">Chronicle</ref> and in the Vita of
+                            <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. The <roleName type="function">emperor</roleName> himself prescribed that the round walls
+                            had to be four cubits thick and exactly one hundred cubits from north to south
+                            and from east to west. The central part of the church was encircled by twelve
+                            entrances with twelve pillars supporting arcades. The roof was surmounted by a
+                            gold roof decoration (gullǝlat) and a large gold cross holding spheres the size
+                            of ostrich eggs. The belfry had two large bells. The rectangular church built
+                            in the <date>19th century</date> has a rectangular hall with a half-circular
+                            apse at the east end, three entrances (north, south, west) and a thatched roof.
+                            The inside of the church is completely covered by paintings.</ab>
+                        
+                        <ab type="description" subtype="school">
+                            According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>     
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Yoḥannǝs ʾAlamu</cell>
+                                    <cell>100</cell>
+                                </row>            
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Māhtot Tasfā (b. 1966)</cell>
+                                    <cell>80</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddase bet</ref></cell>
+                                    <cell>Yoḥannǝs ʾAbarrā </cell>
+                                    <cell>50</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Tǝḥtǝnna Fantāyye  </cell>
+                                    <cell>200</cell>
+                                </row>
+                            </table>
+                            <ref target="https://doi.org/10.25592/uhhfdm.14599">See the interview with Māhtot Tasfā  (b. 1966) conducted on 16 May 2024</ref>
+                        </ab>
+                    </note>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:PankhurstBalicka2005EnAeDabraBS"/>
+                        </bibl>
+                    </listBibl>
                 </place>
             </listPlace><!---->
         </body>

@@ -70,6 +70,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                </location>
                <note>
                   <desc type="foundation">A famous church in Addis Ababa which was established in <date when="1920">1913 EC</date>. According to a source in the parish, Lǝğ Iyyāsu laid the corner stone of the present church and construction work commenced in <date when="1910">1903 EC</date>. Part of the funds for the completion of the building was granted by the Emperor Ḫāyla Śǝllāse I, when still Regent and Crown Prince. For various reasons, however, it was delayed for several years and was only completed in 1913 EC and the ark was placed in the new church on the 27th Tǝqǝmt. The church walls were painted by ʾAgaññahu ʾƎngǝda (+1944 EC). The gabaz, the lay head, was Fitāwrāri Hābta-Giyorgis and was succeeded by his grand son Sawʾalla Dagafu</desc>
+                  <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                     <table>
+                        <row role="label">
+                           <cell role="label">School</cell>
+                           <cell role="label">Instructor</cell>
+                           <cell role="label">Students</cell>
+                        </row>     
+                        <row>
+                           <cell><ref type="authFile" corresp="NebabBet">Nǝbab bet</ref></cell>
+                           <cell>Yeneta Gabra Hǝywat Munyye</cell>
+                           <cell>50</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="QeddaseBet">Qǝddase bet</ref></cell>
+                           <cell>Mamhǝr Muse Boggāla </cell>
+                           <cell>7</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                           <cell>Liqa Māǝmǝran Dāwit Asaffā</cell>
+                           <cell>10</cell>
+                        </row>                        
+                                                        
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                           <cell>Mamhǝr  Mangaşā Geṭu  </cell>
+                           <cell>25</cell>
+                        </row>
+                        
+                        <row>
+                           <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                           <cell>Maggābe Mǝsṭir Qaṣalā Fantǝtte (b. 1958)</cell>
+                           <cell>20</cell>
+                        </row>
+                        
+                        <row>
+                           <cell><ref type="authFile" corresp="MashafBet">Old Testament Commentary</ref></cell>
+                           <cell>Maggābe Bǝluy Lāʾǝka Māryām Hayla Māryām  </cell>
+                           <cell>n.d.</cell>
+                        </row>
+                     </table>
+                     <ref target="https://doi.org/10.25592/uhhfdm.17727">Interview with Maggābe Mǝsṭir Qaṣalā on 07.08.2023</ref></ab>
                   <ab type="tabot"><persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName></ab>
                </note>
             </place>

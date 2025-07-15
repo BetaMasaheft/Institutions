@@ -44,13 +44,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Bāhǝr Dār Takla Hāymānot</placeName>
+                <place type="church monastery gadam" subtype="institution">
+                    <placeName xml:id="n1">Bāhǝr Dār Takla Hāymānot</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">ፈለገ፡ ግዮን፡ አቡነ፡ ተክለ፡ ሃይማኖት፡ </placeName>
+                    <placeName corresp="#n2" type="normalized">Falaga Gǝyon ʾAbuna Takla Hāymānot </placeName>
                     <country ref="wd:Q115">Ethiopia</country>
-                    <settlement ref="LOC1721BaherD"/>
+                    <settlement ref="LOC1721BaherD"/>                    
                     <note>
+                        <date type="foundation" when="1999">This monastery located on the adjacent of Tana See in the Eastern side of Bāḥr Dār, on the side of the course of ʾAbbāy River, is founded in 1999 where eleven monks are residing. 
+                        </date>
+                        <ab type="description" subtype="school">The monastery is famous for its school of commentary. The four department of the school of commentary are established. The instructor, Liqa Liqāwǝnt Sǝmʿākona Malʾak is teaching 50 students. Māʿbal Faṭṭana, a renowned scholar in Qǝne and commentary, assists him. 
+                            Located on the Southern side of Bāḥər Dar, on the side of the course of ʾAbbāy River, this monastery is known for its school of commentary. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>    
+                                <row>
+                                    <cell><ref type="authFile" corresp="MashafBet#Andemta">Maṣḥāf bet: ʾAndǝmtā</ref></cell>
+                                    <cell>Liqa Liqāwǝnt Sǝmʿākona Malʾak and Māʿbal Faṭṭana</cell>
+                                    <cell>50</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="MashafBet#OldT">Maṣḥāf bet: Old Testament</ref></cell>
+                                    <cell>Məsṭirasəllāse ʾAmānuʾel</cell>
+                                    <cell>n.d.</cell>
+                                </row>                                
+                            </table>
+                            <ref target="https://doi.org/10.25592/uhhfdm.17723">Interview with Maggăbe Bəluy (aged 40) Məsṭirasəllāse ʾAmānuʾel conducted on 12.07.2023       </ref>
+                        </ab>
                         <ab type="tabot"><persName ref="PRS9162TaklaHa" type="tabot"></persName></ab>
                     </note>
+                    
                 </place>
             </listPlace><!---->
         </body>

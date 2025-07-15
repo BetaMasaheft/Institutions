@@ -1,0 +1,119 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0980BahrDarSA" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Salām ʾArgiw Dabra Ṣǝyon Qǝddǝst Māryām </title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2023-05-04">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church" subtype="institution">
+                    <placeName xml:id="n1">Salām ʾArgiw Dabra Ṣǝyon Qǝddǝst Māryām</placeName>
+                    <country ref="wd:Q115">Ethiopia</country>
+                    <settlement ref="LOC1721BaherD"/>          
+                    <desc facs="Sites/INS0980BahrDarSA/" n="52">Images</desc>
+                    <note>
+                        <date type="foundation" when="1990">Established in 1983 E.C.  during the Derg regime.
+                        </date>
+                        <ab type="description" subtype="school">A church that is located inside the main campus of Bāḥr Dār University is known in its schools that train students with different fields of studies. The biggest and famous of all is the School of Qǝne where the young Qǝddus Yāred, son of the renowned Scholar of Qǝne, Yanetā Yāred Šǝfarrāw is teaching supported by his assistants called Zarāfiwočč. Born and raised by the man of Qǝne, Qǝddus established a famous urban school of Qǝne in Bāḥr Dār teaching “unto 1500 daqqa mazāmurt”.
+                            According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>     
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Lǝʿul Tārraqaññ</cell>
+                                    <cell>0</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Fǝre Sǝbḥāt ʾAnnǝlay</cell>
+                                    <cell>150</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Baqālu ʾAsras</cell>
+                                    <cell>0</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Damḍa Tasammā</cell>
+                                    <cell>0</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Nāhu Śannāy </cell>
+                                    <cell>50</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Bezā Tǝlāhun</cell>
+                                    <cell>0</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddase bet</ref></cell>
+                                    <cell>Fǝreqāl Mǝsgānāw </cell>
+                                    <cell>30</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddase bet</ref></cell>
+                                    <cell>Zalaʿālam ʾAlmāw </cell>
+                                    <cell>0</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Qǝddus Yāred </cell>
+                                    <cell>1000-1500</cell>
+                                </row>
+                            </table>
+                            <ref target="https://doi.org/10.25592/uhhfdm.17721">Qǝne teaching class by Qǝddus Yāred registered on 3 November 2022</ref>
+                        </ab>
+                        <ab type="tabot"><persName ref="PRS6819Mary" type="tabot">Mary</persName>
+                        </ab>
+                    </note>
+                    
+                </place>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>

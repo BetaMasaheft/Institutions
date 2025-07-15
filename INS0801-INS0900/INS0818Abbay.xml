@@ -52,11 +52,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">ʿAbbāy Mādo Qǝddus Gabrǝʾel</placeName>               
+               <placeName type="normalized" xml:id="n1">ʿAbbāy Mādo Qǝddus Gabrǝʾel</placeName>        
+               <placeName xml:id="n2" type="alt">Qǝlāğ Giyorgis</placeName>
                <country ref="wd:Q115">Ethiopia</country>
                <settlement ref="LOC1721BaherD"/>
-               <location><desc>This is a relatively new Church in the outskirt of Bāḥǝr Dār where there is a school of Dǝggwa</desc>                  
-               </location>
+               <note>
+                  <date type="foundation" when="1999">Tradition has it that this church is established in 1495 and was called Qǝlāğ Giyorgis. Then the church was burnt during the invasion of <persName ref="PRS1522Ahmadb"></persName>. The church was re-inaugurated in 1976 under a new name, ʿĀbbāy Mādo St. Gabrǝʾel.       
+                  </date>
+                  <ab type="description" subtype="school"> Currently, there are schools that train students with different fields namely, commentary, Dǝggʷā, ʾAqqʷāqʷām and Qǝddāse. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                     <table>
+                        <row role="label">
+                           <cell role="label">School</cell>
+                           <cell role="label">Instructor</cell>
+                           <cell role="label">Students</cell>
+                        </row>                               
+                        
+                        <row>
+                           <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                           <cell>Efrem ʾAndārge</cell>
+                           <cell>35</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                           <cell>Lǝbsa Warq ʿĀlamāyyahu</cell>
+                           <cell>60</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                           <cell>Yǝbābe Mangǝśt </cell>
+                           <cell>100</cell>
+                        </row>                               
+                                                
+                        <row>
+                           <cell><ref type="authFile" corresp="MashafBet#NewT">Maṣḥāf bet: New Testament</ref></cell>
+                           <cell>Ḥāraga Wayn Barrihun</cell>
+                           <cell>35</cell>
+                        </row>
+                     </table>
+                     
+                  </ab>
+                  <ab type="tabot"><persName ref="PRS4377Gabriel" type="tabot"></persName></ab>
+               </note>
                
             </place>
          </listPlace>
