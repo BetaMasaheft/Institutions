@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0996GGabriel" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAbun Bet Gabrǝʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2025-07-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="church" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="gez">ገብርኤል፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Gabrǝʾel</placeName>
+                    <placeName xml:id="n2">ʾAbun Bet Gabrǝʾel</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
+                    <location>
+                        <geo cert="medium">12.6154 37.4681</geo>
+                    </location>
+                    <desc facs="Sites/INS0996GGabriel/" n="27">Images</desc>
+                    <note>
+                        <ab type="description">Gabrǝʾel is a church north of <placeName ref="LOC3577Gondar">Gondar</placeName>, at the foot of <placeName ref="LOC3288Gannat">Gannat Tarrā</placeName> hill. <roleName type="title">ʾAbuna</roleName>
+                            <persName ref="PRS10450YosabI">Yosab</persName> moved his residence
+                            (cfr. <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName>) near
+                            Gabrǝʾel Church during the reign of <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS9153TaklaHa">Takla Hāymānot</persName>, while before
+                            it used to be near the church of <placeName ref="LOC6540Entone">ʾAbbā
+                                ʾƎnṭonǝs</placeName> in the north-western part of 
+                            <placeName ref="LOC3577Gondar">Gondar</placeName>. During the Italian
+                            occupation, <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName> was
+                            moved near <placeName ref="LOC6541DabraSahaySell">Dabra Ḍahāy
+                                Śǝllāse</placeName> church in the central part of the city, while
+                            the site near Gabrǝʾel church was restored after the Italians were
+                            expelled in <date>1941</date>.</ab>
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="QeneBet">Qǝne bet</ref>.  
+                            
+                            <ref target="https://doi.org/10.25592/uhhfdm.14599">Class activities recorded on 6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Tewodros Abbaba (age 29, Qəne candidate/ Zarāfi), Interviewer: Senkoris Ayalew; Date:  6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Naq'a Təbab Ešate (age 71, Maggābe Məstirat), Interviewer: Senkoris Ayalew; Date: 19 May 2024</ref></ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:nearBy" active="INS0996Gabriel" passive="LOC3288Gannat"/>
+                    <relation name="dc:relation" active="INS0996Gabriel" passive="LOC1058AbunBe"/>
+                </listRelation>                
+            </listPlace>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Wubneh2003EnAeAbunBet"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
