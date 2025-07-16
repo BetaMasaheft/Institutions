@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS0974GMA" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Madḫāne ʿĀlam</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2025-07-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="church" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="gez">መንበረ፡ መንግሥት፡ መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Manbara Mangǝśt Madḫāne
+                        ʿĀlam</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Madḫāne ʿĀlam</placeName>
+                    <!--               transitteration in fidel and xml:lang assigned as gez to be checked-->
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
+                    <location>
+                        <geo cert="medium">12.6000 37.4666</geo>
+                        <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
+                    </location>
+                    <desc facs="Sites/INS0974GMA/" n="8">Images</desc>
+                    <note>
+                        <ab type="description"> Manbara Mangǝśt Madḫāne ʿĀlam is one of five churches
+                            founded in the <date>17th century</date> by 
+                            <persName ref="PRS4015Fasilada">Fāsiladas</persName> outside the central
+                            nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="MashafBet">a commentary school</ref>.  
+                            
+                            <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Batra Maryam Ababāw (age 37, student of ʾAndəmtā commentary), Interviewer: Senkoris Ayalew; Date: 20 May 2024</ref></ab>
+                    </note>
+                </place>
+            </listPlace>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
