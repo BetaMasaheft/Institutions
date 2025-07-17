@@ -97,7 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </row>            
                                 <row>
                                     <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
-                                    <cell>Māhtot Tasfā (b. 1966)</cell>
+                                    <cell><persName ref="PRS14972Mahtot">Māhtot Tasfā</persName> (b. 1966)</cell>
                                     <cell>80</cell>
                                 </row>                                
                                 <row>

@@ -63,12 +63,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </row>    
                                 <row>
                                     <cell><ref type="authFile" corresp="MashafBet#Andemta">Maṣḥāf bet: ʾAndǝmtā</ref></cell>
-                                    <cell>Liqa Liqāwǝnt Sǝmʿākona Malʾak and Māʿbal Faṭṭana</cell>
+                                    <cell>Liqa Liqāwǝnt Sǝmʿākona Malʾak assisted by Māʿbal Faṭṭana</cell>
                                     <cell>50</cell>
                                 </row>
                                 <row>
                                     <cell><ref type="authFile" corresp="MashafBet#OldT">Maṣḥāf bet: Old Testament</ref></cell>
-                                    <cell>Məsṭirasəllāse Mānāyya (until 2022)</cell>
+                                    <cell><persName ref="PRS14978Mestir">Məśṭiraśəllāse Mānāyya</persName> (until 2022)</cell>
                                     <cell>n.d.</cell>
                                 </row>                                
                             </table>

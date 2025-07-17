@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             founded in the <date>17th century</date> by 
                             <persName ref="PRS4015Fasilada">Fāsiladas</persName> outside the central
                             nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
-                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="MashafBet">a commentary school</ref>.  
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="MashafBet">a commentary school</ref>; <persName ref="PRS14973Batra"></persName> was a student there in 2024.  
                             
                             <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Batra Maryam Ababāw (age 37, student of ʾAndəmtā commentary), Interviewer: Senkoris Ayalew; Date: 20 May 2024</ref></ab>
                     </note>

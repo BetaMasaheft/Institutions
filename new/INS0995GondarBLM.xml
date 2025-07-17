@@ -78,7 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </row>
                                 <row>
                                     <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
-                                    <cell>Mamhǝr (Maggābe aʿlāf) Kǝbur Tǝlāhun (b. 1967); Candidates: ʾAfawarq Daməlle(b. 1984), Laʿālam Dammaqa (b. 1985), Lakullu Tilāhun (b. 1989)</cell>
+                                    <cell>Mamhǝr (Maggābe aʿlāf) <persName ref="PRS14970Kebur">Kǝbur Tǝlāhun</persName> (b. 1967); Candidates: <persName ref="PRS14974Afawarq">ʾAfawarq Daməlle</persName> (b. 1984), <persName ref="PRS14976Laalam">Laʿālam Dammaqa</persName> (b. 1985), <persName ref="PRS14975Lakullu">Lakullu Tilāhun</persName> (b. 1989)</cell>
                                     <cell>175</cell>
                                 </row>
                             </table>
