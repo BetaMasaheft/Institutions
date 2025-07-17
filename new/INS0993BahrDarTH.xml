@@ -68,11 +68,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </row>
                                 <row>
                                     <cell><ref type="authFile" corresp="MashafBet#OldT">Maṣḥāf bet: Old Testament</ref></cell>
-                                    <cell>Məsṭirasəllāse ʾAmānuʾel</cell>
+                                    <cell>Məsṭirasəllāse Mānāyya (until 2022)</cell>
                                     <cell>n.d.</cell>
                                 </row>                                
                             </table>
-                            <ref target="https://doi.org/10.25592/uhhfdm.17723">Interview with Maggăbe Bəluy (aged 40) Məsṭirasəllāse ʾAmānuʾel conducted on 12.07.2023       </ref>
+                            <ref target="https://doi.org/10.25592/uhhfdm.17723">Interview with Maggăbe Bəluy (aged 40) Məsṭirasəllāse Mānāyya (formerly teacher at Bāhǝr Dār Takla Hāymānot, now teacher at Bəsrāta Gabrəʾel ʾAddis ʾAbabā) conducted on 12.07.2023</ref>
                         </ab>
                         <ab type="tabot"><persName ref="PRS9162TaklaHa" type="tabot"></persName></ab>
                     </note>
