@@ -51,7 +51,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Nagʷadgʷād qǝddus Yoḥānnǝs</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="LOC3549Gojjam">Goǧǧām</settlement> 
-                    <note>                        
+                    <note>    
+                        <date type="foundation" when="1921">The church establishment was started in 1914, E.C. This church is closely related with the history of <persName ref="PRS10671Zawditu">Empress Zawditu</persName>. The Ark of this church, the Ark of St. John (<persName ref="PRS5695John#n3" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>) used to belong to <persName ref="PRS10378Yohanne">Emperor Yohannes IV</persName>, who later gave it to his son <persName ref="PRS2012Arayas">Ras Araya Śəllase</persName>. The Ras gave the Ark to his wife Zawditu, (later Empress) hoping that it would be of service to her. 
+                            When <persName ref="PRS2012Arayas">Ras Araya Śəllase</persName> died, Mənilək sent his notables Ligaba Walda Gabriel and Dajatch Abate to Tigray to bring his daughter back to Shoa. According to my informants 28, it was a time of heavy rain and the rivers were impassable. Zawditu stayed with the Ark at Dabra Tabor for a year. There, the Ark was placed in Mahdara Maryam church. Finally, Zawditu was brought to Addis Ababa, and she married Dajatch, later Ras Wube with whom she lived for about two years and a half. She was made to divorce him on the ground that he beat her. She was married to Dajazmatch, later Ras, Gugsa who was subsequently promoted to the governorship of Bagemdr. 
+                            When <persName ref="PRS10671Zawditu">Zawditu</persName> went again to Dabra Tabor accompanying her husband she built a chapel in her court and the Ark of St. John was placed in it. She lived at Dabra Tabor for 12 years with Ras Gugsa, and then she and her husband were called back to Addis Ababa. Lij Iyasu exiled them to fall for about two and half years. In September 1909, E.C. she was freed by Fitawrari Habta Giyorgis and other Shoan chiefs and made her Empress. She was asked to be crowned on 12 of Hidar 1909, E.C. but she refused on the ground that her favorite ark was still in Dabra Tabor. 
+                            So the coronation was postponed until the ark was brought from that place. Accordingly, Dajatch Walda Gabriel, Echagé Tadla (later ʾAbuna Sawiros) and Ligaba Habte Mikaʾel were sent to bring the ark. They arrived in Addis Ababa with the ark on Tər 29, 1909, E.C. The ark was placed in the imperial chapel of Mənilək. It was moved to St. George Church for the coronation of the Empress that took place on Yakatit 4th, 1909, E.C. the day of the celebration of the evangelist John. The Empress then gave the present site for the church and the ark was housed temporarily in an ordinary building. Finally, in 1918, E.C. the church was built. The original church, architecturally of the traditional style, was left as it stands today and a new modern church of Greek basilica style was built in 1949, E.C. due to the following story. The Duke of Harar was born on the day of the celebration of this church (the fourth of each month), and his Christian name was also Araya Yohannes. 
+                            According to my informant he used to request his father, the Emperor Ḫayla Śəllase to rebuild this church but the Emperor did not take action. The Duke died on the day of this Saint, the 4th of Gnbot 1949, E.C. On the 12th day after his death, i.e. on Ginbot 16 the Emperor went to this church and told the story to the congregation and promised to rebuild the church so as to fulfill the wishes of his late son. Thus, a new building of St. John came into existence. Moreover, the Emperor gave one large golden cross, vestments for 7 clergy and 40 gashas of land for the maintenance of the church.
+                            
+                        </date>
+                        <ab type="description" subtype="school">Several levels of church education are offered, even though some of them are not active. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                                    <cell>Marigetā  Ṭǝbaba Salomon</cell>
+                                    <cell>n.d.</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Mamhǝr Ṭǝʾuma Lissān Lǝngarǝh</cell>
+                                    <cell>6</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Liqa ṭabbabt Sayfa </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Marigetā Mabraqu </cell>
+                                    <cell>n.d.</cell>
+                                </row>                                
+                            </table>
+                        </ab>
                         <ab type="tabot"><persName ref="PRS5695John#n3" type="tabot">Yoḥannǝs Walda Nagʷadgʷād</persName>
                             </ab>                       
                         

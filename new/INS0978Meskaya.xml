@@ -50,7 +50,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <placeName corresp="#n1" type="normalized">Mǝskāya ḫǝzunān Madḫāne ʿĀlam</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
                     <settlement ref="LOC3549Gojjam">Goǧǧām</settlement> 
-                    <note>                        
+                    
+                    <note>     
+                        <date type="foundation" when="1947">The current church, erected in the 1940s, holds a significant relic with a rich history—the Tabot. During the reign of Mənilək II, this sacred ark was sent to Jerusalem, where a small church, named Madḫaneʿalam Tabot, was built in its honor. Ethiopian priests in Jerusalem conducted rituals around it. Amid the Italian invasion, Emperor Ḫayla Śəllase ordered the ark to be taken to London for safekeeping by five priests. In exile, the Emperor and his officials prayed in a chapel at Bath, housing the ark, known as Məskaya Həzunan Madḫaneʿalam, meaning "reliever of the grieved."
+                            
+                            Upon liberation, the ark returned to Addis Ababa and was initially housed in a building within the Ḫayla Śəllase Hospital compound. Later, in 1940 EC, construction began on the present church, with the ark being installed upon completion on the 24th of Miazia. The entire construction was funded by the Emperor, with Italian painter Fumana contributing to the church's paintings. The church's leadership transitioned, with ʾAbbā Hanna Jima succeeded by ʾAbbā Takla Māryām after the 1960 coup.
+                            
+                            
+                        </date>
+                        <ab type="description">Distinct from other churches, the priests, monks, and deacons associated with this church reside within its compound, forming a monastic community. Initially, the community established a workshop for crafting rugs and carpets. Additionally, in the 1950s, the compound housed two schools and a literacy class. After the fall of the imperial regime, the church came under its own management, accountable to the Orthodox Church Addis Ababa Diocese. It generates income through property rentals and operates a modern high school. Notably, 53 manuscripts have been produced at this church, some of which have contributed to the development of Amharic literature and provided insights into the power structure of the time.</ab>
+                        <ab type="description" subtype="school">Several levels of church education are offered, even though some of them are not active. According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, the following levels  of traditional education were avaialable: 
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="NebabBet">Nǝbāb bet</ref></cell>
+                                    <cell>Mamhǝr Lǝssāna Warq and Kidāna Māryām</cell>
+                                    <cell>n.d.</cell>
+                                </row>                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet">Zemā bet</ref></cell>
+                                    <cell>Mamhǝr  ʾAbiyy ʾAbabāwu </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Mamhǝr  ʾEfrem ʾAnnǝmut</cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Maggābe mǝsṭir ʾIyyāsu Gabra ʾAlfā </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="MashafBet#NewT">Maṣḥāf bet: NewTestament ʾAndǝmtā</ref></cell>
+                                    <cell>Maggābe hāddis Walda Giyorgis Śǝggāwu </cell>
+                                    <cell>n.d.</cell>
+                                </row>
+                            </table>
+                        </ab>
+                        
                         <ab type="tabot"><persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>
                             </ab>                       
                         
