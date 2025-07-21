@@ -45,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="dabr monastery religiousSite" subtype="institution">
-                  <placeName xml:id="n1">አጐዛ፡ ደብረ፡ ሣህል፡</placeName>
-                  <placeName corresp="#n1" type="normalized">ʾAgʷazā Dabra Śāhl</placeName>
+                  <placeName xml:id="n1" xml:lang="gez">አጐዛ፡ ደብረ፡ ሣህል፡</placeName>
+                    <placeName corresp="#n1" type="normalized" xml:lang="gez">ʾAgʷazā Dabra Śāhl</placeName>
                   <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <settlement ref="LOC3307Garalt" type="district"/>
