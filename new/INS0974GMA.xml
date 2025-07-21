@@ -45,8 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Manbara Mangǝśt Madḫāne
                         ʿĀlam</placeName>
                     <placeName xml:id="n2" xml:lang="gez">መድኃኔ፡ ዓለም፡</placeName>
-                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Madḫāne ʿĀlam</placeName>
-                    <!--               transitteration in fidel and xml:lang assigned as gez to be checked-->
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Gondar Madḫāne ʿĀlam</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
@@ -62,8 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             founded in the <date>17th century</date> by 
                             <persName ref="PRS4015Fasilada">Fāsiladas</persName> outside the central
                             nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
-                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="MashafBet">a commentary school</ref>; <persName ref="PRS14973Batra"></persName> was a student there in 2024.  
-                            
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, It had an active <ref type="authFile" corresp="MashafBet">a commentary school</ref>; <persName ref="PRS14973Batra"></persName> was a student there in 2024.                              
                             <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Batra Maryam Ababāw (age 37, student of ʾAndəmtā commentary), Interviewer: Senkoris Ayalew; Date: 20 May 2024</ref></ab>
                     </note>
                 </place>
