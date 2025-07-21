@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
          <abstract>
             <p/>
          </abstract>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="SDe" when="2018-12-21">provided list of institutions in
@@ -66,7 +66,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <location>
                   <geo>9.030818 38.766624</geo>
                </location>
-               <note>                        
+               <note>           
+                  <ab type="description">It is the highest-ranking cathedral of the Ethiopian Orthodox Tewahedo Church. Its sacred tabot (ark) was brought from Entoto in 1884 E.C. and initially placed in a chapel. Shortly thereafter, Emperor Mənilək II commissioned the construction of a larger church near the current site. The cornerstone of the present Holy Trinity Cathedral was laid in 1924 E.C. by Emperor Ḫayla Śəllāse, but construction was interrupted by war and ultimately completed in 1936 E.C. The architectural style of the present building markedly differs from that of the Mənilək era; it is distinguished by the inclusion of statues of saints and angels—a feature uncommon in traditional Ethiopian church design. The church's interior is adorned with paintings by renowned artists, including Alaqā Asrasāhegn Agagnahu, Agagnahu Engedā, Ato Emaʿelāf, Alaqā Mazmur Zadāwit, and a Greek painter named Germinis. The cathedral also functions as a royal and national cemetery, serving as the final resting place for members of the Imperial family as well as prominent civil and military figures</ab>
+                  <ab type="description" subtype="school">Within its compound once stood a school of zema (<ref type="authFile" corresp="ZemaBet">Zemā bet</ref>), underscoring its role as a center of liturgical learning. </ab>
                   <ab type="tabot"><persName ref="PRS10775Trinity" type="tabot">Trinity</persName>
                   </ab>                       
                   
