@@ -53,7 +53,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo cert="medium">12.6000 37.4666</geo>
-                        <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                     </location>
                     <desc facs="Sites/INS0974GMA/" n="8">Images</desc>
                     <note>
