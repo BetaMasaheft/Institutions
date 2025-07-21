@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
          <abstract>
             <p/>
          </abstract>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="SDe" when="2018-12-21">provided list of institutions in
@@ -63,6 +63,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                <location>
                   <geo>9.012205 38.763577</geo>
                </location>
+               <note>
+                  <date type="foundation" when="1917"></date>
+                  <ab type="history"> The establishment of this church started in 1909, E.C. with the ark, the tābot, of ʾƎsṭifānos. The reason was political. Ras Tafari became Crown Prince on 17.1.1909, E.C. on the celebration day of St. ʾƎsṭifānos. In addition, Rās Tafari won the battle at Sagale on the day of this saint, 17th Təqəmt 1909, E.C. To commemorate these two events with an establishment of a church, the ark of St. Estifanos was brought from Walqiṭe, 165 km East of Addis Ababa from the Church of St. Michael. To start with the ark was kept in Səʿəl Bet Kidāna Məḥrat at the Mənilək II palace for nine months. The next year a new building was erected on the present site and later in 1953, E.C. the present modern building was built.  The church was led by prominent clergy and some of them served the state like the Minister of Pen Maləʾaka Salām Walda Masqal. At the first visit in 1963, some 32 Mss. have been recorded under this church. </ab>
+                  <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, it had the following traditional teaching:
+                  
+                  
+                     <table>
+                        <row role="label">
+                           <cell role="label">School</cell>
+                           <cell role="label">Instructor</cell>
+                           <cell role="label">Students</cell>
+                        </row>                                
+                        
+                        <row>
+                           <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                           <cell>Mamhǝr Hayla Māryam Maraĉo </cell>
+                           <cell>n.d.</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                           <cell>Mamhǝr Mangašā Geṭu </cell>
+                           <cell>n.d.</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                           <cell>Mamhǝr ʾEfrem ʾAnnəmut</cell>
+                           <cell>n.d.</cell>
+                        </row>
+                        <row>
+                           <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                           <cell>Mamhǝr ʾAntanah Liqu </cell>
+                           <cell>n.d.</cell>
+                        </row>
+                        
+                     </table>
+                  
+                  </ab>
+                  
+                  
+                  <ab type="tabot"><persName ref="PRS3894estifano" type="tabot">ʾƎsṭifānos</persName>
+                  </ab>
+               </note>
             </place>
          </listPlace>
       </body>
