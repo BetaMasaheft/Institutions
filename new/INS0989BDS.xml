@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>
                         <ab type="tabot"><persName ref="PRS10775Trinity" type="tabot">Trinity</persName></ab>
                         <desc type="foundation">It was founded in <date when="1694">January 1694</date> during the reign of ʾaṣe Iyāsu I. </desc>
+                        <ab type="description" subtype="school">As of 2023, there was no active church school the last teacher of <ref type="authFile" corresp="QeneBet">Qǝne bet</ref>, <persName ref="PRS14980Qeddus">Qǝddus Yāred</persName>, having moved to <placeName ref="INS0980BahrDarSA"></placeName></ab>
                     </note>
                 </place>
             </listPlace><!---->
