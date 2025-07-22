@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>č’ač’ärä Saint George Monastery</title>
+                <title>Č̣āč̣ara Saint George Monastery</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,8 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place type="monastery" subtype="institution">
-                    <placeName xml:lang="gez" corresp="#n1">č’ač’ärä</placeName>
-                    <placeName xml:lang="en" xml:id="n1">Saint George Monastery</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ጫጨረ፡ ጊዮርጊስ፡  </placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Č̣āč̣ara Giyorgis</placeName>
+                    <placeName xml:lang="en" corresp="#n1">Č̣āč̣ara Saint George Monastery</placeName>
+                    
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <note>Located in the north Tigray region, Ethiopia (about 80 KM from Shire town)</note>
                 </place>
             </listPlace>
