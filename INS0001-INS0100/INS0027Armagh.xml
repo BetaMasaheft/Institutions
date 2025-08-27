@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place subtype="institution" type="library" sameAs="Q17779528">
+            <place subtype="institution" type="library" sameAs="wd:Q17779528">
                <placeName>Armagh Robinson Library</placeName>
                
                

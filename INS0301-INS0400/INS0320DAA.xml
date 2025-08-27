@@ -41,7 +41,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="church monastery" subtype="institution" sameAs="Q2088356">
+                <place type="church monastery" subtype="institution" sameAs="wd:Q2088356">
                     <placeName xml:id="n1" xml:lang="ar"> دير الأنبا أنطونيوس</placeName>
                     <placeName corresp="#n1" type="normalized">Dayr ʾAnbā ʾAnṭūniyūs</placeName>
                     <placeName corresp="#n1" xml:lang="en" type="main">Monastery of Saint Anthony</placeName>

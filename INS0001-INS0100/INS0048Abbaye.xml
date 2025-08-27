@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="library" subtype="institution" sameAs="Q2820512">
+                <place type="library" subtype="institution" sameAs="wd:Q2820512">
                     <country>France</country>
                     
                     <settlement>Dourgne</settlement>
