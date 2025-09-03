@@ -54,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="church">
-               <placeName type="normalized">Bole Qǝddus ʾƎsṭifānos</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሰላም፡ ቅዱስ፡ እስጢፋኖስ፡ </placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n1">Dabra Salām Qəddus ʾƎsṭifanos</placeName>
                <placeName type="alt">Addis Ababa, Bole, Shewa, Qiddus Estifanos Church</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
