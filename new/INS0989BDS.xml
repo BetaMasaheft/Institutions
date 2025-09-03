@@ -50,8 +50,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement ref="LOC1721BaherD"/>
                     <note>
                         <ab type="tabot"><persName ref="PRS10775Trinity" type="tabot">Trinity</persName></ab>
-                        <desc type="foundation">It was founded in <date when="1694">January 1694</date> during the reign of ʾaṣe Iyāsu I. </desc>
-                        <ab type="description" subtype="school">As of 2023, there was no active church school the last teacher of <ref type="authFile" corresp="QeneBet">Qǝne bet</ref>, <persName ref="PRS14980Qeddus">Qǝddus Yāred</persName>, having moved to <placeName ref="INS0980BahrDarSA"></placeName></ab>
+                        <desc type="foundation">Located in the southern side of the city of Bāḥr Dār, this church was established in 1990/91 CE</desc>
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, it had the following traditional teaching:
+                            
+                            
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse bet</ref></cell>
+                                    <cell>Mamhər Layəkun Bərhānu </cell>
+                                    <cell>30-40</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Mamhər Masarat </cell>
+                                    <cell>50-55</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Yanetā Ḫāyla Ṣəyon</cell>
+                                    <cell>200-250</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
+                                    <cell>Yenetā Haymānot  (until 2022 the school was headed by <persName ref="PRS14980Qeddus">Qǝddus Yāred</persName>, who moved to <placeName ref="INS0980BahrDarSA"></placeName>)</cell>
+                                    <cell>80-100</cell>
+                                </row>
+                                
+                            </table>
+                            
+                        </ab>
+                        
+                        
+                        
                     </note>
                 </place>
             </listPlace><!---->

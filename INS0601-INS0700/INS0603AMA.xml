@@ -80,7 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                         </row>     
                         <row>
                            <cell><ref type="authFile" corresp="NebabBet">Nǝbab bet</ref></cell>
-                           <cell>Yeneta Gabra Hǝywat Munǝyye</cell>
+                           <cell>Yeneta Gabra Hǝywat Munǝyye (see <ref target="https://doi.org/10.25592/uhhfdm.17917">Nǝbāb bet in 2024</ref>)</cell>
                            <cell>50</cell>
                         </row>
                         <row>
@@ -102,7 +102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                         
                         <row>
                            <cell><ref type="authFile" corresp="QeneBet">Qǝne bet</ref></cell>
-                           <cell>Maggābe Mǝsṭir <persName ref="PRS14979Qasala">Qaṣalā Fantǝtte</persName> (b. 1958)</cell>
+                           <cell>Maggābe Mǝsṭir <persName ref="PRS14979Qasala">Qaṣalā Fantǝtte</persName> (b. 1958; see <ref target="https://doi.org/10.25592/uhhfdm.17727">Interview with Maggābe Mǝsṭir Qaṣalā</ref>)</cell>
                            <cell>20</cell>
                         </row>
                         
@@ -112,7 +112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
                            <cell>n.d.</cell>
                         </row>
                      </table>
-                     <ref target="https://doi.org/10.25592/uhhfdm.17727">Interview with Maggābe Mǝsṭir Qaṣalā on 07.08.2023</ref></ab>
+                     </ab>
                   <ab type="tabot"><persName ref="PRS5684JesusCh#n3MadhaneAlam" type="tabot">Madḫāne ʿĀlam</persName>, <persName ref="PRS7049Michael" type="tabot">Michael</persName></ab>
                </note>
             </place>

@@ -71,8 +71,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 Śǝllāse</placeName> church in the central part of the city, while
                             the site near Gabrǝʾel church was restored after the Italians were
                             expelled in <date>1941</date>.</ab>
-                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, it had an active <ref type="authFile" corresp="QeneBet">Qǝne bet</ref>, where <persName ref="PRS14971Naqa"></persName> was teaching.  His student <persName ref="PRS14977Tewodros"></persName> was interviewed in 2024.                            
-                            See <ref target="https://doi.org/10.25592/uhhfdm.14599">Class activities recorded on 6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Tewodros Abbaba (age 29, Qəne candidate/ Zarāfi), Interviewer: Senkoris Ayalew; Date:  6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Naq'a Təbab Ešate (age 71, Maggābe Məstirat), Interviewer: Senkoris Ayalew; Date: 19 May 2024</ref></ab>
+                        <ab type="description" subtype="school">According to the information obtained in <date notBefore="2020" notAfter="2024">2020-2024</date> by the <ref target="https://www.aai.uni-hamburg.de/en/ethiostudies/research/abennat.html">ʾAbǝnnat project</ref>, it had an active <ref type="authFile" corresp="QeneBet">Qǝne bet</ref>, where <persName ref="PRS14971Naqa"></persName> was teaching.  His student <persName ref="PRS14977Tewodros"></persName> was interviewed in 2024.   The overview of traditional school activities recorded in 2024:
+                            <table>
+                                <row role="label">
+                                    <cell role="label">School</cell>
+                                    <cell role="label">Instructor</cell>
+                                    <cell role="label">Students</cell>
+                                </row>                                
+                                
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Deggwa">Zemā bet: Dǝggʷā</ref></cell>
+                                    <cell>Mamhǝr Mangǝstu Belāy </cell>
+                                    <cell>40-50</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="ZemaBet#Aqwaqwam">Zemā bet: ʾAqqʷāqʷām</ref></cell>
+                                    <cell>Mamhǝr Yǝtbārak</cell>
+                                    <cell>12</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeneBet">Qǝne and Ḥaddis</ref></cell>
+                                    <cell>Maggābe Mǝsṭir <persName ref="PRS14971Naqa">Naqʾa Tǝbab ʾƎšate</persName> </cell>
+                                    <cell>270-300</cell>
+                                </row>
+                                <row>
+                                    <cell><ref type="authFile" corresp="QeddaseBet">Qǝddāse</ref></cell>
+                                    <cell>Mamhǝr Sirāk Balāy</cell>
+                                    <cell>30-40</cell>
+                                </row>
+                            </table>
+                            See also <ref target="https://doi.org/10.25592/uhhfdm.14599">Class activities recorded on 6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Tewodros Abbaba (age 29, Qəne candidate/ Zarāfi), Interviewer: Senkoris Ayalew; Date:  6 January 2024</ref>; <ref target="https://doi.org/10.25592/uhhfdm.14599">Interview with Mamhər Naq'a Təbab Ešate (age 71, Maggābe Məstirat), Interviewer: Senkoris Ayalew; Date: 19 May 2024</ref></ab>
                     </note>
                 </place>
                 <listRelation>
