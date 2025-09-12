@@ -56,6 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC5597Sawa">Šawā</region>
+               <location>
+                  <geo>9.71189 38.847343</geo>
+               </location>
                <desc facs="Sites/INS0341DL/" n="31">Images</desc>
                
                
