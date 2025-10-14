@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="gez">መዓሪጎ፡ ሥላሴ፡</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">መዓሪጎ፡ ሥላሴ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Maʿārigo Śǝllāse</placeName>
                     
                     <country ref="LOC3010Ethiop">Ethiopia</country>
@@ -67,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <ab type="history">Dabr.</ab>
                         
                         <ab type="tabot">
-                            <measure quantity="2">2</measure> 2 tābots, the older one is dedicated to 
+                            <measure quantity="2">2</measure> tābots, the older one is dedicated to 
                             <ref type="authFile" corresp="CovenantMercy">Kidāna Mǝḥrat</ref>,
                             the more recent one to <ref type="authFile" corresp="Trinity">the Trinity</ref>.                                                               
                         </ab>
