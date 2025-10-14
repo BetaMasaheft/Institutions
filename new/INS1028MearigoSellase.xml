@@ -40,6 +40,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2025-10-13">Created record</change>
+            <change who="MKr" when="2025-10-14">Revised</change>
+            <change who="DN" when="2025-10-14">Revised according to suggestions by Magdalena Krzyzanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
