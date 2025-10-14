@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2025-10-13">Created stub</change>
+            <change who="DN" when="2025-10-13">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,9 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     
                     <settlement ref="LOC6653EastTegray" type="zone" when="2023-06-25">Eastern Tǝgrāy Zone</settlement>
-                    <settlement ref="LOC5805SubhaS" type="warada" when="2023-06-25">waradā  Sǝbuḥa Sāʿasiʿ</settlement>
+                    <settlement ref="LOC5805SubhaS" type="warada" when="2023-06-25">waradā  Sǝbuḥā Sāʿasiʿ</settlement>
                     
-                    <settlement when="2023-06-25" ref="LOC7474Mazawla" type="tabiya">ṭābiyā Ḥādduš ʿAddi</settlement>
+                    <settlement when="2023-06-25" ref="LOC7474Mazawla" type="tabiya">ṭābiyā ʾƎmbā Mazawla</settlement>
                     <settlement when="2023-06-25" ref="LOC7475Maarigo" type="qushat">qušat Maʿārigo</settlement>
                     
                     <location>
