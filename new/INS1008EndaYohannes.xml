@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <date type="foundation" notBefore="1300" notAfter="1499"/>
                             <ab type="history">Gadām.</ab>
                             <ab type="tabot">
-                                <measure quantity="10">10</measure>  10 tābots, at least one of them is dedicated to 
+                                <measure quantity="10">10</measure> tābots, at least one of them is dedicated to 
                                                              
                                 <persName ref="PRS10419Yohanne" type="tabot">Yoḥannǝs of Wifāt.</persName>.                                                               
                             </ab>
