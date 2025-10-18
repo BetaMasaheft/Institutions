@@ -86,7 +86,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <ptr target="bm:Witkam2007Leiden15"/>
                </bibl>
                <bibl>
-                  <ptr target="bm:Witkam2007Leiden3"/>
+                  <ptr target="bm:Witkam2008Leiden3"/>
                </bibl>
                <bibl>
                   <ptr target="bm:Witkam2015Leiden11"/>
