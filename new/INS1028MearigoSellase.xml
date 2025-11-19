@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement when="2023-06-25" ref="LOC7475Maarigo" type="qushat">qušat Maʿārigo</settlement>
                     
                     <location>
-                        <geo cert="medium">14.243167 39.672694</geo>
+                        <geo cert="medium">14.154500 39.632967</geo>
                         <height unit="m">2803</height>
                     </location>
                     <note>
