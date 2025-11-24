@@ -50,6 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="church" subtype="institution">
                     <placeName xml:id="n1" xml:lang="ti">መዓሪጎ፡ ሥላሴ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Maʿārigo Śǝllāse</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">ደብረ፡ ሥላሴ፡ መዓሪጎ፡ </placeName>
+                    <placeName corresp="#n2" xml:lang="en">Dabra Śǝllāse Maʿārigo</placeName>
                     
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
