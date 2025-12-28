@@ -63,14 +63,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <date type="foundation" notBefore="1300" notAfter="1499"/>
                             <ab type="history">Gadām.</ab>
                             <ab type="tabot">
-                                <measure quantity="10">10</measure> tābots, at least one of them is dedicated to 
-                                
-                                <persName ref="PRS10419Yohanne" type="tabot">Yoḥannǝs of Wifāt.</persName>.                                                               
+                                <measure quantity="6">6</measure> tābots, dedicated to 
+                                <persName ref="PRS4327GabraMa" type="tabot">Gabra Masqal</persName>,                                
+                                <persName ref="PRS3821entones" type="tabot">ʾƎnṭonǝs</persName>, 
+                                <persName ref="PRS10581Zamika" type="tabot">Zamikāʾel</persName> and 
+                                <persName ref="PRS6819Mary" type="tabot">Virgin Mary</persName>,
+                                <persName ref="PRS4585Georgeo" type="tabot">St George of Lydda</persName>, 
+                                <persName ref="PRS10775Trinity" type="tabot">Trinity</persName>.                                                               
                             </ab>
-                            <ab type="description">The church of Yohannes of <persName ref="PRS10419Yohanne">Yoḥannǝs of Wifāt.</persName> 
-                                stands not far from the archaeological site.
-                                21 priests and 32 deacons serve in the church (the stand for <date>January 2024</date>).
-                                70 manuscripts were inventarized on <date>15 Januar 2024</date> by Amanuel Abraha. 
+                            <ab type="description">28 priests and 16 deacons serve in the church (the stand for <date>December 2024</date>).
+                                Only 70 manuscripts were inventarized on <date>in December 2024</date> by Hāgos Gabramāryām 
+                                and ʾĀmanuʾel ʾĀbrha. According to the monks, the biggest part of the collection was destroyed by a 
+                                lightning strike during a storm in the rainy season in 1996 EC (June to early September of 2004), but it was 
+                                endangered and damaged by fire at several occassions already before. 
                             </ab>
                         </note>
                     </place>
