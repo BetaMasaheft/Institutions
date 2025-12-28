@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1008EndaYohannes" xml:lang="en" type="ins">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1029EndaGabraMasqal" xml:lang="en" type="ins">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎndā Yoḥannǝs Ḥādduš ʿAddi</title>
+                <title>ʾƎndā Gabra Masqal</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -34,58 +34,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="ti">Tigrinya</language>
+                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2024-01-23">Created entity</change>
+            <change who="DN" when="2025-12-28">Created stub</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                    <place type="church gadam monastery" subtype="institution">
-                        <placeName xml:id="n1" xml:lang="ti">እንዳ፡ ዮሐንስ፡ ሓዱሽ፡ ዐዲ፡</placeName>
-                        <placeName corresp="#n1" xml:lang="en">ʾƎndā Yoḥannǝs Ḥādduš ʿAddi</placeName>
-                            <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ገዳም፡</placeName>
-                        <placeName corresp="#n2" xml:lang="en">ʾƎndā Yoḥannǝs gadām</placeName>
-                        <placeName xml:id="n3" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ቈላ፡ ገብሌ፡ </placeName>
-                        <placeName corresp="#n3" xml:lang="en">ʾƎndā Yoḥannǝs Qʷallā Gable</placeName>
-                        <placeName xml:id="n4" xml:lang="gez">እንዳ፡ ዮሐንስ፡ </placeName>
-                        <placeName corresp="#n4" xml:lang="en">ʾƎndā Yoḥannǝs</placeName>
-                        <placeName xml:id="n5" xml:lang="gez">እንዳ፡ ዮሐንስ፡ ማይ፡ ኳኽ፡</placeName>
-                        <placeName corresp="#n5" xml:lang="en">ʾƎndā Yoḥannǝs Māy Kʷāḵ</placeName>
-                        <country ref="LOC3010Ethiop">Ethiopia</country>
-                        <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                <place type="gadam monastery" subtype="institution">
+                <placeName xml:id="n1" xml:lang="ti">እንዳ፡ ገብረ፡ መስቀል፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">ʾƎndā Gabra Masqal</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">እንዳ፡ ገብረመስቀል፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">ʾƎndā Gabramasqal</placeName>
+                    <placeName xml:id="n3" xml:lang="ti">እንዳ፡ አቡነ፡ ገብረ፡ መስቀል፡</placeName>
+                    <placeName corresp="#n3" xml:lang="en">ʾƎndā ʾĀbuna Gabra Masqal</placeName>                    
+                                                
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                    <settlement ref="LOC6654CentralTegray" type="zone" when="2024-08-15">Central Tǝgrāy zone</settlement>
+                    <settlement ref="LOC1121AddiAr" type="warada" when="2024-08-15"> waradā  Rāmā ʿĀddi ʾArbaʿǝta</settlement>
+                    <settlement when="2024-08-15" ref="LOC7485Semrat" type="tabiya">ṭābiyā Sǝmrat</settlement>
+                    <settlement when="2024-08-15" ref="LOC7486Legaso" type="qushat">qušat Lagāso</settlement>
                         
-                        <settlement ref="LOC6654CentralTegray" type="zone" when="2024-01-09">Central Tǝgrāy zone</settlement>
-                        <settlement ref="LOC3746Hahayl" type="warada" when="2024-01-09">waradā  Ḥaḥayle</settlement>
-                        
-                        <settlement when="2024-01-09" ref="LOC7434HaddushAddi" type="tabiya">ṭābiyā Ḥādduš ʿAddi</settlement>
-                        <settlement when="2024-01-09" ref="LOC7435MayKwak" type="qushat">qušat Māy Kʷāḵ</settlement>
-                        
-                        <location>
-                            <geo>14.114261 39.102658</geo>
-                            <height unit="m">2338.4</height>
-                        </location>
-                        <note>
+                      <note>
                             <date type="foundation" notBefore="1300" notAfter="1499"/>
                             <ab type="history">Gadām.</ab>
                             <ab type="tabot">
                                 <measure quantity="10">10</measure> tābots, at least one of them is dedicated to 
-                                                             
+                                
                                 <persName ref="PRS10419Yohanne" type="tabot">Yoḥannǝs of Wifāt.</persName>.                                                               
                             </ab>
                             <ab type="description">The church of Yohannes of <persName ref="PRS10419Yohanne">Yoḥannǝs of Wifāt.</persName> 
                                 stands not far from the archaeological site.
                                 21 priests and 32 deacons serve in the church (the stand for <date>January 2024</date>).
                                 70 manuscripts were inventarized on <date>15 Januar 2024</date> by Amanuel Abraha. 
-                               </ab>
+                            </ab>
                         </note>
                     </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="LOC7487EndaEntonas" passive="INS1030EndaEntones"/>
+                </listRelation>
             </listPlace>
-                    
-       
         </body>
     </text>
 </TEI>

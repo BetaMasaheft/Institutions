@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement when="2024-03-15" ref="LOC7455Hallelo" type="qushat">qušat Hāllelo</settlement>
                        
                         <location>
-                            <geo>14.529167 38.781667</geo>
+                            <geo>14.344937 38.704249</geo>
                             <height unit="m">1823.0</height>
                         </location>
                 </place>
