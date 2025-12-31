@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     <settlement ref="LOC6654CentralTegray" type="zone" when="2024-08-15">Central Tǝgrāy zone</settlement>
                     <settlement ref="LOC1121AddiAr" type="warada" when="2024-08-15"> waradā  Rāmā ʿĀddi ʾArbaʿǝta</settlement>
-                    <settlement when="2024-03-15" ref="LOC7454WaddiAmbaray" type="tabiya">ṭābiyā Māy Waddi ʾAmbarāy</settlement>
+                    <settlement when="2024-03-15" ref="LOC7454WaddiAmbaray" type="tabiya">ṭābiyā Māy Waddi ʾĀmbarāy</settlement>
                     <settlement when="2024-03-15" ref="LOC7455Hallelo" type="qushat">qušat Hāllelo</settlement>
                        
                         <location>

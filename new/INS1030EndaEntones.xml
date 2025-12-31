@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -60,18 +61,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <settlement when="2024-03-15" ref="LOC7483WaddiHazo" type="tabiya">ṭābiyā Waddi Ḥāzo</settlement>
                         <settlement when="2024-03-15" ref="LOC7484DaroTekli" type="qushat">qušat Dāʿro Taḵli</settlement>
                                         <note>
-                        <date type="foundation" notBefore="1347" notAfter="1348">According to the local tradition, it was founded in 1355 EC (=1347/48 CE), in the time of 
+                        <date type="foundation" notBefore="1347" notAfter="1348">According to the local tradition, the monastery was founded in 1355 EC (=1347/48 CE), in the time of 
                             King Sayfa ʾĀrʿād</date>.
                         <ab type="history">Gadām.</ab>
                         <ab type="tabot">
                             <measure quantity="3">3</measure> tābots, dedicated to                            
                             <persName ref="PRS3821entones" type="tabot">ʾƎnṭonǝs</persName> (the annual feast on 
-                            3 Tāḫśāś), 
-                            <persName ref="PRS10581Zamika" type="tabot">Zamikāʾel</persName> and 
+                            3 Tāḫśāś), <persName ref="PRS10581Zamika" type="tabot">Zamikāʾel</persName> and 
                             <persName ref="PRS6819Mary" type="tabot">Virgin Mary</persName>.                                                               
                         </ab>                        
-                        <ab type="description">30 priests and 40 deacons serve in the church (the stand for <date>December 2024</date>).
-                            61 manuscripts were inventarized in <date>Dezember 2024</date> by Hāgos Gabramāryām and ʾĀmanuʾel ʾĀbrǝha. 
+                        <ab type="description">30 priests and 40 deacons served in the church (the stand for <date>December 2024</date>).
+                            62 manuscripts were inventarized in <date>Dezember 2024</date> by Hāgos Gabramāryām and ʾĀmanuʾel ʾĀbrǝha, and 
+                            a number of archaeological objects. 
                             The monastery ʾƎndā ʾƎnṭonǝs should not be confused with <placeName corresp="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName>.</ab>
                     </note>
                 </place>
