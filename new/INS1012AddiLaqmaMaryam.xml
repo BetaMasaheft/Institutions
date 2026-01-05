@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement when="2024-03-15" ref="LOC7446Alaqma" type="qushat">qušat ʿĀddi Lāq̲mā</settlement>
                     <settlement when="2024-03-15" ref="LOC7447GolgolDaro" type="area">locality Golgol Dāʿro</settlement>
                     <location>
-                        <geo>14.378267 39.354153</geo>
+                        <geo>14.378272 39.370969</geo>
                         <height unit="m">2227.0</height>
                     </location>
                     <note>
