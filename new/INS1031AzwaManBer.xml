@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1031AzwaManBer" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAzwā Māryām Manbara Bərhān</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2026-03-04">Created stub</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>                
+                    <place type="gadam monastery" subtype="institution">                        
+                        <placeName xml:id="n1" xml:lang="gez">አዝዋ፡ ማርያም፡ መንበረ፡ ብርሃን፡</placeName>
+                        <placeName corresp="#n1" xml:lang="en">ʾAzwā Māryām Manbara Bərhān</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">መንበረ፡ ብርሃን፡ አዝዋ፡ ማርያም፡</placeName>
+                        <placeName corresp="#n2" xml:lang="en">Manbara Bərhān ʾAzwā Māryām</placeName>
+                        <placeName xml:id="n3" xml:lang="gez">ዘጌ፡ አዝዋ፡ ማርያም፡</placeName>
+                        <placeName corresp="#n3" xml:lang="en">Zage ʾAzwā Māryām</placeName>
+                        <placeName corresp="#n4" xml:lang="en">Azwa St. Maryam Church</placeName>
+                        
+                        <country ref="LOC3010Ethiop">Ethiopia</country>
+                        <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
+                        <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
+                        <settlement ref="LOC7492BahrDarWarada" type="warada">waradā  Bāḥǝr Dār</settlement>                        
+                        <settlement ref="LOC7493UraKeb" type="kebele">kebele ʾUrā</settlement>
+                        
+                        <location>
+                            <geo>11.689653 37.352292</geo>
+                            <height unit="m">1806.6</height>
+                        </location>
+                        
+                        <note>
+                            <date type="foundation" notBefore="1300" notAfter="1399">According to the 
+                                local tradition, the monastery was founded by
+                                the monk Batra Māryām</date>.
+                            <ab type="history">Gadām.</ab>
+                            <ab type="tabot">
+                                <measure quantity="3">3</measure> tābots, dedicated to                            
+                                <persName ref="PRS6819Mary" type="tabot">Virgin Mary</persName>, 
+                                <persName ref="PRS7049Michael" type="tabot">Archangel Mikāʾel</persName>, 
+                                and <persName ref="PRS11006BatraM" type="tabot">Batra Māryām</persName>. 
+                                The annual feasts are on 10 Maskaram, 12 Ḫǝdār, 3 Tāḫśāś. 
+                                                                                          
+                            </ab>                        
+                            <ab type="description">5 monks, one married priest, 11 deacons 
+                                one marigeta, one nun, four guards (the stand for <date>December 2025</date>).
+                                29 manuscripts were inventarized in <date>Dezember 2025</date> by 
+                                Ṭəbabu ʾAntanah and ʿAynakullu Mulugeta. A number of manuscripts are reported to have 
+                                perished in looting incidents in 1970s and 1980s. The remaining items were placed under custody in the treasury of 
+                                the <placeName ref="LOC6307WerraK">ʾUrā Kidāna Məḥrat Monastery</placeName> , 
+                                and transferred back in mid-1990s, to a new <foreign xml:lang="am">ʿǝqā bet</foreign>.</ab>
+
+                        </note>
+                        
+                    </place>
+                    <listRelation>
+                        <relation name="skos:exactMatch" active="INS1031AzwaManBer" passive="LOC7494AzwaMaryam"/>
+                    </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
