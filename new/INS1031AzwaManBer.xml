@@ -78,9 +78,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                                                           
                             </ab>                        
                             <ab type="description">5 monks, one married priest, 11 deacons 
-                                one marigeta, one nun, four guards (the stand for <date>December 2025</date>).
+                                one <foreign xml:lang="am">marigetā</foreign>, one nun, four guards (the stand for <date>December 2025</date>).
                                 29 manuscripts were inventarized in <date>Dezember 2025</date> by 
-                                Ṭəbabu ʾAntanah and ʿAynakullu Mulugeta. A number of manuscripts are reported to have 
+                                Tibebu Anteneh and Ayinekulu Mulugeta. A number of manuscripts are reported to have 
                                 perished in looting incidents in 1970s and 1980s. The remaining items were placed under custody in the treasury of 
                                 the <placeName ref="LOC6307WerraK">ʾUrā Kidāna Məḥrat Monastery</placeName> , 
                                 and transferred back in mid-1990s, to a new <foreign xml:lang="am">ʿǝqā bet</foreign>.</ab>
