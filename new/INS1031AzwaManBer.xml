@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName corresp="#n2" xml:lang="en">Manbara Bərhān ʾAzwā Māryām</placeName>
                         <placeName xml:id="n3" xml:lang="gez">ዘጌ፡ አዝዋ፡ ማርያም፡</placeName>
                         <placeName corresp="#n3" xml:lang="en">Zage ʾAzwā Māryām</placeName>
-                        <placeName corresp="#n4" xml:lang="en">Azwa St. Maryam Church</placeName>
+                        <placeName corresp="#n4" xml:lang="en">Azwa St Maryam Church</placeName>
                         
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
@@ -67,21 +67,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <note>
                             <date type="foundation" notBefore="1300" notAfter="1399">According to the 
                                 local tradition, the monastery was founded by
-                                the monk Batra Māryām</date>.
+                                the monk <persName ref="PRS2540BatraMa">Batra Māryām</persName></date>.
                             <ab type="history">Gadām.</ab>
                             <ab type="tabot">
                                 <measure quantity="3">3</measure> tābots, dedicated to                            
-                                <persName ref="PRS6819Mary" type="tabot">Virgin Mary</persName>, 
+                                <persName ref="PRS6819Mary" type="tabot">the Virgin Mary</persName>, 
                                 <persName ref="PRS7049Michael" type="tabot">Archangel Mikāʾel</persName>, 
-                                and <persName ref="PRS11006BatraM" type="tabot">Batra Māryām</persName>. 
+                                and <persName ref="PRS2540BatraMa" type="tabot">Batra Māryām</persName>. 
                                 The annual feasts are on 10 Maskaram, 12 Ḫǝdār, 3 Tāḫśāś. 
                                                                                           
                             </ab>                        
-                            <ab type="description">5 monks, one married priest, 11 deacons 
+                            <ab type="description">5 monks, one priest, 11 deacons 
                                 one <foreign xml:lang="am">marigetā</foreign>, one nun, four guards (the stand for <date>December 2025</date>).
                                 29 manuscripts were inventarized in <date>Dezember 2025</date> by 
-                                Tibebu Anteneh and Ayinekulu Mulugeta. A number of manuscripts are reported to have 
-                                perished in looting incidents in 1970s and 1980s. The remaining items were placed under custody in the treasury of 
+                                Tibebu Anteneh and Ayinekulu Mulugeta (a few more manuscripts 
+                                are kept in the museum and are not accessible). A number of manuscripts are reported to have 
+                                perished in looting incidents in the 1970s and 1980s. The remaining items were placed under custody in the treasury of 
                                 the <placeName ref="LOC6307WerraK">ʾUrā Kidāna Məḥrat Monastery</placeName> , 
                                 and transferred back in mid-1990s, to a new <foreign xml:lang="am">ʿǝqā bet</foreign>.</ab>
 
