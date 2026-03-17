@@ -46,13 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place sameAs="wd:Q55235503" type="academicInstitution" subtype="institution">
-                    <settlement ref="wd:Q3624"/>
-                    <country ref="wd:Q115"/>
-                    <placeName xml:lang="en" xml:id="n1">Institute of Ethiopian Studies</placeName>
-                    <placeName xml:lang="am" corresp="#n1">የኢትዮጵያ፡ ጤናትና፡ ምርምር፡ ተቋም፡</placeName>
+                <place sameAs="wd:Q55235503" type="academicInstitution" subtype="institution">                        
+                    <placeName xml:lang="am" xml:id="n1">የኢትዮጵያ፡ ጤናትና፡ ምርምር፡ ተቋም፡</placeName>
                     <placeName xml:lang="am" corresp="#n1" type="normalized">Ya-ʾItyoṗṗǝyā ṭenātǝnnā mǝrǝmmǝr taqʷām</placeName>
+                    <placeName xml:lang="en" corresp="#n1" type="main">Institute of Ethiopian Studies</placeName>
+                    <placeName xml:lang="en" corresp="#n1" type="short">IES</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <settlement ref="LOC1216AddisA"/>
                 </place>
+                <listRelation><relation name="skos:exactMatch" active="INS0501IES" passive="INS0002IHA"></relation></listRelation>
             </listPlace>
         </body>
     </text>

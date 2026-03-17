@@ -46,12 +46,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place sameAs="wd:Q193563" type="library" subtype="institution">
-                    <placeName xml:lang="fr">Bibliothèque nationale de France</placeName>
-                    <placeName xml:lang="fr" type="alt"> Bibliothèque nationale</placeName>
-                    <placeName type="alt">BnF</placeName>
-                    <country ref="wd:Q142"/>
-                    <region ref="wd:Q13917"/>
-                    <settlement type="city" ref="wd:Q90"/>
+                    <placeName xml:lang="fr" xml:id="n1">Bibliothèque nationale de France</placeName>
+                    <placeName xml:lang="fr" type="alt" corresp="#n1"> Bibliothèque nationale</placeName>
+                    <placeName type="alt" corresp="#n1">BnF</placeName>
+                    <placeName xml:lang="en" corresp="#n1">French National Library</placeName>
+                    <country ref="LOC3103France">France</country>
+                    <region ref="wd:Q13917">Île-de-France
+                    </region>
+                    <settlement type="city" ref="LOC5076Paris">Paris</settlement>
                     <location>
                         <geo>48.83335 2.37600</geo>
                     </location>
