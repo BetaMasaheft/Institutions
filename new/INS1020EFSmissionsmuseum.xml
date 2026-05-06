@@ -39,16 +39,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="JK" when="2024-09-16">Created entity</change>
+            <change who="CH" when="2026-05-06">Updated country wikidata and added English name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="museum" subtype="institution">
-                    <placeName n="1" xml:lang="sv">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
-                    <placeName n="2" xml:lang="sv">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
+                    <placeName xml:id="n1" n="1" xml:lang="sv">Evangeliska Fosterlands-Stiftelsens etnografiska missionsmuseum</placeName>
+                    <placeName corresp="#n1" n="2" xml:lang="sv">Evangeliska Fosterlandsstiftelsens etnografiska missionsmuseum</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Ethnographic Mission Museum of the Swedish Evangelical Mission</placeName>
                     <settlement ref="LOC7456Stockholm"/>
-                    <country ref="wd:Q39"/> 
+                    <country ref="wd:Q34"/> 
                 </place>
             </listPlace>
             <div type="bibliography">
