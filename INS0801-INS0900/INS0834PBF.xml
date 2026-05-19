@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
          <abstract>
             <p/>
          </abstract>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="it">Italian</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="SDe" when="2018-12-21">provided list of institutions in
@@ -54,8 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="academicInstitution">
-               <placeName type="normalized" xml:id="n1">Biblioteca Forteguerriana</placeName>
-               <placeName type="alt">Biblioteca Comunale Forteguerriana di Pistoia</placeName>
+               <placeName xml:id="n1" xml:lang="it">Biblioteca Forteguerriana</placeName>
+               <placeName xml:id="n2" xml:lang="it">Biblioteca Comunale Forteguerriana di Pistoia</placeName>
                <country ref="wd:Q38"/>
                <settlement ref="wd:Q13376">Pistoia</settlement>
                <location>
