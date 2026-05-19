@@ -54,10 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
       <body>
          <listPlace>
             <place subtype="institution" type="academicInstitution">
-               <placeName type="normalized">Biblioteca Forteguerriana di Pistoia</placeName>
-               <placeName type="alt">Pistoia, Italy. Biblioteca Forteguerriana di Pistoia</placeName>
+               <placeName type="normalized" xml:id="n1">Biblioteca Forteguerriana</placeName>
+               <placeName type="alt">Biblioteca Comunale Forteguerriana di Pistoia</placeName>
                <country ref="wd:Q38"/>
-               <settlement ref="wd:Q13376"/>
+               <settlement ref="wd:Q13376">Pistoia</settlement>
                <location>
                   <geo>43.934746 10.916372</geo>
                </location>
