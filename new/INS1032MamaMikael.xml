@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="INS1032MamaMikael" xml:lang="en" type="ins">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Māmā Mikāʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2026-08-12">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church" subtype="institution">
+                    <placeName xml:id="n1" xml:lang="ti">ማማ፡ ሚካኤል፡</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Māmā Mikāʾel</placeName> 
+                    <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ምሕረት፡ ሚካኤል፡ ማማ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Mǝḥrat Mikāʾel Māmā</placeName> 
+                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
+                    <settlement type="zone" ref="LOC6653EastTegray"/>
+                    <settlement ref="LOC5805SubhaS" type="warada" notBefore="2020-01-01">waradā Subḥā Sāʿasiʿ</settlement>
+                    <settlement type="tabiya" ref="LOC7411HaddesHeywat">Ḥāddǝš Hǝywat</settlement>
+                    <country ref="LOC3010Ethiop"/>
+                    
+                    <note>
+                        <date type="foundation" notBefore="1500" notAfter="1599" cert="medium">Possibly 16th century</date>.
+                        <ab type="history">Dabr.</ab>
+                        <ab type="tabot">
+                            <measure quantity="1" cert="low">1</measure> tābot at least, dedicated to
+                            <persName ref="PRS7049Michael" type="tabot">Archangel Mikāʾel</persName>. 
+                            </ab>                 
+                        
+                        <ab type="description">
+                            In <date>October 2025</date> 10 manuscripts were inventarized in the church by 
+                            Hagos Gebremariam (Adigrat University, Department of Sociology).</ab>
+                        
+                    </note>
+                    
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="INS1032MamaMikael" passive="LOC7505MamaMikael"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>
