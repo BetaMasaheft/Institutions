@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="library" subtype="institution">
-                    <placeName xml:id="n1">Sapienza University of Rome, Department SARAS (Storia Antropologia Religione Arte Spettacolo)</placeName>                    
+                    <placeName xml:id="n1">Sapienza University of Rome, Department SARAS (Storia Antropologia Religioni Arte Spettacolo)</placeName>                    
                     <country ref="wd:Q38">Italy</country>
                     <region ref="wd:Q1282">Lazio</region>
                     <settlement type="city" ref="LOC5374Rome">Rome</settlement>
