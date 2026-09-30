@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
+
                 <title>Č̣āč̣ara Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
@@ -13,12 +13,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -47,17 +47,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church monastery" subtype="institution">
                     <placeName xml:lang="gez" xml:id="n1">ጫጨረ፡ ጊዮርጊስ፡ </placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Č̣āč̣ara Giyorgis</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Č̣āč̣ara
+                        Giyorgis</placeName>
                     <country ref="wd:Q115">Ethiopia</country>
-                  
                     <location>
                         <geo> 13.585808 38.494763</geo>
-                        
-                    </location>   <note>
-                        <ab type="tabot"><persName ref="PRS4585Georgeo" type="tabot"></persName></ab>
+                    </location>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    <note>Located in the north Tigray region, Ethiopia (about 80 KM from Shire
+                        town)</note>
+                    <note>
+                        <ab type="tabot"><persName ref="PRS4585Georgeo" type="tabot"/></ab>
                     </note>
                 </place>
-            </listPlace><!---->
+            </listPlace>
+            <listRelation>
+                <relation name="betmas:formerlyAlsoListedAs" active="INS1002CCRG"
+                    passive="INS0964Chechera"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
