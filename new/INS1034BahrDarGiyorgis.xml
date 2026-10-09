@@ -58,30 +58,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                         <location>
                             <geo>11.595323 37.38892323311729</geo>
-                            <height unit="m" cert="low">1800.0</height>
+                            <height unit="m" cert="medium">1820.0</height>
                         </location>
                         
                         <note>
                             <date type="foundation" when="1327">The 
-                                local tradition associates the foundation of the church with 
+                                local tradition tells that the church was founded in 1327 and associates the foundation with 
                                 <persName ref="PRS1854Amdase">King ʿAmda Ṣǝyon I </persName></date>.
                             <ab type="history">Dabr.</ab>
                             <ab type="tabot">
                                 <measure quantity="4"/> tābots, dedicated to                            
-                                <persName ref="PRS6819Mary" type="tabot">the Virgin Mary</persName>, 
-                                <persName ref="PRS7049Michael" type="tabot">Archangel Mikāʾel</persName>, 
-                                and <persName ref="PRS2540BatraMa" type="tabot">Batra Māryām</persName>. 
-                                The annual feasts are on 10 Maskaram, 12 Ḫǝdār, 3 Tāḫśāś. 
+                                <persName ref="PRS10775Trinity" type="tabot">the Holy Trinity</persName>, 
+                                <persName ref="PRS4377Gabriel" type="tabot">Archangel Gabriel</persName>, 
+                                <persName ref="PRS5684JesusCh" type="tabot">Saviour of the World</persName>, 
+                                the main being of <persName ref="PRS4585Georgeo" type="tabot">St George of Lydda</persName>
+                                The feasts of St George are celebrated on 18 Ṭǝrr, 23 Yakātit, 23 Miyāziyā 23, and 7 Ḥamle, and 7 Ḫǝdār. 
                                 
                             </ab>                        
-                            <ab type="description">5 monks, one priest, 11 deacons 
-                                one <foreign xml:lang="am">marigetā</foreign>, one nun, four guards (the stand for <date>December 2025</date>).
-                                29 manuscripts were inventarized in <date>Dezember 2025</date> by 
-                                Tibebu Anteneh and Ayinekulu Mulugeta (a few more manuscripts 
-                                are kept in the museum and are not accessible). A number of manuscripts are reported to have 
-                                perished in looting incidents in the 1970s and 1980s. The remaining items were placed under custody in the treasury of 
-                                the <placeName ref="LOC6307WerraK">ʾUrā Kidāna Məḥrat Monastery</placeName> , 
-                                and transferred back in mid-1990s, to a new <foreign xml:lang="am">ʿǝqā bet</foreign>.</ab>
+                            
+                            <ab type="description">22 monks, 5 nuns, 13 priest, 15 deacons, 22 other servants;  
+                                three teachers of <foreign xml:lang="gez">ʾaqqʷāqqʷām</foreign> (litugrical dance), three teachers of 
+                                <ref type="work" corresp="LIT3178Deggwa">Dǝggʷā</ref>,
+                                two teachers of <foreign xml:lang="gez">qǝddāse</foreign> (liturgy),
+                                two teachers of <foreign xml:lang="gez">qǝne-poetry</foreign>,
+                                four of <foreign xml:lang="gez">tǝrgʷāme</foreign> (interpretation) and 
+                                one of <foreign xml:lang="gez">zǝmmāre</foreign> (chanting)
+                                (the stand for <date>August 2026</date>).
+                                
+                                The subsequent development of the church is associated with the Gondarine time, 
+                                particularly with the reign of King <persName ref="PRS5616IyasuI">ʾIyāsu I (r. 1682–1706)</persName>.
+                                The present church was built in its current form and inaugurated on 17 June 1966, 
+                                during the reign of Emperor <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName>.
+                                It was formally inaugurated as a cathedral by the
+                                patriarch ʾabuna Mātiyās on <date>25 February 2014</date>.
+                                The church formerly had an ancient museum located approximately 40 meters north. 
+                                The old museum of the church is a historic building, approximately five meters high, that is
+                                traditionally associated with the Gondarine period. 
+                                Local tradition connects the building with the Portuguese 
+                                and the reign of <persName ref="PRS5616IyasuI">ʾIyāsu I ʾAdyām Sagad</persName>.
+                                The former museum building has since been replaced by a new museum
+                                which houses a collection of ecclesiastical and royal objects, 
+                                including royal garments, ceremonial robes, 
+                                crowns, chalices, hand crosses, 
+                                embroidered vestments, ceremonial umbrellas, and parchment manuscripts.
+                                49 manuscripts were inventarized in <date>August 2026</date> in the <foreign xml:lang="am">ʿǝqā bet</foreign> 
+                                by Tibebu Anteneh and Mihreteab Merachew Worku. 
+                                </ab>
                             
                         </note>                        
                  
