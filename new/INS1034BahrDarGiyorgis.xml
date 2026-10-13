@@ -27,32 +27,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <profileDesc>
             <creation/>
-            <t:abstract>
+            <abstract>
                 <p/>
-            </t:abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-10-09">Created stub</change>
+            <change who="DN" when="2026-10-09">Created entity </change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
             <listPlace>     
                     <place type="church" subtype="institution">
                         <placeName xml:id="n1" xml:lang="ti">ባህር፡ ዳር፡ ፈለገ፡ ገነት፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
                         <placeName corresp="#n1" xml:lang="ti" type="normalized">Bāhǝr Dār Falaga Gannat Qǝddus Giyorgis</placeName> 
-                        <placeName xml:id="n2" xml:lang="gez">ባህር፡ ዳር፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">ባህር፡ ዳር፡ ጊዮርጊስ፡</placeName>
                         <placeName corresp="#n2" xml:lang="gez" type="normalized">Bāhǝr Dār Giyorgis</placeName> 
                         <region notAfter="1991" ref="LOC3549Gojjam" type="province"/>
                         <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>
                         <settlement type="zone" ref="LOC7491BahrDarSpecialZone">Bāḥǝr Dār Special Zone</settlement>
-                        <settlement type="city" ref="places/LOC1721BaherD">Bāḥǝr Dār</settlement>
+                        <settlement type="city" ref="LOC1721BaherD">Bāḥǝr Dār</settlement>
                         <settlement>sub-city Safana Salām</settlement>                   
                         <country ref="LOC3010Ethiop"/>
                         
@@ -65,26 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <date type="foundation" when="1327">The 
                                 local tradition tells that the church was founded in 1327 and associates the foundation with 
                                 <persName ref="PRS1854Amdase">King ʿAmda Ṣǝyon I </persName></date>.
-                            <ab type="history">Dabr.</ab>
-                            <ab type="tabot">
-                                <measure quantity="4"/> tābots, dedicated to                            
-                                <persName ref="PRS10775Trinity" type="tabot">the Holy Trinity</persName>, 
-                                <persName ref="PRS4377Gabriel" type="tabot">Archangel Gabriel</persName>, 
-                                <persName ref="PRS5684JesusCh" type="tabot">Saviour of the World</persName>, 
-                                the main being of <persName ref="PRS4585Georgeo" type="tabot">St George of Lydda</persName>
-                                The feasts of St George are celebrated on 18 Ṭǝrr, 23 Yakātit, 23 Miyāziyā 23, 7 Ḥamle, and 7 Ḫǝdār. 
-                                
-                            </ab>                        
-                            
-                            <ab type="description">22 monks, 5 nuns, 13 priest, 15 deacons, 22 other servants;  
-                                three teachers of <foreign xml:lang="gez">ʾaqqʷāqqʷām</foreign> (litugrical dance), three teachers of 
-                                <ref type="work" corresp="LIT3178Deggwa">Dǝggʷā</ref>,
-                                two teachers of <foreign xml:lang="gez">qǝddāse</foreign> (liturgy),
-                                two teachers of <foreign xml:lang="gez">qǝne-poetry</foreign>,
-                                four of <foreign xml:lang="gez">tǝrgʷāme</foreign> (interpretation) and 
-                                one of <foreign xml:lang="gez">zǝmmāre</foreign> (chanting)
-                                (the stand for <date>August 2026</date>).
-                                
+                                                 
+                                                       
+                            <ab type="history">
                                 The subsequent development of the church is associated with the Gondarine time, 
                                 particularly with the reign of King <persName ref="PRS5616IyasuI">ʾIyāsu I (r. 1682–1706)</persName>.
                                 The present church was built in its current form and inaugurated on 17 June 1966, 
@@ -105,14 +88,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 by Tibebu Anteneh and Mihreteab Merachew Worku. 
                                 </ab>
                             
+                            <ab type="tabot">
+                                <measure quantity="4">4</measure> tābots, dedicated to                            
+                                <persName ref="PRS10775Trinity" type="tabot">the Holy Trinity</persName>, 
+                                <persName ref="PRS4377Gabriel" type="tabot">Archangel Gabriel</persName>, 
+                                <persName ref="PRS5684JesusCh" type="tabot">Saviour of the World</persName>, 
+                                the main being of <persName ref="PRS4585Georgeo" type="tabot">St George of Lydda</persName>
+                                The feasts of St George are celebrated on 18 Ṭǝrr, 23 Yakātit, 23 Miyāziyā 23, 7 Ḥamle, and 7 Ḫǝdār. 
+                                 </ab>                        
+                            
+                            <ab type="description">Dabr. 22 monks, 5 nuns, 13 priest, 15 deacons, 22 other servants.</ab>
+                            <ab type="description" subtype="school">
+                                Three teachers of <ref type="authFile" corresp="ZemaBet#Aqwaqwam">ʾaqqʷāqqʷām</ref> (litugrical dance), three teachers of 
+                                <ref type="authFile" corresp="ZemaBet#Deggwa">Dǝggʷā</ref>,
+                                two teachers of <ref type="authFile" corresp="QeddaseBet">qǝddāse</ref> (liturgy),
+                                two teachers of <ref type="authFile" corresp="QeneBet">qǝne-poetry</ref>,
+                                four of <foreign xml:lang="gez">tǝrgʷāme</foreign> (interpretation) and 
+                                one of <foreign xml:lang="gez">zǝmmāre</foreign> (chanting)
+                                (the stand for <date>August 2026</date>).
+                            </ab>
                         </note>                        
                  
                 </place>
                 
-                <listRelation>
-                    <relation name="skos:exactMatch" active="INS1034BahrDarGiyorgis" passive="LOC1721BaherD"/>
-                </listRelation>
+                    
+                
             </listPlace>
         </body>
-    </t:text>
+    </text>
 </TEI>
