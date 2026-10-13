@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DN" when="2026-10-09">Created entity </change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="http://www.tei-c.org/ns/1.0">
         <body>
             <listPlace>     
                     <place type="church" subtype="institution">
@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                         <note>
                             <date type="foundation" when="1327">The 
-                                local tradition tells that the church was founded in 1327 and associates the foundation with 
+                                local tradition tells that the church was founded in 1327 and links the foundation to 
                                 <persName ref="PRS1854Amdase">King ʿAmda Ṣǝyon I </persName></date>.
                                                  
                                                        

@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DN" when="2026-10-09">Created record </change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text xml:base="http://www.tei-c.org/ns/1.0">
         <body>
             
                         <listPlace>     
@@ -75,5 +75,5 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listRelation>
             </listPlace>
         </body>
-    </t:text>
+    </text>
 </TEI>
