@@ -46,9 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q124526652" type="monastery" subtype="institution">
                     <placeName xml:lang="gez" xml:id="n1">ዠመዱ፡ ማርያም፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Žammadu Māryām</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Žammadu Māryām</placeName>
                     <placeName xml:lang="gez" xml:id="n2">ደብረ፡ ዘመዶ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n2">Dabra Zamaddo</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n2">Dabra Zamaddo</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC4259Lasta"/>
                     <note>
