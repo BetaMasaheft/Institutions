@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <persName ref="PRS4377Gabriel" type="tabot">Archangel Gabriel</persName>, 
                                 <persName ref="PRS5684JesusCh" type="tabot">Saviour of the World</persName>, 
                                 the main being of <persName ref="PRS4585Georgeo" type="tabot">St George of Lydda</persName>
-                                The feasts of St George are celebrated on 18 Ṭǝrr, 23 Yakātit, 23 Miyāziyā 23, and 7 Ḥamle, and 7 Ḫǝdār. 
+                                The feasts of St George are celebrated on 18 Ṭǝrr, 23 Yakātit, 23 Miyāziyā 23, 7 Ḥamle, and 7 Ḫǝdār. 
                                 
                             </ab>                        
                             
@@ -90,13 +90,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 The present church was built in its current form and inaugurated on 17 June 1966, 
                                 during the reign of Emperor <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName>.
                                 It was formally inaugurated as a cathedral by the
-                                patriarch ʾabuna Mātiyās on <date>25 February 2014</date>.
+                                patriarch ʾabuna Mātiyās I on <date>25 February 2014</date>.
                                 The church formerly had an ancient museum located approximately 40 meters north. 
-                                The old museum of the church is a historic building, approximately five meters high, that is
+                                The old museum of the church is a historic building, ca. five meters high,
                                 traditionally associated with the Gondarine period. 
-                                Local tradition connects the building with the Portuguese 
+                                Local tradition connects this structure with the Portuguese 
                                 and the reign of <persName ref="PRS5616IyasuI">ʾIyāsu I ʾAdyām Sagad</persName>.
-                                The former museum building has since been replaced by a new museum
+                                The former museum has since been replaced by a new museum
                                 which houses a collection of ecclesiastical and royal objects, 
                                 including royal garments, ceremonial robes, 
                                 crowns, chalices, hand crosses, 
@@ -110,7 +110,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="INS1034BahrDarGiyorgis" passive="LOC1721BaherD"/>
+                    <relation name="skos:exactMatch" active="INS1034BahrDarGiyorgis" passive="LOC1721BaherD"/>
                 </listRelation>
             </listPlace>
         </body>
