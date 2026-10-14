@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DN" when="2026-10-09">Created record </change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
             
                         <listPlace>     
@@ -69,10 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <height unit="m" cert="medium">1890.0</height>
                                 </location>
                             </place>
-    
-                <listRelation>
-                    <relation name="skos:exactMatch" active="INS1035AzabaQIrqos" passive="LOC7218Azaba"/>
-                </listRelation>
+                    
             </listPlace>
         </body>
     </text>

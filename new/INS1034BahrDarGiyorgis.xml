@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DN" when="2026-10-09">Created entity </change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
             <listPlace>     
                     <place type="church" subtype="institution">
