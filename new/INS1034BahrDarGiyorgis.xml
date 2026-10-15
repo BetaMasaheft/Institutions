@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-10-09">Created entity </change>
+               <change who="DN" when="2026-10-09">Created entity </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 crowns, chalices, hand crosses, 
                                 embroidered vestments, ceremonial umbrellas, and parchment manuscripts.
                                 49 manuscripts were inventarized in <date>August 2026</date> in the <foreign xml:lang="am">ʿǝqā bet</foreign> 
-                                by Tibebu Anteneh and Mihreteab Merachew Worku. 
+                                by Tibebu Anteneh and Mihreteab Merachew Worku (Bahir Dar University). 
                                 </ab>
                             
                             <ab type="tabot">
