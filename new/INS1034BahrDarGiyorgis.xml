@@ -45,10 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>     
                     <place type="church" subtype="institution">
-                        <placeName xml:id="n1" xml:lang="ti">ባህር፡ ዳር፡ ፈለገ፡ ገነት፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
-                        <placeName corresp="#n1" xml:lang="ti" type="normalized">Bāhǝr Dār Falaga Gannat Qǝddus Giyorgis</placeName> 
-                        <placeName xml:id="n2" xml:lang="gez">ባህር፡ ዳር፡ ጊዮርጊስ፡</placeName>
-                        <placeName corresp="#n2" xml:lang="gez" type="normalized">Bāhǝr Dār Giyorgis</placeName> 
+                        <placeName xml:id="n1" xml:lang="gez">ባህር፡ ዳር፡ ፈለገ፡ ገነት፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
+                        <placeName corresp="#n1" xml:lang="gez" type="normalized">Bāhǝr Dār Falaga Gannat Qǝddus Giyorgis</placeName>
+                        <placeName xml:id="n2" xml:lang="gez">ባሕር፡ ዳር፡ ፈለገ፡ ገነት፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
+                        <placeName corresp="#n2" xml:lang="gez" type="normalized">Bāḥǝr Dār Falaga Gannat Qǝddus Giyorgis</placeName> 
+                        <placeName xml:id="n3" xml:lang="gez">ባህር፡ ዳር፡ ጊዮርጊስ፡</placeName>
+                        <placeName corresp="#n3" xml:lang="gez" type="normalized">Bāhǝr Dār Giyorgis</placeName> 
                         <region notAfter="1991" ref="LOC3549Gojjam" type="province"/>
                         <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>
                         <settlement type="zone" ref="LOC7491BahrDarSpecialZone">Bāḥǝr Dār Special Zone</settlement>
